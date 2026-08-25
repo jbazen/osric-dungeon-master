@@ -80,7 +80,7 @@ When you need to look up rules, consult the OSRIC SRD files in `osric-srd/markdo
 | Magic-User Spells (Aff–For) | `osric-srd/markdown/08 spells magic user aff-for.md` |
 | Magic-User Spells (Fre–Per) | `osric-srd/markdown/09 spells magic user fre-per.md` |
 | Magic-User Spells (Pha–Wri) | `osric-srd/markdown/10 spells magic user pha-wri.md` |
-| Illusionist Spells | `osric-srd/markdown/11 illusionist.md` |
+| Illusionist Spells | `osric-srd/markdown/11 spells illusionist.md` |
 | Time, Movement, Combat | `osric-srd/markdown/12 time movement combat.md` |
 | Hirelings & Henchmen | `osric-srd/markdown/13 hirelings and henchmen.md` |
 | Exploration: Town & Planes | `osric-srd/markdown/14a exploration town planes.md` |
@@ -103,7 +103,19 @@ When you need to look up rules, consult the OSRIC SRD files in `osric-srd/markdo
 | Rods, Staves, Wands, Armour, Swords | `osric-srd/markdown/26 rods staves wands armour swords.md` |
 | Miscellaneous Magic (A–Gog) | `osric-srd/markdown/27 miscellaneous magic a-gog.md` |
 | Miscellaneous Magic (Gog–Z) | `osric-srd/markdown/28 miscellaneous magic gog-z.md` |
+| Rings & Cursed Items (I) | `osric-srd/markdown/29a rings and cursed items i.md` |
+| Cursed Items (II) & Artifacts | `osric-srd/markdown/29b cursed items ii and artifacts.md` |
+| Compiled Tables | `osric-srd/markdown/30 compiled tables.md` |
+| Afterword | `osric-srd/markdown/31 afterword.md` |
+| Index | `osric-srd/markdown/32 index.md` |
 | License | `osric-srd/markdown/33 licence.md` |
+| Figures | `osric-srd/markdown/34 figures.md` |
+| Master Index | `osric-srd/markdown/35 master index.md` |
+
+> `osric-srd/osric.md` is a single merged file concatenating all sections above in book order, for
+> convenience. Its own header notes it was built before the audit pass on later sections finished —
+> prefer the individual section files above when accuracy matters, and check `osric.md`'s own header
+> for its current audit-status caveat.
 
 ## DM Instruction Files
 

@@ -1,13 +1,21 @@
 # OSRIC SRD
 
-This directory will hold the OSRIC rulebook converted from PDF to Markdown, one file per section,
-for use as a rules-lookup reference by Claude (see the table in `../CLAUDE.md`).
+The OSRIC rulebook, converted from PDF to Markdown, for use as a rules-lookup reference by Claude
+(see the table in `../CLAUDE.md`).
+
+- `markdown/` — one file per rulebook section (front matter through the master index)
+- `osric.md` — all sections concatenated into a single file, in book order, for convenience. Check
+  its own header for its current audit-status caveat before treating it as authoritative — prefer
+  the individual section files in `markdown/` when accuracy matters.
+
+Scanned page images/figures from the book are intentionally **not** included here — the OGL covers
+the rules text, not the book's artwork/scans, so those are left out of this public repo pending a
+separate decision on rights.
 
 ## Status
 
-In progress. Sections are being converted from the official OSRIC PDF one at a time; 37 of the
-planned sections are in `markdown/` so far (see the reference table in `CLAUDE.md`). Remaining
-sections will be added as the conversion continues.
+44 sections are in `markdown/` (see the reference table in `CLAUDE.md`), plus the merged `osric.md`.
+Conversion may continue with further audit passes/corrections.
 
 ## License
 

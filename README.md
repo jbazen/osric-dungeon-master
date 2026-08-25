@@ -18,9 +18,10 @@ Dungeon Master. It includes:
 
 ## Status
 
-The OSRIC rulebook conversion from PDF to Markdown is in progress — 37 sections are in
-`osric-srd/markdown/` so far (ability scores, classes, spells, monsters, treasure, magic items, etc.
-— see the reference table in `CLAUDE.md`), with more to come. Adventure modules will be added under
+The OSRIC rulebook conversion from PDF to Markdown is complete as a first pass — all 44 sections are
+in `osric-srd/markdown/` (ability scores, classes, spells, monsters, treasure, magic items, tables,
+index, etc. — see the reference table in `CLAUDE.md`), plus a merged `osric-srd/osric.md`. Further
+audit/correction passes may still update individual sections. Adventure modules will be added under
 `modules/` as they're converted.
 
 ## Usage
