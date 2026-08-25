@@ -98,9 +98,12 @@ When you need to look up rules, consult the OSRIC SRD files in `osric-srd/markdo
 | Monsters: Other (Cen–Gar) | `osric-srd/markdown/22b monsters other cen-gar.md` |
 | Monsters: Other (Gel–Mer) | `osric-srd/markdown/23a monsters other gel-mer.md` |
 | Monsters: Other (Min–Rem) | `osric-srd/markdown/23b monsters other min-rem.md` |
+| Monsters: Other (Roc–Z) | `osric-srd/markdown/24 monsters other roc-z.md` |
+| Treasure: Coin, Gems, Potions, Scrolls | `osric-srd/markdown/25 treasure coin gems potions scrolls.md` |
+| Rods, Staves, Wands, Armour, Swords | `osric-srd/markdown/26 rods staves wands armour swords.md` |
+| Miscellaneous Magic (A–Gog) | `osric-srd/markdown/27 miscellaneous magic a-gog.md` |
+| Miscellaneous Magic (Gog–Z) | `osric-srd/markdown/28 miscellaneous magic gog-z.md` |
 | License | `osric-srd/markdown/33 licence.md` |
-
-> These files are not yet populated — see `osric-srd/README.md`. Table above reflects the planned layout.
 
 ## DM Instruction Files
 

@@ -18,10 +18,10 @@ Dungeon Master. It includes:
 
 ## Status
 
-This repo currently holds the **project structure only**. The OSRIC rulebook is being converted from
-PDF to Markdown separately and will be added to `osric-srd/markdown/` in a follow-up commit, one file
-per rulebook section (ability scores, classes, spells, monsters, etc. — see the reference table in
-`CLAUDE.md`). Adventure modules will be added under `modules/` as they're converted.
+The OSRIC rulebook conversion from PDF to Markdown is in progress — 37 sections are in
+`osric-srd/markdown/` so far (ability scores, classes, spells, monsters, treasure, magic items, etc.
+— see the reference table in `CLAUDE.md`), with more to come. Adventure modules will be added under
+`modules/` as they're converted.
 
 ## Usage
 
