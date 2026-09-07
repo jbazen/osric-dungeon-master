@@ -12,11 +12,11 @@ Not all OSRIC adventures involve dungeons—but many will. Dungeon design is an 
 
 A dungeon or other adventure setting is more than merely monsters and treasures. The clever GM will draw the players into the world by serving as their eyes and ears. Compare and contrast the following statements:
 
-**Example #1:** "Your party travels down the 60 ft corridor without incident and arrives at a locked door."<!-- printed as-is: NEW -->
+**Example #1:** ”Your party travels down the 60 ft corridor without incident and arrives at a locked door.”<!-- printed as-is: see errata E96 -->
 
-**Example #2:** "With the thief scouting for traps in front of the party, you proceed slowly down the corridor. The guttering torchlight throws eerie, flickering shadows upon the walls, revealing darker stone and cruder workmanship than that of the previous level. Unfortunately the torchlight doesn't shed enough light to see to the end, all you can see by the yellow flame is the corridor continuing on into the darkness 40 ft away. A faint current of icy cold air blows into your faces, carrying with it a dank and mouldy smell as the thief pauses for a moment, looking at something on the damp stone floor before continuing. As you pass by you note the badly dented helmet he was examining. It appears damaged beyond all use. From somewhere behind comes the faint sound of slithering—perhaps the sound of one of the many pests inhabiting the lower levels of the dungeon, or is it something more? After travelling about 60 ft, you arrive at a solid looking door, its heavy wood beams solidly bound with rusting iron. The slithering noise has ceased, for now."<!-- printed as-is: NEW -->
+**Example #2:** ”With the thief scouting for traps in front of the party, you proceed slowly down the corridor. The guttering torchlight throws eerie, flickering shadows upon the walls, revealing darker stone and cruder workmanship than that of the previous level. Unfortunately the torchlight doesn’t shed enough light to see to the end, all you can see by the yellow flame is the corridor continuing on into the darkness 40 ft away. A faint current of icy cold air blows into your faces, carrying with it a dank and mouldy smell as the thief pauses for a moment, looking at something on the damp stone floor before continuing. As you pass by you note the badly dented helmet he was examining. It appears damaged beyond all use. From somewhere behind comes the faint sound of slithering—perhaps the sound of one of the many pests inhabiting the lower levels of the dungeon, or is it something more? After travelling about 60 ft, you arrive at a solid looking door, its heavy wood beams solidly bound with rusting iron. The slithering noise has ceased, for now.”<!-- printed as-is: see errata E97 -->
 
-Both passages describe the same 60 ft trek down an empty corridor to a door. Compare the dry and somewhat terse language of the first with the complete involvement of the player's senses contained in the second: the GM describes what the characters see, smell, and hear. They have arrived at the door and are very likely wondering what may be prowling the corridor behind them, just outside of the range of their puny torches. It's a harmless pest, but the players don't know that; the GM is simply telling them what the characters hear. Now contrast the two door descriptions. The players go from a rather bland statement about the door being locked, information to which they should not yet have access, to almost seeing the patches of rust on the sturdy iron bindings and wondering if they will easily get through the door.
+Both passages describe the same 60 ft trek down an empty corridor to a door. Compare the dry and somewhat terse language of the first with the complete involvement of the player’s senses contained in the second: the GM describes what the characters see, smell, and hear. They have arrived at the door and are very likely wondering what may be prowling the corridor behind them, just outside of the range of their puny torches. It’s a harmless pest, but the players don’t know that; the GM is simply telling them what the characters hear. Now contrast the two door descriptions. The players go from a rather bland statement about the door being locked, information to which they should not yet have access, to almost seeing the patches of rust on the sturdy iron bindings and wondering if they will easily get through the door.
 
 It is about this method of filling out the dungeon with sensory input for the players that this section of the OSRIC rules speaks. It is called dungeon dressing and, as we saw above, dungeon dressing can elevate a mundane trip down 60 ft of corridor from an interlude into an experience. Tables are provided for random generation or, as always, the GM may pick and choose specific items for maximum effect. Note the tables are best served in areas otherwise lacking features of note. That is to say, the nuances of your carefully crafted sights, sounds, and smells may be lost upon the party battling for their lives against a horde of skeleton warriors. Although random tables are included, results should still be edited for a degree of consistency.
 
@@ -62,8 +62,7 @@ It is about this method of filling out the dungeon with sensory input for the pl
 | 27 | copper coin, bent | 79 | scratches on wall |
 | 28-29 | cracks in ceiling | 80 | slime on ceiling |
 | 30-33 | cracks in floor | 81 | slime on floor |
-<!-- p.158 -->
-| 34-40 | cracks in wall | 82-83 | slime on wall |
+| <!-- p.158 -->34-40 | cracks in wall | 82-83 | slime on wall |
 | 41 | cracked flask | 84 | spike |
 | 42-44 | cracked hammer head | 85 | sticks |
 | 45-49 | dagger hilt | 86 | strap (shield or armour) |
@@ -172,8 +171,7 @@ It is about this method of filling out the dungeon with sensory input for the pl
 | 16 | cassocks | 65 | rail |
 | 17 | chime | 66-67 | robes |
 | 18-19 | altar cloth | 68-69 | sanctuary |
-<!-- p.159 -->
-| 20-23 | columns or pillars | 70-71 | screen |
+| <!-- p.159 -->20-23 | columns or pillars | 70-71 | screen |
 | 24 | curtain or tapestry | 72-76 | shrine |
 | 25 | drum | 77 | side chair |
 | 26-27 | font | 78-79 | stand |
@@ -204,7 +202,7 @@ It is about this method of filling out the dungeon with sensory input for the pl
 | 32 | fetters | 81 | thongs |
 | 33-35 | fire pit | 82-85 | thumb screws |
 | 36 | grill | 86-88 | torches |
-| 37-38 | hooks | 89-90 | "U" Rack |
+| 37-38 | hooks | 89-90 | “U” Rack |
 | 39-43 | iron maiden | 91 | vice |
 | 44 | knives | 92-93 | well |
 | 45 | manacles | 94-96 | wheel |
@@ -283,8 +281,7 @@ It is about this method of filling out the dungeon with sensory input for the pl
 | 11 | small box | 59 | platter |
 | 12-13 | brush | 60 | pot |
 | 14 | candle | 61 | pouch |
-<!-- p.160 -->
-| 15 | candle snuffer | 62 | puff |
+| <!-- p.160 -->15 | candle snuffer | 62 | puff |
 | 16 | candlestick | 63 | quill |
 | 17 | walking cane | 64 | razor |
 | 18 | case | 65 | rope |
@@ -403,7 +400,7 @@ Column 3 (continued): Storage, Strongroom, Study, Temple, Throne Room, Toilet, T
 
 ## TRAP GENERATION AND PLACEMENT
 
-The trap generation chart below is not an exhaustive list. In fact, a quick perusal of this chart should readily produce several variations on the themes presented herein. It should also be noted that some traps can be combined to great effect. For instance, a spiked pit trap might trigger a swinging log to "help" the players in. Use your imagination.
+The trap generation chart below is not an exhaustive list. In fact, a quick perusal of this chart should readily produce several variations on the themes presented herein. It should also be noted that some traps can be combined to great effect. For instance, a spiked pit trap might trigger a swinging log to “help” the players in. Use your imagination.
 
 There are various possible trap levels appropriate for different situations, as follows:
 
@@ -417,17 +414,17 @@ There are various possible trap levels appropriate for different situations, as 
 
 ### Trap Placement
 
-Generally traps should be suited to the dungeon level on which they are situated and the potential treasure they guard. Thus a trap on the first dungeon level that leads to an area infested with ferocious but poverty-stricken monsters should be nuisance, while a trap on the sixteenth dungeon level that protects a pair of dragons' treasure hoard while the dragons are out hunting should be fatal.
+Generally traps should be suited to the dungeon level on which they are situated and the potential treasure they guard. Thus a trap on the first dungeon level that leads to an area infested with ferocious but poverty-stricken monsters should be nuisance, while a trap on the sixteenth dungeon level that protects a pair of dragons’ treasure hoard while the dragons are out hunting should be fatal.
 
 Intelligent creatures that live near a trap will always have some means of avoiding or disarming it—whether this be an alternative route they habitually take or some mechanical or magical means of bypassing it. If they use the trap to protect their lair, treasure or young, they will maintain the trap to the best of their ability (perhaps cleaning away bloodstains or other evidence of its existence, for example). And if the player characters learn to bypass the trap, intelligent monsters may try to find a way of making it effective again—perhaps by moving it or adding additional features, according to their ability and resources.
 
 When placing traps, think about their purpose in the game and the effect they will have on playing style. Traps are there to increase the risk of dungeoneering and to encourage skilled play; good dungeons have a judicious mixture of monsters, traps and roleplaying encounters.
 
-Let's consider two OSRIC GMs. One likes to use many traps, some of which cause instant death with no save, while another prefers to use much fewer traps and always permits a saving throw.
+Let’s consider two OSRIC GMs. One likes to use many traps, some of which cause instant death with no save, while another prefers to use much fewer traps and always permits a saving throw.
 
-The first GM's players will adapt. They will move slowly and carefully through the dungeon, and may have summoned creatures or created zombies move ahead of them to trigger any traps they might encounter. They will tend to capture prisoners and question them under charm or some similar magic about the dungeon environment, and evil aligned characters may use captives like mining canaries. The pace of play will be slow owing to the characters' caution.
+The first GM’s players will adapt. They will move slowly and carefully through the dungeon, and may have summoned creatures or created zombies move ahead of them to trigger any traps they might encounter. They will tend to capture prisoners and question them under charm or some similar magic about the dungeon environment, and evil aligned characters may use captives like mining canaries. The pace of play will be slow owing to the characters’ caution.
 
-The second GM's players will tend not to be thieves. They will move more rapidly through the dungeon to try to achieve surprise against any foes they might encounter, and the game will have a more heroic feel to it.
+The second GM’s players will tend not to be thieves. They will move more rapidly through the dungeon to try to achieve surprise against any foes they might encounter, and the game will have a more heroic feel to it.
 
 Decide which style of game suits you and your group and design traps in your dungeons accordingly.
 
@@ -446,8 +443,7 @@ Decide which style of game suits you and your group and design traps in your dun
 | 17-18 | ceiling block drops on players | 67-68 | poisoned spike pit |
 | 19-20 | ceiling block seals players in room or area | 69-70 | portcullis drops behind players |
 | 21-22 | elevator room | 71-72 | portcullises drop in front of and behind players |
-<!-- p.162 -->
-| 23-24 | elevator room, deactivates for 24 hours | 73-74 | portcullis drops in front of players |
+| <!-- p.162 -->23-24 | elevator room, deactivates for 24 hours | 73-74 | portcullis drops in front of players |
 | 25-26 | elevator room, one way | 75-76 | rolling stone ball, height and width of corridor |
 | 27-28 | falling door | 77-78 | scything blade, ankle-high |
 | 29-30 | flame jets | 79-80 | scything blade, neck-high |
@@ -525,8 +521,7 @@ Tricks make something harmless appear dangerous, or make something dangerous app
 | 29 | dispenses jewellery | 79 | shifting |
 | 30 | dispenses magic item | 80 | shoots |
 | 31 | dispenses map | 81 | sings |
-<!-- p.163 -->
-| 32 | distorted depth | 82 | sinking |
+| <!-- p.163 -->32 | distorted depth | 82 | sinking |
 | 33 | distorted height | 83 | sliding |
 | 34 | distorted length | 84 | sloping |
 | 35 | distorted width | 85 | spinning |
@@ -552,7 +547,7 @@ Gina decides to roll a second trick for a different room and rolls a 25 then 31,
 
 ## RANDOM DUNGEON GENERATION
 
-This GM aid is designed for on-the-fly dungeon generation when a gaming session takes an unexpected turn. It can also serve to spur the imagination when one's artistic abilities fail and can even be used for solo play. The following tables should be appropriate for everything from one level side-quests to generating add-on levels for the GM's own mega-dungeon. The GM is advised to freely "fudge" the die roll if an impossible result is generated. If the tables dictate a room which will not fit in the available space, for instance, then either resize the room or reroll. Remember at all times the random dungeon generator is an aid rather than a hard and fast set of rules. For the purposes of this table OSRIC defines a room as having exits which are closed by a door or other portal, whereas a chamber has open exits such as archways.
+This GM aid is designed for on-the-fly dungeon generation when a gaming session takes an unexpected turn. It can also serve to spur the imagination when one’s artistic abilities fail and can even be used for solo play. The following tables should be appropriate for everything from one level side-quests to generating add-on levels for the GM’s own mega-dungeon. The GM is advised to freely “fudge” the die roll if an impossible result is generated. If the tables dictate a room which will not fit in the available space, for instance, then either resize the room or reroll. Remember at all times the random dungeon generator is an aid rather than a hard and fast set of rules. For the purposes of this table OSRIC defines a room as having exits which are closed by a door or other portal, whereas a chamber has open exits such as archways.
 
 **How to create a random dungeon:**
 
@@ -619,7 +614,7 @@ Proceed to Table 5: Number of Exits
 
 *Roll 1d20: 1-6 room has a pool (see Table 15: Pools), 7 room has a well, 8-11 room has a shaft, 12-20 proceed to Table 4.
 
-**GM's discretion. Freehand draw an unusual shape, or pick a standard room as needed for mapping needs, or reroll.
+**GM’s discretion. Freehand draw an unusual shape, or pick a standard room as needed for mapping needs, or reroll.
 
 Proceed to Table 4: Approximate Size Table for Unusual Rooms
 
@@ -756,7 +751,7 @@ If the treasure is guarded by a monster, roll twice and add 1 to each roll. Othe
 | 19 | Roll 1d8, 1-5 = no treasure, 6-8 = 1 magic item |
 | 20 | 1 magic item |
 
-Results from this table should be multiplied by the level of the dungeon concerned. So if the party is on the third dungeon level and the d20 shows "13", they will receive 3d4 × 100 gp rather than 1d4. If the party is on the fifth dungeon level and a magic item is rolled, the party actually receives 5 magic items. The GM should adjust any extreme results to keep them proportional.
+Results from this table should be multiplied by the level of the dungeon concerned. So if the party is on the third dungeon level and the d20 shows “13”, they will receive 3d4 × 100 gp rather than 1d4. If the party is on the fifth dungeon level and a magic item is rolled, the party actually receives 5 magic items. The GM should adjust any extreme results to keep them proportional.
 
 ### Table 13: Stairs (1d20)
 
@@ -821,7 +816,7 @@ In order to learn the secret of a magic pool, adventurers must actually enter th
 |---|---|
 | 1-8 | Roll 1d20. Pool turns gold pieces into platinum pieces (1-12) or lead (13-20); after doing this once, pool is non-magical. |
 | 9-15 | Characters in pool will either lose (01-50 on d%) or gain (51-00) 1 point from a randomly-determined attribute. Roll 1d6: 1=strength, 2=dexterity, 3=constitution, 4=intelligence, 5=wisdom, 6=charisma. One time only effect, each character checked separately for loss or gain and affected characteristic. |
-| 16-17 | Talking pool, will grant 1 wish to any characters of like alignment and damage all others (1d20 points). Wish must be used within 24 hours. Roll 1d20 for pool's alignment: 1-6 LG; 7-9 LE; 10-12 CG; 13-17 CE; 18-20 TN. |
+| 16-17 | Talking pool, will grant 1 wish to any characters of like alignment and damage all others (1d20 points). Wish must be used within 24 hours. Roll 1d20 for pool’s alignment: 1-6 LG; 7-9 LE; 10-12 CG; 13-17 CE; 18-20 TN. |
 | 18-20 | Transporter pool. Roll 1d20: 1-7 back to surface; 8-12 elsewhere on level; 13-16 1 level down; 17-20 many miles away for wilderness or outdoor adventure. This one can be especially fiendish if not all characters in the party are standing in the pool. |
 
 ### Table 18: General (1d20)
@@ -868,8 +863,8 @@ This table is for use with doors that exit a room. For passages, consult Table 7
 | 5-8 | right 90 degrees |
 | 9 | left 45 degrees (d6, 1-3 ahead, 4-6 behind) |
 | 10 | right 45 degrees (d6, 1-3 ahead, 4-6 behind) |
-| 11-13 | passage T's |
-| 14-15 | passage Y's |
+| 11-13 | passage T’s |
+| 14-15 | passage Y’s |
 | 16-19 | four-way intersection |
 | 20 | five-way intersection* |
 
@@ -900,7 +895,7 @@ Proceed to Table 18: General
 
 ** Determine passage width via an additional roll. The stream bisects the passage. It will be bridged 75% of the time.
 
-*** Determine passage width via an additional roll. The river bisects the passage. It will be bridged 50% of the time or have a boat 25% of the time (50% chance the boat is on the player's side).
+*** Determine passage width via an additional roll. The river bisects the passage. It will be bridged 50% of the time or have a boat 25% of the time (50% chance the boat is on the player’s side).
 
 **** Determine passage width via an additional roll. The chasm bisects the passage and is a long sheer drop (nominally 100 ft). It will be bridged 50% of the time or have a narrower spot suitable for jumping across 25% of the time.
 
@@ -921,11 +916,11 @@ Start with Table 1: Starting locations in the middle of a sheet of graph paper. 
 
 To resolve listening at doors, roll 1d12 and treat a result of 1-5 as a monster encounter. Use Table 8: Chamber or Room Contents but treat any result as including a monster encounter. Otherwise, any monster encounters rolled should be ignored unless the creatures would be silent (undead, bugbears, etc.).
 
-*ESP*, scrying, and other means of magical detection can be resolved in the following manner. A roll of 1 on 1d6 indicates a monster in the area being checked. Roll the encounter using the relevant GM table and ignoring any monster type not detectable by method of detection used. If a 6 is rolled, the player should reroll when entering the room. If a 6 is rolled again a non-detectable monster is encountered and player's chance to be surprised increases by +1.
+*ESP*, scrying, and other means of magical detection can be resolved in the following manner. A roll of 1 on 1d6 indicates a monster in the area being checked. Roll the encounter using the relevant GM table and ignoring any monster type not detectable by method of detection used. If a 6 is rolled, the player should reroll when entering the room. If a 6 is rolled again a non-detectable monster is encountered and player’s chance to be surprised increases by +1.
 
-**Stocking the Dungeon:** You may wish to use the "Random Encounters" section that follows to stock your dungeon, or you may wish to design specific areas without reference to random tables. Many GMs use a mixture of the two methods, with designed areas surrounded by randomly-generated areas.
+**Stocking the Dungeon:** You may wish to use the “Random Encounters” section that follows to stock your dungeon, or you may wish to design specific areas without reference to random tables. Many GMs use a mixture of the two methods, with designed areas surrounded by randomly-generated areas.
 
-The degree to which dungeon "ecology" matters is up to the individual GM. Some GMs give thought to food sources, water sources and latrine facilities; others do not bother. The authors recommend the following golden rule: Dungeons don't have to make sense, but they do need to be full of variety. Having said this, a little thought on the placement of creatures doesn't go amiss—if there's some logic behind the dungeon, then it's easier for skilled players to work out what's going on and use it to their advantage, and rewarding player skill is an important aspect of the OSRIC system.
+The degree to which dungeon “ecology” matters is up to the individual GM. Some GMs give thought to food sources, water sources and latrine facilities; others do not bother. The authors recommend the following golden rule: Dungeons don’t have to make sense, but they do need to be full of variety. Having said this, a little thought on the placement of creatures doesn’t go amiss—if there’s some logic behind the dungeon, then it’s easier for skilled players to work out what’s going on and use it to their advantage, and rewarding player skill is an important aspect of the OSRIC system.
 
 ## RANDOM ENCOUNTERS
 
@@ -933,7 +928,7 @@ The degree to which dungeon "ecology" matters is up to the individual GM. Some G
 
 **Directions:** When a random monster encounter is called for, roll a d12. Cross-reference the result with the dungeon level where the encounter occurs on the Monster Sub-table Matrix. Once the sub-table is found, roll a d% to determine the actual monster(s) encountered.
 
-The # column lists the numbers encountered on the dungeon level equivalent to the monster's level. If encountered on a lower or higher level, adjust the numbers encountered as follows:
+The # column lists the numbers encountered on the dungeon level equivalent to the monster’s level. If encountered on a lower or higher level, adjust the numbers encountered as follows:
 
 Lesser monsters encountered on a lower dungeon level should have their numbers increased by the same amount for each dungeon level lower than their monster level. For example, the sub-table # column lists 2d10 for goblins (1st-lvl) encountered on the first level of the dungeon. If encountered on the third level of the dungeon, they would be three times as numerous (6d10). The same procedure applies equally to higher level monsters, with the following exceptions:
 
@@ -1034,8 +1029,7 @@ Instructions: If the GM wants to include new monsters on their encounter tables,
 | 71-75 | Bugbear | 1d6 |
 | 76-80 | Gnoll | 2d10 |
 | 81-85 | Stirge | 1d10+5 |
-<!-- p.169 -->
-| 86-89 | Zombie | 1d8 |
+| <!-- p.169 -->86-89 | Zombie | 1d8 |
 | 90-93 | Coffer Corpse | 1 |
 | 94-96 | Troll, Ice | 1d6 |
 | 97-98 | Centipede, Huge | 1d12 |
@@ -1149,8 +1143,7 @@ Instructions: If the GM wants to include new monsters on their encounter tables,
 | 09-18 | Blue | Sub-Adult/Young Adult | 3/4 |
 | 19-30 | Brass | Young Adult/Adult | 4/5 |
 | 31-35 | Bronze | Sub-Adult/Young Adult | 3/4 |
-<!-- p.170 -->
-| 36-50 | Copper | Sub-Adult/Young Adult | 3/4 |
+| <!-- p.170 -->36-50 | Copper | Sub-Adult/Young Adult | 3/4 |
 | 51-55 | Gold | Sub-Adult/Young Adult | 3/4 |
 | 56-70 | Green | Sub-Adult/Young Adult | 3/4 |
 | 71-80 | Red | Sub-Adult/Young Adult | 3/4 |
@@ -1283,7 +1276,7 @@ Instructions: If the GM wants to include new monsters on their encounter tables,
 | 01-07 | Trapper | 1 |
 | 08-11 | Devil, Pit Fiend | 1 |
 | 12-30 | Otyugh, Greater | 1 |
-| 26-40 | NPC Party – see Sub-table | varies |<!-- printed as-is: NEW (overlapping d% ranges 12-30 and 26-40) -->
+| 26-40 | NPC Party – see Sub-table | varies |<!-- printed as-is: see errata E98 (overlapping d% ranges 12-30 and 26-40) -->
 | 41-55 | Class B Demon | 1d3 |
 | 56-70 | Hydra, 12-heads | 1 |
 | 71-80 | Dragon – see Sub-table | 1 or 2 |
@@ -1369,13 +1362,13 @@ Instructions: If the GM wants to include new monsters on their encounter tables,
 | 76-85 | Halfling | 15% |
 | 86-00 | Half-orc | 50% |
 
-**Hirelings and Henchmen:** Hirelings and men-at-arms will only accompany their employers when encountered on the 1st-3rd dungeon levels. On deeper expeditions, the entourage will be made up only of henchmen. Determine the ability scores, class and level of hirelings and henchmen by rolling on the appropriate sub-tables in the "Hirelings and Henchmen" section. They will have one third the level of their master plus 1 level for every 3 of their master's levels. For example, a 9th-lvl magic user NPC may be accompanied by a 6th-lvl magic user henchman.
+**Hirelings and Henchmen:** Hirelings and men-at-arms will only accompany their employers when encountered on the 1st-3rd dungeon levels. On deeper expeditions, the entourage will be made up only of henchmen. Determine the ability scores, class and level of hirelings and henchmen by rolling on the appropriate sub-tables in the “Hirelings and Henchmen” section. They will have one third the level of their master plus 1 level for every 3 of their master’s levels. For example, a 9th-lvl magic user NPC may be accompanied by a 6th-lvl magic user henchman.
 
 **Equipment:** NPC parties should be equipped with arms, armour and supplies typical to a party of dungeon delvers. Henchmen should be assumed to have equipment appropriate to their level. Hirelings will only possess lower quality arms and armour and few supplies.
 
 **Spells:** The GM should assume NPC and henchmen spellcasters will have memorised a full assortment of spells appropriate to their party as a whole.
 
-**Notes on Play:** When a player party encounters a party of NPCs and their henchmen, the GM should carefully consider the alignment and makeup of the NPC party before determining their course of action. A relatively weaker NPC party than the players' may use alternate means to resolve the situation. Trickery, parley, bluffing and fleeing are all important possibilities to consider before finally resorting to combat. Unless they are surprised, the GM should always treat them as alert and prepared for anything. Once actual contact has been made with an NPC party, the GM should check for reaction. Whatever the result of the negotiations, NPC parties will NEVER choose to join the PCs unless it is to their immediate advantage. This should also involve few if any rewards for the players' party. Unlike monster encounters, the GM should personally direct the actions of the NPCs as if they were player characters. Rather than checking morale as usual, the GM should favour the course of action that is likely to bring the NPCs the greatest benefit.
+**Notes on Play:** When a player party encounters a party of NPCs and their henchmen, the GM should carefully consider the alignment and makeup of the NPC party before determining their course of action. A relatively weaker NPC party than the players’ may use alternate means to resolve the situation. Trickery, parley, bluffing and fleeing are all important possibilities to consider before finally resorting to combat. Unless they are surprised, the GM should always treat them as alert and prepared for anything. Once actual contact has been made with an NPC party, the GM should check for reaction. Whatever the result of the negotiations, NPC parties will NEVER choose to join the PCs unless it is to their immediate advantage. This should also involve few if any rewards for the players’ party. Unlike monster encounters, the GM should personally direct the actions of the NPCs as if they were player characters. Rather than checking morale as usual, the GM should favour the course of action that is likely to bring the NPCs the greatest benefit.
 
 If the NPC party bests the players they need not kill them. Ransom, slavery, imprisonment or sacrifice are interesting alternatives to simple execution.
 
@@ -1495,7 +1488,7 @@ Finally, it is highly recommended that the GM prepare for encounters with random
 | 46-50 | Eyes of Charming (IM) |
 | 51-55 | Horn of Valhalla (special) |
 | 56-60 | Robe of Scintillating Colours (IM) |
-| 61-65 | Amulet of Natural Armour  +4 (any) <!-- printed as-is: NEW --> |
+| 61-65 | Amulet of Natural Armour  +4 (any) <!-- printed as-is: see errata E99 --> |
 | 66-70 | Plate Mail +4, Shield +3 |
 | 71-75 | Sword, Keenblade (AFPRT) |
 | 76-80 | Arrow of Slaying (AFPRT) |

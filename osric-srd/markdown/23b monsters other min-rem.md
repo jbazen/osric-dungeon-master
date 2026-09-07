@@ -38,7 +38,7 @@ Minotaurs can speak their own language and sometimes (25%) can speak common.
 - **Size:** Man-sized
 - **Move:** 90 ft
 - **Armour Class:** 5
-- **Hit Dice:** 1 to 4 hit dice
+- **Hit Dice:** 1 to 4 hit dice<!-- printed as-is: see errata E249 -->
 - **Attacks:** 1
 - **Damage:** 1d4 (1HD), 1d6 (2HD), 1d8 (3HD) or 1d10 (4HD)
 - **Special Attacks:** None
@@ -48,10 +48,10 @@ Minotaurs can speak their own language and sometimes (25%) can speak common.
 - **Intelligence:** Low to average
 - **Alignment:** Lawful neutral
 - **Level/XP:**
-  - (1 HD) 1/20+1/hp
-  - (2 HD) 2/30+2/hp
-  - (3 HD) 3/50+3/hp
-  - (4 HD) 3/100+4/hp
+    - (1 HD) 1/20+1/hp
+    - (2 HD) 2/30+2/hp
+    - (3 HD) 3/50+3/hp
+    - (4 HD) 3/100+4/hp
 
 <!-- p.297 -->
 
@@ -95,7 +95,7 @@ Yellow mould is susceptible only to fire and fire attacks. A *continual light* s
 
 ## Naga
 
-A naga is an intelligent, snake-like creature with spell-casting abilities. Most naga are found in warm areas, though their actual environment depends on the type.
+A naga is an intelligent, snake-like creature with spell-casting abilities. Most naga are found in warm areas, though their actual environment depends on the type.<!-- printed as-is: see errata E250 -->
 
 | | **Guardian** | **Spirit** | **Water** |
 |---|---|---|---|
@@ -121,7 +121,7 @@ Guardian naga are mostly found in holy places. They serve as sentinels over some
 
 <!-- p.298 -->
 
-poisonous and inflicts 1d6 hp while its constriction deals 2d8 hp. It can spit its poison up to 30 ft at any single target, and the target must save vs poison or die
+poisonous and inflicts 1d6 hp while its constriction deals 2d8 hp. It can spit its poison up to 30 ft at any single target, and the target must save vs poison or die<!-- printed as-is: see errata E251 -->
 
 A guardian naga can use divine spells as a 6th level cleric:
 
@@ -129,7 +129,7 @@ A guardian naga can use divine spells as a 6th level cleric:
 - 2nd level: 3
 - 3rd level: 2
 
-***Treasure:*** 5d6×1cp (25%), <!-- printed as-is: NEW --> 1d%×1,000 sp (15%), 10d4×1,000 ep (40%), 10d6×1,000 gp (55%), 5d10×100 pp (25%), 1d% gems (50%), 10d4 jewellery (50%), any 4 magic item + 1 potion + 1 scroll (15%)
+***Treasure:*** 5d6×1cp (25%), <!-- printed as-is: see errata E252 --> 1d%×1,000 sp (15%), 10d4×1,000 ep (40%), 10d6×1,000 gp (55%), 5d10×100 pp (25%), 1d% gems (50%), 10d4 jewellery (50%), any 4 magic item + 1 potion + 1 scroll (15%)
 
 The evil and corrupt **spirit naga** dwells in deep ruins and other subterranean places. Its scales are black with blood red bands, and its human-like head is large and misshapen.
 
@@ -145,7 +145,7 @@ A spirit naga can use divine and arcane spells to 4th and 5th levels respectivel
 
 ***Treasure:*** 1d8×1,000 cp (50%), 1d6×1,000 sp (25%), 1d4×1,000 ep (25%), 1d4×1,000 gp (25%), 1d8 gems (30%), 1d4 jewellery (20%), sword, armour, or misc. weapon + 1d4 scrolls + 1 misc. magic + 1 potion (55%)
 
-The **water naga’s** scales range from deep green to turquoise and its eye colour varies from light green to brilliant amber. It dwells deep below the surface of fresh water lakes ponds and rivers. <!-- printed as-is: NEW --> The water naga is typically quite curious and harmless unless provoked. In combat, its poisonous bite deals 1d4 damage, and it can cast arcane spells as a 5th level magic user:
+The **water naga’s** scales range from deep green to turquoise and its eye colour varies from light green to brilliant amber. It dwells deep below the surface of fresh water lakes ponds and rivers. <!-- printed as-is: see errata E253 --> The water naga is typically quite curious and harmless unless provoked. In combat, its poisonous bite deals 1d4 damage, and it can cast arcane spells as a 5th level magic user:
 
 - 1st level: 4
 - 2nd level: 2
@@ -241,7 +241,7 @@ Finding such a victim, a night hag casts a *sleep* spell that affects humans eve
 
 A night hag can cast a *magic missile* spell for 2d8 damage or a *ray of enfeeblement* thrice per day each. She has the power of knowing a creature’s alignment, and can *polymorph* herself at will.
 
-Night hags are invulnerable to *charm, fear, sleep,* and cold- or fire-based spells. To harm them, a weapon must be of iron or silver or enchanted to +3 or better.
+Night hags are invulnerable to *charm, fear, sleep,* and cold- or fire- based spells. <!-- printed as-is: see errata E254 --> To harm them, a weapon must be of iron or silver or enchanted to +3 or better.
 
 In extremis, a night hag can try (succeeding half the time) to *gate* in an ally, with equal chances of a barbed devil or class A demon appearing. She must then reward the devil or demon with a Soul Worm, a price the night hags will be loath to pay.
 
@@ -253,7 +253,7 @@ While she has a special periapt she has forged in Hades, a night hag can astrall
 
 ## Nightmare
 
-- **Frequency:** Very Rare <!-- printed as-is: NEW -->
+- **Frequency:** Very Rare <!-- printed as-is: see errata E255 -->
 - **No. Encountered:** 1
 - **Size:** Large
 - **Move:** 150 ft; 360 ft flying (AA:IV)
@@ -309,7 +309,7 @@ Because nilbogs look exactly like goblins, the only way to tell one from the oth
 
 Even more rarely, nilbogism occurs in other creatures, the most ludicrous of which is the *llort*—a troll-like creature that if cured of damage, begins to degenerate at 3hp per round until dead.
 
-***Treasure*** <!-- printed as-is: NEW --> 1d10×1,000 cp (25%), 2d4×1,000 sp (33%), 1d6×1,000 ep (15%), 2d4 gems (30%), 2d4 jewellery (25%), 2 magic scrolls + 1 potion (25%).
+***Treasure*** <!-- printed as-is: see errata E256 --> 1d10×1,000 cp (25%), 2d4×1,000 sp (33%), 1d6×1,000 ep (15%), 2d4 gems (30%), 2d4 jewellery (25%), 2 magic scrolls + 1 potion (25%).
 
 ## Owlbear
 
@@ -360,11 +360,7 @@ The owlbear attacks first with its claws and beak. If it scores an 18 or better 
 | **Alignment:** | Neutral | Neutral |
 | **Level/XP:** | (6 HD) 4/275+6/hp<br>(7 HD) 4/400+8/hp<br>(8 HD) 5/650+10/hp | (9 HD) 6/1,000+12/hp<br>(10 HD) 6/1,500+14/hp<br>(11 HD) 7/2,000+16/hp<br>(12 HD) 7/2,300+17/hp |
 
-Otyughs are repulsive beasts that feed off the refuse and waste habitually discarded by other creatures. They are generally found in large rubbish pits and cisterns, being not always content with discards, they wait beneath the surface for anyone foolish enough to stray too close. Otyughs have no discernible head, the bulk of their form consisting of a great horn-plated torso supported by three stocky legs that conceal a powerful, sharp-toothed maw. Three long tentacular appendages extend from their
-
-<!-- p.302 -->
-
-bodies, two of which are hard and thorny, being used to attack and grapple prey; the third is actually a sensory organ with three eyes at its end, which are capable of 90 ft infravision. Lesser Otyughs are also capable of limited telepathy at a range of up to 30 ft, and Greater Otyughs up to 60 ft, but such communication is limited to simple thoughts and ideas.
+Otyughs are repulsive beasts that feed off the refuse and waste habitually discarded by other creatures. They are generally found in large rubbish pits and cisterns, being not always content with discards, they wait beneath the surface for anyone foolish enough to stray too close. Otyughs have no discernible head, the bulk of their form consisting of a great horn-plated torso supported by three stocky legs that conceal a powerful, sharp-toothed maw. Three long tentacular appendages extend from their bodies, two of which are hard and thorny, being used to attack and grapple prey; the third is actually a sensory organ with three eyes at its end, which are capable of 90 ft infravision. Lesser Otyughs are also capable of limited telepathy at a range of up to 30 ft, and Greater Otyughs up to 60 ft, but such communication is limited to simple thoughts and ideas.
 
 Whilst Otyughs suffer no ill-effects from bright light, they do not like it, preferring to dwell in dark places that help them to strike with complete surprise, though their eyes, usually protruding above the surface, sometimes give them away. They can use their great tentacle like limbs to strike for 1d8 damage, or 1d12 in the case of the Greater Otyugh, but may also attempt to grapple their prey. Grappled opponents suffer 1d3+1 points of constriction damage per round and bite attacks against them are made with +2 to hit. A character with 18 strength can break free after one round of struggling, but other characters must make a successful Open Doors roll to do the same. Greater Otyughs may use grappled characters as shields; in doing so, they gain a +1 bonus to armour class and when attacked may make an attack roll of their own, which if successful results in the grappled character becoming the victim of the attack. Any character unfortunate enough to be bitten by an Otyugh is extremely likely to contract a disease, 1 in 5 cases of which are fatal.
 
@@ -382,6 +378,9 @@ Whilst Otyughs suffer no ill-effects from bright light, they do not like it, pre
 - **Damage:** 1d8/1d8/1d3
 - **Special Attacks:** None
 - **Special Defences:** None
+
+<!-- p.302 -->
+
 - **Magic Resistance:** Standard
 - **Lair Probability:** 15%
 - **Intelligence:** Average
@@ -414,11 +413,7 @@ Like a horse, a pegasus will buck with its two front hooves and bite with its mo
 - **Alignment:** Any
 - **Level/XP:** Nil
 
-Neither a monster nor the undead in the truest sense of the word, a phantom is a sort of endless loop three-dimensional visual manifestation “recorded” at the time of a person’s death. These images usually depict either
-
-<!-- p.303 -->
-
-the death of the person or whatever was foremost in his or her mind. Phantoms have no intelligence, nor can they harm anyone directly.
+Neither a monster nor the undead in the truest sense of the word, a phantom is a sort of endless loop three-dimensional visual manifestation “recorded” at the time of a person’s death. These images usually depict either the death of the person or whatever was foremost in his or her mind. Phantoms have no intelligence, nor can they harm anyone directly.
 
 Phantoms are surrounded by a field of supernatural energy which normal animals react strongly toward and will not approach. Humans or demi-humans encountering a phantom must save vs spells or immediately panic and flee as though under the influence of a *fear* spell.
 
@@ -450,17 +445,15 @@ In combat, the phoenix employs one of two attack routines; either two clawing at
 
 Due to its other-planar nature, the phoenix can only be hit with +3 or better weapons. The creature can constantly and automatically *detect charm*, *detect evil*, and *detect magic*;
 
+<!-- p.303 -->
+
 constantly radiates *protection from fear*, *10 ft radius*, and has a 50% magic resistance. The phoenix can become astral or æthereal at will, and once per week can transport itself and up to 10 man-sized creatures to its home plane (it can also reach its home dimension through the use of its astral and æthereal ability). A phoenix has finely-honed senses and therefore cannot be surprised. It receives +3 to all initiative rolls. The phoenix has 120 ft range in both infravision and low-light vision. This amazing being can *heal* itself or another creature spontaneously, up to 100 hit points total per day. It can also *cure disease* with but a touch of its beak, limited to one cure disease per creature per day. It can also cast *cure light wounds* at will with a brush of its wingtips, though any human or humanoid can only be healed thus twice during any one day. A phoenix has the innate ability to cause a tremendous heat up to thrice per day; igniting all flammable materials, boiling liquids, and blistering exposed skin. It can also dissipate any energy based attack, ranging from spells to dragon breath, up to thrice per day and taking no damage therefrom. Its powerful voice can *dispel illusion* and *dispel magic* at a level equal to a 40th level magic user, and cast *exorcise* as a 40th level cleric.
 
 In addition to all the above, the phoenix can use the following spell-like abilities at will, once per round at a 20th level of ability, unless otherwise noted: *affect normal fires, audible glamour, blink, blindness, blur, control temperature 50’ radius, continual light, find traps, fire charm, fire shield, improved invisibility, misdirection, produce flame, pyrotechnics, remove curse, remove fear 10’ radius, snake charm.* Once per day, the phoenix can use the following spell-like abilities, again at 20th level: *call woodland beings, duo-dimension, find the path, fire quench* (reverse of the druid spell *produce fire*), *fire seeds, fire storm, neutralise poison, reincarnate, veil, wall of fire.* Thrice per day the phoenix can cast *colour spray, heat metal, polymorph self,* and once per week can cast *incendiary cloud.*
 
 The phoenix has two final special abilities it will only use when great need is upon it. First, it can fire up to 8 of its feathers at its opponents per round. These feathers will sap 5 hp apiece from the phoenix and explode as a holly berry *fireseed*. If overcome in battle, the phoenix can release its version of a retributive strike—invoking a hellish firestorm of destruction equal in power to a *firestorm* combined with an *incendiary cloud*, each cast at 40th level of ability. This mega-firestorm can be created even if both spell abilities have already been used that day. This attack will kill the phoenix (and most likely everything else within range) but leaves behind a crystalline egg the size of an adult human head. A new phoenix will arise from the egg in 3d8 days.
 
-***Description:*** The phoenix is a large bird vaguely resembling a stork or heron, with beautiful plumage of bright gold and fiery red that catches the light in a manner reminiscent of dancing flames. Its dagger-sharp claws and long, hard beak are an iridescent violet; the eyes of a phoenix have been described as rubies glowing with an inner fire. The phoenix speaks the language of its kind; the language of any feathered, flying creature; and can communicate with other creatures with either telepathy
-
-<!-- p.304 -->
-
-or telempathy, as appropriate to the level of intelligence of the other creature.
+***Description:*** The phoeni× is a large bird vaguely resembling a stork or heron, with beautiful plumage of bright gold and fiery red that catches the light in a manner reminiscent of dancing flames. Its dagger-sharp claws and long, hard beak are an iridescent violet; the eyes of a phoeni× have been described as rubies glowing with an inner fire. The phoeni× speaks the language of its kind; the language of any feathered, flying creature; and can communicate with other creatures with either telepathy or telempathy, as appropriate to the level of intelligence of the other creature.
 
 ***Treasure:*** None.
 
@@ -481,10 +474,10 @@ or telempathy, as appropriate to the level of intelligence of the other creature
 - **Intelligence:** Non-
 - **Alignment:** Neutral
 - **Level/XP:**
-  - (1 HD) 1/10+1/hp
-  - (2 HD) 2/30+2/hp
-  - (3 HD) 3/50+3/hp
-  - (4 HD) 4/80+4/hp
+    - (1 HD) 1/10+1/hp
+    - (2 HD) 2/30+2/hp
+    - (3 HD) 3/50+3/hp
+    - (4 HD) 4/80+4/hp
 
 A piercer looks exactly like a stalactite. It is a living creature encased in a stone covering. Piercers are sensitive to noise and heat and when they detect a source of either passing beneath them they drop, seeking to kill and devour their target.
 
@@ -508,11 +501,14 @@ The 1 HD piercer is 3 ft long and weighs about 200 lbs. With each additional HD 
 - **Special Defences:** Chameleon power
 - **Magic Resistance:** 35%
 - **Lair Probability:** 5%
+
+<!-- p.304 -->
+
 - **Intelligence:** Average
 - **Alignment:** Neutral good
 - **Level/XP:** 3/200 + 2/hp
 
-Pseudo-dragons are tiny dragons, dark red in colour, lacking the breath weapon of their large cousins but carrying a deadly sting in their tails. Because of the lack of a breath weapon, they are not generally counted among the true dragons. Pseudo-dragons can be be found in almost every climate save the very hottest and coldest, and prefer snug lairs such as small caves or hollow trees. <!-- printed as-is: NEW -->
+Pseudo-dragons are tiny dragons, dark red in colour, lacking the breath weapon of their large cousins but carrying a deadly sting in their tails. Because of the lack of a breath weapon, they are not generally counted among the true dragons. Pseudo-dragons can be be found in almost every climate save the very hottest and coldest, and prefer snug lairs such as small caves or hollow trees. <!-- printed as-is: see errata E257 -->
 
 In combat the pseudo-dragon will attack with a bite attack for 1d3 points of damage, but its feared weapon is its sting. The pseudo-dragon’s small size and great flying speed, coupled with the flexibility of its tail, grant a +4 bonus to stinging attacks. Any creature stung is allowed a save vs poison to negate the effects, otherwise the victim will fall into a death-like trance for 1d6 days. On the last day of the trance there is a 25% chance the victim will actually die.
 
@@ -566,7 +562,7 @@ A purple worm’s main attack is its bite that does 2d12 points of damage. If th
 
 Rakshasas are evil spirits. Their main diet is human flesh and they use deception to get it. When first encountered a rakshasa will use its *ESP* to detect whomever the victim trusts, then use illusion to assume that form. Once the victim lets his or her guard down the rakshasa will reveal its true self and attack. Rakshasas are able to cast 1st to 3rd level magic user spells as well as 1st level cleric spells. Rakshasas themselves are only affected by 8th level and higher magic. They are immune to normal weapons and magical weapons below +3 only do half damage. They do however have 1 weakness: a crossbow bolt *blessed* by a cleric will kill them instantly.
 
-***Treasure:*** 1d20×1,000 sp (10%), 1d12×1,000 ep (15%), 1d10×1,000 gp (40%), 1d8×100 pp (35%), 3d10 gems (20%), 1d10 jewellery (10%), 3 magic items except weapons + 1 potion + scroll (30%)
+***Treasure:*** 1d20×1,000 sp (10%), 1d12×1,000 ep (15%), 1d10×1,000 gp (40%), 1d8×100 pp (35%), 3d10 gems (20%), 1d10 jewellery (10%), 3 magic items e×cept weapons + 1 potion + scroll (30%)
 
 ## Remorhaz
 
@@ -588,14 +584,14 @@ Rakshasas are evil spirits. Their main diet is human flesh and they use deceptio
 - **Intelligence:** Animal
 - **Alignment:** Neutral
 - **Level/XP:**
-  - (7 HD) 6/625+8/hp
-  - (8 HD) 6/950+10/hp
-  - (9 HD) 7/1,400+12/hp
-  - (10 HD) 7/1,700+13/hp
-  - (11 HD) 7/2,100+14/hp
-  - (12 HD) 8/3,000+16/hp
-  - (13 HD) 8/3,500+17/hp
-  - (14 HD) 8/4,200+18/hp
+    - (7 HD) 6/625+8/hp
+    - (8 HD) 6/950+10/hp
+    - (9 HD) 7/1,400+12/hp
+    - (10 HD) 7/1,700+13/hp
+    - (11 HD) 7/2,100+14/hp
+    - (12 HD) 8/3,000+16/hp
+    - (13 HD) 8/3,500+17/hp
+    - (14 HD) 8/4,200+18/hp
 
 These great polar worms are found only in arctic areas. The remorhaz attacks on sight, and if encountered in its lair there is a 1 in 4 chance it has a mate and 1d3 eggs; the eggs can be sold on some markets for 5,000 gp each.
 

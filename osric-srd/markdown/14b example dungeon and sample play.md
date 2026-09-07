@@ -25,13 +25,13 @@ The party will find the stream is initially shallow and follows the depths of th
 
 1. **Guard Cave:** The stream continues through this area and flows out through a smaller tunnel to the north. Attempts to follow the stream will be difficult, if not impossible, as the tunnel rapidly narrows until it is filled by the rushing water. This cave is occupied by 6 orcs (hp 6, 6, 5, 5, 3, 3) each armed with spears and hand axes. Unless the party takes extreme caution, any entrance through the stream tunnel will cause ripples thus alerting the guards. They will attempt to surprise and attack the first PC to enter by hurling hand axes and then attacking with spear thrusts. Each guard carries 2d6 sp and 2d8 cp on him. This room is occupied with sleeping skins, food of the most terrible sort, and water skins. A crude playing table is covered with a pair of knuckle bone dice, 24 sp and 7 gp.
 
-2. **Common Sleeping Area:** All orcs live here unless occupied elsewhere. Enough sleeping skins and cots are present for the entire contingent. A central fireplace creates a smoky atmosphere. This common area is filled with long rough tables, captured tapestries (4 worth 50 gp each; the rest are worthless), assorted silverware and other utensils worth a total of 250 gp, and the stuffed and mounted head of a manticore (the orc leader claims to have slain the creature singlehandedly; in actuality he found it already dead from old age and took the head as a trophy... the astute PC will notice the head has no teeth). 12 orcs (hp 8, 8, 7, 7, 6, 6, 5, 5, 5, 4, 4, and 4) stay here when not on duty in the GUARD CAVE or needed elsewhere. Of these, ten wear leather armour. Six are armed with spears and hand axes, four are armed with short swords and spears, and the two orcs with 8 hp are armed with broad swords and wearing chainmail armour and carry shields. The two toughest orcs keep on their persons 3d20 gp and 4d8 sp each. The remainder possess 2d6 gp and 2d20 cp each.
+2. **Common Sleeping Area:** All orcs live here unless occupied elsewhere. Enough sleeping skins and cots are present for the entire contingent. A central fireplace creates a smoky atmosphere. This common area is filled with long rough tables, captured tapestries (4 worth 50 gp each; the rest are worthless), assorted silverware and other utensils worth a total of 250 gp, and the stuffed and mounted head of a manticore (the orc leader claims to have slain the creature single-handedly; in actuality he found it already dead from old age and took the head as a trophy... the astute PC will notice the head has no teeth). 12 orcs (hp 8, 8, 7, 7, 6, 6, 5, 5, 5, 4, 4, and 4) stay here when not on duty in the GUARD CAVE or needed elsewhere. Of these, ten wear leather armour. Six are armed with spears and hand axes, four are armed with short swords and spears, and the two orcs with 8 hp are armed with broad swords and wearing chainmail armour and carry shields. The two toughest orcs keep on their persons 3d20 gp and 4d8 sp each. The remainder possess 2d6 gp and 2d20 cp each.
 
 3. **Arsenal:** Assorted arms captured on raids and not used by the orcs will be stacked in here. The inventory is as follows: 1 stack of 25 spears, 1 pile of 6 daggers, 1 pile of 5 short bows, 2 piles of 5 quivers each (one pile has all quivers fully filled; the second pile has quivers in various states of capacity), 1 stack of 8 short swords, and 1 stack of 5 halberds.
 
 4. **Dog Kennel:** The orcs keep 4 war dogs (hp 6, 5, 5, 5) here behind a crude wooden fence, and will retrieve them if any invading force totals four or more. Various bones, both animal and sapient, can be found scattered through this den, but there is nothing of value to be found.
 
-5. **Goods Storage:** the orcs keep in this cave all the assorted goods taken during raids. If the party has time, a thorough perusal of the contents will reveal: 3 barrels of oil, 200 lbs of various cloths in bolt form (worth 50 gp total), 30 various iron pots and pans, 14 books on various themes (none magical), 1500 lbs of lumber cut in various sizes and shapes, 1 keg of large nails, and 4 mounted animal heads (2 large deer, an ogre, and a Pegasus). <!-- printed as-is: NEW -->
+5. **Goods Storage:** the orcs keep in this cave all the assorted goods taken during raids. If the party has time, a thorough perusal of the contents will reveal: 3 barrels of oil, 200 lbs of various cloths in bolt form (worth 50 gp total), 30 various iron pots and pans, 14 books on various themes (none magical), 1500 lbs of lumber cut in various sizes and shapes, 1 keg of large nails, and 4 mounted animal heads (2 large deer, an ogre, and a Pegasus). <!-- printed as-is: see errata E93 -->
 
 ## SAMPLE PLAY SESSION
 
@@ -105,7 +105,7 @@ The party will find the stream is initially shallow and follows the depths of th
 
 **Chuck:** Oh. Never mind.
 
-**Bob:** Alright then, the NPC and the mule stay behind. Marching order as before, with the cleric bringing up the rear. The elf has his sling out, the dwarf his crossbow, I’ve got my spear, Alice is holding the torch, and the clEric has his hammer and shield. Everybody agree? <!-- printed as-is: NEW -->
+**Bob:** Alright then, the NPC and the mule stay behind. Marching order as before, with the cleric bringing up the rear. The elf has his sling out, the dwarf his crossbow, I’ve got my spear, Alice is holding the torch, and the clEric has his hammer and shield. Everybody agree? <!-- printed as-is: see errata E94 -->
 
 **All but GM:** Yup.
 
@@ -126,6 +126,56 @@ The party will find the stream is initially shallow and follows the depths of th
 **Bob:** [rolls] 2
 
 **All but GM:** *Groan*
+
+**GM:** Okay, as you file into the cavern you’re caught unawares for 2 segments…
+
+**Eric:** I’ve got a 16 dex!
+
+**GM:** Right, so Floppinjay is caught for 1 segment and everybody else for 2 segments by a half-dozen brownish-green fellows with bristly black hair and pink pig-snouts. They’re currently [rolls] 30 ft away to your right (the east), charging at you and hurling hand axes as they come. Segment 1, they charge 18 ft. Segment 2, they charge the remaining 12 ft, hurl their axes, and pull out spears. Only the first 3 of you are open targets, and only Hogarth and Groin can be hit. [Rolls] 4 attacks on the dwarf, 2 on the fighter. [Rolls] No hits on the fighter, 3 on the dwarf. [Rolls] 7 points total damage. 2 orcs on each of the dwarf, elf, and fighter. Actions for round one.
+
+**Bob:** Attack one of the orcs on me with my spear.
+
+**Eric:** Fighting retreat in a northerly direction.
+
+**Jason:** Drop my crossbow, pull out my axe and attack.
+
+**Chuck:** Can I move forward into the room?
+
+**GM:** No, Alice is blocking your way.
+
+**Chuck:** Right-o, then. I’ll wait for her to clear the way…
+
+**Mary:** Do we see or hear any orcs besides these 6?
+
+**GM:** No.
+
+**Mary:** Then I’ll drop my sleep spell right in the middle of the crowd.
+
+**GM:** OK, initiative. Beat a [rolls] 2.
+
+**Bob:** [rolls] 1. Crap!
+
+**GM:** The 2 orcs on Floppinjay follow him north and attack [roll] 1 miss, 1 hit. [rolls] 3 damage. <!-- printed as-is: see errata E95 -->
+
+**Eric:** Aiee!
+
+**GM:** 2 attacks on Hogarth [rolls] miss, miss. 2 attacks on Groin [rolls] miss, hit. [rolls] 5 damage.
+
+**Jason:** I’m down, -3 hit points.
+
+**GM:** You’re not dead but you’re unconscious and bleeding. You’re also underwater…
+
+**Jason:** *Gurgle, gurgle*
+
+**GM:** Bob, you’re up.
+
+**Bob:** Attacking the orc on the left. [rolls] 10.
+
+**GM:** That’s a miss…
+
+**Mary:** I step forward so Chuck can squeeze by and get to Jason. Then I cast my spell.
+
+**GM:** [rolls] The 4 orcs who were attacking Hogarth and Groin are all affected,
 
 <!-- p.156 -->
 
@@ -209,7 +259,7 @@ and so is Hogarth. Floppinjay and the 2 orcs who were on him are out of the area
 
 **GM:** You turn to see 4 large dogs bearing down on you from the northeast passage. They’re currently 80 ft away and charging.
 
-**Mary:** I guess those are the “dogs of war,” eh? I figured that was just a codephrase, like “Hey, Rube”…
+**Mary:** I guess those are the “dogs of war,” eh? I figured that was just a code-phrase, like “Hey, Rube”…
 
 **GM:** Nobody but Eric is in the room. Initiative? [rolls] Beat a 6.
 

@@ -5,7 +5,7 @@
 
 <!-- p.375 -->
 
-# APPENDIX A: COMPILED TABLES
+## APPENDIX A: COMPILED TABLES
 
 ## Strength Table
 
@@ -193,7 +193,7 @@
 
 ## Cleric Spells by Level
 
-| # | Level One | # | Level Two | # | Level Three | # | Level Four |
+|  | Level One |  | Level Two |  | Level Three |  | Level Four |
 |---|---|---|---|---|---|---|---|
 | 1 | Bless | 1 | Augury | 1 | Animate Dead | 1 | Cure Serious Wounds |
 | 2 | Command | 2 | Chant | 2 | Continual Light | 2 | Detect Lie |
@@ -208,7 +208,7 @@
 | 11 | Resist Cold | 11 | Speak With Animals | 11 | Remove Curse |  |  |
 | 12 | Sanctuary | 12 | Spiritual Weapon | 12 | Speak with Dead |  |  |
 
-| # | Level Five | # | Level Six | # | Level Seven |
+|  | Level Five |  | Level Six |  | Level Seven |
 |---|---|---|---|---|---|
 | 1 | Atonement | 1 | Aerial Servant | 1 | Astral Spell |
 | 2 | Commune | 2 | Animate Object | 2 | Control Weather |
@@ -249,7 +249,7 @@
 
 ## Druid Spells by Level
 
-| # | Level One | # | Level Two | # | Level Three | # | Level Four |
+|  | Level One |  | Level Two |  | Level Three |  | Level Four |
 |---|---|---|---|---|---|---|---|
 | 1 | Animal Friendship | 1 | Barkskin | 1 | Call Lightning | 1 | Animal Summoning I |
 | 2 | Detect Magic | 2 | Charm Person or Mammal | 2 | Cure Disease | 2 | Call Woodland Beings |
@@ -264,7 +264,7 @@
 | 11 | Shillelagh | 11 | Trip | 11 | Tree | 11 | Repel Insects |
 | 12 | Speak with Animals | 12 | Warp Wood | 12 | Water Breathing | 12 | Speak with Plants |
 
-| # | Level Five | # | Level Six | # | Level Seven |
+|  | Level Five |  | Level Six |  | Level Seven |
 |---|---|---|---|---|---|
 | 1 | Animal Growth | 1 | Animal Summoning III | 1 | Animate Rock |
 | 2 | Animal Summoning II | 2 | Anti-Animal Shell | 2 | Chariot of Fire |
@@ -355,7 +355,7 @@
 
 ## Illusionist Spells by Level
 
-| # | Level One | # | Level Two | # | Level Three | # | Level Four |
+|  | Level One |  | Level Two |  | Level Three |  | Level Four |
 |---|---|---|---|---|---|---|---|
 | 1 | Audible Glamour | 1 | Blindness | 1 | Continual Darkness | 1 | Confusion |
 | 2 | Change Self | 2 | Blur | 2 | Continual Light | 2 | Dispel Exhaustion |
@@ -370,7 +370,7 @@
 | 11 | Phantasmal Force | 11 | Misdirection | 11 | Spectral Force |  |  |
 | 12 | Wall of Fog | 12 | Ventriloquism | 12 | Suggestion |  |  |
 
-| # | Level Five | # | Level Six | # | Level Seven |
+|  | Level Five |  | Level Six |  | Level Seven |
 |---|---|---|---|---|---|
 | 1 | Chaos | 1 | Conjure Animals | 1 | Alter Reality |
 | 2 | Demi-Shadow Monsters | 2 | Demi-Shadow Magic | 2 | Astral Spell |
@@ -397,7 +397,7 @@
 
 ### Magic User To Hit Table
 
-**Roll required to hit Armour Class** <!-- printed as-is: NEW -->
+**Roll required to hit Armour Class** <!-- printed as-is: see errata E361 -->
 
 | Level | -10 | -9 | -8 | -7 | -6 | -5 | -4 | -3 | -2 | -1 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -409,7 +409,7 @@
 
 ## Magic User Spells by Level
 
-| # | Level One | # | Level Two | # | Level Three | # | Level Four |
+|  | Level One |  | Level Two |  | Level Three |  | Level Four |
 |---|---|---|---|---|---|---|---|
 | 1 | Affect Normal Fires | 1 | Audible Glamour | 1 | Blink | 1 | Charm Monster |
 | 2 | Burning Hands | 2 | Continual Light | 2 | Clairaudience | 2 | Confusion |
@@ -444,7 +444,7 @@
 
 <!-- p.382 -->
 
-| # | Level Five | # | Level Six | # | Level Seven | # | Level Eight |
+|  | Level Five |  | Level Six |  | Level Seven |  | Level Eight |
 |---|---|---|---|---|---|---|---|
 | 1 | Airy Water | 1 | Anti-Magic Shell | 1 | Cacodemon | 1 | Antipathy/ Sympathy |
 | 2 | Animal Growth | 2 | Control Weather | 2 | Charm Plants | 2 | Clenched Fist |
@@ -471,7 +471,7 @@
 | 23 | Wall of Iron | 23 | Stone to Flesh |  |  |  |  |
 | 24 | Wall of Stone | 24 | Transformation |  |  |  |  |
 
-| # | Level Nine |
+|  | Level Nine |
 |---|---|
 | 1 | Astral Spell |
 | 2 | Crushing Hand |
@@ -560,7 +560,7 @@
 
 <!-- p.384 -->
 
-## Thief Skills Table—Base chance <!-- printed as-is: NEW -->
+## Thief Skills Table—Base chance <!-- printed as-is: see errata E362 -->
 
 | Level | Climb Walls | Find Traps | Hear Noise | Hide in Shadows | Move Quietly | Open Locks | Pick Pockets | Read Languages |
 |---|---|---|---|---|---|---|---|---|
@@ -589,7 +589,7 @@
 | 23 | 99% | 99% | 76% | 98% | 98% | 98% | 98% | 98% |
 | 24 | 99% | 99% | 79% | 99% | 99% | 99% | 99% | 99% |
 
-## Thief Skills Table—Dexterity adjustments <!-- printed as-is: NEW -->
+## Thief Skills Table—Dexterity adjustments <!-- printed as-is: see errata E363 -->
 
 | Dexterity | Climb Walls | Find Traps | Hear Noise | Hide in Shadows | Move Quietly | Open Locks | Pick Pockets | Read Languages |
 |---|---|---|---|---|---|---|---|---|
@@ -672,7 +672,7 @@
 
 ## Melee Weapon Table
 
-| Weapon type<!-- printed as-is: NEW --> | Damage vs Small or Medium | Damage vs Large | Encumbrance | Cost |
+| Weapon type<!-- printed as-is: see errata E364 --> | Damage vs Small or Medium | Damage vs Large | Encumbrance | Cost |
 |---|---|---|---|---|
 | Arrows | 1d6 | 1d6 | 4 (per dozen) | 2 gp (per dozen) |
 | Axe, battle | 1d8 | 1d8 | 7 | 5 gp |
@@ -728,7 +728,7 @@
 
 | Weapon Type | Damage vs Small or Medium | Damage vs Large | Rate of Fire (in shots per round) | Range (-2 to hit per increment) | Encumbrance | Cost |
 |---|---|---|---|---|---|---|
-| Hammer | 1d4+1 | 1d4 | 1 | 10 ft | 5 | 1gp<!-- printed as-is: NEW --> |
+| Hammer | 1d4+1 | 1d4 | 1 | 10 ft | 5 | 1gp |
 | Javelin | 1d6 | 1d4 | 1 | 20 ft | 2 | 5 sp |
 | Sling | 1d4+1 or 1d4 | 1d6+1 or 1d4 | 1 | 35 ft | ½ | 5 sp |
 | Spear | 1d6 | 1d8 | 1 | 15 ft | 5 | 1 gp |
@@ -755,7 +755,7 @@
 | Splint | 40 lbs | 60 ft | -6 | 80 gp |
 | Studded | 20 lbs | 90 ft | -3 | 15 gp |
 
-* For non-magic armour.  Magic armour is un-encumbering, and allows a maximum move rate 30 ft faster than normal (up to 120 ft). Magic shields weigh as much as normal shields of the same type.
+* For non-magic armour. Magic armour is un-encumbering, and allows a maximum move rate 30 ft faster than normal (up to 120 ft). Magic shields weigh as much as normal shields of the same type.
 
 ## Item Saving Throw Table
 

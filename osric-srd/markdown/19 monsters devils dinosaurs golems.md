@@ -45,17 +45,17 @@ squabbling and rivalries are common amongst devils. Amongst the archdevils thems
 
 All devils can move between the various planes of Hell, although this usually requires permission from the archdevil who rules the particular plane. Devils may also move at will to Gehenna, Hades, and Acheron. Similarly, they can also travel to the Astral Plane, but this is rare. Devils are not allowed to enter the other planes (e.g. the Prime Material) without a proper summoning, a *gate* spell, or the invocation of their secret name (if they have one).
 
-All devils possess special, magical abilities which may vary according to individual type. They can use these abilities at will one at a time. These abilities are: *animate dead* (as the 5th level magic user spell), *charm person* (as the 1st level magic user spell), *fear* (effect varies, as the 4th level magic user spell), *know alignment* (as the 2nd level cleric spell), *phantasmal force* (as the 3rd level magic user spell), *suggestion* (as the 3rd level magic user spell), *teleport* (no chance of error, otherwise as the 5th level magic user spell), and summoning other devils (varies, as the 3rd level magic user spell *monster summoning I*.<!-- printed as-is: NEW -->
+All devils possess special, magical abilities which may vary according to individual type. They can use these abilities at will one at a time. These abilities are: *animate dead* (as the 5th level magic user spell), *charm person* (as the 1st level magic user spell), *fear* (effect varies, as the 4th level magic user spell), *know alignment* (as the 2nd level cleric spell), *phantasmal force* (as the 3rd level magic user spell), *suggestion* (as the 3rd level magic user spell), *teleport* (no chance of error, otherwise as the 5th level magic user spell), and summoning other devils (varies, as the 3rd level magic user spell *monster summoning I*.<!-- printed as-is: see errata E149 -->
 
 All devils have infravision and may understand and communicate in any language.
 
-Only the material form of a devil may be killed. To actually slay a devil one must do so in the planes of Hell or a neighbouring lower plane. If its material form is slain, a devil must return to its home plane in Hell for 9 decades of servitude as a lemure before it will resume its home plane in Hell for 9 decades of servitude as a lemure before they will resume their former status.
+Only the material form of a devil may be killed. To actually slay a devil one must do so in the planes of Hell or a neighbouring lower plane. If its material form is slain, a devil must return to its home plane in Hell for 9 decades of servitude as a lemure before it will resume its home plane in Hell for 9 decades of servitude as a lemure before they will resume their former status.<!-- printed as-is: see errata E150 -->
 
 Once combat is joined with devils, they can never be subdued. In dire circumstances the major devils and archdevils may be willing to negotiate. Lesser devils will madly fight to the death. If it is to their advantage, devils can split their attacks among 2 or more targets.
 
 Devils are exceptionally conscious of any kind of laws or contracts binding them to certain behaviour, and are profoundly adept at exploiting hidden loopholes. Negotiating with them can be quite tedious as every minute detail and exigency must be properly accounted for.
 
-Just as when summoning a demon, proper inscription of a magical circle of protection is necessary for the conjurer's safety when attempting to summon a devil. These circles are type-specific, with more powerful devils requiring proportionately more complex and expensive circles. Devils are also repulsed by good artifacts.
+Just as when summoning a demon, proper inscription of a magical circle of protection is necessary for the conjurer’s safety when attempting to summon a devil. These circles are type-specific, with more powerful devils requiring proportionately more complex and expensive circles. Devils are also repulsed by good artifacts.
 
 Devils are susceptible to attack as noted in the table below;
 
@@ -291,7 +291,7 @@ In combat, these devils will usually rely on their claws, mandibles, and tails. 
 
 Ice devils exude *fear* (as the 4th level magic user spell) in a 10 ft radius. They also have infravision (60 ft) which is useful in their frigid lairs. If injured, they will regenerate 1 hp per round. In addition, ice devils have these special abilities which they can use one at a time, at will: *detect invisibility* (as the 2nd level magic user spell), *detect magic* (as the 1st level magic user spell), *fly* (as the 3rd level magic user spell), *polymorph self* (as the 4th level magic user spell), *wall of ice* (as the 4th level magic user spell), or *gate* in 2 bone devils (70%) or another ice devil (30%) with a 60% chance of success in either case. Once per day, an ice devil can call forth an *ice storm* (as the 4th level magic user spell).
 
-***Treasure:*** If their lair is plundered, ice devils will have a buried cache containing 2d4×1,000 gp (40%), 1d6×10 pp (50%), 4d8 gems (55%) , and 1d12 jewellery (45%).<!-- printed as-is: NEW -->
+***Treasure:*** If their lair is plundered, ice devils will have a buried cache containing 2d4×1,000 gp (40%), 1d6×10 pp (50%), 4d8 gems (55%) , and 1d12 jewellery (45%).<!-- printed as-is: see errata E151 -->
 
 ### Imp *(Lesser Devil)*
 
@@ -316,11 +316,11 @@ Ice devils exude *fear* (as the 4th level magic user spell) in a 10 ft radius. T
 
 Imps are formed from soul worms, created by archdevils to spread evil through service to a lawful evil priest or sorcerer. They are very rarely encountered on the Prime Material Plane, but are commonly seen in the lower planes. They have only average intelligence, but in their role as familiars they are able to rely on the knowledge of their archdevil master.
 
-Imps are created with the innate ability to *polymorph self*. The GM should choose two of the following forms (giant rat, goat, large spider, raven). In their polymorphed form, imps are limited to that animal's natural attacks. In their natural form, imps attack with their poison-tipped tail stingers. Any victim struck must save vs poison or die.
+Imps are created with the innate ability to *polymorph self*. The GM should choose two of the following forms (giant rat, goat, large spider, raven). In their polymorphed form, imps are limited to that animal’s natural attacks. In their natural form, imps attack with their poison-tipped tail stingers. Any victim struck must save vs poison or die.
 
 Imps are immune to normal melee and missile weapons. Only silver and +1 or better magical weapons can damage them. Imps are also immune to cold, fire, and electrical attacks. Imps also have several special abilities, which they can use in whatever form they are in, one at a time at will. These are: *detect good* (as the 2nd level magic user spell), *detect magic* (as the 1st level magic user spell), and *invisibility* (as the 2nd level magic user spell). Once per day, an Imp can cast a *suggestion* (as the 3rd level magic user spell). Once per week it can *commune* with the lower planes (6 questions maximum, otherwise as the 5th level cleric spell).
 
-When serving as a familiar to an evil magic user or cleric, the Imp imparts the following benefits to its master: Constant full-sensory telepathic contact between the Imp and the master up to 1 mile in range. If the master is within 25 feet of the imp, the former gains the Imp's 25% magic resistance and its regeneration ability (1 hp/round). If the master is within 1 mile of the Imp, the former gains an additional level of ability. However, if the imp is killed, the master immediately loses 4 ability levels.
+When serving as a familiar to an evil magic user or cleric, the Imp imparts the following benefits to its master: Constant full-sensory telepathic contact between the Imp and the master up to 1 mile in range. If the master is within 25 feet of the imp, the former gains the Imp’s 25% magic resistance and its regeneration ability (1 hp/round). If the master is within 1 mile of the Imp, the former gains an additional level of ability. However, if the imp is killed, the master immediately loses 4 ability levels.
 
 ***Treasure:*** Imps normally possess no treasure of any kind. If encountered in their lair in the lower planes however, they might have a small hoard of 1d4×1,000 cp (25%) and 1d3×1,000 sp (20%).
 
@@ -373,7 +373,7 @@ Lemures cannot normally be destroyed, except by blessed or holy items or weapons
 | **Alignment:** | Lawful evil | Lawful evil | Lawful evil | Lawful evil | Lawful evil |
 | **Level/XP:** | 6/855+10/hp | 6/550+6/hp | 6/550+6/hp | 5/320+5/hp | 6/650+8/hp |
 
-The scaly devils known as the scaly devil are quite common on the upper planes of Hell. Most scaly devils serve the five-headed dragon queen of Hell.
+The scaly devils known as the scaly devil are quite common on the upper planes of Hell.<!-- printed as-is: see errata E152 --> Most scaly devils serve the five-headed dragon queen of Hell.
 
 Their appearance epitomizes the human idea of what a devil should look like. They are humanoid-shaped with horns, bat-like wings, and a long spiked tail. Their scaled hide varies, as there are 5 distinct breeds of scaly devil: black, blue, green, red, and white.
 
@@ -433,7 +433,7 @@ Spiked devils are small and weak compared to the other devils, but are amongst t
 
 In melee, they usually attack with a trident, fork, or similar pole arm. When flying and attacking a target on the ground, they can also attack with their clawed feet.
 
-Their spines are also an effective weapon, and burst into flame when plucked from the devil's back. If attacking from above, these devils can also shoot up to 12 of their spines (1d4 damage, like a dart). In melee, should they choose to grapple, 1d4 of the spines will damage the opponent. In any case, the spines should be considered as a flaming attack.
+Their spines are also an effective weapon, and burst into flame when plucked from the devil’s back. If attacking from above, these devils can also shoot up to 12 of their spines (1d4 damage, like a dart). In melee, should they choose to grapple, 1d4 of the spines will damage the opponent. In any case, the spines should be considered as a flaming attack.
 
 Spiked devils also have the following special abilities which they can use one at a time, at will: *affect normal fires* (as the 1st level magic user spell), *change self* (as the 1st level illusionist spell), *command* (as the 1st level cleric spell), *produce flame* (as the 2nd level druid spell), and *scare* (as the 2nd level magic user spell). Once per day they can attempt to summon a barbed devil (5% chance of success).
 
@@ -495,7 +495,7 @@ Soul worms are the remains of the most base and any evil souls who have been imp
 
 In OSRIC the “dinosaur” category also includes other creatures contemporaneous with or predating the dinosaurs. This means that for the purposes of the OSRIC core rules, prehistoric creatures such as dimetrodon or plesiosaurus are included with “dinosaurs”, even though palaentologists classify them separately.
 
-These rules do include an indication of the rough period in which the dinosaur lived, but dinosaur-infested areas often resemble Sir Arthur Conan Doyle's *The Lost World* in that a mishmash of dinosaurs from different times co-exist. Dinosaur areas are only really suitable for relatively high-level play. Portals to such areas can sometimes be found in the nethermost depths of large dungeons.
+These rules do include an indication of the rough period in which the dinosaur lived, but dinosaur-infested areas often resemble Sir Arthur Conan Doyle’s *The Lost World* in that a mishmash of dinosaurs from different times co-exist. Dinosaur areas are only really suitable for relatively high-level play. Portals to such areas can sometimes be found in the nethermost depths of large dungeons.
 
 ### Tyrannosaurids and Allosaurids
 
@@ -510,7 +510,7 @@ These rules do include an indication of the rough period in which the dinosaur l
 | **Attacks:** | 1 | 1 | 1 | 1 | 1 | 1 |
 | **Damage:** | 2d6 | 3d6 | 3d6 | 3d8 | 3d8 | 3d10 |
 | **Special Attacks:** | None | None | None | None | None | None |
-| **Special Defences:** | None | None | None | None | None |  <!-- printed as-is: NEW --> |
+| **Special Defences:** | None | None | None | None | None |  <!-- printed as-is: see errata E153 --> |
 | **Magic Resistance:** | Standard | Standard | Standard | Standard | Standard | Standard |
 | **Lair Probability:** | 15% | 15% | 15% | 15% | 15% | 15% |
 | **Intelligence:** | Non- | Non- | Non- | Non- | Non- | Non- |
@@ -574,13 +574,13 @@ Herbivores who foraged on all fours and ran on hind legs, there are two main fam
 | **Alignment:** | Neutral | Neutral | Neutral | Neutral | Neutral | Neutral |
 | **Level/XP:** | 9/2,500+35/hp | 9/2,500+35/hp | 9/2,500+35/hp | 8/2,000+30/hp | 8/2,000+30/hp | 9/2,500+35/hp |
 
-Large quadrupedal herbivores with elephantine bodies and extremely long necks and tails, the sauropods are herd animals. They can bite, but are only really dangerous when they trample. Trampling automatically kills any creature weighing less than a ton in their path—saving throw vs death to avoid. A whole herd stampeding is an impressive sight, best viewed from a safe distance. In fantasy gaming
+Large quadrupedal herbivores with elephantine bodies and extremely long necks and tails, the sauropods are herd animals. They can bite, but are only really dangerous when they trample. Trampling automatically kills any creature weighing less than a ton in their path—saving throw vs death to avoid. A whole herd stampeding is an impressive sight, best viewed from a safe distance. In fantasy gaming environments sauropods might make good meat animals or beasts of burden.
+
+*Apatosaurus:* Jurassic herbivore, once called brontosaurus. *Diplodocus:* Jurassic herbivore, famously long. *Brachiosaurus:* Jurassic herbivore; long thought to be the largest land dinosaur. *Argentinosaurus:* Cretaceous herbivore, relatively recently discovered, twice as massive
 
 <!-- p.235 -->
 
-environments sauropods might make good meat animals or beasts of burden.
-
-*Apatosaurus:* Jurassic herbivore, once called brontosaurus. *Diplodocus:* Jurassic herbivore, famously long. *Brachiosaurus:* Jurassic herbivore; long thought to be the largest land dinosaur. *Argentinosaurus:* Cretaceous herbivore, relatively recently discovered, twice as massive as Brachiosaurus. *Camarasaurus:* Very common Jurassic herbivore. *Cetiosaurus:* Jurassic herbivore, earlier relative of the other types<!-- printed as-is: NEW -->
+as Brachiosaurus. *Camarasaurus:* Very common Jurassic herbivore. *Cetiosaurus:* Jurassic herbivore, earlier relative of the other types<!-- printed as-is: see errata E154 -->
 
 ***Treasure:*** None (for all sauropods).
 
@@ -604,11 +604,11 @@ environments sauropods might make good meat animals or beasts of burden.
 | **Alignment:** | Neutral | Neutral | Neutral | Neutral | Neutral | Neutral |
 | **Level/XP:** | 4/200+4/hp | 5/500+8/hp | 5/400+8/hp | 7/1,000+18/hp | 5/550+8/hp | 8/2,000+20/hp |
 
-Ceratopsians are quadrupedal beasts with horns and bony head armour. They fill the rhinoceros' ecological niche. Ceratopsians are bad-tempered and prone to charge, making them among the most dangerous of the dinosaur herbivorous species. They were extremely common during the late cretaceous period. The best-known and most common of these creatures, triceratops, was probably about twice as heavy as an elephant. Ceratopsians have two AC scores: one for their armoured heads, the other for their bodies.
+Ceratopsians are quadrupedal beasts with horns and bony head armour. They fill the rhinoceros’ ecological niche. Ceratopsians are bad-tempered and prone to charge, making them among the most dangerous of the dinosaur herbivorous species. They were extremely common during the late cretaceous period. The best-known and most common of these creatures, triceratops, was probably about twice as heavy as an elephant. Ceratopsians have two AC scores: one for their armoured heads, the other for their bodies.
 
 If a ceratopsian exceeds its required to hit roll by 4 or more, it has knocked down its target and will stomp on it for the listed extra damage.
 
-*Pentaceratops:* Cretaceous herbivore, resembling a triceratops with a longer neck-frill and two extra horns protruding from under its eyes. *Triceratops:* Cretaceous herbivore. Unlike most other ceratopsians it does not seem to have lived in herds. *Diceratops:* Cretaceous herbivore; extremely rare compared to triceratops. *Styracosaurus:* Cretaceous herbivore with a distinctive spiky neck-frill; about half the size of triceratops. *Monoclonius:* Cretaceous herbivore with only one horn. *Centrosaurus:* Cretaceous herbivore that seems to have lived in very large herds.
+*Pentaceratops:* Cretaceous herbivore, resembling a triceratops with a longer neck-frill and two extra horns protruding from under its eyes. *Triceratops:* Cretaceous herbivore. Unlike most other ceratopsians it does not seem to have lived in herds. *Diceratops:* Cretaceous herbivore; extremely rare compared to triceratops.<!-- printed as-is: see errata E155 --> *Styracosaurus:* Cretaceous herbivore with a distinctive spiky neck-frill; about half the size of triceratops. *Monoclonius:* Cretaceous herbivore with only one horn. *Centrosaurus:* Cretaceous herbivore that seems to have lived in very large herds.
 
 ***Treasure:*** None (for all ceratopsians).
 
@@ -634,7 +634,7 @@ If a ceratopsian exceeds its required to hit roll by 4 or more, it has knocked d
 
 <!-- p.236 -->
 
-A miscellany of other kinds of dinosaur, including some (*Anklyosaurus* and *Stegosaurus*) with bony, armoured backs..<!-- printed as-is: NEW --> Both these creatures have an effective attack by clubbing with their tails. GMs who are fans of *Jurassic Park* may wish to increase the Velociraptor's intelligence score to “semi-” or even “low”.
+A miscellany of other kinds of dinosaur, including some (*Anklyosaurus* and *Stegosaurus*) with bony, armoured backs..<!-- printed as-is: see errata E156 --> Both these creatures have an effective attack by clubbing with their tails. GMs who are fans of *Jurassic Park* may wish to increase the Velociraptor’s intelligence score to “semi-” or even “low”.
 
 *Anklyosaurus:* Cretaceous herbivore. *Ceratosaurus:* Jurassic carnivore. *Plateosaurus:* Triassic herbivore. *Iguanodon:* Cretaceous herbivore. *Stegosaurus:* Jurassic herbivore. *Velociraptor:* Cretaceous carnivore.
 
@@ -686,11 +686,11 @@ A miscellany of other kinds of dinosaur, including some (*Anklyosaurus* and *Ste
 | **Alignment:** | Neutral | Neutral | Neutral | Neutral | Neutral | Neutral |
 | **Level/XP:** | 5/475+10/hp | 6/1,000+12/hp | 7/2,000+16/hp | 6/1,200+16/hp | 6/1,000+12/hp | 9/5,000+25/hp |
 
-None of these creatures are technically dinosaurs, though all are found in “Lost World” areas. *Dunkleosteus* can
+None of these creatures are technically dinosaurs, though all are found in “Lost World” areas. *Dunkleosteus* can swallow prey whole on a roll of “20” to hit (see “Fish, Giant: Gar”) and actually preceded the dinosaurs by many
 
 <!-- p.237 -->
 
-swallow prey whole on a roll of “20” to hit (see “Fish, Giant: Gar”) and actually preceded the dinosaurs by many millions of years. *Elasmosaurus* can also swallow whole, needing only 18-20 to do so but otherwise as *Dunkleosteus*. *Mosasaurus* filled the same ecological niche as sharks. Plesiosaurs may have preferred smaller prey than a man but would still be dangerous. *Nothosaurs* were amphibious, like huge seals, and could move on land at 60 ft. *Archelon* was a kind of gigantic turtle.
+millions of years. *Elasmosaurus* can also swallow whole, needing only 18-20 to do so but otherwise as *Dunkleosteus*. *Mosasaurus* filled the same ecological niche as sharks. Plesiosaurs may have preferred smaller prey than a man but would still be dangerous. *Nothosaurs* were amphibious, like huge seals, and could move on land at 60 ft. *Archelon* was a kind of gigantic turtle.
 
 *Dunkleosteus:* Formerly known as *Dinichthys*; Devonian carnivore. *Elasmosaurus:* Cretaceous carnivore. *Mosasaurus:* Cretaceous carnivore. *Plesiosaurus:* Jurassic carnivore. *Nothosaurus:* Triassic carnivore. *Archelon:* Cretaceous carnivore.
 
@@ -716,9 +716,10 @@ swallow prey whole on a roll of “20” to hit (see “Fish, Giant: Gar”) and
 | **Alignment:** | Neutral | Neutral | Neutral | Neutral | Neutral |
 | **Level/XP:** | 5/475+10/hp | 6/1,000+12/hp | 7/2,000+16/hp | 6/1,200+16/hp | 6/1,000+12/hp |
 
-<!-- printed as-is: NEW — this table's Hit Dice, Attacks, Damage, Special
-Attacks, Special Defences, Magic Resistance, Lair Probability, Intelligence,
-Alignment and Level/XP rows are identical, column for column, to the first
+<!-- printed as-is: see errata E157 — this table's Armour Class, Hit Dice, Attacks,
+Damage, Special Attacks, Special Defences, Magic Resistance, Lair Probability,
+Intelligence, Alignment and Level/XP rows (eleven consecutive rows, Armour
+Class through Level/XP) are identical, column for column, to the first
 five columns of the Marine Dinosaurs table above (Archelon/Dunkleosteus/
 Elasmosaurus/Mosasaurus/Nothosaurus), including "Swallow whole" as a Special
 Attack for Pteradon and Pterodactyl. Confirmed at 300 dpi against the raster
@@ -727,7 +728,7 @@ artefact; reproduced as printed. -->
 
 *Pterodactyl* was really several different kinds of creature, here lumped together. *Quetzalcoatlus* is assumed to have filled the raptor niche, while the other flying dinosaurs are assumed to have been found in flocks.
 
-*Pteranodon:* Cretaceous carnivore. *Pterodactyl:* Jurassic carnivore. *Archaeopteryx:* Jurassic carnivore; no bigger than an ordinary bird. *Quetzalcoatlus:* Cretaceous carnivore, huge for a flying creature. *Rhamphorhynchus:* Jurassic carnivore.
+*Pteranodon:* Cretaceous carnivore. *Pterodactyl:* Jurassic carnivore. *Archaeopteryx:* Jurassic carnivore; no bigger than an ordinary bird. *Quetzalcoatlus:* Cretaceous carnivore, huge for a flying creature. *Rhamphorhynchus:* Jurassic carnivore.<!-- printed as-is: see errata E158 -->
 
 ***Treasure:*** None (for all).
 
@@ -739,7 +740,7 @@ The golems listed below are typically humanoid in shape with size listed separat
 
 A golem has hit dice equal to its hit points divided by 4.5 rounded up; thus, for example, a stone golem has 14 hit dice (60 hp/4.5).
 
-Magical creatures may strike a golem with effect if the creature's hit dice equal or exceed that of the golem.
+Magical creatures may strike a golem with effect if the creature’s hit dice equal or exceed that of the golem.
 
 |  | Clay | Flesh | Iron | Stone |
 |---|---|---|---|---|
@@ -767,7 +768,7 @@ Damage inflicted by a clay golem can only be healed by a cleric of 17th level or
 
 A clay golem is under the direct command of its creator. It stands a 1% cumulative chance of possession by a spirit of chaotic evil alignment for each round the golem is in combat. The creator can never regain control if the golem is possessed. Once possessed, the golem will kill any nearby living thing starting with the closest creature and will haste itself if it has not already done so.
 
-**Flesh Golem:** A flesh golem follows simple commands by its creator, and can be ordered to stop all activity until a specific event takes place. For each melee round spent in combat, the flesh golem stands a 1% cumulative chance of going berserk and attacking all targets in sight. The golem's creator can attempt to re-assert control at a chance of 10% per round.
+**Flesh Golem:** A flesh golem follows simple commands by its creator, and can be ordered to stop all activity until a specific event takes place. For each melee round spent in combat, the flesh golem stands a 1% cumulative chance of going berserk and attacking all targets in sight. The golem’s creator can attempt to re-assert control at a chance of 10% per round.
 
 A flesh golem is extremely strong and can break down doors and other wooden structures. It cannot be damaged with normal weapons; magical weapons damage normally.
 
@@ -779,13 +780,13 @@ A flesh golem is created with a magical tome written for such a process or by a 
 
 An iron golem is three times as strong as a flesh golem. In addition to its normal damage, once every 7 combat rounds an iron golem may breathe poison gas directly before it in a cloud of 10 cubic ft.
 
-Only magical weapons of +3 or greater in nature can deal damage to an iron golem. Only electrical magical attacks can affect it; such spells will slow the golem to one-half speed for 3 combat rounds. Fire attacks repair damage to the golem at a rate of one hit point per die of spell damage (i.e.: a six hit die fireball will repair 6 hp of damage).
+Only magical weapons of +3 or greater in nature can deal damage to an iron golem. Only electrical magical attacks can affect it; such spells will slow the golem to one-half speed for 3 combat rounds. Fire attacks repair damage to the golem at a rate of one hit point per die of spell damage (i.e.: a six hit die fireball will repair 6 hp of damage).<!-- printed as-is: see errata E159 -->
 
 **Stone Golem:** A stone golem is created through use of a magical text or by a 16th or higher level magic user using the following spells: *geas*, *slow*, *wish* and *polymorph any object*. Creation time is two months and cost is 1,000 gp per hit point of the golem.
 
 The magic user can control his or her creation through simple commands. The golem can also be ordered to suspend movement until a particular condition is met. A stone golem can cast a *slow* spell every other melee round on all opponents within 10 ft of its front.
 
-Only magical weapons of +2 or greater bonus can harm a stone golem.  Such a golem is also invulnerable to most magic, the only exceptions being *rock to mud* which halves the golem's attack and movement speed for 2d6 rounds, *stone to flesh* which makes it susceptible to normal weapons for one round, and *mud to rock* which acts as a *heal* spell on the monster.
+Only magical weapons of +2 or greater bonus can harm a stone golem. Such a golem is also invulnerable to most magic, the only exceptions being *rock to mud* which halves the golem’s attack and movement speed for 2d6 rounds, *stone to flesh* which makes it susceptible to normal weapons for one round, and *mud to rock* which acts as a *heal* spell on the monster.
 
 ***Treasure:*** None (for all golems).
 
@@ -793,7 +794,7 @@ Only magical weapons of +2 or greater bonus can harm a stone golem.  Such a gole
 
 A lycanthrope is a human with the ability to change his or her shape to some animal form during the night hours. A full moon is 90% likely to trigger the transition to animal form automatically. Any humanoid bitten by a lycanthrope and damaged for 50% or more of its total hp who survives will contract the lycanthropic disease of its attacker. A *cure disease* from a cleric of 12th level or higher will remove the disease if performed within three days of the attack. If the victim ingests belladonna within one hour after the attack there is a 25% chance the disease will be cured. However, swallowing belladonna in such a manner will incapacitate the victim for 1d4 days; there is also a 1% chance of the herb killing the victim.
 
-A lycanthrope's “size” stat shows its shapechanged size. In human form they are obviously always *man-sized*.
+A lycanthrope’s “size” stat shows its shapechanged size. In human form they are obviously always *man-sized*.
 
 Each type of lycanthrope has its own language. The five most common types are listed below.
 
@@ -832,7 +833,7 @@ Each type of lycanthrope has its own language. The five most common types are li
 
 ***Treasure:*** 1d12×1,000 cp (20%), 1d6×1,000 sp (30%), 1d4×1,000 ep (10%), 1d6 gems (25%), 1d3 jewellery (25%), any 2 magic items (10%)
 
-**Weretiger:** Most weretigers are female and live much like a normal tiger does, though associating with the normal breed only 5% of the time. They can rake with their rear claws like a normal tiger. All normal cats are 75% likely to be friendly to a weretiger due to the lycanthrope's ability to speak with them.
+**Weretiger:** Most weretigers are female and live much like a normal tiger does, though associating with the normal breed only 5% of the time. They can rake with their rear claws like a normal tiger. All normal cats are 75% likely to be friendly to a weretiger due to the lycanthrope’s ability to speak with them.
 
 ***Treasure:*** 1d8×1,000 cp (10%), 1d12×1,000 sp (15%), 1d8×1,000 ep (15%), 1d6×1,000 gp (50%), 2d6 gems (50%), 1d6 jewellery (25%), any 2 magic item + 1 potion (15%)
 

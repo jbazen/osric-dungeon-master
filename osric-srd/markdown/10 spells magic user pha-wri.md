@@ -119,9 +119,9 @@ For every intelligence point of the transformed creature, the base chance is red
 - **Casting Time:** 3 segments
 - **Saving Throw:** None
 
-This spell enables the magic user to cloak him- or herself in the physical shape of another creature, and to continue shape-shifting at will for the length of the spell’s duration. The transformation is of an entirely lesser order than that of *polymorph other*, incurring no risk of a system shock or of truly becoming the transformed creature. Changing from one shape to  another<!-- printed as-is: NEW --> requires only 30 seconds, and when the caster returns to his or her original form (ending the spell) he or she will be healed of 1d12 points of any damage inflicted against the polymorphed forms he or she assumed.
+This spell enables the magic user to cloak him- or herself in the physical shape of another creature, and to continue shape-shifting at will for the length of the spell’s duration. The transformation is of an entirely lesser order than that of *polymorph other*, incurring no risk of a system shock or of truly becoming the transformed creature. Changing from one shape to  another<!-- printed as-is: see errata E76 --> requires only 30 seconds, and when the caster returns to his or her original form (ending the spell) he or she will be healed of 1d12 points of any damage inflicted against the polymorphed forms he or she assumed.
 
-The caster can polymorph into forms no smaller than a songbird and no heavier than 2,000 lbs. Only the movement capabilities of the new form can be used, not its attacks, defences, or other abilities. The magic user can transform him- or herself into a lion, and run as fast as a lion, but his or her claws will do no more damage than a human’s soft fists. Similarly, if he or she transforms into a dragon, he or she will have the dragon’s ability to fly but no breath weapon. As an orc, he or she would be able to use whatever weapons he or she  could<!-- printed as-is: NEW --> use in his original shape, but would lack infravision. The caster retains his or her own hit points and armour class.
+The caster can polymorph into forms no smaller than a songbird and no heavier than 2,000 lbs. Only the movement capabilities of the new form can be used, not its attacks, defences, or other abilities. The magic user can transform him- or herself into a lion, and run as fast as a lion, but his or her claws will do no more damage than a human’s soft fists. Similarly, if he or she transforms into a dragon, he or she will have the dragon’s ability to fly but no breath weapon. As an orc, he or she would be able to use whatever weapons he or she  could<!-- printed as-is: see errata E77 --> use in his original shape, but would lack infravision. The caster retains his or her own hit points and armour class.
 
 ### Power Word, Blind
 
@@ -149,7 +149,7 @@ The word of power to blind removes vision from creatures within the area of effe
 - **Casting Time:** 1 segment
 - **Saving Throw:** None
 
-Upon the casting of this spell, the magic user specifies whether  the<!-- printed as-is: NEW --> spell is to kill one creature or multiple creatures. The spell will instantly deal death to a creature of up to 60 hit points, offering no saving throw (magic resistance does apply). The spell may, alternatively, be used to slaughter up to 120 hp of creatures with 10 or fewer hit points each. The total number of hit points is based upon the target’s current hit points, not maximum hit points, so wounded creatures are more vulnerable to the spell. All creatures to be killed must be within the spell’s area of effect.
+Upon the casting of this spell, the magic user specifies whether  the<!-- printed as-is: see errata E78 --> spell is to kill one creature or multiple creatures. The spell will instantly deal death to a creature of up to 60 hit points, offering no saving throw (magic resistance does apply). The spell may, alternatively, be used to slaughter up to 120 hp of creatures with 10 or fewer hit points each. The total number of hit points is based upon the target’s current hit points, not maximum hit points, so wounded creatures are more vulnerable to the spell. All creatures to be killed must be within the spell’s area of effect.
 
 ### Power Word, Stun
 
@@ -432,7 +432,7 @@ entirely. If a creature fails the saving throw, however, it will become frozen w
 - **Casting Time:** 1 turn
 - **Saving Throw:** None
 
-This spell allows the magic user to shift a magically crafted treasure chest into the æthereal plane, where it will be safe from those who might seek to steal the caster’s possessions. The chest itself must be crafted of the finest materials in order to support the spell’s magic, and it will cost a minimum of 5,000 gp to have a craftsman or craftsmen build it, together  with<!-- printed as-is: NEW --> a second, miniature copy. When the magic user casts the spell, one hand upon the chest and one upon the miniature, the chest disappears into the æthereal plane, together  with<!-- printed as-is: NEW --> its contents. These contents may be up to one cubic foot of material per caster level (and no more than this) regardless of the chest’s actual volume. If the chest contains any living matter, there is a 75% chance that the spell will completely fail, although if it should succeed, the living creature will be imprisoned in the æthereal plane until freed. The caster (and only the caster) can use the miniature chest to pull the larger one from the æther wherever he or she might be. It is possible, although not likely, that some æthereal creature or æthereal traveller might happen upon the chest while it is in the æthereal plane. So long as the chest remains in the æthereal plane, the magic user will still be able to retrieve it (although it may have been looted). No creature on the material plane has any chance using any magic known to humanity to locate a *secret chest* that has been hidden in the æthereal plane by means of this spell. After the spell duration expires, there is a cumulative 1 in 20 chance per day that the spell’s link to the chest will fail, and the chest will be irrecoverable.
+This spell allows the magic user to shift a magically crafted treasure chest into the æthereal plane, where it will be safe from those who might seek to steal the caster’s possessions. The chest itself must be crafted of the finest materials in order to support the spell’s magic, and it will cost a minimum of 5,000 gp to have a craftsman or craftsmen build it, together  with<!-- printed as-is: see errata E79 --> a second, miniature copy. When the magic user casts the spell, one hand upon the chest and one upon the miniature, the chest disappears into the æthereal plane, together  with<!-- printed as-is: see errata E80 --> its contents. These contents may be up to one cubic foot of material per caster level (and no more than this) regardless of the chest’s actual volume. If the chest contains any living matter, there is a 75% chance that the spell will completely fail, although if it should succeed, the living creature will be imprisoned in the æthereal plane until freed. The caster (and only the caster) can use the miniature chest to pull the larger one from the æther wherever he or she might be. It is possible, although not likely, that some æthereal creature or æthereal traveller might happen upon the chest while it is in the æthereal plane. So long as the chest remains in the æthereal plane, the magic user will still be able to retrieve it (although it may have been looted). No creature on the material plane has any chance using any magic known to humanity to locate a *secret chest* that has been hidden in the æthereal plane by means of this spell. After the spell duration expires, there is a cumulative 1 in 20 chance per day that the spell’s link to the chest will fail, and the chest will be irrecoverable.
 
 ### Shape Change
 
@@ -565,12 +565,11 @@ This spell confers tremendous protection against magical attacks that affect the
 - **Duration:** 1 round + 1 round/ level
 - **Area of Effect:** One creature
 - **Components:** V,S,M
+<!-- p.105 -->
 - **Casting Time:** 1 segment
 - **Saving Throw:** None
 
-<!-- p.105 -->
-
-When the magic user casts this spell, the recipient’s bare hands and feet become sticky enough to allow him or her to climb walls and even crawl along a ceiling. The movement rate for such climbing is 30 ft per round. The subject of this spell will  find<!-- printed as-is: NEW --> it difficult to employ tools or handle small objects with precision while the spell is in effect.
+When the magic user casts this spell, the recipient’s bare hands and feet become sticky enough to allow him or her to climb walls and even crawl along a ceiling. The movement rate for such climbing is 30 ft per round. The subject of this spell will  find<!-- printed as-is: see errata E81 --> it difficult to employ tools or handle small objects with precision while the spell is in effect.
 
 ### Spirit-Rack
 
@@ -632,7 +631,7 @@ This spell creates a nauseating cloud of vapours to billow forth in a location c
 
 <!-- p.106 -->
 
-The magic user moulds stone by the power of his or her will, shaping it into whatever object or form he or she desires, from a weapon to a sculpture to an ornate stone footstool. Whether  used<!-- printed as-is: NEW --> to decorate the wizard’s tower with gargoyles or to make an escape hole from a stone prison, this spell is extremely versatile and useful.
+The magic user moulds stone by the power of his or her will, shaping it into whatever object or form he or she desires, from a weapon to a sculpture to an ornate stone footstool. Whether  used<!-- printed as-is: see errata E82 --> to decorate the wizard’s tower with gargoyles or to make an escape hole from a stone prison, this spell is extremely versatile and useful.
 
 ### Stone to Flesh *(Reversible)*
 
@@ -741,8 +740,7 @@ The *teleport* spell permits the caster to transport him- or herself, and any ad
 | Very familiar | 01–97 | 98–99 | 100 | — |
 | Studied carefully | 01–94 | 95–97 | 98–99 | 100 |
 | Seen casually | 01–88 | 89–94 | 95–96 | 97–100 |
-| Viewed once | 01–76 | 77–88 | 89–90 | 99–100 |
-<!-- printed as-is: see errata E5 -->
+| Viewed once | 01–76 | 77–88 | 89–90 | 99–100<!-- printed as-is: see errata E5 --> |
 | False destination | (1d20+80) | — | 81–92 | 93–100 |
 
 To see how well the teleportation works, the player will roll d% and consult the preceding table. Refer to the following information for definitions of the terms contained in table:
@@ -780,12 +778,11 @@ This spell places the victim into a magical sleep so deep that it is akin to sus
 - **Level:** Magic user 9
 - **Range:** 10 ft
 - **Duration:** 1 segment/ 2 levels + 1d8 segments
+<!-- p.108 -->
 - **Area of Effect:** 15 ft radius sphere
 - **Components:** V
 - **Casting Time:** 9 segments
 - **Saving Throw:** None
-
-<!-- p.108 -->
 
 This spell allows the caster to act between two moments of time, in a bubble where the outside is frozen in place, not moving in the flow of time’s passage. The spell’s common name is a misnomer, for time does not actually stop; rather the caster simply gains a few “extra” moments, captured in between the points of time’s normal passage. Effectively, the caster simply gains the duration of the spell as extra time in which he or she may perform whatever actions he or she wishes, while the rest of the universe is effectively frozen relative to the caster.
 

@@ -61,9 +61,9 @@ Genies can perform any of the following abilities once per day: *create food* fo
 
 A genie can carry up to 600 lbs without tiring, either flying or walking. A genie is able to carry double the weight on foot but only for about thirty minutes. A genie will require an hour’s rest for every 30 minutes of carrying.
 
-A noble genie has 10d8 hit dice, does 3d8 damage, and their whirlwind does 3d6 damage. Besides their normal abilities a noble  genie is also able to grant three *wishes*. <!-- printed as-is: NEW --> If subdued a noble genie need only grant three *wishes* to be released from service.
+A noble genie has 10d8 hit dice, does 3d8 damage, and their whirlwind does 3d6 damage. Besides their normal abilities a noble  genie is also able to grant three *wishes*. <!-- printed as-is: see errata E229 --> If subdued a noble genie need only grant three *wishes* to be released from service.
 
-Genies have their own language but they also have a limited form of telepathy that enables them to communicate with any  intelligent creature. <!-- printed as-is: NEW -->
+Genies have their own language but they also have a limited form of telepathy that enables them to communicate with any  intelligent creature. <!-- printed as-is: see errata E230 -->
 
 ***Treasure:*** None.
 
@@ -186,7 +186,7 @@ her clawed feet and, usually, some kind of club as a melee weapon. Most harpies 
 - **Alignment:** Lawful evil
 - **Level/XP:** (4 HD) 4/75 + 4/hp
   (5 HD) 5/110 + 5/hp
-  (5 HD) 6/160 + 6/hp
+  (5 HD) 6/160 + 6/hp<!-- printed as-is: see errata E231 -->
   (7 HD) 7/225 + 8/hp
 
 Hell hounds are not native to the material plane; they are brought here by others to serve as guard dogs. These beasts have their normal bite but they can also breath fire up to 10 ft. Their breath’s damage equals in hit points their hit dice. Thus a 6 hit dice hell hound breathes fire that does 6hp damage, unless the opponent saves vs breath weapons for half damage.
@@ -213,7 +213,7 @@ Because hell hounds can move so quietly they surprise on a roll of 1-4. They can
 - **Alignment:** Neutral
 - **Level/XP:** 4/150 + 3/hp
 
-Hippogriffs can only be found in remote locations far from civilisation. They make their nests on rocky outcrops and cliff faces. Even though hippogriffs are omnivorous they do not mix well other winged beasts. If encountered near its nest, a hippogriff will fight ferociously to defend itself and its young. Eggs and hatchlings bring a high price from those wishing to train them as mounts.
+Hippogriffs can only be found in remote locations far from civilisation. They make their nests on rocky outcrops and cliff faces. Even though hippogriffs are omnivorous they do not mix well other winged beasts.<!-- printed as-is: see errata E232 --> If encountered near its nest, a hippogriff will fight ferociously to defend itself and its young. Eggs and hatchlings bring a high price from those wishing to train them as mounts.
 
 When ridden by a creature weighing more than 100 lbs, a hippogriff’s aerial agility rating decreases to III.
 
@@ -260,7 +260,7 @@ Homonculi are created in a process involving both the spell-caster and the servi
 - **Armour Class:** 5
 - **Hit Dice:** 5 to 16
 - **Attacks:** 5 to 16
-- **Damage:** 1d6,1d8, 1d10 or 1d12 based on size
+- **Damage:** 1d6,1d8, 1d10 or 1d12 based on size<!-- printed as-is: see errata E233 -->
 - **Special Attacks:** None
 - **Special Defences:** None
 - **Magic Resistance:** Standard
@@ -275,7 +275,7 @@ Hydras have reptilian bodies, four legs, a tail and 1d12+4 heads. Each head coun
 
 The colouration of a hydra ranges from light brown to an almost blackish brown with a yellow or tan underbelly. Their eyes range from yellow to orange.
 
-***Treasure:*** 1d8×1,000 cp (50%), 1d6×1,000 p (25%), <!-- printed as-is: NEW --> 1d4×1,000 ep (25%), 1d3×1,000 gp (25%), 1d8 gems (30%), 1d4 jewellery (20%), sword, armour or misc. weapon (10%)
+***Treasure:*** 1d8×1,000 cp (50%), 1d6×1,000 p (25%), <!-- printed as-is: see errata E234 --> 1d4×1,000 ep (25%), 1d3×1,000 gp (25%), 1d8 gems (30%), 1d4 jewellery (20%), sword, armour or misc. weapon (10%)
 
 ## Invisible Stalker
 
@@ -305,7 +305,7 @@ Invisible stalkers are useful, if dangerous, servants. Once given a mission they
 
 More complicated tasks or tasks of duration longer than a week will anger the invisible stalker and may lead it to attempt to pervert the wording of its commands without directly violating them. If ordered to guard the summoner’s treasure in perpetuity, for instance, the invisible stalker might remove every last copper piece of the summoner’s treasure to a secret vault located within the invisible stalker’s lair on the Elemental Plane of Air, where the ‘stalker could easily keep watch over it.
 
-If the GM feels the invisible stalker’s service too onerous or complicated, he or she should assign a cumulative 1% per day chance of the ‘stalker wearying of its task and attempting to twist the meaning its orders. A clever summoner might be able to word his or her orders in such a way as to make its meaning airtight and clear. In this case the ‘stalker must continue to serve until its duties are discharged.
+If the GM feels the invisible stalker’s service too onerous or complicated, he or she should assign a cumulative 1% per day chance of the ‘stalker wearying of its task and attempting to twist the meaning its orders.<!-- printed as-is: see errata E235 --> A clever summoner might be able to word his or her orders in such a way as to make its meaning airtight and clear. In this case the ‘stalker must continue to serve until its duties are discharged.
 
 Invisible stalkers can understand the common tongue of the Prime Material Plane, the language of the Elemental Plane of Air, and their own language. They will speak no tongue but their own.
 
@@ -355,7 +355,7 @@ It is rumoured kraken once lived in shallower coastal waters and had armies of s
 
 A kraken’s body is protected by a tough shell (AC 0), but its tentacles and head are more vulnerable (AC 5). Two tentacles are covered with barbs and do 2d6 damage. The other 6 tentacles hit for 2d4 damage. With each successful hit the kraken grabs its victim and holds it. With each successive round the tentacle does an additional 3d4 crushing damage. The kraken’s sharp beak bites for 5d4 damage. Once held, the only way to get free is to sever the tentacle by causing 16 hp damage to it.
 
-Those within the tentacle’s grasp are 25% likely to have both arms held, and as such they are helpless. Most of the time (50%) they will have one limb held and are able to attack with a -3 penalty. The other 25% of the time the victim will both arms free and can attack the squid with only a -1 penalty.
+Those within the tentacle’s grasp are 25% likely to have both arms held, and as such they are helpless. Most of the time (50%) they will have one limb held and are able to attack with a -3 penalty. The other 25% of the time the victim will both arms free<!-- printed as-is: see errata E236 --> and can attack the squid with only a -1 penalty.<!-- printed as-is: see errata E237 -->
 
 If the kraken looses more then 3 arms it will release the ship and flee. As it does the monster will release ink in the water leaving a cloud 80 ft deep by 80 ft wide by 120 ft long. A kraken’s ink is poisonous and will cause 1d4 points of damage per round until the ink dissipates. The ink lasts for about 5 rounds.
 
@@ -411,15 +411,15 @@ Champions of all that is good and just, lammasu have quadrupedal bodies the size
 
 Lammasu are the guardians and protectors of all lawful good persons and have a friendly disposition to all good aligned creatures they encounter. Lammasu tend to lair in warm climates but travel widely and can thus be encountered anywhere.
 
-Lammasu prefer to advise and support the forces of good if at all possible but are formidable opponents in battle. In fact, it is almost impossible to press a lammasu into combat against its will due to its ability to dimension door and become invisible at will. <!-- printed as-is: NEW --> In combat lammasu claw with their two powerful front legs for 1d6+1 points of damage apiece, and they also defend themselves with a variety of spells and spell-like abilities.
+Lammasu prefer to advise and support the forces of good if at all possible but are formidable opponents in battle. In fact, it is almost impossible to press a lammasu into combat against its will due to its ability to dimension door and become invisible at will. <!-- printed as-is: see errata E238 --> In combat lammasu claw with their two powerful front legs for 1d6+1 points of damage apiece, and they also defend themselves with a variety of spells and spell-like abilities.
 
-Lammasu are constantly surrounded by an extra strength *protection from evil, 10 ft radius* (-2 to attack, +2 on saving throws from attacking evil creatures) and can cast cleric spells of up to 4th level as an 8th level cleric does. Spell list: 4—1st level, 3—2nd  level, 2—3rd level, 1—4th level. <!-- printed as-is: NEW --> Lammasu cast *cure light wounds* and *cure serious wounds* at double normal efficacy (2d8 hp and 4d8+2 hp respectively). 20% of these creatures can also speak a *holy word* at will.
+Lammasu are constantly surrounded by an extra strength *protection from evil, 10 ft radius* (-2 to attack, +2 on saving throws from attacking evil creatures) and can cast cleric spells of up to 4th level as an 8th level cleric does. Spell list: 4—1st level, 3—2nd  level, 2—3rd level, 1—4th level. <!-- printed as-is: see errata E239 --> Lammasu cast *cure light wounds* and *cure serious wounds* at double normal efficacy (2d8 hp and 4d8+2 hp respectively). 20% of these creatures can also speak a *holy word* at will.
 
-When flying, they can use their claw attacks if forced into battle. They are difficult to hit in return because they can *dimension door* at any time away from an flying opponent’s path of attack.
+When flying, they can use their claw attacks if forced into battle. They are difficult to hit in return because they can *dimension door* at any time away from an flying opponent’s path of attack.<!-- printed as-is: see errata E240 -->
 
 Lammasu can communicate in their own tongue, the alignment language of Lawful Good creatures, and also through telepathy.
 
-***Treasure:*** 2d4×1,000 gp (45%), 1d8×100pp (60%), 4d8 gems (50%), 2d6 jewellery (40%), 2d4 potions (40%), 1 misc magic (20%).
+***Treasure:*** 2d4×1,000 gp (45%), 1d8×100pp (60%),<!-- printed as-is: see errata E241 --> 4d8 gems (50%), 2d6 jewellery (40%), 2d4 potions (40%), 1 misc magic (20%).
 
 ## Leech, Giant
 
@@ -454,7 +454,7 @@ Giant leeches inhabit warmer, fresh water. If a giant leech successfully hits a 
 | **Size:** | Large (30 ft long) | Large (20 ft long) | Large (40 ft long) | Large (20 ft long) |
 | **Move:** | 90 ft | 150 ft | 60 ft | 120 ft |
 | **Armour Class:** | 3 | 5 | 5 | 5 |
-| **Hit Dice:** | 10 | 3+1 | 8 | 6 |
+| **Hit Dice:** | 10 | 3 + 1 | 8 | 6 |
 | **Attacks:** | 3 | 1 | 3 | 1 |
 | **Damage:** | 1d8/1d8/2d8 | 1d8+1 | 2d6/2d6/3d6 | 2d6 |
 | **Special Attacks:** | See below | See below | See below | See below |
@@ -467,11 +467,11 @@ Giant leeches inhabit warmer, fresh water. If a giant leech successfully hits a 
 
 **Fire Lizards** are also known as *false dragons* and are thought to be an evolutionary dead-end on the dragon family tree. These giant lizards have a tough scaled hide very similar to a dragon but lacking the long life, wings, and horns of their fire-breathing cousins. Colouration tends to be a rather neutral grey with patches of a dark brownish red on the dorsal surface, and a lighter red on the ventral surface. Fire lizards darken in colour as they age. Curiously, red dragons avoid confrontation with fire lizards and will not even lair in the same area fire lizards frequent.
 
-False dragons are normally slow-moving creatures and spend 50% their time sleeping in their subterranean lairs. When they emerge every two weeks or so to feed, however, they are aggressive foes.
+False dragons are normally slow-moving creatures and spend 50% their time sleeping in their subterranean lairs.<!-- printed as-is: see errata E242 --> When they emerge every two weeks or so to feed, however, they are aggressive foes.
 
 In combat a fire lizard will attack with two raking attacks from its front legs followed by a bite attack. It also has a breath weapon it can use at will, a cone shaped gout of flame 10 ft wide at the terminus with a range of 150 ft, causing 2d6 points of damage. A saving throw vs breath weapons is allowed for half damage.
 
-Fire lizards have an affinity for shiny objects and their lairs tend be littered with coins and gems. A lair also has a 15% chance of containing 1d6 eggs, but the fire lizard is largely indifferent as to their fate. The first hatchling will generally eat the others as they emerge. A fire lizard egg can fetch as much as 5,000gp from an interested party.
+Fire lizards have an affinity for shiny objects and their lairs tend be littered with coins and gems.<!-- printed as-is: see errata E243 --> A lair also has a 15% chance of containing 1d6 eggs, but the fire lizard is largely indifferent as to their fate. The first hatchling will generally eat the others as they emerge. A fire lizard egg can fetch as much as 5,000gp from an interested party.
 
 ***Treasure:*** None carried. In lair: 1d8×1,000 cp (45%), 1d6×1,000 sp (30%), 1d6×1,000 ep (25%), 1d4×1,000 gp (33%), 1d4×100 pp (10%), 2d4 gems (30%), 1d6 jewellery (20%), Magic Sword/Armour/Weapon (12%), 2d4 potions (50%), 1d6 scrolls (40%).
 
@@ -509,7 +509,7 @@ Fire lizards have an affinity for shiny objects and their lairs tend be littered
 
 Locathah are aquatic nomads who make their home in the warm, shallow, salt waters of seas and oceans. They roam the area around their lair, hunting and gathering food. They are rather distrustful of strangers, even strangers of their own species.
 
-Locathah troops are organised into companies of 40 warriors, led by a war-chief with 22 hit points who fights as a 5th level fighter. The war-chief is assisted by 4 sub-chiefs with 15 hp who fight as 3rd level fighters. Any group of 4 or more companies (120 warriors) will be led by a full chief with 30 hp who fights as a 6th level fighter. The chief will be protected by his honour guard of 12 warriors who fight as sub-chiefs. There is a 5% chance a sub-chief or war-chief will be carrying a magic weapon of the appropriate type and a 10% a full chief will have one.
+Locathah troops are organised into companies of 40 warriors, led by a war-chief with 22 hit points who fights as a 5th level fighter. The war-chief is assisted by 4 sub-chiefs with 15 hp who fight as 3rd level fighters. Any group of 4 or more companies (120 warriors) will be led by a full chief with 30 hp who fights as a 6th level fighter. The chief will be protected by his honour guard of 12 warriors who fight as sub-chiefs. There is a 5% chance a sub-chief or war-chief will be carrying a magic weapon of the appropriate type and a 10% a full chief will have one.<!-- printed as-is: see errata E244 -->
 
 Locathah troops ride giant eels (q.v.) into battle and these mounts will also fight. Locathah troops typically have a roughly equal chance to be armed with: lance, trident, spear gun and dagger, or, net and dagger. Spear guns are treated as light crossbows with a 20 ft range underwater and as a normal light crossbow if used on the surface.
 
@@ -597,7 +597,7 @@ Note that a medusa’s gaze extends into nearby planes of existence, such as the
 
 ***Treasure:*** 1d6×1,000 sp (30%), 1d2×1,000 ep (25%), 2d6×1,000 gp (70%), 10d4 gems (50%), 1 misc magic + 1 potion (60%)
 
-## Mephit
+## Mephit<!-- printed as-is: see errata E245 -->
 
 | | Fire | Lava | Smoke | Steam |
 |---|---|---|---|---|
@@ -637,7 +637,7 @@ In combat lava mephits claw for 1 point of damage, plus the 1d8 points of heat d
 
 When in contact with molten lava the lava mephit can regenerate 2 hp per round, but if killed it cannot regenerate back to life as a troll does. Contact with lava also allows the mephit to recharge its breath weapon.
 
-The touch of a lava mephit dissolves metal rather quickly, destroying plate mail armour in 3 melee rounds. Wood is dissolves a little more slowly, about an inch per hour of contact. The lava mephit can *shape change* into a pool of lava but doing so will not recharge the mephit’s breath weapon or allow it to regenerate. Lava mephits can *gate* in 1d2 mephits once per hour with a 25% chance of success. There is an equal chance of gating in any type of mephit but if two are gated they will be the same type.
+The touch of a lava mephit dissolves metal rather quickly, destroying plate mail armour in 3 melee rounds. Wood is dissolves a little more slowly, about an inch per hour of contact.<!-- printed as-is: see errata E246 --> The lava mephit can *shape change* into a pool of lava but doing so will not recharge the mephit’s breath weapon or allow it to regenerate. Lava mephits can gate in 1d2 mephits once per hour with a 25% chance of success. <!-- printed as-is: see errata E247 --> There is an equal chance of gating in any type of mephit but if two are gated they will be the same type.
 
 **Smoke Mephit:** This type of mephit is black in colour and constantly emits smoke from its body. When encountered on the Prime Material Plane this mephit will rarely stray from dark or smoky areas except in great need.
 
@@ -645,7 +645,7 @@ In combat, these mephits strike with two claws for 1d2 points of damage and may 
 
 Smoke mephits also have the spell-like abilities once each per day of *invisibility* and *dancing lights*. Smoke mephits can also *gate* in 1d2 mephits once per hour with a 25% chance of success. There is an equal chance of gating in any type of mephit but if two are gated they will be the same type.
 
-If slain, the smoke mephit emits a burst of flash-fire which inflicts 1 point of damage to everyone with 10 ft, no saving throw allowed.
+If slain, the smoke mephit emits a burst of flash-fire which inflicts 1 point of damage to everyone with 10 ft, no saving throw allowed.<!-- printed as-is: see errata E248 -->
 
 **Steam Mephit:** These mephits are grey and constantly sweat hot water in profuse amounts, leaving puddles of hot water behind them as they travel. Touching a steam mephit will cause 1 point of damage to unprotected skin and has a 50% chance of stunning the victim for 1 melee round.
 

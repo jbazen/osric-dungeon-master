@@ -11,7 +11,7 @@
 - **Size:** Large (8 ft tall)
 - **Move:** 150 ft
 - **Armour Class:** 2
-- **Hit Dice:** 5+5
+- **Hit Dice:** 5 + 5
 - **Attacks:** 3
 - **Damage:** 1d6/1d3/1d3
 - **Special Attacks:** Strength point drain
@@ -26,9 +26,9 @@ Long ago these creatures were created in some bizarre and perverted arcane ritua
 
 Spectral trolls have 3 attacks which cause special damage (detailed below) and can target up to 3 different opponents if they choose. Spectral trolls regenerate 3 hit points per round and can rebond severed limbs and, as with their troll brethren, severed limbs will continue to attack independently. These creatures are impervious to cold and cold based attacks while fire or fire based attacks cause damage which does not regenerate. Spectral trolls can only be hit by magical weapons.
 
-***Special Damage:*** The spectral troll has two claw attacks that subtract 1d3 points of damage on a successful hit from both the victim’s hp and his or her strength ability score. For example: a 17 strength fighter struck for 2 hit points of damage will immediately be reduced to a strength of 15. Strength is recovered at a rate of 1 point for every 2d4 turns. If a victim’s strength is reduced to zero he or she dies; if strength is reduced to 1 or 2 hit points the victim will fall comatose to the ground and will not recover consciousness until enough strength is recovered to raise score to 3 or higher.
+***Special Damage:*** The spectral troll has two claw attacks that subtract 1d3 points of damage on a successful hit from both the victim’s hp and his or her strength ability score. For e×ample: a 17 strength fighter struck for 2 hit points of damage will immediately be reduced to a strength of 15. Strength is recovered at a rate of 1 point for every 2d4 turns. If a victim’s strength is reduced to zero he or she dies; if strength is reduced to 1 or 2 hit points the victim will fall comatose to the ground and will not recover consciousness until enough strength is recovered to raise score to 3 or higher.
 
-In addition to the special claw attacks, the spectral troll also has a fanged biting attack. The bite attack of one of these invisible monsters inflicts 1d6 points of damage but the troll adds its own hit point value as bonus damage to the attack. Example: a spectral troll with 38 hit points bites a cleric for 4 points of damage. Total damage dealt to the unfortunate cleric would 4 + 38 = 42.
+In addition to the special claw attacks, the spectral troll also has a fanged biting attack. The bite attack of one of these invisible monsters inflicts 1d6 points of damage but the troll adds its own hit point value as bonus damage to the attack. Example: a spectral troll with 38 hit points bites a cleric for 4 points of damage. Total damage dealt to the unfortunate cleric would 4 + 38 = 42. <!-- printed as-is: see errata E134 -->
 
 Spectral trolls have an acute sense of smell and superior infravision with a 120 ft range. Like all trolls, the spectral troll is strong, fearless, and attacks relentlessly until it kills its opponent or is itself slain.
 
@@ -95,7 +95,7 @@ Blue dragons often (60%) are known to speak, only sometimes (30%) cast magic, bu
 
 If a blue dragon can cast spells, it gains spells as if it were a wizard of a level equal to its age category.
 
-Blue dragon breath is a bolt of lighting, 100 ft long and 5 ft wide. It does damage equal to the dragon’s hit points (but a save vs dragon breath halves this amount). The dragon may use this breath weapon up to three times per day.
+Blue dragon breath is a bolt of lighting, 100 ft long and 5 ft wide. It does damage equal to the dragon’s hit points (but a save vs dragon breath halves this amount). The dragon may use this breath weapon up to three times per day. <!-- printed as-is: see errata E135 -->
 
 ***Treasure:*** (For a typical individual) 5d6×1,000 cp (25%), 1d100×1,000 sp (40%), 1d4×10,000 ep (40%), 1d6×10,000 gp (55%), 5d10×100 pp (25%), 1d100 gems (50%), 1d4×10 jewellery (50%), 4 magic items plus 1 potion and 1 scroll (15%), 2d4 potions (40%).
 
@@ -123,7 +123,7 @@ Brass dragons sometimes (30%) are known to speak, only sometimes (30%) cast magi
 
 If a brass dragon can cast spells, it gains spells as if it were a wizard of a level equal to one-half of its age category.
 
-Brass dragon breath is either a cone of sleep-inducing gas (70 ft by 20 ft), or a cone of fear gas (40 ft by 50 ft, by 20 ft).
+Brass dragon breath is either a cone of *sleep*-inducing gas (70 ft by 20 ft), or a cone of fear gas (40 ft by 50 ft, by 20 ft).
 <!-- p.213 -->
 Anyone within the cloud must save or fall deeply asleep or run in fear (duration of either effect is 10 minutes). Saves against a small dragon’s breath are at a +2, but against a large dragon’s breath are at a –2.
 
@@ -331,10 +331,9 @@ White dragon breath is a cone of deadly frost, 50 ft long and 25 ft diameter at 
 
 ## DEMONS
 
-Demonologists have identified several classes of demon. Each class of demon possesses a variety of powerful, supernatural abilities. Those abilities common to all demons are noted below. For further information on both
-<!-- p.217 -->
-the classified and unclassified demons, see the individual demon listings. Note that most demons do not actually fall into the five listed categories.
+Demonologists have identified several classes of demon. Each class of demon possesses a variety of powerful, supernatural abilities. Those abilities common to all demons are noted below. For further information on both the classified and unclassified demons, see the individual demon listings. Note that most demons do not actually fall into the five listed categories.
 
+<!-- p.217 -->
 Many demons possess the following magical abilities: *infravision* (as the 5th level magic user spell), *teleport* (with no chance of error) (as the 2nd level magic user spell), *darkness*, *gate* (as the 9th level magic user spell). See individual listings for details.
 
 Demons can freely travel between their own home planes and Tarterus, Pandemonium and Hades. They may also travel the Astral Plane at will. However, they are only able to enter the Prime Material Plane if summoned with a spell (conjuration, *gate*, *wish*, etc.) or certain magical items.
@@ -351,7 +350,7 @@ Demons are repulsed by good artifacts or other powerful holy items.
 
 On the Prime Material Plane, demons may be turned by clerics of levels 8+ and paladins of levels 11+.
 
-Demons are often encountered in the Astral and Æthereal planes. They may be drawn to the auras of astral or æthereal travellers. Because of the frequent demonic presence in these planes, merely speaking the name of a particular demon may (5%) cause them to pursue the offending speaker. Unless otherwise prepared to defend against such a occurrence, summoners should be aware that demons prefer to slay or imprison their victims in their home plane.
+Demons are often encountered in the Astral and Æthereal planes. They may be drawn to the auras of astral or æthereal travellers. Because of the frequent demonic presence in these planes, merely speaking the name of a particular demon may (5%) cause them to pursue the offending speaker. Unless otherwise prepared to defend against such a occurrence, summoners should be aware that demons prefer to slay or imprison their victims in their home plane. <!-- printed as-is: see errata E136 -->
 
 Demons are inherently able to understand any language. All demons with average or better intelligence are also inherently able to converse in any language.
 
@@ -370,7 +369,7 @@ Demons are susceptible to attack as noted in the table below;
 |---|---|
 | Magic Missile | Full damage |
 | Poison | Full damage |
-| Silver | No additional damage(according to normal weapon type) <!-- printed as-is: NEW --> |
+| Silver | No additional damage(according to normal weapon type) <!-- printed as-is: see errata E137 --> |
 
 ### Babau
 
@@ -394,13 +393,13 @@ Babau are also known by demonologists as horned demons or bone demons. They are 
 
 These demons are known for their cunning intelligence and strength (19). In combat, they prefer to use any sort
 <!-- p.218 -->
-of weaponry if it is to their advantage. In the heat of battle, they secrete a slimy rust coloured ichor that halves damage from melee weapons, as blows slide off their bodies. Their typical mode of attack involves leaping from above onto unwary victims
+of weaponry if it is to their advantage. In the heat of battle, they secrete a slimy rust coloured ichor that halves damage from melee weapons, as blows slide off their bodies. Their typical mode of attack involves leaping from above onto unwary victims <!-- printed as-is: see errata E138 -->
 
 Babau are immune to normal melee and missile weapons. Iron weapons inflict an additional +2 damage as it burns their hide. Magical weapons are also effective, but do not impart this +2 bonus.
 
 Babau cause *darkness* at will (5 ft radius) and have abilities equal to a 9th level thief. They also have the following abilities which they can use at will one at a time as a 14th level spellcaster: *fear* (touch only, otherwise as the 4th level magic user spell), *levitate* (as the 2nd level magic user spell), *fly* (as the 3rd level magic user spell), *dispel magic* (as the 3rd level magic user spell), *polymorph self* (as the 4th level magic user spell), *heat metal* (as the 2nd level druid spell), or *gate* (as the 9th level magic user spell) in another babau (25% chance of success). Finally, anyone up to 20 feet away gazing into the eyes of a babau must save vs spells (unlisted categories) or suffer the effects of a *ray of enfeeblement* (as the 2nd level magic user spell).
 
-Babau are despised by class A, B and C demons. class D demons especially hate bands of babau, and hunt them for food. <!-- printed as-is: NEW -->
+Babau are despised by class A, B and C demons. class D demons especially hate bands of babau, and hunt them for food. <!-- printed as-is: see errata E139 -->
 
 ***Treasure:*** If encountered in their lair, babau will have amassed a hoard made up of 1d12×1000 cp (20%), 1d6×1000 sp (30%), 1d4×1000 ep (10%), 1d6 gems (25%) and 1d3 jewellery (20%). In addition, they may (10%) have 1d2 magical items.
 
@@ -422,9 +421,7 @@ Babau are despised by class A, B and C demons. class D demons especially hate ba
 - **Alignment:** Chaotic evil
 - **Level/XP:** 7/1,275 +10/hp
 
-Vrock, considered one of the weakest of demonkind, look like a hideous cross between a vulture and a humanoid. They are no stronger than normal and may be harmed with normal melee and missile weapons. Like all demons they can cause *darkness*, but only in a 5 ft radius. They also possess the following special abilities which they may use at will: *detect invisibility* (objects only, otherwise as per the 2nd level magic user spell), *gate* in another vrock (10%
-<!-- p.219 -->
-chance of success), or *telekinesis* (as the 5th level magic user spell, up to 200 lbs).
+Vrock, considered one of the weakest of demonkind, look like a hideous cross between a vulture and a humanoid. They are no stronger than normal and may be harmed with normal melee and missile weapons. Like all demons they can cause *darkness*, but only in a 5 ft radius. They also possess the following special abilities which they may use at will: *detect invisibility* (objects only, otherwise as per the 2nd level magic user spell), *gate* in another vrock (10% chance of success), or *telekinesis* (as the 5th level magic user spell, up to 200 lbs).
 
 Vrock are particularly stupid, and cannot normally be bargained with. They love the sight of precious gems and jewellery, however, and also enjoy feasting on the flesh of men.
 
@@ -448,7 +445,9 @@ Vrock are particularly stupid, and cannot normally be bargained with. They love 
 - **Alignment:** Chaotic evil
 - **Level/XP:** 8/2,000 + 12/hp
 
-Slightly shorter than the vrock, the hezrou resemble loathsome toads with humanoid arms. They are vulnerable to normal melee and missile weapons. They cause *darkness* at will covering a 15 foot radius. They also possess the following special abilities which can be used at will, one at a time: Cause *fear* (as the 4th level magic user spell), *levitate* (as the 2nd level magic user spell), *detect invisibility* (objects only, otherwise as per the 2nd level magic user spell), *telekinesis* (as per the 5th level magic user spell, up to 300 lbs), or *gate* (as the 9th level magic user spell) another hezrou (20% chance of success).
+Slightly shorter than the vrock, the hezrou resemble loathsome toads with humanoid arms. They are vulnerable to normal melee and missile weapons. They cause *darkness* at will covering a 15 foot radius. They also possess the
+<!-- p.219 -->
+following special abilities which can be used at will, one at a time: Cause *fear* (as the 4th level magic user spell), *levitate* (as the 2nd level magic user spell), *detect invisibility* (objects only, otherwise as per the 2nd level magic user spell), *telekinesis* (as per the 5th level magic user spell, up to 300 lbs), or *gate* (as the 9th level magic user spell) another hezrou (20% chance of success).
 
 Hezrou and vrock will gladly fight each other without hesitation, and they both share a love of human flesh.
 
@@ -472,7 +471,7 @@ Hezrou and vrock will gladly fight each other without hesitation, and they both 
 - **Alignment:** Chaotic evil
 - **Level/XP:** 8/2,400 + 14/hp
 
-These muscular demons have a head like a horned dog, and from their broad chest sprouts four arms: 2 with sharp pincers and 2 with hands. Glabrezu are vulnerable to normal melee weapons and missiles. At will, they can cause *darkness* in a 10 ft radius. Additionally, they may use the following abilities at will, one at a time: Cause *fear* (as the 4th level magic user spell), *levitate* (as the 2nd level magic user spell), *pyrotechnics* (as the 2nd level magic user spell ), *polymorph self* (as the 4th level magic user spell), *telekinesis* (as the 5th level magic user spell, up to 400 lbs), *gate* (as the 9th level magic user spell) another Class A to C demon (30% chance of success).
+These muscular demons have a head like a horned dog, and from their broad chest sprouts four arms: 2 with sharp pincers and 2 with hands. Glabrezu are vulnerable to normal melee weapons and missiles. At will, they can cause *darkness* in a 10 ft radius. Additionally, they may use the following abilities at will, one at a time: Cause *fear* (as the 4th level magic user spell), *levitate* (as the 2nd level magic user spell), *pyrotechnics* (as the 2nd level magic user spell ), *polymorph self* (as the 4th level magic user spell), *telekinesis* (as the 5th level magic user spell, up to 400 lbs), *gate* (as the 9th level magic user spell) another Class A to C demon (30% chance of success). <!-- printed as-is: see errata E140 -->
 
 ***Treasure:*** If encountered in their lair, glabrezu will have a cache of treasure made up of 1d8×1,000 cp (10%), 1d12×1,000 sp (15%), 1d8×1,000 ep (15%), 1d6×1,000 gp (50%), 1d10 gems (30%), 1d6 jewellery (25%), and 3 random magic items, including one potion (15%).
 
@@ -493,8 +492,10 @@ These muscular demons have a head like a horned dog, and from their broad chest 
 - **Intelligence:** Very
 - **Alignment:** Chaotic evil
 - **Level/XP:** 9/3,000 + 16/hp
+
+Particularly malevolent demons, the class D have the upper body of an ape and the cloven-hoofed lower body of a boar. They have rather small feathered wings as well, which seem undersized compared to their corpulent bodies. Unlike class A to C demons, these are immune to normal arms and must be attacked with magical weapons. Like other demonkind, they are able to cause *darkness* at will (10 ft radius). Their other abilities, which they can use at will, one at a time, are *improved phantasmal force* (as the 2nd level illusionist spell), *fear* (as the 4th level magic user spell), *levitate* (as the 2nd level magic user spell), *detect magic* (as the 1st level magic user spell), *comprehend languages* (as the 1st level magic user spell), *dispel magic* (as the 3rd level magic user spell), *polymorph self* (as the 4th level magic user spell), *telekinesis* (as the 5th level magic user spell, up to 500 lbs), *project image* (as the 6th level magic user spell), use a *symbol of fear* or *discord* (as the 8th level magic user spell), and *gate* (as the 9th level magic
 <!-- p.220 -->
-Particularly malevolent demons, the class D have the upper body of an ape and the cloven-hoofed lower body of a boar. They have rather small feathered wings as well, which seem undersized compared to their corpulent bodies. Unlike class A to C demons, these are immune to normal arms and must be attacked with magical weapons. Like other demonkind, they are able to cause *darkness* at will (10 ft radius). Their other abilities, which they can use at will, one at a time, are *improved phantasmal force* (as the 2nd level illusionist spell), *fear* (as the 4th level magic user spell), *levitate* (as the 2nd level magic user spell), *detect magic* (as the 1st level magic user spell), *comprehend languages* (as the 1st level magic user spell), *dispel magic* (as the 3rd level magic user spell), *polymorph self* (as the 4th level magic user spell), *telekinesis* (as the 5th level magic user spell, up to 500 lbs), *project image* (as the 6th level magic user spell), use a *symbol of fear* or *discord* (as the 8th level magic user spell), and *gate* (as the 9th level magic user spell) another class A to D demon (random class, 60% chance of success).
+user spell) another class A to D demon (random class, 60% chance of success).
 
 Certain class D demons have their own secret names, which makes it 90% certain they will answer a summons if it is spoken. Conjurers should be prepared to make impressive promises of treasure, magical items or living sacrifices when summoning a class D demon, especially by name. It should also be remembered that these demons particularly enjoy feasting on human blood and meat.
 
@@ -520,7 +521,7 @@ Certain class D demons have their own secret names, which makes it 90% certain t
 
 Infamous even among demonkind for their cruel and ill-tempered nature, the marilith are invariably female. From the waist up they appear to be a full-figured human female with six arms and skin tones ranging from deep violet to a putrescent green. Below the waist however, they have the coiling body of a large serpent. In melee they prefer to wield a variety of barbed and hooked swords and battle axes or simply constrict their prey with their powerful serpentine tail.
 
-Like their fellow demons, they can cause *darkness* at will (5 ft radius). They possess the following additional abilities which they may use one at a time, at will: *charm person* (as the 1st level magic user spell), *levitate* (as the 2nd level magic user spell), *comprehend languages* (as the 1st level magic user spell), *detect invisibility* (objects only, otherwise as the 2nd level magic user spell), *pyrotechnics* (as the 2nd level magic user spell ), *polymorph self* (as the 4th level magic user spell), *project image* (as the 6th level magic user spell), or *gate* (as the 9th level magic user spell) another demon (50% chance of success.) Use the following table to determine which class of demon is summoned: <!-- printed as-is: NEW -->
+Like their fellow demons, they can cause *darkness* at will (5 ft radius). They possess the following additional abilities which they may use one at a time, at will: *charm person* (as the 1st level magic user spell), *levitate* (as the 2nd level magic user spell), *comprehend languages* (as the 1st level magic user spell), *detect invisibility* (objects only, otherwise as the 2nd level magic user spell), *pyrotechnics* (as the 2nd level magic user spell ), *polymorph self* (as the 4th level magic user spell), *project image* (as the 6th level magic user spell), or *gate* (as the 9th level magic user spell) another demon (50% chance of success.) Use the following table to determine which class of demon is summoned: <!-- printed as-is: see errata E141 -->
 
 | d% | Demon Class |
 |---|---|
@@ -555,7 +556,7 @@ All class E demons have personal and secret names which may be used to summon an
 
 Reportedly only six of this class of demon exist, each with their own secret name. In combat they wield massive +1 swords and a cat-o-nine-tails whip which they employ to drag their victims into the flames that they continually immolate themselves in. Each round, there is a 4 in 6 chance they will use their whip. Victims who fail a save vs spells (unlisted categories) are burnt by the flames and suffer 4d6 additional points of damage.
 
-The *darkness* they cause at will has a radius of 10 feet. In addition, they have several other abilities which they can use at will one at a time. These are *fear* (as the 4th level magic user spell), *detect magic* (as the 1st level magic user spell), *read magic* (as the 1st level magic user spell), *comprehend languages* (as the 1st level magic user spell), *detect invisibility* (objects only, otherwise as the 2nd level magic user spell), *pyrotechnics* (as the 2nd level magic user spell ), *dispel magic* (as the 3rd level magic user spell), *suggestion* (as the 3rd level magic user spell), *telekinesis* (as the 5th level magic user spell, up to 600 lbs), use a *symbol of fear, discord, sleep,* or *stunning* (as the 8th level magic user spell), and *gate* (as the 9th level magic user spell) another demon of class C (80% chance) or class D (20% chance) with a 70% chance of success.
+The *darkness* they cause at will has a radius of 10 feet. In addition, they have several other abilities which they can use at will one at a time. These are *fear* (as the 4th level magic user spell), *detect magic* (as the 1st level magic user spell), *read magic* (as the 1st level magic user spell), *comprehend languages* (as the 1st level magic user spell), *detect invisibility* (objects only, otherwise as the 2nd level magic user spell), *pyrotechnics* (as the 2nd level magic user spell ), *dispel magic* (as the 3rd level magic user spell), *suggestion* (as the 3rd level magic user spell), *telekinesis* (as the 5th level magic user spell, up to 600 lbs), use a *symbol of fear, discord, sleep,* or *stunning* (as the 8th level magic user spell), and *gate*  (as the 9th level magic user spell) another demon of class C (80% chance) or class D (20% chance) with a 70% chance of success. <!-- printed as-is: see errata E142 -->
 
 Summoning class F demons requires significant offerings or future promises of service or sacrifice. If negotiation is successful, they might be persuaded to aid the summoner or associated group for a while. In any case, these demons will always try to bully and intimidate their masters in an effort to usurp leadership, which they crave. Many other chaotic evil monsters and demons are attracted to the aura of charismatic evil that surrounds class F demons, so they are often found in the forefront of evil hordes.
 
@@ -591,11 +592,11 @@ In addition, they can use *dimension door* (as the 4th level magic user spell) o
 
 Fully 25% of all demonettes have genius level intelligence. These demonettes are able to memorise and cast spells as a 1st to 12th level magic user (1d12 to determine level). Spellcasting abilities are in addition to their other innate abilities noted above.
 
-Finally, much like their succubus parent, demonettes are able to drain a victims life energy with a touch (a to hit roll is required in combat). Each touch drains 1d8 hit points from the victim and adds 1d4 hit points to the demonette.
+Finally, much like their succubus parent, demonettes are able to drain a victims life energy with a touch (a to hit roll is required in combat). Each touch drains 1d8 hit points from the victim and adds 1d4 hit points to the demonette. <!-- printed as-is: see errata E143 -->
 
 Demonettes also possess a superior infravision that has a range of 120 ft.
 
-***Treasure:*** Demonettes normally care little for coins. They love gems, jewellery and magical items however. If found in their lair, a demonette will have a cache that contains 1d4 random scrolls (50%), 2d4 random potions (40%), 1d8×10 gems (90%), 5d6 jewellery (80%) and 1d6 other random magical items (excluding potions and scrolls, 70%).
+***Treasure:*** Demonettes normally care little for coins. They love gems, jewellery and magical items however. If found in their lair, a demonette will have a cache that contains 1d4 random scrolls (50%), 2d4 random potions (40%), 1d8×10 gems (90%), 5d6 jewellery (80%) and 1d6 other random magical items (e×cluding potions and scrolls, 70%).
 
 ### Demoniac
 
@@ -652,7 +653,7 @@ Demoniacs may become clerics, attaining a maximum level equal to their hit dice 
 
 Dretch are the weakest of all demonkind. Their appearance is almost comical, with a plump body with thin, gangly arms and legs. Their squat heads are bald and they have a slobbering, stupid visage.
 
-Dretch usually attack in hordes, using tooth and claw in blind abandon. They also have the following special abilities which they can use at will, one at a time: *darkness* (5 ft radius), *scare* (as the 2nd level magic user spell), *telekinesis* (as the 5th level magic user spell, up to 50 lbs), or *gate* (as the 9th level magic user spell) a class A demon (15% chance of success). In addition, once per day they can cause a *stinking cloud* (as the 2nd level magic user spell), and *teleport* without fail (as the 5th level magic user spell, but with no chance of error).
+Dretch usually attack in hordes, using tooth and claw in blind abandon. They also have the following special abilities which they can use at will, one at a time: *darkness* (5 ft radius), *scare* (as the 2nd level magic user spell), *telekinesis* (as the 5th level magic user spell, up to 50 lbs), or *gate*  (as the 9th level magic user spell) a class A demon (15% chance of success). In addition, once per day they can cause a *stinking cloud* (as the 2nd level magic user spell), and *teleport* without fail (as the 5th level magic user spell, but with no chance of error). <!-- printed as-is: see errata E144 -->
 
 ***Treasure:*** Dretch are not intelligent enough to hoard treasure socially. Individually they will carry some coinage, as follows: 3d8 cp, 3d6 sp, 2d6 ep, and 2d4 gp.
 
@@ -677,7 +678,7 @@ Dretch usually attack in hordes, using tooth and claw in blind abandon. They als
 
 Ekivu resemble a hideous crossbreed between a giant fly and a human. Their hindlegs are insect-like and their forelimbs resemble human arms, but with bony, sharp claws. Like flies, their bodies are covered in blueish-black chitin with bristling hair. Their heads are vaguely human, but with bulbous, faceted eyes like those of a fly. Their mouths are ringed with sharp teeth and their long noses are actually a sharp proboscis for drawing blood from their victims.
 
-Ekivu can cause *darkness* within a 5 foot radius. They also have the following special abilities which they can use at will, one at a time: *detect good* (as the 1st level cleric spell), *detect invisibility* (as the 2nd level magic user spell), *telekinesis* (as the 5th level magic user spell, up to 150 lbs), *fear* (touch only, otherwise as the 4th level magic user spell) or *gate* (as the 9th level magic user spell) another ekivu (15% chance of success).
+Ekivu can cause *darkness* within a 5 foot radius. They also have the following special abilities which they can use at will, one at a time: *detect good* (as the 1st level cleric spell), *detect invisibility* (as the 2nd level magic user spell), *telekinesis* (as the 5th level magic user spell, up to 150 lbs), *fear* (touch only, otherwise as the 4th level magic user spell) or *gate*  (as the 9th level magic user spell) another ekivu (15% chance of success). <!-- printed as-is: see errata E145 -->
 
 When not using one of their other abilities, ekivu constantly make an insidious buzzing drone which has the power to lull listeners into a comatose state. If a save vs spells (unlisted categories) is not made, the victim will sleep for 2d4 hours or until the demon has drawn 1d4 hp of their blood.
 
@@ -733,7 +734,7 @@ Shadows and ghasts are often created from kullule by their demonic masters. The 
 
 Quasit are soul worms formed by Demon Lords for service as familiars to chaotic evil clerics and magic users. At will, quasits are able to polymorph themselves into any 2 of the following creatures: frog, bat, giant centipede, or wolf.
 
-Quasits are immune to normal melee and missile weapons. Only iron or +1 or better magical weapons can harm them. They are also immune to all cold, fire and lightning. If attacked with a spell, quasits save as a 7 hit dice monsters.
+Quasits are immune to normal melee and missile weapons. Only iron or +1 or better magical weapons can harm them. They are also immune to all cold, fire and lightning. If attacked with a spell, quasits save as a 7 hit dice monsters. <!-- printed as-is: see errata E146 -->
 
 In its natural form, a quasit attacks with its teeth and claws, which inflict a burning irritation that subtracts 1 from the victim’s dexterity unless a save vs poison is made. This penalty is cumulative. The irritation remains for 2d6 melee rounds.
 
@@ -775,7 +776,7 @@ Shub have the following special abilities, which they can use at will, one at a 
 
 In combat, shub prefer to wield a variety of strange, wicked-looking pole arms, saw-toothed swords, and bizarre atlatls and throwing knives.
 
-***Treasure:*** Shub love treasure, and will try to steal or swindle to get it. Most Shub will have some coins in a sack or pouch (2d12×10 ep, 2d4×5 gp). If encountered in their lair, Shub may have 1d4×1,000 cp (25%), 1d3×1,000 sp (20%) and 1d4 random gems (50%). <!-- printed as-is: NEW -->
+***Treasure:*** Shub love treasure, and will try to steal or swindle to get it. Most Shub will have some coins in a sack or pouch (2d12×10 ep, 2d4×5 gp). If encountered in their lair, Shub may have 1d4×1,000 cp (25%), 1d3×1,000 sp (20%) and 1d4 random gems (50%). <!-- printed as-is: see errata E147 -->
 
 ### Succubus
 
@@ -795,7 +796,7 @@ In combat, shub prefer to wield a variety of strange, wicked-looking pole arms, 
 - **Alignment:** Chaotic evil
 - **Level/XP:** 7/2,100 + 6/hp
 <!-- p.225 -->
-These solitary demons are always female. In their true form they look like stunningly beautiful, and naked, humanoid women with leathery bat-wings sprouting from their back. They are immune to normal melee and missile weapons and a +1 or better magical weapon is needed to hit them. At will, they can cause *darkness* (5 ft radius). They also are able to use the following abilities at will one at a time: become *æthereal* (as per the magic item *oil of æthereality*), *charm person* (as the 1st level magic user spell), *ESP* (as the 2nd level magic user spell), *clairaudience* (as the 3rd level magic user spell), *suggestion* (as the 3rd level magic user spell), *polymorph self* (humanoid shapes only, otherwise as the 4th level magic user spell), or *gate* (as the 9th level magic user spell) a class D demon (70% chance)or a class E demon (30% chance) with a 4 in 10 chance of success. <!-- printed as-is: NEW -->
+These solitary demons are always female. In their true form they look like stunningly beautiful, and naked, humanoid women with leathery bat-wings sprouting from their back. They are immune to normal melee and missile weapons and a +1 or better magical weapon is needed to hit them. At will, they can cause *darkness* (5 ft radius). They also are able to use the following abilities at will one at a time: become *æthereal* (as per the magic item *oil of æthereality*), *charm person* (as the 1st level magic user spell), *ESP* (as the 2nd level magic user spell), *clairaudience* (as the 3rd level magic user spell), *suggestion* (as the 3rd level magic user spell), *polymorph self* (humanoid shapes only, otherwise as the 4th level magic user spell), or *gate* (as the 9th level magic user spell) a class D demon (70% chance)or a class E demon (30% chance) with a 4 in 10 chance of success. <!-- printed as-is: see errata E148 -->
 
 Their most prominent ability is their kiss, which they inflict on their charmed or unconscious victims. Each kiss drains one level from the victim and they may kiss a particular victim but once a day. If they take a liking to a particular victim, a succubus may mate with a human male—producing a demonette (see listing for further details).
 

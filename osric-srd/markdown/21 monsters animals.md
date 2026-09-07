@@ -85,7 +85,7 @@ Communal and vegetarian, baboons will defend their territory if it is invaded. D
 
 ***Treasure:*** None
 
-### Badger
+### Badger<!-- printed as-is: see errata E189 -->
 
 | | Ordinary | Giant |
 |---|---|---|
@@ -107,7 +107,7 @@ Communal and vegetarian, baboons will defend their territory if it is invaded. D
 
 Swift-moving burrowers, the badger will defend its territory. Known to mate for life, and when more than one is indicated, the encounter will be with a family. Their pelts will usually bring 1d3×10 gold each, although juvenile pelts are worth considerably less.
 
-The **Giant Badger** is simply a larger version of the regular badger. Much rarer, it runs to 3 Hit Dice, with attacks that do 1d3/1d3/1d6 damage. They are Very Rare, even in Badger-rich areas, but may be encountered in prehistoric “lost world” environments.
+The **Giant Badger** is simply a larger version of the regular badger. Much rarer, it runs to 3 Hit Dice, with attacks that do 1d3/1d3/1d6 damage. They are Very Rare,<!-- printed as-is: see errata E190 --> even in Badger-rich areas, but may be encountered in prehistoric “lost world” environments.
 
 ***Treasure:*** None
 
@@ -168,7 +168,7 @@ The very large mobat is found in warm regions where a plentiful supply of warm-b
 
 - **Frequency:** Uncommon
 - **No. Encountered:** 2d6
-- **Size:** Small to Large
+- **Size:** Small to Large<!-- printed as-is: see errata E191 -->
 - **Move:** 30 ft swimming
 - **Armour Class:** 6
 - **Hit Dice:** 1 to 3
@@ -291,7 +291,7 @@ Aggressive omnivore, related to a pig. If more than one is encountered, the othe
 
 **Giant Boar:** Ancient ancestor to the modern boar, the giant boar is even more aggressive. If 3 or more are indicated, young will only be present 25% of the time. Bulls and sows have the same stats and will both fight to -11 hp, or 1d4 rounds after 0 hp.
 
-Young, when encountered have the following stats: 2-6HD, between 1d4 and 3d4 damage/attack
+Young, when encountered have the following stats: 2-6HD, between 1d4 and 3d4 damage/attack<!-- printed as-is: see errata E192 -->
 
 ***Treasure:*** None
 
@@ -385,11 +385,6 @@ A cat exceeding its needed “to hit” score by 4 or more can rake with its rea
 | **Frequency:** | Uncommon | Common | Common |
 | **No. Encountered:** | 4d6 | 1, plus 50% | 20d10 chance of 3d6 cattle |
 | **Size:** | Large | Large | Large |
-
-<!-- p.257 -->
-
-| | Buffalo | Bull | Wild |
-|---|---|---|---|
 | **Move:** | 150 ft | 150 ft | 150 ft |
 | **Armour Class:** | 7 | 7 | 7 |
 | **Hit Dice:** | 5 | 4 | 2-4 HD |
@@ -402,6 +397,8 @@ A cat exceeding its needed “to hit” score by 4 or more can rake with its rea
 | **Intelligence:** | Animal | Animal | Animal |
 | **Alignment:** | Neutral | Neutral | Neutral |
 | **Level/XP:** | 3/110+4/hp | 3/75+3/hp | 1/10+1/hp |
+
+<!-- p.257 -->
 
 **Buffalo:** Native to tropical and subtropical plains, the buffalo will usually attack if approached within 60 ft. Any attack by one may result in the whole herd charging. When charging, the buffalo will do 3d6 impact damage plus 1d4 trampling damage. The charge must cover a minimum of 40 ft.
 
@@ -618,7 +615,7 @@ Giant frogs can be 2, 4, or 6 ft in length. They are found anywhere their normal
 
 The frog can shoot its tongue up to three times its body length and gets a +4 to hit. The tongue does no damage, it only sticks to the victim. Any creature hit with the tongue can attempt to free itself by striking the tongue. If the victim manages to strike the tongue, the frog will retract it and attack a different target next round.
 
-If the victim is not freed and weighs less than the frog, the frog will attempt to pull the victim into its mouth for maximum damage. If the victim weighs more than the giant frog it will take 2 rounds to drag the victim into its mouth. If the victim is more then double the frog’s weight, the frog will not be able to move the victim. On the 3rd round the frog will release its tongue.
+If the victim is not freed and weighs less than the frog, the frog will attempt to pull the victim into its mouth for maximum damage. If the victim weighs more than the giant frog it will take 2 rounds to drag the victim into its mouth. If the victim is more then<!-- printed as-is: see errata E193 --> double the frog’s weight, the frog will not be able to move the victim. On the 3rd round the frog will release its tongue.
 
 If the frog scores a natural 20 on an attack, it has swallowed its prey. A giant frog can swallow whole anything elf-sized or smaller. If swallowed, there is a chance for the victim to cut their way out. They must have in hand a sharp edged weapon and score an 18 or better. The prey get 3 tries to escape. Any hit to the giant frog, that has swallowed its victim, has a 33% chance of doing damage to the victim as well.
 
@@ -645,11 +642,11 @@ If the frog scores a natural 20 on an attack, it has swallowed its prey. A giant
 | **Alignment:** | Neutral | Neutral | Neutral | Neutral | Neutral | Neutral |
 | **Level/XP:** | 2/20+2/hp | 2/20+2/hp | 2/20+2/hp | 2/20+2/hp | 2/20+2/hp | 2/20+2/hp |
 
-One of the most common domesticated animals, horses are almost ubiquitous in most human societies. They are insufficiently sure-footed to take into most dungeon
+One of the most common domesticated animals, horses are almost ubiquitous in most human societies. They are insufficiently sure-footed to take into most dungeon environments (cf *mule*). “Heavy”, “Medium” and “Light” refer to warhorses. Only about 10% of horses can be trained as warhorses, even by an expert, and warhorse
 
 <!-- p.261 -->
 
-environments (cf *mule*). “Heavy”, “Medium” and “Light” refer to warhorses. Only about 10% of horses can be trained as warhorses, even by an expert, and warhorse training requires very specialised knowledge on the part of the trainer.
+training requires very specialised knowledge on the part of the trainer.
 
 ***Treasure:*** None.
 
@@ -763,7 +760,7 @@ The small size of the Jackal makes it cautious and an unlikely combatant, but th
 | **Size:** | Large | Medium | Large |
 | **Move:** | 120 ft | 150 ft | 120 ft |
 | **Armour Class:** | 5 | 6 | 5 |
-| **Hit Dice:** | 5+3 | 3+2 | 6+3 |
+| **Hit Dice:** | 5 + 3 | 3 + 2 | 6 + 3 |
 | **Attacks:** | 3 | 3 | 3 |
 | **Damage:** | 1d6/1d6/1d10 | 1d4/1d4/1d6 | 2d4/2d4/2d6 |
 | **Special Attacks:** | Rear claws | Rear claws | Rear claws |
@@ -808,7 +805,7 @@ Mules, sterile crosses between horses and donkeys, are sure-footed enough to be 
 
 ***Treasure:*** None.
 
-### Portuguese Man O’ War, Giant
+### Portuguese Man O’ War, Giant<!-- printed as-is: see errata E194 -->
 
 - **Frequency:** Uncommon
 - **No. Encountered:** 1d10
@@ -942,11 +939,11 @@ These monsters live deep within the oceans at depths few can reach. Occasionally
 
 with two tentacles to the ship. This leaves the other eight tentacles free to go after the crew. When the squid has picked the ship clean it will crush the hull and drag the wreckage to its lair.
 
-A giant squid’s body is protected by a tough shell (AC 3), but its tentacles and head is more vulnerable (AC 7). Each tentacle hits for 1d6 damage. With each successful hit it grabs its victim and holds it. With each successive round the tentacle does an additional 2d6 crushing damage until the victim is dead. It takes one round to eat its dead victim, then the tentacle is free to attack a new target. The squid’s sharp beak bites for 5d4 damage. They only way to get a squid to release its victim is to sever the tentacle by causing 10 hp damage to it.
+A giant squid’s body is protected by a tough shell (AC 3), but its tentacles and head is more vulnerable (AC 7).<!-- printed as-is: see errata E195 --> Each tentacle hits for 1d6 damage. With each successful hit it grabs its victim and holds it. With each successive round the tentacle does an additional 2d6 crushing damage until the victim is dead. It takes one round to eat its dead victim, then the tentacle is free to attack a new target. The squid’s sharp beak bites for 5d4 damage. They only way<!-- printed as-is: see errata E196 --> to get a squid to release its victim is to sever the tentacle by causing 10 hp damage to it.
 
-Those within the tentacle’s grasp are 25% likely to have both arms held, and as such they are helpless. Most of the time (50%) they will have one limb held and are able to attack with a -3 penalty. The other 25% of the time the victim will both arms free and can attack the squid with only a -1 penalty.
+Those within the tentacle’s grasp are 25% likely to have both arms held, and as such they are helpless. Most of the time (50%) they will have one limb held and are able to attack with a -3 penalty. The other 25% of the time the victim will both arms free<!-- printed as-is: see errata E197 --> and can attack the squid with only a -1 penalty.
 
-If the squid looses more then 3 arms it will release the ship and flee. As it does the monster will release ink in the water leaving a cloud 60 ft deep by 80 ft wide.
+If the squid looses more then<!-- printed as-is: see errata E198 --> 3 arms it will release the ship and flee. As it does the monster will release ink in the water leaving a cloud 60 ft deep by 80 ft wide.
 
 **Giant octopi** resemble giant squid, but without the shell or two of their arms, and are smaller. Otherwise they are as giant squid.
 
@@ -961,7 +958,7 @@ If the squid looses more then 3 arms it will release the ship and flee. As it do
 | **Size:** | Large | Large |
 | **Move:** | 120 ft | 120 ft |
 | **Armour Class:** | 6 | 6 |
-| **Hit Dice:** | 5+5 | 7+2 |
+| **Hit Dice:** | 5 + 5 | 7 + 2 |
 | **Attacks:** | 3 | 3 |
 | **Damage:** | 1d6/1d6/1d10 | 1d8/1d8/2d6 |
 | **Special Attacks:** | See below | See below |
@@ -1017,15 +1014,12 @@ Giant toads hunt any sort of prey, including humans. They can leap forward up to
 | **Special Attacks:** | Overturn boats | Surprise on a 1–4 on d6 |
 | **Special Defences:** | None | None |
 | **Magic Resistance:** | Standard | Standard |
-
-<!-- p.266 -->
-
-| | Giant Sea | Giant Snapping |
-|---|---|---|
 | **Lair Probability:** | Nil | Nil |
 | **Intelligence:** | Animal | Animal |
 | **Alignment:** | Neutral | Neutral |
 | **Level/XP:** | 7/2,400+ 20/hp | 7/1,500+14/hp |
+
+<!-- p.266 -->
 
 **Giant sea turtles** are massive beasts, normally placid but ferocious when they feel they are under attack. They have a 90% chance of overturning a boat, and a 10% chance to overturn even a small ship. A sea turtle can withdraw its vulnerable head and flippers into its shell, but obviously cannot attack or move if it does so.
 
@@ -1053,7 +1047,7 @@ Giant toads hunt any sort of prey, including humans. They can leap forward up to
 - **Alignment:** Neutral
 - **Level/XP:** 4/160 + 6/hp
 
-Walruses are large, flippered animals with long ivory tusks. They are carnivorous and very aggressive in defending their territory, and are made every more dangerous due to their great size and the fact several are usually encountered. The largest males can weight as much as 4,400 lbs.
+Walruses are large, flippered animals with long ivory tusks. They are carnivorous and very aggressive in defending their territory, and are made every more dangerous<!-- printed as-is: see errata E199 --> due to their great size and the fact several are usually encountered. The largest males can weight as much as 4,400 lbs.<!-- printed as-is: see errata E200 -->
 
 In combat a walrus attacks with its clawed front flippers and its tusks. Males will primarily defend the herd from intruders but the females, who are also tusked, will fight if necessary.
 
@@ -1083,7 +1077,7 @@ Huge and giant weasels are typically encountered in forested areas, though some 
 
 Their pelts are quite valuable. Huge weasel pelts sell for 1d6×100 gp, giant weasel pelts for twice that amount or more.
 
-***Treasure:*** See creature text.
+***Treasure:*** See creature te×t.
 
 ### Whale
 
@@ -1135,7 +1129,7 @@ Wolves are predators that hunt in packs of up to 30. They are normally 26 to 30 
 
 ***Treasure:*** None.
 
-### Wolverine
+### Wolverine<!-- printed as-is: see errata E201 -->
 
 | | Normal | Giant |
 |---|---|---|

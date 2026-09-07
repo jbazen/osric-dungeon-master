@@ -2,7 +2,7 @@
 
 *OSRIC — editorial figure descriptions, not verbatim transcription. Companion to the 33 verbatim files; see `03 file manifest.md`'s "Separate, non-verbatim" entry for why this file exists outside the verbatim guarantee.*
 
-*Built directly from the PDF's own page images (rasterised fresh this batch, 300 dpi), not from any of the 33 transcribed markdown files — this file does not depend on, and is not subject to, the batch 18 provisional-audit flag carried in the headers of the master index and `osric.md`. The five-figure inventory below was closed by a full raster-and-vector pass across all 412 pages in the project's early batches, and reconfirmed with nothing new found by every subsequent full-method transcriber's own page rasterisation, batch after batch, through batch 17. Batch 18 did not re-run that survey; it rebuilt these five descriptions and their image crops from the source pages, and left the one still-open candidate (p.177, below) exactly as open as batch 6 left it.*
+*Built directly from the PDF's own page images (rasterised fresh this batch, 300 dpi), not from any of the 33 transcribed markdown files — this file does not depend on, and is not subject to, the batch 18 provisional-audit flag carried in the headers of the master index and `osric.md`. The five-figure inventory that pass produced was closed by a full raster-and-vector pass across all 412 pages in the project's early batches, and reconfirmed with nothing new found by every subsequent full-method transcriber's own page rasterisation, batch after batch, through batch 17. Batch 18 did not re-run that survey; it rebuilt these five descriptions and their image crops from the source pages, and left the one still-open candidate (p.177) exactly as open as batch 6 left it. **Owner ruling, taken after batch 18: the p.177 illustration is included.** It is the sixth entry below, added by a later remedy pass which established its page geometry and description fresh from PDF page 189; its PNG crop has not been exported yet — see Assets.*
 
 *Descriptions only — nothing here is a transcription of printed text, except where a figure carries no other typeset content and a label is quoted for identification. Each verbatim file that touches one of these figures carries its own pointer comment (e.g. `<!-- FIGURE p.164: see 34 figures.md -->`); this file is what those pointers resolve to.*
 
@@ -59,6 +59,18 @@ Crop: `34 figures assets/room-shape-panels-p164.png`
 
 ---
 
+## Wilderness landscape — waterfall and bear
+
+**Book p.177 (PDF 189).** In `16a urban and wilderness encounters.md`'s range, immediately after that file's `<!-- p.177 -->` marker. **No FIGURE pointer currently exists in file 16a** — every other inventoried figure except the character sheet has one, so a pointer comment (`<!-- FIGURE p.177: see 34 figures.md -->`) is still owed there; adding it was outside the scope of the pass that added this entry. Open as a sixth-figure candidate since batch 6 and left out by every batch through batch 18 as purely decorative, on the same reasoning as the p.245 unicorn; added here on the owner's ruling.
+
+A full-width landscape illustration at the top of the page: a monochrome tonal engraving in the nineteenth-century scenic-print manner, not line art. It occupies (48.00, 40.99)–(383.76, 253.69) pt on the 419.76 × 595.44 pt page — 335.76 × 212.70 pt, aspect 1.58 — and bridges both text columns (column 1 runs x 48.0–211.4, column 2 x 221.9–385.3), so it spans the full text measure and the gutter between them. It is a **raster** image, not vector art: a single DCTDecode (JPEG) DeviceGray object, 1399 × 887 px, placed at exactly 300 dpi; the page carries no vector drawing objects at all, unlike the p.i device and the character-sheet form. Nothing is printed above it but the page's own running head and folio (`177` / `DUNGEONS, TOWNS AND WILDERNESSES`, y 23.26–31.22); body text resumes 7.6 pt below its lower edge, at y 261.26, and runs from there to the foot of the page as one unbroken two-column band — there is no crop seam and no text wraps around the figure.
+
+The scene: a stand of tall conifers filling the left third, with snow-capped mountain peaks and a deep hanging valley behind them; a waterfall spilling in stages over pale rock ledges at centre-right, feeding a still lake or river pool that occupies the whole foreground right; broadleaf trees and a sheer cliff face along the right edge. A single bear walks left-to-right along the near shore in the lower-left foreground, past a fallen log and boulders. **The illustration carries no caption, no label, no lettering of any kind inside its frame, no artist signature and no credit line** — confirmed on the page image at 1200 dpi along the bottom edge, where a credit would sit. It cross-references nothing: the surrounding text (the tail of the Lost World encounter notes and the "Explanation of NPC Types" list) neither mentions it nor depends on it. Decorative chapter art, inventoried here for completeness rather than for use at the table.
+
+Crop: `34 figures assets/wilderness-landscape-p177.png`
+
+---
+
 ## Player Character Reference Sheet
 
 **Book pp.390–391 (PDF 402–403), Appendix B.** Not transcribed as body text — `03 file manifest.md`'s "Not transcribed" table covers it explicitly: *"A vector form. Extraction yields floating field labels only; the structure is line art. No worker is to reconstruct it — that would be invention, not transcription."* What follows is a description of the printed structure, not a reconstruction of it as a fillable form, and the field ordering below follows only what is directly visible on the page.
@@ -86,7 +98,6 @@ Crops: `34 figures assets/character-reference-sheet-p390.png`, `34 figures asset
 
 ## Not included in this inventory
 
-- **The p.177 full-width landscape illustration** (forest, mountains, a waterfall, and a bear), sitting in file 16a's range. Flagged as a sixth figures.md candidate as early as batch 6; every batch since has treated it the same way as the p.245 unicorn below — decorative, no labels, no table cross-reference — and left it out rather than adding it. **Still an open question for the owner, not resolved by this batch or any prior one.** No new page-image work was done on it this batch; it is left out by the existing precedent, per the batch 18 brief's own instruction to build this file either way rather than block on an answer nobody has given yet. See `batch 18 — record.md` for the flag restated in this batch's own record.
 - **The p.245 unicorn illustration**, at the head of the Undead chapter, and other purely decorative page art carrying no label and no table cross-reference. Confirmed by the project's original raster-and-vector survey to be ornament only. Not logged here, consistent with every batch to date.
 
 ## Assets
@@ -97,5 +108,6 @@ PNG crops, exported from `osric_core_rules.pdf` at 300 dpi, alongside this file 
 - `34 figures assets/example-dungeon-cave-mouth-p153.png`
 - `34 figures assets/example-dungeon-map-p154.png`
 - `34 figures assets/room-shape-panels-p164.png`
+- `34 figures assets/wilderness-landscape-p177.png` — **not yet exported.** The p.177 entry was added after the batch 18 asset export and the pass that added it was not authorised to write image files. To produce it to match the other five: PDF page 189 (0-based index 188), clip rect (48.00, 40.99, 383.76, 253.69) pt, rendered at 300 dpi — which is the placed image's own native resolution, so the crop is 1:1 with the embedded JPEG.
 - `34 figures assets/character-reference-sheet-p390.png`
 - `34 figures assets/character-reference-sheet-p391.png`

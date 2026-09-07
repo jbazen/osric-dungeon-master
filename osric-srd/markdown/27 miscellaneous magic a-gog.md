@@ -23,9 +23,9 @@ Ahmek was a wizard turned sage who, legends say, was always forgetting to put mo
 
 ### Alchemy Jug (IM)
 
-This jug appears as an ordinary ewer or beaker, but will, on command, produce various liquids when poured. The  type and quantity of liquid is as follows: <!-- printed as-is: NEW -->
+This jug appears as an ordinary ewer or beaker, but will, on command, produce various liquids when poured. The  type and quantity of liquid is as follows: <!-- printed as-is: see errata E318 -->
 
-| Liquid | Quantity | Liquid | Quantity |
+|  |  |  |  |
 |---|---|---|---|
 | Salt water | 16 gallons | Oil | 1 pint |
 | Fresh water | 8 gallons | Aqua regia | 8 ounces |
@@ -50,7 +50,11 @@ A magical amulet granting the wearer +1 to +4 to AC (roll 1d4 to determine the b
 
 ### Amulet of Life Protection (any)
 
-The wearer of this broach is protected against attacks on his or her soul. The charm completely safeguards its wearer from possession, whether as the result of a spell or through the efforts of a demon, devil or like being. Furthermore, should the wearer be slain, his or her soul will enter the amulet and be protected for up to 1 week. If the amulet is destroyed during that time, however, the soul is destroyed along with it.
+The wearer of this broach is protected against attacks on his or her soul. The charm completely safeguards its wearer from possession, whether as the result of a spell or through the efforts of a demon, devil or like being. Furthermore, should the wearer <!-- printed as-is: see errata E319 -->
+
+<!-- p.345 -->
+
+be slain, his or her soul will enter the amulet and be protected for up to 1 week. If the amulet is destroyed during that time, however, the soul is destroyed along with it.
 
 ### Amulet of the Planes (any)
 
@@ -62,7 +66,7 @@ This amulet provides protection against all forms of scrying. Thus spells such a
 
 ### Apparatus of the Lobster (any)
 
-This device appears to be a large iron barrel. A secret compartment at one end contains 10 levers, each of which controlling a different aspect of the apparatus. <!-- printed as-is: NEW -->
+This device appears to be a large iron barrel. A secret compartment at one end contains 10 levers, each of which controlling a different aspect of the apparatus. <!-- printed as-is: see errata E320 -->
 
 1. extend/retract legs and tail
 2. uncover/cover forward porthole
@@ -81,11 +85,9 @@ The apparatus moves at 30 ft per round forward and 60 ft per round in reverse. T
 
 This appears to be an ordinary arrow, although a *detect magic* spell will reveal that it has eldritch properties. Unlike other magic arrows, its enchantment does not aid in combat, however. Instead, once per day the arrow of direction can be used — by tossing it in the air and noting which direction it points when it lands — to show the way to one of several specific features: a stairway or sloping passage (either up or down), or the entrance or exit to a dungeon, cavern or cave. The feature sought must be identified either by distance (nearest, lowest, etc.) or by direction (north, leftmost, etc.). The query can be repeated up to 7 times over the next 7 turns.
 
-<!-- p.345 -->
-
 ### Bag of Holding (any)
 
-A most wonderful item, this is a bag larger on the inside than on the outside. This magical sack also reduces the apparent weight of the contents of the bag. Bag capacity, volume, weight, and apparent weight all vary by type-listed on the table below. Overloading the bag destroys both bag and contents, as does piercing the bag from either without or within. Turning a bag inside out empties all contents out onto the ground and the bag cannot be used again until it is turned back. A living creature can be placed into the bag but there is only enough air to sustain for 10 minutes, after which the creature will suffocate and die.
+A most wonderful item, this is a bag larger on the inside than on the outside. This magical sack also reduces the apparent weight of the contents of the bag. Bag capacity, volume, weight, and apparent weight all vary by type-listed on the table below. Overloading the bag destroys both bag and contents, as does piercing the bag from either without or within. Turning a bag inside out empties all contents out onto the ground and the bag cannot be used again until it is turned back. A living creature can be placed into the bag but there is only enough air to sustain for 10 minutes, after which the creature will suffocate and die. <!-- printed as-is: see errata E321 -->
 
 The extra-dimensional space of the *bag of holding* is incompatible with that of the *portable hole*. Placing a *bag of holding* into a *portable hole* will open a rift into the Astral Plane and suck both objects and their content into Astral space, lost forever. If a *portable hole* is placed into a *bag of holding*, a gate into the Astral Plane is opened, destroying both objects and pulling anyone standing within 10 ft into the Astral Plane.
 
@@ -114,9 +116,11 @@ There are 3 known types of this particular magic item, detailed below, but all w
 
 ### Bead of Force (any)
 
-A tiny bead of what appears to be made of dull, black glass. This item can be hurled up to 60 ft with no range penalty incurred, exploding on impact and dealing 5d6 points of damage to all creatures within 10 ft of the point of impact. The explosion also creates a *resilient sphere* with a radius of 10 ft and a duration of 10 minutes. The bead’s target will be imprisoned within a sphere of energy that can only be dispelled by a *rod of cancellation, a rod of negation, disintegrate,* or a targeted *dispel magic* spell. A dispelled *resilient sphere* will vanish harmlessly. Nothing can pass into or out of the sphere, though there is enough air contained within the sphere to prevent the prisoner from suffocating. The sphere is immovable from its initial location by any magical or physical means.
+A tiny bead of what appears to be made of dull, black glass. This item can be hurled up to 60 ft with no range penalty incurred, exploding on impact and dealing 5d6 points of damage to all creatures within
 
 <!-- p.346 -->
+
+10 ft of the point of impact. The explosion also creates a *resilient sphere* with a radius of 10 ft and a duration of 10 minutes. The bead’s target will be imprisoned within a sphere of energy that can only be dispelled by a *rod of cancellation, a rod of negation, disintegrate,* or a targeted *dispel magic* spell. A dispelled *resilient sphere* will vanish harmlessly. Nothing can pass into or out of the sphere, though there is enough air contained within the sphere to prevent the prisoner from suffocating. The sphere is immovable from its initial location by any magical or physical means.
 
 ### Belt of Dwarfkind (any)
 
@@ -154,7 +158,7 @@ When activated by clicking one’s heels together, the wearer’s movement speed
 
 ### Boots of Striding and Springing (any)
 
-This magical footwear increases the wearer’s base speed  to 120 ft and grants the ability to spring vertically 15 ft, backward 9 ft and forward 30 ft. This springing movement can be used in combat to attack and spring away if the wearer has initiative but under such conditions the wearer has a base 20% chance to stumble, decreased by 1% for every point of dexterity over 12. Carved into the side of the left boot heel is the name “Jak”. <!-- printed as-is: NEW -->
+This magical footwear increases the wearer’s base speed  to 120 ft and grants the ability to spring vertically 15 ft, backward 9 ft and forward 30 ft. This springing movement can be used in combat to attack and spring away if the wearer has initiative but under such conditions the wearer has a base 20% chance to stumble, decreased by 1% for every point of dexterity over 12. Carved into the side of the left boot heel is the name “Jak”. <!-- printed as-is: see errata E322 -->
 
 ### Boots of Teleportation (any)
 
@@ -174,9 +178,11 @@ An ordinary-appearing stoppered glass bottle. When uncorked in an airless enviro
 
 ### Bowl Commanding Water Elementals (DM)
 
-A stoneware bowl 1 ft in diameter, 6 inches deep, and usually made of a semi-precious stone; malachite, jade, or lapis lazuli are particularly favoured for this purpose. Filling the bowl with water and chanting the summoning words for 1 round causes a 12HD water elemental to appear. The creature summoned behaves as if called by a *conjure elemental* spell. Only one water elemental may be summoned at a time; a new one cannot be called forth until the previous elemental is dismissed, slain, or dispelled. If salt water is used instead of fresh water, the summoned elemental will have 16 HD rather than 12.
+A stoneware bowl 1 ft in diameter, 6 inches deep, and usually
 
 <!-- p.347 -->
+
+made of a semi-precious stone; malachite, jade, or lapis lazuli are particularly favoured for this purpose. Filling the bowl with water and chanting the summoning words for 1 round causes a 12HD water elemental to appear. The creature summoned behaves as if called by a conjure elemental spell. Only one water elemental may be summoned at a time; a new one cannot be called forth until the previous elemental is dismissed, slain, or dispelled. If salt water is used instead of fresh water, the summoned elemental will have 16 HD rather than 12.
 
 ### Bracelet of Friends (CDIM)
 
@@ -200,7 +206,7 @@ When a fire is lit in this black iron brazier, and the words of summoning chante
 
 ### Brooch of Instigation (any)
 
-This shoulder pin grants the wearer a +1 to AC and saving throws, and also has the affect of sending a silent boast to all living creatures in the area. This boast is a mental effect much like *ESP*, touting the wearer’s prowess in battle, and therefore does not work on the undead or mindless creatures. The boast has the result of doubling the chances of wandering monsters, a +10% to any opponent’s morale checks, and a -10% to reaction bonus checks. Once a person touches the brooch, he or she will be unable to rid themselves of it until a remove curse or atonement is cast upon the unfortunate victim.
+This shoulder pin grants the wearer a +1 to AC and saving throws, and also has the affect of sending a silent boast to all living creatures in the area. This boast is a mental effect much like *ESP*, touting the wearer’s prowess in battle, and therefore does not work on the undead or mindless creatures. The boast has the result of doubling the chances of wandering monsters, a +10% to any opponent’s morale checks, and a -10% to reaction bonus checks. Once a person touches the brooch, he or she will be unable to rid themselves of it until a remove curse or atonement is cast upon the unfortunate victim. <!-- printed as-is: see errata E323 -->
 
 ### Brooch of Shielding (any)
 
@@ -214,7 +220,7 @@ This broom allows the user to fly up to 9 hours cumulative per day. Carrying up 
 
 These candles come in 9 different types, each specific to an alignment. Any individual within 30 ft of a burning candle of like alignment is at +2 to hit and saving throws. A cleric of like alignment to a *candle of invocation* will determine the number of divine spells knowable as if he or she were 2 levels higher, if he or she burns the candle immediately prior to his or her daily meditation. He or she will even be granted and use spells of the higher level, although these spells are usable only so long as the candle is burning. The *candle of invocation* normally burns for about 4 hours.
 
-The candle can also be used to cast a *gate* spell and the being responding will be of the same alignment as the candle. When casting gate the candle is completely and instantly consumed. The candle can be blown out as easily as any ordinary candle. Thus, the user may sometimes place the candle in a lantern to protect the flame-this does not interfere in any way with the magical effects. <!-- printed as-is: NEW -->
+The candle can also be used to cast a *gate* spell and the being responding will be of the same alignment as the candle. When casting gate the candle is completely and instantly consumed. The candle can be blown out as easily as any ordinary candle. Thus, the user may sometimes place the candle in a lantern to protect the flame-this does not interfere in any way with the magical effects. <!-- printed as-is: see errata E324 -->
 
 ### Candle of Truth (CP)
 
@@ -258,7 +264,7 @@ A simple golden headband with a small red ruby set in the middle. Once per day t
 
 ### Circlet of Persuasion (any)
 
-An ornate silver headband which increases the wearer’s charisma by+3 while worn. <!-- printed as-is: NEW -->
+An ornate silver headband which increases the wearer’s charisma by+3 while worn. <!-- printed as-is: see errata E325 -->
 
 ### Cloak of Arachnida (any)
 
@@ -346,7 +352,7 @@ When the cube is active, attacks causing excessive damage sap charges from it at
 
 ### Cube of Frost Resistance (any)
 
-A crystalline but featureless cube about ¾ in square. Activating this device creases a cube-shaped wall of force with 10 ft sides centred around the user and moving with him or her unless he or she places the device on a surface after activation. The temperature inside the cube is always 65°F no matter the surroundings, and the force wall absorbs all cold based attacks, whether natural or magical. If the field absorbs more than 50 total points of cold based damage in 1 round the force wall collapses and the cube cannot be reactivated for a period of 1 hour. Additionally, if the cube of frost resistance absorbs more than 100 points of cold damage in 10 rounds it is destroyed. <!-- printed as-is: NEW -->
+A crystalline but featureless cube about ¾ in square. Activating this device creases a cube-shaped wall of force with 10 ft sides centred around the user and moving with him or her unless he or she places the device on a surface after activation. The temperature inside the cube is always 65°F no matter the surroundings, and the force wall absorbs all cold based attacks, whether natural or magical. If the field absorbs more than 50 total points of cold based damage in 1 round the force wall collapses and the cube cannot be reactivated for a period of 1 hour. Additionally, if the cube of frost resistance absorbs more than 100 points of cold damage in 10 rounds it is destroyed. <!-- printed as-is: see errata E326 -->
 
 ### Cubic Gate (CDIM)
 
@@ -437,7 +443,7 @@ This fine white powder makes things invisible, as per the 4th level illusionist 
 
 ### Dust of Dryness (any)
 
-One application of this wonderful substance will absorb up to 100 gallons of water (fresh, salt, or alkaline) and forming a small 1 in pellet, either floating or resting where it was cast. This pellet can be forcibly hurled, causing it to break open and release the same volume of water in a most energetic fashion. *Dust of dryness* will only affect water, it has no affect on other liquids. This magic dust can also be used to destroy a water elemental, though the monster is allowed a saving throw vs death magic at -5 for 5d6 damage. *Dust of dryness* comes packaged in a similar fashion to *dust of appearance*.
+One application of this wonderful substance will absorb up to 100 gallons of water (fresh, salt, or alkaline) and forming a small 1 in pellet, either floating or resting where it was cast. This pellet can be forcibly hurled, causing it to break open and release the same volume of water in a most energetic fashion. *Dust of dryness* will only affect water, it has no affect on other liquids. This magic dust can also be used to destroy a water elemental, though the monster is allowed a saving throw vs death magic at -5 for 5d6 damage. *Dust of dryness* comes packaged in a similar fashion to *dust of appearance*. <!-- printed as-is: see errata E327 -->
 
 ### Dust of Illusion (IM)
 
@@ -445,7 +451,7 @@ When this magic dust is applied to a living creature, the creature alters appear
 
 ### Dust of Tracelessness (any)
 
-One application of *dust of tracelessness* can cause up to 100 sq ft of floor space to become dusty and cobwebbed as if abandoned for years, concealing all evidence of anyone passing through the area. The dust can be used on outdoor trails as well, concealing for 250 ft of back-trail the passage of up to a dozen troops and their mounts. The dust works instantly and leaves no magical aura to betray its use. Any creature with tracking skills, a ranger for instance, will be severely disadvantaged following a path concealed by *dust of tracelessness*, allow only a 5% chance of a ranger successfully tracking his or her quarry in such a case. This item comes in 1d4+2 silk packets, and can easily be sprinkled along a trail or applied all at once to a larger area.
+One application of *dust of tracelessness* can cause up to 100 sq ft of floor space to become dusty and cobwebbed as if abandoned for years, concealing all evidence of anyone passing through the area. The dust can be used on outdoor trails as well, concealing for 250 ft of back-trail the passage of up to a dozen troops and their mounts. The dust works instantly and leaves no magical aura to betray its use. Any creature with tracking skills, a ranger for instance, will be severely disadvantaged following a path concealed by *dust of tracelessness*, allow only a 5% chance of a ranger successfully tracking his or her quarry in such a case. This item comes in 1d4+2 silk packets, and can easily be sprinkled along a trail or applied all at once to a larger area. <!-- printed as-is: see errata E328 -->
 
 ### Efficient Quiver (AFPRT)
 
@@ -458,8 +464,6 @@ An enchanted gem keyed to one of the four major Elemental Planes. Its appearance
 ### Elixir of Fire Breath (any)
 
 This potion enables the drinker to breathe fire up to thrice, targeting a single creature up to 25 ft away for 4d6 damage per attack. The target gets a saving throw vs dragon breath for half damage. The ability to breathe fire dissipates after 3 breath attacks or 1 hour, whichever comes first.
-
-<!-- p.352 -->
 
 ### Elixir of Hiding (any)
 
@@ -489,7 +493,7 @@ The *eyes of charming* are a pair of crystal lenses which fit over the eyes, gra
 
 Eye lenses which cause an intense feeling of dread as a gaze attack against a single target. The target is allowed a saving throw vs petrifaction to negate. Failing the saving throw means the victim will always attack last in combat and morale checks are at -10%. The use of both lenses allows additional powers. First, the wearer can determine of anyone within 30 ft whether they are: dead, undead, feigning death, neither (golems, for instance), near death (3 or fewer hit points remaining), or wounded (4 or more hit points but less than 100%). The wearer can also use *fear* as a gaze attack once per week, saving throw vs petrifaction allowed. The *fear* attack is
 
-<!-- p.353 -->
+<!-- p.352 -->
 
 powerful, however, and a target making its save is still -1 to all attacks, damage, and saving throws for 1 round.
 
@@ -527,7 +531,9 @@ Tiny and skilfully-carved statuettes of creatures in various materials and forms
 - **Obsidian Steed:** Unlike the other *figurines of wondrous power*, this particular figurine appears as a shapeless black rock. Close inspection, however, will reveal a vague resemblance to a horse. Upon command this statuette becomes a heavy warhorse with the following special abilities, usable at will once each per round: first, the steed can fly up to 40 ft per round, 30 ft if rider is wearing heavy armour. Second, the *obsidian steed* can *plane shift*. Third, the mount and its rider (and equipment) can become æthereal. This statuette can be used once per week for up to 24 hours. Market value is 28,500 gp.
 - **Onyx Dog:** This statuette becomes a large dog similar to a war dog but with an intelligence of 8, the ability to track as a 10th level ranger, 60 ft infravision, and can *see invisible*. The *onyx dog* is large and strong enough to bear a small creature as a rider. Market value is 15,500 gp.
 - **Serpentine Owl:** With the proper command word, this statuette becomes either a horned owl or a giant owl. This transformation can take place once per day for up to 8 hours. The owl will communicate all it sees and hears to its owner via telepathic means but, unfortunately, after three transformations into giant owl form, the statuette crumbles into useless dust. Market value is 9,100 gp.
-- **Silver Raven:** Upon command this figurine becomes a raven but retains it silvery metallic surface, giving it an AC 0. The raven can be used as a magical messenger, capable of carrying a message or small token to a designated spot and awaiting the designated recipient of the message. The raven can maintain its animated status for up to 24 hours per week, cumulative. Market value is 3,800 gp. <!-- printed as-is: NEW -->
+- **Silver Raven:** Upon command this figurine becomes a raven but retains it silvery metallic surface, giving it an AC 0. The raven can be used as a magical messenger, capable of carrying a message or small token to a designated spot and awaiting the designated recipient of the message. The raven can maintain its animated status for up to 24 hours per week, cumulative. Market value is 3,800 gp. <!-- printed as-is: see errata E329 -->
+
+<!-- p.353 -->
 
 ### Gauntlets of Ogre Power (ACDFPRT)
 
@@ -541,13 +547,13 @@ A single item. On a successful hit affects metal objects like a rust monster’s
 
 An ordinary prism-shaped crystal with three powers, activated by command words. The gem’s number of charges is determined in the same way as a rod (see “Rods, Staves and Wands”). It may not be recharged.
 
-- **Light:** 30 ft radius , requires no charges to activate. <!-- printed as-is: NEW -->
+- **Light:** 30 ft radius , requires no charges to activate. <!-- printed as-is: see errata E330 -->
 - **Ray of light:** A ray 1” in diameter and 50 ft long. Blinds a single target for 1d4 rounds; a save vs wand negates. Requires 1 charge.
 - **Flare:** A 30 ft cone of bright light; creatures within the cone must save vs wands or be blind for 1d4 rounds. Requires 5 charges.
 
 ### Gem of Seeing (any)
 
-A finely-cut gem that bestows the benefits of a *true seeing* spell when looked through. May be used no more than  30 minutes per day. <!-- printed as-is: NEW -->
+A finely-cut gem that bestows the benefits of a *true seeing* spell when looked through. May be used no more than  30 minutes per day. <!-- printed as-is: see errata E331 -->
 
 ### Gloves of Arrow Snaring (any)
 

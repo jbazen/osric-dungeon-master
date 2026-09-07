@@ -14,7 +14,7 @@ It is typically assumed that hirelings are human; if non-human hirelings are sou
 
 ### STANDARD HIRELINGS
 
-The short term services of simple craftsmen and labourers are relatively easily procured in large settlements, but even small villages are usually able to supply something in the way of this sort of hireling. It is more difficult to find individuals willing to take service for longer than a few days, especially if considerable travel is involved. If a lengthy term of service is proposed, it is likely that only one in every six such hirelings will agree, though the offer of additional monies may increase the probability of acceptance. Under normal circumstances, a reasonable offer might be an additional two or three day's pay, which could be expected to increase the probability of agreement to as much as one in every two.
+The short term services of simple craftsmen and labourers are relatively easily procured in large settlements, but even small villages are usually able to supply something in the way of this sort of hireling. It is more difficult to find individuals willing to take service for longer than a few days, especially if considerable travel is involved. If a lengthy term of service is proposed, it is likely that only one in every six such hirelings will agree, though the offer of additional monies may increase the probability of acceptance. Under normal circumstances, a reasonable offer might be an additional two or three day’s pay, which could be expected to increase the probability of agreement to as much as one in every two.
 
 Rates of payment do not take into account the cost of materials for the undertaking of construction or the creation of items. The figuring of such costs is mainly left up to each game master, but a reasonable guideline for an item would be about ten percent of the cost of the finished product. Furthermore, monthly rates of payment assume that the hireling is provided with lodgings and that his other day to day needs are attended to; if such is not the case, then the game master will have to account for the lack.
 
@@ -156,7 +156,7 @@ A dwarf blacksmith is three times as efficient as a human, but will demand ten t
 
 **Engineer (Artillerist):** Mandatory for the construction and correct operation of siege weapons, such as the trebuchet or ballista. Any attempt to build or use such weapons correctly without the aid of such an engineer will surely fail. If retained for only a few months at a time, this specialist demands higher pay, perhaps as much as sixty percent above the standard wage.
 
-**Engineer (Miner and Sapper):** <!-- printed as-is: NEW (table on p.134 lists this hireling as "Engineer (Miner or Sapper)"; the descriptive heading here reads "and") --> Indispensable for the overseeing of any mining operations, underground construction, or siege and counter siege works that involve trenches, fortifications, assault towers and other similar siege devices. A dwarf engineer of this sort is required if dwarf miners are employed; he will demand twice the standard wage, but increase the productivity of any human miners by one fifth.
+**Engineer (Miner and Sapper):** <!-- printed as-is: see errata E88 (table on p.134 lists this hireling as "Engineer (Miner or Sapper)"; the descriptive heading here reads "and") --> Indispensable for the overseeing of any mining operations, underground construction, or siege and counter siege works that involve trenches, fortifications, assault towers and other similar siege devices. A dwarf engineer of this sort is required if dwarf miners are employed; he will demand twice the standard wage, but increase the productivity of any human miners by one fifth.
 
 **Jeweller and Gemcutter:** Able to speedily and accurately appraise the value of most gems, jewellery and other precious objects, a jeweller is also capable of repairing, enhancing or newly creating ornamented items and jewellery. Simple tasks, such as setting a stone in the hilt of a sword or the forging of a plain ring, might take only a few days to a week, whilst more complex undertakings, such as producing a gem studded bracelet, could take up to a month; of course, truly opulent and intricate items might take a year or more.
 
@@ -233,7 +233,7 @@ Many humanoids, such as kobolds, goblins, orcs, hobgoblins, bugbears or gnolls, 
 
 In game terms, the sage would be able to converse intelligently on a wide variety of subjects but would give very good advice in his or her field of study, authoritative advice in his or her special areas of research, and reasonable advice in one or two other fields. Keep in mind, too, that all this is relative—advice from a sage should never be lightly ignored, no matter the subject under discussion or area of study of the sage. Obviously, portraying such an individual presents a challenge: how much does the sage know and in what areas does he or she know it? The tables presented here should help the GM to fully answer those questions.
 
-First, the fields of specialty must be determined. As always, random generation scores are included but the GM should feel free to tailor a sage to campaign's needs. Be careful of meta-game questions or information. This is to say, the players should not be able to ask things about which the characters should have no knowledge, nor should the sage divulge information which she should not possess. If laser guns do not exist in your milieu, for instance, then no question concerning them should be answered.
+First, the fields of specialty must be determined. As always, random generation scores are included but the GM should feel free to tailor a sage to campaign’s needs. Be careful of meta-game questions or information. This is to say, the players should not be able to ask things about which the characters should have no knowledge, nor should the sage divulge information which she should not possess. If laser guns do not exist in your milieu, for instance, then no question concerning them should be answered.
 
 **Sage Ability Table**
 
@@ -333,7 +333,7 @@ Examples of the different types of questions:
 
 **Specific:** Do hobgoblins of the Three Skulls tribe live in the region north of the Great Mountains?
 
-**Exacting:** Do the hobgoblins of the Three Skulls tribe living in the region north of the Great Mountain possess the dread artifact known as "The Great Spear of Kaliban"?
+**Exacting:** Do the hobgoblins of the Three Skulls tribe living in the region north of the Great Mountain possess the dread artifact known as “The Great Spear of Kaliban”?
 
 A sage does not carry all his or her knowledge within his or her head. Picture the modern attorney and the considerable size of the libraries in his offices. This may give one an idea of the sheer volume of stored information a sage will wish to be able to access on demand. Sages are scholarly, eccentric types and a PC offering to hire one will be expected to provide private living spaces far away from noise and the bustle of activity. The minimum quarters a sage would accept would consist of four separate rooms of no less than 200 sq ft each: living quarters, study, library, and workroom. Depending upon the field of speciality, the sage may also request various other areas, such as a zoo for housing living creatures for study, or a greenhouse for the study of plants. The average sage will see the player as the opportunity for acquisition of additional materials for study and categorisation and will, in all likelihood, demand far more for his or her work than he or she will actually need. At any rate, the busier the sage is kept and the more often his or her studies are interrupted, the more materials and money he or she will likely demand.
 
@@ -360,7 +360,7 @@ A sage does not carry all his or her knowledge within his or her head. Picture t
 | 81-90 | Neutral Evil |
 | 91-00 | Neutral Good |
 
-**Special Skills:** Sages have limited ability in spell-casting granted to them by the sheer volume of knowledge they have accumulated and the type of spell is usually related to their field of speciality. The GM should determine whether the sage's spell-casting ability is arcane, phantasmal, divine or druidic when the sage is created, based on a judgement call rather than a random roll. Expertise in the field
+**Special Skills:** Sages have limited ability in spell-casting granted to them by the sheer volume of knowledge they have accumulated and the type of spell is usually related to their field of speciality. The GM should determine whether the sage’s spell-casting ability is arcane, phantasmal, divine or druidic when the sage is created, based on a judgement call rather than a random roll. Expertise in the field
 
 <!-- p.140 -->
 of magic, for instance, would indicate arcane spell ability. On the other hand a sage with extensive knowledge of trees would have druidic spell ability. Phantasmal magic might be associated with psychology and divine ability with astronomy.
@@ -391,9 +391,9 @@ Use the table below for determining fees and time required for information disco
 
 Location is important because the sage may need additional equipment or materials for additional research which simply would not be available in more rural settings. A sage located far from large population centres will probably require double the regular fee schedule and allotted time for research. In such a situation, after rolling on the Chance of Knowing the Answer to a Question table, roll d% again. For all categories except Special, if the second roll is 20% or less of the first percentage generated the sage knows the answer without having to conduct the research at the more expensive double rate, since the information he or she already has at hand is sufficient to answer the query.
 
-**For example:** a sage in a remote location is asked specific question in an Out of Fields category. The GM rolls a 10 on a 1d10 and the table yields a result of 20%. The GM rolls d% again and if the result is 1 (20% of 20) the sage will be able to provide an answer at the regular cost; otherwise research time and cost will be doubled. For questions in the sage's special category of knowledge the spread increases to 80%. Fees for secondary questions based upon answers to a previous question are subject to the sage's reaction to the players; the GM must decide whether the fee is charged again, or partial, or waived. Unknown information will take from 50%-100% of allotted time to determine whether sage can answer the question, but will cost only half the standard rate.
+**For example:** a sage in a remote location is asked specific question in an Out of Fields category. The GM rolls a 10 on a 1d10 and the table yields a result of 20%. The GM rolls d% again and if the result is 1 (20% of 20) the sage will be able to provide an answer at the regular cost; otherwise research time and cost will be doubled. For questions in the sage’s special category of knowledge the spread increases to 80%. Fees for secondary questions based upon answers to a previous question are subject to the sage’s reaction to the players; the GM must decide whether the fee is charged again, or partial, or waived. Unknown information will take from 50%-100% of allotted time to determine whether sage can answer the question, but will cost only half the standard rate.
 
-The abbreviation "r" means "rounds", "h" means "hours", and "d" means "days".
+The abbreviation “r” means “rounds”, “h” means “hours”, and “d” means “days”.
 
 <!-- p.141 -->
 **Information Discovery Time and Cost Table**
@@ -415,10 +415,10 @@ The abbreviation "r" means "rounds", "h" means "hours", and "d" means "days".
 
 Every ship, no matter the size, requires a master, at least one lieutenant and a mate. In all respects other than those outlined below, these officers correspond to the mercenary captain, lieutenant and sergeant, respectively. The master of the ship will expect to receive one half share of any treasure taken for every full share a player character receives; each lieutenant will similarly expect to receive one tenth share and each mate one fiftieth, whilst at least a further tenth share is to be distributed between the crewmen.
 
-- **Lieutenant:** Equivalent to a second or third level fighter, but incapable of conventional advancement by level. At least one lieutenant is required for every twenty crewmen or part thereof that makes up a ship's company, but not including mates. The monthly wage demanded by a lieutenant is equal to his level multiplied by 100 gold pieces.
+- **Lieutenant:** Equivalent to a second or third level fighter, but incapable of conventional advancement by level. At least one lieutenant is required for every twenty crewmen or part thereof that makes up a ship’s company, but not including mates. The monthly wage demanded by a lieutenant is equal to his level multiplied by 100 gold pieces.
 - **Marine:** Trained primarily to repel and engage in boarding actions, marines otherwise fight in close order as heavy footmen. Typical equipment includes scale armour, large shield, spear, short sword, and hand axe.
 - **Master:** Equivalent to a fifth to eighth level fighter, but incapable of conventional advancement by level. A ship must have a master of the appropriate type if it is to operate without fear of preventable disaster. The monthly wage required by a captain is equal to his level multiplied by 100 gold pieces.
-- **Mate:** Equivalent to a first level fighter, but incapable of conventional advancement by level. At least one mate is required for every ten crewmen or part thereof that makes up a ship's company.
+- **Mate:** Equivalent to a first level fighter, but incapable of conventional advancement by level. At least one mate is required for every ten crewmen or part thereof that makes up a ship’s company.
 - **Oarsman:** Accustomed to protracted periods of steady rowing, oarsmen are well paid and willing to fight as heavy footmen. Typical equipment includes studded armour, small shield, short sword, and dagger.
 - **Sailor:** Necessary for the operation of most sailing vessels, sailors will fight as light footmen, but are unwilling to wear body armour. Typical equipment includes small shield, short sword, and dagger.
 
@@ -458,7 +458,7 @@ Henchmen are classed and levelled non-player character adventurers in the servic
 
 **Response:** The modified total resulting from recruitment efforts is the percentage of all available potential henchmen that respond. Following the first efforts at recruitment, applicants will appear over the course of 2d4 days. If the player character is not present at the agreed place when an individual seeks them out, then that recruiting opportunity is lost. Casting spells upon a prospective henchmen will result in an unfavourable response, though if they consent an exception might be made for know alignment or detect good/evil. Direct questions about alignment and other breaches of etiquette will also be poorly received.
 
-**Characteristics:** Only relate to the interviewing player character what can be detected by normal observational means. Do not blurt out the character's alignment, constitution score, or level. Instead, allow a general idea of these attributes only as a reward to careful questioning on the part of the interviewer.
+**Characteristics:** Only relate to the interviewing player character what can be detected by normal observational means. Do not blurt out the character’s alignment, constitution score, or level. Instead, allow a general idea of these attributes only as a reward to careful questioning on the part of the interviewer.
 
 **Race:** The race of each respondent depends on the locality, and should be in proportion to the established racial demographic. That is to say, if the above prosperous trading city has a human population of 24,000, then 80% of candidates should be of that race. If you wish to reflect a higher incidence of adventurers in the demi-human population, then consider doubling the number who respond.
 
@@ -603,7 +603,7 @@ Sooner or later the loyalty of a non-player character will be put to the test. I
 | 76-100 | *Loyal:* Will attempt to serve, even in difficult situations. |
 | > 100 | *Fanatical:* Will serve unquestioningly and fight to the death |
 
-<!-- printed as-is: NEW (the ">100" row prints no final period; every other row in this table ends with one) -->
+<!-- printed as-is: see errata E89 (the ">100" row prints no final period; every other row in this table ends with one) -->
 
 <!-- p.145 -->
 **General Note:** The acquisition of henchmen and hirelings is key to long term success for player characters in the ongoing campaign. They provide a support structure that can help to minimise the worst misfortunes of defeat and reinforce the achievements of victory. Henchmen may even become prominent themselves, perhaps even becoming independent upon the death or retirement of the player character. However, non-player characters should not be treated lightly nor taken for granted; they should react in believable ways and pursue their own ambitions and interests when such seems reasonable. It is the responsibility of the game master to ensure that they are portrayed in a manner that keeps the game challenging for the players.

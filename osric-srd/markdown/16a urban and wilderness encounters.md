@@ -110,8 +110,7 @@ Several of the encounter entries refer to one or more of the following sub-table
 | 23 | Demon | GM’s discretion. Only 1 encountered. |
 | 24 | Devil | GM’s discretion. Only 1 encountered. |
 | 25 | Doppelgänger | d4+2. See Urban Professions Sub-table for their disguise |
-| 26 | Druid¹ | A d6+5-lvl Druid with (1-5) 1d4-1 d4-lvl Lesser Druids or (6-10) 1d4 d6-lvl Fighters |
-<!-- printed as-is: NEW (orphaned footnote marker "¹" — no corresponding footnote text appears anywhere on pp.173-178; the parallel Daytime Encounters row 26 uses "Druid*" instead) -->
+| 26 | Druid¹<!-- printed as-is: see errata E100 (orphaned footnote marker "¹" — no corresponding footnote text appears anywhere on pp.173-178; the parallel Daytime Encounters row 26 uses "Druid*" instead) --> | A d6+5-lvl Druid with (1-5) 1d4-1 d4-lvl Lesser Druids or (6-10) 1d4 d6-lvl Fighters |
 | 27-31 | Drunk | See Urban Professions Sub-table for exact type |
 | 32-33 | Fighter* | 2d4+4-lvl Fighter with 1d4-1 d4-lvl Henchmen |
 | 34-35 | Gentleman | (1-4) Foppish Dandy and d4 Sycophants<br>(5-6) Gentlewoman<br>(7-10) d4+6-lvl Nobleman Fighter and d4 similar friends |
@@ -119,11 +118,9 @@ Several of the encounter entries refer to one or more of the following sub-table
 | 37 | Ghost | 1 |
 | 38-42 | Giant Rats | 4d6 |
 | 43 | Townsperson | 0-lvl Normal Human |
-| 44-50 | Prostitute | See Red Light Professions Sub-table for exact type |
-<!-- printed as-is: NEW (body references throughout this table and the Daytime table read "Red Light Professions", two capitalised words, no hyphen — the section's own heading above reads "Red-light Professions", hyphenated with lowercase "light") -->
+| 44-50 | Prostitute | See Red Light Professions Sub-table for exact type<!-- printed as-is: see errata E101 (body references throughout this table and the Daytime table read "Red Light Professions", two capitalised words, no hyphen — the section's own heading above reads "Red-light Professions", hyphenated with lowercase "light") --> |
 | 51 | Illusionist* | A d4+6-lvl Illusionist with (1-5) d4-1 d4-lvl Apprentice Illusionists or (6-10) 1d3 d6-lvl Fighter Bodyguards |
-<!-- p.175 -->
-| 52 | (1-5) Labourer | 3d4 rough workmen<br>0-lvl Normal Men |
+| <!-- p.175 -->52 | (1-5) Labourer | 3d4 rough workmen<br>0-lvl Normal Men |
 | | (6-10) Peddler | 1d3 peddlers selling simple goods on the street |
 | 53 | Magic user* | A d6+6-lvl Magic User with (1-4) d4 d6-lvl Apprentice Magic users (5-7) d4 d4+3-lvl Fighter Bodyguards or (8-10) d2 Apprentices and d2 Bodyguards as above |
 | 54-58 | Mercenary | 3d4 d6-1-lvl Fighters |
@@ -165,15 +162,14 @@ Several of the encounter entries refer to one or more of the following sub-table
 | 03-12 | Beggar | 1d2 |
 | 13 | Brigand | 3d4 and Leader |
 | 14-18 | Guardsmen | 2d8 and Leader |
-| 19-21 | Official | (1-9) Minor Official (10) Major Official and 2d4 Guardsmen |
+| 19-21 | Official | (1-9) Minor Official (10) Major Official and  2d4 Guardsmen<!-- printed as-is: see errata E102 --> |
 | 22-23 | Watchman | 5 Men-at-Arms (0-lvl) and Sergeant (lvl 1d3) and a Cleric (lvl d4+1) |
 | 24-25 | Cleric* | A d6+5-lvl Cleric with 1d6-1 d4-lvl Assistant Clerics |
 | 26 | Druid* | A d6+5-lvl Druid with (1-5) 1d4-1 d4-lvl Lesser Druids or (6-10) 1d4 d6-lvl Fighters |
 | 27 | Drunk | See Urban Professions Sub-table for exact type |
 | 28-29 | Fighter* | 2d4+4-lvl Fighter with 1d4-1 d4-lvl Henchmen |
 | 30-33 | Gentleman | (1-4) Foppish Dandy and d4 Sycophants<br>(5-6) Gentlewoman<br>(7-10) d4+6-lvl Nobleman Fighter and d4 similar friends |
-<!-- p.176 -->
-| 34 | Giant Rats | 2d4 |
+| <!-- p.176 -->34 | Giant Rats | 2d4 |
 | 35-39 | Townsperson | 0-lvl Normal Human |
 | 40-41 | Harlot | See Red Light Professions Sub-table for exact type |
 | 42 | Illusionist* | A d4+6-lvl Illusionist with (1-5) d4-1 d4-lvl Apprentice Illusionists or (6-10) 1d3 d6-lvl Fighter Bodyguards |
@@ -193,7 +189,7 @@ Several of the encounter entries refer to one or more of the following sub-table
 | 79-82 | Thief* | A d4+7-lvl Thief and 1d3-1 d4-lvl Apprentice Thieves |
 | 83-97 | Tradesman | 2d4 Artisans, craftsmen or skilled workmen (Normal Humans) |
 | 98 | Wererat | 2d4 encountered (1-9) in human form (10) in giant rat form |
-| 99 | Weretiger | 1d2 encountered in human form |
+| 99 | Weretiger | 1d2 encountered  in human form<!-- printed as-is: see errata E103 --> |
 | 00 | Werewolf | 2d4 encountered in human form |
 
 *For these encounters, check first to see if the NPC is a human or demi-human on the Race Sub-table.
@@ -449,11 +445,10 @@ The Time-Lost Village encounter refers to a settlement of humans or demi-humans 
 | 23-37 | Humanoid |
 | 38-57 | Monster |
 | 58 | NPC |
-| 58-60 | Undead |
-<!-- printed as-is: NEW -->
+| 58-60 | Undead<!-- printed as-is: see errata E104 --> |
 | 61-80 | Invertebrates |
 | 81-95 | Water |
 | 95-00 | Special |
-<!-- printed as-is: NEW -->
+<!-- printed as-is: see errata E105 -->
 
 *Specific encounters from the *wetlands* table should be rolled on either the *aquatic* or the *marine* subtable (GM’s option, or 50% chance of each).

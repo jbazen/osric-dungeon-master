@@ -7,7 +7,7 @@
 
 ## MAGIC USER SPELLS
 
-Unlike clerical and druidic spells, magic user spells (also known as Arcane spells in the OSRIC system) do not require a holy symbol  or mistletoe as material components.<!-- printed as-is: NEW -->
+Unlike clerical and druidic spells, magic user spells (also known as Arcane spells in the OSRIC system) do not require a holy symbol  or mistletoe as material components.<!-- printed as-is: see errata E61 -->
 
 ### Affect Normal Fires
 *Arcane Transmutation/ Alteration*
@@ -158,7 +158,7 @@ While casting this spell, the magic user touches his or her thumbs together, and
 
 This spell summons a demon or other fiend (such as a devil) from the lower planes of existence into the material planes. In order to cast the spell, the caster must know the fiend’s true name, but such information is often contained in forbidden tomes of lost lore. The spell cannot summon the lesser sorts of demons that have no personal names, nor is it powerful enough to summon members of the demonic or diabolical nobility. The spell provides no protection whatsoever against the wrath of the summoned creature—and make no mistake, the summoned creature will be extremely resentful of the caster’s temerity.
 
-In general, this spell is cast only with multiple protections against the summoned fiend, such as a pentacle to contain the demon and a magic circle to protect the magic user. The exact nature of any discussions or negotiations with creatures of the nether  planes is, of course, a matter to be handled in the course of the game, with the GM deciding what the fiend is thinking and how it acts.<!-- printed as-is: NEW -->
+In general, this spell is cast only with multiple protections against the summoned fiend, such as a pentacle to contain the demon and a magic circle to protect the magic user. The exact nature of any discussions or negotiations with creatures of the nether  planes is, of course, a matter to be handled in the course of the game, with the GM deciding what the fiend is thinking and how it acts.<!-- printed as-is: see errata E62 -->
 
 It is treacherous in the extreme to deal with demons, for they are intelligent and ruthless. They are not, however, unreliable; since the caster knows the fiend’s true name, it is compelled to abide by any agreements it might make, although it might be able to twist the spirit of the agreement while still abiding to the letter of it.
 
@@ -384,7 +384,7 @@ The material component for this spell is a large quantity of the appropriate ele
 
 The caster divorces his or her mind from the rational reality of the material plane, accepting the fundamental contradictions of extra-planar realities, and making contact with the powers of the beyond. By means of this contact, he or she can query the powers and gain “yes or no” answers to the questions he or she poses. One question may be asked per 2 caster levels. The caster decides how deeply he or she wishes to probe into the realities beyond the material (unless he or she chooses to contact an elemental plane for information about that plane).
 
-The difficulty of the mental task is measured in terms of how many fundamental contradictions of reality the caster can assimilate and simultaneously juggle in his or her mind. The price of failure is insanity. Contacting an elemental plane provides a 90% chance that the being contacted will have the  knowledge the magic user seeks, if the magic user is asking about the particular elemental plane.<!-- printed as-is: NEW -->
+The difficulty of the mental task is measured in terms of how many fundamental contradictions of reality the caster can assimilate and simultaneously juggle in his or her mind. The price of failure is insanity. Contacting an elemental plane provides a 90% chance that the being contacted will have the  knowledge the magic user seeks, if the magic user is asking about the particular elemental plane.<!-- printed as-is: see errata E63 -->
 
 There is a 25% chance that the being will tell a lie, or that the information will be couched in such inherently contradictory language that it cannot be understood. If the magic user seeks information about the material plane or non-elemental planes, he or she must delve into the fundamental contradictions of extra-planar metaphysics, described on the following table;
 
@@ -566,7 +566,7 @@ is a chance that it will collapse in on itself (roughly 25%, adjusted by the GM 
 - **Casting Time:** 1 segment
 - **Saving Throw:** None
 
-*Dimension door* is a weak form of *teleportation*, more controllable than *blink*, but severely limited in range. The teleportation is limited to 30 ft per caster level. Unlike *blink*, a *dimension door* spell operates with perfect accuracy, either to a place the caster can see or clearly visualize, or in response to directions (example: “120 ft forward and 30 ft to the right”). If the caster’s directions land him or her inside a solid object, he or she is stunned and trapped in the astral plane, held in a sort of suspended animation for eternity unless rescued. The spell is subject to a maximum weight limit of 500 lbs of additional weight, with each lb of living matter counting for twice its actual weight. Recovery from the experience of this form of teleportation is not immediate, although it is quite rapid. The caster cannot act for a period of 6 segments  following the transition.<!-- printed as-is: NEW -->
+*Dimension door* is a weak form of *teleportation*, more controllable than *blink*, but severely limited in range. The teleportation is limited to 30 ft per caster level. Unlike *blink*, a *dimension door* spell operates with perfect accuracy, either to a place the caster can see or clearly visualize, or in response to directions (example: “120 ft forward and 30 ft to the right”). If the caster’s directions land him or her inside a solid object, he or she is stunned and trapped in the astral plane, held in a sort of suspended animation for eternity unless rescued. The spell is subject to a maximum weight limit of 500 lbs of additional weight, with each lb of living matter counting for twice its actual weight. Recovery from the experience of this form of teleportation is not immediate, although it is quite rapid. The caster cannot act for a period of 6 segments  following the transition.<!-- printed as-is: see errata E64 -->
 
 ### Disintegrate
 *Arcane Transmutation/ Alteration*
@@ -605,7 +605,7 @@ Except as noted above, this spell is identical to the clerical spell *dispel mag
 - **Casting Time:** 6 segments
 - **Saving Throw:** None
 
-This spell is cast with a summoned earth elemental as its focus. The casting of the spell is fascinating to summoned elementals and is sufficient to maintain the caster’s control over the elemental (although he or she cannot command it to act while in the process of casting). When the casting is completed, the earth elemental disperses into the substance of the earth as directed, where it creates a dimensional distortion of the spell’s area of effect. Travel through the distorted area takes twice as long (and seems twice as far) as it should, or seems half as long and takes half the normal travel time (determined by the caster when casting the spell). The area does radiate magic, slightly, and the reality will be perceived by *true seeing* (although the travel time will still be altered even for those who know that the distance is distorted). Otherwise, the spell is utterly undetectable. Otherwise, the spell is utterly undetectable.<!-- printed as-is: NEW -->
+This spell is cast with a summoned earth elemental as its focus. The casting of the spell is fascinating to summoned elementals and is sufficient to maintain the caster’s control over the elemental (although he or she cannot command it to act while in the process of casting). When the casting is completed, the earth elemental disperses into the substance of the earth as directed, where it creates a dimensional distortion of the spell’s area of effect. Travel through the distorted area takes twice as long (and seems twice as far) as it should, or seems half as long and takes half the normal travel time (determined by the caster when casting the spell). The area does radiate magic, slightly, and the reality will be perceived by *true seeing* (although the travel time will still be altered even for those who know that the distance is distorted). Otherwise, the spell is utterly undetectable. Otherwise, the spell is utterly undetectable.<!-- printed as-is: see errata E65 -->
 
 ### Duo-Dimension
 *Arcane Transmutation/ Alteration*
@@ -754,7 +754,7 @@ Except as noted, this spell is identical to the spell *extension I*, but may be 
 This spell functions in the same manner as *extension I*, but it doubles the duration of spells level 1-3, and extends the duration of spells level 4 or 5 by 50%.
 
 ### False Trap
-Arcane Illusion/Phantasm<!-- printed as-is: NEW -->
+Arcane Illusion/Phantasm<!-- printed as-is: see errata E66 -->
 
 - **Level:** Magic user 2
 - **Range:** Touch
@@ -879,7 +879,7 @@ This spell transforms an existing fire into a powerful mental snare. Any creatur
 - **Casting Time:** 4 segments
 - **Saving Throw:** None
 
-Pale flames envelope the caster upon the completion of this spell, rendering him or her protection against either fire or cold based attacks, depending upon whether  the magic user elects to wreath him- or herself in cold flame or hot flame.<!-- printed as-is: NEW --> Cold flame grants the magic user a +2 bonus on any saving throw vs fire damage, also guaranteeing half damage (or no damage against all fire attacks that allow a saving throw for half damage) provided the saving throw is successful. If the magic user fails a saving throw against a cold based attack, however, he or she will suffer twice the normal damage. Hot flame offers the converse of the protections afforded by cold flame. Cold based attacks receive a bonus of +2 on saving throws and guarantee that the caster receives only half damage (or none at all) if his or her saving throw is successful against attacks that would cause full or half damage.
+Pale flames envelope the caster upon the completion of this spell, rendering him or her protection against either fire or cold based attacks, depending upon whether  the magic user elects to wreath him- or herself in cold flame or hot flame.<!-- printed as-is: see errata E67 --> Cold flame grants the magic user a +2 bonus on any saving throw vs fire damage, also guaranteeing half damage (or no damage against all fire attacks that allow a saving throw for half damage) provided the saving throw is successful. If the magic user fails a saving throw against a cold based attack, however, he or she will suffer twice the normal damage. Hot flame offers the converse of the protections afforded by cold flame. Cold based attacks receive a bonus of +2 on saving throws and guarantee that the caster receives only half damage (or none at all) if his or her saving throw is successful against attacks that would cause full or half damage.
 
 ### Fire Trap
 *Arcane Evocation*

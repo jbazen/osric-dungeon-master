@@ -3,9 +3,9 @@
 *OSRIC, Chapter II, book pages 112–121.*
 *Entries: Alter Reality … Wall of Fog (66 entries).*
 
-## ILLUSIONIST SPELLS
-
 <!-- p.112 -->
+
+## ILLUSIONIST SPELLS
 
 Unlike clerical and druidic spells, illusionist spells (also known as Phantasmal spells in the OSRIC system) do not require any special material components. There are some illusionist spells that can be cast within the area of effect of a *silence* spell, since they have no verbal component.
 
@@ -226,7 +226,7 @@ Except as may be noted above, this spell is identical to the magic user spell *d
 - **Level:** Illusionist 2
 - **Range:** 60 ft
 - **Duration:** Permanent
-- Area of Effect: Caster <!-- printed as-is: NEW -->
+- Area of Effect: Caster <!-- printed as-is: see errata E83 -->
 - **Components:** V,S,M
 - **Casting Time:** 2 segments
 - **Saving Throw:** Negates
@@ -244,7 +244,7 @@ This spell is similar to the illusionist’s *blindness* spell, but causes deafn
 - **Casting Time:** 6 segments
 - **Saving Throw:** See below
 
-This spell allows the illusionist to “cast” a quasi-real version of any one of the following arcane spells: *cloudkill, cone of cold, magic missile, fireball, lighting bolt, wall of fire, wall of ice*. <!-- printed as-is: NEW --> If a victim fails a saving throw vs spells, the illusion will function as a real version of that spell with regard to the victim. If the saving throw is successful, it will still have a lessened effect due to its quasi-real nature. The offensive spells will inflict 2 hit points per caster level, the wall spells will inflict 1d4 hit points per caster level, and the *cloudkill* will only kill creatures of fewer than 2 hit dice (no saving throw).
+This spell allows the illusionist to “cast” a quasi-real version of any one of the following arcane spells: *cloudkill, cone of cold, magic missile, fireball, lighting bolt, wall of fire, wall of ice*. <!-- printed as-is: see errata E84 --> If a victim fails a saving throw vs spells, the illusion will function as a real version of that spell with regard to the victim. If the saving throw is successful, it will still have a lessened effect due to its quasi-real nature. The offensive spells will inflict 2 hit points per caster level, the wall spells will inflict 1d4 hit points per caster level, and the *cloudkill* will only kill creatures of fewer than 2 hit dice (no saving throw).
 
 ### Demi-Shadow Monsters
 *Phantasmal Illusion*
@@ -426,7 +426,7 @@ The illusionist traces magical patterns in the air with a lit stick of incense o
 - **Casting Time:** 1 segment
 - **Saving Throw:** Negates
 
-The gestures of this spell weave a hypnotic power into the illusionist’s words, affecting 1d6 creatures. Those not making their saving throws are subject to a suggestion made by the illusionist, identical to that made in the magic user spell *suggestion* (but with a much shorter duration). The only indication about whether  a creature has been affected by the *hypnotism* is whether or not it responds to the suggestion. <!-- printed as-is: NEW -->
+The gestures of this spell weave a hypnotic power into the illusionist’s words, affecting 1d6 creatures. Those not making their saving throws are subject to a suggestion made by the illusionist, identical to that made in the magic user spell *suggestion* (but with a much shorter duration). The only indication about whether  a creature has been affected by the *hypnotism* is whether or not it responds to the suggestion. <!-- printed as-is: see errata E85 -->
 
 ### Illusory Script
 *Phantasmal Illusion*

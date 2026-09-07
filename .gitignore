@@ -9,3 +9,6 @@ Thumbs.db
 .idea/
 .vscode/
 *.iml
+
+# Scanned page images/figures — not included in this public repo (see osric-srd/README.md)
+osric-srd/markdown/34 figures assets/

@@ -9,7 +9,7 @@
 
 Magic rings appear indistinguishable from ordinary finger jewellery of varying types, though a detect magic spell cast upon them will cause them to radiate a magic aura. With the exception of a wish spell, the only way to determine the function of a magic ring is to put it on. A maximum of two rings can be worn by any PC or NPC at a time; only one ring may be worn per hand. Attempting to wear additional magic rings will render all worn magical rings useless. Magic rings worn on toes or as earrings will not function. Unless noted otherwise, the abilities a ring grants function as if cast by a 12th level spell caster, or the minimum level required to cast the spell if greater than 12th. Because of the innate magical resistance of dwarfs, gnomes, and halflings; magic rings have a 20% chance per use of not working at all and, if cursed, the curse will fail. In such a case the wearer recognises the cursed properties of the ring and can easily remove it from his or her finger.
 
-**Ring of Charisma (any):** When worn, this ring increases the wearer’s charisma ability score to 18. Note this is not a permanent increase; if the ring is removed the wearer’s charisma returns to its normal value. This magical ring also bestows two spell-like abilities, each usable once per day and requiring 3 segments of casting time. First, during the course of conversation the wearer can make a *suggestion*, as per the 3rd level magic user spell, to any human or demi-human or humanoid. Second, the wearer of the *ring of charisma* can also charm up to 21 levels/hit dice or humans or humanoids as per the 1st level magic user spell *charm person*. This is an exceptionally powerful item and the GM may wish to limit the *ring of charisma* by giving it a limited number of charges.
+**Ring of Charisma (any):** When worn, this ring increases the wearer’s charisma ability score to 18. Note this is not a permanent increase; if the ring is removed the wearer’s charisma returns to its normal value. This magical ring also bestows two spell-like abilities, each usable once per day and requiring 3 segments of casting time. First, during the course of conversation the wearer can make a *suggestion*, as per the 3rd level magic user spell, to any human or demi-human or humanoid. Second, the wearer of the *ring of charisma* can also charm up to 21 levels/hit dice or humans or humanoids<!-- printed as-is: see errata E341 --> as per the 1st level magic user spell *charm person*. This is an exceptionally powerful item and the GM may wish to limit the *ring of charisma* by giving it a limited number of charges.
 
 **Ring of Feather Falling (any):** The wearer of this ring is protected by a *feather fall* spell any time he or she falls more than 5 ft.
 
@@ -93,12 +93,12 @@ Spells that only affect a certain number of levels must be able to affect the ta
 | 83-88 | 1st and 2nd level |
 | 89-92 | 4th level |
 | 93-95 | 5th level |
-| 96-99 | 1st , 2nd, and 3rd level <!-- printed as-is: NEW --> |
+| 96-99 | 1st , 2nd, and 3rd level <!-- printed as-is: see errata E342 --> |
 | 00 | 4th and 5th level |
 
 ## CURSED ITEMS
 
-Cursed items are rarely of the “zap, you’re dead” variety. Instead, they often appear as various forms of negative effects ranging from the merely inconvenient to the truly burdensome. Many cursed items also mix both beneficial and baneful effects and may therefore force a player into a difficult choice. If a cursed item or effect is desired, roll d% and consult the table below. The listing of specific cursed items included later in this section provide some examples of these effects in use.
+Cursed items are rarely of the “zap, you’re dead” variety. Instead, they often appear as various forms of negative effects ranging from the merely inconvenient to the truly burdensome. Many cursed items also mix both beneficial and baneful effects and may therefore force a player into a difficult choice. If a cursed item or effect is desired, roll d% and consult the table below. The listing of specific cursed items included later in this section provide some examples of these effects in use.<!-- printed as-is: see errata E343 -->
 
 **Table of Common Item Curses**
 
@@ -173,7 +173,7 @@ Cursed items are rarely of the “zap, you’re dead” variety. Instead, they o
 | 06-10 | Character grows a non-prehensile tail. |
 | 11-15 | Temperature around user of item is noticeably warmer/cooler than ambient temperature. |
 | 16-20 | User’s teeth turn black. |
-| 21-25 | User’s skin changes to an unnatural colour and/or begins glowing the dark. |
+| 21-25 | User’s skin changes to an unnatural colour and/or begins glowing the dark.<!-- printed as-is: see errata E344 --> |
 | 26-30 | User grows a tattoo of an obscene word on forehead. |
 | 31-35 | User changes sex (one-time effect). |
 | 36-40 | User’s appearance changes to that of a random demi-human or humanoid race, checked daily. |
@@ -247,7 +247,7 @@ Though the *bag of devouring* can function somewhat as a *bag of holding* there 
 
 of the bag swallowing its contents and spitting them out onto some randomly determined plane of existence.
 
-**Boots of Dancing (any):** Footwear which appears to be any one of a number of magicked boots. When the wearer is engaged in or fleeing from combat, however, the *boots of dancing* will show their true nature. The wearer will begin to dance as if the 8th  magic<!-- printed as-is: NEW --> user spell *irresistible dance* had been cast upon him or her for the duration of the battle. When hostilities cease, if the character survived the dancing will stop until the next battle. Up until the first time the curse is revealed the boots may be removed at will but afterwards, only a *remove curse* will free the user from this malign footwear.
+**Boots of Dancing (any):** Footwear which appears to be any one of a number of magicked boots. When the wearer is engaged in or fleeing from combat, however, the *boots of dancing* will show their true nature. The wearer will begin to dance as if the 8th  magic<!-- printed as-is: see errata E345 --><!-- printed as-is: see errata E346 --> user spell *irresistible dance* had been cast upon him or her for the duration of the battle. When hostilities cease, if the character survived the dancing will stop until the next battle. Up until the first time the curse is revealed the boots may be removed at will but afterwards, only a *remove curse* will free the user from this malign footwear.
 
 **Bracers of Defencelessness (any):** These serve as *bracers of defence* +5 until the wearer is engaged in actual combat with an enemy of equal or greater level. At once the bracers lose the +5 bonus and immediately and permanently become -5 to AC. A *remove curse* is required to remove them once this has occurred.
 

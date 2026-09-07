@@ -113,9 +113,11 @@ When you need to look up rules, consult the OSRIC SRD files in `osric-srd/markdo
 | Master Index | `osric-srd/markdown/35 master index.md` |
 
 > `osric-srd/osric.md` is a single merged file concatenating all sections above in book order, for
-> convenience. Its own header notes it was built before the audit pass on later sections finished —
-> prefer the individual section files above when accuracy matters, and check `osric.md`'s own header
-> for its current audit-status caveat.
+> convenience. A full audit pass across all sections completed 2026-09-07 per its own header — check
+> that header for current status before treating it as authoritative, since further correction passes
+> may still update it. `osric-srd/errata.md` logs the book's own printed errors that the inline
+> `<!-- printed as-is: see errata E# -->` comments in these files point to; it's a reference, not
+> something you need to consult during normal play.
 
 ## DM Instruction Files
 

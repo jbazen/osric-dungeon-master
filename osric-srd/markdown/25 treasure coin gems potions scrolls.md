@@ -7,13 +7,13 @@
 
 ## CHAPTER VI: TREASURE
 
-In OSRIC, "treasure" comprises maps, coin, gemstones, jewellery, and magic items. In many cases, treasure will come from monsters the characters defeat (see Chapter V for details of the treasure each creature possesses). However, it may also be found in dungeons in other circumstances, either unguarded (rarely!) or protected by a trick or trap.
+In OSRIC, “treasure” comprises maps, coin, gemstones, jewellery, and magic items. In many cases, treasure will come from monsters the characters defeat (see Chapter V for details of the treasure each creature possesses). However, it may also be found in dungeons in other circumstances, either unguarded (rarely!) or protected by a trick or trap.
 
 This chapter contains systems for randomly determining treasure. The GM should employ these systems with care and thought, and the general principle should be that any treasure awarded reflects the difficulty in obtaining it—so, for example, if the dice show that a small sickly rat or kobold in the upper dungeon levels possesses some enormously valuable treasure such as a great jewel or major magic item, the GM should give thought to reducing the award!
 
 There is no duty on the GM to award treasure for each and every challenge the party might overcome. Some monsters, particularly wandering monsters, should have no treasure at all! Likewise some tricks or traps may not be associated with any reward to the party.
 
-Give thought to how an intelligent monster protects its treasure. As a rule, treasure will be carried on a creature's person if it can use it (or might need to use it) at short notice, but treasure not immediately needed will be concealed somewhere.
+Give thought to how an intelligent monster protects its treasure. As a rule, treasure will be carried on a creature’s person if it can use it (or might need to use it) at short notice, but treasure not immediately needed will be concealed somewhere.
 
 If a dungeon treasure is associated with no particular creature, the following table may be used to determine its nature:
 
@@ -33,11 +33,11 @@ If a dungeon treasure is associated with no particular creature, the following t
 
 Maps do not feature in the random tables because the GM will need to prepare them in advance; they should appear in hand-crafted areas rather than randomly-rolled ones. They are, nevertheless, valuable treasure to a clever player character. A map could indicate the location of a treasure outside the dungeon, thus becoming an adventure in its own right—or it could not show a treasure at all, but indicate where a powerful vampire lairs, or the location of a particularly fiendish trap, in which case it will still be of value to the party.
 
-Maps can be literal maps or charts where × marks the spot, but they do not need to be. A note that says "The wand is lost—I dropped it somewhere in the sewers" or "The Shield of Shadows must lie beyond the Green Portal" is a minor map of sorts.
+Maps can be literal maps or charts where × marks the spot, but they do not need to be. A note that says “The wand is lost—I dropped it somewhere in the sewers” or “The Shield of Shadows must lie beyond the Green Portal” is a minor map of sorts.
 
 ### COIN
 
-Coin is the simplest treasure for the GM to administer, but should still be awarded intelligently. OSRIC coins are heavy, and  weight is a significant drawback if the players locate a substantial sum in copper or silver.<!-- printed as-is: NEW --> The GM should ensure the players feel the force of this drawback.
+Coin is the simplest treasure for the GM to administer, but should still be awarded intelligently. OSRIC coins are heavy, and  weight is a significant drawback if the players locate a substantial sum in copper or silver.<!-- printed as-is: see errata E295 --> The GM should ensure the players feel the force of this drawback.
 
 In an upper dungeon level, few treasures should consist of gold without silver or copper, or platinum without gold and silver, so if the dice indicate 500 gp on dungeon level 2, the GM might prefer to award 200 gp, 2,000 sp and 10,000 cp instead. In deeper dungeon levels, copper and silver will be relatively less frequent, although successful players will still have enormous piles of them on their hands.
 
@@ -64,12 +64,12 @@ Where the GM wishes to determine the value of a gem, the following table may be 
 
 **Changing Gem Value from Base:** This table is provided to assist GMs in determining value when the base value only of a gem is known. Reroll on a result of 1 or 0 only, as indicated on the table.
 
-- **1** Value increases by 1 step. Reroll and ignore any result greater than 8.*
-- **2** Value doubles.
-- **3** Value triples.
-- **4-8** No change to base value.
-- **9** Stone decreases in value by 1d4 × 10% percent.
-- **0** Value decreases by 1 step. Reroll and ignore a result of 1.**
+- 1 Value increases by 1 step. Reroll and ignore any result greater than 8.*
+- 2 Value doubles.
+- 3 Value triples.
+- 4-8 No change to base value.
+- 9 Stone decreases in value by 1d4 × 10% percent.
+- 0 Value decreases by 1 step. Reroll and ignore a result of 1.**
 
 *No stone may increase in value more than 7 steps. Stones of 5,000 gp value or greater increase in value by the following increments: 5,000—10,000—25,000—50,000—100,000—250,000—500,000—1,000,000 (the maximum value possible).
 
@@ -139,15 +139,15 @@ Where the GM wishes to determine the nature of a piece of jewellery, the table o
 | 96-97 | Toe-ring | 1-3 | 4-6 | 7-8 | 9 | 10 | |
 | 98-00 | Weapon-hilt | 1-3 | 4-6 | 7-8 | 9 | 10 | |
 
-**Note:** The description of the item as "silver", "gold", etc. is a guideline and the GM should interpret it to represent a broad category of value rather than its literal composition. A gold item could actually be high-quality filigree silver, ivory, or even enamelled bronze of superb workmanship. "Exceptional" quality may mean that the item is fashioned of platinum, mithril or some other extremely rare and valuable substance, or it may simply mean a very fine example of gem-encrusted gold.
+**Note:** The description of the item as “silver”, “gold”, etc. is a guideline and the GM should interpret it to represent a broad category of value rather than its literal composition. A gold item could actually be high-quality filigree silver, ivory, or even enamelled bronze of superb workmanship. “Exceptional” quality may mean that the item is fashioned of platinum, mithril or some other extremely rare and valuable substance, or it may simply mean a very fine example of gem-encrusted gold.
 
-The appraisal of jewellery is a complex and difficult skill. Gnomes frequently have the best eye for these matters, although thieves, assassins and dwarfs may also be able to hazard a guess. The GM should allow a possibility (depending on the circumstances) that a character may seriously underestimate or overestimate an object's value. For example, a gnomish thief assessing a silver ring might be accurate 99 times out of 100, but a dwarfish fighter assessing an exceptional orb might only have a 25% chance of doing so accurately.
+The appraisal of jewellery is a complex and difficult skill. Gnomes frequently have the best eye for these matters, although thieves, assassins and dwarfs may also be able to hazard a guess. The GM should allow a possibility (depending on the circumstances) that a character may seriously underestimate or overestimate an object’s value. For example, a gnomish thief assessing a silver ring might be accurate 99 times out of 100, but a dwarfish fighter assessing an exceptional orb might only have a 25% chance of doing so accurately.
 
 If the players appraise the value of the jewellery incorrectly, they will more than likely be fleeced when attempting to re-sell.
 
 ### MASTER MAGIC ITEM TABLES
 
-Random determination of magic items needs to be tempered with GM judgment and discretion. Lucky (or very unlucky) rolls on the treasure table should not be permitted to unbalance the game, and the GM should ensure that the party's power remains in proportion to their level of experience.
+Random determination of magic items needs to be tempered with GM judgment and discretion. Lucky (or very unlucky) rolls on the treasure table should not be permitted to unbalance the game, and the GM should ensure that the party’s power remains in proportion to their level of experience.
 
 | **d20** | **Result** |
 |---|---|
@@ -278,7 +278,7 @@ Random determination of magic items needs to be tempered with GM judgment and di
 | 07 | Invisibility | 7,500 |
 | 08-12 | Protection | see entry |
 | 13 | 01-25 Regeneration | 40,000 |
-| | 25-00 Spell Storing | 25,000 |
+| | 25-00 Spell Storing<!-- printed as-is: see errata E296 --> | 25,000 |
 | 14 | Spell Turning | 17,500 |
 | 15 | Swimming | 5,000 |
 | 16 | 01-50 Telekinesis | 10,000 |
@@ -287,7 +287,7 @@ Random determination of magic items needs to be tempered with GM judgment and di
 | 18-19 | Water Walking | 5,000 |
 | 20 | Wizardry | 50,000 |
 
-Determine the ring's appearance, apparent gold piece value, and gemstone (if any) using the jewellery table.
+Determine the ring’s appearance, apparent gold piece value, and gemstone (if any) using the jewellery table.
 
 **Rods Staves & Wands Table 1: Properties**
 
@@ -537,7 +537,7 @@ Determine the ring's appearance, apparent gold piece value, and gemstone (if any
 | 99 | Roll Twice on Table I | |
 | 00 | Roll Twice, Ignore Results >98 | |
 
-¹Roll 1d8: 1 = Level I, 2 = Level 2 and so on. On a result of 8, reroll. On a second roll of 8, roll new item.
+¹Roll 1d8: 1 = Level I, 2 = Level 2<!-- printed as-is: see errata E297 --> and so on. On a result of 8, reroll. On a second roll of 8, roll new item.
 
 ²Roll 1d4: 1 = Type I, 2 = Type II, 3 = Type III, 4 = Type IV
 
@@ -547,7 +547,7 @@ Determine the ring's appearance, apparent gold piece value, and gemstone (if any
 
 | **d%** | **Result** | **Value (gp)** |
 |---|---|---|
-| 01 | Ahmek's Copious Coin Purse | 30,000 |
+| 01 | Ahmek’s Copious Coin Purse | 30,000 |
 | 02 | Alchemy Jug | 12,000 |
 | 03 | Amulet of Health | 2,000 |
 | 04 | Amulet of the Planes | 120,000 |
@@ -612,7 +612,7 @@ Determine the ring's appearance, apparent gold piece value, and gemstone (if any
 | 61 | Stone of Controlling Earth Elementals | 100,000 |
 | 62 | Stone of Good Luck | 20,000 |
 | 63 | Stone Salve | 4,000 |
-| 64 | Vestment, Druid's | 10,000 |
+| 64 | Vestment, Druid’s | 10,000 |
 | 65 | Well of Many Worlds | 82,000 |
 | 66-75 | Roll Twice on Table I | |
 | 76-85 | Roll Once on Table I & Once on Table II | |
@@ -654,7 +654,7 @@ Determine the ring's appearance, apparent gold piece value, and gemstone (if any
 | 35-36 | Helm of Teleportation | 73,500 |
 | 37-38 | Horn of Blasting | 20,000 |
 | 39-40 | Horn of Blasting, Greater | 70,000 |
-| 41-32 | Ioun Stones¹<!-- printed as-is: NEW --> | see table IV-A |
+| 41-32 | Ioun Stones¹<!-- printed as-is: see errata E298 --> | see table IV-A |
 | 43-44 | Lyre of Building | 13,000 |
 | 45-46 | Manual of Bodily Health | 4,000 |
 
@@ -674,7 +674,7 @@ Determine the ring's appearance, apparent gold piece value, and gemstone (if any
 | 65-66 | Robe of Eyes | 120,000 |
 | 67-68 | Robe of Scintillating Colours | 27,000 |
 | 69-70 | Robe of the Archmagi | 75,000 |
-| 71-72 | Sagacious Volume | 50,000312<!-- printed as-is: NEW --> |
+| 71-72 | Sagacious Volume | 50,000312<!-- printed as-is: see errata E299 --> |
 | 73-74 | Shrouds of Disintegration | 6,600 |
 | 75-76 | Tome of Clear Thought | 27,500 |
 | 77-78 | Tome of Leadership and Influence | 27,500 |
@@ -711,11 +711,11 @@ Determine the ring's appearance, apparent gold piece value, and gemstone (if any
 | 97-99 | Reroll twice, ignoring results > 96 | |
 | 00 | Reroll thrice, ignoring result > 96 | |
 
-**Note:** Many magic items are restricted in who can use them. Where this applies, the character classes are listed in abbreviated form within the item description. The following notation is used: **Item (Classes)** where, under "classes", "A" means "assassin", "C" means "cleric", "D" means "druid", "F" means "fighter", "I" means "illusionist", "M" means "magic user", "P" means "paladin", "R" means "ranger" and "T" means "thief".
+**Note:** Many magic items are restricted in who can use them. Where this applies, the character classes are listed in abbreviated form within the item description. The following notation is used: **Item (Classes)** where, under “classes”, “A” means “assassin”, “C” means “cleric”, “D” means “druid”, “F” means “fighter”, “I” means “illusionist”, “M” means “magic user”, “P” means “paladin”, “R” means “ranger” and “T” means “thief”.
 
 ### POTIONS
 
-Although potions can be found in a variety of containers, including glass, ceramic, or metal flasks, most contain only one dose that imbues their potion's particular effects for one individual. Most potions bear no label and require a small amount to be sampled in order to attempt to identify the potion type. This is not without error, and potions of the same type may differ in their aroma or taste depending on how they were made.
+Although potions can be found in a variety of containers, including glass, ceramic, or metal flasks, most contain only one dose that imbues their potion’s particular effects for one individual. Most potions bear no label and require a small amount to be sampled in order to attempt to identify the potion type. This is not without error, and potions of the same type may differ in their aroma or taste depending on how they were made.
 
 As a standard rule, potions take effect 1d4+1 segments after consumption, and last for 1d4 turns. This principle is superseded where the specific potion description indicates otherwise. Potions can normally be consumed in half doses, so that half the potion is consumed and operates for half the duration.
 
@@ -725,7 +725,7 @@ The creation of potions requires the joint efforts of magic users and alchemists
 
 Magic potions store a great deal of eldritch energy and, as any alchemist or mage can attest, require a lot of careful preparation. The random admixture of potions can have unpredictable results and only the foolish or desperate will undertake such an action. Admixture of two or more potions has occurred when the liquid of one potion is mixed with that of another, or a potion is consumed while a previously consumed potion remains in effect. The former is considered an external admixture and the latter an internal one.
 
-Presented here for the GM's consideration are a set of guidelines for handling these situations. A particularly industrious referee might wish to map out a complete matrix of effects to be used any time a potion is mixed with another. While this would be of use, the matrices would have to be updated with each introduction of a new potion. Additionally, the different formulations of a potion are not accounted for in such a matrix. OSRIC uses a set of guidelines combined with a random table to achieve a similar result with far less effort, as follows:
+Presented here for the GM’s consideration are a set of guidelines for handling these situations. A particularly industrious referee might wish to map out a complete matrix of effects to be used any time a potion is mixed with another. While this would be of use, the matrices would have to be updated with each introduction of a new potion. Additionally, the different formulations of a potion are not accounted for in such a matrix. OSRIC uses a set of guidelines combined with a random table to achieve a similar result with far less effort, as follows:
 
 <!-- p.329 -->
 
@@ -735,7 +735,7 @@ Mixing a *potion* of *clairaudience* or *clairvoyance* with any other potion wil
 
 | **d%** | **Result** |
 |---|---|
-| 01 | Eldritch blast! A catastrophic release of magical energies. This massive energy discharge does 6d10 points of internal damage and 1d10 points of damage to anyone with 10 ft of the imbiber. If mixed externally, all persons within 10 ft of the epicentre of the blast take 4d6 points of damage, no saving throw allowed. |
+| 01 | Eldritch blast! A catastrophic release of magical energies. This massive energy discharge does 6d10 points of internal damage and 1d10 points of damage to anyone with 10 ft<!-- printed as-is: see errata E300 --> of the imbiber. If mixed externally, all persons within 10 ft of the epicentre of the blast take 4d6 points of damage, no saving throw allowed. |
 | 02-03 | Poison, causing instant death if mixed internally, no save. External admixtures create a poisonous cloud 10 ft in diameter. Anyone within the cloud must save versus poison or die. |
 | 04-07 | A strange brew results and imbiber sickens, losing 1d4 each strength and dexterity for 4d6 rounds, no saving throw. One potion is completely nullified and the other works at 50% strength and duration, determined randomly. |
 | 08-12 | The potions cancel each other out. |
@@ -765,17 +765,17 @@ Note that unless the drinker of this potion has some other means of directly com
 
 **Climbing (any):** This potion lasts for 1 turn + 5d5 rounds, during which time the drinker gains the ability to climb like a thief with 99% ability (a roll of 00 means failure). However, the odds of failure increase by 1% for every 1,000 gp worth of weight carried. Furthermore, the type of armour worn will influence climbing ability by decreasing the percentage chance of success as follows:
 
-- **-1%** Any type of magical armour
-- **-1%** Studded leather
-- **-2%** Ring mail
-- **-4%** Scale mail
-- **-7%** Chain mail
-- **-8%** Banded and splinted armour
-- **-10%** Plate mail
+- -1% Any type of magical armour
+- -1% Studded leather
+- -2% Ring mail
+- -4% Scale mail
+- -7% Chain mail
+- -8% Banded and splinted armour
+- -10% Plate mail
 
 **Delusion (any):** This potion is aptly named, for it convinces the drinker that the potion is of another type. If more than one person tastes this potion, there is a 90% chance they all will believe the potion to be of the same type. For example, a potion of clairaudience might convince the drinker there are sounds in the distance that do not truly exist.
 
-**Diminution (any):** This potion lasts for 1d4+7 turns. When drunk, the imbiber and everything carried will shrink to 5% of the person's original size. If only half of the potion is consumed, it will shrink the imbiber 50% of his or her original size.
+**Diminution (any):** This potion lasts for 1d4+7 turns. When drunk, the imbiber and everything carried will shrink to 5% of the person’s original size. If only half of the potion is consumed, it will shrink the imbiber 50% of his or her original size.
 
 **Dragon Control (any):** Drinking this potion grants the imbiber power equivalent to *charm monster* upon a dragon of a type determined by the table below. Each potion affects only one type of dragon unless otherwise indicated. The imbiber is able to control a dragon within 60 ft for the duration of 5d4 rounds. Roll on the table below for the specific type of dragon control potion.
 
@@ -804,7 +804,7 @@ Note that unless the drinker of this potion has some other means of directly com
 
 **Flying (any):** This potion grants the spell-like ability equivalent to the magic user spell of the same name.
 
-**Gaseous Form (any):** The person who quaffs this potion, in addition to all items on his or her person, takes on a translucent, gaseous consistency and floats at 30 ft per round. This speed can be different depending on natural wind speed in the environment or due to the effects of wind-altering spells. While in gaseous form, the person affected can flow below doors and other small spaces not sealed airtight. Although magical lightening and fire do the gaseous form full damage, while in gaseous form the imbiber is otherwise impervious to other attacks. However, double the normal damage is inflicted by a whirlwind. This potion must be fully imbibed to have effect.
+**Gaseous Form (any):** The person who quaffs this potion, in addition to all items on his or her person, takes on a translucent, gaseous consistency and floats at 30 ft per round. This speed can be different depending on natural wind speed in the environment or due to the effects of wind-altering spells. While in gaseous form, the person affected can flow below doors and other small spaces not sealed airtight. Although magical lightening<!-- printed as-is: see errata E301 --> and fire do the gaseous form full damage, while in gaseous form the imbiber is otherwise impervious to other attacks. However, double the normal damage is inflicted by a whirlwind. This potion must be fully imbibed to have effect.
 
 **Giant Control (any):** When imbibed, the drinker is able to control up to two giants in the same manner as the spell charm monster for 5d6 rounds. A saving throw is allowed, and if only one giant is affected it receives –4 to this roll. If two giants are affected they receive +2 to this roll. Each potion of giant control affects only one type of giant. Consult the table below.
 
@@ -864,7 +864,7 @@ and 32 hit dice/levels of these beings are affected. Only whole hit dice are con
 
 **Levitation (any):** When this potion is quaffed, the drinker is bestowed with the spell-like ability of *levitation*. The effects of this potion extend to the drinker only, but allow up to 6,000 gp of weight to be transported as well.
 
-**Longevity (any):** This potion makes the drinker 1d12 years younger. This restored youth is possible not only for natural ageing, but also for ageing from magic or creature effects. There is some small danger however, since each time a *potion of longevity* is consumed there is a cumulative 1% probability that all previous age reversals from potions of this type will be negated, raising the character's age to the age he or she would be without the effects of the potions. It is not possible to drink this potion in increments.
+**Longevity (any):** This potion makes the drinker 1d12 years younger. This restored youth is possible not only for natural ageing, but also for ageing from magic or creature effects. There is some small danger however, since each time a *potion of longevity* is consumed there is a cumulative 1% probability that all previous age reversals from potions of this type will be negated, raising the character’s age to the age he or she would be without the effects of the potions. It is not possible to drink this potion in increments.
 
 **Oil of Ætherealness (any):** This potion is not imbibed, but the thin oil is applied to a character and all of his or her belongings in order to achieve an æthereal state for 1d4+4 turns. It takes 3 rounds for the potion to take effect, and it can be negated earlier than the duration by applying a mildly acidic liquid. When æthereal, a character is invisible and can pass through any objects that are not also æthereal.
 
@@ -878,7 +878,7 @@ and 32 hit dice/levels of these beings are affected. Only whole hit dice are con
 
 **Polymorph (any):** This potion grants the spell-like ability to *polymorph self*, as the fourth level magic user spell.
 
-**Speed (any):** This potion doubles combat and movement ability for 5d4 rounds. Thus, if the imbiber can normally move at 90 ft, for the duration of this potion's effect the imbiber can move at 180 ft. The number of attacks available double as well, but this potion does not decrease spell-casting time. This heightened ability does not come without cost, for the strain it puts on the imbiber's body ages him or her by 1 year permanently.
+**Speed (any):** This potion doubles combat and movement ability for 5d4 rounds. Thus, if the imbiber can normally move at 90 ft, for the duration of this potion’s effect the imbiber can move at 180 ft. The number of attacks available double as well, but this potion does not decrease spell-casting time. This heightened ability does not come without cost, for the strain it puts on the imbiber’s body ages him or her by 1 year permanently.
 
 **Super-Heroism (FPR):** Unlike the *potion of heroism*, the effects of this potion last 5d6 rounds. Extra levels and their accompanied benefits to combat are temporarily granted to the imbiber, determined by his or her experience level as shown in the table below. Characters above 12th level receive no benefit.
 
@@ -896,7 +896,7 @@ and 32 hit dice/levels of these beings are affected. Only whole hit dice are con
 
 **Treasure Finding (any):** For 5d4 rounds, the imbiber of this potion can sense any treasure within 240 ft containing valuable metals or gems. In order to be detected, the total value of the treasure must meet or exceed any combination of 50 gp or 100 gems. Any valuable metal meeting this value in quantity is detectable, and any gems, including those in jewellery, are detectable. Although the direction of the treasure can be sensed, the precise distance cannot. No physical barrier will impede detection, except some magical wards or lead.
 
-**Undead Control (any):** Normally undead are immune to *charm*. However, when quaffed this potion grants the drinker the ability to charm undead (intelligent or otherwise) as the *charm person* spell. Only intelligent undead are allowed a saving throw vs magic, with a penalty of 2. A total of 16 hit dice of undead can be influenced. All hit dice bonuses are rounded down (5 + 2 hit dice is considered as 5). The affects of this potion last 5d4 rounds. Each *potion of undead control* affects one type of undead, determined from the table below.
+**Undead Control (any):** Normally undead are immune to *charm*. However, when quaffed this potion grants the drinker the ability to charm undead (intelligent or otherwise) as the *charm person* spell. Only intelligent undead are allowed a saving throw vs magic, with a penalty of 2. A total of 16 hit dice of undead can be influenced. All hit dice bonuses are rounded down (5 + 2 hit dice is considered as 5). The affects<!-- printed as-is: see errata E302 --> of this potion last 5d4 rounds. Each *potion of undead control* affects one type of undead, determined from the table below.
 
 | **d10** | **Undead Affected** |
 |---|---|
@@ -919,7 +919,7 @@ and 32 hit dice/levels of these beings are affected. Only whole hit dice are con
 
 Scrolls can be found rolled up in any number of decorative or plain tubes. A scroll tube may be magically sealed such that a character must cast *read magic* to read the magical words that open it. Reading the writing on the tube will also reveal whether the tube has been cursed or protected with a magical trap. Once opened, if an arcane spell scroll, a further *read magic* spell must be used to comprehend the magical script. (Note that once *read magic* has been used on a scroll, the same user does not need to cast it again to comprehend the same scroll at a later time.)
 
-A cursed scroll is triggered by the use of *read magic*, but other scrolls are not. At the GM's option, a scroll may have up to a 3 in 10 chance of its magical writing vanishing if left in a scroll tube for an extended amount of time without casting *read magic* on the scroll to learn its nature.
+A cursed scroll is triggered by the use of *read magic*, but other scrolls are not. At the GM’s option, a scroll may have up to a 3 in 10 chance of its magical writing vanishing if left in a scroll tube for an extended amount of time without casting *read magic* on the scroll to learn its nature.
 
 When spell scrolls are found, use the table below to determine what class of spells is present. Only characters of the appropriate class may use the spells.
 
@@ -930,13 +930,13 @@ When spell scrolls are found, use the table below to determine what class of spe
 | 8-9 | Cleric |
 | 10 | Druid |
 
-For the purposes of spell casting, all spells function as if cast by a spell user with one more level of experience than is necessary to cast the spell. However, all spells cast from a scroll are cast as the minimum equivalent of a 6th level spell caster. Thus, even a 1st level spell will be cast as if by a 6th level spell caster. Note that if a spell caster uses a scroll spell for a spell which he or she would normally be unable to cast due to being of insufficient level, there is a cumulative 5% probability that the spell fails for each level the caster is lower than the level required. For instance, if a 2nd level cleric attempts to use a spell that normally must be cast by a cleric of 4th level, there is a 10% chance of spell failure. In addition, if a roll indicates that a spell fails, there is an equal probability that the spell affects the caster, produces some other unfortunate effect, or creates some other effect at the GM's discretion.
+For the purposes of spell casting, all spells function as if cast by a spell user with one more level of experience than is necessary to cast the spell. However, all spells cast from a scroll are cast as the minimum equivalent of a 6th level spell caster. Thus, even a 1st level spell will be cast as if by a 6th level spell caster. Note that if a spell caster uses a scroll spell for a spell which he or she would normally be unable to cast due to being of insufficient level, there is a cumulative 5% probability that the spell fails for each level the caster is lower than the level required. For instance, if a 2nd level cleric attempts to use a spell that normally must be cast by a cleric of 4th level, there is a 10% chance of spell failure. In addition, if a roll indicates that a spell fails, there is an equal probability that the spell affects the caster, produces some other unfortunate effect, or creates some other effect at the GM’s discretion.
 
 Once a scroll spell is cast, the magical writings for that spell vanish. This also applies even when a scroll spell is read for the purpose of memorisation or to be added to a spell book.
 
 #### SCROLLS OF WARDING
 
-Unless otherwise noted, all *scrolls of warding* produce an area of protection within a 10 ft radius of the reader, and the area moves with the affected character. No creature of the type indicated by the *warding* may enter the area of protection by any means, but if the affected character forces a creature of the affected type into this radius, the effects of the scroll are cancelled. Scroll effects may be "stacked" in that several different *scrolls of warding* may be active on one being at once, but scrolls of the same type do not stack for the purposes of increased duration or potency.
+Unless otherwise noted, all *scrolls of warding* produce an area of protection within a 10 ft radius of the reader, and the area moves with the affected character. No creature of the type indicated by the *warding* may enter the area of protection by any means, but if the affected character forces a creature of the affected type into this radius, the effects of the scroll are cancelled. Scroll effects may be “stacked” in that several different *scrolls of warding* may be active on one being at once, but scrolls of the same type do not stack for the purposes of increased duration or potency.
 
 <!-- p.333 -->
 
@@ -956,7 +956,7 @@ Unless otherwise noted, all *scrolls of warding* produce an area of protection w
 | Greater devils or lower | 7 segments |
 | Arch devils or lower | 1 round |
 
-**Ward of Elementals (CDIM):** This scroll takes 6 segments to read and wards against elementals for 5d8 rounds. If the scroll wards against only one type of elemental, it is effective against 24 HD of elementals. If the scroll is effective against all forms of elementals, it repels 16 HD. If more elementals are present than can be warded off, these additional beings may enter the area of protection and attack anyone within. Roll on the table below to determine which elementals are warded off by a specific scroll. Note that some creatures that are closely connected with elements, or are a particular form of elemental monster, may also be warded off at the GM's discretion.
+**Ward of Elementals (CDIM):** This scroll takes 6 segments to read and wards against elementals for 5d8 rounds. If the scroll wards against only one type of elemental, it is effective against 24 HD of elementals. If the scroll is effective against all forms of elementals, it repels 16 HD. If more elementals are present than can be warded off, these additional beings may enter the area of protection and attack anyone within. Roll on the table below to determine which elementals are warded off by a specific scroll. Note that some creatures that are closely connected with elements, or are a particular form of elemental monster, may also be warded off at the GM’s discretion.
 
 | **d20** | **Elemental Type** |
 |---|---|
@@ -966,7 +966,7 @@ Unless otherwise noted, all *scrolls of warding* produce an area of protection w
 | 10-12 | Water |
 | 13-20 | All |
 
-**Ward of Lycanthropes (any):** This warding scroll takes 4 segments to read and its effects last for 5d6 rounds. A total of 49 HD of creatures are warded off, and for this calculation any "+" is rounded up if 3 or more, or down if 2 or fewer. Any creatures above these HD may enter the protected area and attack characters within. Roll on the table below to determine which specific creature type a scroll of warding is effective against. Note that if all shape-changers is indicated, this includes any creature that is capable of taking a human form, as well as creatures under the effects of a *polymorph* spell or creatures with an innate ability to *shape change* or *polymorph* (including druids of high level).
+**Ward of Lycanthropes (any):** This warding scroll takes 4 segments to read and its effects last for 5d6 rounds. A total of 49 HD of creatures are warded off, and for this calculation any “+” is rounded up if 3 or more, or down if 2 or fewer. Any creatures above these HD may enter the protected area and attack characters within. Roll on the table below to determine which specific creature type a scroll of warding is effective against. Note that if all shape-changers is indicated, this includes any creature that is capable of taking a human form, as well as creatures under the effects of a *polymorph* spell or creatures with an innate ability to *shape change* or *polymorph* (including druids of high level).
 
 | **d20** | **Creature Type** |
 |---|---|

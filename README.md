@@ -13,15 +13,16 @@ Dungeon Master. It includes:
 - **dm-instructions/** — Detailed guidance for combat, character creation, NPCs, items, campaigns,
   spellcasting, and running published modules
 - **osric-srd/** — The OSRIC rules reference, converted from the official OSRIC PDF to Markdown for
-  lookup (populated separately — see below)
+  lookup (see Status below)
 - **modules/** — Published AD&D adventure modules, converted for use as campaign content
 
 ## Status
 
-The OSRIC rulebook conversion from PDF to Markdown is complete as a first pass — all 44 sections are
-in `osric-srd/markdown/` (ability scores, classes, spells, monsters, treasure, magic items, tables,
-index, etc. — see the reference table in `CLAUDE.md`), plus a merged `osric-srd/osric.md`. Further
-audit/correction passes may still update individual sections. Adventure modules will be added under
+The OSRIC rulebook conversion from PDF to Markdown is complete, including a full audit pass across all
+44 sections (finished 2026-09-07) — all sections are in `osric-srd/markdown/` (ability scores, classes,
+spells, monsters, treasure, magic items, tables, index, etc. — see the reference table in `CLAUDE.md`),
+plus a merged `osric-srd/osric.md` and an `osric-srd/errata.md` log of the book's own printed errors.
+Further correction passes may still update individual sections. Adventure modules will be added under
 `modules/` as they're converted.
 
 ## Usage
@@ -49,8 +50,7 @@ Dungeons & Dragons rules, released under the Open Gaming License v1.0a.
 
 - **Original Content**: TSR, Inc. / Wizards of the Coast, based on the work of E. Gary Gygax
 - **OSRIC Authors**: Stuart Marshall and Matthew Finch
-- Full license text will be included at `osric-srd/markdown/33 licence.md` once the SRD conversion
-  is added.
+- Full license text is at `osric-srd/markdown/33 licence.md`.
 
 ### Adventure Modules
 
@@ -59,5 +59,5 @@ Individual module credits are listed in each module's own directory under `modul
 ## License
 
 - DM instructions and CLAUDE.md: MIT License
-- OSRIC SRD content: Open Gaming License v1.0a (see `osric-srd/markdown/33 licence.md` once added)
+- OSRIC SRD content: Open Gaming License v1.0a (see `osric-srd/markdown/33 licence.md`)
 - Adventure module content: per original publisher/module license (documented per-module)

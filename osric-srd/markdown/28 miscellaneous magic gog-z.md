@@ -154,7 +154,7 @@ These are magical crystals that orbit the user’s head at a distance of 1d3 ft 
 
 ### Iron Bands of Binding (any)
 
-<!-- printed as-is: NEW — heading prints "Iron Bands of Binding (any) :" with a space before the colon; not representable in this file's colonless heading style, noted here instead -->
+<!-- printed as-is: see errata E332 — heading prints "Iron Bands of Binding (any) :" with a space before the colon; not representable in this file's colonless heading style, noted here instead -->
 
 A 3 in diameter rusty iron sphere wrapped about with iron bands. To use this object, the command word is spoken and the sphere thrown at a target of up to 10 ft long or tall. A successful attack causes the target to be held fast in bands of iron. The bands can be broken, but only by a creature of great strength (19 or higher). Usable once per day.
 
@@ -202,7 +202,7 @@ Reading and following the coordination drills and balancing exercises in this bo
 
 ### Marvellous Pigments (any)
 
-Magical paints that allow the user to draw and thereby create real three dimensional objects. The user must concentrate as he or she draws and creation of an object with the pigments takes about 10 minutes. One pot of *marvellous pigments* is sufficient to create a 1,000 cubic ft object. Pigments can be used to create many inanimate objects such as normal weapons, armour, even food—generally objects with a value of less than 2,000 gp. The general appearance of expensive items such as gems or gold jewellery can be created with the pigments but the objects will be only be cheap costume jewellery type imitations. The pigments cannot create magical items of any sort, and they cannot create living creatures, undead, golems, or other monsters of any kind.
+Magical paints that allow the user to draw and thereby create real three dimensional objects. The user must concentrate as he or she draws and creation of an object with the pigments takes about 10 minutes. One pot of *marvellous pigments* is sufficient to create a 1,000 cubic ft object. Pigments can be used to create many inanimate objects such as normal weapons, armour, even food—generally objects with a value of less than 2,000 gp. The general appearance of expensive items such as gems or gold jewellery can be created with the pigments but the objects will be only be cheap costume jewellery type imitations.<!-- printed as-is: see errata E333 --> The pigments cannot create magical items of any sort, and they cannot create living creatures, undead, golems, or other monsters of any kind.
 
 ### Mask of the Skull (AIMT)
 
@@ -218,7 +218,7 @@ An 8 ft long mallet which serves as a +3 weapon (base 1d10 damage) and can be us
 
 ### Medallion of Thoughts (IM)
 
-A necklace which grants the wearer ESP as the 2nd  level<!-- printed as-is: NEW --> magic user spell of the same name.
+A necklace which grants the wearer ESP as the 2nd  level<!-- printed as-is: see errata E334 --> magic user spell of the same name.
 
 ### Mirror of Life Trapping (CM)
 
@@ -228,7 +228,7 @@ A magical trap in the guise of a 4 ft square mirror activated by hanging it on a
 
 While imprisoned, the character is in stasis and requires no food, drink or air. He or she loses any innate powers or spell-like abilities. Creatures aware of the mirror’s true nature and seeking to avoid being trapped can approach the mirror and attempt to avoid seeing their reflection with a 50% chance of success; a blindfold or similar increases the chance to 100%. Size is not a factor to the mirror’s trapping ability, but golems and unintelligent undead, as well as any other inanimate matter, cannot be trapped. There are various command words for the *mirror of life trapping*. Besides the activation command, there is a deactivation command which allows the owner to safely approach the mirror.
 
-Each imprisoned creature has two further command words associated with it. One will call the creature’s reflection to the surface of the mirror and allow the owner to converse with the powerless captive. The second command word will free the prisoner. If the number of prisoners held within the mirror exceeds 15, a randomly determined captive will be freed to make room for the new one. Breaking the mirror will free all captives held within—but it should be noted here that not all liberated prisoners may  be<!-- printed as-is: NEW --> kindly-disposed towards those who granted them freedom. The GM should determine the quantity and nature of prisoners held by the *mirror of life trapping* before placing it into the campaign world.
+Each imprisoned creature has two further command words associated with it. One will call the creature’s reflection to the surface of the mirror and allow the owner to converse with the powerless captive. The second command word will free the prisoner. If the number of prisoners held within the mirror exceeds 15, a randomly determined captive will be freed to make room for the new one. Breaking the mirror will free all captives held within—but it should be noted here that not all liberated prisoners may  be<!-- printed as-is: see errata E335 --> kindly-disposed towards those who granted them freedom. The GM should determine the quantity and nature of prisoners held by the *mirror of life trapping* before placing it into the campaign world.
 
 ### Mirror of Mental Prowess (M)
 
@@ -333,7 +333,7 @@ The magic of this item is usually contained in a metallic flask that vaguely res
 
 ### Portable Hole (any)
 
-A deep black cloth that, when unfolded onto a flat surface, forms a 6 ft diameter and 10 ft deep hole. Items placed in the hole are stored safely and the cloth is of negligible weight when folded up, regardless of the weight of its contents. The *portable hole* can be closed by taking the edges of the cloth and folding it up. This can be done from without or within the hole. Folded up, there is enough air for 1 medium or 2 small creatures for about 10 minutes. The extra-planar space of a *portable hole* is not compatible with similar devices, such as a *bag of holding*. If either of these items is placed within the other, see the entry under *bag of holding* to determine the effects.
+A deep black cloth that, when unfolded onto a flat surface, forms a 6 ft diameter and 10 ft deep hole. Items placed in the hole are stored safely and the cloth is of negligible weight when folded up, regardless of the weight of its contents. The *portable hole* can be closed by taking the edges of the cloth and folding it up. This can be done from without or within the hole. Folded up, there is enough air for 1 medium or 2 small creatures for about 10 minutes. The extra-planar space of a portable hole is not compatible with similar devices, such as a *bag of holding*. If either of these items is placed within the other, see the entry under *bag of holding* to determine the effects.
 
 ### Restorative Ointment (any)
 
@@ -341,7 +341,7 @@ A palm-sized jar contains 5 uses of ointment. One application will neutralise an
 
 ### Ring Gates (any)
 
-Paired 18 in diameter iron rings. When the pair are located on the same plane of existence and within 100 miles of each other, anything pushed through one ring will at once come out of the other ring. Up to 100 lbs of  material<!-- printed as-is: NEW --> can pass through in one day, though items partially
+Paired 18 in diameter iron rings. When the pair are located on the same plane of existence and within 100 miles of each other, anything pushed through one ring will at once come out of the other ring. Up to 100 lbs of  material<!-- printed as-is: see errata E336 --> can pass through in one day, though items partially
 
 <!-- p.359 -->
 
@@ -388,7 +388,7 @@ Dark-coloured robes embroidered with silver or white stars. This magical garment
 
 An enchanted robe bearing a variety of tokens visible to and recognisable only by the wearer. One token can be detached per round, causing the token to become the item depicted. A removed patch cannot be reattached.
 
-A complete robe always has 2 of each of following items:
+A complete robe always has 2 of each of following items:<!-- printed as-is: see errata E337 -->
 
 - Bullseye lantern, filled and lit
 - Steel mirror, 2 ft × 4 ft
@@ -421,7 +421,7 @@ The robe will also have a random selection of 4d4 additional patches. Use the ta
 | 92-96 | War dogs, pair |
 | 97-00 | Window (2 ft × 4 ft and up to 2 ft deep) |
 
-<!-- printed as-is: NEW -->
+<!-- printed as-is: see errata E338 -->
 
 \*Door is iron, up to 10 ft × 10 ft in size, and barred on one side. It must be placed upright, after which it attaches and hinges itself automatically.
 
@@ -518,13 +518,13 @@ A cleric carrying or holding the prayer beads will intuitively know the powers t
 
 - **Lesser Strand of Prayer Beads:** Bead of *blessing*, bead of *healing*.
 - **Strand of Prayer Beads:** Beads of *healing*, *karma*, and *smiting*.
-- **Greater Strand of Prayer Beads:** Beads of *healing*, *karma*, summons,<!-- printed as-is: NEW --> and *wind walking*.
+- **Greater Strand of Prayer Beads:** Beads of *healing*, *karma*, summons,<!-- printed as-is: see errata E339 --> and *wind walking*.
 
 The following beads are activated by a command word: *blessing*, *healing*, *smiting*, and *wind walking*. The beads of *karma* and *summons* can be activated by any character capable of casting divine magic spells simply by willing it. All beads except for the bead of *summons* can be used once per day. The bead of *summons* disappears after 1 use. If a bead is removed from the strand it immediately and forever loses its power. The beads need not be worn by the cleric but he or she must have them somewhere on his or her person.
 
 ### Sustaining Spoon (any)
 
-Placing this magical spoon into an empty bowl will cause the bowl to fill with a bland but nourishing gruel capable of sustaining any 1 living creature for 1 day. Up to four such servings can produced in any 1 day.
+Placing this magical spoon into an empty bowl will cause the bowl to fill with a bland but nourishing gruel capable of sustaining any 1 living creature for 1 day. Up to four such servings can produced in any 1 day.<!-- printed as-is: see errata E340 -->
 
 ### Thunder Spear (AFPR)
 

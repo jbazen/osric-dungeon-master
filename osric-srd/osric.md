@@ -1,17 +1,24 @@
 # OSRIC — Complete Reference (merged)
 
-*OSRIC, Updated 2nd Edition, ed. Stuart Marshall — the complete transcribed text, merged into one file from all 33 numbered transcription files (00 through 33; several of those numbers are split across two physical files — 03a/03b, 06a/06b, 14a/14b, 16a/16b, 17a/17b, 22a/22b, 23a/23b, 29a/29b — giving 42 files concatenated below), in the book's own order per `03 file manifest.md`. Built batch 18.*
+*OSRIC, Updated 2nd Edition, ed. Stuart Marshall — the complete transcribed text, merged into one file from all 33 numbered transcription files (00 through 33; several of those numbers are split across two physical files — 03a/03b, 06a/06b, 14a/14b, 16a/16b, 17a/17b, 22a/22b, 23a/23b, 29a/29b — giving 42 files concatenated below), in the book's own order per `03 file manifest.md`. Built batch 18; **rebuilt twice on 2026-09-07, the second time after the closing repair pass.***
 
-**⚠ Provisional — built before the audit backlog closed.** As of batch 18, 22 of the 33 transcribed source files (16a through 32) have not been through an independent audit pass — see `03 file manifest.md`'s status table. This merge is a deliberate exception to the project's normal build order, made on the owner's explicit instruction for batch 18 ("NO AUDIT; JUST THE 3 ITEMS WE MENTIONED"), not a discovery that audit-first sequencing no longer applies. Audits have found real roster-level problems before, not hypothetically: audit batch 4 corrected file 13's mis-tallied header counts and found file 14b missing an entire column of content on book p.155 (both already fixed in the source files below; see each file's own header). If a later audit finds a similar problem in one of the 22 still-unaudited files, this merged file will need a follow-up patch, because it will have been built from content that turned out to be wrong. Treat this file's content as no more reliable than its least-audited constituent file — check `03 file manifest.md`'s status table before treating any specific passage below as audit-confirmed.
+**THE PROVISIONAL FLAG IS GONE, AND SO ARE THE DEFECTS IT WAS HEDGING AGAINST.** The batch 18 merge warned that it had been built before the audit backlog closed, with 22 of its 33 source files never independently audited. **Every file in the manifest has now had an independent audit run against it** — audit batch 9 closed the last six on 2026-09-06 — and every defect the audits, the corrective sweep and the 2026-09-07 passes found has been repaired. The batch 18 warning was warranted: between them those passes found one outright content loss, five invented paragraph breaks, six invented table headers, thirty misplaced page markers, fifteen files with systemically ASCII-flattened punctuation, five hyphens lost in de-hyphenation, sixteen table-terminating HTML comments and 300 unprinted bold nodes, and **28 heading page attributions were wrong**. All of it is repaired in the files below.
 
-**What this file is, and is not.** A straight concatenation of the 42 delivered transcription files, each preceded by a divider comment naming the source file, in book order. Nothing has been re-transcribed, re-formatted, harmonised, or corrected in the process of merging — every file's own page markers, heading levels, capitalisation, spelling, and internal inconsistencies are preserved exactly as delivered, including the project's confirmed printed errors and the deliberate house-style variations between files (bold run-in entry headings in some chapters, `###` headings in others; British spelling throughout; the book's own inconsistent field labels and formatting in Chapter I). A merge that "smoothed" any of this to look more uniform would quietly destroy evidence this project's errata programme relies on. If something below reads as inconsistent from one file to the next, that inconsistency is very likely printed in the book itself, or is a known, separately-tracked defect — check `05 errata.md` and `claude/loose ends and backlog.md` before assuming the merge introduced it.
+**Every printed defect the project has confirmed now carries an assigned errata ID.** There are **no `NEW` markers left anywhere in the corpus**: every `<!-- printed as-is: … -->` comment below names an entry in `05 errata.md`, which stands at **393 IDs — 391 standing, two (E16 and E365) retracted**.
 
-**Two structural notes worth knowing before you read this file as one continuous document, neither fixed here — this batch does not revise delivered file content, per standing orders:**
+**What changed since the batch 18 merge.** Twenty-three files carried audit corrections: 16a and 17b (audit batch 5); 18, 20 and 21 (batch 6); 22b and 23a (batch 7); 09, 14b, 15, 17a, 19, 22a and 23b (the corrective sweep); 24, 25, 26 and 27 (batch 8); 28, 29b, 30 and 32 (batch 9); with 17b, 22a and 22b changed a second time by the label pass. **Then five passes on 2026-09-07:** file 32's 300 unprinted bold Index-of-Tables nodes stripped; the errata maintenance pass, which relabelled 261 in-file markers and inserted 68 more across 30 files; the repair pass, which fixed six misplaced page markers, five hyphens, sixteen table-terminating comments and two flattened files, and normalised file 07's stat lines and two heading levels; the list-indent pass; and four late errata additions, E390–E393.
 
-1. **Front matter is not in strict linear page order.** File `00 front matter.md` covers book pp. i–ii and ix–x in one file (its own header calls this "the deliberate Contents gap"); file `01 lists.md` covers book pp. iv–viii and is concatenated immediately after it, per the manifest's own front-matter table order. Read as a physical sequence, this means the merge goes i, ii, ix, x, iv, v, vi, vii, viii, 1, 2, … — pages iv–viii appear *after* ix–x rather than between ii and ix where they'd fall in true linear page order. This is not a batch 18 defect: it is inherent to how files 00 and 01 were scoped from the start (00's own header already flags the ii→ix jump as deliberate), and no prior batch treated it as a problem. Flagged here so a reader assembling a mental page-order model of this file isn't misled by the one place it doesn't run linearly. Not restructured or interleaved this batch — doing so would mean splitting file 00's own content, which is exactly the kind of file-content edit this batch is not authorised to make.
-2. **File `09 spells magic user fre-per.md` is missing its own leading `<!-- p.84 -->` page marker.** Found this batch while verifying the 08/09 seam directly: book p.84 is a shared page (file 08 ends there, with its own `<!-- p.84 -->` marker correctly placed before *Forget*; file 09 begins there too, with *Freezing Sphere*, *Friends*, *Fumble*, and *Gate* all printed on the same page per `01 lists.md`), but file 09's own copy of that page never carries the marker — its first marker is `<!-- p.85 -->`, appearing only after those four entries. Every other shared-page boundary in this project carries the marker on both sides (confirmed directly this batch — see the batch 18 record). **No content is missing or duplicated** — Freezing Sphere, Friends, Fumble, and Gate are all present and correctly worded in file 09, checked directly this batch — this is a missing marker, not a missing entry. Not fixed here, per standing orders (this batch does not revise delivered file content); flagged in `claude/batch 18 — record.md` for a future maintenance pass. File 09 already carries a separate, previously-known audit **FAIL** for systemic ASCII-flattened punctuation (see `03 file manifest.md`) — this is an additional, distinct finding on top of that one.
+**A convention was ratified and applied on 2026-09-07: nested lists use a FOUR-space indent step.** Six files carry nested bullets — 14a, 20, 23b, 24, 27 and 32. At the previous 2-space step, CommonMark parsers read the nesting correctly but classic Markdown parsers silently flattened the top two levels together, which mattered because file 32's Index of Tables encodes a four-level hierarchy the book really prints, and after the bold strip the indent is the *only* thing encoding it. At four spaces both parser families now report the same depth. The step is presentation; **no book text changed and every list item survives** — strip the bullet indentation from before and after and the files are byte-identical.
 
-**Every one of the other ~40 file-to-file seams in this merge was checked directly this batch** — reading the tail of each file against the head of the next, confirming page-marker continuity and checking for duplicated or dropped content at the boundary — and came back clean, consistent with the many prior boundary checks recorded across batches 5 through 17. See `claude/batch 18 — record.md` for the full account.
+**What this file is, and is not.** A straight concatenation of the 42 delivered transcription files, each preceded by a divider comment naming the source file, in book order. Nothing has been re-transcribed, re-formatted, harmonised or corrected in the process of merging — every file's own page markers, heading levels, capitalisation, spelling and internal inconsistencies are preserved exactly as delivered, including the project's confirmed printed errors and the deliberate house-style variations between files. A merge that "smoothed" any of this would quietly destroy evidence the errata programme relies on. If something below reads as inconsistent from one file to the next, that inconsistency is very likely printed in the book itself, or is a known, separately-tracked ruling — check `05 errata.md` before assuming the merge introduced it.
+
+**Two structural notes worth knowing before reading this as one continuous document, neither of them defects:**
+
+1. **Front matter is not in strict linear page order.** File `00 front matter.md` covers book pp. i–ii and ix–x in one file (its own header calls this "the deliberate Contents gap"); file `01 lists.md` covers pp. iv–viii and is concatenated immediately after it, per the manifest's own front-matter table order. So the merge runs i, ii, ix, x, iv, v, vi, vii, viii, 1, 2, … This is inherent to how files 00 and 01 were scoped from the start, not a merge defect.
+
+2. **Nine page markers now sit inside table cells, in files 15 and 16a.** They were previously on their own line inside a table body, which terminates the table in GFM and dumped 165 printed rows out as paragraph text. Moving them after the table would have misattributed up to 37 rows to the wrong page, so they were moved *inline*, into the first cell of the row that begins each page. **They render invisibly and a standard `<!-- p\.(\d+) -->` regex still finds every one** — but a tool that matches page markers on a whole line will now miss nine of them.
+
+**Every one of the 41 file-to-file seams in this merge was checked directly in batch 18** — 39 clean, one expected non-arithmetic jump, one genuine finding (file 09's missing `<!-- p.84 -->`, since added). **Audit batches 5 through 9 have since re-verified twenty-six of those seams from the audited files' own sides, most from both sides, and every one holds exactly as `03 file manifest.md` records it.**
 
 ---
 
@@ -4932,13 +4939,13 @@ Druidic spells draw upon the divine power of nature, and operate according to si
 
 *Druidic Enchantment/ Charm*
 
-**Level:** Druid 1
-**Range:** 10 ft
-**Duration:** Permanent
-**Area of Effect:** One normal animal
-**Components:** V,S,M
-**Casting Time:** 6 turns
-**Saving Throw:** Negates
+- **Level:** Druid 1
+- **Range:** 10 ft
+- **Duration:** Permanent
+- **Area of Effect:** One normal animal
+- **Components:** V,S,M
+- **Casting Time:** 6 turns
+- **Saving Throw:** Negates
 
 The *animal friendship* spell enchants a normal animal of neutral alignment to become the druid’s faithful friend and companion. The animal to be enchanted must not be completely unintelligent but cannot be of greater than animal intelligence. If the animal fails its saving throw (made at the beginning of the spell’s casting), it will remain docile for the remainder of the casting time. Once the spell is complete, the animal will remain with the druid and can learn tricks similar to those that could be taught to a well-trained domestic pet. Each trick takes a week to learn, and after the animal has been with the druid for three months it will no longer be able to learn new tricks. During this period, if the animal is left alone by the druid for more than three days, the enchantment will be broken and the animal will revert to the wild. A druid may only have animal friends with hit dice totalling twice his or her level. (The total hit dice can thus increase as the druid gains levels.)
 
@@ -4946,13 +4953,13 @@ The *animal friendship* spell enchants a normal animal of neutral alignment to b
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 5
-**Range:** 80 ft
-**Duration:** 2 rounds/ caster level
-**Area of Effect:** Up to 8 animals in a 10 ft radius
-**Components:** V,S,M
-**Casting Time:** 7 segments
-**Saving Throw:** None
+- **Level:** Druid 5
+- **Range:** 80 ft
+- **Duration:** 2 rounds/ caster level
+- **Area of Effect:** Up to 8 animals in a 10 ft radius
+- **Components:** V,S,M
+- **Casting Time:** 7 segments
+- **Saving Throw:** None
 
 This spell causes up to 8 animals in the area of effect to grow to twice normal size, doubling their hit dice and the damage they inflict. The spell does not influence the animals’ attitude toward the druid, so it is advisable to ensure ahead of time that they are friendly. The reverse of the spell halves their size and damage inflicted.
 
@@ -4960,13 +4967,13 @@ This spell causes up to 8 animals in the area of effect to grow to twice normal 
 
 *Druidic Conjuration/ Summoning*
 
-**Level:** Druid 4
-**Range:** 120 ft/ level
-**Duration:** See below
-**Area of Effect:** See below
-**Components:** V,S,M
-**Casting Time:** 6 segments
-**Saving Throw:** None
+- **Level:** Druid 4
+- **Range:** 120 ft/ level
+- **Duration:** See below
+- **Area of Effect:** See below
+- **Components:** V,S,M
+- **Casting Time:** 6 segments
+- **Saving Throw:** None
 
 A druid may use this spell to summon normal or giant animals of a specified type. The animals must be within the spell’s range to be summoned. Up to three summoning attempts may be made if animals of the specified type do not appear. Assuming that the summoned type of animal is within the spell’s range, up to 8 animals will appear, of no more than 4 hit dice each. These animals will assist the druid with a specific mission: winning a battle, travelling to a specific location, etc.
 
@@ -4974,13 +4981,13 @@ A druid may use this spell to summon normal or giant animals of a specified type
 
 *Druidic Conjuration/ Summoning*
 
-**Level:** Druid 5
-**Range:** 180 ft/ caster level
-**Duration:** See below
-**Area of Effect:** See below
-**Components:** V,S,M
-**Casting Time:** 7 segments
-**Saving Throw:** None
+- **Level:** Druid 5
+- **Range:** 180 ft/ caster level
+- **Duration:** See below
+- **Area of Effect:** See below
+- **Components:** V,S,M
+- **Casting Time:** 7 segments
+- **Saving Throw:** None
 
 This spell is similar to *animal summoning I*, but is more powerful. The spell will summon a maximum of six animals, each no greater than 8 HD, or up to 12 animals, each no greater than 4 HD.
 
@@ -4988,14 +4995,14 @@ This spell is similar to *animal summoning I*, but is more powerful. The spell w
 
 *Druidic Conjuration/ Summoning*
 
-**Level:** Druid 6
-**Range:** 240 ft/ caster level
-**Duration:** See below
-**Area of Effect:** See below
+- **Level:** Druid 6
+- **Range:** 240 ft/ caster level
+- **Duration:** See below
+- **Area of Effect:** See below
 <!-- p.57 -->
-**Components:** V,S,M
-**Casting Time:** 8 segments
-**Saving Throw:** None
+- **Components:** V,S,M
+- **Casting Time:** 8 segments
+- **Saving Throw:** None
 
 This spell is similar to *animal summoning I*, but is more powerful. The spell will summon up to 4 animals of no more than 16 HD each, or 16 animals of no more than 4 HD each.
 
@@ -5003,13 +5010,13 @@ This spell is similar to *animal summoning I*, but is more powerful. The spell w
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 7
-**Range:** 40 ft
-**Duration:** 1 round/ caster level
-**Area of Effect:** 2 ft cube/ caster level
-**Components:** V,S,M
-**Casting Time:** 9 segments
-**Saving Throw:** None
+- **Level:** Druid 7
+- **Range:** 40 ft
+- **Duration:** 1 round/ caster level
+- **Area of Effect:** 2 ft cube/ caster level
+- **Components:** V,S,M
+- **Casting Time:** 9 segments
+- **Saving Throw:** None
 
 This spell allows the druid to animate and command a stone object in the same way that a cleric commands an animated object with the *animate object* spell. The object to be animated cannot be part of a larger stone structure.
 
@@ -5017,13 +5024,13 @@ This spell allows the druid to animate and command a stone object in the same wa
 
 *Druidic Abjuration*
 
-**Level:** Druid 6
-**Range:** 0
-**Duration:** 1 turn/ caster level
-**Area of Effect:** 10 ft radius sphere (or hemisphere)
-**Components:** V,S,M
-**Casting Time:** 1 round
-**Saving Throw:** None
+- **Level:** Druid 6
+- **Range:** 0
+- **Duration:** 1 turn/ caster level
+- **Area of Effect:** 10 ft radius sphere (or hemisphere)
+- **Components:** V,S,M
+- **Casting Time:** 1 round
+- **Saving Throw:** None
 
 This spell creates an immobile field of force that hedges out all animal matter. Note that undead and beings not of the material plane are not considered animal matter. The druid’s allies must, of course, be within the field at the time it is conjured forth, for they themselves are presumably of animal matter.
 
@@ -5031,13 +5038,13 @@ This spell creates an immobile field of force that hedges out all animal matter.
 
 *Druidic Abjuration*
 
-**Level:** Druid 5
-**Range:** 0
-**Duration:** 1 turn/ caster level
-**Area of Effect:** 80 ft radius sphere (or hemisphere)
-**Components:** V,S,M
-**Casting Time:** 7 segments
-**Saving Throw:** None
+- **Level:** Druid 5
+- **Range:** 0
+- **Duration:** 1 turn/ caster level
+- **Area of Effect:** 80 ft radius sphere (or hemisphere)
+- **Components:** V,S,M
+- **Casting Time:** 7 segments
+- **Saving Throw:** None
 
 When the druid finishes casting this spell, an invisible barrier forms in an 80 ft radius around the caster and is immobile thereafter. No vegetable matter (including missiles formed of vegetable matter, such as wooden arrows) can penetrate the barrier.
 
@@ -5045,13 +5052,13 @@ When the druid finishes casting this spell, an invisible barrier forms in an 80 
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 2
-**Range:** Touch
-**Duration:** 4 rounds + 1 round/ caster level
-**Area of Effect:** Creature touched
-**Components:** V,S,M
-**Casting Time:** 3 segments
-**Saving Throw:** None
+- **Level:** Druid 2
+- **Range:** Touch
+- **Duration:** 4 rounds + 1 round/ caster level
+- **Area of Effect:** Creature touched
+- **Components:** V,S,M
+- **Casting Time:** 3 segments
+- **Saving Throw:** None
 
 The *barkskin* spell magically toughens a creature’s skin, making it as strong as tree bark. The recipient of the spell improves his or her armour class by one point and also gains a +1 bonus on all saving throws, with the exception of saving throws against Spells (unlisted categories).
 
@@ -5059,13 +5066,13 @@ The *barkskin* spell magically toughens a creature’s skin, making it as strong
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 3
-**Range:** 0
-**Duration:** 1 turn/ caster level
-**Area of Effect:** 360 ft radius
-**Components:** V,S,M
-**Casting Time:** 1 turn
-**Saving Throw:** Half
+- **Level:** Druid 3
+- **Range:** 0
+- **Duration:** 1 turn/ caster level
+- **Area of Effect:** 360 ft radius
+- **Components:** V,S,M
+- **Casting Time:** 1 turn
+- **Saving Throw:** Half
 
 Provided that there is already significant cloud cover in the area, the druid may use this spell to call down a shattering barrage of lightning bolts from the sky to the ground. One bolt may be called every turn (10 minutes). The bolts inflict 2d8 points of damage, plus another d8 per level of the caster. Any creature within 10 ft of a bolt’s impact (or along its downward path) will sustain damage. The spell may only be cast outdoors.
 
@@ -5073,13 +5080,13 @@ Provided that there is already significant cloud cover in the area, the druid ma
 
 *Druidic Conjuration/ Summoning*
 
-**Level:** Druid 4
-**Range:** 360 ft + 30 ft/ caster level
-**Duration:** See below
-**Area of Effect:** See below
-**Components:** V,S,M
-**Casting Time:** See below
-**Saving Throw:** Negates
+- **Level:** Druid 4
+- **Range:** 360 ft + 30 ft/ caster level
+- **Duration:** See below
+- **Area of Effect:** See below
+- **Components:** V,S,M
+- **Casting Time:** See below
+- **Saving Throw:** Negates
 
 This summoning calls certain woodland creatures to aid the druid, provided that they are nearby. The druid casts the spell by means of a sonorous chant, which he or she must continue for 2 turns or until the summoned creatures appear. The GM will determine if creatures that will respond to such a call are in the area. The creatures are entitled to a saving throw vs Spells (unlisted categories) at a penalty of –4. If the creatures fail the saving throw and are summoned to the druid’s aid, they will provide whatever aid they are capable of, although their willingness to engage in combat is subject to their overall reactions to the druid him- or herself.
 
@@ -5097,13 +5104,13 @@ Unicorn 1
 
 *Druidic Evocation*
 
-**Level:** Druid 7
-**Range:** 10 ft
-**Duration:** 6 turns + 1 turn/ caster level
-**Area of Effect:** See below
-**Components:** V,S,M
-**Casting Time:** 1 turn
-**Saving Throw:** None
+- **Level:** Druid 7
+- **Range:** 10 ft
+- **Duration:** 6 turns + 1 turn/ caster level
+- **Area of Effect:** See below
+- **Components:** V,S,M
+- **Casting Time:** 1 turn
+- **Saving Throw:** None
 
 A chariot of fire, drawn by two flaming steeds, appears with an echoing thunderclap when the druid completes the final words of this spell. The druid may, by touch, make up to 8 of his or her companions immune to the furnace-like conveyance; anyone else within five ft of the horses or the chariot will sustain 2d4 hp of damage per round. The chariot can travel over land at a speed of 240 ft/ round and can fly at a speed of 480 ft/ round, obeying the caster’s shouted instructions. It is possible for the chariot and horses to sustain damage from magical weapons or from water (which does only 1 hp of damage). Chariot and horses each have 30 hp and are AC 2; if a single horse is dispelled by taking physical damage, the chariot’s speed will be halved. The chariot prevents normal fire from affecting its passengers, but they may take damage from magical fire attacks. The chariot and horses are themselves immune to all fire, magical or otherwise.
 
@@ -5111,13 +5118,13 @@ A chariot of fire, drawn by two flaming steeds, appears with an echoing thunderc
 
 *Druidic Enchantment/ Charm*
 
-**Level:** Druid 2
-**Range:** 80 ft
-**Duration:** See below
-**Area of Effect:** One person or mammal
-**Components:** V,S
-**Casting Time:** 4 segments
-**Saving Throw:** Negates
+- **Level:** Druid 2
+- **Range:** 80 ft
+- **Duration:** See below
+- **Area of Effect:** One person or mammal
+- **Components:** V,S
+- **Casting Time:** 4 segments
+- **Saving Throw:** Negates
 
 The powerful enchantment woven by this spell will affect any “person,” meaning character races (with the exception of elves) and other small to medium-sized bipeds analogous to persons (orcs, goblins, etc.). The spell also affects mammalian animals of any kind, even those that are supernatural, giant, or monstrous. If the target creature fails a saving throw, it will view the druid as a trusted friend, interpreting his or her every word in its most positive light. Charmed creatures will place themselves into moderate danger, including combat, on the druid’s behalf, but will not undertake risks beyond those the creature might ordinarily take. The druid must be able to talk to the charmed creature if he or she is to make any sort of complex “request.” Charmed creatures are allowed periodic saving throws to break the charm, based on intelligence:
 
@@ -5137,13 +5144,13 @@ The charm will be broken automatically if the druid obviously tries to harm the 
 
 *Druidic Divination*
 
-**Level:** Druid 5
-**Range:** Caster
-**Duration:** See below
-**Area of Effect:** See below
-**Components:** V,S,M
-**Casting Time:** 1 turn
-**Saving Throw:** None
+- **Level:** Druid 5
+- **Range:** Caster
+- **Duration:** See below
+- **Area of Effect:** See below
+- **Components:** V,S,M
+- **Casting Time:** 1 turn
+- **Saving Throw:** None
 
 To cast this spell, the druid enters into a trance that brings him or her into a state of oneness with the natural surroundings.
 
@@ -5153,13 +5160,13 @@ He or she gains knowledge of the area, learning one fact for each of his or her 
 
 *Druidic Enchantment/ Charm*
 
-**Level:** Druid 7
-**Range:** 80 ft
-**Duration:** 1 round/ level
-**Area of Effect:** Up to a 20 ft radius
-**Components:** V,S,M
-**Casting Time:** 9 segments
-**Saving Throw:** See below
+- **Level:** Druid 7
+- **Range:** 80 ft
+- **Duration:** 1 round/ level
+- **Area of Effect:** Up to a 20 ft radius
+- **Components:** V,S,M
+- **Casting Time:** 9 segments
+- **Saving Throw:** See below
 
 This spell causes creatures to behave strangely and unpredictably. A certain number of creatures in the spell’s area of effect must make a saving throw each round in order to avoid becoming confused. The base number of creatures is 2d4, but additional creatures may be affected; if the druid’s caster level is higher than the HD of the strongest opponent, the difference is the number of additional creatures that must make saving throws. This spell is extremely powerful; all saving throws are made with a penalty of –2. Creatures that fail their saving throws (check each round) act randomly in accordance with the following table:
 
@@ -5179,13 +5186,13 @@ This spell causes creatures to behave strangely and unpredictably. A certain num
 
 *Druidic Conjuration/ Summoning*
 
-**Level:** Druid 7
-**Range:** 40 ft
-**Duration:** 1 turn/ level
-**Area of Effect:** See below
-**Components:** V,S,M
-**Casting Time:** 1 turn
-**Saving Throw:** None
+- **Level:** Druid 7
+- **Range:** 40 ft
+- **Duration:** 1 turn/ level
+- **Area of Effect:** See below
+- **Components:** V,S,M
+- **Casting Time:** 1 turn
+- **Saving Throw:** None
 
 By means of this spell, the druid summons a 16 HD elemental from the plane of earth. The spell is otherwise identical to the druidic spell *conjure fire elemental*, but there is no chance to summon a more powerful elemental, as exists when a druid summons fire elementals. As with conjuring fire elementals, the earth elemental will be the druid’s ally by its own will; the druid requires no magical wards against it and need not concentrate upon it after the summoning is complete.
 
@@ -5193,13 +5200,13 @@ By means of this spell, the druid summons a 16 HD elemental from the plane of ea
 
 *Druidic Conjuration/ Summoning*
 
-**Level:** Druid 6
-**Range:** 80 ft
-**Duration:** 1 turn/ caster level
-**Area of Effect:** See below
-**Components:** V,S,M
-**Casting Time:** 6 rounds
-**Saving Throw:** None
+- **Level:** Druid 6
+- **Range:** 80 ft
+- **Duration:** 1 turn/ caster level
+- **Area of Effect:** See below
+- **Components:** V,S,M
+- **Casting Time:** 6 rounds
+- **Saving Throw:** None
 
 It is within the power of a high-level druid to summon forth an elemental being from the plane of fire. The elemental will ordinarily be of 16 HD, but there is a 5% chance that it will be of 24 HD and a 1% chance that an afreet, rather than an elemental, will appear. The elemental will act as the druid’s ally, remaining for the spell’s duration to assist him or her however possible, including engaging in combat with his or her enemies. Druids need no protective circle to summon fire elementals and need not concentrate upon the elemental in any way.
 
@@ -5207,13 +5214,13 @@ It is within the power of a high-level druid to summon forth an elemental being 
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 4
-**Range:** Caster
-**Duration:** 4 turns + 1 turn/ caster level
-**Area of Effect:** 10 ft radius
-**Components:** V,S,M
-**Casting Time:** 6 segments
-**Saving Throw:** None
+- **Level:** Druid 4
+- **Range:** Caster
+- **Duration:** 4 turns + 1 turn/ caster level
+- **Area of Effect:** 10 ft radius
+- **Components:** V,S,M
+- **Casting Time:** 6 segments
+- **Saving Throw:** None
 
 By casting this spell, the druid magically controls the temperature of his or her immediate surroundings, to a radius of 10 ft. The temperature may be raised or lowered by 9° Fahrenheit (4° Celsius) per caster level.
 
@@ -5221,13 +5228,13 @@ By casting this spell, the druid magically controls the temperature of his or he
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 7
-**Range:** 0
-**Duration:** 8d12 hours
-**Area of Effect:** 4d8 square miles
-**Components:** V,S,M
-**Casting Time:** 1 turn
-**Saving Throw:** None
+- **Level:** Druid 7
+- **Range:** 0
+- **Duration:** 8d12 hours
+- **Area of Effect:** 4d8 square miles
+- **Components:** V,S,M
+- **Casting Time:** 1 turn
+- **Saving Throw:** None
 
 The *control weather* spell brings about a rapid change in the weather of several square miles surrounding the point where the spell is cast. It requires no more than 10-40 minutes for the spell to take its full effect across the vast area it covers.
 
@@ -5239,13 +5246,13 @@ The spell affects precipitation, temperature, and wind speed. Existing weather c
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 5
-**Range:** Caster
-**Duration:** 1 turn/ caster level (see below)
-**Area of Effect:** 40 ft radius/ caster level
-**Components:** V,S,M
-**Casting Time:** 7 segments
-**Saving Throw:** None
+- **Level:** Druid 5
+- **Range:** Caster
+- **Duration:** 1 turn/ caster level (see below)
+- **Area of Effect:** 40 ft radius/ caster level
+- **Components:** V,S,M
+- **Casting Time:** 7 segments
+- **Saving Throw:** None
 
 By the power of this spell, the druid can increase or decrease the force of the winds. For every caster level, the druid may change the speed of the wind by 3 miles per hour. An eye of calm with a radius of 40 ft remains around the druid and travels with him or her. The wind force increases (or decreases) at a rate of 3 miles per hour every round until the end of the spell’s duration, at which time it will return to normal, also at a rate of 3 miles per hour per turn.
 
@@ -5255,13 +5262,13 @@ Winds can be extremely destructive; ships are at great risk of sinking if wind s
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 2
-**Range:** 10 ft
-**Duration:** Instantaneous (permanent)
-**Area of Effect:** Up to 1 cubic ft/ caster level
-**Components:** V,S
-**Casting Time:** 1 turn
-**Saving Throw:** None
+- **Level:** Druid 2
+- **Range:** 10 ft
+- **Duration:** Instantaneous (permanent)
+- **Area of Effect:** Up to 1 cubic ft/ caster level
+- **Components:** V,S
+- **Casting Time:** 1 turn
+- **Saving Throw:** None
 
 Other than as described above, this spell is similar to the clerical spell *create water*. Note that the druidic spell has no reverse version; the druid may create, but not destroy, water.
 
@@ -5269,13 +5276,13 @@ Other than as described above, this spell is similar to the clerical spell *crea
 
 *Druidic Conjuration/Summoning*
 
-**Level:** Druid 7
-**Range:** 0
-**Duration:** 4 rounds/ level
-**Area of Effect:** See below
-**Components:** V,S,M
-**Casting Time:** 9 segments
-**Saving Throw:** None
+- **Level:** Druid 7
+- **Range:** 0
+- **Duration:** 4 rounds/ level
+- **Area of Effect:** See below
+- **Components:** V,S,M
+- **Casting Time:** 9 segments
+- **Saving Throw:** None
 
 The terrifying *creeping doom* spell causes a massive swarm of insects, spiders, and centipedes to boil forth from the ground in front of the caster, marching in whatever direction he or she orders, destroying and killing all that stands in their way. The swarm is composed of (1d6+4) ×100 non-flying vermin, each of which inflicts 1 hp damage against an opponent before dying. Only as many insects as are needed to kill an opponent will die, and once the target is dead the swarm will move on. If the druid allows the swarm to get more than 80 ft away from his or her person, 50 insects for every 10 ft beyond this range will depart the swarm. The druid can order the swarm to attack specific targets and/ or to change direction. Although the spell can be devastating (potentially causing as much as 1,000 hp of damage in total), many means can be used to counter it—the most obvious being a *fireball* or other area-of-effect damage spell.
 
@@ -5283,13 +5290,13 @@ The terrifying *creeping doom* spell causes a massive swarm of insects, spiders,
 
 *Druidic Necromancy*
 
-**Level:** Druid 3
-**Range:** Touch
-**Duration:** Instantaneous (permanent)
-**Area of Effect:** Creature touched
-**Components:** V,S,M
-**Casting Time:** 1 round
-**Saving Throw:** None (neg.)
+- **Level:** Druid 3
+- **Range:** Touch
+- **Duration:** Instantaneous (permanent)
+- **Area of Effect:** Creature touched
+- **Components:** V,S,M
+- **Casting Time:** 1 round
+- **Saving Throw:** None (neg.)
 
 This spell, with the exception of any distinctions noted above, is identical to the clerical spell *cure disease*.
 
@@ -5297,13 +5304,13 @@ This spell, with the exception of any distinctions noted above, is identical to 
 
 *Druidic Necromancy*
 
-**Level:** Druid 6
-**Range:** Touch
-**Duration:** Instantaneous (permanent)
-**Area of Effect:** One creature
-**Components:** V,S,M
-**Casting Time:** 8 segments
-**Saving Throw:** None (neg.)
+- **Level:** Druid 6
+- **Range:** Touch
+- **Duration:** Instantaneous (permanent)
+- **Area of Effect:** One creature
+- **Components:** V,S,M
+- **Casting Time:** 8 segments
+- **Saving Throw:** None (neg.)
 
 Except as may be noted above, this spell is identical to the clerical spell of the same name.
 
@@ -5311,13 +5318,13 @@ Except as may be noted above, this spell is identical to the clerical spell of t
 
 *Druidic Necromancy*
 
-**Level:** Druid 2
-**Range:** Touch
-**Duration:** Instantaneous (permanent)
-**Area of Effect:** Creature touched
-**Components:** V,S,M
-**Casting Time:** 4 segments
-**Saving Throw:** None (neg.)
+- **Level:** Druid 2
+- **Range:** Touch
+- **Duration:** Instantaneous (permanent)
+- **Area of Effect:** Creature touched
+- **Components:** V,S,M
+- **Casting Time:** 4 segments
+- **Saving Throw:** None (neg.)
 
 The druidic *cure light wounds* is, except as described above, identical to the clerical spell of the same name.
 
@@ -5327,13 +5334,13 @@ The druidic *cure light wounds* is, except as described above, identical to the 
 
 *Druidic Necromancy*
 
-**Level:** Druid 4
-**Range:** Touch
-**Duration:** Instantaneous (permanent)
-**Area of Effect:** Creature touched
-**Components:** V,S,M
-**Casting Time:** 6 segments
-**Saving Throw:** None (neg.)
+- **Level:** Druid 4
+- **Range:** Touch
+- **Duration:** Instantaneous (permanent)
+- **Area of Effect:** Creature touched
+- **Components:** V,S,M
+- **Casting Time:** 6 segments
+- **Saving Throw:** None (neg.)
 
 Except as may be noted above, this spell is identical to the clerical spell of the same name.
 
@@ -5341,13 +5348,13 @@ Except as may be noted above, this spell is identical to the clerical spell of t
 
 *Druidic Divination*
 
-**Level:** Druid 1
-**Range:** Caster
-**Duration:** 12 rounds
-**Area of Effect:** Path 10 ft wide, 40 ft long
-**Components:** V,S,M
-**Casting Time:** 3 segments
-**Saving Throw:** None
+- **Level:** Druid 1
+- **Range:** Caster
+- **Duration:** 12 rounds
+- **Area of Effect:** Path 10 ft wide, 40 ft long
+- **Components:** V,S,M
+- **Casting Time:** 3 segments
+- **Saving Throw:** None
 
 Other than as described above, this spell is identical to the first level clerical spell *detect magic*.
 
@@ -5355,13 +5362,13 @@ Other than as described above, this spell is identical to the first level cleric
 
 *Druidic Divination*
 
-**Level:** Druid 1
-**Range:** Caster
-**Duration:** 4 rounds/ level
-**Area of Effect:** Path 10 ft wide, 40 ft long
-**Components:** V,S,M
-**Casting Time:** 3 segments
-**Saving Throw:** None
+- **Level:** Druid 1
+- **Range:** Caster
+- **Duration:** 4 rounds/ level
+- **Area of Effect:** Path 10 ft wide, 40 ft long
+- **Components:** V,S,M
+- **Casting Time:** 3 segments
+- **Saving Throw:** None
 
 The druid may cast this spell upon herself, imbuing her eyes with divinatory power. The druid can instantly discern virtually any form of trap if outdoors, and even indoors or underground she will detect the presence of pits.
 
@@ -5369,13 +5376,13 @@ The druid may cast this spell upon herself, imbuing her eyes with divinatory pow
 
 *Druidic Abjuration*
 
-**Level:** Druid 4
-**Range:** 80 ft
-**Duration:** Instantaneous
-**Area of Effect:** 40 ft cube/ caster level
-**Components:** V,S,M
-**Casting Time:** 6 segments
-**Saving Throw:** None
+- **Level:** Druid 4
+- **Range:** 80 ft
+- **Duration:** Instantaneous
+- **Area of Effect:** 40 ft cube/ caster level
+- **Components:** V,S,M
+- **Casting Time:** 6 segments
+- **Saving Throw:** None
 
 This spell is identical in effect to the clerical spell of the same name, with any exceptions being noted above.
 
@@ -5383,13 +5390,13 @@ This spell is identical in effect to the clerical spell of the same name, with a
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 1
-**Range:** 80 ft
-**Duration:** 1 turn
-**Area of Effect:** 20 ft radius
-**Components:** V,S,M
-**Casting Time:** 3 segments
-**Saving Throw:** Half (see below)
+- **Level:** Druid 1
+- **Range:** 80 ft
+- **Duration:** 1 turn
+- **Area of Effect:** 20 ft radius
+- **Components:** V,S,M
+- **Casting Time:** 3 segments
+- **Saving Throw:** Half (see below)
 
 The druid casts this spell upon a particular spot, whereupon all plants in a 20 ft radius of the enchanted location immediately begin to writhe violently about, whipping around and entangling any creature in the area. Creatures threatened in this manner are entitled to a saving throw. If the saving throw succeeds, the creature’s movement rate is slowed to half normal; if the saving throw fails, the creature is so securely held in the plants that it cannot move, attack, or cast spells for the duration of the spell.
 
@@ -5397,13 +5404,13 @@ The druid casts this spell upon a particular spot, whereupon all plants in a 20 
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 1
-**Range:** 80 ft
-**Duration:** 4 rounds/ caster level
-**Area of Effect:** 1 size M or 2 size S creatures/ caster level
-**Components:** V
-**Casting Time:** 3 segments
-**Saving Throw:** None
+- **Level:** Druid 1
+- **Range:** 80 ft
+- **Duration:** 4 rounds/ caster level
+- **Area of Effect:** 1 size M or 2 size S creatures/ caster level
+- **Components:** V
+- **Casting Time:** 3 segments
+- **Saving Throw:** None
 
 The druid uses this spell to ignite a fiery-looking aura of bright light around his or her enemies. The aura is visible at a range of 80 ft if the observer stands in darkness, and at 40 ft if he or she stands near another light source. The light itself is harmless, but a creature limned with *faerie fire* is easier to hit; any attacks against it are made with a bonus of +2.
 
@@ -5411,13 +5418,13 @@ The druid uses this spell to ignite a fiery-looking aura of bright light around 
 
 *Druidic Enchantment/ Charm*
 
-**Level:** Druid 6
-**Range:** 40 ft
-**Duration:** Permanent
-**Area of Effect:** One creature
-**Components:** V,S
-**Casting Time:** 8 segments
-**Saving Throw:** Negates
+- **Level:** Druid 6
+- **Range:** 40 ft
+- **Duration:** Permanent
+- **Area of Effect:** One creature
+- **Components:** V,S
+- **Casting Time:** 8 segments
+- **Saving Throw:** Negates
 
 The insidious *feeblemind* spell affects only those who can cast spells, tracing and poisoning the mystical channels of their arcane power like a viral infection. The spell reduces a victim into a state of extreme mental retardation, which condition persists until the victim is magically restored by means of a *heal*, *wish*, or *restoration* spell. The different types of spell casting ability are not equally vulnerable to the *feeblemind* spell. Practitioners of clerical magic gain a bonus of +1 to saving throws; druids save at –1; magic users and illusionists save at –4. (Those who can use more than one type of magic must save using the average of their modifiers.)
 
@@ -5427,13 +5434,13 @@ The insidious *feeblemind* spell affects only those who can cast spells, tracing
 
 *Druidic Necromancy*
 
-**Level:** Druid 2
-**Range:** 10 ft
-**Duration:** 4 rounds + 2 rounds/ caster level
-**Area of Effect:** One creature
-**Components:** V,S,M
-**Casting Time:** 3 segments
-**Saving Throw:** None
+- **Level:** Druid 2
+- **Range:** 10 ft
+- **Duration:** 4 rounds + 2 rounds/ caster level
+- **Area of Effect:** One creature
+- **Components:** V,S,M
+- **Casting Time:** 3 segments
+- **Saving Throw:** None
 
 With the exception of any distinctions detailed above, this spell is identical to the magic user’s (not the clerical) spell of the same name.
 
@@ -5441,13 +5448,13 @@ With the exception of any distinctions detailed above, this spell is identical t
 
 *Druidic Enchantment/ Charm*
 
-**Level:** Druid 7
-**Range:** 60 ft
-**Duration:** Instantaneous
-**Area of Effect:** One creature
-**Components:** V,S,M
-**Casting Time:** 5 segments
-**Saving Throw:** Negates
+- **Level:** Druid 7
+- **Range:** 60 ft
+- **Duration:** Instantaneous
+- **Area of Effect:** One creature
+- **Components:** V,S,M
+- **Casting Time:** 5 segments
+- **Saving Throw:** Negates
 
 The casting of this spell culminates when the druid points a finger at his or her chosen victim. If the target fails a saving throw, it dies.
 
@@ -5455,13 +5462,13 @@ The casting of this spell culminates when the druid points a finger at his or he
 
 *Druidic Conjuration*
 
-**Level:** Druid 6
-**Range:** 40 ft (see below)
-**Duration:** 1 turn/ caster level
-**Area of Effect:** See below
-**Components:** V,S,M
-**Casting Time:** 1 round/ seed
-**Saving Throw:** Half
+- **Level:** Druid 6
+- **Range:** 40 ft (see below)
+- **Duration:** 1 turn/ caster level
+- **Area of Effect:** See below
+- **Components:** V,S,M
+- **Casting Time:** 1 round/ seed
+- **Saving Throw:** Half
 
 By casting this spell upon a group of seeds, either acorns or holly berries, the druid imbues them with the potential to erupt in a violent explosion of magical fire. Transformed acorns may be used as missiles, and transformed holly berries as delayed-action bombs. The spell allows the druid to create four acorn fire seeds or eight holly berry fire seeds, or a proportionate combination such as two acorns and four holly berries. Acorns may be thrown at a range of up to 40 ft and cause 2d8 points of damage in a radius of 5 ft, igniting any combustibles that fail item saving throws. If an acorn strikes its target with a successful to-hit roll, the target is not entitled to a saving throw. Even if the attack misses, the target may be caught in the blast area (and would be entitled to a saving throw for half damage, as any other creature within the blast area). The holly berries may be thrown no more than 6 ft, or may be left in place to ignite upon a command word. (The range of the command word is 40 ft.) Holly berries create an explosion in an area of 5 × 5 ft, inflicting 1d8 points of damage and causing combustible items to make saving throws against magical fire or burn. As with the acorn seeds, a successful saving throw against the explosion of a holly berry fire seed reduces the damage inflicted by one-half.
 
@@ -5469,13 +5476,13 @@ By casting this spell upon a group of seeds, either acorns or holly berries, the
 
 *Druidic Evocation*
 
-**Level:** Druid 7
-**Range:** 150 ft
-**Duration:** 1 round
-**Area of effect:** 20 × 20 × 20 ft area per caster level
-**Components:** V, S, M
-**Casting Time:** 9 segments
-**Saving Throw:** Half
+- **Level:** Druid 7
+- **Range:** 150 ft
+- **Duration:** 1 round
+- **Area of effect:** 20 × 20 × 20 ft area per caster level  <!-- printed as-is: see errata E393 -->
+- **Components:** V, S, M
+- **Casting Time:** 9 segments
+- **Saving Throw:** Half
 
 The fire storm invocation is a modified and enlarged version of wall of fire. It lasts for only a single round, and does only half the damage of a wall of fire (i.e. 2d8 damage), but the huge area of effect makes it devastating.
 
@@ -5485,13 +5492,13 @@ The spell’s reverse extinguishes all normal fire in the area of effect, or wil
 
 *Druidic Evocation*
 
-**Level:** Druid 2
-**Range:** Touch
-**Duration:** Permanent until tripped
-**Area of Effect:** One object
-**Components:** V,S,M
-**Casting Time:** 1 turn
-**Saving Throw:** Half
+- **Level:** Druid 2
+- **Range:** Touch
+- **Duration:** Permanent until tripped
+- **Area of Effect:** One object
+- **Components:** V,S,M
+- **Casting Time:** 1 turn
+- **Saving Throw:** Half
 
 With the exception of any distinctions detailed above, this spell is identical to the magic user spell of the same name.
 
@@ -5499,13 +5506,13 @@ With the exception of any distinctions detailed above, this spell is identical t
 
 Druidic Illusion/ Phantasm <!-- printed as-is: see errata E51 -->
 
-**Level:** Druid 4
-**Range:** 80 ft
-**Duration:** Permanent
-**Area of Effect:** 40 ft square/ caster level
-**Components:** V,S,M
-**Casting Time:** 6 segments
-**Saving Throw:** None
+- **Level:** Druid 4
+- **Range:** 80 ft
+- **Duration:** Permanent
+- **Area of Effect:** 40 ft square/ caster level
+- **Components:** V,S,M
+- **Casting Time:** 6 segments
+- **Saving Throw:** None
 
 By casting this spell, the druid creates the illusion of a forest in the spell’s area of effect. Woodland fey and other druids will immediately discern the forest’s illusory nature, but even normal animals will be fooled by the forest’s appearance. The illusion is not tactile, only visual, so it is likely that intelligent beings entering the forest will quickly realize they are walking in an illusion. However, the mere realization that the forest is not real does not dispel the illusion, and it will continue to limit vision and possibly create other inconveniences; horses, for example, will not walk a straight path through the illusion, circling around the “trees” they perceive as real.
 
@@ -5515,13 +5522,13 @@ By casting this spell, the druid creates the illusion of a forest in the spell�
 
 *Druidic Necromancy*
 
-**Level:** Druid 2
-**Range:** 40 ft
-**Duration:** 7 rounds
-**Area of Effect:** All metal worn by 1 size M creature per caster level, or 50 lbs weight/ caster level, as applicable
-**Components:** V,S,M
-**Casting Time:** 4 segments
-**Saving Throw:** None
+- **Level:** Druid 2
+- **Range:** 40 ft
+- **Duration:** 7 rounds
+- **Area of Effect:** All metal worn by 1 size M creature per caster level, or 50 lbs weight/ caster level, as applicable
+- **Components:** V,S,M
+- **Casting Time:** 4 segments
+- **Saving Throw:** None
 
 This extremely powerful spell causes metal to heat up to searing temperatures, and the reverse, *chill metal*, causes metal to become damagingly cold. The two versions of the spell inflict different damage and potential side effects. The effects of continued exposure to the metal as it changes temperature to a damaging level and then returns to normal are set forth below:
 
@@ -5547,13 +5554,13 @@ Immersion in water will negate the effects of the heat version of the spell, and
 
 *Druidic Enchantment/ Charm*
 
-**Level:** Druid 3
-**Range:** 80 ft
-**Duration:** 2 rounds/ caster level
-**Area of Effect:** 1d4 animals
-**Components:** V,S,M
-**Casting Time:** 5 segments
-**Saving Throw:** Negates
+- **Level:** Druid 3
+- **Range:** 80 ft
+- **Duration:** 2 rounds/ caster level
+- **Area of Effect:** 1d4 animals
+- **Components:** V,S,M
+- **Casting Time:** 5 segments
+- **Saving Throw:** Negates
 
 A *hold animal* spell completely immobilises up to four animals (i.e. creatures listed under “animal” in Chapter IV) for the length of the spell’s duration. The druid decides how many animals he or she will target with the spell: if there is only one target, the saving throw is made at –4; if two, each makes the saving throw at –2; if three, the saving throw is at –1; and if the druid seeks to hold four animals, each makes its saving throw with no penalty. Animals held by this spell may be killed or bound at a rate of one per round, or, if the attacker chooses, may be attacked at twice the normal rate with an automatic hit, for maximum damage.
 
@@ -5561,13 +5568,13 @@ A *hold animal* spell completely immobilises up to four animals (i.e. creatures 
 
 *Druidic Enchantment/ Charm*
 
-**Level:** Druid 4
-**Range:** 80 ft
-**Duration:** 1 round/ caster level
-**Area of Effect:** See below
-**Components:** V,S,M
-**Casting Time:** 6 segments
-**Saving Throw:** Negates
+- **Level:** Druid 4
+- **Range:** 80 ft
+- **Duration:** 1 round/ caster level
+- **Area of Effect:** See below
+- **Components:** V,S,M
+- **Casting Time:** 6 segments
+- **Saving Throw:** Negates
 
 This spell affects plants that can move, whether  naturally <!-- printed as-is: see errata E53 --> or as the result of a spell. Plants affected by the spell are frozen in place for the spell’s duration, and if the spell is cast upon normal vegetation (such as dry leaves), these will make no sound other than sounds caused by the wind. In the case of moulds, fungi, and other plants that cannot be considered separately, the spell affects 4-16 square yards of space, as decided by the druid. In the case of plant creatures such as treants, the spell affects between one and four creatures, at the caster’s option.
 
@@ -5579,13 +5586,13 @@ of –2; three creatures or 12 sq yards suffer a penalty of –1; and four creat
 
 *Druidic Conjuration/ Summoning*
 
-**Level:** Druid 5
-**Range:** 320 ft
-**Duration:** 1 turn/ caster level
-**Area of Effect:** Cloud of 160 ft radius, 40 ft high
-**Components:** V,S,M
-**Casting Time:** 7 segments
-**Saving Throw:** None
+- **Level:** Druid 5
+- **Range:** 320 ft
+- **Duration:** 1 turn/ caster level
+- **Area of Effect:** Cloud of 160 ft radius, 40 ft high
+- **Components:** V,S,M
+- **Casting Time:** 7 segments
+- **Saving Throw:** None
 
 Except as noted above, this spell is identical to the fifth level clerical spell *insect plague*.
 
@@ -5593,13 +5600,13 @@ Except as noted above, this spell is identical to the fifth level clerical spell
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 1
-**Range:** Touch
-**Duration:** 1 turn + 1 round/ level
-**Area of Effect:** Creature touched
-**Components:** S,M
-**Casting Time:** 4 segments
-**Saving Throw:** None
+- **Level:** Druid 1
+- **Range:** Touch
+- **Duration:** 1 turn + 1 round/ level
+- **Area of Effect:** Creature touched
+- **Components:** S,M
+- **Casting Time:** 4 segments
+- **Saving Throw:** None
 
 With a gesture, the druid or other recipient of the spell fades from the sight, sound, and smell of any animal (i.e. creature listed under “Animal” in Chapter V). Creatures with intelligence of 6+ are not affected by the spell. This powerful form of invisibility is not dispelled if the druid attacks, although a particular creature being attacked with a hand-held weapon will, of course, be aware of the druid’s general location and be entitled to attack with a –4 penalty until the druid moves out of its immediate area. Druids will, by nature of their calling, not use this spell to commit wholesale slaughter upon animals except in extraordinary circumstances.
 
@@ -5607,13 +5614,13 @@ With a gesture, the druid or other recipient of the spell fades from the sight, 
 
 *Druidic Divination*
 
-**Level:** Druid 1
-**Range:** Caster
-**Duration:** 1 round/ caster level
-**Area of Effect:** Path 20 ft wide, 20 ft/ caster level long
-**Components:** V,S,M
-**Casting Time:** 1 round
-**Saving Throw:** None
+- **Level:** Druid 1
+- **Range:** Caster
+- **Duration:** 1 round/ caster level
+- **Area of Effect:** Path 20 ft wide, 20 ft/ caster level long
+- **Components:** V,S,M
+- **Casting Time:** 1 round
+- **Saving Throw:** None
 
 The caster becomes able to divine the presence of a particular kind of animal in the direction he or she views. The druid must concentrate for a full round in a particular direction in order to gain the insight granted by the spell. The spell’s enchantment affects the caster, so the effects move with him or her. The divination is not blocked by any intervening substance, of any thickness.
 
@@ -5621,13 +5628,13 @@ The caster becomes able to divine the presence of a particular kind of animal in
 
 *Druidic Divination*
 
-**Level:** Druid 2
-**Range:** Caster
-**Duration:** 1 turn/ caster level
-**Area of Effect:** 5 ft radius/ caster level
-**Components:** V,S,M
-**Casting Time:** 1 round
-**Saving Throw:** None
+- **Level:** Druid 2
+- **Range:** Caster
+- **Duration:** 1 turn/ caster level
+- **Area of Effect:** 5 ft radius/ caster level
+- **Components:** V,S,M
+- **Casting Time:** 1 round
+- **Saving Throw:** None
 
 Upon casting this spell, the druid is imbued with the ability mentally to locate any specific type of plant upon which he or she concentrates, in the area the spell radiates around him or her as he or she moves.
 
@@ -5635,13 +5642,13 @@ Upon casting this spell, the druid is imbued with the ability mentally to locate
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 3
-**Range:** Touch
-**Duration:** Instantaneous
-**Area of Effect:** Creature touched
-**Components:** V,S
-**Casting Time:** 5 segments
-**Saving Throw:** None (Negates)
+- **Level:** Druid 3
+- **Range:** Touch
+- **Duration:** Instantaneous
+- **Area of Effect:** Creature touched
+- **Components:** V,S
+- **Casting Time:** 5 segments
+- **Saving Throw:** None (Negates)
 
 Other than as may be described above, this spell is identical to the clerical spell of the same name.
 
@@ -5649,13 +5656,13 @@ Other than as may be described above, this spell is identical to the clerical sp
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 2
-**Range:** 0
-**Duration:** 4 rounds/ caster level
-**Area of Effect:** 10 × 10 ft cube / caster level
-**Components:** V,S
-**Casting Time:** 4 segments
-**Saving Throw:** None
+- **Level:** Druid 2
+- **Range:** 0
+- **Duration:** 4 rounds/ caster level
+- **Area of Effect:** 10 × 10 ft cube / caster level
+- **Components:** V,S
+- **Casting Time:** 4 segments
+- **Saving Throw:** None
 
 As this spell is completed, an enchanted mist billows from the area where the druid stands, rapidly filling the area of effect and reducing visibility therein to 1d4 × 2 ft. The spell is affected by natural conditions such as strong winds, which will reduce the spell’s effective duration.
 
@@ -5663,13 +5670,13 @@ As this spell is completed, an enchanted mist billows from the area where the dr
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 5
-**Range:** Touch
-**Duration:** See below
-**Area of Effect:** See below
-**Components:** V,S,M
-**Casting Time:** 7 segments
-**Saving Throw:** None
+- **Level:** Druid 5
+- **Range:** Touch
+- **Duration:** See below
+- **Area of Effect:** See below
+- **Components:** V,S,M
+- **Casting Time:** 7 segments
+- **Saving Throw:** None
 
 By means of this spell, the druid steps into one tree and steps out from a distant tree of the same type. The druid determines the direction in which he or she will travel from one tree to another. Most trees permit a maximum distance of travel of
 <!-- p.65 -->
@@ -5679,13 +5686,13 @@ By means of this spell, the druid steps into one tree and steps out from a dista
 
 *Druidic Enchantment/ Charm*
 
-**Level:** Druid 1
-**Range:** Touch
-**Duration:** 1 turn/ caster level
-**Area of Effect:** Creature touched
-**Components:** V,S,M
-**Casting Time:** 1 round
-**Saving Throw:** None
+- **Level:** Druid 1
+- **Range:** Touch
+- **Duration:** 1 turn/ caster level
+- **Area of Effect:** Creature touched
+- **Components:** V,S,M
+- **Casting Time:** 1 round
+- **Saving Throw:** None
 
 Any creature upon which this spell is cast can move through any sort of terrain without leaving behind the slightest sign of its passage. It leaves no footprints, no scent, and no other telltales of movement. It is impossible to trace its path except, temporarily, by one method—the path will radiate magic for 6d6 turns. Once this time elapses, the magical aura will fade away, leaving the trail undisturbed by any sign that the spell’s recipient was ever there.
 
@@ -5693,13 +5700,13 @@ Any creature upon which this spell is cast can move through any sort of terrain 
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 4
-**Range:** Touch
-**Duration:** 1 turn/ caster level
-**Area of Effect:** See below
-**Components:** V,S,M
-**Casting Time:** 6 segments
-**Saving Throw:** None
+- **Level:** Druid 4
+- **Range:** Touch
+- **Duration:** 1 turn/ caster level
+- **Area of Effect:** See below
+- **Components:** V,S,M
+- **Casting Time:** 6 segments
+- **Saving Throw:** None
 
 This spell allows the druid to travel effortlessly through vegetation of any kind, stepping through it as if it did not exist. The pathway may also be travelled by a druid of higher level than the caster, but no other creature can take advantage of the spell’s effect. The pathway opened by the spell may be up to 5 ft wide, 10 ft high, and up to 120 ft/ caster level in length. The druid may even use the spell to shift inside a tree or move through an area of plants affected by a spell (such as entangle). If the druid is within a tree that is attacked, he or she must leave the tree before it is killed or die with the tree.
 
@@ -5707,13 +5714,13 @@ This spell allows the druid to travel effortlessly through vegetation of any kin
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 3
-**Range:** 160 ft
-**Duration:** Permanent
-**Area of Effect:** 20 × 20 ft square/ caster level
-**Components:** V,S,M
-**Casting Time:** 1 round
-**Saving Throw:** None
+- **Level:** Druid 3
+- **Range:** 160 ft
+- **Duration:** Permanent
+- **Area of Effect:** 20 × 20 ft square/ caster level
+- **Components:** V,S,M
+- **Casting Time:** 1 round
+- **Saving Throw:** None
 
 By means of this spell, the druid causes plants and vines to grow with unbelievable speed, forming a tangled barrier of thick vegetation. The enchantment may be dispelled, or the plants cleared by normal means. Chopping a way through the barrier is possible, but movement is restricted to 10 ft/ turn (20 ft for size L creatures).
 
@@ -5721,13 +5728,13 @@ By means of this spell, the druid causes plants and vines to grow with unbelieva
 
 *Druidic Divination*
 
-**Level:** Druid 1
-**Range:** 0
-**Duration:** Instantaneous
-**Area of Effect:** 9 square miles
-**Components:** V,S,M
-**Casting Time:** 1 round
-**Saving Throw:** None
+- **Level:** Druid 1
+- **Range:** 0
+- **Duration:** Instantaneous
+- **Area of Effect:** 9 square miles
+- **Components:** V,S,M
+- **Casting Time:** 1 round
+- **Saving Throw:** None
 
 The druid casts this spell upon virtually any substance: bones, leaves, powders, etc. He or she can read in the resulting pattern an exact divination of the weather as it will naturally occur within the surrounding nine square miles for the next two hours per caster level. A second level druid, as an example, would be able to predict the weather four hours into the future.
 
@@ -5735,13 +5742,13 @@ The druid casts this spell upon virtually any substance: bones, leaves, powders,
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 4
-**Range:** 40 ft
-**Duration:** 1 round
-**Area of Effect:** 60 ft radius
-**Components:** V,S,M
-**Casting Time:** 6 segments
-**Saving Throw:** See below
+- **Level:** Druid 4
+- **Range:** 40 ft
+- **Duration:** 1 round
+- **Area of Effect:** 60 ft radius
+- **Components:** V,S,M
+- **Casting Time:** 6 segments
+- **Saving Throw:** See below
 
 This spell instantly creates a normal fire within its area of effect, a blazing conflagration lasting only one minute (1 round) but causing 1d4 hit points of damage to any creature in the area and igniting all combustible material (subject, of course, to an item saving throw against normal fire). The reverse of the spell extinguishes all normal fires within the area of effect.
 
@@ -5749,13 +5756,13 @@ This spell instantly creates a normal fire within its area of effect, a blazing 
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 2
-**Range:** 0
-**Duration:** 2 rounds/ caster level
-**Area of Effect:** See below
-**Components:** V,S,M
-**Casting Time:** 4 segments
-**Saving Throw:** See below
+- **Level:** Druid 2
+- **Range:** 0
+- **Duration:** 2 rounds/ caster level
+- **Area of Effect:** See below
+- **Components:** V,S,M
+- **Casting Time:** 4 segments
+- **Saving Throw:** See below
 
 <!-- p.66 -->
 
@@ -5765,13 +5772,13 @@ On casting this spell, the druid’s hand ignites with an eldritch fire that cau
 
 *Druidic Abjuration*
 
-**Level:** Druid 3
-**Range:** Touch
-**Duration:** See below
-**Area of Effect:** One creature
-**Components:** V,S,M
-**Casting Time:** 5 segments
-**Saving Throw:** None
+- **Level:** Druid 3
+- **Range:** Touch
+- **Duration:** See below
+- **Area of Effect:** One creature
+- **Components:** V,S,M
+- **Casting Time:** 5 segments
+- **Saving Throw:** None
 
 The druid may use this spell to confer considerable protection from fire upon another creature, but if he or she casts it upon him-  or herself <!-- printed as-is: see errata E54 --> the effects are far greater, conferring temporary invulnerability even to fires of magical nature, such as dragon’s breath. If the spell is cast upon another creature, the recipient gains immunity to normal fire and a saving throw bonus of +4 against fire based attacks. Any damage incurred by fire attacks will also reduced by half. <!-- printed as-is: see errata E55 --> If the spell is cast upon the druid, he or she becomes completely invulnerable to normal fire and also ignores all damage from magical fire (dragon breath, *fireball*, etc.) until a total of 12 hp/caster level has been absorbed by the spell, at which time the spell will be dissipated.
 
@@ -5779,13 +5786,13 @@ The druid may use this spell to confer considerable protection from fire upon an
 
 *Druidic Abjuration*
 
-**Level:** Druid 4
-**Range:** Touch
-**Duration:** See below
-**Area of Effect:** One creature
-**Components:** V,S,M
-**Casting Time:** 6 segments
-**Saving Throw:** None
+- **Level:** Druid 4
+- **Range:** Touch
+- **Duration:** See below
+- **Area of Effect:** One creature
+- **Components:** V,S,M
+- **Casting Time:** 6 segments
+- **Saving Throw:** None
 
 This spell lends the recipient the same protection against lightning and electricity as the third level spell *protection from fire* affords against fire.
 
@@ -5793,13 +5800,13 @@ This spell lends the recipient the same protection against lightning and electri
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 1
-**Range:** 40 ft
-**Duration:** Instantaneous
-**Area of Effect:** 1 cubic ft/ caster level
-**Components:** V,S
-**Casting Time:** 1 round
-**Saving Throw:** None
+- **Level:** Druid 1
+- **Range:** 40 ft
+- **Duration:** Instantaneous
+- **Area of Effect:** 1 cubic ft/ caster level
+- **Components:** V,S
+- **Casting Time:** 1 round
+- **Saving Throw:** None
 
 This spell removes all impurities from water, making it clear and drinkable. The reverse of the spell contaminates water, making it impossible to drink, and will negate the properties of holy and unholy water.
 
@@ -5807,13 +5814,13 @@ This spell removes all impurities from water, making it clear and drinkable. The
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 3
-**Range:** 160 ft
-**Duration:** See below
-**Area of Effect:** See below
-**Components:** V,S,M
-**Casting Time:** 5 segments
-**Saving Throw:** None
+- **Level:** Druid 3
+- **Range:** 160 ft
+- **Duration:** See below
+- **Area of Effect:** See below
+- **Components:** V,S,M
+- **Casting Time:** 5 segments
+- **Saving Throw:** None
 
 The *pyrotechnics* spell may be used to produce two entirely different effects: a bright display of fiery light or a massive pall of smoke. Both possible uses of the spell require an existing fire source (which may be anywhere in the spell’s range), and the spell’s area of effect depends on the size of the originating fire.
 
@@ -5825,13 +5832,13 @@ If the spell is used to produce smoke, a billowing cloud will emanate from the f
 
 *Druidic Necromancy*
 
-**Level:** Druid 7
-**Range:** Touch
-**Duration:** Instantaneous
-**Area of Effect:** Creature touched
-**Components:** V,S,M
-**Casting Time:** 1 turn
-**Saving Throw:** None
+- **Level:** Druid 7
+- **Range:** Touch
+- **Duration:** Instantaneous
+- **Area of Effect:** Creature touched
+- **Components:** V,S,M
+- **Casting Time:** 1 turn
+- **Saving Throw:** None
 
 Provided that a body has been dead for no more than a week, a powerful druid can recall its spirit from the dead—but into another body. The form of the new body is not subject to the druid’s control, and is determined by means of the tables below. The new body will appear within 1d6 turns near the soul’s former body. Elves may be brought back to life by reincarnation. There is a 35% chance that the new incarnation will be from the “humanoid” table and a 65% chance that the new incarnation will be from the animal table. The new incarnation (if sapient) will retain the original character’s experience points, but will have new physical (Str, Dex, Con) ability scores randomly rolled and adjusted for the new race. The  character <!-- printed as-is: see errata E56 --> will retain his or her original mental ability scores (Int, Wis, Cha).
 
@@ -5883,13 +5890,13 @@ Provided that a body has been dead for no more than a week, a powerful druid can
 
 *Druidic Abjuration*
 
-**Level:** Druid 4
-**Range:** Caster
-**Duration:** 1 turn/ caster level
-**Area of Effect:** One creature
-**Components:** V,S,M
-**Casting Time:** 1 round
-**Saving Throw:** See below
+- **Level:** Druid 4
+- **Range:** Caster
+- **Duration:** 1 turn/ caster level
+- **Area of Effect:** One creature
+- **Components:** V,S,M
+- **Casting Time:** 1 round
+- **Saving Throw:** See below
 
 An invisible barrier forms around the spell’s recipient as the caster completes the invocation, warding him or her from insects. Only true insects are affected by the spell, which does not repel spiders, scorpions, beetles or centipedes. Normal insects are completely hedged out by the spell, and giant varieties (2+ HD) must succeed in a saving throw against spells to pass the barrier. Even if a giant insect should manage to penetrate the barrier, it will sustain 1d6 hit points of damage from doing so.
 
@@ -5897,13 +5904,13 @@ An invisible barrier forms around the spell’s recipient as the caster complete
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 1
-**Range:** Touch
-**Duration:** 1 round/ caster level
-**Area of Effect:** 1 oak club
-**Components:** V,S,M
-**Casting Time:** 1 segment
-**Saving Throw:** None
+- **Level:** Druid 1
+- **Range:** Touch
+- **Duration:** 1 round/ caster level
+- **Area of Effect:** 1 oak club
+- **Components:** V,S,M
+- **Casting Time:** 1 segment
+- **Saving Throw:** None
 
 The druid imbues a club or billet of oak-wood with enchanted power, making it +1 to hit and capable of inflicting 2d4 points of damage against small and medium-sized opponents, 1d4+1 against large opponents. The shillelagh must be wielded by the druid in order for it to possess these magical properties; in the hands of any other person it will be no more than an ordinary wooden club.
 
@@ -5911,13 +5918,13 @@ The druid imbues a club or billet of oak-wood with enchanted power, making it +1
 
 *Druidic Enchantment/ Charm*
 
-**Level:** Druid 3
-**Range:** Touch
-**Duration:** Permanent (until triggered)
-**Area of Effect:** 10 ft radius + 6 ft/ caster level
-**Components:** V,S,M
-**Casting Time:** 3 rounds
-**Saving Throw:** None
+- **Level:** Druid 3
+- **Range:** Touch
+- **Duration:** Permanent (until triggered)
+- **Area of Effect:** 10 ft radius + 6 ft/ caster level
+- **Components:** V,S,M
+- **Casting Time:** 3 rounds
+- **Saving Throw:** None
 
 This spell is used to enchant a normal snare, making it hard to detect and supernaturally effective. The spell is cast upon a rope, vine, or cord, which then blends perfectly with the surroundings, becoming 90% undetectable to normal (unenchanted) vision. When any creature steps into the area bounded by the snare, the snare will whip closed and bind the victim tightly. Strength of 23 is required to break the snare for one hour after the spell is triggered, and the strength required falls by one point per hour until 12 hours have elapsed, at which time the spell ceases to have any effect. If the snare is attached to a suitably flexible tree, the spell will magically bend the tree so that when the trap is triggered it will snap the victim into the air for 1d6 points of damage and hold it suspended from the branches.
 
@@ -5925,13 +5932,13 @@ This spell is used to enchant a normal snare, making it hard to detect and super
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 1
-**Range:** 0
-**Duration:** 2 rounds/ caster level
-**Area of Effect:** One animal type within 40 ft of the caster
-**Components:** V,S
-**Casting Time:** 3 segments
-**Saving Throw:** None
+- **Level:** Druid 1
+- **Range:** 0
+- **Duration:** 2 rounds/ caster level
+- **Area of Effect:** One animal type within 40 ft of the caster
+- **Components:** V,S
+- **Casting Time:** 3 segments
+- **Saving Throw:** None
 
 <!-- p.68 -->
 
@@ -5941,13 +5948,13 @@ This spell allows the druid to speak with all animals of a particular type or sp
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 4
-**Range:** Caster
-**Duration:** 2 rounds/ caster level
-**Area of Effect:** 40 ft radius around caster
-**Components:** V,S,M
-**Casting Time:** 1 turn
-**Saving Throw:** None
+- **Level:** Druid 4
+- **Range:** Caster
+- **Duration:** 2 rounds/ caster level
+- **Area of Effect:** 40 ft radius around caster
+- **Components:** V,S,M
+- **Casting Time:** 1 turn
+- **Saving Throw:** None
 
 Other than as noted above, this spell is identical to the clerical spell *speak with plants*.
 
@@ -5955,13 +5962,13 @@ Other than as noted above, this spell is identical to the clerical spell *speak 
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 5
-**Range:** 40 ft
-**Duration:** 2 rounds/ caster level
-**Area of Effect:** 5 ft radius
-**Components:** V,S,M
-**Casting Time:** 7 segments
-**Saving Throw:** None
+- **Level:** Druid 5
+- **Range:** 40 ft
+- **Duration:** 2 rounds/ caster level
+- **Area of Effect:** 5 ft radius
+- **Components:** V,S,M
+- **Casting Time:** 7 segments
+- **Saving Throw:** None
 
 Except as may be noted above, this spell is identical to the clerical spell of the same name.
 
@@ -5969,13 +5976,13 @@ Except as may be noted above, this spell is identical to the clerical spell of t
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 3
-**Range:** Touch
-**Duration:** Instantaneous
-**Area of Effect:** 3 cubic ft + 1/ caster level
-**Components:** V,S,M
-**Casting Time:** 1 round
-**Saving Throw:** None
+- **Level:** Druid 3
+- **Range:** Touch
+- **Duration:** Instantaneous
+- **Area of Effect:** 3 cubic ft + 1/ caster level
+- **Components:** V,S,M
+- **Casting Time:** 1 round
+- **Saving Throw:** None
 
 This spell is identical to the magic user spell of the same name, except as noted above.
 
@@ -5983,13 +5990,13 @@ This spell is identical to the magic user spell of the same name, except as note
 
 *Druidic Conjuration/ Summoning*
 
-**Level:** Druid 3
-**Range:** 30 ft
-**Duration:** 1 round/ caster level
-**Area of Effect:** See below
-**Components:** V,S,M
-**Casting Time:** 1 round
-**Saving Throw:** None
+- **Level:** Druid 3
+- **Range:** 30 ft
+- **Duration:** 1 round/ caster level
+- **Area of Effect:** See below
+- **Components:** V,S,M
+- **Casting Time:** 1 round
+- **Saving Throw:** None
 
 When the druid completes the intonations and gestures of this spell, a swarm of insects appears from nearby or from the thin air to attack the druid’s enemies. There is a 70% chance that the swarm will be composed of flying insects, 30% chance that the insects will be ants or other non-airborne biting vermin. A flying swarm can move tremendously fast, but a crawling swarm is limited to movement of 12 ft/ round. In either case, the insects automatically inflict 2 hp damage per round against their target, and the unfortunate victim will be so thickly covered as to be incapable of any action, including movement. The druid may redirect the swarm to attack another opponent, but the command will cause 1 round of confusion within the swarm as it reorients itself toward the new target.
 
@@ -5997,13 +6004,13 @@ When the druid completes the intonations and gestures of this spell, a swarm of 
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 7
-**Range:** 80 ft
-**Duration:** Instantaneous (permanent)
-**Area of Effect:** One metal object
-**Components:** V,S,M
-**Casting Time:** 9 segments
-**Saving Throw:** See below
+- **Level:** Druid 7
+- **Range:** 80 ft
+- **Duration:** Instantaneous (permanent)
+- **Area of Effect:** One metal object
+- **Components:** V,S,M
+- **Casting Time:** 9 segments
+- **Saving Throw:** See below
 
 Using this spell, the druid may select a single object of metal and change its substance to wood. The spell affects up to 8 lbs of metal per caster level. The item is not entitled to a saving throw, but magic items have a flat 90% chance of being unaffected by the spell.
 
@@ -6011,13 +6018,13 @@ Using this spell, the druid may select a single object of metal and change its s
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 5
-**Range:** 160 ft
-**Duration:** See below
-**Area of Effect:** 20 ft cube/ caster level
-**Components:** V,S,M
-**Casting Time:** 7 segments
-**Saving Throw:** None
+- **Level:** Druid 5
+- **Range:** 160 ft
+- **Duration:** See below
+- **Area of Effect:** 20 ft cube/ caster level
+- **Components:** V,S,M
+- **Casting Time:** 7 segments
+- **Saving Throw:** None
 
 This spell transforms solid rock into mud, the volume transformed being proportionate to the caster’s level. Any volume of mud will sink until its depth is equal to about one half the pool’s diameter. If this spell is cast upon a ceiling, the resulting volume of mud will immediately collapse, possibly trapping or suffocating those caught beneath. Similarly, if a floor is turned to mud, creatures standing in the area will sink and may be trapped. If *dispel magic* is cast upon the mud before it eventually dries into dirt, the mud will return to stone, but in the shape and location of the mud (i.e., a collapsed ceiling will not return to its original place; it will be frozen back into stone where it collapsed). The spell’s reverse transforms mud into sandstone or a similar sedimentary rock.
 
@@ -6025,14 +6032,14 @@ This spell transforms solid rock into mud, the volume transformed being proporti
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 6
-**Range:** Touch
-**Duration:** See below
+- **Level:** Druid 6
+- **Range:** Touch
+- **Duration:** See below
 <!-- p.69 -->
-**Area of Effect:** See below
-**Components:** V,S
-**Casting Time:** 3 segments
-**Saving Throw:** None
+- **Area of Effect:** See below
+- **Components:** V,S
+- **Casting Time:** 3 segments
+- **Saving Throw:** None
 
 The mystic oneness of all nature is a principal tenet of many druidic sects, and it sees practical use in the *transport via plants* spell. Upon casting this spell, the druid may travel almost instantly from one plant to another through the mystic oneness that joins all life forms. The spell operates in much the same fashion as *pass plant*, but with an unlimited range.
 
@@ -6042,13 +6049,13 @@ When the spell is cast, the druid simply steps into a large plant of any kind an
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 3
-**Range:** Caster
-**Duration:** 6 turns + 1 turn/ caster level
-**Area of Effect:** Caster
-**Components:** V,S,M
-**Casting Time:** 5 segments
-**Saving Throw:** None
+- **Level:** Druid 3
+- **Range:** Caster
+- **Duration:** 6 turns + 1 turn/ caster level
+- **Area of Effect:** Caster
+- **Components:** V,S,M
+- **Casting Time:** 5 segments
+- **Saving Throw:** None
 
 Casting this spell causes the druid’s shape to melt and twist into that of a tree, its general appearance determined by the caster. The spell is neither an illusion nor a charm: the druid is, for all intents and purposes, a tree. However, in tree shape the druid retains human senses and will be fully aware of his or her surroundings. The druid may shift back into human shape at will, thereby ending the spell. Magical detections will reveal the druid’s true form, but ordinary inspections, no matter how minute, will not.
 
@@ -6056,13 +6063,13 @@ Casting this spell causes the druid’s shape to melt and twist into that of a t
 
 *Druidic Enchantment/ Charm*
 
-**Level:** Druid 2
-**Range:** Touch
-**Duration:** 1 turn/ caster level
-**Area of Effect:** One object, up to 10 ft length
-**Components:** V,S,M
-**Casting Time:** 4 segments
-**Saving Throw:** Negates
+- **Level:** Druid 2
+- **Range:** Touch
+- **Duration:** 1 turn/ caster level
+- **Area of Effect:** One object, up to 10 ft length
+- **Components:** V,S,M
+- **Casting Time:** 4 segments
+- **Saving Throw:** Negates
 
 This spell turns an appropriate object into a magical trap of sorts. The object rises from the ground and trips any creature crossing over it, even if they are aware of it (saving throw vs spells—unlisted category, +4 if aware of the object). The object is 80% undetectable and will affect even the caster. The trap causes falls to be much worse than normal: a running creature will suffer 1d6 points of damage and be stunned for 1d4+1 rounds, or will merely be stunned if they fall onto a soft surface such as grass. Creatures larger than size M are not affected by the spell.
 
@@ -6070,13 +6077,13 @@ This spell turns an appropriate object into a magical trap of sorts. The object 
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 6
-**Range:** 0
-**Duration:** 4 rounds/ caster level
-**Area of Effect:** 120 ft wide path, 20 ft long/ caster level
-**Components:** V,S,M
-**Casting Time:** 8 segments
-**Saving Throw:** None
+- **Level:** Druid 6
+- **Range:** 0
+- **Duration:** 4 rounds/ caster level
+- **Area of Effect:** 120 ft wide path, 20 ft long/ caster level
+- **Components:** V,S,M
+- **Casting Time:** 8 segments
+- **Saving Throw:** None
 
 At the completion of this spell, the druid holds his or her palm outstretched, and with the final word of the spell a tremendous burst of power rolls forth, forcing back all wooden objects. Even very large wooden structures that are not affixed to the ground will be affected, although objects fixed to the ground will manage to withstand the spell’s awesome power. A sapling-sized or smaller piece of wood will splinter and break even if it is firmly affixed. The druid need not concentrate on maintaining the waves of force and cannot change the direction of the flow of eldritch power once it is set.
 
@@ -6084,13 +6091,13 @@ At the completion of this spell, the druid holds his or her palm outstretched, a
 
 *Druidic Evocation*
 
-**Level:** Druid 5
-**Range:** 80 ft (wall) or caster (ring)
-**Duration:** See below
-**Area of Effect:** See below
-**Components:** V,S,M
-**Casting Time:** 7 segments
-**Saving Throw:** None
+- **Level:** Druid 5
+- **Range:** 80 ft (wall) or caster (ring)
+- **Duration:** See below
+- **Area of Effect:** See below
+- **Components:** V,S,M
+- **Casting Time:** 7 segments
+- **Saving Throw:** None
 
 One of the more dramatic examples of druidic magic is the *wall of fire* spell, by which the druid calls up a blazing inferno of flame in the shape of a wall. One side of the conflagration emits the searing heat one would expect, but the other side emits merely a gentle warmth. Passing through the flames inflicts 4d4 damage plus 1/ caster level. Creatures as far as ten ft from the hot side of the wall incur 2d4 hit points of damage, and even creatures as far as 20 ft from the fire are burned for 1d4 points of damage. Undead creatures suffer worse from the power of this druidic magic, taking twice the ordinary  damage <!-- printed as-is: see errata E57 --> the wall would inflict.
 
@@ -6102,13 +6109,13 @@ druid manifests the spell as a wall, the effect is stationary. The ring-shaped w
 
 *Druidic Conjuration/ Summoning*
 
-**Level:** Druid 6
-**Range:** 80 ft
-**Duration:** 1 turn/ level
-**Area of Effect:** 100 ft cube/ caster level
-**Components:** V,S
-**Casting Time:** 8 segments
-**Saving Throw:** None
+- **Level:** Druid 6
+- **Range:** 80 ft
+- **Duration:** 1 turn/ level
+- **Area of Effect:** 100 ft cube/ caster level
+- **Components:** V,S
+- **Casting Time:** 8 segments
+- **Saving Throw:** None
 
 When the druid casts this spell, a tangled wall of briar vines erupts from the ground, bristling with sharp, deadly thorns. Running into or attempting to force a way through the thorns will cause 8 hp damage, plus 1 hp for every point of armour class. A creature may be caught within the *wall of thorns* when the spell is cast, and if this is the case it will take damage immediately and must fight through (taking damage a second time) to gain enough freedom of motion to chop at the thorns. It takes four turns to cut through a 40 ft thickness of a wall of thorns.
 
@@ -6118,13 +6125,13 @@ Normal fire has no effect upon a wall of thorns, but magical fire can ignite the
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 2
-**Range:** 10 ft/ caster level
-**Duration:** Instantaneous (permanent)
-**Area of Effect:** See below
-**Components:** V,S,M
-**Casting Time:** 4 segments
-**Saving Throw:** None
+- **Level:** Druid 2
+- **Range:** 10 ft/ caster level
+- **Duration:** Instantaneous (permanent)
+- **Area of Effect:** See below
+- **Components:** V,S,M
+- **Casting Time:** 4 segments
+- **Saving Throw:** None
 
 This spell permanently warps wood and may be used to destroy arrows, spears, doors, etc. The druid may affect a volume of wood roughly fifteen inches long by one inch thick per caster level, about the volume of an axe handle. Multiple items may be affected; four arrows have about the same volume as an axe handle. A fifth-level druid could effectively destroy a normal door with this spell.
 
@@ -6132,13 +6139,13 @@ This spell permanently warps wood and may be used to destroy arrows, spears, doo
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 3
-**Range:** Touch
-**Duration:** 6 turns/ level
-**Area of Effect:** One creature
-**Components:** V,S,M
-**Casting Time:** 5 segments
-**Saving Throw:** None
+- **Level:** Druid 3
+- **Range:** Touch
+- **Duration:** 6 turns/ level
+- **Area of Effect:** One creature
+- **Components:** V,S,M
+- **Casting Time:** 5 segments
+- **Saving Throw:** None
 
 This spell grants the ability to breathe underwater while the spell lasts. The reverse of the spell allows a water-breathing creature to breathe in the air.
 
@@ -6146,13 +6153,13 @@ This spell grants the ability to breathe underwater while the spell lasts. The r
 
 *Druidic Conjuration/ Summoning*
 
-**Level:** Druid 6
-**Range:** 0
-**Duration:** See below
-**Area of Effect:** See below
-**Components:** V,S,M
-**Casting Time:** 1 turn
-**Saving Throw:** None
+- **Level:** Druid 6
+- **Range:** 0
+- **Duration:** See below
+- **Area of Effect:** See below
+- **Components:** V,S,M
+- **Casting Time:** 1 turn
+- **Saving Throw:** None
 
 The area of effect of this spell is d% square miles, but except as noted above, the spell is similar to the clerical spell *control weather*, allowing the druid to affect, but not direct, existing weather conditions.
 
@@ -6167,7 +6174,7 @@ The area of effect of this spell is d% square miles, but except as noted above, 
 
 ## MAGIC USER SPELLS
 
-Unlike clerical and druidic spells, magic user spells (also known as Arcane spells in the OSRIC system) do not require a holy symbol  or mistletoe as material components.<!-- printed as-is: NEW -->
+Unlike clerical and druidic spells, magic user spells (also known as Arcane spells in the OSRIC system) do not require a holy symbol  or mistletoe as material components.<!-- printed as-is: see errata E61 -->
 
 ### Affect Normal Fires
 *Arcane Transmutation/ Alteration*
@@ -6318,7 +6325,7 @@ While casting this spell, the magic user touches his or her thumbs together, and
 
 This spell summons a demon or other fiend (such as a devil) from the lower planes of existence into the material planes. In order to cast the spell, the caster must know the fiend’s true name, but such information is often contained in forbidden tomes of lost lore. The spell cannot summon the lesser sorts of demons that have no personal names, nor is it powerful enough to summon members of the demonic or diabolical nobility. The spell provides no protection whatsoever against the wrath of the summoned creature—and make no mistake, the summoned creature will be extremely resentful of the caster’s temerity.
 
-In general, this spell is cast only with multiple protections against the summoned fiend, such as a pentacle to contain the demon and a magic circle to protect the magic user. The exact nature of any discussions or negotiations with creatures of the nether  planes is, of course, a matter to be handled in the course of the game, with the GM deciding what the fiend is thinking and how it acts.<!-- printed as-is: NEW -->
+In general, this spell is cast only with multiple protections against the summoned fiend, such as a pentacle to contain the demon and a magic circle to protect the magic user. The exact nature of any discussions or negotiations with creatures of the nether  planes is, of course, a matter to be handled in the course of the game, with the GM deciding what the fiend is thinking and how it acts.<!-- printed as-is: see errata E62 -->
 
 It is treacherous in the extreme to deal with demons, for they are intelligent and ruthless. They are not, however, unreliable; since the caster knows the fiend’s true name, it is compelled to abide by any agreements it might make, although it might be able to twist the spirit of the agreement while still abiding to the letter of it.
 
@@ -6544,7 +6551,7 @@ The material component for this spell is a large quantity of the appropriate ele
 
 The caster divorces his or her mind from the rational reality of the material plane, accepting the fundamental contradictions of extra-planar realities, and making contact with the powers of the beyond. By means of this contact, he or she can query the powers and gain “yes or no” answers to the questions he or she poses. One question may be asked per 2 caster levels. The caster decides how deeply he or she wishes to probe into the realities beyond the material (unless he or she chooses to contact an elemental plane for information about that plane).
 
-The difficulty of the mental task is measured in terms of how many fundamental contradictions of reality the caster can assimilate and simultaneously juggle in his or her mind. The price of failure is insanity. Contacting an elemental plane provides a 90% chance that the being contacted will have the  knowledge the magic user seeks, if the magic user is asking about the particular elemental plane.<!-- printed as-is: NEW -->
+The difficulty of the mental task is measured in terms of how many fundamental contradictions of reality the caster can assimilate and simultaneously juggle in his or her mind. The price of failure is insanity. Contacting an elemental plane provides a 90% chance that the being contacted will have the  knowledge the magic user seeks, if the magic user is asking about the particular elemental plane.<!-- printed as-is: see errata E63 -->
 
 There is a 25% chance that the being will tell a lie, or that the information will be couched in such inherently contradictory language that it cannot be understood. If the magic user seeks information about the material plane or non-elemental planes, he or she must delve into the fundamental contradictions of extra-planar metaphysics, described on the following table;
 
@@ -6726,7 +6733,7 @@ is a chance that it will collapse in on itself (roughly 25%, adjusted by the GM 
 - **Casting Time:** 1 segment
 - **Saving Throw:** None
 
-*Dimension door* is a weak form of *teleportation*, more controllable than *blink*, but severely limited in range. The teleportation is limited to 30 ft per caster level. Unlike *blink*, a *dimension door* spell operates with perfect accuracy, either to a place the caster can see or clearly visualize, or in response to directions (example: “120 ft forward and 30 ft to the right”). If the caster’s directions land him or her inside a solid object, he or she is stunned and trapped in the astral plane, held in a sort of suspended animation for eternity unless rescued. The spell is subject to a maximum weight limit of 500 lbs of additional weight, with each lb of living matter counting for twice its actual weight. Recovery from the experience of this form of teleportation is not immediate, although it is quite rapid. The caster cannot act for a period of 6 segments  following the transition.<!-- printed as-is: NEW -->
+*Dimension door* is a weak form of *teleportation*, more controllable than *blink*, but severely limited in range. The teleportation is limited to 30 ft per caster level. Unlike *blink*, a *dimension door* spell operates with perfect accuracy, either to a place the caster can see or clearly visualize, or in response to directions (example: “120 ft forward and 30 ft to the right”). If the caster’s directions land him or her inside a solid object, he or she is stunned and trapped in the astral plane, held in a sort of suspended animation for eternity unless rescued. The spell is subject to a maximum weight limit of 500 lbs of additional weight, with each lb of living matter counting for twice its actual weight. Recovery from the experience of this form of teleportation is not immediate, although it is quite rapid. The caster cannot act for a period of 6 segments  following the transition.<!-- printed as-is: see errata E64 -->
 
 ### Disintegrate
 *Arcane Transmutation/ Alteration*
@@ -6765,7 +6772,7 @@ Except as noted above, this spell is identical to the clerical spell *dispel mag
 - **Casting Time:** 6 segments
 - **Saving Throw:** None
 
-This spell is cast with a summoned earth elemental as its focus. The casting of the spell is fascinating to summoned elementals and is sufficient to maintain the caster’s control over the elemental (although he or she cannot command it to act while in the process of casting). When the casting is completed, the earth elemental disperses into the substance of the earth as directed, where it creates a dimensional distortion of the spell’s area of effect. Travel through the distorted area takes twice as long (and seems twice as far) as it should, or seems half as long and takes half the normal travel time (determined by the caster when casting the spell). The area does radiate magic, slightly, and the reality will be perceived by *true seeing* (although the travel time will still be altered even for those who know that the distance is distorted). Otherwise, the spell is utterly undetectable. Otherwise, the spell is utterly undetectable.<!-- printed as-is: NEW -->
+This spell is cast with a summoned earth elemental as its focus. The casting of the spell is fascinating to summoned elementals and is sufficient to maintain the caster’s control over the elemental (although he or she cannot command it to act while in the process of casting). When the casting is completed, the earth elemental disperses into the substance of the earth as directed, where it creates a dimensional distortion of the spell’s area of effect. Travel through the distorted area takes twice as long (and seems twice as far) as it should, or seems half as long and takes half the normal travel time (determined by the caster when casting the spell). The area does radiate magic, slightly, and the reality will be perceived by *true seeing* (although the travel time will still be altered even for those who know that the distance is distorted). Otherwise, the spell is utterly undetectable. Otherwise, the spell is utterly undetectable.<!-- printed as-is: see errata E65 -->
 
 ### Duo-Dimension
 *Arcane Transmutation/ Alteration*
@@ -6914,7 +6921,7 @@ Except as noted, this spell is identical to the spell *extension I*, but may be 
 This spell functions in the same manner as *extension I*, but it doubles the duration of spells level 1-3, and extends the duration of spells level 4 or 5 by 50%.
 
 ### False Trap
-Arcane Illusion/Phantasm<!-- printed as-is: NEW -->
+Arcane Illusion/Phantasm<!-- printed as-is: see errata E66 -->
 
 - **Level:** Magic user 2
 - **Range:** Touch
@@ -7039,7 +7046,7 @@ This spell transforms an existing fire into a powerful mental snare. Any creatur
 - **Casting Time:** 4 segments
 - **Saving Throw:** None
 
-Pale flames envelope the caster upon the completion of this spell, rendering him or her protection against either fire or cold based attacks, depending upon whether  the magic user elects to wreath him- or herself in cold flame or hot flame.<!-- printed as-is: NEW --> Cold flame grants the magic user a +2 bonus on any saving throw vs fire damage, also guaranteeing half damage (or no damage against all fire attacks that allow a saving throw for half damage) provided the saving throw is successful. If the magic user fails a saving throw against a cold based attack, however, he or she will suffer twice the normal damage. Hot flame offers the converse of the protections afforded by cold flame. Cold based attacks receive a bonus of +2 on saving throws and guarantee that the caster receives only half damage (or none at all) if his or her saving throw is successful against attacks that would cause full or half damage.
+Pale flames envelope the caster upon the completion of this spell, rendering him or her protection against either fire or cold based attacks, depending upon whether  the magic user elects to wreath him- or herself in cold flame or hot flame.<!-- printed as-is: see errata E67 --> Cold flame grants the magic user a +2 bonus on any saving throw vs fire damage, also guaranteeing half damage (or no damage against all fire attacks that allow a saving throw for half damage) provided the saving throw is successful. If the magic user fails a saving throw against a cold based attack, however, he or she will suffer twice the normal damage. Hot flame offers the converse of the protections afforded by cold flame. Cold based attacks receive a bonus of +2 on saving throws and guarantee that the caster receives only half damage (or none at all) if his or her saving throw is successful against attacks that would cause full or half damage.
 
 ### Fire Trap
 *Arcane Evocation*
@@ -7158,6 +7165,8 @@ This extremely potent spell causes the victims to forget events of the immediate
 *OSRIC, Chapter II, book pages 84–97.*
 *Entries: Freezing Sphere … Permanency (64 entries).*
 
+<!-- p.84 -->
+
 ### Freezing Sphere
 
 *Arcane Transmutation/ Alteration*
@@ -7174,7 +7183,7 @@ This spell may be employed in one of three different forms, depending upon the w
 
 **Ice seed:** conjures a sphere of an intensely cold magical substance that freezes water to a depth of 6 inches over a surface area 100 square ft/ caster level. The ice is thick enough to walk upon without fear of falling through. The duration of the ice is 1 round/ level. The material component for this use is a piece of crystal.
 
-**Ice ray:** a ray of cold lances from the caster's hand, inflicting 4 hp/ caster level against anything in its path. A successful saving throw results in no damage. Even if the ray strikes an object, it continues on the other side until it has extended 10 ft/ caster level or is stopped by a thickness of stone of 1 ft or more. The material component for this use is a gem worth 1,000 gp.
+**Ice ray:** a ray of cold lances from the caster’s hand, inflicting 4 hp/ caster level against anything in its path. A successful saving throw results in no damage. Even if the ray strikes an object, it continues on the other side until it has extended 10 ft/ caster level or is stopped by a thickness of stone of 1 ft or more. The material component for this use is a gem worth 1,000 gp.
 
 **Shattering globe:** the spell forms a globe one inch in diameter, cold but not uncomfortable to the touch. When this sphere is thrown (by hand or sling), it will explode upon impact for 4d6 hit points of damage within a 10 ft radius (half if save vs spells). If not used within 1 round/ caster level, it will explode at the time its duration ends. The material component for this use is also a gem worth 1,000 gp.
 
@@ -7190,7 +7199,7 @@ This spell may be employed in one of three different forms, depending upon the w
 - **Casting Time:** 1 segment
 - **Saving Throw:** See below
 
-This spell increases the magic user's charisma in the eyes of all creatures within the area of effect that fail saving throws. For these creatures, the magic user's charisma will effectively be increased by 2d4 (one roll for all). For those who succeed in making the saving throw, the caster's charisma will effectively be lowered by 1d4.
+This spell increases the magic user’s charisma in the eyes of all creatures within the area of effect that fail saving throws. For these creatures, the magic user’s charisma will effectively be increased by 2d4 (one roll for all). For those who succeed in making the saving throw, the caster’s charisma will effectively be lowered by 1d4.
 
 Unless the exact numbers are required for some purpose, the normal result of the spell will be that those who failed the saving throw will be well-disposed and friendly toward the caster, and those that succeeded in making the save will find him or her distasteful and somewhat suspect.
 
@@ -7206,7 +7215,7 @@ Unless the exact numbers are required for some purpose, the normal result of the
 - **Casting Time:** 4 segments
 - **Saving Throw:** Half
 
-This enchantment causes intense clumsiness in the affected creature. Attempting to run will result in an immediate fall to a prone position, and anything held in hand (or claw, etc.) will be dropped. A successful saving throw allows the affected creature to act as if under the influence of a *slow* spell in order to avoid the spell's full effects.
+This enchantment causes intense clumsiness in the affected creature. Attempting to run will result in an immediate fall to a prone position, and anything held in hand (or claw, etc.) will be dropped. A successful saving throw allows the affected creature to act as if under the influence of a *slow* spell in order to avoid the spell’s full effects.
 
 ### Gate
 
@@ -7224,7 +7233,7 @@ A *gate* spell creates an opening between the material plane and another plane o
 
 <!-- p.85 -->
 
-spell's casting might choose not to step through the *gate* into the material plane—summoning Thor is unlikely to bring the thunder god from the halls of Valhalla—however, a being of some kind will certainly respond to the summons. Thor, if summoned, might choose to send a Valkyrie, for instance. Casting this spell can be risky, for the caster has no control over the summoned creature unless proper precautions are taken, such as a *protection from evil* spell, the drawing of appropriate magical circles, etc. Beings summoned from distant planes, particularly beings with individual names of their own, can be powerful and irascible.
+spell’s casting might choose not to step through the *gate* into the material plane—summoning Thor is unlikely to bring the thunder god from the halls of Valhalla—however, a being of some kind will certainly respond to the summons. Thor, if summoned, might choose to send a Valkyrie, for instance. Casting this spell can be risky, for the caster has no control over the summoned creature unless proper precautions are taken, such as a *protection from evil* spell, the drawing of appropriate magical circles, etc. Beings summoned from distant planes, particularly beings with individual names of their own, can be powerful and irascible.
 
 ### Geas
 
@@ -7266,7 +7275,7 @@ This spell grants a glass object the strength of steel, while retaining its tran
 - **Casting Time:** 1 round
 - **Saving Throw:** None
 
-This spell causes opaque materials to become transparent, either to the caster alone or to anyone, at the caster's option. The dimensions of the transparent area are 3 × 2 ft, and the depth depends upon the nature of the substance being made transparent. Lead and gold, being the base and pure metals respectively, are not affected by the spell at all. Only four inches of any other metal can be made transparent, but stone can be seen through to a distance of 6 ft, and wood to a distance of 20 ft.
+This spell causes opaque materials to become transparent, either to the caster alone or to anyone, at the caster’s option. The dimensions of the transparent area are 3 × 2 ft, and the depth depends upon the nature of the substance being made transparent. Lead and gold, being the base and pure metals respectively, are not affected by the spell at all. Only four inches of any other metal can be made transparent, but stone can be seen through to a distance of 6 ft, and wood to a distance of 20 ft.
 
 ### Globe of Invulnerability
 
@@ -7308,7 +7317,7 @@ This spell is a more powerful evocation of the *forceful hand* spell, acting in 
 - **Casting Time:** 3 turns
 - **Saving Throw:** See below
 
-This powerful spell is primarily used to defend the caster's stronghold. The ward protects 200 square ft per caster level. The warded area can be as much as 20 ft high and shaped as the caster desires. The magic user can ward several stories of a stronghold by dividing the area among
+This powerful spell is primarily used to defend the caster’s stronghold. The ward protects 200 square ft per caster level. The warded area can be as much as 20 ft high and shaped as the caster desires. The magic user can ward several stories of a stronghold by dividing the area among
 
 <!-- p.86 -->
 
@@ -7330,7 +7339,7 @@ In addition, the magic user can place his or her choice of one of the following 
 2. A magic mouth in two places.
 3. A stinking cloud in two places. The vapours return within 10 turns if dispersed by wind while the *guards and wards* spell lasts.
 4. A gust of wind in one corridor or room.
-5. A suggestion in one place. The caster selects an area of up to 5 ft square, and any creature who enters or passes through the area receives the suggestion mentally.
+5. A suggestion in one place. The caster selects an area of  up to 5 ft square, and any creature who enters or passes through the area receives the suggestion mentally. <!-- printed as-is: see errata E68 -->
 
 The whole warded area radiates strong magic. A *dispel magic* cast on a specific effect, if successful, removes only that effect.
 
@@ -7360,7 +7369,7 @@ Hand outstretched in the final somatic gesture of this spell, the magic user sum
 - **Casting Time:** 1 turn
 - **Saving Throw:** None
 
-This spell masks the true appearance of an area, making it appear as something else. A road can be made to appear as a river, a forest can be made to appear as a ravine, etc. The spell's effect remains until some intelligent being touches the area (or until it is dispelled). The spell is particularly useful for hiding pits or making cliff edges seem to extend more than they actually do, but it has many other useful applications for the creative player.
+This spell masks the true appearance of an area, making it appear as something else. A road can be made to appear as a river, a forest can be made to appear as a ravine, etc. The spell’s effect remains until some intelligent being touches the area (or until it is dispelled). The spell is particularly useful for hiding pits or making cliff edges seem to extend more than they actually do, but it has many other useful applications for the creative player.
 
 ### Haste
 
@@ -7374,7 +7383,7 @@ This spell masks the true appearance of an area, making it appear as something e
 - **Casting Time:** 3 segments
 - **Saving Throw:** None (willing targets only)
 
-This spell imbues creatures in the targeted area with preternatural speed, allowing them to move and attack at twice the normal rate. The rate of spell casting cannot be increased. Within the area of effect, creatures closest to the caster will be affected first by the spell if the caster's level is not sufficient to affect all of the creatures in the area. The spell ages the creatures upon which it is cast by 2 years.
+This spell imbues creatures in the targeted area with preternatural speed, allowing them to move and attack at twice the normal rate. The rate of spell casting cannot be increased. Within the area of effect, creatures closest to the caster will be affected first by the spell if the caster’s level is not sufficient to affect all of the creatures in the area. The spell ages the creatures upon which it is cast by 2 years.
 
 ### Hold Monster
 
@@ -7384,13 +7393,14 @@ This spell imbues creatures in the targeted area with preternatural speed, allow
 - **Range:** 5 ft/ level
 - **Duration:** 1 round/ level
 - **Area of Effect:** 1-4 creatures
+
+<!-- p.87 -->
+
 - **Components:** V,S,M
 - **Casting Time:** 5 segments
 - **Saving Throw:** Negates
 
-<!-- p.87 -->
-
-A *hold monster* spell completely immobilises up to four creatures of any kind for the spell's duration. The magic user decides how many creatures he or she will target with the spell: if there is only one target, the saving throw is made at –3; if two, each makes the saving throw at –1; and if the magic user seeks to hold three or four enemies, each makes its saving throw with no penalty.
+A *hold monster* spell completely immobilises up to four creatures of any kind for the spell’s duration. The magic user decides how many creatures he or she will target with the spell: if there is only one target, the saving throw is made at –3; if two, each makes the saving throw at –1; and if the magic user seeks to hold three or four enemies, each makes its saving throw with no penalty.
 
 If a magic item or spell operates partially to negate the effects of paralysis, failure on the saving throw will have the effect of a *slow* spell rather than completely immobilising the target.
 
@@ -7408,9 +7418,9 @@ Creatures held by this spell may be killed or bound at a rate of one per round, 
 - **Casting Time:** 3 segments
 - **Saving Throw:** Negates
 
-This spell has the same effect as the clerical spell *hold person*: to immobilise foes and render them helpless. However, the magic user's version of the spell is somewhat more flexible in terms of the caster's options. A *hold person* spell completely immobilises up to four man-sized or smaller persons for the spell's duration. The magic user decides how many of his or her foes he or she will target with the spell: if there is only one target, the saving throw is made at –3, if two, each makes the saving throw at –1, and if the magic user seeks to hold three or four enemies, each makes his or her saving throw with no penalty.
+This spell has the same effect as the clerical spell *hold person*: to immobilise foes and render them helpless. However, the magic user’s version of the spell is somewhat more flexible in terms of the caster’s options. A *hold person* spell completely immobilises up to four man-sized or smaller persons for the spell’s duration. The magic user decides how many of his or her foes he or she will target with the spell: if there is only one target, the saving throw is made at –3, if two, each makes the saving throw at –1, and if the magic user seeks to hold three or four enemies, each makes his or her saving throw with no penalty.
 
-Creatures affected by this spell would include humans, demi-humans and humanoids. Ultimately, it is in the discretion of the GM to decide if a creature is considered a "person" for the purposes of this spell. If a magic item or spell operates to partially negate the effects of paralysis, failure on the saving throw will have the effect of a *slow* spell rather than completely immobilising the target.
+Creatures affected by this spell would include humans, demi-humans and humanoids. Ultimately, it is in the discretion of the GM to decide if a creature is considered a “person” for the purposes of this spell. If a magic item or spell operates to partially negate the effects of paralysis, failure on the saving throw will have the effect of a *slow* spell rather than completely immobilising the target.
 
 Persons held by this spell may be killed or bound at a rate of one per round, or, if the attacker chooses, may be attacked at twice the normal rate with an automatic hit, for maximum damage.
 
@@ -7426,7 +7436,7 @@ Persons held by this spell may be killed or bound at a rate of one per round, or
 - **Casting Time:** 1 segment
 - **Saving Throw:** None
 
-This quickly-shouted spell holds fast a door or similar aperture as if it were securely locked. The portal must be something that normally opens and closes, such as a door, gate, valve, or portcullis, and it must be closed for the spell to function. A magically held portal can be battered apart, but will not open normally until the spell's duration expires. This is not a particularly powerful spell; any being not native to the material planes (such as a demon) will ignore its effects, as will a magic user four or more levels higher than the caster. The spell may also be negated by means of a *knock* or *dispel magic*.
+This quickly-shouted spell holds fast a door or similar aperture as if it were securely locked. The portal must be something that normally opens and closes, such as a door, gate, valve, or portcullis, and it must be closed for the spell to function. A magically held portal can be battered apart, but will not open normally until the spell’s duration expires. This is not a particularly powerful spell; any being not native to the material planes (such as a demon) will ignore its effects, as will a magic user four or more levels higher than the caster. The spell may also be negated by means of a *knock* or *dispel magic*.
 
 ### Ice Storm
 
@@ -7454,11 +7464,11 @@ The caster may evoke one of two different forms of *ice storm* with this spell: 
 - **Casting Time:** 1 turn
 - **Saving Throw:** See below
 
-This expensive and unreliable spell allows the magic user to discern the magical properties of an item. The magic user must hold or wear the item as intended for use (thereby placing himself at risk of a cursed item). For every segment of the spell's duration, the magic user has a 15% +5%/ caster level of gaining an insight into the nature of the item's
+This expensive and unreliable spell allows the magic user to discern the magical properties of an item. The magic user must hold or wear the item as intended for use (thereby placing himself at risk of a cursed item). For every segment of the spell’s duration, the magic user has a 15% +5%/ caster level of gaining an insight into the nature of the item’s
 
 <!-- p.88 -->
 
-enchantment. Insights include magical effects (and the corresponding command word) and number of charges (plus or minus 25% of the actual number). The exact bonus (or penalty) of a weapon is not revealed to the player, unless the GM chooses to do so for convenience; the character, of course, would not think of a magic sword as being "+1" or "+3," just as "enchanted" or "powerfully enchanted," and the spell reveals information in these terms. The spell must be cast within 1 hour/ caster level of the time a magic item first comes near the caster, or the magic user's own aura will have blended too much into the item's aura, contaminating his ability to read it. Upon casting the spell, the magic user temporarily loses 8 points of constitution, and regains them by resting for one hour per recovered point. The material component for the spell is a pearl worth 100 gp.
+enchantment. Insights include magical effects (and the corresponding command word) and number of charges (plus or minus 25% of the actual number). The exact bonus (or penalty) of a weapon is not revealed to the player, unless the GM chooses to do so for convenience; the character, of course, would not think of a magic sword as being “+1” or “+3,” just as “enchanted” or “powerfully enchanted,” and the spell reveals information in these terms. The spell must be cast within 1 hour/ caster level of the time a magic item first comes near the caster, or the magic user’s own aura will have blended too much into the item’s aura, contaminating his ability to read it. Upon casting the spell, the magic user temporarily loses 8 points of constitution, and regains them by resting for one hour per recovered point. The material component for the spell is a pearl worth 100 gp.
 
 ### Imprisonment *(Reversible)*
 
@@ -7472,7 +7482,7 @@ enchantment. Insights include magical effects (and the corresponding command wor
 - **Casting Time:** 9 segments
 - **Saving Throw:** None
 
-The power of this spell hurls the victim deep beneath the earth, placing it into a state of suspended animation for eternity, entombed within a cyst of rock. The only way to free an *imprisoned* creature is with the reverse of the spell, and the caster must know the name of the prisoner together with enough detail to clearly identify him or her. A creature freed from *imprisonment* appears at the exact spot where the *imprisonment* took place. When casting the spell's reverse, if the caster is not specific enough about the *imprisoned* creature's identity the spell will normally fail; but there is also a chance it will free the intended creature together with several other imprisoned victims from other places in the ground—some far, some (perhaps) near. Some of these freed victims might be from ancient ages and may have been *imprisoned* for a very good reason. The chance of freeing unintended recipients is 1 in 10, and their number can vary considerably (d%).
+The power of this spell hurls the victim deep beneath the earth, placing it into a state of suspended animation for eternity, entombed within a cyst of rock. The only way to free an *imprisoned* creature is with the reverse of the spell, and the caster must know the name of the prisoner together with enough detail to clearly identify him or her. A creature freed from *imprisonment* appears at the exact spot where the *imprisonment* took place. When casting the spell’s reverse, if the caster is not specific enough about the *imprisoned* creature’s identity the spell will normally fail; but there is also a chance it will free the intended creature together with several other imprisoned victims from other places in the ground—some far, some (perhaps) near. Some of these freed victims might be from ancient ages and may have been *imprisoned* for a very good reason. The chance of freeing unintended recipients is 1 in 10, and their number can vary considerably (d%).
 
 ### Incendiary Cloud
 
@@ -7486,11 +7496,7 @@ The power of this spell hurls the victim deep beneath the earth, placing it into
 - **Casting Time:** 2 segments
 - **Saving Throw:** Half
 
-The *incendiary cloud* begins as a choking cloud of thick smoke, with the attributes of a *pyrotechnics* spell's smoke cloud, billowing from an existing fire source as per the
-
-<!-- p.89 -->
-
-*pyrotechnics* spell. The cloud has a radius of 20 ft and is 10 ft high. On the third round of the cloud's existence, it bursts into hot, magical flame. A saving throw for half damage is permitted to every creature in the cloud for each round of exposure to the flames.
+The *incendiary cloud* begins as a choking cloud of thick smoke, with the attributes of a *pyrotechnics* spell’s smoke cloud, billowing from an existing fire source as per the *pyrotechnics* spell. The cloud has a radius of 20 ft and is 10 ft high. On the third round of the cloud’s existence, it bursts into hot, magical flame. A saving throw for half damage is permitted to every creature in the cloud for each round of exposure to the flames.
 
 In the first round of the flare, the blazing cloud inflicts one hit point of damage for every two levels of the caster. In the second round of the flare, the heat increases to inflict 1 hit point per caster level, and in the third round of the blaze, damage falls again to one point per two levels. After three rounds, the cloud burns out, and for any further duration it retains only the properties of pyrotechnic smoke.
 
@@ -7520,7 +7526,9 @@ This spell allows the magic user to confer the ability to see in the dark, perce
 - **Casting Time:** 1 segment
 - **Saving Throw:** None
 
-This spell calls a specific, desired object into the caster's hand from wherever it might be. The object must be prepared ahead of time, with the first part of the spell being cast upon it at that time—all but the final word of the incantation. The item is then touched with another item, the spell's focus, which must be of at least 5,000 gp in value (usually a gem). When the caster seeks to summon the item by means of this spell, he must hold the focus item in his hand and speak the final word of the spell. The focus item will disappear and the summoned item will appear in its place. The summoned item cannot be heavier than 8 lbs or the spell will not function. Moreover, if the item is in the possession (not necessarily in the hand) of another creature, the spell will fail. However, in this instance, the caster will learn the item's location, and some details about the owner, as determined by the GM. The spell will function across the planes.
+This spell calls a specific, desired object into the caster’s hand from wherever it might be. The object must be prepared ahead of time, with the first part of the spell being cast upon it at that time—all but the final word of the incantation. The item is then touched with another item, the spell’s focus, which must be of at least 5,000 gp in value (usually a gem). When the caster seeks to summon the item by means of this spell, he must hold the focus item in his hand and speak the final word of the spell. The focus item will disappear and the summoned item will appear in its place. The summoned item cannot be heavier than 8 lbs or the spell will not function. Moreover, if the item is in the possession (not necessarily in the hand) of another creature, the spell will fail. However, in this instance, the caster will learn the item’s location, and some details about the owner, as determined by the GM. The spell will function across the planes.
+
+<!-- p.89 -->
 
 ### Interposing Hand
 
@@ -7562,7 +7570,7 @@ When the words of this spell are completed, the recipient and all he or she carr
 - **Casting Time:** 3 segments
 - **Saving Throw:** None (willing target only)
 
-This spell operates as does the *invisibility* spell, but affects all creatures within 10 ft of the recipient at the time the final words of the spell are uttered. If the creature upon which the spell was cast makes an attack, the attack will negate the invisibility of all the others. However, if one of the creatures affected by the spell's radius (not the direct recipient) attacks, the invisibility only of that one creature is negated thereby. In order to remain invisible, those who were made invisible by virtue of the spell's radius must remain within 10 ft of the creature upon whom the spell is centred. All creatures affected can see each other.
+This spell operates as does the *invisibility* spell, but affects all creatures within 10 ft of the recipient at the time the final words of the spell are uttered. If the creature upon which the spell was cast makes an attack, the attack will negate the invisibility of all the others. However, if one of the creatures affected by the spell’s radius (not the direct recipient) attacks, the invisibility only of that one creature is negated thereby. In order to remain invisible, those who were made invisible by virtue of the spell’s radius must remain within 10 ft of the creature upon whom the spell is centred. All creatures affected can see each other.
 
 ### Invisible Stalker
 
@@ -7590,7 +7598,7 @@ This spell summons an *invisible stalker* (see Chapter V). The stalker will perf
 - **Casting Time:** 5 segments
 - **Saving Throw:** None
 
-The creature touched (successful to hit roll) flies into an uncontrollable, twitching tarantella, dancing wildly. The creature's armour class is penalised by –4, and it will fail any and all saving throws during the spell's duration. It cannot act in any way, or gain benefit from a shield.
+The creature touched (successful to hit roll) flies into an uncontrollable, twitching tarantella, dancing wildly. The creature’s armour class is penalised by –4, and it will fail any and all saving throws during the spell’s duration. It cannot act in any way, or gain benefit from a shield.
 
 ### Jump
 
@@ -7634,9 +7642,9 @@ The powerful magic words of a *knock* spell open doors that are stuck, barred, l
 - **Casting Time:** See below
 - **Saving Throw:** None
 
-This spell, when cast, gathers mystical echoes of legend and rumour about a specific person, place, or object. These inchoate rhymes, whispers, and memories form in the caster's mind until he can finally piece them together into meaningful information. The spell's power is far greater if the item is actually at hand when the spell is cast, for it can then be used as a focus for the gathering of echoes; casting time under these circumstances will be 1d4 turns. If the item (or place) is not at hand, but some detailed information can be woven into the casting of the spell as a focus for the gathering of legend-echoes, the casting time will be 1d10 days. If all that the caster knows about the object or place is rumour, the casting time will be 2d6 weeks. While casting the spell, the caster may not engage in any other activity other than short breaks to eat and sleep.
+This spell, when cast, gathers mystical echoes of legend and rumour about a specific person, place, or object. These inchoate rhymes, whispers, and memories form in the caster’s mind until he can finally piece them together  into meaningful information. <!-- printed as-is: see errata E69 --> The spell’s power is far greater if the item is actually at hand when the spell is cast, for it can then be used as a focus for the gathering of echoes; casting time under these circumstances will be 1d4 turns. If the item (or place) is not at hand, but some detailed information can be woven into the casting of the spell as a focus for the gathering of legend-echoes, the casting time will be 1d10 days. If all that the caster knows about the object or place is rumour, the casting time will be 2d6 weeks. While casting the spell, the caster may not engage in any other activity other than short breaks to eat and sleep.
 
-When completed, the spell will reveal the location of any legendary material about the object (or person, or place), and if the spell is cast in the presence of the place, person, or object the spell will invariably gather the legendary lore together into a piece of true information about it. This information, coming as it does from mystical echoes, will take the form of a riddle, rhyme, or other puzzle. In order to cast the spell an item of some value—often a potion—must be used and destroyed in the process. The spell can garner no information about things that have not been the subject of discussion, rumour, rhyme, or legend.
+When completed, the spell will reveal the location of any legendary material about the object (or person, or place), and if the spell is cast in the presence of the place, person, or object the spell will invariably gather the legendary lore together  into a piece of true information about it. <!-- printed as-is: see errata E70 --> This information, coming as it does from mystical echoes, will take the form of a riddle, rhyme, or other puzzle. In order to cast the spell an item of some value—often a potion—must be used and destroyed in the process. The spell can garner no information about things that have not been the subject of discussion, rumour, rhyme, or legend.
 
 ### Levitate
 
@@ -7678,11 +7686,11 @@ Other than as noted above, this spell is identical to the clerical spell *light*
 - **Casting Time:** 3 segments
 - **Saving Throw:** Half
 
-As the caster completes this spell, he or she unleashes a bolt of lightning from the spell's point of origin, which may be as far away from the caster as the spell's maximum range. The bolt extends in a straight line from the caster beginning, at whatever point along the spell's range the caster desires, and may extend beyond the spell's range. The bolt deals 1d6 damage per caster level to all creatures standing in the bolt's area of effect. Creatures that make successful saving throws suffer half damage. The area of effect may be either a branching, forking maelstrom of electricity 10 ft wide and 40 ft long, or it may be a concentrated blast 5 ft wide and 80 ft long. The length of the bolt
+As the caster completes this spell, he or she unleashes a bolt of lightning from the spell’s point of origin, which may be as far away from the caster as the spell’s maximum range. The bolt extends in a straight line from the caster beginning, at whatever point along the spell’s range the caster desires, and may extend beyond the spell’s range. The bolt deals 1d6 damage per caster level to all creatures standing in the bolt’s area of effect. Creatures that make successful saving throws suffer half damage. The area of effect may be either a branching, forking maelstrom of electricity 10 ft wide and 40 ft long, or it may be a concentrated blast 5 ft wide and 80 ft long. The length of the bolt
 
 <!-- p.91 -->
 
-itself is not affected by the caster's level, only the range at which the caster may cause the bolt to originate.
+itself is not affected by the caster’s level, only the range at which the caster may cause the bolt to originate.
 
 All items hit by the full force of the bolt must make item saving throws or be destroyed. The force of the bolt is often sufficient to blast doors into smouldering ruin. If the bolt strikes an object that does not conduct electricity, such as a stone wall, it will be deflected backward toward the caster (potentially inflicting a second shock upon those in the target area). Note that the length of a deflected bolt is not increased; the bolt will only rebound for the distance remaining in its original area of effect.
 
@@ -7700,7 +7708,7 @@ All items hit by the full force of the bolt must make item saving throws or be d
 
 *Limited wish* is a powerful spell, allowing the caster to reshape reality in accordance with his or her desire, but only to a limited degree. The spell may be used to grant minor wishes (undoing curses, granting small quantities of gold, duplicating the effects of lower level spells, etc.) The effects of the spell will be permanent for most minor requests, particularly when used to duplicate a lower-level spell that has a permanent or instantaneous duration.
 
-However, a *limited wish* is not powerful enough to make major changes in reality. It cannot bring the dead back to life, grant a level, or permanently change ability scores. In many cases, the GM will be called upon to determine whether the caster's wish is within the power of a *limited wish* spell or whether the results of the request will suffer from flaws due to the spell's limitations. Flaws would include limited durations or partial results. The guidelines set forth above should give the GM some assistance in making such determinations.
+However, a *limited wish* is not powerful enough to make major changes in reality. It cannot bring the dead back to life, grant a level, or permanently change ability scores. In many cases, the GM will be called upon to determine whether the caster’s wish is within the power of a *limited wish* spell or whether  the results of the request will suffer from flaws due to the spell’s limitations. <!-- printed as-is: see errata E71 --> Flaws would include limited durations or partial results. The guidelines set forth above should give the GM some assistance in making such determinations.
 
 In the case of unreasonable wishes, the GM may decide to follow the wording of the spell precisely but pervert the intent, limit the duration of the spell to a very limited time (perhaps mere seconds!) or simply rule that the whole spell fails.
 
@@ -7732,9 +7740,9 @@ Other than as noted above, this spell is identical to the clerical spell *locate
 - **Casting Time:** 1 turn
 - **Saving Throw:** None
 
-Except as may be noted above, this spell is identical to the clerical spell *lower water*. The spell's reverse can raise water no more than 5 ft / level.
+Except as may be noted above, this spell is identical to the clerical spell *lower water*. The spell’s reverse can raise water no more than 5 ft / level.
 
-### Mage's Faithful Hound
+### Mage’s Faithful Hound
 
 *Arcane Conjuration/ Summoning*
 
@@ -7748,7 +7756,7 @@ Except as may be noted above, this spell is identical to the clerical spell *low
 
 This spell summons an invisible watchdog to guard an area. The hound is invisible to all but the caster, who may order it to keep watch over a particular area. The area must be close to the caster, however, for if the caster is more than 30 ft from the area the hound guards, it will return to the spirit realm. The hound can detect virtually any creature that enters the area: it can detect invisibility (which includes creatures on the astral and æthereal planes), can see creatures that are moving between dimensions, and can detect virtually any other method that might be employed to sneak into an area. If any creature larger than a cat or small dog enters the area, the hound will begin baying with its echoing, supernatural bark. Moreover, it will seek to attack intruders from behind (it does not make frontal assaults) and can attack as a monster of 10 HD for 3d6 damage, even if the opponent requires up to a +3 magical weapon to be hit. The hound cannot be harmed by any means other than by dispelling it.
 
-### Mage's Sword
+### Mage’s Sword
 
 *Arcane Evocation*
 
@@ -7763,7 +7771,7 @@ This spell summons an invisible watchdog to guard an area. The hound is invisibl
 - **Casting Time:** 7 segments
 - **Saving Throw:** None
 
-The caster evokes a magical sword into being and can wield it by exerting his or her will. While doing so, he or she cannot cast spells, use magic items, or move, although the spell does not end if the magic user's concentration is broken; the sword simply does not attack during that round. The sword attacks as a fighter one-half the magic user's caster level (and always hits on a natural 19 or 20), and it can hit creatures that can ordinarily be hit only with magic weapons. The damage caused by the sword is considerable; it inflicts 5d4 hp against size S and M creatures, or 5d6 against larger creatures. The sword can be dispelled by *dispel magic*. The material components for the spell cost 500 gp or more.
+The caster evokes a magical sword into being and can wield it by exerting his or her will. While doing so, he or she cannot cast spells, use magic items, or move, although the spell does not end if the magic user’s concentration is broken; the sword simply does not attack during that round. The sword attacks as a fighter one-half the magic user’s caster level (and always hits on a natural 19 or 20), and it can hit creatures that can ordinarily be hit only with magic weapons. The damage caused by the sword is considerable; it inflicts 5d4 hp against size S and M creatures, or 5d6 against larger creatures. The sword can be dispelled by *dispel magic*. The material components for the spell cost 500 gp or more.
 
 ### Magic Aura
 
@@ -7791,15 +7799,15 @@ This spell creates a false magical aura around a single object of not more than 
 - **Casting Time:** 1 round
 - **Saving Throw:** Negates
 
-This risky spell allows the caster to transfer his or her mind into that of another creature, trapping the other creature's soul in a gem (of not less than 100 gp value) that is the material component of the spell and becomes the *magic jar*. To accomplish the transfer of souls, the magic user must trap his or her own life essence within the jar prior to the transfer. If the transfer fails (e.g., if the targeted creature makes a successful saving throw), the caster's soul is trapped until it can take over a host or otherwise escape.
+This risky spell allows the caster to transfer his or her mind into that of another creature, trapping the other creature’s soul in a gem (of not less than 100 gp value) that is the material component of the spell and becomes the *magic jar*. To accomplish the transfer of souls, the magic user must trap his or her own life essence within the jar prior to the transfer. If the transfer fails (e.g., if the targeted creature makes a successful saving throw), the caster’s soul is trapped until it can take over a host or otherwise escape.
 
-The caster can make successive attempts to take over the same host, but no more than one per round. The spell's range applies to two matters; when the magic user first transfers his or her own life essence into the jar, his or her body must be within the spell's range of the jar. The range also limits the distance at which the magic user's soul may later escape from the jar and into another body. After the caster's soul moves into the jar, his or her physical body becomes inert and lifeless.
+The caster can make successive attempts to take over the same host, but no more than one per round. The spell’s range applies to two matters; when the magic user first transfers his or her own life essence into the jar, his or her body must be within the spell’s range of the jar. The range also limits the distance at which the magic user’s soul may later escape from the jar and into another body. After the caster’s soul moves into the jar, his or her physical body becomes inert and lifeless.
 
-The spell represents, in many ways, a contest of will between the magic user and the creature whose body he or she seeks to possess. The caster and the target creature each total their intelligence and wisdom scores (such being calculated or approximated by the GM for a monster). This combined score represents the character's mental power for purposes of the spell. The two numbers are compared, and the difference is used in two important calculations: the saving throw and the chance for escape. One third of the difference (rounded down) is the modifier on the saving throw, a bonus if the target creature has the higher mental power, a penalty if the magic user's mental power is higher.
+The spell represents, in many ways, a contest of will between the magic user and the creature whose body he or she seeks to possess. The caster and the target creature each total their intelligence and wisdom scores (such being calculated or approximated by the GM for a monster). This combined score represents the character’s mental power for purposes of the spell. The two numbers are compared, and the difference is used in two important calculations: the saving throw and the chance for escape. One third of the difference (rounded down) is the modifier on the saving throw, a bonus if the target creature has the higher mental power, a penalty if the magic user’s mental power is higher.
 
-If a creature's soul is trapped in the *magic jar* by the caster, it has a chance to escape. If it escapes, the caster's soul is returned to the *magic jar*. If the difference in mental power between the caster and the possessed creature is 4 or less in favour of the caster, or is in favour of the possessed creature, the creature can attempt a new saving throw every round. If the difference is from 5 to 8 in the caster's favour, one saving throw is permitted per turn. If the difference is 9 to 12 in the caster's favour, the saving throw is made once per day, and if the caster's mental power exceeds that of the target creature by 13+, the saving throw can only be made once per week.
+If a creature’s soul is trapped in the *magic jar* by the caster, it has a chance to escape. If it escapes, the caster’s soul is returned to the *magic jar*. If the difference in mental power between the caster and the possessed creature is 4 or less in favour of the caster, or is in favour of the possessed creature, the creature can attempt a new saving throw every round. If the difference is from 5 to 8 in the caster’s favour, one saving throw is permitted per turn. If the difference is 9 to 12 in the caster’s favour, the saving throw is made once per day, and if the caster’s mental power exceeds that of the target creature by 13+, the saving throw can only be made once per week.
 
-While the caster is in the *magic jar* waiting to possess another body, he or she can sense creatures beyond the jar, but not their nature. The jar may be moved from its original location, but not, obviously, by the caster. When the caster possesses another body, he or she gains complete control of its movement and acquires any memories that the body might reflexively recall (how to fly, fight with claws, use innate magical powers, etc). He or she does not gain any knowledge from the creature's mind, such as languages known or the location of a lair, for the mind is trapped in
+While the caster is in the *magic jar* waiting to possess another body, he or she can sense creatures beyond the jar, but not their nature. The jar may be moved from its original location, but not, obviously, by the caster. When the caster possesses another body, he or she gains complete control of its movement and acquires any memories that the body might reflexively recall (how to fly, fight with claws, use innate magical powers, etc). He or she does not gain any knowledge from the  creature’s<!-- printed as-is: see errata E72 --> mind, such as languages known or the location of a lair, for the mind is trapped in
 
 <!-- p.93 -->
 
@@ -7817,7 +7825,7 @@ the *magic jar*. The caster retains his or her own mind while possessing the oth
 - **Casting Time:** 1 segment
 - **Saving Throw:** None
 
-When this spell is cast, missiles of magical energy dart forth from the caster's fingertips, striking unerringly at his or her intended target(s), even if the target(s) are in melee or are partially concealed. The missiles inflict 1d4+1 points of damage each. For every two caster levels beyond first, the caster gains an additional missile; thus, a first-level magic user can cast one missile, a third-level caster may cast 2, a fifth-level caster may cast 3, and so on.
+When this spell is cast, missiles of magical energy dart forth from the caster’s fingertips, striking unerringly at his or her intended target(s), even if the target(s) are in melee or are partially concealed. The missiles inflict 1d4+1 points of damage each. For every two caster levels beyond first, the caster gains an additional missile; thus, a first-level magic user can cast one missile, a third-level caster may cast 2, a fifth-level caster may cast 3, and so on.
 
 ### Magic Mouth
 
@@ -7831,7 +7839,7 @@ When this spell is cast, missiles of magical energy dart forth from the caster's
 - **Casting Time:** 2 segments
 - **Saving Throw:** None
 
-This spell is cast upon an object, so that when a set of particular conditions are met, a mouth will appear in the object and speak a specific message. The length of the message cannot exceed 25 words. The magic user can set any condition for the appearance of the *magic mouth*, but the caster's power limits the range at which the mouth can detect the triggering events. The mouth can "perceive" events at a range of 5 ft/ caster level, but cannot detect invisible creatures. It has no perceptions other than visual, although it does not actually see. Obviously, a player cannot try to phrase conditions using game terms such as "hit dice," "class," "level," etc. but must use terms that would be familiar to the character.
+This spell is cast upon an object, so that when a set of particular conditions are met, a mouth will appear in the object and speak a specific message. The length of the message cannot exceed 25 words. The magic user can set any condition for the appearance of the *magic mouth*, but the caster’s power limits the range at which the mouth can detect the triggering events. The mouth can “perceive” events at a range of 5 ft/ caster level, but cannot detect invisible creatures. It has no perceptions other than visual, although it does not actually see. Obviously, a player cannot try to phrase conditions using game terms such as “hit dice,” “class,” “level,” etc. but must use terms that would be familiar to the character.
 
 ### Mass Charm
 
@@ -7873,7 +7881,7 @@ This spell acts in the same manner as an *invisibility* spell, but has an effect
 - **Casting Time:** 1 turn
 - **Saving Throw:** None (willing creatures only)
 
-This spell causes creatures of man size or smaller to appear like an innocent grove of trees to any observers. Up to 10 creatures may be enchanted in this manner. The illusion is so powerful that it is maintained even if the massmorphed creatures are touched. The "tree's" reaction to being stabbed or hacked at is fairly likely to indicate that it is no normal tree, of course, although the illusion is not actually dispelled by a successful attack. The illusion persists until the caster dies or dismisses it (or it is dispelled).
+This spell causes creatures of man size or smaller to appear like an innocent grove of trees to any observers. Up to 10 creatures may be enchanted in this manner. The illusion is so powerful that it is maintained even if the massmorphed creatures are touched. The “tree’s” reaction to being stabbed or hacked at is fairly likely to indicate that it is no normal tree, of course, although the illusion is not actually dispelled by a successful attack. The illusion persists until the caster dies or dismisses it (or it is dispelled).
 
 ### Maze
 
@@ -7887,7 +7895,7 @@ This spell causes creatures of man size or smaller to appear like an innocent gr
 - **Casting Time:** 3 segments
 - **Saving Throw:** None
 
-The targeted creature is trapped by this spell into an interdimensional reality similar to that created by the second level spell *rope trick*. This wormhole has an entrance, which closes immediately after the target is trapped, and an exit, which is difficult to find in the branching, twisting maze of the dimensional labyrinth. A creature's intelligence
+The targeted creature is trapped by this spell into an inter-dimensional reality similar to that created by the second level spell *rope trick*. This wormhole has an entrance, which closes immediately after the target is trapped, and an exit, which is difficult to find in the branching, twisting maze of the dimensional labyrinth. A creature’s intelligence
 
 <!-- p.94 -->
 
@@ -7915,7 +7923,7 @@ determines the amount of time required to find the way out and emerge back into 
 - **Casting Time:** 1 segment
 - **Saving Throw:** None
 
-This spell repairs small breaks or tears in an object. It can weld together broken metallic objects, such as a chain link or a broken dagger, rejoin a broken bottle, and repair holes in leather or cloth, for example. The spell does not repair magic items in any way that would restore or affect their magical qualities.
+This spell repairs small breaks or tears in an object. It can weld together  broken metallic objects, such as a chain link or a broken dagger, rejoin a broken bottle, and repair holes in leather or cloth, for example. <!-- printed as-is: see errata E73 --> The spell does not repair magic items in any way that would restore or affect their magical qualities.
 
 ### Message
 
@@ -7943,7 +7951,7 @@ Once this spell is cast, the magic user may point to any creature in range and w
 - **Casting Time:** 9 segments
 - **Saving Throw:** None or Half (see below)
 
-Meteor-like chunks of magical fire streak from the magic user's outstretched hand, exploding into an inferno of flame when they strike the intended targets. The caster may hurl four large meteors or eight small meteors. These missiles strike the first creature in their straight-line trajectories automatically, granting no saving throw and inflicting full damage. When the meteor strikes its target, the explosion of fire may catch other creatures in its radius. These creatures receive saving throws for half damage. Large meteors inflict 10d4 hp damage and explode in a radius of 15 ft. Small meteors inflict 5d4 hp damage and explode in a radius of 7½ ft. If the explosions overlap, a creature in this area is subject to damage from all the explosions, but is entitled to a separate saving throw (halving damage) for each.
+Meteor-like chunks of magical fire streak from the magic user’s outstretched hand, exploding into an inferno of flame when they strike the intended targets. The caster may hurl four large meteors or eight small meteors. These missiles strike the first creature in their straight-line trajectories automatically, granting no saving throw and inflicting full damage. When the meteor strikes its target, the explosion of fire may catch other creatures in its radius. These creatures receive saving throws for half damage. Large meteors inflict 10d4 hp damage and explode in a radius of 15 ft. Small meteors inflict 5d4 hp damage and explode in a radius of 7½ ft. If the explosions overlap, a creature in this area is subject to damage from all the explosions, but is entitled to a separate saving throw (halving damage) for each.
 
 ### Mind Blank
 
@@ -7988,7 +7996,7 @@ A globe of eldritch power forms around the magic user, hedging out all spells of
 - **Casting Time:** 2 segments
 - **Saving Throw:** None
 
-The *mirror image* spell creates 1d4 phantasmal images of the magic user, all mirroring his or her actions. The spell's 6ft radius also becomes slightly blurred to sight, like the reflection of a slightly distorted mirror. The combination of these two magical phenomena makes it impossible to distinguish the images from the caster without aid of a magical nature, such as *true seeing*. When an opponent makes a successful hit against one of the images, the image breaks up and disappears (the others remain). If an opponent attempts to attack a magic user obscured by this spell, it is randomly determined whether the to-hit roll is directed toward the person or one of the images. At the end of the spell's duration, the images fade from sight.
+The *mirror image* spell creates 1d4 phantasmal images of the magic user, all mirroring his or her actions. The spell’s 6ft radius also becomes slightly blurred to sight, like the reflection of a slightly distorted mirror. The combination of these two magical phenomena makes it impossible to distinguish the images from the caster without aid of a magical nature, such as *true seeing*. When an opponent makes a successful hit against one of the images, the image breaks up and disappears (the others remain). If an opponent attempts to attack a magic user obscured by this spell, it is randomly determined whether  the to-hit roll is directed toward the person or one of the images. <!-- printed as-is: see errata E74 --> At the end of the spell’s duration, the images fade from sight.
 
 ### Mnemonic Enhancement
 
@@ -8002,7 +8010,7 @@ The *mirror image* spell creates 1d4 phantasmal images of the magic user, all mi
 - **Casting Time:** 1 turn
 - **Saving Throw:** None
 
-This spell enhances the magic user's precision of memory, allowing him or her to retain up to three additional spell levels in his or her mind (3 first level, 1 first and one second level, or 1 third level). The spell may be used for memorisation, or may be used to hold onto the memory of a spell just cast. The spell components are expensive, costing at least 100 gp, and might not be available in rural communities.
+This spell enhances the magic user’s precision of memory, allowing him or her to retain up to three additional spell levels in his or her mind (3 first level, 1 first and one second level, or 1 third level). The spell may be used for memorisation, or may be used to hold onto the memory of a spell just cast. The spell components are expensive, costing at least 100 gp, and might not be available in rural communities.
 
 ### Monster Summoning I
 
@@ -8016,7 +8024,7 @@ This spell enhances the magic user's precision of memory, allowing him or her to
 - **Casting Time:** 3 segments
 - **Saving Throw:** None
 
-By casting this spell, the magic user conjures up 2-8 monsters to serve him or her as allies in combat or to perform other services. The monsters appear from thin air within 1d4 rounds of the spell's completed casting. If the caster is in combat, the monsters will fight on his or her behalf, attacking whatever foes he directs, or guarding him or her. For more complex tasks, the magic user must somehow have the ability to communicate these more specific commands. The GM has the ultimate discretion as to what monsters will appear, but the general likelihood is described in the following table:
+By casting this spell, the magic user conjures up 2-8 monsters to serve him or her as allies in combat or to perform other services. The monsters appear from thin air within 1d4 rounds of the spell’s completed casting. If the caster is in combat, the monsters will fight on his or her behalf, attacking whatever foes he directs, or guarding him or her. For more complex tasks, the magic user must somehow have the ability to communicate these more specific commands. The GM has the ultimate discretion as to what monsters will appear, but the general likelihood is described in the following table:
 
 | d6 | Monster Summoned |
 |---|---|
@@ -8027,7 +8035,7 @@ By casting this spell, the magic user conjures up 2-8 monsters to serve him or h
 | 5 | Orc (gnome) |
 | 6 | Kullule (badger, giant) |
 
-Evil casters may get the monsters in parentheses, at the GM's option.
+Evil casters may get the monsters in parentheses, at the GM’s option.
 
 ### Monster Summoning II
 
@@ -8215,9 +8223,9 @@ This spell functions in the same manner as *monster summoning I*, but calls 1d2 
 - **Casting Time:** See below
 - **Saving Throw:** None
 
-By casting this spell, the magic user gains the ability to move earth, sand, and clay in vast quantities by the mere gestures of his or her hands. The spell does not affect rock or stone. Unlike most spells, the area of effect does not depend upon the caster's level but upon the amount of time spent in casting. For every turn spent casting, the magic user can move a cube of earth 40x40x40 ft.
+By casting this spell, the magic user gains the ability to move earth, sand, and clay in vast quantities by the mere gestures of his or her hands. The spell does not affect rock or stone. Unlike most spells, the area of effect does not depend upon the caster’s level but upon the amount of time spent in casting. For every turn spent casting, the magic user can move a cube of earth 40x40x40 ft.
 
-The spell is normally used to create walls, moats, etc., but can also be used to move an intact terrain feature from one place to another (although the spell cannot move rock unless the rock is carried within the moved earth).
+The spell is normally used to create walls, moats, etc., but can also be used to move an intact terrain feature from one place to another (although the spell cannot  move rock unless the rock is carried within the moved earth). <!-- printed as-is: see errata E75 -->
 
 If an intact feature (such as a portion of a forest or the foundations under a cottage) is to be moved, an earth elemental must also be summoned. Without the assistance of an elemental, the earth under a cottage could certainly be moved, but with the—presumably undesired—result of destroying the cottage in the process.
 
@@ -8247,7 +8255,7 @@ Except as may be noted above, this spell is identical to the clerical spell *par
 - **Casting Time:** 5 segments
 - **Saving Throw:** None
 
-By means of a *passwall* spell, the magic user creates an inter-dimensional opening through any non-metallic material, allowing him or her and any others to simply walk directly into the hillside or through a wall. More than one spell may be used in succession to create longer passages. The inside of the passageway is still a part of the material plane; the inter-dimensional warping of space simply acts to "remove" the material through which the passage is created.
+By means of a *passwall* spell, the magic user creates an inter-dimensional opening through any non-metallic material, allowing him or her and any others to simply walk directly into the hillside or through a wall. More than one spell may be used in succession to create longer passages. The inside of the passageway is still a part of the material plane; the inter-dimensional warping of space simply acts to “remove” the material through which the passage is created.
 
 ### Permanency
 
@@ -8261,7 +8269,7 @@ By means of a *passwall* spell, the magic user creates an inter-dimensional open
 - **Casting Time:** 2 rounds
 - **Saving Throw:** None
 
-The *permanency* spell makes the temporary effects of other spells permanent. It is also used to lock the enchantments of a magic item permanently into the item. Certain spells can be made permanent upon the caster or another creature, and other spells can be made permanent only if cast upon an area or an object. Each use of this spell reduces the caster's constitution by 1 point.
+The *permanency* spell makes the temporary effects of other spells permanent. It is also used to lock the enchantments of a magic item permanently into the item. Certain spells can be made permanent upon the caster or another creature, and other spells can be made permanent only if cast upon an area or an object. Each use of this spell reduces the caster’s constitution by 1 point.
 
 Spells that can be made permanent upon a person or other creature include: *Comprehend Languages, Detect Evil, Detect Invisibility, Detect Magic, Infravision, Protection from Evil, Protection from Normal Missiles, Read Magic, Tongues,* or *Unseen Servant*. Only a magic user of higher level than the caster can dispel these spells.
 
@@ -8392,9 +8400,9 @@ For every intelligence point of the transformed creature, the base chance is red
 - **Casting Time:** 3 segments
 - **Saving Throw:** None
 
-This spell enables the magic user to cloak him- or herself in the physical shape of another creature, and to continue shape-shifting at will for the length of the spell’s duration. The transformation is of an entirely lesser order than that of *polymorph other*, incurring no risk of a system shock or of truly becoming the transformed creature. Changing from one shape to  another<!-- printed as-is: NEW --> requires only 30 seconds, and when the caster returns to his or her original form (ending the spell) he or she will be healed of 1d12 points of any damage inflicted against the polymorphed forms he or she assumed.
+This spell enables the magic user to cloak him- or herself in the physical shape of another creature, and to continue shape-shifting at will for the length of the spell’s duration. The transformation is of an entirely lesser order than that of *polymorph other*, incurring no risk of a system shock or of truly becoming the transformed creature. Changing from one shape to  another<!-- printed as-is: see errata E76 --> requires only 30 seconds, and when the caster returns to his or her original form (ending the spell) he or she will be healed of 1d12 points of any damage inflicted against the polymorphed forms he or she assumed.
 
-The caster can polymorph into forms no smaller than a songbird and no heavier than 2,000 lbs. Only the movement capabilities of the new form can be used, not its attacks, defences, or other abilities. The magic user can transform him- or herself into a lion, and run as fast as a lion, but his or her claws will do no more damage than a human’s soft fists. Similarly, if he or she transforms into a dragon, he or she will have the dragon’s ability to fly but no breath weapon. As an orc, he or she would be able to use whatever weapons he or she  could<!-- printed as-is: NEW --> use in his original shape, but would lack infravision. The caster retains his or her own hit points and armour class.
+The caster can polymorph into forms no smaller than a songbird and no heavier than 2,000 lbs. Only the movement capabilities of the new form can be used, not its attacks, defences, or other abilities. The magic user can transform him- or herself into a lion, and run as fast as a lion, but his or her claws will do no more damage than a human’s soft fists. Similarly, if he or she transforms into a dragon, he or she will have the dragon’s ability to fly but no breath weapon. As an orc, he or she would be able to use whatever weapons he or she  could<!-- printed as-is: see errata E77 --> use in his original shape, but would lack infravision. The caster retains his or her own hit points and armour class.
 
 ### Power Word, Blind
 
@@ -8422,7 +8430,7 @@ The word of power to blind removes vision from creatures within the area of effe
 - **Casting Time:** 1 segment
 - **Saving Throw:** None
 
-Upon the casting of this spell, the magic user specifies whether  the<!-- printed as-is: NEW --> spell is to kill one creature or multiple creatures. The spell will instantly deal death to a creature of up to 60 hit points, offering no saving throw (magic resistance does apply). The spell may, alternatively, be used to slaughter up to 120 hp of creatures with 10 or fewer hit points each. The total number of hit points is based upon the target’s current hit points, not maximum hit points, so wounded creatures are more vulnerable to the spell. All creatures to be killed must be within the spell’s area of effect.
+Upon the casting of this spell, the magic user specifies whether  the<!-- printed as-is: see errata E78 --> spell is to kill one creature or multiple creatures. The spell will instantly deal death to a creature of up to 60 hit points, offering no saving throw (magic resistance does apply). The spell may, alternatively, be used to slaughter up to 120 hp of creatures with 10 or fewer hit points each. The total number of hit points is based upon the target’s current hit points, not maximum hit points, so wounded creatures are more vulnerable to the spell. All creatures to be killed must be within the spell’s area of effect.
 
 ### Power Word, Stun
 
@@ -8705,7 +8713,7 @@ entirely. If a creature fails the saving throw, however, it will become frozen w
 - **Casting Time:** 1 turn
 - **Saving Throw:** None
 
-This spell allows the magic user to shift a magically crafted treasure chest into the æthereal plane, where it will be safe from those who might seek to steal the caster’s possessions. The chest itself must be crafted of the finest materials in order to support the spell’s magic, and it will cost a minimum of 5,000 gp to have a craftsman or craftsmen build it, together  with<!-- printed as-is: NEW --> a second, miniature copy. When the magic user casts the spell, one hand upon the chest and one upon the miniature, the chest disappears into the æthereal plane, together  with<!-- printed as-is: NEW --> its contents. These contents may be up to one cubic foot of material per caster level (and no more than this) regardless of the chest’s actual volume. If the chest contains any living matter, there is a 75% chance that the spell will completely fail, although if it should succeed, the living creature will be imprisoned in the æthereal plane until freed. The caster (and only the caster) can use the miniature chest to pull the larger one from the æther wherever he or she might be. It is possible, although not likely, that some æthereal creature or æthereal traveller might happen upon the chest while it is in the æthereal plane. So long as the chest remains in the æthereal plane, the magic user will still be able to retrieve it (although it may have been looted). No creature on the material plane has any chance using any magic known to humanity to locate a *secret chest* that has been hidden in the æthereal plane by means of this spell. After the spell duration expires, there is a cumulative 1 in 20 chance per day that the spell’s link to the chest will fail, and the chest will be irrecoverable.
+This spell allows the magic user to shift a magically crafted treasure chest into the æthereal plane, where it will be safe from those who might seek to steal the caster’s possessions. The chest itself must be crafted of the finest materials in order to support the spell’s magic, and it will cost a minimum of 5,000 gp to have a craftsman or craftsmen build it, together  with<!-- printed as-is: see errata E79 --> a second, miniature copy. When the magic user casts the spell, one hand upon the chest and one upon the miniature, the chest disappears into the æthereal plane, together  with<!-- printed as-is: see errata E80 --> its contents. These contents may be up to one cubic foot of material per caster level (and no more than this) regardless of the chest’s actual volume. If the chest contains any living matter, there is a 75% chance that the spell will completely fail, although if it should succeed, the living creature will be imprisoned in the æthereal plane until freed. The caster (and only the caster) can use the miniature chest to pull the larger one from the æther wherever he or she might be. It is possible, although not likely, that some æthereal creature or æthereal traveller might happen upon the chest while it is in the æthereal plane. So long as the chest remains in the æthereal plane, the magic user will still be able to retrieve it (although it may have been looted). No creature on the material plane has any chance using any magic known to humanity to locate a *secret chest* that has been hidden in the æthereal plane by means of this spell. After the spell duration expires, there is a cumulative 1 in 20 chance per day that the spell’s link to the chest will fail, and the chest will be irrecoverable.
 
 ### Shape Change
 
@@ -8838,12 +8846,11 @@ This spell confers tremendous protection against magical attacks that affect the
 - **Duration:** 1 round + 1 round/ level
 - **Area of Effect:** One creature
 - **Components:** V,S,M
+<!-- p.105 -->
 - **Casting Time:** 1 segment
 - **Saving Throw:** None
 
-<!-- p.105 -->
-
-When the magic user casts this spell, the recipient’s bare hands and feet become sticky enough to allow him or her to climb walls and even crawl along a ceiling. The movement rate for such climbing is 30 ft per round. The subject of this spell will  find<!-- printed as-is: NEW --> it difficult to employ tools or handle small objects with precision while the spell is in effect.
+When the magic user casts this spell, the recipient’s bare hands and feet become sticky enough to allow him or her to climb walls and even crawl along a ceiling. The movement rate for such climbing is 30 ft per round. The subject of this spell will  find<!-- printed as-is: see errata E81 --> it difficult to employ tools or handle small objects with precision while the spell is in effect.
 
 ### Spirit-Rack
 
@@ -8905,7 +8912,7 @@ This spell creates a nauseating cloud of vapours to billow forth in a location c
 
 <!-- p.106 -->
 
-The magic user moulds stone by the power of his or her will, shaping it into whatever object or form he or she desires, from a weapon to a sculpture to an ornate stone footstool. Whether  used<!-- printed as-is: NEW --> to decorate the wizard’s tower with gargoyles or to make an escape hole from a stone prison, this spell is extremely versatile and useful.
+The magic user moulds stone by the power of his or her will, shaping it into whatever object or form he or she desires, from a weapon to a sculpture to an ornate stone footstool. Whether  used<!-- printed as-is: see errata E82 --> to decorate the wizard’s tower with gargoyles or to make an escape hole from a stone prison, this spell is extremely versatile and useful.
 
 ### Stone to Flesh *(Reversible)*
 
@@ -9014,8 +9021,7 @@ The *teleport* spell permits the caster to transport him- or herself, and any ad
 | Very familiar | 01–97 | 98–99 | 100 | — |
 | Studied carefully | 01–94 | 95–97 | 98–99 | 100 |
 | Seen casually | 01–88 | 89–94 | 95–96 | 97–100 |
-| Viewed once | 01–76 | 77–88 | 89–90 | 99–100 |
-<!-- printed as-is: see errata E5 -->
+| Viewed once | 01–76 | 77–88 | 89–90 | 99–100<!-- printed as-is: see errata E5 --> |
 | False destination | (1d20+80) | — | 81–92 | 93–100 |
 
 To see how well the teleportation works, the player will roll d% and consult the preceding table. Refer to the following information for definitions of the terms contained in table:
@@ -9053,12 +9059,11 @@ This spell places the victim into a magical sleep so deep that it is akin to sus
 - **Level:** Magic user 9
 - **Range:** 10 ft
 - **Duration:** 1 segment/ 2 levels + 1d8 segments
+<!-- p.108 -->
 - **Area of Effect:** 15 ft radius sphere
 - **Components:** V
 - **Casting Time:** 9 segments
 - **Saving Throw:** None
-
-<!-- p.108 -->
 
 This spell allows the caster to act between two moments of time, in a bubble where the outside is frozen in place, not moving in the flow of time’s passage. The spell’s common name is a misnomer, for time does not actually stop; rather the caster simply gains a few “extra” moments, captured in between the points of time’s normal passage. Effectively, the caster simply gains the duration of the spell as extra time in which he or she may perform whatever actions he or she wishes, while the rest of the universe is effectively frozen relative to the caster.
 
@@ -9347,9 +9352,9 @@ This spell enables the magic user to make a written copy of a spell he or she ca
 *OSRIC, Chapter II, book pages 112–121.*
 *Entries: Alter Reality … Wall of Fog (66 entries).*
 
-## ILLUSIONIST SPELLS
-
 <!-- p.112 -->
+
+## ILLUSIONIST SPELLS
 
 Unlike clerical and druidic spells, illusionist spells (also known as Phantasmal spells in the OSRIC system) do not require any special material components. There are some illusionist spells that can be cast within the area of effect of a *silence* spell, since they have no verbal component.
 
@@ -9570,7 +9575,7 @@ Except as may be noted above, this spell is identical to the magic user spell *d
 - **Level:** Illusionist 2
 - **Range:** 60 ft
 - **Duration:** Permanent
-- Area of Effect: Caster <!-- printed as-is: NEW -->
+- Area of Effect: Caster <!-- printed as-is: see errata E83 -->
 - **Components:** V,S,M
 - **Casting Time:** 2 segments
 - **Saving Throw:** Negates
@@ -9588,7 +9593,7 @@ This spell is similar to the illusionist’s *blindness* spell, but causes deafn
 - **Casting Time:** 6 segments
 - **Saving Throw:** See below
 
-This spell allows the illusionist to “cast” a quasi-real version of any one of the following arcane spells: *cloudkill, cone of cold, magic missile, fireball, lighting bolt, wall of fire, wall of ice*. <!-- printed as-is: NEW --> If a victim fails a saving throw vs spells, the illusion will function as a real version of that spell with regard to the victim. If the saving throw is successful, it will still have a lessened effect due to its quasi-real nature. The offensive spells will inflict 2 hit points per caster level, the wall spells will inflict 1d4 hit points per caster level, and the *cloudkill* will only kill creatures of fewer than 2 hit dice (no saving throw).
+This spell allows the illusionist to “cast” a quasi-real version of any one of the following arcane spells: *cloudkill, cone of cold, magic missile, fireball, lighting bolt, wall of fire, wall of ice*. <!-- printed as-is: see errata E84 --> If a victim fails a saving throw vs spells, the illusion will function as a real version of that spell with regard to the victim. If the saving throw is successful, it will still have a lessened effect due to its quasi-real nature. The offensive spells will inflict 2 hit points per caster level, the wall spells will inflict 1d4 hit points per caster level, and the *cloudkill* will only kill creatures of fewer than 2 hit dice (no saving throw).
 
 ### Demi-Shadow Monsters
 *Phantasmal Illusion*
@@ -9770,7 +9775,7 @@ The illusionist traces magical patterns in the air with a lit stick of incense o
 - **Casting Time:** 1 segment
 - **Saving Throw:** Negates
 
-The gestures of this spell weave a hypnotic power into the illusionist’s words, affecting 1d6 creatures. Those not making their saving throws are subject to a suggestion made by the illusionist, identical to that made in the magic user spell *suggestion* (but with a much shorter duration). The only indication about whether  a creature has been affected by the *hypnotism* is whether or not it responds to the suggestion. <!-- printed as-is: NEW -->
+The gestures of this spell weave a hypnotic power into the illusionist’s words, affecting 1d6 creatures. Those not making their saving throws are subject to a suggestion made by the illusionist, identical to that made in the magic user spell *suggestion* (but with a much shorter duration). The only indication about whether  a creature has been affected by the *hypnotism* is whether or not it responds to the suggestion. <!-- printed as-is: see errata E85 -->
 
 ### Illusory Script
 *Phantasmal Illusion*
@@ -10288,29 +10293,29 @@ The illusionist creates a curtain of obscuring fog in the area of effect. Vision
 
 ### The First Time
 
-After the players have created their characters, using character sheets to record ability scores and other information, the GM will describe the situation. Often, the characters are presumed to have already met and formed an adventuring party, but this is completely up to the GM. The GM's description of the beginning of the game might include a few details about the world, or this knowledge might be reserved for the players to discover bit by bit. Regardless of the level of campaign information, the GM will also describe the characters' immediate surroundings—a tavern, a wild moor, the top of a stairwell leading down into darkness, or whatever other situation the GM has chosen as the starting point for these adventurers' careers. After setting the scene, the course and success of the party is down to the players' judgment and creativity.
+After the players have created their characters, using character sheets to record ability scores and other information, the GM will describe the situation. Often, the characters are presumed to have already met and formed an adventuring party, but this is completely up to the GM. The GM’s description of the beginning of the game might include a few details about the world, or this knowledge might be reserved for the players to discover bit by bit. Regardless of the level of campaign information, the GM will also describe the characters’ immediate surroundings—a tavern, a wild moor, the top of a stairwell leading down into darkness, or whatever other situation the GM has chosen as the starting point for these adventurers’ careers. After setting the scene, the course and success of the party is down to the players’ judgment and creativity.
 
-The players tell the GM what their characters are doing, such as "Leofric climbs the slope, sword in hand, to see what's at the crest," or, "I light my torch and head down the stairs." The GM responds by telling the players what the characters see, hear, taste, smell and feel. There will sometimes be peaceful encounters with non-player characters (NPCs), and the GM will play the roles of these, either playing the part or giving the players a summary of what the NPC says and does.
+The players tell the GM what their characters are doing, such as “Leofric climbs the slope, sword in hand, to see what’s at the crest,” or, “I light my torch and head down the stairs.” The GM responds by telling the players what the characters see, hear, taste, smell and feel. There will sometimes be peaceful encounters with non-player characters (NPCs), and the GM will play the roles of these, either playing the part or giving the players a summary of what the NPC says and does.
 
 #### TIME MEASUREMENT
 
-For the characters, time is not measured in the real time of the players around the gaming table. Time may pass faster or slower in the game world, even to the extent of the GM's mentioning, for example, "a month passes." Game time is measured in turns (10 minutes), rounds (1 minute) and segments (six seconds). Unless the party is engaged in combat, almost all game time in dungeons is measured in the 10-minute turn.
+For the characters, time is not measured in the real time of the players around the gaming table. Time may pass faster or slower in the game world, even to the extent of the GM’s mentioning, for example, “a month passes.” Game time is measured in turns (10 minutes), rounds (1 minute) and segments (six seconds). Unless the party is engaged in combat, almost all game time in dungeons is measured in the 10-minute turn.
 
 The GM normally records the passage of time, but a few GMs delegate keeping track of time to a particularly trustworthy player.
 
-Measuring time can be important for many reasons; torches burn down to useless stubs, food is consumed, and wounded characters heal damage as they rest. In dangerous environments, such as wildernesses or dungeons, the GM will typically make periodic checks to see if any "wandering monsters" appear. These checks are normally carried out every so many turns, or hours, or days.  Since wandering monsters rarely have treasure, the appearance of wandering monsters serves to reward characters who do not waste time (or more accurately, to punish those who do). See "Exploring the Dungeon" for more on this.
+Measuring time can be important for many reasons; torches burn down to useless stubs, food is consumed, and wounded characters heal damage as they rest. In dangerous environments, such as wildernesses or dungeons, the GM will typically make periodic checks to see if any “wandering monsters” appear. These checks are normally carried out every so many turns, or hours, or days.  Since wandering monsters rarely have treasure, the appearance of wandering monsters serves to reward characters who do not waste time (or more accurately, to punish those who do). See “Exploring the Dungeon” for more on this.
 
 #### MOVEMENT
 
 Movement rates represent the distance a character (or monster) can move in one minute (1 round). If a character is moving cautiously (e.g., stalking, mapping), this movement rate is divided by 10. A party of adventurers with a movement rate of 90 ft would move at 90 ft per turn through a dungeon (moving cautiously), and in combat (not moving cautiously) they would be moving 90 ft in a round. Running allows the character to double his or her movement rate. During combat, a flat-out run is not possible unless performing a charge or fleeing from combat.
 
-Dividing movement rate by 5 (e.g., 60 ft becomes 12) gives the number of miles the character can travel in a day at walking speed along fairly level terrain. Thus, a character with a movement rate of 120 ft can march 24 miles in one day. Mounted characters use their horse's movement rate rather than their own, of course.
+Dividing movement rate by 5 (e.g., 60 ft becomes 12) gives the number of miles the character can travel in a day at walking speed along fairly level terrain. Thus, a character with a movement rate of 120 ft can march 24 miles in one day. Mounted characters use their horse’s movement rate rather than their own, of course.
 
 #### ENCUMBRANCE AND BASE MOVEMENT RATE
 
 Having the right tool for the right task can mean the difference between life and death beneath the ground in an abandoned tomb or dungeon complex. Players may be tempted to load their characters up with too much gear, burdening movement and restricting their fighting capability. Naturally, there is a limit to what an adventurer can reasonably carry, and a character weighted down with every conceivable piece of equipment will soon find that it is best to be selective in choosing how much to carry. If for no other reason, those same sacks and backpacks need to be empty enough to carry out the vast troves of coins and other treasure the party expects to find! Moreover, if the party must flee from pursuers, it may not be important to be the fastest, but it is of crucial importance not to be the slowest!
 
-The most weight a character can carry is 150 lbs, plus whatever additional weight is allowed for the character's strength. This additional weight allowance permitted by the character's strength is simply subtracted from the weight on the table below to determine a character's level of encumbrance. For instance, a character carrying 85 lbs of gear would normally be encumbered; the same character with a 50 lb weight bonus can carry 85 lbs without being encumbered, and between 86–120 lbs in the 90 ft/round movement category. The GM must apply common sense to determinations of encumbrance, taking into account the fact that an extraordinarily bulky item, even if it is quite light, will be so unwieldy as to encumber
+The most weight a character can carry is 150 lbs, plus whatever additional weight is allowed for the character’s strength. This additional weight allowance permitted by the character’s strength is simply subtracted from the weight on the table below to determine a character’s level of encumbrance. For instance, a character carrying 85 lbs of gear would normally be encumbered; the same character with a 50 lb weight bonus can carry 85 lbs without being encumbered, and between 86–120 lbs in the 90 ft/round movement category. The GM must apply common sense to determinations of encumbrance, taking into account the fact that an extraordinarily bulky item, even if it is quite light, will be so unwieldy as to encumber
 
 <!-- p.123 -->
 
@@ -10344,15 +10349,15 @@ Naturally, characters must have a container if they wish to carry liquids, large
 
 Upon gaining the requisite number of experience points, a character may increase in level after completing a period of training under the tutelage of a more experienced teacher or, at higher levels, by study or practice. In general, the cost of training will be quite steep, even if the character is high enough level not to need a tutor.
 
-The cost of training will be approximately 1,500 gp per level, and will require 1d4 weeks to complete.  Alternatively, the GM may assign a number of weeks of training based on his or her evaluation of the player's and character's performance.
+The cost of training will be approximately 1,500 gp per level, and will require 1d4 weeks to complete.  Alternatively, the GM may assign a number of weeks of training based on his or her evaluation of the player’s and character’s performance.
 
-**Random Experience Variable (Optional Rule)\*:**  If this optional rule is used, the number of experience points required to gain a level is somewhat variable, representing the vagaries of a character's individual experiences as an adventurer. The base number required to gain a level of experience, shown in the description of each character class, is modified for each level of experience by a random factor. There is a 50% chance that the base number will be reduced, and a 50% chance that it will be increased. Roll a d20 and multiply the result by the level to be attained to determine the exact amount by which the base number will be adjusted.
+**Random Experience Variable (Optional Rule)\*:**  If this optional rule is used, the number of experience points required to gain a level is somewhat variable, representing the vagaries of a character’s individual experiences as an adventurer. The base number required to gain a level of experience, shown in the description of each character class, is modified for each level of experience by a random factor. There is a 50% chance that the base number will be reduced, and a 50% chance that it will be increased. Roll a d20 and multiply the result by the level to be attained to determine the exact amount by which the base number will be adjusted.
 
 \* This optional rule is excluded from the Designation of Open Game Content.
 
 #### EXPERIENCE
 
-Experience points ("xp") are awarded by the GM for slaying monsters and recovering treasure. The GM may also choose to award additional experience points in any situation in which he or she feels that the players deserve it, although the authors recommend that such instances should not be overly frequent nor the awards made too large. For treasure recovered, the guideline is 1 xp to the party per gold piece value, assuming that the money in question is successfully extracted from the adventure area and brought to a suitable home base or town.
+Experience points (“xp”) are awarded by the GM for slaying monsters and recovering treasure. The GM may also choose to award additional experience points in any situation in which he or she feels that the players deserve it, although the authors recommend that such instances should not be overly frequent nor the awards made too large. For treasure recovered, the guideline is 1 xp to the party per gold piece value, assuming that the money in question is successfully extracted from the adventure area and brought to a suitable home base or town.
 
 An exception is magic items, which should result in an experience point award of no more than one tenth of their gold piece value if kept. (Full experience may be awarded if such an item is sold to an NPC.) Award experience for slaying monsters according to the table given hereafter. Note that if the player character level vastly exceeds the monster level, a proportional reduction should be made. Hence, for example, a tenth level fighter slaying an orc in single combat should expect no more than a single experience point for so doing. Monster levels may be calculated as follows:
 
@@ -10369,7 +10374,7 @@ An exception is magic items, which should result in an experience point award of
 | 9 | 5,251-10,000 |
 | 10 | 10,001 or higher |
 
-The "monster level" for experience point purposes should not be confused with the creature's equivalent level for combat purposes.
+The “monster level” for experience point purposes should not be confused with the creature’s equivalent level for combat purposes.
 
 <!-- p.124 -->
 
@@ -10401,13 +10406,13 @@ The "monster level" for experience point purposes should not be confused with th
 | 20+1 to 21 | 4,500 | 33 | 2,350 | 2,750 |
 | 21+1 and up | 5,000 | 35 | 2,600 | 3,000 |
 
-"Special" is the bonus for slaying a monster with a special ability. If the monster has several such abilities, several such awards should be made. Examples of special abilities are use of spells or spell-like powers (3rd level and below), invulnerability to non-magical weapons, three or more attacks, and so on. "Exceptional" denotes the bonus for an exceptional ability, such as a dragon's fiery breath, powerful spells or spell-like powers, very low armour class, very high damage potential, or unusual powers such as a gaze which petrifies its victims.
+“Special” is the bonus for slaying a monster with a special ability. If the monster has several such abilities, several such awards should be made. Examples of special abilities are use of spells or spell-like powers (3rd level and below), invulnerability to non-magical weapons, three or more attacks, and so on. “Exceptional” denotes the bonus for an exceptional ability, such as a dragon’s fiery breath, powerful spells or spell-like powers, very low armour class, very high damage potential, or unusual powers such as a gaze which petrifies its victims.
 
 Some character classes allow an experience bonus for high stats.
 
 #### LIGHT AND VISION
 
-In a dungeon, the party's light source is, of course, crucial. Torches may be blown out by gusts of wind or extinguished by water or even magic. Various light sources are available on the equipment table, and details of the illumination they provide are set forth hereafter.
+In a dungeon, the party’s light source is, of course, crucial. Torches may be blown out by gusts of wind or extinguished by water or even magic. Various light sources are available on the equipment table, and details of the illumination they provide are set forth hereafter.
 
 Bullseye lanterns illuminate 80 ft (in a 10 ft wide beam) and burn a pint of oil every 4 hours. Such lanterns can be masked.
 
@@ -10415,7 +10420,7 @@ Hooded lanterns illuminate a 30 ft radius and also burn one pint of oil every 4 
 
 Other light sources, such as lamps or magic items, will have their fields of lighting determined by the GM, who may use the information provided in this section as a guideline.
 
-Note that light sources can be seen from much further away than the radius of illumination they shed.  Approaching light will warn intelligent creatures of the approach of surface-dwellers, perhaps giving them a chance to prepare.  If the party's light source is visible to creatures in the dungeon, the GM should adjust the chance of surprise.
+Note that light sources can be seen from much further away than the radius of illumination they shed.  Approaching light will warn intelligent creatures of the approach of surface-dwellers, perhaps giving them a chance to prepare.  If the party’s light source is visible to creatures in the dungeon, the GM should adjust the chance of surprise.
 
 ##### INFRAVISION
 
@@ -10460,26 +10465,26 @@ Note that magical items gain a +2 on all saving throws. Additionally, magic item
 
 #### COMBAT
 
-When the party of adventurers comes into contact with enemies, game-time no longer follows a sequence of turns (representing 10 minutes), but is measured in rounds (representing 1 minute), subdivided into six-second long "segments." The order of events is as follows:
+When the party of adventurers comes into contact with enemies, game-time no longer follows a sequence of turns (representing 10 minutes), but is measured in rounds (representing 1 minute), subdivided into six-second long “segments.” The order of events is as follows:
 
 1. Determine Surprise (d6)
 2. Declare Spells and General Actions
-3. Determine Initiative (d6, highest result is the winner, each party acts in the segment indicated by the other party's die roll)
-4. Party with initiative acts first (casting spells, attacking, etc.), and results take effect (other than spells, which have casting times to complete before they take effect). Note: Some actions may allow the other side to "interrupt" with an action such as a fleeing attack or attacking charging opponents with spears set against a charge.
+3. Determine Initiative (d6, highest result is the winner, each party acts in the segment indicated by the other party’s die roll)
+4. Party with initiative acts first (casting spells, attacking, etc.), and results take effect (other than spells, which have casting times to complete before they take effect). Note: Some actions may allow the other side to “interrupt” with an action such as a fleeing attack or attacking charging opponents with spears set against a charge.
 5. Party that lost initiative acts, and results take effect (other than spells, which take effect when casting time is completed)
 6. The round is complete; declare spells and general actions for the next round if the battle has not been resolved.
 
 **1. Determine Surprise:**  If a group of combatants is surprised, its members are basically caught flat-footed and unable to act during the first few seconds of a battle.
 
-Surprise is checked only once per combat, at the beginning of an encounter. Each side rolls a d6. If the result is a 1, the group is surprised for one segment. If the result is a 2, the group is surprised for two segments. If the result is a 3-6, the group is not surprised. In some cases, monsters or particular character classes may have special rules for surprise (e.g. some monsters cannot be surprised, others
+Surprise is checked only once per combat, at the beginning of an encounter. Each side rolls a d6. If the result is a 1, the group is surprised for one segment. If the result is a 2, the group is surprised for two segments. If the result is a 3-6, the group is not surprised. In some cases, monsters or particular character classes may have special rules for surprise (e.g. some monsters cannot be surprised, others are stealthy enough that the party may be surprised on a roll of higher than 2). If a party of adventurers has alerted monsters to its presence (by hammering away at a door for a round or two, for example), the monsters will not need to make a surprise roll at all; however, merely being alert to the possibility of danger is not enough to avoid making a surprise roll. If neither of the opposing forces is surprised, play moves on to the regular combat round, described below.
+
+If one side is surprised while another is not, the unsurprised party may act for a number of “surprise” segments. For example, if the party rolls a 1 and the monsters roll a 2, the party is surprised for one segment, the monsters are surprised for two segments, and thus the party has one surprise segment in which to act. If the party rolls a 2 and the monsters roll a 5, the party is surprised for 2 segments and the monsters (who, having rolled a 5 were not surprised at all) have both of those 2 surprise segments in which to act. Actions that would normally happen over the course of a round may be completed in one surprise segment: talking, attacking, charging, closing to melee, beginning a spell, etc., provided that it is possible for the action to take place during a single segment. In other words, a character cannot make a minute-long speech during that six seconds, nor can a spell be fully cast unless it is a one-segment spell.
+
+A character’s surprise bonus (see “Dexterity”) acts to negate surprise segments if the character is surprised (or to create them, if the number is a penalty). Thus, a character with a +2 surprise bonus whose side rolled a 2 for surprise (normally a situation in which the character would be surprised for two segments) is not surprised. This can lead to a situation in which a party of adventurers is surprised with the exception of one member. For example,
 
 <!-- p.126 -->
 
-are stealthy enough that the party may be surprised on a roll of higher than 2). If a party of adventurers has alerted monsters to its presence (by hammering away at a door for a round or two, for example), the monsters will not need to make a surprise roll at all; however, merely being alert to the possibility of danger is not enough to avoid making a surprise roll. If neither of the opposing forces is surprised, play moves on to the regular combat round, described below.
-
-If one side is surprised while another is not, the unsurprised party may act for a number of "surprise" segments. For example, if the party rolls a 1 and the monsters roll a 2, the party is surprised for one segment, the monsters are surprised for two segments, and thus the party has one surprise segment in which to act. If the party rolls a 2 and the monsters roll a 5, the party is surprised for 2 segments and the monsters (who, having rolled a 5 were not surprised at all) have both of those 2 surprise segments in which to act. Actions that would normally happen over the course of a round may be completed in one surprise segment: talking, attacking, charging, closing to melee, beginning a spell, etc., provided that it is possible for the action to take place during a single segment. In other words, a character cannot make a minute-long speech during that six seconds, nor can a spell be fully cast unless it is a one-segment spell.
-
-A character's surprise bonus (see "Dexterity") acts to negate surprise segments if the character is surprised (or to create them, if the number is a penalty). Thus, a character with a +2 surprise bonus whose side rolled a 2 for surprise (normally a situation in which the character would be surprised for two segments) is not surprised. This can lead to a situation in which a party of adventurers is surprised with the exception of one member. For example, if the monsters rolled a 1, the party rolled a 2, and one party member had a +2 surprise bonus, the situation will resolve as follows:
+if the monsters rolled a 1, the party rolled a 2, and one party member had a +2 surprise bonus, the situation will resolve as follows:
 
 - The party member is not surprised at all, because two segments of surprise are negated by his +2 bonus.
 - The monsters are surprised for one segment, so the unsurprised party member may act during that first surprise segment.
@@ -10487,25 +10492,25 @@ A character's surprise bonus (see "Dexterity") acts to negate surprise segments 
 
 Dexterity cannot create surprise, only alter the number of segments for which surprise lasts.
 
-If a monster surprises on more than a 2 in 6 (some monster descriptions may contain text such as "surprises on 1-3"), it is possible for the monster to gain more than two segments of surprise. Against a monster that surprises on 1-3, if the party rolls a 3 and the monster is not surprised, the monster would have three surprise segments in which to act.
+If a monster surprises on more than a 2 in 6 (some monster descriptions may contain text such as “surprises on 1-3”), it is possible for the monster to gain more than two segments of surprise. Against a monster that surprises on 1-3, if the party rolls a 3 and the monster is not surprised, the monster would have three surprise segments in which to act.
 
-**2. Declare Spells and General Actions:**  Before the two sides roll initiative, spell casters must state what spells (if any) they will be casting in that round. As the round proceeds, the spell caster may elect not to cast the spell, but may not substitute another action. This is simply because the mental preparations for casting a spell are so arduous that the caster cannot switch focus quickly enough to change actions. Non-spell casters should also tell the GM, in general terms, what they will be doing: "attacking with a sword," "using my bow," "climbing the wall," etc.
+**2. Declare Spells and General Actions:**  Before the two sides roll initiative, spell casters must state what spells (if any) they will be casting in that round. As the round proceeds, the spell caster may elect not to cast the spell, but may not substitute another action. This is simply because the mental preparations for casting a spell are so arduous that the caster cannot switch focus quickly enough to change actions. Non-spell casters should also tell the GM, in general terms, what they will be doing: “attacking with a sword,” “using my bow,” “climbing the wall,” etc.
 
-Before the players do this, the GM should already have formed a similar outline of the monsters' strategy; the GM should not base the monsters' actions on what he or she already knows the players will be doing.
+Before the players do this, the GM should already have formed a similar outline of the monsters’ strategy; the GM should not base the monsters’ actions on what he or she already knows the players will be doing.
 
-**3. Determine Initiative:**  After any surprise segments are resolved and spell casting is declared, the first combat round begins. At the beginning of a combat round, each side rolls initiative on a d6. The roll represents the six second segment of the round in which the OTHER group will be able to act; hence, the higher roll is the better roll (as the other party will act later). If the party rolls a 6 for initiative, and the monsters roll a 1, this means that the party will be acting in segment 1, and the monsters will not act until the sixth segment of the 10-segment round. Since a combat round is 10 segments long, and the initiative roll only covers the first six segments of the round, there are four remaining segments in the round after the two sides have already taken their actions: these remaining four segments are still important because spells may take effect during this time, and some combatants might "hold" (choose to delay) their actions, waiting to act until these later segments.
+**3. Determine Initiative:**  After any surprise segments are resolved and spell casting is declared, the first combat round begins. At the beginning of a combat round, each side rolls initiative on a d6. The roll represents the six second segment of the round in which the OTHER group will be able to act; hence, the higher roll is the better roll (as the other party will act later). If the party rolls a 6 for initiative, and the monsters roll a 1, this means that the party will be acting in segment 1, and the monsters will not act until the sixth segment of the 10-segment round. Since a combat round is 10 segments long, and the initiative roll only covers the first six segments of the round, there are four remaining segments in the round after the two sides have already taken their actions: these remaining four segments are still important because spells may take effect during this time, and some combatants might “hold” (choose to delay) their actions, waiting to act until these later segments.
 
-The dexterity bonus for surprise is not added to an individual's initiative for melee attacks, but if a character has a missile weapon in hand, he or she applies his or her missile attack bonus as a bonus to his or her initiative (as well as to the attack roll).
+The dexterity bonus for surprise is not added to an individual’s initiative for melee attacks, but if a character has a missile weapon in hand, he or she applies his or her missile attack bonus as a bonus to his or her initiative (as well as to the attack roll).
 
-Initiative rolls may result in a tie. When this happens, both sides are considered to be acting simultaneously. The GM may handle this situation in any way he or she chooses—with one caveat. The damage inflicted by combatants during simultaneous initiative is inflicted even if one of the combatants dies during the round. It is possible for two combatants to kill each other during a simultaneous initiative round! Under any other circumstance, of course, the effects of damage inflicted during that segment will take effect immediately—a goblin killed in the first segment of the round will be dead (and thus unable to attack) by the time the fifth segment of the round arrives.
+Initiative rolls may result in a tie. When this happens, both sides are considered to be acting simultaneously. The GM may handle this situation in any way he or she chooses—with one caveat. The damage inflicted by combatants during simultaneous initiative is inflicted even if one of the combatants dies during the round. It is possible for two combatants to kill each other during a simultaneous initiative round! Under any other circumstance, of course, the effects of damage  inflicted <!-- printed as-is: see errata E390 --> during that segment will take effect immediately—a goblin killed in the first segment of the round will be dead (and thus unable to attack) by the time the fifth segment of the round arrives.
 
-Some characters (and creatures) may have more than one attack routine. This does not refer to a monster that normally makes multiple attacks in a round—all of these attacks are considered to be part of one attack routine. However, a fighter whose level grants him an additional attack is considered to be making a second entire attack routine. This is perhaps most clearly seen if the reader envisions a fighter who uses a sword in one hand and a dagger in the other. These two attacks are part of an attack routine—and if the fighter is of high enough level or under the influence of a haste spell, he or she may also gain an entire additional attack routine. A creature or character with multiple attack routines cannot use the second attack routine until after the other side's initiative segment has been resolved.
+Some characters (and creatures) may have more than one attack routine. This does not refer to a monster that normally makes multiple attacks in a round—all of these attacks are considered to be part of one attack routine. However, a fighter whose level grants him an additional attack is considered to be making a second entire attack routine. This is perhaps most clearly seen if the reader envisions a fighter who uses a sword in one hand and a dagger in the other. These two attacks are part of an attack routine—and if the fighter is of high enough level or under the influence of a haste spell, he or she may also gain an entire additional attack routine. A creature or character with multiple attack routines cannot use the second attack routine until after the other side’s initiative segment has been resolved.
 
 Once the party with initiative has acted, the party that lost initiative may then take action.
 
-**Note about spells:**  Spells have a casting time, the number of segments (or rounds, turns, etc.) required to cast the spell. The spell caster does not actually begin casting the spell until his or her initiative segment. That segment is the first segment of the casting time. The spell does not "go off" until the casting has been completed.
+**Note about spells:**  Spells have a casting time, the number of segments (or rounds, turns, etc.) required to cast the spell. The spell caster does not actually begin casting the spell until his or her initiative segment. That segment is the first segment of the casting time. The spell does not “go off” until the casting has been completed.
 
-**Example:**  Halvaine the Arcane's party is in battle with a group of orcs. At the beginning of the round, Halvaine's player declares that the magic user will cast a spell with a 2 segment casting time. The party rolls a 5 for initiative, and the GM rolls a 4 for the orcs. Halvaine thus begins casting in the fourth segment of the round (as the ORCS rolled a 4, so Halvaine's party is acting in segment 4). The orcs attack in the fifth segment (as Halvaine's party rolled a 5), and Halvaine's spell will go off in the sixth segment (as his initiative segment is 4, and he adds the casting time of 2)—provided, of course, that the orcish attack in the fifth segment does not interrupt and thus spoil his casting.
+**Example:**  Halvaine the Arcane’s party is in battle with a group of orcs. At the beginning of the round, Halvaine’s player declares that the magic user will cast a spell with a 2 segment casting time. The party rolls a 5 for initiative, and the GM rolls a 4 for the orcs. Halvaine thus begins casting in the fourth segment of the round (as the ORCS rolled a 4, so Halvaine’s party is acting in segment 4). The orcs attack in the fifth segment (as Halvaine’s party rolled a 5), and Halvaine’s spell will go off in the sixth segment (as his initiative segment is 4, and he adds the casting time of 2)—provided, of course, that the orcish attack in the fifth segment does not interrupt and thus spoil his casting.
 
 #### COMBAT ACTIONS
 
@@ -10517,31 +10522,31 @@ rules. These actions are: fleeing, negotiating, holding initiative, firing missi
 
 **Charge:**  Charging into combat allows the attacker to move and then attack in the same round. A charge is made at twice the normal movement rate (and must terminate within the 10 ft melee range of the target). If the defender has a longer weapon than the attacker, the defender attacks first (unless the defender has already acted in this round). The attacker gains no dexterity bonus against such an attack (and characters with no Dex bonus receive a +1 AC penalty). Additionally, if the defender has a weapon set against the charge (see below), he or she will inflict additional damage with a successful hit against the charging attacker.
 
-Assuming that the charging character survives, he or she gains +2 "to hit" on his or her attack. Characters may only perform a charge once every 10 rounds (i.e. once per turn). Characters who are at the maximum encumbrance category may not charge unless they are mounted and the mount is below the maximum encumbrance category.
+Assuming that the charging character survives, he or she gains +2 “to hit” on his or her attack. Characters may only perform a charge once every 10 rounds (i.e. once per turn). Characters who are at the maximum encumbrance category may not charge unless they are mounted and the mount is below the maximum encumbrance category.
 
 An attacker riding a warhorse or other combat-trained mount and equipped with a lance inflicts double the damage rolled on the charge round.  (Although the weapon damage is doubled, any bonus for strength, magic, specialisation or other such modifier is not.)
 
-**Closing into Combat:**  When two groups of combatants are not within the 10 ft melee range, the attackers may choose either to charge into combat or to advance more cautiously, closing into combat. Closing into combat does not allow the character to make an attack roll that round; the cautious advance does not generate the opening to make a significant attack.  However, neither may the character's opponent attack until the round after closing. When closing into combat, the character may advance the full amount of his or her movement.
+**Closing into Combat:**  When two groups of combatants are not within the 10 ft melee range, the attackers may choose either to charge into combat or to advance more cautiously, closing into combat. Closing into combat does not allow the character to make an attack roll that round; the cautious advance does not generate the opening to make a significant attack.  However, neither may the character’s opponent attack until the round after closing. When closing into combat, the character may advance the full amount of his or her movement.
 
-**Fighting Retreat:**  A character may retreat backward out of combat, maintaining his or her defence, although the attacker may follow if not otherwise engaged. It is possible to parry while doing so, but not to attack. This manoeuvre may be used to "switch places" with another party member who is in combat, the first party member joining battle with the enemy to prevent the enemy's pursuit while the second character makes a fighting retreat.
+**Fighting Retreat:**  A character may retreat backward out of combat, maintaining his or her defence, although the attacker may follow if not otherwise engaged. It is possible to parry while doing so, but not to attack. This manoeuvre may be used to “switch places” with another party member who is in combat, the first party member joining battle with the enemy to prevent the enemy’s pursuit while the second character makes a fighting retreat.
 
 **Fleeing from Combat:**  Often, discretion is the better part of valour, and the characters will choose to exercise the said discretion at top speed. If a character is in melee combat and runs away, his or her opponent(s) may make an immediate additional attack at +4 to hit.
 
 **Hold Initiative:**  Holding initiative is simply waiting until the other side has acted before doing anything.
 
-**Melee Attack:**  A melee attack is an attack with a hand-held weapon such as a sword, halberd, or dagger. A character's strength bonuses to hit and on damage (see "Strength") are added to melee attacks. It is only possible to make a melee attack when the two combatants are within 10 ft of each other. Two combatants within ten ft of each other are considered to be "engaged." When faced with more than one opponent, it is not possible to pick which opponent will be the one receiving the attack; in the rapid give and take of melee, any one of the opponents might be the one to let down his guard for a moment. When a character is in melee with multiple opponents, the target of an attack roll must be determined randomly, but note that characters or creatures with multiple attacks that are part of the same routine (such as a bear with a claw/claw/bite attack or a character wielding a sword and dagger) must make all attacks against the same opponent unless otherwise specified in the relevant monster's entry.
+**Melee Attack:**  A melee attack is an attack with a hand-held weapon such as a sword, halberd, or dagger. A character’s strength bonuses to hit and on damage (see “Strength”) are added to melee attacks. It is only possible to make a melee attack when the two combatants are within 10 ft of each other. Two combatants within ten ft of each other are considered to be “engaged.” When faced with more than one opponent, it is not possible to pick which opponent will be the one receiving the attack; in the rapid give and take of melee, any one of the opponents might be the one to let down his guard for a moment. When a character is in melee with multiple opponents, the target of an attack roll must be determined randomly, but note that characters or creatures with multiple attacks that are part of the same routine (such as a bear with a claw/claw/bite attack or a character wielding a sword and dagger) must make all attacks against the same opponent unless otherwise specified in the relevant monster’s entry.
 
-**Missile Attacks:**  Missile attacks are attacks with a ranged weapon such as a crossbow, sling, or thrown axe. When using missiles to attack into a melee, it is not possible to choose which particular target will receive the attack; the target should be determined randomly from among all melee participants, and the missile-firer could well hit a friend. A character's dexterity bonus for missile attacks is added to the "to hit" roll when the character is using missile weapons. If a character has a missile weapon in hand, his or her missile bonus is also added to his or her initiative roll, allowing the character to potentially attack first even if his or her party has lost the initiative roll.
+**Missile Attacks:**  Missile attacks are attacks with a ranged weapon such as a crossbow, sling, or thrown axe. When using missiles to attack into a melee, it is not possible to choose which particular target will receive the attack; the target should be determined randomly from among all melee participants, and the missile-firer could well hit a friend. A character’s dexterity bonus for missile attacks is added to the “to hit” roll when the character is using missile weapons. If a character has a missile weapon in hand, his or her missile bonus is also added to his or her initiative roll, allowing the character to potentially attack first even if his or her party has lost the initiative roll.
 
-**Negotiation and Diplomacy:**  Some combats can be averted with a few well-chosen words (including lies). If the party is outmatched, or the monsters don't seem likely to be carrying much in the way of loot, the party might elect to brazen their way through in an attempt to avoid combat (or at least delay it until favourable conditions arise).
+**Negotiation and Diplomacy:**  Some combats can be averted with a few well-chosen words (including lies). If the party is outmatched, or the monsters don’t seem likely to be carrying much in the way of loot, the party might elect to brazen their way through in an attempt to avoid combat (or at least delay it until favourable conditions arise).
 
-**Parrying:**  A character who parries cannot attack, but may subtract his or her "to hit" bonus from his or her opponent's attack roll. Parrying may be used in combination with a fighting retreat. Parrying only has value to a character with a strength or specialisation-related bonus "to hit".
+**Parrying:**  A character who parries cannot attack, but may subtract his or her “to hit” bonus from his or her opponent’s attack roll. Parrying may be used in combination with a fighting retreat. Parrying only has value to a character with a strength or specialisation-related bonus “to hit”.
 
 *[Illustration: a dagger, hilt to the left, blade extending right, with engraved lettering on the blade and pommel.]*
 
-**Spells:**  Spell casting begins in the spell caster's initiative segment, and the spell is completed at the end of the casting time. It is possible to cast a spell while within melee range of an opponent (10 ft), but if the spell caster suffers damage while casting a spell, the spell is lost. While casting a spell, the caster receives no dexterity bonus to his or her armour class.
+**Spells:**  Spell casting begins in the spell caster’s initiative segment, and the spell is completed at the end of the casting time. It is possible to cast a spell while within melee range of an opponent (10 ft), but if the spell caster suffers damage while casting a spell, the spell is lost. While casting a spell, the caster receives no dexterity bonus to his or her armour class.
 
-**Set Weapon Against Charge:**  Certain weapons can be "set" against a charge, which is a simple matter of bracing the weapon against the floor or some other stationary object. A character choosing to set his or her weapon against a charge cannot attack unless an opponent charges, but
+**Set Weapon Against Charge:**  Certain weapons can be “set” against a charge, which is a simple matter of bracing the weapon against the floor or some other stationary object. A character choosing to set his or her weapon against a charge cannot attack unless an opponent charges, but
 
 <!-- p.128 -->
 
@@ -10551,13 +10556,13 @@ Weapons that may be set against a charge include spears, lances (when used dismo
 
 **Unarmed Combat:**  Brawling attacks, such as those conducted with fist, foot, or dagger pommel, will normally inflict 1d2 points of damage. All characters are automatically presumed to be proficient with such weapons, i.e. a proficiency slot is not required to make such an attack without penalty.
 
-**Two other unarmed attack forms are possible:**  Grappling attacks and Overbearing attacks. A successful grappling attack inflicts 0-1 (1d2-1) points of damage, but also restrains the target and prevents him or her from fighting. The chance of breaking a successful grapple should be determined according to the relative strengths of the creatures concerned. (An ogre could restrain a kobold almost indefinitely, and would be able to break free of the kobold's grasp at will.)
+**Two other unarmed attack forms are possible:**  Grappling attacks and Overbearing attacks. A successful grappling attack inflicts 0-1 (1d2-1) points of damage, but also restrains the target and prevents him or her from fighting. The chance of breaking a successful grapple should be determined according to the relative strengths of the creatures concerned. (An ogre could restrain a kobold almost indefinitely, and would be able to break free of the kobold’s grasp at will.)
 
-Overbearing attacks are Grappling attacks exercised at the end of a Charge (see "Charge" above). If successful, the opponent is prone rather than restrained. Otherwise the attack is treated as a grapple.
+Overbearing attacks are Grappling attacks exercised at the end of a Charge (see “Charge” above). If successful, the opponent is prone rather than restrained. Otherwise the attack is treated as a grapple.
 
 #### COMBAT MODIFIERS
 
-**Concealment:**  Concealment is anything that obscures an opponent's vision, such as tree limbs or smoke, but does not physically block incoming attacks (which would be considered Cover rather than Concealment; see below). The GM must decide whether the defender is about a quarter (-1 to AC), half (-2 to AC), three-quarters (-3 to AC), or nine tenths (-4 to AC) concealed.
+**Concealment:**  Concealment is anything that obscures an opponent’s vision, such as tree limbs or smoke, but does not physically block incoming attacks (which would be considered Cover rather than Concealment; see below). The GM must decide whether the defender is about a quarter (-1 to AC), half (-2 to AC), three-quarters (-3 to AC), or nine tenths (-4 to AC) concealed.
 
 **Cover:**  Cover is protection behind something that can actually block incoming attacks, such as a wall or arrow slit. Cover bonuses are as follows:
 
@@ -10566,7 +10571,7 @@ Overbearing attacks are Grappling attacks exercised at the end of a Charge (see 
 75% cover: -7 AC  
 90% cover -10 AC
 
-<!-- printed as-is: NEW — the fourth line lacks the colon the other three lines carry ("90% cover -10 AC" rather than "90% cover: -10 AC") -->
+<!-- printed as-is: see errata E86 — the fourth line lacks the colon the other three lines carry ("90% cover -10 AC" rather than "90% cover: -10 AC") -->
 
 An attack from the unshielded flank denies the target any defensive advantages from a shield. An attack from the rear flank negates the defensive value of the shield and also negates any dexterity bonus.
 
@@ -10580,11 +10585,11 @@ An attack from the unshielded flank denies the target any defensive advantages f
 
 **Stunned Opponent:**  A stunned opponent receives no shield or dexterity bonus, and may be attacked at +4.
 
-**Two-Weapon Fighting:**  If a character desires to fight with one weapon in each hand, the off-hand weapon must be either a dagger or a hand axe. The weapon in the primary hand attacks with a –2 modifier, and the off-hand weapon attacks at –4. The character's dexterity bonus (or penalty) for missile weapons is added to both attacks. Thus, a character with a dexterity of 3 would be attacking at -5/-7. However, although penalties can be offset, this rule can never result in a bonus to attacks! The off-hand weapon cannot be used to affect parrying.
+**Two-Weapon Fighting:**  If a character desires to fight with one weapon in each hand, the off-hand weapon must be either a dagger or a hand axe. The weapon in the primary hand attacks with a –2 modifier, and the off-hand weapon attacks at –4. The character’s dexterity bonus (or penalty) for missile weapons is added to both attacks. Thus, a character with a dexterity of 3 would be attacking at -5/-7. However, although penalties can be offset, this rule can never result in a bonus to attacks! The off-hand weapon cannot be used to affect parrying.
 
 #### ATTACK AND SAVING THROW MATRICES FOR MONSTERS
 
-Most monsters use the attack matrices of fighters. The GM should convert the monster's Hit Dice to a level equivalent according to the following guidelines:
+Most monsters use the attack matrices of fighters. The GM should convert the monster’s Hit Dice to a level equivalent according to the following guidelines:
 
 | Monster HD | Equivalent Level |
 |---|---|
@@ -10611,7 +10616,7 @@ Most monsters use the attack matrices of fighters. The GM should convert the mon
 | 18+1 to 19 | 20 |
 | 19+1 or higher | 21 |
 
-The above table is also used to determine the monster's saving throws. Most monsters will save as fighters, but
+The above table is also used to determine the monster’s saving throws. Most monsters will save as fighters, but
 
 <!-- p.129 -->
 
@@ -10619,7 +10624,7 @@ the GM should use discretion in following this guideline; in cases where the mon
 
 In the case of powerful monsters that duplicate the abilities of several classes, the most favourable table should be used. (For example, a spell-casting dragon might save as a magic user or a fighter, whichever is better.) The level at which monsters cast spells is also normally determined by their hit dice unless the creature text indicates otherwise. For example, a magic-using dragon with 11 HD would cast spells as a 12th level spell-caster.
 
-Huge but unintelligent creatures may have their equivalent level reduced for the purposes of saving throws, subject to the GM's discretion; creatures such as dinosaurs would be appropriate for this. On rarer occasions, it may also make sense to reduce the creature's effective level for the purposes of attack tables also; this might apply to a herbivorous dinosaur, for example.
+Huge but unintelligent creatures may have their equivalent level reduced for the purposes of saving throws, subject to the GM’s discretion; creatures such as dinosaurs would be appropriate for this. On rarer occasions, it may also make sense to reduce the creature’s effective level for the purposes of attack tables also; this might apply to a herbivorous dinosaur, for example.
 
 Please note that certain creatures have a special bonus to their effective attack level.  Stirges, for example, are creatures with 1+1 hit die that attack as equivalent level 5.
 
@@ -10627,7 +10632,7 @@ Generally, the GM should take account of situations such as positional bonuses. 
 
 #### TURNING THE UNDEAD
 
-Clerics and paladins can turn undead, causing them to flee or even turning them to dust by the power of religious faith. An evil cleric can also turn a paladin, but cannot destroy the paladin by turning. Evil clerics may choose to control the undead instead of turning them. If an evil cleric gains a result of "D" on the table, the undead creature falls under the cleric's control for 24 hours.  Normally 2d6 creatures are affected by Turn Undead. Exceptions are paladins and Type 13 creatures, of which only 1d2 are affected, and results of "D", which affect 1d6+6 creatures.
+Clerics and paladins can turn undead, causing them to flee or even turning them to dust by the power of religious faith. An evil cleric can also turn a paladin, but cannot destroy the paladin by turning. Evil clerics may choose to control the undead instead of turning them. If an evil cleric gains a result of “D” on the table, the undead creature falls under the cleric’s control for 24 hours.  Normally 2d6 creatures are affected by Turn Undead. Exceptions are paladins and Type 13 creatures, of which only 1d2 are affected, and results of “D”, which affect 1d6+6 creatures.
 
 Turning lasts for 3d4 rounds. While turned, the creature must move away from the cleric at its fastest possible movement rate. It will attack a creature that is directly blocking its escape route, but otherwise may not fight.
 
@@ -10635,7 +10640,7 @@ The cleric or paladin must be holding his or her holy symbol to make a turning a
 
 To turn undead, roll a d20 on the Turning Undead Table. If the result is equal to or higher than the number shown, the attempt is successful.
 
-**Exception:**  Certain religions exist where the cleric's holy symbol is also his or her weapon (for example, some GMs may permit clerics of the god Thor to carry a hammer which doubles as a holy symbol). In this case, the cleric will be able to make a turn undead attempt with his or her weapon in hand, although even this situation does not empower the cleric to attack and attempt to turn undead in the same round.  If the cleric is successful in a turning attempt, he or she may try again next round. If the cleric fails, no further turning attempt may be made during this encounter.
+**Exception:**  Certain religions exist where the cleric’s holy symbol is also his or her weapon (for example, some GMs may permit clerics of the god Thor to carry a hammer which doubles as a holy symbol). In this case, the cleric will be able to make a turn undead attempt with his or her weapon in hand, although even this situation does not empower the cleric to attack and attempt to turn undead in the same round.  If the cleric is successful in a turning attempt, he or she may try again next round. If the cleric fails, no further turning attempt may be made during this encounter.
 
 **Optional Rule:**  An evil cleric may control no more Hit Dice worth of undead than his or her level of experience; thus a 9th level evil cleric could control no more than two wights, for example.
 
@@ -10670,31 +10675,31 @@ For the purposes of evil clerics turning paladins, paladins are treated as Type 
 
 If the number on the die is equal to or greater than the number shown on the table, the creature is turned and will flee.
 
-If the table indicates "T", the undead creature is automatically turned, and will flee.
+If the table indicates “T”, the undead creature is automatically turned, and will flee.
 
-It the table indicates "D", the undead creature is automatically destroyed and will crumble to dust. <!-- printed as-is: NEW — "It" for "If", parallel to the "If the table indicates" sentence immediately above -->
+It the table indicates “D”, the undead creature is automatically destroyed and will crumble to dust. <!-- printed as-is: see errata E87 — "It" for "If", parallel to the "If the table indicates" sentence immediately above -->
 
-For evil clerics, a result of "D" indicates that the undead are forced into the cleric's command for a period of 24 hours.
+For evil clerics, a result of “D” indicates that the undead are forced into the cleric’s command for a period of 24 hours.
 
 #### DAMAGE AND DEATH
 
-When a character or creature is hit, the amount of damage is deducted from his or her hit points. When hit points reach 0, the character is unconscious and will continue to lose one hit point per round from blood loss until death occurs at –10 hp. Note that any additional damage suffered by an unconscious character (aside from bleeding) will kill him or her instantly. The blood loss of 1 hit point per round may be stopped immediately in the same round that aid of some kind is administered to the wounded character. Being knocked unconscious is quite serious; even after returning to 1 or more hp (by means of a healing spell, potion, or natural rest) the character will remain in a coma for 1-6 turns and must rest for a minimum of one week before he or she will be capable of resuming any sort of strenuous activity, mental or physical. If a character is reduced to –6 hit points or below, the scars of the wound will likely be borne for the rest of the character's life.
+When a character or creature is hit, the amount of damage is deducted from his or her hit points. When hit points reach 0, the character is unconscious and will continue to lose one hit point per round from blood loss until death occurs at –10 hp. Note that any additional damage suffered by an unconscious character (aside from bleeding) will kill him or her instantly. The blood loss of 1 hit point per round may be stopped immediately in the same round that aid of some kind is administered to the wounded character. Being knocked unconscious is quite serious; even after returning to 1 or more hp (by means of a healing spell, potion, or natural rest) the character will remain in a coma for 1-6 turns and must rest for a minimum of one week before he or she will be capable of resuming any sort of strenuous activity, mental or physical. If a character is reduced to –6 hit points or below, the scars of the wound will likely be borne for the rest of the character’s life.
 
 Characters who are slain may be raised from the dead if a cleric of sufficient level is available to perform the casting (exception:  elves do not have souls, and are unaffected by the spells raise dead or resurrection).  If no such character is available in the party, as will be the case for most low-level parties, the group may choose to approach a NPC High Priest for assistance in raising a dead character.  The NPC will always charge a fee for such a casting, typically at least 1,000 gp.
 
 ##### NATURAL HEALING
 
-A character will recover 1 hit point per day of uninterrupted rest. However, if the character has a constitution penalty to hp, before rest will begin to affect the character's hp the character must rest for a number of days equal to the constitution penalty. A character with high constitution gains a commensurate benefit after resting for one week; the number of hp regained during the second week will be increased by the amount of the character's hp bonus at the start of the week. Four weeks of rest will return any character to full hp regardless of how many hp the character has lost.
+A character will recover 1 hit point per day of uninterrupted rest. However, if the character has a constitution penalty to hp, before rest will begin to affect the character’s hp the character must rest for a number of days equal to the constitution penalty. A character with high constitution gains a commensurate benefit after resting for one week; the number of hp regained during the second week will be increased by the amount of the character’s hp bonus at the start of the week. Four weeks of rest will return any character to full hp regardless of how many hp the character has lost.
 
 #### SUBDUAL DAMAGE
 
-A weapon may be used to beat down, rather than kill, an opponent. When the player desires, damage inflicted can be composed of half "real" damage and half "subdual" damage that does not kill. Such subdual damage is recovered at a rate of 1 hp per hour.
+A weapon may be used to beat down, rather than kill, an opponent. When the player desires, damage inflicted can be composed of half “real” damage and half “subdual” damage that does not kill. Such subdual damage is recovered at a rate of 1 hp per hour.
 
 Not all monsters may be subdued. Generally only humanoids and special creatures such as dragons will be subject to such attacks. Some creatures may voluntarily agree to accept defeat from subdual damage (this is common in knightly tourneys) but in this case, subdual must normally be agreed with the foe in advance.
 
 #### LIFE ENERGY LEVELS AND LEVEL DRAIN
 
-Certain monsters, magic items and spells have the power to drain "life energy levels", perform a "level drain", or an "energy drain" (these phrases are used interchangeably in the OSRIC rules).  If a player character is drained of a life energy level, he or she loses one complete level of experience and is placed at the beginning point of the new level. If the character is multi-classed or dual-classed, then the highest level of experience attained by that character is lost.  If the character has two equal levels, then the level lost should be determined randomly.  A player character drained below level 1 is slain (and may rise as some kind of undead creature).  Non-player characters lose a level or hit die, as applicable.
+Certain monsters, magic items and spells have the power to drain “life energy levels”, perform a “level drain”, or an “energy drain” (these phrases are used interchangeably in the OSRIC rules).  If a player character is drained of a life energy level, he or she loses one complete level of experience and is placed at the beginning point of the new level. If the character is multi-classed or dual-classed, then the highest level of experience attained by that character is lost.  If the character has two equal levels, then the level lost should be determined randomly.  A player character drained below level 1 is slain (and may rise as some kind of undead creature).  Non-player characters lose a level or hit die, as applicable.
 
 #### MORALE
 
@@ -10706,9 +10711,9 @@ should be checked when it becomes clear that the monsters are losing the fight, 
 
 The base morale for most monsters is 50%, plus 5% per hit die of the monster. (Thus for example a monster with 8+1 hit dice gets [8x5%=] +40%, for a total base morale of 90%.) The GM should adjust this according to how cowardly or heroic the monster might be, and also according to the prevailing circumstances. For example, if the monster is very cowardly and fighting opponents who are inflicting serious damage on its fellows without taking any casualties, then the GM might impose a -30% penalty to its morale check. If it is elite and fighting close to its battle standard, the GM might allow a bonus of +10%.
 
-Player characters do not need to check morale. However, hirelings, henchmen, and men-at-arms should be checked for normally. In this case the NPC's morale may be affected by his or her liege's charisma score and/or former conduct towards the NPC; the henchman's alignment may also be taken into account. (As a rule, Chaotic Evil henchmen are much more likely to betray their masters than Lawful Good ones.)
+Player characters do not need to check morale. However, hirelings, henchmen, and men-at-arms should be checked for normally. In this case the NPC’s morale may be affected by his or her liege’s charisma score and/or former conduct towards the NPC; the henchman’s alignment may also be taken into account. (As a rule, Chaotic Evil henchmen are much more likely to betray their masters than Lawful Good ones.)
 
-**Effects of Morale Check Failure:**  Creatures that fail their morale check by a margin of 25% or less will generally seek to make a fighting withdrawal. If they fail by 26% to 50%, they will generally turn and flee; a failure by 51% or higher indicates that the creature surrenders. However, the GM should use logic in conjunction with this guideline, taking into account the creature's intelligence and what it knows. A cornered creature that cannot flee, for example, or a monster that knows that its opponents move faster than it does, will surrender rather than make a futile attempt at flight.
+**Effects of Morale Check Failure:**  Creatures that fail their morale check by a margin of 25% or less will generally seek to make a fighting withdrawal. If they fail by 26% to 50%, they will generally turn and flee; a failure by 51% or higher indicates that the creature surrenders. However, the GM should use logic in conjunction with this guideline, taking into account the creature’s intelligence and what it knows. A cornered creature that cannot flee, for example, or a monster that knows that its opponents move faster than it does, will surrender rather than make a futile attempt at flight.
 
 *[Illustration: a hooded figure with a cloak and drawn sword confronting a taloned, scaled monster limb.]*
 
@@ -10742,7 +10747,7 @@ In practice death from such cases is not instantaneous, although the character i
 
 If the character dies as a result of poison, the poison must somehow be flushed from his or her bloodstream before any kind of raise dead or resurrection can succeed.
 
-The general rule is that characters cannot employ poisons as easily as monsters.  Venom taken from a creature's poison glands will, for game purposes, typically begin to lose effectiveness immediately and have become completely denatured within a few hours.  Some characters—often assassins—may learn how to create vegetable-based toxins that can last longer if kept in the correct way, but lethal toxins will still need to be handled with great care.  The GM should determine whether any given activity involving the poison runs a risk of the handler receiving a tiny cut, scratch or nick (requiring an immediate poison save). Certain good aligned character classes, such as paladins, may not use poison and will object to their companions using it.
+The general rule is that characters cannot employ poisons as easily as monsters.  Venom taken from a creature’s poison glands will, for game purposes, typically begin to lose effectiveness immediately and have become completely denatured within a few hours.  Some characters—often assassins—may learn how to create vegetable-based toxins that can last longer if kept in the correct way, but lethal toxins will still need to be handled with great care.  The GM should determine whether any given activity involving the poison runs a risk of the handler receiving a tiny cut, scratch or nick (requiring an immediate poison save). Certain good aligned character classes, such as paladins, may not use poison and will object to their companions using it.
 
 Finally, some creatures—particularly powerful ones such as dragons—are so large, and their body chemistries are so different, that poisons will not normally work against them.
 
@@ -10754,7 +10759,7 @@ Diseases in OSRIC-compatible games often come from monsters, such as mummies or 
 
 the chance of disease and its effects are described in the relevant creature text. There are a few other instances where disease may be contracted that are explained here.
 
-First, plagues (such as the mediæval bubonic plague or Black Death) may occasionally spread across the countryside.  A character who comes into contact with plague will need to save against poison to avoid succumbing him- or herself.  If the character saves, any future saving throws against the same disease will be made at +4.  If he or she fails, then after an incubation period of 2d8 days, he or she will suffer a penalty of -1d6 on all characteristics and against all die rolls for the course of the disease, which lasts a further 2d8 days.  If either of the dice show an "8" then the character dies at the end of this period, otherwise he or she recovers at the rate of 1 point less each day until cured. Further saving throws against the same disease will be made at +4.
+First, plagues (such as the mediæval bubonic plague or Black Death) may occasionally spread across the countryside.  A character who comes into contact with plague will need to save against poison to avoid succumbing him- or herself.  If the character saves, any future saving throws against the same disease will be made at +4.  If he or she fails, then after an incubation period of 2d8 days, he or she will suffer a penalty of -1d6 on all characteristics and against all die rolls for the course of the disease, which lasts a further 2d8 days.  If either of the dice show an “8” then the character dies at the end of this period, otherwise he or she recovers at the rate of 1 point less each day until cured. Further saving throws against the same disease will be made at +4.
 
 Second, certain wounds can become infected. This applies where the GM feels it appropriate, but generally where a character with an open wound engages in high-risk activity such as exploring a sewer, a saving throw –vs– poison should be required, or else the character will become infected. The effects of infection in game terms are the same as plague, except that the onset time is measured in hours rather than days.
 
@@ -10806,21 +10811,21 @@ Insanity is possible as a result of certain spells or monster attacks. A charact
 
 **Kleptomania:**  The character has an insatiable urge to steal. The character will take any opportunity to pocket a gem, coin or small magic item. If the stolen objects are taken away from the character, there is a 50% chance that he or she will become violent.
 
-**Manic-Depressive:**  During the manic phase (which lasts
+**Manic-Depressive:**  During the manic phase (which lasts 2d6 days), the character will become very excited about
 
 <!-- p.133 -->
 
-2d6 days), the character will become very excited about something—virtually anything will do.  The character will select a goal (which may be a very inappropriate one) and focus totally on achieving it.  Then there is an intermediary phase, which lasts 2d6 days, and a depressive phase, in which the character will always assume that there is no chance of success.  A depressive character will want to remain indoors in a place of safety, and in bed if possible.  The depressive phase lasts 2d6 days, followed by which there is another 2d6-day intermediary phase before the cycle begins again.
+something—virtually anything will do.  The character will select a goal (which may be a very inappropriate one) and focus totally on achieving it.  Then there is an intermediary phase, which lasts 2d6 days, and a depressive phase, in which the character will always assume that there is no chance of success.  A depressive character will want to remain indoors in a place of safety, and in bed if possible.  The depressive phase lasts 2d6 days, followed by which there is another 2d6-day intermediary phase before the cycle begins again.
 
 **Megalomania:**  The character will believe that he or she is the best—at everything.  He or she will demand to be leader of the party, will issue peremptory orders to other party members, and there is a 50% chance that the megalomaniac will become violent if these are not obeyed.  Any suggestion that he or she is not the leader and/or nor the best-qualified person for any particular job will always result in violence from the megalomaniac.
 
-**Paranoia:**  Paranoia is very dangerous in adventuring situations.  The paranoid will believe that "they" are out to get him or her, and will suspect anyone and everyone of working for "them"—particularly party members.  The paranoid will generally disobey orders and ignore suggestions on the assumption that they are intended to cause the character harm.  Eventually the character will flee his or her group or normal social circle.
+**Paranoia:**  Paranoia is very dangerous in adventuring situations.  The paranoid will believe that “they” are out to get him or her, and will suspect anyone and everyone of working for “them”—particularly party members.  The paranoid will generally disobey orders and ignore suggestions on the assumption that they are intended to cause the character harm.  Eventually the character will flee his or her group or normal social circle.
 
 **Pathological Liar:**  The pathological liar is concerned with deception, not necessarily untruth.  Thus, he or she is capable of telling the truth, but will only normally do so if he or she will not be believed.  Otherwise, the insane character must respond to all questions with lies.
 
 **Phobia:**  The character suffers from a strong and completely irrational fear of some substance, creature, or situation.
 
-**Schizophrenia:**  The character's personality splits into 1d3 separate personalities, each of which may have a different alignment or even class.  Typically the personalities are not aware of each other.
+**Schizophrenia:**  The character’s personality splits into 1d3 separate personalities, each of which may have a different alignment or even class.  Typically the personalities are not aware of each other.
 
 **Suicidal Mania:**  The character is driven to self-harm.  He or she may never flee from combat or any kind of dangerous situation.  Faced with a pit or chasm, the insane character must jump over it; faced with a chest, he or she must open it; faced with an enemy, he or she must fight it, etc.
 
@@ -10842,7 +10847,7 @@ It is typically assumed that hirelings are human; if non-human hirelings are sou
 
 ### STANDARD HIRELINGS
 
-The short term services of simple craftsmen and labourers are relatively easily procured in large settlements, but even small villages are usually able to supply something in the way of this sort of hireling. It is more difficult to find individuals willing to take service for longer than a few days, especially if considerable travel is involved. If a lengthy term of service is proposed, it is likely that only one in every six such hirelings will agree, though the offer of additional monies may increase the probability of acceptance. Under normal circumstances, a reasonable offer might be an additional two or three day's pay, which could be expected to increase the probability of agreement to as much as one in every two.
+The short term services of simple craftsmen and labourers are relatively easily procured in large settlements, but even small villages are usually able to supply something in the way of this sort of hireling. It is more difficult to find individuals willing to take service for longer than a few days, especially if considerable travel is involved. If a lengthy term of service is proposed, it is likely that only one in every six such hirelings will agree, though the offer of additional monies may increase the probability of acceptance. Under normal circumstances, a reasonable offer might be an additional two or three day’s pay, which could be expected to increase the probability of agreement to as much as one in every two.
 
 Rates of payment do not take into account the cost of materials for the undertaking of construction or the creation of items. The figuring of such costs is mainly left up to each game master, but a reasonable guideline for an item would be about ten percent of the cost of the finished product. Furthermore, monthly rates of payment assume that the hireling is provided with lodgings and that his other day to day needs are attended to; if such is not the case, then the game master will have to account for the lack.
 
@@ -10984,7 +10989,7 @@ A dwarf blacksmith is three times as efficient as a human, but will demand ten t
 
 **Engineer (Artillerist):** Mandatory for the construction and correct operation of siege weapons, such as the trebuchet or ballista. Any attempt to build or use such weapons correctly without the aid of such an engineer will surely fail. If retained for only a few months at a time, this specialist demands higher pay, perhaps as much as sixty percent above the standard wage.
 
-**Engineer (Miner and Sapper):** <!-- printed as-is: NEW (table on p.134 lists this hireling as "Engineer (Miner or Sapper)"; the descriptive heading here reads "and") --> Indispensable for the overseeing of any mining operations, underground construction, or siege and counter siege works that involve trenches, fortifications, assault towers and other similar siege devices. A dwarf engineer of this sort is required if dwarf miners are employed; he will demand twice the standard wage, but increase the productivity of any human miners by one fifth.
+**Engineer (Miner and Sapper):** <!-- printed as-is: see errata E88 (table on p.134 lists this hireling as "Engineer (Miner or Sapper)"; the descriptive heading here reads "and") --> Indispensable for the overseeing of any mining operations, underground construction, or siege and counter siege works that involve trenches, fortifications, assault towers and other similar siege devices. A dwarf engineer of this sort is required if dwarf miners are employed; he will demand twice the standard wage, but increase the productivity of any human miners by one fifth.
 
 **Jeweller and Gemcutter:** Able to speedily and accurately appraise the value of most gems, jewellery and other precious objects, a jeweller is also capable of repairing, enhancing or newly creating ornamented items and jewellery. Simple tasks, such as setting a stone in the hilt of a sword or the forging of a plain ring, might take only a few days to a week, whilst more complex undertakings, such as producing a gem studded bracelet, could take up to a month; of course, truly opulent and intricate items might take a year or more.
 
@@ -11061,7 +11066,7 @@ Many humanoids, such as kobolds, goblins, orcs, hobgoblins, bugbears or gnolls, 
 
 In game terms, the sage would be able to converse intelligently on a wide variety of subjects but would give very good advice in his or her field of study, authoritative advice in his or her special areas of research, and reasonable advice in one or two other fields. Keep in mind, too, that all this is relative—advice from a sage should never be lightly ignored, no matter the subject under discussion or area of study of the sage. Obviously, portraying such an individual presents a challenge: how much does the sage know and in what areas does he or she know it? The tables presented here should help the GM to fully answer those questions.
 
-First, the fields of specialty must be determined. As always, random generation scores are included but the GM should feel free to tailor a sage to campaign's needs. Be careful of meta-game questions or information. This is to say, the players should not be able to ask things about which the characters should have no knowledge, nor should the sage divulge information which she should not possess. If laser guns do not exist in your milieu, for instance, then no question concerning them should be answered.
+First, the fields of specialty must be determined. As always, random generation scores are included but the GM should feel free to tailor a sage to campaign’s needs. Be careful of meta-game questions or information. This is to say, the players should not be able to ask things about which the characters should have no knowledge, nor should the sage divulge information which she should not possess. If laser guns do not exist in your milieu, for instance, then no question concerning them should be answered.
 
 **Sage Ability Table**
 
@@ -11161,7 +11166,7 @@ Examples of the different types of questions:
 
 **Specific:** Do hobgoblins of the Three Skulls tribe live in the region north of the Great Mountains?
 
-**Exacting:** Do the hobgoblins of the Three Skulls tribe living in the region north of the Great Mountain possess the dread artifact known as "The Great Spear of Kaliban"?
+**Exacting:** Do the hobgoblins of the Three Skulls tribe living in the region north of the Great Mountain possess the dread artifact known as “The Great Spear of Kaliban”?
 
 A sage does not carry all his or her knowledge within his or her head. Picture the modern attorney and the considerable size of the libraries in his offices. This may give one an idea of the sheer volume of stored information a sage will wish to be able to access on demand. Sages are scholarly, eccentric types and a PC offering to hire one will be expected to provide private living spaces far away from noise and the bustle of activity. The minimum quarters a sage would accept would consist of four separate rooms of no less than 200 sq ft each: living quarters, study, library, and workroom. Depending upon the field of speciality, the sage may also request various other areas, such as a zoo for housing living creatures for study, or a greenhouse for the study of plants. The average sage will see the player as the opportunity for acquisition of additional materials for study and categorisation and will, in all likelihood, demand far more for his or her work than he or she will actually need. At any rate, the busier the sage is kept and the more often his or her studies are interrupted, the more materials and money he or she will likely demand.
 
@@ -11188,7 +11193,7 @@ A sage does not carry all his or her knowledge within his or her head. Picture t
 | 81-90 | Neutral Evil |
 | 91-00 | Neutral Good |
 
-**Special Skills:** Sages have limited ability in spell-casting granted to them by the sheer volume of knowledge they have accumulated and the type of spell is usually related to their field of speciality. The GM should determine whether the sage's spell-casting ability is arcane, phantasmal, divine or druidic when the sage is created, based on a judgement call rather than a random roll. Expertise in the field
+**Special Skills:** Sages have limited ability in spell-casting granted to them by the sheer volume of knowledge they have accumulated and the type of spell is usually related to their field of speciality. The GM should determine whether the sage’s spell-casting ability is arcane, phantasmal, divine or druidic when the sage is created, based on a judgement call rather than a random roll. Expertise in the field
 
 <!-- p.140 -->
 of magic, for instance, would indicate arcane spell ability. On the other hand a sage with extensive knowledge of trees would have druidic spell ability. Phantasmal magic might be associated with psychology and divine ability with astronomy.
@@ -11219,9 +11224,9 @@ Use the table below for determining fees and time required for information disco
 
 Location is important because the sage may need additional equipment or materials for additional research which simply would not be available in more rural settings. A sage located far from large population centres will probably require double the regular fee schedule and allotted time for research. In such a situation, after rolling on the Chance of Knowing the Answer to a Question table, roll d% again. For all categories except Special, if the second roll is 20% or less of the first percentage generated the sage knows the answer without having to conduct the research at the more expensive double rate, since the information he or she already has at hand is sufficient to answer the query.
 
-**For example:** a sage in a remote location is asked specific question in an Out of Fields category. The GM rolls a 10 on a 1d10 and the table yields a result of 20%. The GM rolls d% again and if the result is 1 (20% of 20) the sage will be able to provide an answer at the regular cost; otherwise research time and cost will be doubled. For questions in the sage's special category of knowledge the spread increases to 80%. Fees for secondary questions based upon answers to a previous question are subject to the sage's reaction to the players; the GM must decide whether the fee is charged again, or partial, or waived. Unknown information will take from 50%-100% of allotted time to determine whether sage can answer the question, but will cost only half the standard rate.
+**For example:** a sage in a remote location is asked specific question in an Out of Fields category. The GM rolls a 10 on a 1d10 and the table yields a result of 20%. The GM rolls d% again and if the result is 1 (20% of 20) the sage will be able to provide an answer at the regular cost; otherwise research time and cost will be doubled. For questions in the sage’s special category of knowledge the spread increases to 80%. Fees for secondary questions based upon answers to a previous question are subject to the sage’s reaction to the players; the GM must decide whether the fee is charged again, or partial, or waived. Unknown information will take from 50%-100% of allotted time to determine whether sage can answer the question, but will cost only half the standard rate.
 
-The abbreviation "r" means "rounds", "h" means "hours", and "d" means "days".
+The abbreviation “r” means “rounds”, “h” means “hours”, and “d” means “days”.
 
 <!-- p.141 -->
 **Information Discovery Time and Cost Table**
@@ -11243,10 +11248,10 @@ The abbreviation "r" means "rounds", "h" means "hours", and "d" means "days".
 
 Every ship, no matter the size, requires a master, at least one lieutenant and a mate. In all respects other than those outlined below, these officers correspond to the mercenary captain, lieutenant and sergeant, respectively. The master of the ship will expect to receive one half share of any treasure taken for every full share a player character receives; each lieutenant will similarly expect to receive one tenth share and each mate one fiftieth, whilst at least a further tenth share is to be distributed between the crewmen.
 
-- **Lieutenant:** Equivalent to a second or third level fighter, but incapable of conventional advancement by level. At least one lieutenant is required for every twenty crewmen or part thereof that makes up a ship's company, but not including mates. The monthly wage demanded by a lieutenant is equal to his level multiplied by 100 gold pieces.
+- **Lieutenant:** Equivalent to a second or third level fighter, but incapable of conventional advancement by level. At least one lieutenant is required for every twenty crewmen or part thereof that makes up a ship’s company, but not including mates. The monthly wage demanded by a lieutenant is equal to his level multiplied by 100 gold pieces.
 - **Marine:** Trained primarily to repel and engage in boarding actions, marines otherwise fight in close order as heavy footmen. Typical equipment includes scale armour, large shield, spear, short sword, and hand axe.
 - **Master:** Equivalent to a fifth to eighth level fighter, but incapable of conventional advancement by level. A ship must have a master of the appropriate type if it is to operate without fear of preventable disaster. The monthly wage required by a captain is equal to his level multiplied by 100 gold pieces.
-- **Mate:** Equivalent to a first level fighter, but incapable of conventional advancement by level. At least one mate is required for every ten crewmen or part thereof that makes up a ship's company.
+- **Mate:** Equivalent to a first level fighter, but incapable of conventional advancement by level. At least one mate is required for every ten crewmen or part thereof that makes up a ship’s company.
 - **Oarsman:** Accustomed to protracted periods of steady rowing, oarsmen are well paid and willing to fight as heavy footmen. Typical equipment includes studded armour, small shield, short sword, and dagger.
 - **Sailor:** Necessary for the operation of most sailing vessels, sailors will fight as light footmen, but are unwilling to wear body armour. Typical equipment includes small shield, short sword, and dagger.
 
@@ -11286,7 +11291,7 @@ Henchmen are classed and levelled non-player character adventurers in the servic
 
 **Response:** The modified total resulting from recruitment efforts is the percentage of all available potential henchmen that respond. Following the first efforts at recruitment, applicants will appear over the course of 2d4 days. If the player character is not present at the agreed place when an individual seeks them out, then that recruiting opportunity is lost. Casting spells upon a prospective henchmen will result in an unfavourable response, though if they consent an exception might be made for know alignment or detect good/evil. Direct questions about alignment and other breaches of etiquette will also be poorly received.
 
-**Characteristics:** Only relate to the interviewing player character what can be detected by normal observational means. Do not blurt out the character's alignment, constitution score, or level. Instead, allow a general idea of these attributes only as a reward to careful questioning on the part of the interviewer.
+**Characteristics:** Only relate to the interviewing player character what can be detected by normal observational means. Do not blurt out the character’s alignment, constitution score, or level. Instead, allow a general idea of these attributes only as a reward to careful questioning on the part of the interviewer.
 
 **Race:** The race of each respondent depends on the locality, and should be in proportion to the established racial demographic. That is to say, if the above prosperous trading city has a human population of 24,000, then 80% of candidates should be of that race. If you wish to reflect a higher incidence of adventurers in the demi-human population, then consider doubling the number who respond.
 
@@ -11431,7 +11436,7 @@ Sooner or later the loyalty of a non-player character will be put to the test. I
 | 76-100 | *Loyal:* Will attempt to serve, even in difficult situations. |
 | > 100 | *Fanatical:* Will serve unquestioningly and fight to the death |
 
-<!-- printed as-is: NEW (the ">100" row prints no final period; every other row in this table ends with one) -->
+<!-- printed as-is: see errata E89 (the ">100" row prints no final period; every other row in this table ends with one) -->
 
 <!-- p.145 -->
 **General Note:** The acquisition of henchmen and hirelings is key to long term success for player characters in the ongoing campaign. They provide a support structure that can help to minimise the worst misfortunes of defeat and reinforce the achievements of victory. Henchmen may even become prominent themselves, perhaps even becoming independent upon the death or retirement of the player character. However, non-player characters should not be treated lightly nor taken for granted; they should react in believable ways and pursue their own ambitions and interests when such seems reasonable. It is the responsibility of the game master to ensure that they are portrayed in a manner that keeps the game challenging for the players.
@@ -11451,7 +11456,7 @@ OSRIC is a game of adventure, and the primary activity in adventures is explorat
 
 While exploration tends to be resolved in a looser, more free-form manner than combat, where description and negotiation are central and pre-defined rules take a background role, there are nonetheless some standard procedures that will help the GM resolve these activities efficiently.
 
-If you are new to OSRIC-compatible rule sets, please reread the section on “Time Measurement” at the beginning of Chapter III and ensure that you understand it fully before reading further. When exploring dungeons time is measured in turns. In the wilderness or at sea time is typically measured in days. The planes are a special case and can conform to either, or neither, of the above.
+If you are new to OSRIC-compatible rule sets, please re-read the section on “Time Measurement” at the beginning of Chapter III and ensure that you understand it fully before reading further. When exploring dungeons time is measured in turns. In the wilderness or at sea time is typically measured in days. The planes are a special case and can conform to either, or neither, of the above.
 
 ### SEARCHING THE DUNGEON
 
@@ -11461,15 +11466,15 @@ Many OSRIC adventures will involve the characters exploring some enclosed area, 
 
 1. **Wandering Monster Check:** Every third turn the GM rolls to see if any wandering monsters are encountered (typically 1 in 6 — consult specific level key for non-standard frequency of check or likelihood of encounter)
 2. **Statement of Action:** Party caller or individual player describes the activity of the various party members, which are resolved as appropriate by the GM:
-   - A. **Move:** Up to full move rate per turn for cautious movement (including mapping); 5x normal rate when passing through familiar areas (no mapping allowed)
-   - B. **Listen for noise:** 1 round per attempt, 10% standard chance for success (adjusted for class (thieves, assassins) and race (elves, gnomes, halflings, half-orcs), only 3 attempts allowed per situation (e.g. door)
-   - C. **Open a stuck or locked door:** 1 round per attempt, 2 in 6 standard chance for success (adjusted for strength) for stuck door, locked door requires key, knock spell, exceptional strength, lock picking, or breaking down door, unlimited retries allowed but no surprise possible after failed attempt
-   - D. **Search for traps:** 1-4 rounds per attempt (covering one object or location), chance of success determined by race (dwarf or gnome), class (thief or assassin) or free-form verbal negotiation (at GM’s discretion)
-   - E. **Casually examine (and map) a room or area:** 1 turn per 20 × 20 ft room or area
-   - F. **Thoroughly examine and search for secret doors:** 1 turn per 10 × 10 ft area, 1 in 6 standard chance for success (2 in 6 for elves and half-elves)
-   - G. **Cast a spell:** See specific spell descriptions in Chapter II for casting times and effects.
-   - H. **Rest:** Typically 1 turn in every 6, plus 1 turn after every combat, must be spent resting (i.e. no movement or any other strenuous activity)
-   - I. **Other activities:** Duration of attempt and likelihood of success determined and resolved on ad-hoc basis by GM
+    - A. **Move:** Up to full move rate per turn for cautious movement (including mapping); 5x normal rate when passing through familiar areas (no mapping allowed)
+    - B. **Listen for noise:** 1 round per attempt, 10% standard chance for success (adjusted for class (thieves, assassins) and race (elves, gnomes, halflings, half-orcs), only 3 attempts allowed per situation (e.g. door)
+    - C. **Open a stuck or locked door:** 1 round per attempt, 2 in 6 standard chance for success (adjusted for strength) for stuck door, locked door requires key, knock spell, exceptional strength, lock picking, or breaking down door, unlimited retries allowed but no surprise possible after failed attempt
+    - D. **Search for traps:** 1-4 rounds per attempt (covering one object or location), chance of success determined by race (dwarf or gnome), class (thief or assassin) or free-form verbal negotiation (at GM’s discretion)
+    - E. **Casually examine (and map) a room or area:** 1 turn per 20 × 20 ft room or area
+    - F. **Thoroughly examine and search for secret doors:** 1 turn per 10 × 10 ft area, 1 in 6 standard chance for success (2 in 6 for elves and half-elves)
+    - G. **Cast a spell:** See specific spell descriptions in Chapter II for casting times and effects.
+    - H. **Rest:** Typically 1 turn in every 6, plus 1 turn after every combat, must be spent resting (i.e. no movement or any other strenuous activity)
+    - I. **Other activities:** Duration of attempt and likelihood of success determined and resolved on ad-hoc basis by GM
 3. **Encounters:** If an encounter (either with a wandering monster or a planned encounter) occurs, the GM determines surprise, distance, reactions, and resolves the encounter normally (through negotiation, evasion, or combat)
 4. **Book-keeping:** The GM records that a turn has elapsed and deducts any resources that the party has used (lost hit points, spell durations expiring, torches burning out, and so on).
 
@@ -11483,13 +11488,13 @@ The guiding principle behind the exploration rules is to maximise the number of 
 
 **Wandering Monsters:** Typically, wandering monsters are checked for every third turn and encountered 1 chance in 6. If a wandering monster does appear, determine the creature involved randomly unless some factor makes it obvious what the party has met.
 
-Some dungeon levels have special provisions for wandering monsters affecting  the frequency of checks, the chance of an encounter, or both. For example, in the first level of the *Pod Caverns of the Sinister Shroom*, the chance of meeting a wandering monster is only 1 in 10. <!-- printed as-is: NEW -->
+Some dungeon levels have special provisions for wandering monsters affecting  the frequency of checks, the chance of an encounter, or both. For example, in the first level of the *Pod Caverns of the Sinister Shroom*, the chance of meeting a wandering monster is only 1 in 10. <!-- printed as-is: see errata E90 -->
 
 Wandering monsters in dungeons should be appropriate to the environment both in type of creatures encountered and encounter difficulty. Traditionally dungeons are organised such that the deeper the dungeon level, the more numerous and deadly the creatures encountered—so a group of first level characters exploring the first level of a dungeon should tend to encounter first level monsters, with maybe the occasional second level one, whereas on the sixth dungeon level, characters might expect to meet third or fourth level monsters. This pattern varies from dungeon to dungeon, however. For example, in the *Red Mausoleum*, an adventure designed for characters level 12 and higher, most monsters are extremely powerful even on the very first level!
 
 At the GM’s option, wandering monster checks may be made less often or even skipped entirely, but before doing so it is important to think about the reasons behind the rules, and particularly what the wandering monster check should accomplish. The first purpose served by wandering monster checks is to create an impression of complexity in a “living dungeon” environment without GM needing to create activity schedules or account for every creature in the dungeon at every moment. Monsters in the dungeon will have various reasons for leaving their lairs: some may be on patrol, others looking for food, and still others exploring the dungeon just like the player characters; all of the above and more are represented by the wandering monster die.
 
-The other purpose of wandering monsters has nothing to do with verisimilitude and is purely a rules construct, but an important one: *wandering monsters discourage players from wasting time.* If there is no chance of meeting a wandering monster, there is no incentive for the players to keep the game moving no reason why they shouldn’t hold long conversations about their course of action and methodically check every inch of floor, walls, and ceiling <!-- printed as-is: NEW --> for traps and hidden treasure. Many players, especially those accustomed to computer games that have no in-game time limits, will tend towards a “pixel-hunting” approach to play. It is up to the GM, by means of wandering monsters, to discourage this kind of slow play and keep the game moving—otherwise the game will become mired in dull minutiae and nobody will have much fun.
+The other purpose of wandering monsters has nothing to do with verisimilitude and is purely a rules construct, but an important one: *wandering monsters discourage players from wasting time.* If there is no chance of meeting a wandering monster, there is no incentive for the players to keep the game moving no reason why they shouldn’t hold long conversations about their course of action and methodically check every inch of floor, walls, and ceiling <!-- printed as-is: see errata E91 --> for traps and hidden treasure. Many players, especially those accustomed to computer games that have no in-game time limits, will tend towards a “pixel-hunting” approach to play. It is up to the GM, by means of wandering monsters, to discourage this kind of slow play and keep the game moving—otherwise the game will become mired in dull minutiae and nobody will have much fun.
 
 The same principles also apply in reverse, though. The GM should adjust the chance of meeting a wandering monster according to the players’ approach. If the party is stealthy, swift, and silent, avoids heavily-trafficked areas and does not stay long in any one place, they should encounter few wandering monsters.
 
@@ -11557,13 +11562,13 @@ The players’ map represents an actual in-game object. If the players at the ta
 
 Clever GMs will see adventure-creating potential here. Maps are a valuable asset for NPCs as well as PCs; map-buying, selling and trading could be rife, and maps found in treasure hoards potentially more valuable than gold.
 
-**Searching for hidden treasure, traps, secret doors, and whatnot:** A common activity. Looking for secret doors is a time-consuming process, taking a full turn for each 10 × 10 ft area searched. Even so the chance of success is small: 1 in 6 for most characters, with elves and half-elves having an innate advantage (translating to a 2 in 6 chance). Searching for traps is best done by dwarfs, gnomes, thieves, or assassins—chances for success are as described in Chapter
+**Searching for hidden treasure, traps, secret doors, and whatnot:** A common activity. Looking for secret doors is a time-consuming process, taking a full turn for each 10 × 10 ft area searched. Even so the chance of success is small: 1 in 6 for most characters, with elves and half-elves having an innate advantage (translating to a 2 in 6 chance). Searching for traps is best done by dwarfs, gnomes, thieves, or assassins—chances for success are as described in Chapter I. A search for traps generally takes 1-4 rounds, but it is also limited to a specific object or small (no more than 5 × 5 ft) location specified by the player: “I search for traps on the door”, “I search for traps on the treasure chest”, “I search the area directly in front of the throne for traps,” etc.
+
+The GM may allow “negotiation-based” searching for secret doors or traps, in which, through careful questioning and described actions, the players may achieve a bonus, or even an automatic success, on a search. For instance, players may tap along a section of wall listening for the echo of a hollow space. If such a space is discovered, the players may describe their attempts to find and trigger the secret door they know is there—perhaps looking for loose or ill-fitting stones, suspicious indentations or
 
 <!-- p.149 -->
 
-I. A search for traps generally takes 1-4 rounds, but it is also limited to a specific object or small (no more than 5 × 5 ft) location specified by the player: “I search for traps on the door”, “I search for traps on the treasure chest”, “I search the area directly in front of the throne for traps,” etc.
-
-The GM may allow “negotiation-based” searching for secret doors or traps, in which, through careful questioning and described actions, the players may achieve a bonus, or even an automatic success, on a search. For instance, players may tap along a section of wall listening for the echo of a hollow space. If such a space is discovered, the players may describe their attempts to find and trigger the secret door they know is there—perhaps looking for loose or ill-fitting stones, suspicious indentations or cracks, wall-sconces that may turn or pivot, etc. The same approach can work for traps as well.
+cracks, wall-sconces that may turn or pivot, etc. The same approach can work for traps as well.
 
 The GM must adjudicate these negotiated searches. Perhaps they have no effect and the die roll alone decides success or failure—which certainly helps keep the game moving, but may strip away too much of the players’ ability to immerse themselves in the situation. Perhaps a careful description can give a bonus to the standard check, or perhaps the description might trump the die-roll entirely—if the player is able to describe a search in such a manner that the GM feels would definitely find the objective. The downside to this is if the player’s description is off-base (searching in the wrong place, via the wrong means, etc.) the GM might actually reduce the chance of success.
 
@@ -11591,7 +11596,7 @@ Beyond these sorts of pre-defined activities OSRIC has no specific system for re
 
 but doing so is actively detrimental to heroic gaming. Had we included a “horse riding” skill, characters would start falling off their horses. This strikes us as unnecessary, in the context of heroic adventure gaming, so if you seek a generic skill system for your game, seek it elsewhere. Success at most horse-riding tasks (for example) is automatic.
 
-Where a player character tries something beyond the mundane, the GM should determine the chances of success on an ad-hoc basis. The GM should look at the circumstances and the character’s class, level, race, and ability scores and make an informed judgement about his or her chances of success. This could be a flat judgement—”you succeed” or “you fail”—but is more commonly a die-roll of some kind. <!-- printed as-is: NEW --> The GM should usually tell the player what the chance is, ask the player if they still wish to proceed, and if so allow the player to make the appropriate roll him- or herself. However the GM always has the right to roll the dice on behalf of the player, or in secret, if the GM feels the situation demands it.
+Where a player character tries something beyond the mundane, the GM should determine the chances of success on an ad-hoc basis. The GM should look at the circumstances and the character’s class, level, race, and ability scores and make an informed judgement about his or her chances of success. This could be a flat judgement—”you succeed” or “you fail”—but is more commonly a die-roll of some kind. <!-- printed as-is: see errata E92 --> The GM should usually tell the player what the chance is, ask the player if they still wish to proceed, and if so allow the player to make the appropriate roll him- or herself. However the GM always has the right to roll the dice on behalf of the player, or in secret, if the GM feels the situation demands it.
 
 In determining the ad-hoc chance for success for various tasks, it may be helpful for the GM to look at other similar tasks that have already been defined. For instance, the strength-based chances to Open Doors and/or Bend Bars, the magic user’s intelligence-based Chance to Know Spells, and the constitution-based roll to survive System Shocks can all be extrapolated to cover a wider variety of situations. The same applies to saving throws, which consider class and level rather than just raw ability, so that high-level characters will be generally more successful than lower level characters, and each class will tend to have areas of speciality (clerics better at tasks that require a save vs death, Magic users at tasks that require a save vs spells, etc.)
 
@@ -11723,13 +11728,13 @@ The party will find the stream is initially shallow and follows the depths of th
 
 1. **Guard Cave:** The stream continues through this area and flows out through a smaller tunnel to the north. Attempts to follow the stream will be difficult, if not impossible, as the tunnel rapidly narrows until it is filled by the rushing water. This cave is occupied by 6 orcs (hp 6, 6, 5, 5, 3, 3) each armed with spears and hand axes. Unless the party takes extreme caution, any entrance through the stream tunnel will cause ripples thus alerting the guards. They will attempt to surprise and attack the first PC to enter by hurling hand axes and then attacking with spear thrusts. Each guard carries 2d6 sp and 2d8 cp on him. This room is occupied with sleeping skins, food of the most terrible sort, and water skins. A crude playing table is covered with a pair of knuckle bone dice, 24 sp and 7 gp.
 
-2. **Common Sleeping Area:** All orcs live here unless occupied elsewhere. Enough sleeping skins and cots are present for the entire contingent. A central fireplace creates a smoky atmosphere. This common area is filled with long rough tables, captured tapestries (4 worth 50 gp each; the rest are worthless), assorted silverware and other utensils worth a total of 250 gp, and the stuffed and mounted head of a manticore (the orc leader claims to have slain the creature singlehandedly; in actuality he found it already dead from old age and took the head as a trophy... the astute PC will notice the head has no teeth). 12 orcs (hp 8, 8, 7, 7, 6, 6, 5, 5, 5, 4, 4, and 4) stay here when not on duty in the GUARD CAVE or needed elsewhere. Of these, ten wear leather armour. Six are armed with spears and hand axes, four are armed with short swords and spears, and the two orcs with 8 hp are armed with broad swords and wearing chainmail armour and carry shields. The two toughest orcs keep on their persons 3d20 gp and 4d8 sp each. The remainder possess 2d6 gp and 2d20 cp each.
+2. **Common Sleeping Area:** All orcs live here unless occupied elsewhere. Enough sleeping skins and cots are present for the entire contingent. A central fireplace creates a smoky atmosphere. This common area is filled with long rough tables, captured tapestries (4 worth 50 gp each; the rest are worthless), assorted silverware and other utensils worth a total of 250 gp, and the stuffed and mounted head of a manticore (the orc leader claims to have slain the creature single-handedly; in actuality he found it already dead from old age and took the head as a trophy... the astute PC will notice the head has no teeth). 12 orcs (hp 8, 8, 7, 7, 6, 6, 5, 5, 5, 4, 4, and 4) stay here when not on duty in the GUARD CAVE or needed elsewhere. Of these, ten wear leather armour. Six are armed with spears and hand axes, four are armed with short swords and spears, and the two orcs with 8 hp are armed with broad swords and wearing chainmail armour and carry shields. The two toughest orcs keep on their persons 3d20 gp and 4d8 sp each. The remainder possess 2d6 gp and 2d20 cp each.
 
 3. **Arsenal:** Assorted arms captured on raids and not used by the orcs will be stacked in here. The inventory is as follows: 1 stack of 25 spears, 1 pile of 6 daggers, 1 pile of 5 short bows, 2 piles of 5 quivers each (one pile has all quivers fully filled; the second pile has quivers in various states of capacity), 1 stack of 8 short swords, and 1 stack of 5 halberds.
 
 4. **Dog Kennel:** The orcs keep 4 war dogs (hp 6, 5, 5, 5) here behind a crude wooden fence, and will retrieve them if any invading force totals four or more. Various bones, both animal and sapient, can be found scattered through this den, but there is nothing of value to be found.
 
-5. **Goods Storage:** the orcs keep in this cave all the assorted goods taken during raids. If the party has time, a thorough perusal of the contents will reveal: 3 barrels of oil, 200 lbs of various cloths in bolt form (worth 50 gp total), 30 various iron pots and pans, 14 books on various themes (none magical), 1500 lbs of lumber cut in various sizes and shapes, 1 keg of large nails, and 4 mounted animal heads (2 large deer, an ogre, and a Pegasus). <!-- printed as-is: NEW -->
+5. **Goods Storage:** the orcs keep in this cave all the assorted goods taken during raids. If the party has time, a thorough perusal of the contents will reveal: 3 barrels of oil, 200 lbs of various cloths in bolt form (worth 50 gp total), 30 various iron pots and pans, 14 books on various themes (none magical), 1500 lbs of lumber cut in various sizes and shapes, 1 keg of large nails, and 4 mounted animal heads (2 large deer, an ogre, and a Pegasus). <!-- printed as-is: see errata E93 -->
 
 ## SAMPLE PLAY SESSION
 
@@ -11803,7 +11808,7 @@ The party will find the stream is initially shallow and follows the depths of th
 
 **Chuck:** Oh. Never mind.
 
-**Bob:** Alright then, the NPC and the mule stay behind. Marching order as before, with the cleric bringing up the rear. The elf has his sling out, the dwarf his crossbow, I’ve got my spear, Alice is holding the torch, and the clEric has his hammer and shield. Everybody agree? <!-- printed as-is: NEW -->
+**Bob:** Alright then, the NPC and the mule stay behind. Marching order as before, with the cleric bringing up the rear. The elf has his sling out, the dwarf his crossbow, I’ve got my spear, Alice is holding the torch, and the clEric has his hammer and shield. Everybody agree? <!-- printed as-is: see errata E94 -->
 
 **All but GM:** Yup.
 
@@ -11824,6 +11829,56 @@ The party will find the stream is initially shallow and follows the depths of th
 **Bob:** [rolls] 2
 
 **All but GM:** *Groan*
+
+**GM:** Okay, as you file into the cavern you’re caught unawares for 2 segments…
+
+**Eric:** I’ve got a 16 dex!
+
+**GM:** Right, so Floppinjay is caught for 1 segment and everybody else for 2 segments by a half-dozen brownish-green fellows with bristly black hair and pink pig-snouts. They’re currently [rolls] 30 ft away to your right (the east), charging at you and hurling hand axes as they come. Segment 1, they charge 18 ft. Segment 2, they charge the remaining 12 ft, hurl their axes, and pull out spears. Only the first 3 of you are open targets, and only Hogarth and Groin can be hit. [Rolls] 4 attacks on the dwarf, 2 on the fighter. [Rolls] No hits on the fighter, 3 on the dwarf. [Rolls] 7 points total damage. 2 orcs on each of the dwarf, elf, and fighter. Actions for round one.
+
+**Bob:** Attack one of the orcs on me with my spear.
+
+**Eric:** Fighting retreat in a northerly direction.
+
+**Jason:** Drop my crossbow, pull out my axe and attack.
+
+**Chuck:** Can I move forward into the room?
+
+**GM:** No, Alice is blocking your way.
+
+**Chuck:** Right-o, then. I’ll wait for her to clear the way…
+
+**Mary:** Do we see or hear any orcs besides these 6?
+
+**GM:** No.
+
+**Mary:** Then I’ll drop my sleep spell right in the middle of the crowd.
+
+**GM:** OK, initiative. Beat a [rolls] 2.
+
+**Bob:** [rolls] 1. Crap!
+
+**GM:** The 2 orcs on Floppinjay follow him north and attack [roll] 1 miss, 1 hit. [rolls] 3 damage. <!-- printed as-is: see errata E95 -->
+
+**Eric:** Aiee!
+
+**GM:** 2 attacks on Hogarth [rolls] miss, miss. 2 attacks on Groin [rolls] miss, hit. [rolls] 5 damage.
+
+**Jason:** I’m down, -3 hit points.
+
+**GM:** You’re not dead but you’re unconscious and bleeding. You’re also underwater…
+
+**Jason:** *Gurgle, gurgle*
+
+**GM:** Bob, you’re up.
+
+**Bob:** Attacking the orc on the left. [rolls] 10.
+
+**GM:** That’s a miss…
+
+**Mary:** I step forward so Chuck can squeeze by and get to Jason. Then I cast my spell.
+
+**GM:** [rolls] The 4 orcs who were attacking Hogarth and Groin are all affected,
 
 <!-- p.156 -->
 
@@ -11907,7 +11962,7 @@ and so is Hogarth. Floppinjay and the 2 orcs who were on him are out of the area
 
 **GM:** You turn to see 4 large dogs bearing down on you from the northeast passage. They’re currently 80 ft away and charging.
 
-**Mary:** I guess those are the “dogs of war,” eh? I figured that was just a codephrase, like “Hey, Rube”…
+**Mary:** I guess those are the “dogs of war,” eh? I figured that was just a code-phrase, like “Hey, Rube”…
 
 **GM:** Nobody but Eric is in the room. Initiative? [rolls] Beat a 6.
 
@@ -11967,11 +12022,11 @@ Not all OSRIC adventures involve dungeons—but many will. Dungeon design is an 
 
 A dungeon or other adventure setting is more than merely monsters and treasures. The clever GM will draw the players into the world by serving as their eyes and ears. Compare and contrast the following statements:
 
-**Example #1:** "Your party travels down the 60 ft corridor without incident and arrives at a locked door."<!-- printed as-is: NEW -->
+**Example #1:** ”Your party travels down the 60 ft corridor without incident and arrives at a locked door.”<!-- printed as-is: see errata E96 -->
 
-**Example #2:** "With the thief scouting for traps in front of the party, you proceed slowly down the corridor. The guttering torchlight throws eerie, flickering shadows upon the walls, revealing darker stone and cruder workmanship than that of the previous level. Unfortunately the torchlight doesn't shed enough light to see to the end, all you can see by the yellow flame is the corridor continuing on into the darkness 40 ft away. A faint current of icy cold air blows into your faces, carrying with it a dank and mouldy smell as the thief pauses for a moment, looking at something on the damp stone floor before continuing. As you pass by you note the badly dented helmet he was examining. It appears damaged beyond all use. From somewhere behind comes the faint sound of slithering—perhaps the sound of one of the many pests inhabiting the lower levels of the dungeon, or is it something more? After travelling about 60 ft, you arrive at a solid looking door, its heavy wood beams solidly bound with rusting iron. The slithering noise has ceased, for now."<!-- printed as-is: NEW -->
+**Example #2:** ”With the thief scouting for traps in front of the party, you proceed slowly down the corridor. The guttering torchlight throws eerie, flickering shadows upon the walls, revealing darker stone and cruder workmanship than that of the previous level. Unfortunately the torchlight doesn’t shed enough light to see to the end, all you can see by the yellow flame is the corridor continuing on into the darkness 40 ft away. A faint current of icy cold air blows into your faces, carrying with it a dank and mouldy smell as the thief pauses for a moment, looking at something on the damp stone floor before continuing. As you pass by you note the badly dented helmet he was examining. It appears damaged beyond all use. From somewhere behind comes the faint sound of slithering—perhaps the sound of one of the many pests inhabiting the lower levels of the dungeon, or is it something more? After travelling about 60 ft, you arrive at a solid looking door, its heavy wood beams solidly bound with rusting iron. The slithering noise has ceased, for now.”<!-- printed as-is: see errata E97 -->
 
-Both passages describe the same 60 ft trek down an empty corridor to a door. Compare the dry and somewhat terse language of the first with the complete involvement of the player's senses contained in the second: the GM describes what the characters see, smell, and hear. They have arrived at the door and are very likely wondering what may be prowling the corridor behind them, just outside of the range of their puny torches. It's a harmless pest, but the players don't know that; the GM is simply telling them what the characters hear. Now contrast the two door descriptions. The players go from a rather bland statement about the door being locked, information to which they should not yet have access, to almost seeing the patches of rust on the sturdy iron bindings and wondering if they will easily get through the door.
+Both passages describe the same 60 ft trek down an empty corridor to a door. Compare the dry and somewhat terse language of the first with the complete involvement of the player’s senses contained in the second: the GM describes what the characters see, smell, and hear. They have arrived at the door and are very likely wondering what may be prowling the corridor behind them, just outside of the range of their puny torches. It’s a harmless pest, but the players don’t know that; the GM is simply telling them what the characters hear. Now contrast the two door descriptions. The players go from a rather bland statement about the door being locked, information to which they should not yet have access, to almost seeing the patches of rust on the sturdy iron bindings and wondering if they will easily get through the door.
 
 It is about this method of filling out the dungeon with sensory input for the players that this section of the OSRIC rules speaks. It is called dungeon dressing and, as we saw above, dungeon dressing can elevate a mundane trip down 60 ft of corridor from an interlude into an experience. Tables are provided for random generation or, as always, the GM may pick and choose specific items for maximum effect. Note the tables are best served in areas otherwise lacking features of note. That is to say, the nuances of your carefully crafted sights, sounds, and smells may be lost upon the party battling for their lives against a horde of skeleton warriors. Although random tables are included, results should still be edited for a degree of consistency.
 
@@ -12017,8 +12072,7 @@ It is about this method of filling out the dungeon with sensory input for the pl
 | 27 | copper coin, bent | 79 | scratches on wall |
 | 28-29 | cracks in ceiling | 80 | slime on ceiling |
 | 30-33 | cracks in floor | 81 | slime on floor |
-<!-- p.158 -->
-| 34-40 | cracks in wall | 82-83 | slime on wall |
+| <!-- p.158 -->34-40 | cracks in wall | 82-83 | slime on wall |
 | 41 | cracked flask | 84 | spike |
 | 42-44 | cracked hammer head | 85 | sticks |
 | 45-49 | dagger hilt | 86 | strap (shield or armour) |
@@ -12127,8 +12181,7 @@ It is about this method of filling out the dungeon with sensory input for the pl
 | 16 | cassocks | 65 | rail |
 | 17 | chime | 66-67 | robes |
 | 18-19 | altar cloth | 68-69 | sanctuary |
-<!-- p.159 -->
-| 20-23 | columns or pillars | 70-71 | screen |
+| <!-- p.159 -->20-23 | columns or pillars | 70-71 | screen |
 | 24 | curtain or tapestry | 72-76 | shrine |
 | 25 | drum | 77 | side chair |
 | 26-27 | font | 78-79 | stand |
@@ -12159,7 +12212,7 @@ It is about this method of filling out the dungeon with sensory input for the pl
 | 32 | fetters | 81 | thongs |
 | 33-35 | fire pit | 82-85 | thumb screws |
 | 36 | grill | 86-88 | torches |
-| 37-38 | hooks | 89-90 | "U" Rack |
+| 37-38 | hooks | 89-90 | “U” Rack |
 | 39-43 | iron maiden | 91 | vice |
 | 44 | knives | 92-93 | well |
 | 45 | manacles | 94-96 | wheel |
@@ -12238,8 +12291,7 @@ It is about this method of filling out the dungeon with sensory input for the pl
 | 11 | small box | 59 | platter |
 | 12-13 | brush | 60 | pot |
 | 14 | candle | 61 | pouch |
-<!-- p.160 -->
-| 15 | candle snuffer | 62 | puff |
+| <!-- p.160 -->15 | candle snuffer | 62 | puff |
 | 16 | candlestick | 63 | quill |
 | 17 | walking cane | 64 | razor |
 | 18 | case | 65 | rope |
@@ -12358,7 +12410,7 @@ Column 3 (continued): Storage, Strongroom, Study, Temple, Throne Room, Toilet, T
 
 ## TRAP GENERATION AND PLACEMENT
 
-The trap generation chart below is not an exhaustive list. In fact, a quick perusal of this chart should readily produce several variations on the themes presented herein. It should also be noted that some traps can be combined to great effect. For instance, a spiked pit trap might trigger a swinging log to "help" the players in. Use your imagination.
+The trap generation chart below is not an exhaustive list. In fact, a quick perusal of this chart should readily produce several variations on the themes presented herein. It should also be noted that some traps can be combined to great effect. For instance, a spiked pit trap might trigger a swinging log to “help” the players in. Use your imagination.
 
 There are various possible trap levels appropriate for different situations, as follows:
 
@@ -12372,17 +12424,17 @@ There are various possible trap levels appropriate for different situations, as 
 
 ### Trap Placement
 
-Generally traps should be suited to the dungeon level on which they are situated and the potential treasure they guard. Thus a trap on the first dungeon level that leads to an area infested with ferocious but poverty-stricken monsters should be nuisance, while a trap on the sixteenth dungeon level that protects a pair of dragons' treasure hoard while the dragons are out hunting should be fatal.
+Generally traps should be suited to the dungeon level on which they are situated and the potential treasure they guard. Thus a trap on the first dungeon level that leads to an area infested with ferocious but poverty-stricken monsters should be nuisance, while a trap on the sixteenth dungeon level that protects a pair of dragons’ treasure hoard while the dragons are out hunting should be fatal.
 
 Intelligent creatures that live near a trap will always have some means of avoiding or disarming it—whether this be an alternative route they habitually take or some mechanical or magical means of bypassing it. If they use the trap to protect their lair, treasure or young, they will maintain the trap to the best of their ability (perhaps cleaning away bloodstains or other evidence of its existence, for example). And if the player characters learn to bypass the trap, intelligent monsters may try to find a way of making it effective again—perhaps by moving it or adding additional features, according to their ability and resources.
 
 When placing traps, think about their purpose in the game and the effect they will have on playing style. Traps are there to increase the risk of dungeoneering and to encourage skilled play; good dungeons have a judicious mixture of monsters, traps and roleplaying encounters.
 
-Let's consider two OSRIC GMs. One likes to use many traps, some of which cause instant death with no save, while another prefers to use much fewer traps and always permits a saving throw.
+Let’s consider two OSRIC GMs. One likes to use many traps, some of which cause instant death with no save, while another prefers to use much fewer traps and always permits a saving throw.
 
-The first GM's players will adapt. They will move slowly and carefully through the dungeon, and may have summoned creatures or created zombies move ahead of them to trigger any traps they might encounter. They will tend to capture prisoners and question them under charm or some similar magic about the dungeon environment, and evil aligned characters may use captives like mining canaries. The pace of play will be slow owing to the characters' caution.
+The first GM’s players will adapt. They will move slowly and carefully through the dungeon, and may have summoned creatures or created zombies move ahead of them to trigger any traps they might encounter. They will tend to capture prisoners and question them under charm or some similar magic about the dungeon environment, and evil aligned characters may use captives like mining canaries. The pace of play will be slow owing to the characters’ caution.
 
-The second GM's players will tend not to be thieves. They will move more rapidly through the dungeon to try to achieve surprise against any foes they might encounter, and the game will have a more heroic feel to it.
+The second GM’s players will tend not to be thieves. They will move more rapidly through the dungeon to try to achieve surprise against any foes they might encounter, and the game will have a more heroic feel to it.
 
 Decide which style of game suits you and your group and design traps in your dungeons accordingly.
 
@@ -12401,8 +12453,7 @@ Decide which style of game suits you and your group and design traps in your dun
 | 17-18 | ceiling block drops on players | 67-68 | poisoned spike pit |
 | 19-20 | ceiling block seals players in room or area | 69-70 | portcullis drops behind players |
 | 21-22 | elevator room | 71-72 | portcullises drop in front of and behind players |
-<!-- p.162 -->
-| 23-24 | elevator room, deactivates for 24 hours | 73-74 | portcullis drops in front of players |
+| <!-- p.162 -->23-24 | elevator room, deactivates for 24 hours | 73-74 | portcullis drops in front of players |
 | 25-26 | elevator room, one way | 75-76 | rolling stone ball, height and width of corridor |
 | 27-28 | falling door | 77-78 | scything blade, ankle-high |
 | 29-30 | flame jets | 79-80 | scything blade, neck-high |
@@ -12480,8 +12531,7 @@ Tricks make something harmless appear dangerous, or make something dangerous app
 | 29 | dispenses jewellery | 79 | shifting |
 | 30 | dispenses magic item | 80 | shoots |
 | 31 | dispenses map | 81 | sings |
-<!-- p.163 -->
-| 32 | distorted depth | 82 | sinking |
+| <!-- p.163 -->32 | distorted depth | 82 | sinking |
 | 33 | distorted height | 83 | sliding |
 | 34 | distorted length | 84 | sloping |
 | 35 | distorted width | 85 | spinning |
@@ -12507,7 +12557,7 @@ Gina decides to roll a second trick for a different room and rolls a 25 then 31,
 
 ## RANDOM DUNGEON GENERATION
 
-This GM aid is designed for on-the-fly dungeon generation when a gaming session takes an unexpected turn. It can also serve to spur the imagination when one's artistic abilities fail and can even be used for solo play. The following tables should be appropriate for everything from one level side-quests to generating add-on levels for the GM's own mega-dungeon. The GM is advised to freely "fudge" the die roll if an impossible result is generated. If the tables dictate a room which will not fit in the available space, for instance, then either resize the room or reroll. Remember at all times the random dungeon generator is an aid rather than a hard and fast set of rules. For the purposes of this table OSRIC defines a room as having exits which are closed by a door or other portal, whereas a chamber has open exits such as archways.
+This GM aid is designed for on-the-fly dungeon generation when a gaming session takes an unexpected turn. It can also serve to spur the imagination when one’s artistic abilities fail and can even be used for solo play. The following tables should be appropriate for everything from one level side-quests to generating add-on levels for the GM’s own mega-dungeon. The GM is advised to freely “fudge” the die roll if an impossible result is generated. If the tables dictate a room which will not fit in the available space, for instance, then either resize the room or reroll. Remember at all times the random dungeon generator is an aid rather than a hard and fast set of rules. For the purposes of this table OSRIC defines a room as having exits which are closed by a door or other portal, whereas a chamber has open exits such as archways.
 
 **How to create a random dungeon:**
 
@@ -12574,7 +12624,7 @@ Proceed to Table 5: Number of Exits
 
 *Roll 1d20: 1-6 room has a pool (see Table 15: Pools), 7 room has a well, 8-11 room has a shaft, 12-20 proceed to Table 4.
 
-**GM's discretion. Freehand draw an unusual shape, or pick a standard room as needed for mapping needs, or reroll.
+**GM’s discretion. Freehand draw an unusual shape, or pick a standard room as needed for mapping needs, or reroll.
 
 Proceed to Table 4: Approximate Size Table for Unusual Rooms
 
@@ -12711,7 +12761,7 @@ If the treasure is guarded by a monster, roll twice and add 1 to each roll. Othe
 | 19 | Roll 1d8, 1-5 = no treasure, 6-8 = 1 magic item |
 | 20 | 1 magic item |
 
-Results from this table should be multiplied by the level of the dungeon concerned. So if the party is on the third dungeon level and the d20 shows "13", they will receive 3d4 × 100 gp rather than 1d4. If the party is on the fifth dungeon level and a magic item is rolled, the party actually receives 5 magic items. The GM should adjust any extreme results to keep them proportional.
+Results from this table should be multiplied by the level of the dungeon concerned. So if the party is on the third dungeon level and the d20 shows “13”, they will receive 3d4 × 100 gp rather than 1d4. If the party is on the fifth dungeon level and a magic item is rolled, the party actually receives 5 magic items. The GM should adjust any extreme results to keep them proportional.
 
 ### Table 13: Stairs (1d20)
 
@@ -12776,7 +12826,7 @@ In order to learn the secret of a magic pool, adventurers must actually enter th
 |---|---|
 | 1-8 | Roll 1d20. Pool turns gold pieces into platinum pieces (1-12) or lead (13-20); after doing this once, pool is non-magical. |
 | 9-15 | Characters in pool will either lose (01-50 on d%) or gain (51-00) 1 point from a randomly-determined attribute. Roll 1d6: 1=strength, 2=dexterity, 3=constitution, 4=intelligence, 5=wisdom, 6=charisma. One time only effect, each character checked separately for loss or gain and affected characteristic. |
-| 16-17 | Talking pool, will grant 1 wish to any characters of like alignment and damage all others (1d20 points). Wish must be used within 24 hours. Roll 1d20 for pool's alignment: 1-6 LG; 7-9 LE; 10-12 CG; 13-17 CE; 18-20 TN. |
+| 16-17 | Talking pool, will grant 1 wish to any characters of like alignment and damage all others (1d20 points). Wish must be used within 24 hours. Roll 1d20 for pool’s alignment: 1-6 LG; 7-9 LE; 10-12 CG; 13-17 CE; 18-20 TN. |
 | 18-20 | Transporter pool. Roll 1d20: 1-7 back to surface; 8-12 elsewhere on level; 13-16 1 level down; 17-20 many miles away for wilderness or outdoor adventure. This one can be especially fiendish if not all characters in the party are standing in the pool. |
 
 ### Table 18: General (1d20)
@@ -12823,8 +12873,8 @@ This table is for use with doors that exit a room. For passages, consult Table 7
 | 5-8 | right 90 degrees |
 | 9 | left 45 degrees (d6, 1-3 ahead, 4-6 behind) |
 | 10 | right 45 degrees (d6, 1-3 ahead, 4-6 behind) |
-| 11-13 | passage T's |
-| 14-15 | passage Y's |
+| 11-13 | passage T’s |
+| 14-15 | passage Y’s |
 | 16-19 | four-way intersection |
 | 20 | five-way intersection* |
 
@@ -12855,7 +12905,7 @@ Proceed to Table 18: General
 
 ** Determine passage width via an additional roll. The stream bisects the passage. It will be bridged 75% of the time.
 
-*** Determine passage width via an additional roll. The river bisects the passage. It will be bridged 50% of the time or have a boat 25% of the time (50% chance the boat is on the player's side).
+*** Determine passage width via an additional roll. The river bisects the passage. It will be bridged 50% of the time or have a boat 25% of the time (50% chance the boat is on the player’s side).
 
 **** Determine passage width via an additional roll. The chasm bisects the passage and is a long sheer drop (nominally 100 ft). It will be bridged 50% of the time or have a narrower spot suitable for jumping across 25% of the time.
 
@@ -12876,11 +12926,11 @@ Start with Table 1: Starting locations in the middle of a sheet of graph paper. 
 
 To resolve listening at doors, roll 1d12 and treat a result of 1-5 as a monster encounter. Use Table 8: Chamber or Room Contents but treat any result as including a monster encounter. Otherwise, any monster encounters rolled should be ignored unless the creatures would be silent (undead, bugbears, etc.).
 
-*ESP*, scrying, and other means of magical detection can be resolved in the following manner. A roll of 1 on 1d6 indicates a monster in the area being checked. Roll the encounter using the relevant GM table and ignoring any monster type not detectable by method of detection used. If a 6 is rolled, the player should reroll when entering the room. If a 6 is rolled again a non-detectable monster is encountered and player's chance to be surprised increases by +1.
+*ESP*, scrying, and other means of magical detection can be resolved in the following manner. A roll of 1 on 1d6 indicates a monster in the area being checked. Roll the encounter using the relevant GM table and ignoring any monster type not detectable by method of detection used. If a 6 is rolled, the player should reroll when entering the room. If a 6 is rolled again a non-detectable monster is encountered and player’s chance to be surprised increases by +1.
 
-**Stocking the Dungeon:** You may wish to use the "Random Encounters" section that follows to stock your dungeon, or you may wish to design specific areas without reference to random tables. Many GMs use a mixture of the two methods, with designed areas surrounded by randomly-generated areas.
+**Stocking the Dungeon:** You may wish to use the “Random Encounters” section that follows to stock your dungeon, or you may wish to design specific areas without reference to random tables. Many GMs use a mixture of the two methods, with designed areas surrounded by randomly-generated areas.
 
-The degree to which dungeon "ecology" matters is up to the individual GM. Some GMs give thought to food sources, water sources and latrine facilities; others do not bother. The authors recommend the following golden rule: Dungeons don't have to make sense, but they do need to be full of variety. Having said this, a little thought on the placement of creatures doesn't go amiss—if there's some logic behind the dungeon, then it's easier for skilled players to work out what's going on and use it to their advantage, and rewarding player skill is an important aspect of the OSRIC system.
+The degree to which dungeon “ecology” matters is up to the individual GM. Some GMs give thought to food sources, water sources and latrine facilities; others do not bother. The authors recommend the following golden rule: Dungeons don’t have to make sense, but they do need to be full of variety. Having said this, a little thought on the placement of creatures doesn’t go amiss—if there’s some logic behind the dungeon, then it’s easier for skilled players to work out what’s going on and use it to their advantage, and rewarding player skill is an important aspect of the OSRIC system.
 
 ## RANDOM ENCOUNTERS
 
@@ -12888,7 +12938,7 @@ The degree to which dungeon "ecology" matters is up to the individual GM. Some G
 
 **Directions:** When a random monster encounter is called for, roll a d12. Cross-reference the result with the dungeon level where the encounter occurs on the Monster Sub-table Matrix. Once the sub-table is found, roll a d% to determine the actual monster(s) encountered.
 
-The # column lists the numbers encountered on the dungeon level equivalent to the monster's level. If encountered on a lower or higher level, adjust the numbers encountered as follows:
+The # column lists the numbers encountered on the dungeon level equivalent to the monster’s level. If encountered on a lower or higher level, adjust the numbers encountered as follows:
 
 Lesser monsters encountered on a lower dungeon level should have their numbers increased by the same amount for each dungeon level lower than their monster level. For example, the sub-table # column lists 2d10 for goblins (1st-lvl) encountered on the first level of the dungeon. If encountered on the third level of the dungeon, they would be three times as numerous (6d10). The same procedure applies equally to higher level monsters, with the following exceptions:
 
@@ -12989,8 +13039,7 @@ Instructions: If the GM wants to include new monsters on their encounter tables,
 | 71-75 | Bugbear | 1d6 |
 | 76-80 | Gnoll | 2d10 |
 | 81-85 | Stirge | 1d10+5 |
-<!-- p.169 -->
-| 86-89 | Zombie | 1d8 |
+| <!-- p.169 -->86-89 | Zombie | 1d8 |
 | 90-93 | Coffer Corpse | 1 |
 | 94-96 | Troll, Ice | 1d6 |
 | 97-98 | Centipede, Huge | 1d12 |
@@ -13104,8 +13153,7 @@ Instructions: If the GM wants to include new monsters on their encounter tables,
 | 09-18 | Blue | Sub-Adult/Young Adult | 3/4 |
 | 19-30 | Brass | Young Adult/Adult | 4/5 |
 | 31-35 | Bronze | Sub-Adult/Young Adult | 3/4 |
-<!-- p.170 -->
-| 36-50 | Copper | Sub-Adult/Young Adult | 3/4 |
+| <!-- p.170 -->36-50 | Copper | Sub-Adult/Young Adult | 3/4 |
 | 51-55 | Gold | Sub-Adult/Young Adult | 3/4 |
 | 56-70 | Green | Sub-Adult/Young Adult | 3/4 |
 | 71-80 | Red | Sub-Adult/Young Adult | 3/4 |
@@ -13238,7 +13286,7 @@ Instructions: If the GM wants to include new monsters on their encounter tables,
 | 01-07 | Trapper | 1 |
 | 08-11 | Devil, Pit Fiend | 1 |
 | 12-30 | Otyugh, Greater | 1 |
-| 26-40 | NPC Party – see Sub-table | varies |<!-- printed as-is: NEW (overlapping d% ranges 12-30 and 26-40) -->
+| 26-40 | NPC Party – see Sub-table | varies |<!-- printed as-is: see errata E98 (overlapping d% ranges 12-30 and 26-40) -->
 | 41-55 | Class B Demon | 1d3 |
 | 56-70 | Hydra, 12-heads | 1 |
 | 71-80 | Dragon – see Sub-table | 1 or 2 |
@@ -13324,13 +13372,13 @@ Instructions: If the GM wants to include new monsters on their encounter tables,
 | 76-85 | Halfling | 15% |
 | 86-00 | Half-orc | 50% |
 
-**Hirelings and Henchmen:** Hirelings and men-at-arms will only accompany their employers when encountered on the 1st-3rd dungeon levels. On deeper expeditions, the entourage will be made up only of henchmen. Determine the ability scores, class and level of hirelings and henchmen by rolling on the appropriate sub-tables in the "Hirelings and Henchmen" section. They will have one third the level of their master plus 1 level for every 3 of their master's levels. For example, a 9th-lvl magic user NPC may be accompanied by a 6th-lvl magic user henchman.
+**Hirelings and Henchmen:** Hirelings and men-at-arms will only accompany their employers when encountered on the 1st-3rd dungeon levels. On deeper expeditions, the entourage will be made up only of henchmen. Determine the ability scores, class and level of hirelings and henchmen by rolling on the appropriate sub-tables in the “Hirelings and Henchmen” section. They will have one third the level of their master plus 1 level for every 3 of their master’s levels. For example, a 9th-lvl magic user NPC may be accompanied by a 6th-lvl magic user henchman.
 
 **Equipment:** NPC parties should be equipped with arms, armour and supplies typical to a party of dungeon delvers. Henchmen should be assumed to have equipment appropriate to their level. Hirelings will only possess lower quality arms and armour and few supplies.
 
 **Spells:** The GM should assume NPC and henchmen spellcasters will have memorised a full assortment of spells appropriate to their party as a whole.
 
-**Notes on Play:** When a player party encounters a party of NPCs and their henchmen, the GM should carefully consider the alignment and makeup of the NPC party before determining their course of action. A relatively weaker NPC party than the players' may use alternate means to resolve the situation. Trickery, parley, bluffing and fleeing are all important possibilities to consider before finally resorting to combat. Unless they are surprised, the GM should always treat them as alert and prepared for anything. Once actual contact has been made with an NPC party, the GM should check for reaction. Whatever the result of the negotiations, NPC parties will NEVER choose to join the PCs unless it is to their immediate advantage. This should also involve few if any rewards for the players' party. Unlike monster encounters, the GM should personally direct the actions of the NPCs as if they were player characters. Rather than checking morale as usual, the GM should favour the course of action that is likely to bring the NPCs the greatest benefit.
+**Notes on Play:** When a player party encounters a party of NPCs and their henchmen, the GM should carefully consider the alignment and makeup of the NPC party before determining their course of action. A relatively weaker NPC party than the players’ may use alternate means to resolve the situation. Trickery, parley, bluffing and fleeing are all important possibilities to consider before finally resorting to combat. Unless they are surprised, the GM should always treat them as alert and prepared for anything. Once actual contact has been made with an NPC party, the GM should check for reaction. Whatever the result of the negotiations, NPC parties will NEVER choose to join the PCs unless it is to their immediate advantage. This should also involve few if any rewards for the players’ party. Unlike monster encounters, the GM should personally direct the actions of the NPCs as if they were player characters. Rather than checking morale as usual, the GM should favour the course of action that is likely to bring the NPCs the greatest benefit.
 
 If the NPC party bests the players they need not kill them. Ransom, slavery, imprisonment or sacrifice are interesting alternatives to simple execution.
 
@@ -13450,7 +13498,7 @@ Finally, it is highly recommended that the GM prepare for encounters with random
 | 46-50 | Eyes of Charming (IM) |
 | 51-55 | Horn of Valhalla (special) |
 | 56-60 | Robe of Scintillating Colours (IM) |
-| 61-65 | Amulet of Natural Armour  +4 (any) <!-- printed as-is: NEW --> |
+| 61-65 | Amulet of Natural Armour  +4 (any) <!-- printed as-is: see errata E99 --> |
 | 66-70 | Plate Mail +4, Shield +3 |
 | 71-75 | Sword, Keenblade (AFPRT) |
 | 76-80 | Arrow of Slaying (AFPRT) |
@@ -13573,8 +13621,7 @@ Several of the encounter entries refer to one or more of the following sub-table
 | 23 | Demon | GM’s discretion. Only 1 encountered. |
 | 24 | Devil | GM’s discretion. Only 1 encountered. |
 | 25 | Doppelgänger | d4+2. See Urban Professions Sub-table for their disguise |
-| 26 | Druid¹ | A d6+5-lvl Druid with (1-5) 1d4-1 d4-lvl Lesser Druids or (6-10) 1d4 d6-lvl Fighters |
-<!-- printed as-is: NEW (orphaned footnote marker "¹" — no corresponding footnote text appears anywhere on pp.173-178; the parallel Daytime Encounters row 26 uses "Druid*" instead) -->
+| 26 | Druid¹<!-- printed as-is: see errata E100 (orphaned footnote marker "¹" — no corresponding footnote text appears anywhere on pp.173-178; the parallel Daytime Encounters row 26 uses "Druid*" instead) --> | A d6+5-lvl Druid with (1-5) 1d4-1 d4-lvl Lesser Druids or (6-10) 1d4 d6-lvl Fighters |
 | 27-31 | Drunk | See Urban Professions Sub-table for exact type |
 | 32-33 | Fighter* | 2d4+4-lvl Fighter with 1d4-1 d4-lvl Henchmen |
 | 34-35 | Gentleman | (1-4) Foppish Dandy and d4 Sycophants<br>(5-6) Gentlewoman<br>(7-10) d4+6-lvl Nobleman Fighter and d4 similar friends |
@@ -13582,11 +13629,9 @@ Several of the encounter entries refer to one or more of the following sub-table
 | 37 | Ghost | 1 |
 | 38-42 | Giant Rats | 4d6 |
 | 43 | Townsperson | 0-lvl Normal Human |
-| 44-50 | Prostitute | See Red Light Professions Sub-table for exact type |
-<!-- printed as-is: NEW (body references throughout this table and the Daytime table read "Red Light Professions", two capitalised words, no hyphen — the section's own heading above reads "Red-light Professions", hyphenated with lowercase "light") -->
+| 44-50 | Prostitute | See Red Light Professions Sub-table for exact type<!-- printed as-is: see errata E101 (body references throughout this table and the Daytime table read "Red Light Professions", two capitalised words, no hyphen — the section's own heading above reads "Red-light Professions", hyphenated with lowercase "light") --> |
 | 51 | Illusionist* | A d4+6-lvl Illusionist with (1-5) d4-1 d4-lvl Apprentice Illusionists or (6-10) 1d3 d6-lvl Fighter Bodyguards |
-<!-- p.175 -->
-| 52 | (1-5) Labourer | 3d4 rough workmen<br>0-lvl Normal Men |
+| <!-- p.175 -->52 | (1-5) Labourer | 3d4 rough workmen<br>0-lvl Normal Men |
 | | (6-10) Peddler | 1d3 peddlers selling simple goods on the street |
 | 53 | Magic user* | A d6+6-lvl Magic User with (1-4) d4 d6-lvl Apprentice Magic users (5-7) d4 d4+3-lvl Fighter Bodyguards or (8-10) d2 Apprentices and d2 Bodyguards as above |
 | 54-58 | Mercenary | 3d4 d6-1-lvl Fighters |
@@ -13628,15 +13673,14 @@ Several of the encounter entries refer to one or more of the following sub-table
 | 03-12 | Beggar | 1d2 |
 | 13 | Brigand | 3d4 and Leader |
 | 14-18 | Guardsmen | 2d8 and Leader |
-| 19-21 | Official | (1-9) Minor Official (10) Major Official and 2d4 Guardsmen |
+| 19-21 | Official | (1-9) Minor Official (10) Major Official and  2d4 Guardsmen<!-- printed as-is: see errata E102 --> |
 | 22-23 | Watchman | 5 Men-at-Arms (0-lvl) and Sergeant (lvl 1d3) and a Cleric (lvl d4+1) |
 | 24-25 | Cleric* | A d6+5-lvl Cleric with 1d6-1 d4-lvl Assistant Clerics |
 | 26 | Druid* | A d6+5-lvl Druid with (1-5) 1d4-1 d4-lvl Lesser Druids or (6-10) 1d4 d6-lvl Fighters |
 | 27 | Drunk | See Urban Professions Sub-table for exact type |
 | 28-29 | Fighter* | 2d4+4-lvl Fighter with 1d4-1 d4-lvl Henchmen |
 | 30-33 | Gentleman | (1-4) Foppish Dandy and d4 Sycophants<br>(5-6) Gentlewoman<br>(7-10) d4+6-lvl Nobleman Fighter and d4 similar friends |
-<!-- p.176 -->
-| 34 | Giant Rats | 2d4 |
+| <!-- p.176 -->34 | Giant Rats | 2d4 |
 | 35-39 | Townsperson | 0-lvl Normal Human |
 | 40-41 | Harlot | See Red Light Professions Sub-table for exact type |
 | 42 | Illusionist* | A d4+6-lvl Illusionist with (1-5) d4-1 d4-lvl Apprentice Illusionists or (6-10) 1d3 d6-lvl Fighter Bodyguards |
@@ -13656,7 +13700,7 @@ Several of the encounter entries refer to one or more of the following sub-table
 | 79-82 | Thief* | A d4+7-lvl Thief and 1d3-1 d4-lvl Apprentice Thieves |
 | 83-97 | Tradesman | 2d4 Artisans, craftsmen or skilled workmen (Normal Humans) |
 | 98 | Wererat | 2d4 encountered (1-9) in human form (10) in giant rat form |
-| 99 | Weretiger | 1d2 encountered in human form |
+| 99 | Weretiger | 1d2 encountered  in human form<!-- printed as-is: see errata E103 --> |
 | 00 | Werewolf | 2d4 encountered in human form |
 
 *For these encounters, check first to see if the NPC is a human or demi-human on the Race Sub-table.
@@ -13912,12 +13956,11 @@ The Time-Lost Village encounter refers to a settlement of humans or demi-humans 
 | 23-37 | Humanoid |
 | 38-57 | Monster |
 | 58 | NPC |
-| 58-60 | Undead |
-<!-- printed as-is: NEW -->
+| 58-60 | Undead<!-- printed as-is: see errata E104 --> |
 | 61-80 | Invertebrates |
 | 81-95 | Water |
 | 95-00 | Special |
-<!-- printed as-is: NEW -->
+<!-- printed as-is: see errata E105 -->
 
 *Specific encounters from the *wetlands* table should be rolled on either the *aquatic* or the *marine* subtable (GM’s option, or 50% chance of each).
 
@@ -13976,7 +14019,7 @@ The Time-Lost Village encounter refers to a settlement of humans or demi-humans 
 | 17 | Owlbear | Survivors | Zombie | Spider, Huge | Toad, Giant | Invisible Stalker |
 | 18 | Owlbear | Wolves ISC | Zombie | Spider, Large | Toad, Giant Poisonous | Night Hag |
 | 19 | Pseudo-Dragon | Wolves ISC | Zombie, Monster | Wasp, Giant | Triton | Pixie |
-| 20 | Worg | Wolves ISC | Zombie, Monster | Wasp, Giant | Turtle, Giant Snapping | Rakshasha<!-- printed as-is: NEW --> |
+| 20 | Worg | Wolves ISC | Zombie, Monster | Wasp, Giant | Turtle, Giant Snapping | Rakshasha<!-- printed as-is: see errata E106 --> |
 
 ## Arctic
 
@@ -14080,7 +14123,7 @@ The Time-Lost Village encounter refers to a settlement of humans or demi-humans 
 | 15 | Pseudo-Dragon | Searchers | Vampire | Scorpion, Giant | Spider, Giant Water | Mephit, Steam |
 | 16 | Pseudo-Dragon | Survivors | Vampire | Spider, Giant | Spider, Giant Water | Necrophidius |
 | 17 | Purple Worm | Wolves ISC | Wight | Spider, Huge | Spider, Giant Water | Night Hag |
-| 18 | Purple Worm | Wolves ISC | Zombie | Spider, Large | Toad, Giant | Rakshasha<!-- printed as-is: NEW --> |
+| 18 | Purple Worm | Wolves ISC | Zombie | Spider, Large | Toad, Giant | Rakshasha<!-- printed as-is: see errata E107 --> |
 | 19 | Worg | Wolves ISC | Zombie | Spider, Phase | Toad, Giant | Troll, Spectral |
 | 20 | Worg | Wolves ISC | Zombie, Juju | Wasp, Giant | Toad, Giant | Xorn |
 
@@ -14353,7 +14396,7 @@ The Time-Lost Village encounter refers to a settlement of humans or demi-humans 
 | 1 | Bird | Ape, Carnivorous | Dragon, Black | Giant, Cloud | Fishing Village | Flind |
 | 2 | Bird | Boar, Giant | Dragon, Black | Giant, Cloud | Men, Bandit | Gnoll |
 | 3 | Bird | Boar, Warthog | Dragon, Blue | Giant, Storm | Men, Bandit | Gnoll |
-| 4 | Bird | Dog, Wild | Dragon, Brass | Giant, Storm | Men, Brigand | Gnoll  (S5, WD2)<!-- printed as-is: NEW --> |
+| 4 | Bird | Dog, Wild | Dragon, Brass | Giant, Storm | Men, Brigand | Gnoll  (S5, WD2)<!-- printed as-is: see errata E108 --> |
 | 5 | Bird, Dire | Horse, Wild | Dragon, Bronze | Giant, Storm | Men, Buccaneer | Goblin |
 | 6 | Bird, Dire | Jackal | Dragon, Bronze | Giant, Storm | Men, Buccaneer | Goblin |
 | 7 | Bird, Dire | Jackal | Dragon, Bronze | Giant, Storm | Men, Buccaneer | Grimlock |
@@ -14546,7 +14589,7 @@ The Time-Lost Village encounter refers to a settlement of humans or demi-humans 
 | 15 | Owlbear | Searchers | Vampire | Spider, Huge | Sea Serpent | Devil, Red Scaly devil |
 | 16 | Owlbear | Searchers | Wight | Spider, Large | Toad, Giant | Golem, Clay |
 | 17 | Rot Grub | Survivors | Wraith | Spider, Large | Toad, Giant | Hydra |
-| 18 | Rot Grub | Survivors | Zombie | Spider, Large | Toad, Giant Poisonous | Will o’the Wisp<!-- printed as-is: NEW --> |
+| 18 | Rot Grub | Survivors | Zombie | Spider, Large | Toad, Giant Poisonous | Will o’the Wisp<!-- printed as-is: see errata E109 --> |
 | 19 | Shambling Mound | Wolves ISC | Zombie | Spider, Large | Toad, Giant Poisonous | Yeti |
 | 20 | Shambling Mound | Wolves ISC | Zombie, Monster | Spider, Phase | Turtle, Giant Snapping | Zombie, Vine |
 
@@ -14592,7 +14635,7 @@ The Time-Lost Village encounter refers to a settlement of humans or demi-humans 
 | 8 | Remorhaz | Joiners | Vampire | Beetle, Giant Water | Octopus, Giant | Devil, Ice |
 | 9 | Remorhaz | Joiners | Wight | Beetle, Giant Water | Octopus, Giant | Devilcat |
 | 10 | Remorhaz | Runners | Wight | Centipede, Giant | Octopus, Giant | Elemental, Fire |
-| 11 | Worg | Runners | Wight | Centipede, Huge | Portuguese Man O’War<!-- printed as-is: NEW --> | Elemental, Fire |
+| 11 | Worg | Runners | Wight | Centipede, Huge | Portuguese Man O’War<!-- printed as-is: see errata E110 --> | Elemental, Fire |
 | 12 | Worg | Runners | Will-o-the-Wisp | Centipede, Large | Sea Serpent | Elf |
 | 13 | Worg | Searchers | Will-o-the-Wisp | Fly, Giant Blowfly | Shark | Halfling |
 | 14 | Worg | Searchers | Wraith | Fly, Giant Horsefly | Shark | Imp |
@@ -14701,7 +14744,7 @@ The Time-Lost Village encounter refers to a settlement of humans or demi-humans 
 |---|---|---|
 | 1 | Archaeopteryx | Jurassic |
 | 2 | Pteranodon | Cretaceous |
-| 4-5<!-- printed as-is: NEW --> | Pterodactyl | Jurassic |
+| 4-5<!-- printed as-is: see errata E111 --> | Pterodactyl | Jurassic |
 | 5 | Quetzalcoatlus | Cretaceous |
 | 6 | Rhamphorynchus | Jurassic |
 
@@ -14714,31 +14757,31 @@ The Time-Lost Village encounter refers to a settlement of humans or demi-humans 
 
 <!-- p.192 -->
 
-# CHAPTER V:
+## CHAPTER V:
 
 ## MONSTERS
 
-The following material is by no means an exhaustive list of creatures that may be found in OSRIC-compatible games. It is intended only as a brief introduction to the vast range of creatures available under the system. Of course, several books published in the 1970s and 80s contain other suitable creatures. The reader's attention is also respectfully drawn to ***Monsters of Myth***, published by the First Edition Society and printed by Lulu (*http://www.lulu.com*), for a further 150 or so creatures that have not previously appeared in an OSRIC-compatible hardcover book.
+The following material is by no means an exhaustive list of creatures that may be found in OSRIC-compatible games. It is intended only as a brief introduction to the vast range of creatures available under the system. Of course, several books published in the 1970s and 80s contain other suitable creatures. The reader’s attention is also respectfully drawn to ***Monsters of Myth***, published by the First Edition Society and printed by Lulu (*http://www.lulu.com*), for a further 150 or so creatures that have not previously appeared in an OSRIC-compatible hardcover book.
 
 ### MONSTER STATISTICS
 
 Each of the monsters in this book has a number of listed characteristics. The meaning of each characteristic is as follows:
 
-**Frequency:** The monster's relative rarity in a typical game world can fall into five categories. A unique monster is the only one in existence. Very rare monsters are seldom encountered, and when seen it is a matter of great interest to naturalists and sages. A rare monster is one usually known to the average peasant, but only in rumour and folklore. Uncommon creatures are known to the common folk but infrequently seen. Common creatures are familiar, and when they are seen, it may be cause for alarm but not surprise.
+**Frequency:** The monster’s relative rarity in a typical game world can fall into five categories. A unique monster is the only one in existence. Very rare monsters are seldom encountered, and when seen it is a matter of great interest to naturalists and sages. A rare monster is one usually known to the average peasant, but only in rumour and folklore. Uncommon creatures are known to the common folk but infrequently seen. Common creatures are familiar, and when they are seen, it may be cause for alarm but not surprise.
 
 **No. Encountered:** This is only a guideline for the GM and should vary according to the circumstances. It is quite possible to encounter a lone orc, for example.
 
 **Size:** Three categories are possible here, being small (i.e. of less weight or mass than a normal human), medium or man-sized (i.e. weighing roughly the same as a human), and large (generally bigger than a human).
 
-**Move:** Movement is expressed in feet per turn or round (see Chapter II). Flying creatures' aerial agility level (see Chapter II) is indicated thus: "AA:level" in parentheses.
+**Move:** Movement is expressed in feet per turn or round (see Chapter II). Flying creatures’ aerial agility level (see Chapter II) is indicated thus: “AA:level” in parentheses.
 
 **Armour Class:** Armour class is as described in Chapter II. The AC value for a creature does not necessarily mean it is wearing the equivalent armour type, so an AC 5 creature may not necessarily be wearing chain mail, even if it is generally similar to a human.
 
-**Hit Dice:** The number of hit points for a creature is determined by rolling dice. Usually hit dice are d8s unless otherwise specified. Some creatures have hit points in the format "X+Y" or "X-Y", in which case "X" refers to the number of dice rolled and "Y" refers to a numerical adjustment applied to the total (note in the case of X-Y the resulting hit points cannot be less than 1). Thus, a creature with HD 4+1 has 4d8+1 hp, for a total numerical range of 5-33.
+**Hit Dice:** The number of hit points for a creature is determined by rolling dice. Usually hit dice are d8s unless otherwise specified. Some creatures have hit points in the format “X+Y” or “X-Y”, in which case “X” refers to the number of dice rolled and “Y” refers to a numerical adjustment applied to the total (note in the case of X-Y the resulting hit points cannot be less than 1). Thus, a creature with HD 4+1 has 4d8+1 hp, for a total numerical range of 5-33.
 
-**Attacks:** This entry refers to the number of attacks per round the creature normally possesses in melee. This number may be modified by certain spells such as haste or slow and does not include any special attack forms such as a breath weapon. Note the distinction between "attacks" and "attack routines" as described in Chapter II—many creatures have several attacks, but very few have several separate attack routines. In the rare cases where one does, this is described in the creature text.
+**Attacks:** This entry refers to the number of attacks per round the creature normally possesses in melee. This number may be modified by certain spells such as haste or slow and does not include any special attack forms such as a breath weapon. Note the distinction between “attacks” and “attack routines” as described in Chapter II—many creatures have several attacks, but very few have several separate attack routines. In the rare cases where one does, this is described in the creature text.
 
-**Damage:** This entry indicates the number and type of dice to be rolled for damage if the creature's physical attacks hit. If the value provided is "by weapon" the GM should decide what weapon the monster is using and refer to Chapter II. In some cases the damage inflicted may include a magical element, poison, or some other effect requiring a saving throw or other special ruling, but in this case the attack form will be listed as a "special attack" and detailed in the creature text.
+**Damage:** This entry indicates the number and type of dice to be rolled for damage if the creature’s physical attacks hit. If the value provided is “by weapon” the GM should decide what weapon the monster is using and refer to Chapter II. In some cases the damage inflicted may include a magical element, poison, or some other effect requiring a saving throw or other special ruling, but in this case the attack form will be listed as a “special attack” and detailed in the creature text.
 
 **Special Attacks:** This entry is a short note regarding any unusual attack forms the creature might possess. Unless the special attack are so simple as to be self-evident, these unusual attacks are fully explained in the creature text.
 
@@ -14746,19 +14789,19 @@ Each of the monsters in this book has a number of listed characteristics. The me
 
 **Magic Resistance:** This is the chance, expressed as a percentage, that the creature will be unaffected by any magic specifically targeted at it. Even if the chance fails, the creature may still receive a saving throw if the spell or magical attack form normally calls for one. This percentage is predicated on a caster of 11th level of experience, and should be varied by 5% downwards or upwards per experience level of the caster above or below 11th respectively.
 
-**Lair Probability:** This is the chance that the creature will be encountered in its lair. Creatures not met in their lair are termed "wandering". Generally, most creatures will keep some or most of their treasure in their lair, so if the monster is wandering, the players will normally need to find the lair to obtain its full treasure.
+**Lair Probability:** This is the chance that the creature will be encountered in its lair. Creatures not met in their lair are termed “wandering”. Generally, most creatures will keep some or most of their treasure in their lair, so if the monster is wandering, the players will normally need to find the lair to obtain its full treasure.
 
-**Intelligence:** This indicates the intelligence of the creature relative to the average human. Possible values include "Non-", "Animal", "Semi-", "Low", "Average", "Very", "High", "Exceptional", "Genius" or occasionally even higher. A non-intelligent creature has an effective intelligence of 0 and a genius has an effective intelligence of 18.
+**Intelligence:** This indicates the intelligence of the creature relative to the average human. Possible values include “Non-”, “Animal”, “Semi-”, “Low”, “Average”, “Very”, “High”, “Exceptional”, “Genius” or occasionally even higher. A non-intelligent creature has an effective intelligence of 0 and a genius has an effective intelligence of 18.
 
 **Alignment:** See the description of alignment in Chapter I. The alignment shown for any given type of monster may not represent the alignment of an individual creature of that type. In the case of less intelligent monsters, there is usually little variation, but a few of the more intelligent ones might deviate from the prevailing alignment by a small amount. Thus it is possible to have a Neutral Evil goblin, or even a tribe of Neutral Evil goblins—but good aligned ones would be rare in the extreme.
 
 <!-- p.193 -->
 
-This does not impinge on the GM's right to make sweeping adjustments to creature alignments for the purposes of a specific campaign.
+This does not impinge on the GM’s right to make sweeping adjustments to creature alignments for the purposes of a specific campaign.
 
-**Level/XP Value:** This represents a pre-calculation of the creature's xp value and level as determined in Chapter III. Note that the Chapter III guidelines are exactly that—guidelines. In some cases the xp value has been adjusted to take account of special factors and could not be reached by the Chapter III method. In case of conflict, the values given in Chapter IV should prevail.
+**Level/XP Value:** This represents a pre-calculation of the creature’s xp value and level as determined in Chapter III. Note that the Chapter III guidelines are exactly that—guidelines. In some cases the xp value has been adjusted to take account of special factors and could not be reached by the Chapter III method. In case of conflict, the values given in Chapter IV should prevail.
 
-**Treasure:** Treasure values are for the maximum possible number of creatures encountered. If fewer than the maximum number of creatures are met, the GM should give thought to reducing the treasure shown proportionally. A percentage listed in brackets indicates the chance that treasure will appear; otherwise, there will be nothing. "Maps", where listed, will be maps of parts of the dungeon or wilderness near where the monster lairs—they may, or may not, show where traps and/or treasure may be found.
+**Treasure:** Treasure values are for the maximum possible number of creatures encountered. If fewer than the maximum number of creatures are met, the GM should give thought to reducing the treasure shown proportionally. A percentage listed in brackets indicates the chance that treasure will appear; otherwise, there will be nothing. “Maps”, where listed, will be maps of parts of the dungeon or wilderness near where the monster lairs—they may, or may not, show where traps and/or treasure may be found.
 
 ### TRIBAL SPELL CASTERS
 
@@ -14812,7 +14855,7 @@ Only the following spells are available to witch doctors:
 
 ### OPTIONAL RULES FOR TRIBAL SPELL CASTERS
 
-**Hit Dice and Attack Rolls:** If a tribal spell caster is of 1st level, it will have the hit points and hit dice of a normal creature of that kind. Each additional level in its highest spell casting class grants +1d6 hp and a bonus of +1 on "to hit" rolls, so an orcish witch doctor who is a 5th/4th level cleric/magic user will have 1d8+4d6 hp and attack at +4 "to hit" relative to his or her fellows.
+**Hit Dice and Attack Rolls:** If a tribal spell caster is of 1st level, it will have the hit points and hit dice of a normal creature of that kind. Each additional level in its highest spell casting class grants +1d6 hp and a bonus of +1 on “to hit” rolls, so an orcish witch doctor who is a 5th/4th level cleric/magic user will have 1d8+4d6 hp and attack at +4 “to hit” relative to his or her fellows.
 
 **Giants:** In campaigns with a very Norse flavour, certain giants may have illusionist rather than clerical powers. Use the rules for a tribal shaman as described above, but grant the giant phantasmal spells rather than divine ones. In this case, the giant may use any phantasmal spell in his or her spellbook; this overrides the restrictions on tribal spellcaster magic as described above.
 
@@ -14820,7 +14863,8 @@ Only the following spells are available to witch doctors:
 
 Normal men (non-adventuring types) will usually have 1d6 hit points. In any encounter with men, there will always be higher level characters as leaders (the number will be given under each entry).
 
-All higher level clerics and fighters will be mounted on medium warhorses. For each level a leader type has, there is a 5% chance of possessing a magic item in each of the categories below. For each "Y" in the table below roll. If the result is undesirable, one re-roll is allowed.
+All higher level clerics and fighters will be mounted on medium warhorses. For each level a leader type has, there is a 5% chance of possessing a magic item in each of the categories  below. For each “Y” in the table below roll. If the result is undesirable, one re-roll is allowed.
+<!-- printed as-is: see errata E112 -->
 
 | | Fighter | Magic user | Cleric | Thief |
 |---|---|---|---|---|
@@ -15035,7 +15079,7 @@ Pilgrims are groups of religious followers making their way to some holy site. T
 
 **Fighters:** There is a 10% chance per every 10 pilgrims that there will be 1d10 fighters present (roll 1d8 to determine the levels of the fighters). If the group is lawful good, some of these fighters may be replaced by paladins. If the group is chaotic good, some of these fighters may be replaced by rangers.
 
-**Thieves:** There is a 10% chance per every 10 pilgrim that there will be 1d6 thieves present (roll 1d6+1 to determine the levels of the thieves). If the group is evil, some of these thieves may be replaced by assassins.
+**Thieves:** There is a 10% chance per every 10 pilgrim that<!-- printed as-is: see errata E113 --> there will be 1d6 thieves present (roll 1d6+1 to determine the levels of the thieves). If the group is evil, some of these thieves may be replaced by assassins.
 
 **Magic users:** There is a 5% chance per every 10 pilgrims that there will be a magic user present (level 1d4+5).
 
@@ -15047,22 +15091,23 @@ Alignment is determined by rolling d% with the likelihood of each alignment as f
 | 35—55 | chaotic good |
 | 56—66 | neutral |
 | 65—80 | chaotic evil |
-<!-- printed as-is: NEW -->
 | 81—00 | lawful evil |
+<!-- printed as-is: see errata E114 -->
 
 Most of the time (75%) pilgrims will be travel without mounts. However if they are mounted, all members of the group will be mounted.
+<!-- printed as-is: see errata E115 -->
 
 ***Treasure:*** Treasure for the group will be as follows.
 
 Pilgrims (ea.):: 3d12 cp.
-<!-- printed as-is: NEW -->
+<!-- printed as-is: see errata E116 -->
 Fighters (ea.):: 2d6 ep.
-<!-- printed as-is: NEW -->
+<!-- printed as-is: see errata E117 -->
 Clerics (ea.):: 3d12 cp, 3d6 sp, and 2d4 gp.
-<!-- printed as-is: NEW -->
+<!-- printed as-is: see errata E118 -->
 Magic users (ea.): 2d6 ep, 1d6 pp, and 1d4 gems (50%).
 Thieves (ea.):: 3d12 cp, 1d6 pp, and 1d4 gems (50%).
-<!-- printed as-is: NEW -->
+<!-- printed as-is: see errata E119 -->
 
 There is also a chance (5%) that a holy item will be with the pilgrims. If so, it will be hidden and carefully guarded.
 
@@ -15087,26 +15132,26 @@ There is also a chance (5%) that a holy item will be with the pilgrims. If so, i
 
 Merchant encounters are actually caravans of merchants, drovers, and guards. The caravan will also contain pack animals, carts, and horses. Of the number appearing rolled, only about 10% will actually be merchants. 10% will be drovers and the last 80% will be the guards.
 
-The guards will always be led by higher level fighter of 6th to 11th level (1d6+5), his or her lieutenant (1 level lower than the captain), and 12 guards (2nd level fighters).
+The guards will always be led by higher level fighter of 6th to 11th level<!-- printed as-is: see errata E120 --> (1d6+5), his or her lieutenant (1 level lower than the captain), and 12 guards (2nd level fighters).
 
 There is a 10% chance per 50 persons that a magic user of 6th to 8th level is present (1d3+5). There is a 5% chance per 50 persons that a cleric of 5th to 7th level (1d3+4) is present. There is also a 15% chance per 50 persons that a thief of 8th to 10th level will be present (along with 1d4 lower level thieves of 3rd to 7th level). All of the above leader or special character types are in addition to the number of merchants generated. At least 50% of the mercenary guards will be mounted on light or medium warhorses.
 
 ***Treasure:*** The treasure for a caravan will be as follows:
 
 Individual Merchants: 3d12 cp, 3d6 sp, 2d6 ep, 2d4 gp, 1d6 pp, 2d4 gp (40%), 1d6x10 pp (50%), 4d8 gems (55%), 1d12 pieces of jewellery (45%).
-<!-- printed as-is: NEW -->
+<!-- printed as-is: see errata E121 -->
 Individual Mercenaries: 3d6 sp.
 Individual Leaders: 2d4 gp.
 Mercenary Pay Box (Hidden in caravan): 2,000—4,000 gold (1d3+1), 100—400 pp (1d4), and 4d4 gems).
-<!-- printed as-is: NEW -->
-
-Caravan Goods: The caravan will be carrying goods and merchandise worth 10,000 to 60,000 gp. This requires either 10 pack animals or 1 cart per 5,000 gp worth of goods.
+<!-- printed as-is: see errata E122 -->
 
 <!-- p.197 -->
 
+Caravan Goods: The caravan will be carrying goods and merchandise worth 10,000 to 60,000 gp. This requires either 10 pack animals or 1 cart per 5,000 gp worth of goods.
+
 ### DEMI-HUMANS
 
-"Demi-humans" in OSRIC are human-like creatures that are generally kindly-disposed towards humans. They are often of races that can become player characters. As a rule, demi-humans are opposed to humanoids (q.v.)—and may also, in some campaign worlds, be opposed to each other. For example, in campaign worlds inspired by the words of J.R.R. Tolkien, dwarfs (there spelled "dwarves") often hate elves.
+“Demi-humans” in OSRIC are human-like creatures that are generally kindly-disposed towards humans. They are often of races that can become player characters. As a rule, demi-humans are opposed to humanoids (q.v.)—and may also, in some campaign worlds, be opposed to each other. For example, in campaign worlds inspired by the words of J.R.R. Tolkien, dwarfs (there spelled “dwarves”) often hate elves.
 
 Some NPC demi-humans may be clerics. This is not necessarily permitted to player characters of that race; the few clerics in these societies are closely-guarded and watched, and usually may not leave.
 
@@ -15182,11 +15227,11 @@ Typically elves will wear scale, ring, or chain armour and shield. They will be 
 
 Elves have the ability to move silently when in natural surroundings, as such they are able to surprise on a roll of 1-4 on a d6. Also elves are able to blend into foliage and become virtually invisible, so long as they do not attack. When using any pulled bow or sword elves receive a +1 to their attack roll.
 
-Also elves have a resistance of 90% to *sleep* and *charm* spells. Elves possess infravision with a range of about 60 ft. They can even detect secret doors on a roll of 1 on a d6. If the elf is searching then it is a roll of 1-2 on a d6. On a roll of 1-3 on a d6 and elf can find a concealed door if they are actively searching.
+Also elves have a resistance of 90% to *sleep* and *charm* spells. Elves possess infravision with a range of about 60 ft. They can even detect secret doors on a roll of 1 on a d6. If the elf is searching then it is a roll of 1-2 on a d6. On a roll of 1-3 on a d6 and elf can find a concealed door if they are actively searching.<!-- printed as-is: see errata E123 -->
 
 Elves have their own language, and can also speak goblin, orc, hobgoblin, gnoll, halfling, and gnome.
 
-An elf's appearance is rather thin and pale. Although their hair is dark, their eyes are green. Elves like to dress in shades of blue, green, or violet.
+An elf’s appearance is rather thin and pale. Although their hair is dark, their eyes are green. Elves like to dress in shades of blue, green, or violet.
 
 The life span of an elf is 1200 years or more.
 
@@ -15218,7 +15263,7 @@ Typically when gnomes are encountered they will be wearing studded leather armou
 
 When gnomes fight kobolds and goblins they fly into an intense rage and gain an additional +1 to hit. When gnomes battle gnolls, bugbears, ogres, trolls, or giants these creatures receive a -4 to their attack rolls due to the gnomes smaller size and nimbleness.
 
-Due to their natural resilience to both magic and poison, gnomes save against these effects at four levels higher then they actually are. Gnomes have infravision that enables them to see 60 ft in the dark. Gnomes are excellent miners, possessing the abilities to detect whether a passage slopes upward or downward or if a corridor, walls, floors or ceiling is safe or not. They can even estimate depth and direction underground.
+Due to their natural resilience to both magic and poison, gnomes save against these effects at four levels higher then they actually are.<!-- printed as-is: see errata E124 --> Gnomes have infravision that enables them to see 60 ft in the dark. Gnomes are excellent miners, possessing the abilities to detect whether a passage slopes upward or downward or if a corridor, walls, floors or ceiling is safe or not. They can even estimate depth and direction underground.
 
 Besides their own language, gnomes can also speak kobold, goblin, halfling, dwarfish, and can also speak a language commonly known to all burrowing animals.
 
@@ -15256,7 +15301,7 @@ If the halflings are encountered in their homes there will likely be as many fem
 
 Halflings will usually wear leather or padded armour and they prefer a hand axe, club, spear, or sling as weapons. There is a 10% chance per level that higher level halflings may have magic armour and/or weapons.
 
-Because of their natural resilience to both magic and poison, halflings save against these effects at four levels higher then they actually are. Also halflings are very adapt at sneaking and hiding. They will surprise on a roll of 1-4 on a d6. Halflings are so adept at using the natural camouflage that they should be considered invisible if there is any foliage to hide in.
+Because of their natural resilience to both magic and poison, halflings save against these effects at four levels higher then they actually are.<!-- printed as-is: see errata E125 --> Also halflings are very adapt at sneaking and hiding.<!-- printed as-is: see errata E126 --> They will surprise on a roll of 1-4 on a d6. Halflings are so adept at using the natural camouflage that they should be considered invisible if there is any foliage to hide in.
 
 Halflings speak their own language and will also be able to speak common, gnome, goblin, and orc.
 
@@ -15389,7 +15434,7 @@ They are usually armed with spears, shields, short bows, and clubs (treat as mac
 
 They typically dwell in villages made of crude huts.
 
-***Treasure:*** See creature text.
+***Treasure:*** See creature te×t.
 
 ### Gnoll
 
@@ -15411,6 +15456,8 @@ They typically dwell in villages made of crude huts.
 | **Alignment:** | Chaotic evil | Chaotic evil |
 | **Level/XP:** | 2/30+2/hp | 2/40+4/hp |
 
+<!-- p.201 -->
+
 Gnolls live and travel in small bands. They sometimes form loose alliances with other gnolls. They are very adaptive and can be found in most climes. There are rumours of a gnoll overlord, though if he exists his power and reach are limited.
 
 Gnoll raiding parties will be led by a leader with 16 HP. He fights as a 3 HD monster.
@@ -15419,15 +15466,13 @@ Gnoll bands are led by a chieftain (AC 3, 22 HP, attacks as a 4 HD monster, and 
 
 Gnolls have been known to ally with orcs, hobgoblins, bugbears, and even trolls. Gnolls have infravision (60 ft). They speak troll, their own barked tongue, chaotic evil, and occasionally orcish and hobgoblin.
 
-*Description:* Gnolls are large hyena-faced creatures. They are covered in a grey fur with a dark muzzle and yellow mane. They have dark eyes, and long nails. Their armour is usually a mismatch of types taken from their victims. They have a rough life, and their average lifespan is only 35 years.
+***Description:*** Gnolls are large hyena-faced creatures. They are covered in a grey fur with a dark muzzle and yellow mane. They have dark eyes, and long nails. Their armour is usually a mismatch of types taken from their victims. They have a rough life, and their average lifespan is only 35 years.
 
 ***Treasure:*** Individual 2d6 ep, 2d4 gp; Lair 1d8×1,000 cp (60%), 1d6×1,000 sp (50%), 1d8×1,000 ep (35%), 1d6×1,000 gp (50%), 5d4 gems (30%), 1d6 jewellery (25%), 2d4 potions (40%)
 
-Flinds are close relatives of, and to a degree resemble, gnolls. Flinds stand 6½ ft tall, with powerful limbs and a leonine head. Both flinds and gnolls regard flinds as more highly evolved beings and any gnoll will regard a flind as having 16 charisma. Groups of gnolls are often led by one or more flinds and the gnolls will obey any order given by a flind without question. A gnoll defending its flind leader will not check for morale unless the flind is killed or *hors de combat*. Flinds share a common language with gnolls and can also speak bugbear, hobgoblin, ogrish, and orcish. Flinds are generally on friendly terms with these humanoid races and will work with them as need arises. For unknown reasons, flinds do not like and will not co-operate with trolls.
+**Flinds** are close relatives of, and to a degree resemble, gnolls. Flinds stand 6½ ft tall, with powerful limbs and a leonine head. Both flinds and gnolls regard flinds as more highly evolved beings and any gnoll will regard a flind as having 16 charisma. Groups of gnolls are often led by one or more flinds and the gnolls will obey any order given by a flind without question. A gnoll defending its flind leader will not check for morale unless the flind is killed or *hors de combat*. Flinds share a common language with gnolls and can also speak bugbear, hobgoblin, ogrish, and orcish. Flinds are generally on friendly terms with these humanoid races and will work with them as need arises. For unknown reasons, flinds do not like and will not co-operate with trolls.
 
 In combat flinds swing crude clubs, using their great strength to gain +1 to hit. There is a 25% chance that each flind will wield a disarming weapon called a flindbar: a pair of iron bars linked by a short piece of chain. A flind wielding a flindbar gains two attacks per round for 1d4 hp damage. For every hit with a flindbar the victim must save vs aimed magic items or be disarmed.
-
-<!-- p.201 -->
 
 If 20 or more flinds are encountered, there will be a leader type with 3 + 3 hit dice, a strength of 18 (+1 to hit and +2 damage), and a charisma of 18 to any gnoll he or she encounters. Leader type flinds always wield a flindbar in combat.
 
@@ -15471,9 +15516,9 @@ Goblins speak kobold, orcish, hobgoblin, lawful evil, and their own foul tongue.
 
 ***See also:*** Nilbog (under “Other Creatures”).
 
-*Description:* Goblins are small evil creatures with red eyes and a yellow to red coloured skin tone. They typically wear leather armour. They have an average lifespan of 50 years.
+***Description:*** Goblins are small evil creatures with red eyes and a yellow to red coloured skin tone. They typically wear leather armour. They have an average lifespan of 50 years.
 
-***Treasure:*** Individual 3d6 sp ; Lair 1d12×1,000 cp (75%), 1d6×1,000 sp (50%), 1d6 gems (25%), 1d3 jewellery (20%), 2d4 potions (40%)
+***Treasure:*** Individual 3d6 sp ;<!-- printed as-is: see errata E127 --> Lair 1d12×1,000 cp (75%), 1d6×1,000 sp (50%), 1d6 gems (25%), 1d3 jewellery (20%), 2d4 potions (40%)
 
 ### Grimlock
 
@@ -15539,7 +15584,7 @@ Hobgoblins are very skilled miners and cavers, and can detect new construction, 
 
 Hobgoblins speak goblin, orcish, their own brutish tongue and the very limited language of carnivorous apes. Some can speak common as well.
 
-*Description:* Hobgoblins are larger, hairier goblins with brown to grey fur. They have bright red or orange faces and yellow or brown coloured eyes. They have an average lifespan of 60 years.
+***Description:*** Hobgoblins are larger, hairier goblins with brown to grey fur. They have bright red or orange faces and yellow or brown coloured eyes. They have an average lifespan of 60 years.
 
 ***Treasure:*** Individual 3d12 cp, 2d8 gp; Lair 1d8×1,000 cp (75%), 1d12×1,000 sp (60%), 1d8×1,000 ep (35%), 1d6×1,000 gp (50%), 5d4 gems (50%), 1d6 jewellery (25%), 1 potion (15%)
 
@@ -15571,7 +15616,7 @@ Kobolds are hateful creatures, but they especially despise brownies, pixies, spr
 
 These creatures speak lawful evil and their own tongue. Some also speak goblin.
 
-*Description:* Kobolds stand 3 ft tall and have a dark skin tone (brown to black), with no hair. They are vaguely reptilian in appearance with scales, small horns on their heads, short snaky tails and red eyes. They have an average lifespan of 135 years.
+***Description:*** Kobolds stand 3 ft tall and have a dark skin tone (brown to black), with no hair. They are vaguely reptilian in appearance with scales, small horns on their heads, short snaky tails and red eyes. They have an average lifespan of 135 years.
 
 ***Treasure:*** Individual 3d6 cp; Lair 1d4×1,000 cp (50%), 1d3×1,000 sp (30%), 1d4 gems (50%)
 
@@ -15599,7 +15644,7 @@ Lizard Men are tribal, and often make their homes in underwater caves that conta
 
 There are a few tribes that are more highly evolved than others that will make their homes in crude villages and use shields for protection. These lizard men tribes also make use of barbed darts and javelins as missile weapons. They speak their own language.
 
-*Description:* Their hides are tough and leathery, and are coloured in many different shades of green. They have cold black eyes, and hard nails on their fingers. Some have a bony ridge along their backs.
+***Description:*** Their hides are tough and leathery, and are coloured in many different shades of green. They have cold black eyes, and hard nails on their fingers. Some have a bony ridge along their backs.
 
 Lizard men speak their own tongue, and a few (10%) can also speak common.
 
@@ -15639,9 +15684,9 @@ Orcs speak goblin and hobgoblin in addition to their own foul tongue.
 
 Most lairs will be found underground, and those found above ground will consist of simple huts, typically with some kind of defence (ditch, moat, crude walls, etc).
 
-*Description:* Orcs are filthy, disgusting creatures with a brown or brownish-green coloured skin tone. Their hair is a nest of black or dark brown. They wear rusty and misused armour. They have an average lifespan of 40 years.
+***Description:*** Orcs are filthy, disgusting creatures with a brown or brownish-green coloured skin tone. Their hair is a nest of black or dark brown. They wear rusty and misused armour. They have an average lifespan of 40 years.
 
-***Treasure:*** Individual 2d6 ep ; Lair 1d12×1,000 cp (50%), 1d6×1,000 sp (40%), 1d6 gems (25%), 1d3 jewellery (20%), 2d4 potions (40%)
+***Treasure:*** Individual 2d6 ep ;<!-- printed as-is: see errata E128 --> Lair 1d12×1,000 cp (50%), 1d6×1,000 sp (40%), 1d6 gems (25%), 1d3 jewellery (20%), 2d4 potions (40%)
 
 ### Troglodyte
 
@@ -15667,7 +15712,7 @@ Raiding parties (10 or more) will be led by a troglodyte that has 3 HD. War part
 
 Some troglodytes attack with their claws and teeth, and some use weapons that they have taken in previous battles. They also have a special attack, once in combat they emit a sickening odour against which humans (as well as elves, half-elves, dwarfs, halflings, and gnomes) must save vs poison. If they fail, they lose 1 point of strength per round for 1d6 rounds. This effect lasts for 10 rounds after the last round it was active.
 
-*Description:* Troglodyte skin is normally a dark green colour. However, they have the ability to alter this colouration depending on the area around them (much like a chameleon). This ability allows them to surprise others on a 1-4. This surprise bonus does not work when they are emitting their odour. They have bony fins along their skulls, and dark reptilian eyes.
+***Description:*** Troglodyte skin is normally a dark green colour. However, they have the ability to alter this colouration depending on the area around them (much like a chameleon). This ability allows them to surprise others on a 1-4. This surprise bonus does not work when they are emitting their odour. They have bony fins along their skulls, and dark reptilian eyes.
 
 ***Treasure:*** Individual 2d6 ep; Lair 1d6×1,000 cp (25%), 1d6×1,000 sp (30%), 1d6×1,000 ep (35%), 1d10×1,000 gp (40%), 1d4×100 pp (25%), 4d10 gems (60%), 3d10 jewellery (50%), 3 magic items (30%)
 
@@ -15675,7 +15720,7 @@ Some troglodytes attack with their claws and teeth, and some use weapons that th
 
 ## GIANT
 
-Far from being mere brutes, giants’ cunning makes up for their sometimes low intelligence. Giants can sometimes be persuaded, so long it is within their interests, to cooperate with other beings of like alignment.
+Far from being mere brutes, giants’ cunning makes up for their sometimes low intelligence. Giants can sometimes be persuaded, so long it is within their interests,<!-- printed as-is: see errata E129 --> to cooperate with other beings of like alignment.
 
 Despite their racial diversity, giants share some common characteristics. Giants are able to lift and throw large rocks like a catapult, even at close range, with their immense strength of 19-25. Immature giants function at a percentage of that of adults.
 
@@ -15731,9 +15776,9 @@ Cloud giants usually live in giant castles at high elevations. When not high up 
 
 When multiple giants are found in a castle, there is a 75% chance that it is a family consisting of a male, a female, and any remaining giants encountered are their children. The children have an equal chance of being male or female. A female cloud giant is weaker than the male, resembling a fire giant in terms of damage inflicted and hit point capacity. Evil cloud giants keep 1 to 3 slaves 50% of the time and 1d4 prehistoric lions.
 
-Very intelligent cloud giants have the ability to levitate the equivalent of 20,000 gp, plus their body weight, twice a day. Though they often wield clubs, all cloud giants can throw rocks to inflict 2d12 damage from 10 to 240 ft distance from a target, and can catch thrown rocks 60% of the time. Cloud giants are rarely (1 on 1d6) surprised due to their impressive olfactory abilities.
+Very intelligent cloud giants have the ability to *levitate* the equivalent of 20,000 gp, plus their body weight, twice a day. Though they often wield clubs, all cloud giants can throw rocks to inflict 2d12 damage from 10 to 240 ft distance from a target, and can catch thrown rocks 60% of the time. Cloud giants are rarely (1 on 1d6) surprised due to their impressive olfactory abilities.
 
-*Description:* Cloud giants often dress in flowing clothing and fancy jewellery. They have bronze to white hair, with skin in tones of blue ranging from nearly white to cold, light blue.
+***Description:*** Cloud giants often dress in flowing clothing and fancy jewellery. They have bronze to white hair, with skin in tones of blue ranging from nearly white to cold, light blue.
 
 ***Treasure:*** 10d4×100 gp, 4d6 + 6 gems (15%), 1d8 jewellery (10%), 4 magic items (25%)
 
@@ -15761,7 +15806,7 @@ Like most giants, fire giants delight in throwing rocks at enemies. They can hit
 
 Fire giants sometimes share their lairs with hell hounds.
 
-*Description:* Fire giants’ hair is the red and orange colour of flames, and their skin is soot black. Their teeth are flame orange, and their eyes red. The commonly wear armour on their broad, 6 foot wide shoulders. <!-- printed as-is: NEW --> This armour is sometimes made from the skin of dragons.
+***Description:*** Fire giants’ hair is the red and orange colour of flames, and their skin is soot black. Their teeth are flame orange, and their eyes red. The commonly wear armour on their broad, 6 foot wide shoulders. <!-- printed as-is: see errata E130 --> This armour is sometimes made from the skin of dragons.
 
 ***Treasure:*** 10d4×100 gp, 1d12 gems (15%), 1d8 jewellery (10%), 4 magic items (25%)
 
@@ -15791,7 +15836,7 @@ Winter wolves often share residence with frost giants (50% chance, 1d6 in number
 
 Frost giants can cause 2d10 hit points in damage by throwing large rocks from between 10 to 200 ft. Likewise, they can catch rocks tossed at them with a 40% probability.
 
-*Description:* Frost giants have the overall appearance of giant, muscled barbarians. They have light yellow or blue eyes, with white hair that can likewise be tinged with yellow or blue.
+***Description:*** Frost giants have the overall appearance of giant, muscled barbarians. They have light yellow or blue eyes, with white hair that can likewise be tinged with yellow or blue.
 
 ***Treasure:*** 10d4×100 gp, 1d12 gems (15%), 1d8 jewellery (10%), 4 magic items (25%)
 
@@ -15817,7 +15862,7 @@ Hill giants live in mostly inhospitable locations. Half of the time hill giants 
 
 Hill giants can cause 2d8 hit points in damage by throwing large rocks from between 10 to 200 ft. Likewise, they can catch rocks tossed at them with a 30% probability.
 
-*Description:* In many ways hill giants resemble larger ogres, including having eyes red-rimmed, and they will often wield some type of bludgeoning weapon. In fact, hill giants frequently (50%) also speak the language of ogres. They have skin of rust brown or tan, with similarly coloured rust or black hair. They dress in animal skins.
+***Description:*** In many ways hill giants resemble larger ogres, including having eyes red-rimmed, and they will often wield some type of bludgeoning weapon. In fact, hill giants frequently (50%) also speak the language of ogres. They have skin of rust brown or tan, with similarly coloured rust or black hair. They dress in animal skins.
 
 ***Treasure:*** 2d10×100 gp, 1d10 gems (30%), 1d6 jewellery (25%), 3 magic items (15%)
 
@@ -15845,7 +15890,7 @@ Stone giants sometimes share their lairs with cave bears.
 
 Stone giants can cause 3d10 hit points in damage by throwing large rocks from between 10 to 300 ft. Likewise, they can catch rocks tossed at them with a 90% probability.
 
-*Description:* Stone giants are partially named for their stone-like complexions and iron coloured eyes. Their hair is also dark-stone coloured, sometimes with hints of blue. Whereas hill giants often use wooden clubs, stone giants prefer stone and wear skins the colour of stone.
+***Description:*** Stone giants are partially named for their stone-like comple×ions and iron coloured eyes. Their hair is also dark-stone coloured, sometimes with hints of blue. Whereas hill giants often use wooden clubs, stone giants prefer stone and wear skins the colour of stone.
 
 ***Treasure:*** 2d10×100 gp, 1d10 gems (30%), 1d6 jewellery (25%), 3 magic items (15%)
 
@@ -15859,6 +15904,9 @@ Stone giants can cause 3d10 hit points in damage by throwing large rocks from be
 - **Hit Dice:** 15+1d6+1
 - **Attacks:** 1
 - **Damage:** 7d6
+
+<!-- p.208 -->
+
 - **Special Attacks:** See below
 - **Special Defences:** See below
 - **Magic Resistance:** Standard
@@ -15871,11 +15919,9 @@ Storm giants are the most formidable of giants in many campaigns. They live in r
 
 Storm giants are too intelligent, sophisticated, and magically endowed to toss rocks like their brethren. Instead, storm giants can employ the following spell-like abilities once per day: *lightning bolt* (8d8 damage), *call lightning* (10 to 15d6 damage, 3 bolts), *control winds, predict weather,* and *weather summoning*. Further, they can *levitate* their own weight plus an additional weight equal to 30,000 gold pieces two times per day. Storm giants can breathe and otherwise function underwater unimpeded. They are immune to all damage by electricity, including the fearsome electrical bolt breathed by the dreaded blue dragon.
 
-*Description:* There are two typical appearances of storm giants, related to their preference for environment. Those who choose to live under water are often of green hair, eyes and skin, while those above water have purple skin, eyes either purple or cloudy grey, and blue-tinted black hair.
+***Description:*** There are two typical appearances of storm giants, related to their preference for environment. Those who choose to live under water are often of green hair, eyes and skin, while those above water have purple skin, eyes either purple or cloudy grey, and blue-tinted black hair.
 
 ***Treasure:*** 10d4×100 gp, 4d6 + 6 gems (15%), 1d8 jewellery (10%), 4 magic items (25%)
-
-<!-- p.208 -->
 
 ### Ettin
 
@@ -15897,9 +15943,9 @@ Storm giants are too intelligent, sophisticated, and magically endowed to toss r
 
 Ettins are large, nocturnal creatures that live below ground. They have two heads, each of which controls one arm. The right side is slightly dominant, and can cause 3d6 damage whereas the left can inflict 2d8. Ettins are seldom surprised because one head or the other is usually keeping watch.
 
-*Description:* Ettins are dirty creatures that wear tattered skins and often use wicked weapons, such as barbed clubs. They share some affinity to orcs, witnessed in their pig-like faces.
+***Description:*** Ettins are dirty creatures that wear tattered skins and often use wicked weapons, such as barbed clubs. They share some affinity to orcs, witnessed in their pig-like faces.
 
-***Treasure:*** Individual: 2d10 gp, 1d6 gems (25%), 1d4 jewellery (20%) 2 magic items; <!-- printed as-is: NEW --> Lair: 2d6×1,000 gp (70%)
+***Treasure:*** Individual: 2d10 gp, 1d6 gems (25%), 1d4 jewellery (20%) 2 magic items; <!-- printed as-is: see errata E131 --> Lair: 2d6×1,000 gp (70%)
 
 ### Ogre
 
@@ -15921,6 +15967,8 @@ Ettins are large, nocturnal creatures that live below ground. They have two head
 | **Alignment:** | Chaotic evil | Chaotic evil |
 | **Level/XP:** | 3/95 + 5/hp | 5/750+6/hp |
 
+<!-- p.209 -->
+
 Ogres are malicious beings who live in all environments, whether above or below ground. They have affinity with hill giants and trolls, and often can be found with them. Additionally, ogres love wealth, and will hire themselves out to other creatures toward this end.
 
 In a group of 11 or more ogres, one is a leader and is slightly more powerful (attack capability equal to a 7 HD monster, 33 hit points, AC 3, and damage of 2d6). Groups of 16 or greater ogres will have two of these leaders, as well as an ogre chief. The chief also attacks as a 7 HD monster, but inflicts 1d10 + 4 hit points of damage and has an AC of 4. When attacking by weapon, standard ogres receive +2 to damage while their more powerful leaders get +3 and a chief receives +4.
@@ -15929,15 +15977,13 @@ When encountering ogres in their lair, there will be an additional 2d6 females a
 
 Despite their low intelligence, ogres are social creatures and speak orc, troll, and the language of hill giants in addition to their own language and alignment tongue.
 
-*Description:* Aside from the elusive unhealthy-purple coloured ogre, most ogres have skin that is dull yellow or dark brown. They have black-green or blue-black hair, and their skin is covered in dark wart-like bumps. They have purple eyes and white pupils, and their hard, thick nails and teeth are orange and sometimes black. Ogres live at least 90 years. They don furs or other animal hides, and their (often) mercenary lifestyle requires that they maintain their weapons and armour in decent condition.
+***Description:*** Aside from the elusive unhealthy-purple coloured ogre, most ogres have skin that is dull yellow or dark brown. They have black-green or blue-black hair, and their skin is covered in dark wart-like bumps. They have purple eyes and white pupils, and their hard, thick nails and teeth are orange and sometimes black. Ogres live at least 90 years. They don furs or other animal hides, and their (often) mercenary lifestyle requires that they maintain their weapons and armour in decent condition.
 
 ***Treasure:*** Individual: 20d4 gp; Lair: 1d3×1,000 gp (30%), 5d8 gems (40%), 2 magic items (10%), 2d4 potions (40%)
 
 **Ogre Magi** are fearsome evil creatures, well versed in magic and of unnatural size and strength. They stand around nine or ten feet tall, are thick-limbed, wide of girth and heavily muscled, but otherwise more or less resemble men in shape. Ogre magi are known to have thick skin that usually ranges in colour from pale yellow to brown or black, but some are said to be green or even blue. Most have reddish coloured eyes, two or more yellow to white horns, thick tusks, sharp yellow to black nails and long dark hair. They speak common and ogrish, amongst other languages.
 
 Though ogre magi are physically powerful, it is their command of magic that makes them truly dangerous adversaries. The spells they may use include *fly* (12 turn duration), *invisibility*, *darkness 10 ft radius* and *polymorph self*, though this last is limited to humanoid forms four to twelve feet in size. Once per day, they may also use *charm person*, *sleep*, *gaseous form* and *cone of cold* as a 12th level spell caster.
-
-<!-- p.209 -->
 
 In addition, they have the capacity to regenerate 1 hp per combat round. Ogre magi are highly intelligent and will seek to defeat their foes with magic before entering physical combat. They prefer to flee rather than continue to fight a losing battle, though they are known to bear long grudges.
 
@@ -15965,7 +16011,7 @@ Ogre magi are not numerous and tend towards small groups, but the largest are le
 
 Trolls are vile, putrid creatures found in almost any climate. They can attack up to three opponents at a time using their powerful limbs to claw and their wicked teeth for biting. After three rounds of combat, their innate regeneration ability will start working, recovering 3 hit points per round. Their ability to regenerate even allows detached limbs to reattach to their body. Severed limbs will even continue to attack foes independently. A troll can only be truly destroyed by fire or acid, and these type of damage cannot be regenerated.
 
-*Description:* The hides of trolls are a sickly green or grey and they have cold black eyes.
+***Description:*** The hides of trolls are a sickly green or grey and they have cold black eyes.
 
 ***Treasure:*** Lair 1d8×1,000 cp (10%), 1d12×1,000 sp (15%), 1d8×1,000 ep (15%), 1d6×1,000 gp (50%), 1d10 gems (30%), 1d6 jewellery (25%), 2 magic items or 1 potion (15%).
 
@@ -15992,7 +16038,7 @@ Trolls are vile, putrid creatures found in almost any climate. They can attack u
 
 These horrible creatures are the result of crossbreeding trolls with hill giants, resulting in a monster that looks like a troll combined with the large size and pot-belly of a hill giant. The hide of a giant troll is reddish brown and they have tough wiry black hair, bulbous nose, and red rimmed eyes.
 
-Giant trolls are very strong and when fighting with their favoured weapon, a giant spiked club, they inflict 2d8 points of damage. They carry this weapon with them everywhere, even in their lair, but if encountered without it they will fight with their clawed hands. When using their natural weaponry giant trolls attack twice per round for 1d6 points of damage each, and is easily capable of attacking two different targets in the same round. Giant trolls also have extremely fast reflexes and are able to snatch a missile from the air 25% of the time. If it is a missile suitable for throwing (example: spear, rock) the giant troll will throw it back as its next attack.
+Giant trolls are very strong and when fighting with their favoured weapon, a giant spiked club, they inflict 2d8 points of damage. They carry this weapon with them everywhere, even in their lair, but if encountered without it they will fight with their clawed hands. When using their natural weaponry giant trolls attack twice per round for 1d6 points of damage each, and is easily capable of attacking two different targets in the same round.<!-- printed as-is: see errata E132 --> Giant trolls also have extremely fast reflexes and are able to snatch a missile from the air 25% of the time. If it is a missile suitable for throwing (example: spear, rock) the giant troll will throw it back as its next attack.
 
 Giant trolls regenerate 2 hp per round but unlike their smaller cousins, they are not capable of rebonding severed limbs, and severed limbs will not attack independently. Giant trolls share a troll’s weakness to fire and acid, and at least 10 hp of damage to a troll must be by one of these two methods before it can be slain. Any other damage simply reduces the giant troll to 1 hp and negates regeneration.
 
@@ -16020,7 +16066,7 @@ Giant trolls are found in every climate except desert. They have 90 ft infravisi
 
 Giant two-headed trolls are the vicious offspring of trolls and ettins. In appearance they look most like trolls, though they have two heads like an ettin and prefer wearing filthy animal skins as ettins do. Giant two-headed trolls are nocturnal and prefer underground dwellings such as dungeons or caverns, but only have the standard 60 ft infravision.
 
-In combat the giant two-headed troll has two claw attacks for 1d6 points of damage each and which can be directed at two different opponents. It also has two bite attacks for 1d10 damage each but bite attacks must be directed at the same opponent. This variety of troll can regenerate 1 hp per round but cannot rebond severed limbs, and severed limbs will not attack independently. Like an ettin, this ettin-troll crossbreed can have one head sleep while the others stays alert for danger and thus it can only be surprised on a 1 in 6.
+In combat the giant two-headed troll has two claw attacks for 1d6 points of damage each and which can be directed at two different opponents. It also has two bite attacks for 1d10 damage each but bite attacks must be directed at the same opponent. This variety of troll can regenerate 1 hp per round but cannot rebond severed limbs, and severed limbs will not attack independently. Like an ettin, this ettin-troll crossbreed can have one head sleep while the others stays alert for danger and thus it can only be surprised on a 1 in 6.<!-- printed as-is: see errata E133 -->
 
 ***Treasure:*** 1d8×1,000 cp (20%), 1d10×1,000 sp (30%), 1d10×1,000 ep (15%), 1d6×1,000 gp (60%), 2d6 gems (35%), 1d6 jewellery (20%), any 2 maps or magic plus 1 potion (25%)
 
@@ -16067,7 +16113,7 @@ Ice trolls have the superior 90 ft infravision and an acute sense of smell. They
 - **Size:** Large (8 ft tall)
 - **Move:** 150 ft
 - **Armour Class:** 2
-- **Hit Dice:** 5+5
+- **Hit Dice:** 5 + 5
 - **Attacks:** 3
 - **Damage:** 1d6/1d3/1d3
 - **Special Attacks:** Strength point drain
@@ -16082,9 +16128,9 @@ Long ago these creatures were created in some bizarre and perverted arcane ritua
 
 Spectral trolls have 3 attacks which cause special damage (detailed below) and can target up to 3 different opponents if they choose. Spectral trolls regenerate 3 hit points per round and can rebond severed limbs and, as with their troll brethren, severed limbs will continue to attack independently. These creatures are impervious to cold and cold based attacks while fire or fire based attacks cause damage which does not regenerate. Spectral trolls can only be hit by magical weapons.
 
-***Special Damage:*** The spectral troll has two claw attacks that subtract 1d3 points of damage on a successful hit from both the victim’s hp and his or her strength ability score. For example: a 17 strength fighter struck for 2 hit points of damage will immediately be reduced to a strength of 15. Strength is recovered at a rate of 1 point for every 2d4 turns. If a victim’s strength is reduced to zero he or she dies; if strength is reduced to 1 or 2 hit points the victim will fall comatose to the ground and will not recover consciousness until enough strength is recovered to raise score to 3 or higher.
+***Special Damage:*** The spectral troll has two claw attacks that subtract 1d3 points of damage on a successful hit from both the victim’s hp and his or her strength ability score. For e×ample: a 17 strength fighter struck for 2 hit points of damage will immediately be reduced to a strength of 15. Strength is recovered at a rate of 1 point for every 2d4 turns. If a victim’s strength is reduced to zero he or she dies; if strength is reduced to 1 or 2 hit points the victim will fall comatose to the ground and will not recover consciousness until enough strength is recovered to raise score to 3 or higher.
 
-In addition to the special claw attacks, the spectral troll also has a fanged biting attack. The bite attack of one of these invisible monsters inflicts 1d6 points of damage but the troll adds its own hit point value as bonus damage to the attack. Example: a spectral troll with 38 hit points bites a cleric for 4 points of damage. Total damage dealt to the unfortunate cleric would 4 + 38 = 42.
+In addition to the special claw attacks, the spectral troll also has a fanged biting attack. The bite attack of one of these invisible monsters inflicts 1d6 points of damage but the troll adds its own hit point value as bonus damage to the attack. Example: a spectral troll with 38 hit points bites a cleric for 4 points of damage. Total damage dealt to the unfortunate cleric would 4 + 38 = 42. <!-- printed as-is: see errata E134 -->
 
 Spectral trolls have an acute sense of smell and superior infravision with a 120 ft range. Like all trolls, the spectral troll is strong, fearless, and attacks relentlessly until it kills its opponent or is itself slain.
 
@@ -16151,7 +16197,7 @@ Blue dragons often (60%) are known to speak, only sometimes (30%) cast magic, bu
 
 If a blue dragon can cast spells, it gains spells as if it were a wizard of a level equal to its age category.
 
-Blue dragon breath is a bolt of lighting, 100 ft long and 5 ft wide. It does damage equal to the dragon’s hit points (but a save vs dragon breath halves this amount). The dragon may use this breath weapon up to three times per day.
+Blue dragon breath is a bolt of lighting, 100 ft long and 5 ft wide. It does damage equal to the dragon’s hit points (but a save vs dragon breath halves this amount). The dragon may use this breath weapon up to three times per day. <!-- printed as-is: see errata E135 -->
 
 ***Treasure:*** (For a typical individual) 5d6×1,000 cp (25%), 1d100×1,000 sp (40%), 1d4×10,000 ep (40%), 1d6×10,000 gp (55%), 5d10×100 pp (25%), 1d100 gems (50%), 1d4×10 jewellery (50%), 4 magic items plus 1 potion and 1 scroll (15%), 2d4 potions (40%).
 
@@ -16179,7 +16225,7 @@ Brass dragons sometimes (30%) are known to speak, only sometimes (30%) cast magi
 
 If a brass dragon can cast spells, it gains spells as if it were a wizard of a level equal to one-half of its age category.
 
-Brass dragon breath is either a cone of sleep-inducing gas (70 ft by 20 ft), or a cone of fear gas (40 ft by 50 ft, by 20 ft).
+Brass dragon breath is either a cone of *sleep*-inducing gas (70 ft by 20 ft), or a cone of fear gas (40 ft by 50 ft, by 20 ft).
 <!-- p.213 -->
 Anyone within the cloud must save or fall deeply asleep or run in fear (duration of either effect is 10 minutes). Saves against a small dragon’s breath are at a +2, but against a large dragon’s breath are at a –2.
 
@@ -16387,10 +16433,9 @@ White dragon breath is a cone of deadly frost, 50 ft long and 25 ft diameter at 
 
 ## DEMONS
 
-Demonologists have identified several classes of demon. Each class of demon possesses a variety of powerful, supernatural abilities. Those abilities common to all demons are noted below. For further information on both
-<!-- p.217 -->
-the classified and unclassified demons, see the individual demon listings. Note that most demons do not actually fall into the five listed categories.
+Demonologists have identified several classes of demon. Each class of demon possesses a variety of powerful, supernatural abilities. Those abilities common to all demons are noted below. For further information on both the classified and unclassified demons, see the individual demon listings. Note that most demons do not actually fall into the five listed categories.
 
+<!-- p.217 -->
 Many demons possess the following magical abilities: *infravision* (as the 5th level magic user spell), *teleport* (with no chance of error) (as the 2nd level magic user spell), *darkness*, *gate* (as the 9th level magic user spell). See individual listings for details.
 
 Demons can freely travel between their own home planes and Tarterus, Pandemonium and Hades. They may also travel the Astral Plane at will. However, they are only able to enter the Prime Material Plane if summoned with a spell (conjuration, *gate*, *wish*, etc.) or certain magical items.
@@ -16407,7 +16452,7 @@ Demons are repulsed by good artifacts or other powerful holy items.
 
 On the Prime Material Plane, demons may be turned by clerics of levels 8+ and paladins of levels 11+.
 
-Demons are often encountered in the Astral and Æthereal planes. They may be drawn to the auras of astral or æthereal travellers. Because of the frequent demonic presence in these planes, merely speaking the name of a particular demon may (5%) cause them to pursue the offending speaker. Unless otherwise prepared to defend against such a occurrence, summoners should be aware that demons prefer to slay or imprison their victims in their home plane.
+Demons are often encountered in the Astral and Æthereal planes. They may be drawn to the auras of astral or æthereal travellers. Because of the frequent demonic presence in these planes, merely speaking the name of a particular demon may (5%) cause them to pursue the offending speaker. Unless otherwise prepared to defend against such a occurrence, summoners should be aware that demons prefer to slay or imprison their victims in their home plane. <!-- printed as-is: see errata E136 -->
 
 Demons are inherently able to understand any language. All demons with average or better intelligence are also inherently able to converse in any language.
 
@@ -16426,7 +16471,7 @@ Demons are susceptible to attack as noted in the table below;
 |---|---|
 | Magic Missile | Full damage |
 | Poison | Full damage |
-| Silver | No additional damage(according to normal weapon type) <!-- printed as-is: NEW --> |
+| Silver | No additional damage(according to normal weapon type) <!-- printed as-is: see errata E137 --> |
 
 ### Babau
 
@@ -16450,13 +16495,13 @@ Babau are also known by demonologists as horned demons or bone demons. They are 
 
 These demons are known for their cunning intelligence and strength (19). In combat, they prefer to use any sort
 <!-- p.218 -->
-of weaponry if it is to their advantage. In the heat of battle, they secrete a slimy rust coloured ichor that halves damage from melee weapons, as blows slide off their bodies. Their typical mode of attack involves leaping from above onto unwary victims
+of weaponry if it is to their advantage. In the heat of battle, they secrete a slimy rust coloured ichor that halves damage from melee weapons, as blows slide off their bodies. Their typical mode of attack involves leaping from above onto unwary victims <!-- printed as-is: see errata E138 -->
 
 Babau are immune to normal melee and missile weapons. Iron weapons inflict an additional +2 damage as it burns their hide. Magical weapons are also effective, but do not impart this +2 bonus.
 
 Babau cause *darkness* at will (5 ft radius) and have abilities equal to a 9th level thief. They also have the following abilities which they can use at will one at a time as a 14th level spellcaster: *fear* (touch only, otherwise as the 4th level magic user spell), *levitate* (as the 2nd level magic user spell), *fly* (as the 3rd level magic user spell), *dispel magic* (as the 3rd level magic user spell), *polymorph self* (as the 4th level magic user spell), *heat metal* (as the 2nd level druid spell), or *gate* (as the 9th level magic user spell) in another babau (25% chance of success). Finally, anyone up to 20 feet away gazing into the eyes of a babau must save vs spells (unlisted categories) or suffer the effects of a *ray of enfeeblement* (as the 2nd level magic user spell).
 
-Babau are despised by class A, B and C demons. class D demons especially hate bands of babau, and hunt them for food. <!-- printed as-is: NEW -->
+Babau are despised by class A, B and C demons. class D demons especially hate bands of babau, and hunt them for food. <!-- printed as-is: see errata E139 -->
 
 ***Treasure:*** If encountered in their lair, babau will have amassed a hoard made up of 1d12×1000 cp (20%), 1d6×1000 sp (30%), 1d4×1000 ep (10%), 1d6 gems (25%) and 1d3 jewellery (20%). In addition, they may (10%) have 1d2 magical items.
 
@@ -16478,9 +16523,7 @@ Babau are despised by class A, B and C demons. class D demons especially hate ba
 - **Alignment:** Chaotic evil
 - **Level/XP:** 7/1,275 +10/hp
 
-Vrock, considered one of the weakest of demonkind, look like a hideous cross between a vulture and a humanoid. They are no stronger than normal and may be harmed with normal melee and missile weapons. Like all demons they can cause *darkness*, but only in a 5 ft radius. They also possess the following special abilities which they may use at will: *detect invisibility* (objects only, otherwise as per the 2nd level magic user spell), *gate* in another vrock (10%
-<!-- p.219 -->
-chance of success), or *telekinesis* (as the 5th level magic user spell, up to 200 lbs).
+Vrock, considered one of the weakest of demonkind, look like a hideous cross between a vulture and a humanoid. They are no stronger than normal and may be harmed with normal melee and missile weapons. Like all demons they can cause *darkness*, but only in a 5 ft radius. They also possess the following special abilities which they may use at will: *detect invisibility* (objects only, otherwise as per the 2nd level magic user spell), *gate* in another vrock (10% chance of success), or *telekinesis* (as the 5th level magic user spell, up to 200 lbs).
 
 Vrock are particularly stupid, and cannot normally be bargained with. They love the sight of precious gems and jewellery, however, and also enjoy feasting on the flesh of men.
 
@@ -16504,7 +16547,9 @@ Vrock are particularly stupid, and cannot normally be bargained with. They love 
 - **Alignment:** Chaotic evil
 - **Level/XP:** 8/2,000 + 12/hp
 
-Slightly shorter than the vrock, the hezrou resemble loathsome toads with humanoid arms. They are vulnerable to normal melee and missile weapons. They cause *darkness* at will covering a 15 foot radius. They also possess the following special abilities which can be used at will, one at a time: Cause *fear* (as the 4th level magic user spell), *levitate* (as the 2nd level magic user spell), *detect invisibility* (objects only, otherwise as per the 2nd level magic user spell), *telekinesis* (as per the 5th level magic user spell, up to 300 lbs), or *gate* (as the 9th level magic user spell) another hezrou (20% chance of success).
+Slightly shorter than the vrock, the hezrou resemble loathsome toads with humanoid arms. They are vulnerable to normal melee and missile weapons. They cause *darkness* at will covering a 15 foot radius. They also possess the
+<!-- p.219 -->
+following special abilities which can be used at will, one at a time: Cause *fear* (as the 4th level magic user spell), *levitate* (as the 2nd level magic user spell), *detect invisibility* (objects only, otherwise as per the 2nd level magic user spell), *telekinesis* (as per the 5th level magic user spell, up to 300 lbs), or *gate* (as the 9th level magic user spell) another hezrou (20% chance of success).
 
 Hezrou and vrock will gladly fight each other without hesitation, and they both share a love of human flesh.
 
@@ -16528,7 +16573,7 @@ Hezrou and vrock will gladly fight each other without hesitation, and they both 
 - **Alignment:** Chaotic evil
 - **Level/XP:** 8/2,400 + 14/hp
 
-These muscular demons have a head like a horned dog, and from their broad chest sprouts four arms: 2 with sharp pincers and 2 with hands. Glabrezu are vulnerable to normal melee weapons and missiles. At will, they can cause *darkness* in a 10 ft radius. Additionally, they may use the following abilities at will, one at a time: Cause *fear* (as the 4th level magic user spell), *levitate* (as the 2nd level magic user spell), *pyrotechnics* (as the 2nd level magic user spell ), *polymorph self* (as the 4th level magic user spell), *telekinesis* (as the 5th level magic user spell, up to 400 lbs), *gate* (as the 9th level magic user spell) another Class A to C demon (30% chance of success).
+These muscular demons have a head like a horned dog, and from their broad chest sprouts four arms: 2 with sharp pincers and 2 with hands. Glabrezu are vulnerable to normal melee weapons and missiles. At will, they can cause *darkness* in a 10 ft radius. Additionally, they may use the following abilities at will, one at a time: Cause *fear* (as the 4th level magic user spell), *levitate* (as the 2nd level magic user spell), *pyrotechnics* (as the 2nd level magic user spell ), *polymorph self* (as the 4th level magic user spell), *telekinesis* (as the 5th level magic user spell, up to 400 lbs), *gate* (as the 9th level magic user spell) another Class A to C demon (30% chance of success). <!-- printed as-is: see errata E140 -->
 
 ***Treasure:*** If encountered in their lair, glabrezu will have a cache of treasure made up of 1d8×1,000 cp (10%), 1d12×1,000 sp (15%), 1d8×1,000 ep (15%), 1d6×1,000 gp (50%), 1d10 gems (30%), 1d6 jewellery (25%), and 3 random magic items, including one potion (15%).
 
@@ -16549,8 +16594,10 @@ These muscular demons have a head like a horned dog, and from their broad chest 
 - **Intelligence:** Very
 - **Alignment:** Chaotic evil
 - **Level/XP:** 9/3,000 + 16/hp
+
+Particularly malevolent demons, the class D have the upper body of an ape and the cloven-hoofed lower body of a boar. They have rather small feathered wings as well, which seem undersized compared to their corpulent bodies. Unlike class A to C demons, these are immune to normal arms and must be attacked with magical weapons. Like other demonkind, they are able to cause *darkness* at will (10 ft radius). Their other abilities, which they can use at will, one at a time, are *improved phantasmal force* (as the 2nd level illusionist spell), *fear* (as the 4th level magic user spell), *levitate* (as the 2nd level magic user spell), *detect magic* (as the 1st level magic user spell), *comprehend languages* (as the 1st level magic user spell), *dispel magic* (as the 3rd level magic user spell), *polymorph self* (as the 4th level magic user spell), *telekinesis* (as the 5th level magic user spell, up to 500 lbs), *project image* (as the 6th level magic user spell), use a *symbol of fear* or *discord* (as the 8th level magic user spell), and *gate* (as the 9th level magic
 <!-- p.220 -->
-Particularly malevolent demons, the class D have the upper body of an ape and the cloven-hoofed lower body of a boar. They have rather small feathered wings as well, which seem undersized compared to their corpulent bodies. Unlike class A to C demons, these are immune to normal arms and must be attacked with magical weapons. Like other demonkind, they are able to cause *darkness* at will (10 ft radius). Their other abilities, which they can use at will, one at a time, are *improved phantasmal force* (as the 2nd level illusionist spell), *fear* (as the 4th level magic user spell), *levitate* (as the 2nd level magic user spell), *detect magic* (as the 1st level magic user spell), *comprehend languages* (as the 1st level magic user spell), *dispel magic* (as the 3rd level magic user spell), *polymorph self* (as the 4th level magic user spell), *telekinesis* (as the 5th level magic user spell, up to 500 lbs), *project image* (as the 6th level magic user spell), use a *symbol of fear* or *discord* (as the 8th level magic user spell), and *gate* (as the 9th level magic user spell) another class A to D demon (random class, 60% chance of success).
+user spell) another class A to D demon (random class, 60% chance of success).
 
 Certain class D demons have their own secret names, which makes it 90% certain they will answer a summons if it is spoken. Conjurers should be prepared to make impressive promises of treasure, magical items or living sacrifices when summoning a class D demon, especially by name. It should also be remembered that these demons particularly enjoy feasting on human blood and meat.
 
@@ -16576,7 +16623,7 @@ Certain class D demons have their own secret names, which makes it 90% certain t
 
 Infamous even among demonkind for their cruel and ill-tempered nature, the marilith are invariably female. From the waist up they appear to be a full-figured human female with six arms and skin tones ranging from deep violet to a putrescent green. Below the waist however, they have the coiling body of a large serpent. In melee they prefer to wield a variety of barbed and hooked swords and battle axes or simply constrict their prey with their powerful serpentine tail.
 
-Like their fellow demons, they can cause *darkness* at will (5 ft radius). They possess the following additional abilities which they may use one at a time, at will: *charm person* (as the 1st level magic user spell), *levitate* (as the 2nd level magic user spell), *comprehend languages* (as the 1st level magic user spell), *detect invisibility* (objects only, otherwise as the 2nd level magic user spell), *pyrotechnics* (as the 2nd level magic user spell ), *polymorph self* (as the 4th level magic user spell), *project image* (as the 6th level magic user spell), or *gate* (as the 9th level magic user spell) another demon (50% chance of success.) Use the following table to determine which class of demon is summoned: <!-- printed as-is: NEW -->
+Like their fellow demons, they can cause *darkness* at will (5 ft radius). They possess the following additional abilities which they may use one at a time, at will: *charm person* (as the 1st level magic user spell), *levitate* (as the 2nd level magic user spell), *comprehend languages* (as the 1st level magic user spell), *detect invisibility* (objects only, otherwise as the 2nd level magic user spell), *pyrotechnics* (as the 2nd level magic user spell ), *polymorph self* (as the 4th level magic user spell), *project image* (as the 6th level magic user spell), or *gate* (as the 9th level magic user spell) another demon (50% chance of success.) Use the following table to determine which class of demon is summoned: <!-- printed as-is: see errata E141 -->
 
 | d% | Demon Class |
 |---|---|
@@ -16611,7 +16658,7 @@ All class E demons have personal and secret names which may be used to summon an
 
 Reportedly only six of this class of demon exist, each with their own secret name. In combat they wield massive +1 swords and a cat-o-nine-tails whip which they employ to drag their victims into the flames that they continually immolate themselves in. Each round, there is a 4 in 6 chance they will use their whip. Victims who fail a save vs spells (unlisted categories) are burnt by the flames and suffer 4d6 additional points of damage.
 
-The *darkness* they cause at will has a radius of 10 feet. In addition, they have several other abilities which they can use at will one at a time. These are *fear* (as the 4th level magic user spell), *detect magic* (as the 1st level magic user spell), *read magic* (as the 1st level magic user spell), *comprehend languages* (as the 1st level magic user spell), *detect invisibility* (objects only, otherwise as the 2nd level magic user spell), *pyrotechnics* (as the 2nd level magic user spell ), *dispel magic* (as the 3rd level magic user spell), *suggestion* (as the 3rd level magic user spell), *telekinesis* (as the 5th level magic user spell, up to 600 lbs), use a *symbol of fear, discord, sleep,* or *stunning* (as the 8th level magic user spell), and *gate* (as the 9th level magic user spell) another demon of class C (80% chance) or class D (20% chance) with a 70% chance of success.
+The *darkness* they cause at will has a radius of 10 feet. In addition, they have several other abilities which they can use at will one at a time. These are *fear* (as the 4th level magic user spell), *detect magic* (as the 1st level magic user spell), *read magic* (as the 1st level magic user spell), *comprehend languages* (as the 1st level magic user spell), *detect invisibility* (objects only, otherwise as the 2nd level magic user spell), *pyrotechnics* (as the 2nd level magic user spell ), *dispel magic* (as the 3rd level magic user spell), *suggestion* (as the 3rd level magic user spell), *telekinesis* (as the 5th level magic user spell, up to 600 lbs), use a *symbol of fear, discord, sleep,* or *stunning* (as the 8th level magic user spell), and *gate*  (as the 9th level magic user spell) another demon of class C (80% chance) or class D (20% chance) with a 70% chance of success. <!-- printed as-is: see errata E142 -->
 
 Summoning class F demons requires significant offerings or future promises of service or sacrifice. If negotiation is successful, they might be persuaded to aid the summoner or associated group for a while. In any case, these demons will always try to bully and intimidate their masters in an effort to usurp leadership, which they crave. Many other chaotic evil monsters and demons are attracted to the aura of charismatic evil that surrounds class F demons, so they are often found in the forefront of evil hordes.
 
@@ -16647,11 +16694,11 @@ In addition, they can use *dimension door* (as the 4th level magic user spell) o
 
 Fully 25% of all demonettes have genius level intelligence. These demonettes are able to memorise and cast spells as a 1st to 12th level magic user (1d12 to determine level). Spellcasting abilities are in addition to their other innate abilities noted above.
 
-Finally, much like their succubus parent, demonettes are able to drain a victims life energy with a touch (a to hit roll is required in combat). Each touch drains 1d8 hit points from the victim and adds 1d4 hit points to the demonette.
+Finally, much like their succubus parent, demonettes are able to drain a victims life energy with a touch (a to hit roll is required in combat). Each touch drains 1d8 hit points from the victim and adds 1d4 hit points to the demonette. <!-- printed as-is: see errata E143 -->
 
 Demonettes also possess a superior infravision that has a range of 120 ft.
 
-***Treasure:*** Demonettes normally care little for coins. They love gems, jewellery and magical items however. If found in their lair, a demonette will have a cache that contains 1d4 random scrolls (50%), 2d4 random potions (40%), 1d8×10 gems (90%), 5d6 jewellery (80%) and 1d6 other random magical items (excluding potions and scrolls, 70%).
+***Treasure:*** Demonettes normally care little for coins. They love gems, jewellery and magical items however. If found in their lair, a demonette will have a cache that contains 1d4 random scrolls (50%), 2d4 random potions (40%), 1d8×10 gems (90%), 5d6 jewellery (80%) and 1d6 other random magical items (e×cluding potions and scrolls, 70%).
 
 ### Demoniac
 
@@ -16708,7 +16755,7 @@ Demoniacs may become clerics, attaining a maximum level equal to their hit dice 
 
 Dretch are the weakest of all demonkind. Their appearance is almost comical, with a plump body with thin, gangly arms and legs. Their squat heads are bald and they have a slobbering, stupid visage.
 
-Dretch usually attack in hordes, using tooth and claw in blind abandon. They also have the following special abilities which they can use at will, one at a time: *darkness* (5 ft radius), *scare* (as the 2nd level magic user spell), *telekinesis* (as the 5th level magic user spell, up to 50 lbs), or *gate* (as the 9th level magic user spell) a class A demon (15% chance of success). In addition, once per day they can cause a *stinking cloud* (as the 2nd level magic user spell), and *teleport* without fail (as the 5th level magic user spell, but with no chance of error).
+Dretch usually attack in hordes, using tooth and claw in blind abandon. They also have the following special abilities which they can use at will, one at a time: *darkness* (5 ft radius), *scare* (as the 2nd level magic user spell), *telekinesis* (as the 5th level magic user spell, up to 50 lbs), or *gate*  (as the 9th level magic user spell) a class A demon (15% chance of success). In addition, once per day they can cause a *stinking cloud* (as the 2nd level magic user spell), and *teleport* without fail (as the 5th level magic user spell, but with no chance of error). <!-- printed as-is: see errata E144 -->
 
 ***Treasure:*** Dretch are not intelligent enough to hoard treasure socially. Individually they will carry some coinage, as follows: 3d8 cp, 3d6 sp, 2d6 ep, and 2d4 gp.
 
@@ -16733,7 +16780,7 @@ Dretch usually attack in hordes, using tooth and claw in blind abandon. They als
 
 Ekivu resemble a hideous crossbreed between a giant fly and a human. Their hindlegs are insect-like and their forelimbs resemble human arms, but with bony, sharp claws. Like flies, their bodies are covered in blueish-black chitin with bristling hair. Their heads are vaguely human, but with bulbous, faceted eyes like those of a fly. Their mouths are ringed with sharp teeth and their long noses are actually a sharp proboscis for drawing blood from their victims.
 
-Ekivu can cause *darkness* within a 5 foot radius. They also have the following special abilities which they can use at will, one at a time: *detect good* (as the 1st level cleric spell), *detect invisibility* (as the 2nd level magic user spell), *telekinesis* (as the 5th level magic user spell, up to 150 lbs), *fear* (touch only, otherwise as the 4th level magic user spell) or *gate* (as the 9th level magic user spell) another ekivu (15% chance of success).
+Ekivu can cause *darkness* within a 5 foot radius. They also have the following special abilities which they can use at will, one at a time: *detect good* (as the 1st level cleric spell), *detect invisibility* (as the 2nd level magic user spell), *telekinesis* (as the 5th level magic user spell, up to 150 lbs), *fear* (touch only, otherwise as the 4th level magic user spell) or *gate*  (as the 9th level magic user spell) another ekivu (15% chance of success). <!-- printed as-is: see errata E145 -->
 
 When not using one of their other abilities, ekivu constantly make an insidious buzzing drone which has the power to lull listeners into a comatose state. If a save vs spells (unlisted categories) is not made, the victim will sleep for 2d4 hours or until the demon has drawn 1d4 hp of their blood.
 
@@ -16789,7 +16836,7 @@ Shadows and ghasts are often created from kullule by their demonic masters. The 
 
 Quasit are soul worms formed by Demon Lords for service as familiars to chaotic evil clerics and magic users. At will, quasits are able to polymorph themselves into any 2 of the following creatures: frog, bat, giant centipede, or wolf.
 
-Quasits are immune to normal melee and missile weapons. Only iron or +1 or better magical weapons can harm them. They are also immune to all cold, fire and lightning. If attacked with a spell, quasits save as a 7 hit dice monsters.
+Quasits are immune to normal melee and missile weapons. Only iron or +1 or better magical weapons can harm them. They are also immune to all cold, fire and lightning. If attacked with a spell, quasits save as a 7 hit dice monsters. <!-- printed as-is: see errata E146 -->
 
 In its natural form, a quasit attacks with its teeth and claws, which inflict a burning irritation that subtracts 1 from the victim’s dexterity unless a save vs poison is made. This penalty is cumulative. The irritation remains for 2d6 melee rounds.
 
@@ -16831,7 +16878,7 @@ Shub have the following special abilities, which they can use at will, one at a 
 
 In combat, shub prefer to wield a variety of strange, wicked-looking pole arms, saw-toothed swords, and bizarre atlatls and throwing knives.
 
-***Treasure:*** Shub love treasure, and will try to steal or swindle to get it. Most Shub will have some coins in a sack or pouch (2d12×10 ep, 2d4×5 gp). If encountered in their lair, Shub may have 1d4×1,000 cp (25%), 1d3×1,000 sp (20%) and 1d4 random gems (50%). <!-- printed as-is: NEW -->
+***Treasure:*** Shub love treasure, and will try to steal or swindle to get it. Most Shub will have some coins in a sack or pouch (2d12×10 ep, 2d4×5 gp). If encountered in their lair, Shub may have 1d4×1,000 cp (25%), 1d3×1,000 sp (20%) and 1d4 random gems (50%). <!-- printed as-is: see errata E147 -->
 
 ### Succubus
 
@@ -16851,7 +16898,7 @@ In combat, shub prefer to wield a variety of strange, wicked-looking pole arms, 
 - **Alignment:** Chaotic evil
 - **Level/XP:** 7/2,100 + 6/hp
 <!-- p.225 -->
-These solitary demons are always female. In their true form they look like stunningly beautiful, and naked, humanoid women with leathery bat-wings sprouting from their back. They are immune to normal melee and missile weapons and a +1 or better magical weapon is needed to hit them. At will, they can cause *darkness* (5 ft radius). They also are able to use the following abilities at will one at a time: become *æthereal* (as per the magic item *oil of æthereality*), *charm person* (as the 1st level magic user spell), *ESP* (as the 2nd level magic user spell), *clairaudience* (as the 3rd level magic user spell), *suggestion* (as the 3rd level magic user spell), *polymorph self* (humanoid shapes only, otherwise as the 4th level magic user spell), or *gate* (as the 9th level magic user spell) a class D demon (70% chance)or a class E demon (30% chance) with a 4 in 10 chance of success. <!-- printed as-is: NEW -->
+These solitary demons are always female. In their true form they look like stunningly beautiful, and naked, humanoid women with leathery bat-wings sprouting from their back. They are immune to normal melee and missile weapons and a +1 or better magical weapon is needed to hit them. At will, they can cause *darkness* (5 ft radius). They also are able to use the following abilities at will one at a time: become *æthereal* (as per the magic item *oil of æthereality*), *charm person* (as the 1st level magic user spell), *ESP* (as the 2nd level magic user spell), *clairaudience* (as the 3rd level magic user spell), *suggestion* (as the 3rd level magic user spell), *polymorph self* (humanoid shapes only, otherwise as the 4th level magic user spell), or *gate* (as the 9th level magic user spell) a class D demon (70% chance)or a class E demon (30% chance) with a 4 in 10 chance of success. <!-- printed as-is: see errata E148 -->
 
 Their most prominent ability is their kiss, which they inflict on their charmed or unconscious victims. Each kiss drains one level from the victim and they may kiss a particular victim but once a day. If they take a liking to a particular victim, a succubus may mate with a human male—producing a demonette (see listing for further details).
 
@@ -16908,17 +16955,17 @@ squabbling and rivalries are common amongst devils. Amongst the archdevils thems
 
 All devils can move between the various planes of Hell, although this usually requires permission from the archdevil who rules the particular plane. Devils may also move at will to Gehenna, Hades, and Acheron. Similarly, they can also travel to the Astral Plane, but this is rare. Devils are not allowed to enter the other planes (e.g. the Prime Material) without a proper summoning, a *gate* spell, or the invocation of their secret name (if they have one).
 
-All devils possess special, magical abilities which may vary according to individual type. They can use these abilities at will one at a time. These abilities are: *animate dead* (as the 5th level magic user spell), *charm person* (as the 1st level magic user spell), *fear* (effect varies, as the 4th level magic user spell), *know alignment* (as the 2nd level cleric spell), *phantasmal force* (as the 3rd level magic user spell), *suggestion* (as the 3rd level magic user spell), *teleport* (no chance of error, otherwise as the 5th level magic user spell), and summoning other devils (varies, as the 3rd level magic user spell *monster summoning I*.<!-- printed as-is: NEW -->
+All devils possess special, magical abilities which may vary according to individual type. They can use these abilities at will one at a time. These abilities are: *animate dead* (as the 5th level magic user spell), *charm person* (as the 1st level magic user spell), *fear* (effect varies, as the 4th level magic user spell), *know alignment* (as the 2nd level cleric spell), *phantasmal force* (as the 3rd level magic user spell), *suggestion* (as the 3rd level magic user spell), *teleport* (no chance of error, otherwise as the 5th level magic user spell), and summoning other devils (varies, as the 3rd level magic user spell *monster summoning I*.<!-- printed as-is: see errata E149 -->
 
 All devils have infravision and may understand and communicate in any language.
 
-Only the material form of a devil may be killed. To actually slay a devil one must do so in the planes of Hell or a neighbouring lower plane. If its material form is slain, a devil must return to its home plane in Hell for 9 decades of servitude as a lemure before it will resume its home plane in Hell for 9 decades of servitude as a lemure before they will resume their former status.
+Only the material form of a devil may be killed. To actually slay a devil one must do so in the planes of Hell or a neighbouring lower plane. If its material form is slain, a devil must return to its home plane in Hell for 9 decades of servitude as a lemure before it will resume its home plane in Hell for 9 decades of servitude as a lemure before they will resume their former status.<!-- printed as-is: see errata E150 -->
 
 Once combat is joined with devils, they can never be subdued. In dire circumstances the major devils and archdevils may be willing to negotiate. Lesser devils will madly fight to the death. If it is to their advantage, devils can split their attacks among 2 or more targets.
 
 Devils are exceptionally conscious of any kind of laws or contracts binding them to certain behaviour, and are profoundly adept at exploiting hidden loopholes. Negotiating with them can be quite tedious as every minute detail and exigency must be properly accounted for.
 
-Just as when summoning a demon, proper inscription of a magical circle of protection is necessary for the conjurer's safety when attempting to summon a devil. These circles are type-specific, with more powerful devils requiring proportionately more complex and expensive circles. Devils are also repulsed by good artifacts.
+Just as when summoning a demon, proper inscription of a magical circle of protection is necessary for the conjurer’s safety when attempting to summon a devil. These circles are type-specific, with more powerful devils requiring proportionately more complex and expensive circles. Devils are also repulsed by good artifacts.
 
 Devils are susceptible to attack as noted in the table below;
 
@@ -17154,7 +17201,7 @@ In combat, these devils will usually rely on their claws, mandibles, and tails. 
 
 Ice devils exude *fear* (as the 4th level magic user spell) in a 10 ft radius. They also have infravision (60 ft) which is useful in their frigid lairs. If injured, they will regenerate 1 hp per round. In addition, ice devils have these special abilities which they can use one at a time, at will: *detect invisibility* (as the 2nd level magic user spell), *detect magic* (as the 1st level magic user spell), *fly* (as the 3rd level magic user spell), *polymorph self* (as the 4th level magic user spell), *wall of ice* (as the 4th level magic user spell), or *gate* in 2 bone devils (70%) or another ice devil (30%) with a 60% chance of success in either case. Once per day, an ice devil can call forth an *ice storm* (as the 4th level magic user spell).
 
-***Treasure:*** If their lair is plundered, ice devils will have a buried cache containing 2d4×1,000 gp (40%), 1d6×10 pp (50%), 4d8 gems (55%) , and 1d12 jewellery (45%).<!-- printed as-is: NEW -->
+***Treasure:*** If their lair is plundered, ice devils will have a buried cache containing 2d4×1,000 gp (40%), 1d6×10 pp (50%), 4d8 gems (55%) , and 1d12 jewellery (45%).<!-- printed as-is: see errata E151 -->
 
 ### Imp *(Lesser Devil)*
 
@@ -17179,11 +17226,11 @@ Ice devils exude *fear* (as the 4th level magic user spell) in a 10 ft radius. T
 
 Imps are formed from soul worms, created by archdevils to spread evil through service to a lawful evil priest or sorcerer. They are very rarely encountered on the Prime Material Plane, but are commonly seen in the lower planes. They have only average intelligence, but in their role as familiars they are able to rely on the knowledge of their archdevil master.
 
-Imps are created with the innate ability to *polymorph self*. The GM should choose two of the following forms (giant rat, goat, large spider, raven). In their polymorphed form, imps are limited to that animal's natural attacks. In their natural form, imps attack with their poison-tipped tail stingers. Any victim struck must save vs poison or die.
+Imps are created with the innate ability to *polymorph self*. The GM should choose two of the following forms (giant rat, goat, large spider, raven). In their polymorphed form, imps are limited to that animal’s natural attacks. In their natural form, imps attack with their poison-tipped tail stingers. Any victim struck must save vs poison or die.
 
 Imps are immune to normal melee and missile weapons. Only silver and +1 or better magical weapons can damage them. Imps are also immune to cold, fire, and electrical attacks. Imps also have several special abilities, which they can use in whatever form they are in, one at a time at will. These are: *detect good* (as the 2nd level magic user spell), *detect magic* (as the 1st level magic user spell), and *invisibility* (as the 2nd level magic user spell). Once per day, an Imp can cast a *suggestion* (as the 3rd level magic user spell). Once per week it can *commune* with the lower planes (6 questions maximum, otherwise as the 5th level cleric spell).
 
-When serving as a familiar to an evil magic user or cleric, the Imp imparts the following benefits to its master: Constant full-sensory telepathic contact between the Imp and the master up to 1 mile in range. If the master is within 25 feet of the imp, the former gains the Imp's 25% magic resistance and its regeneration ability (1 hp/round). If the master is within 1 mile of the Imp, the former gains an additional level of ability. However, if the imp is killed, the master immediately loses 4 ability levels.
+When serving as a familiar to an evil magic user or cleric, the Imp imparts the following benefits to its master: Constant full-sensory telepathic contact between the Imp and the master up to 1 mile in range. If the master is within 25 feet of the imp, the former gains the Imp’s 25% magic resistance and its regeneration ability (1 hp/round). If the master is within 1 mile of the Imp, the former gains an additional level of ability. However, if the imp is killed, the master immediately loses 4 ability levels.
 
 ***Treasure:*** Imps normally possess no treasure of any kind. If encountered in their lair in the lower planes however, they might have a small hoard of 1d4×1,000 cp (25%) and 1d3×1,000 sp (20%).
 
@@ -17236,7 +17283,7 @@ Lemures cannot normally be destroyed, except by blessed or holy items or weapons
 | **Alignment:** | Lawful evil | Lawful evil | Lawful evil | Lawful evil | Lawful evil |
 | **Level/XP:** | 6/855+10/hp | 6/550+6/hp | 6/550+6/hp | 5/320+5/hp | 6/650+8/hp |
 
-The scaly devils known as the scaly devil are quite common on the upper planes of Hell. Most scaly devils serve the five-headed dragon queen of Hell.
+The scaly devils known as the scaly devil are quite common on the upper planes of Hell.<!-- printed as-is: see errata E152 --> Most scaly devils serve the five-headed dragon queen of Hell.
 
 Their appearance epitomizes the human idea of what a devil should look like. They are humanoid-shaped with horns, bat-like wings, and a long spiked tail. Their scaled hide varies, as there are 5 distinct breeds of scaly devil: black, blue, green, red, and white.
 
@@ -17296,7 +17343,7 @@ Spiked devils are small and weak compared to the other devils, but are amongst t
 
 In melee, they usually attack with a trident, fork, or similar pole arm. When flying and attacking a target on the ground, they can also attack with their clawed feet.
 
-Their spines are also an effective weapon, and burst into flame when plucked from the devil's back. If attacking from above, these devils can also shoot up to 12 of their spines (1d4 damage, like a dart). In melee, should they choose to grapple, 1d4 of the spines will damage the opponent. In any case, the spines should be considered as a flaming attack.
+Their spines are also an effective weapon, and burst into flame when plucked from the devil’s back. If attacking from above, these devils can also shoot up to 12 of their spines (1d4 damage, like a dart). In melee, should they choose to grapple, 1d4 of the spines will damage the opponent. In any case, the spines should be considered as a flaming attack.
 
 Spiked devils also have the following special abilities which they can use one at a time, at will: *affect normal fires* (as the 1st level magic user spell), *change self* (as the 1st level illusionist spell), *command* (as the 1st level cleric spell), *produce flame* (as the 2nd level druid spell), and *scare* (as the 2nd level magic user spell). Once per day they can attempt to summon a barbed devil (5% chance of success).
 
@@ -17358,7 +17405,7 @@ Soul worms are the remains of the most base and any evil souls who have been imp
 
 In OSRIC the “dinosaur” category also includes other creatures contemporaneous with or predating the dinosaurs. This means that for the purposes of the OSRIC core rules, prehistoric creatures such as dimetrodon or plesiosaurus are included with “dinosaurs”, even though palaentologists classify them separately.
 
-These rules do include an indication of the rough period in which the dinosaur lived, but dinosaur-infested areas often resemble Sir Arthur Conan Doyle's *The Lost World* in that a mishmash of dinosaurs from different times co-exist. Dinosaur areas are only really suitable for relatively high-level play. Portals to such areas can sometimes be found in the nethermost depths of large dungeons.
+These rules do include an indication of the rough period in which the dinosaur lived, but dinosaur-infested areas often resemble Sir Arthur Conan Doyle’s *The Lost World* in that a mishmash of dinosaurs from different times co-exist. Dinosaur areas are only really suitable for relatively high-level play. Portals to such areas can sometimes be found in the nethermost depths of large dungeons.
 
 ### Tyrannosaurids and Allosaurids
 
@@ -17373,7 +17420,7 @@ These rules do include an indication of the rough period in which the dinosaur l
 | **Attacks:** | 1 | 1 | 1 | 1 | 1 | 1 |
 | **Damage:** | 2d6 | 3d6 | 3d6 | 3d8 | 3d8 | 3d10 |
 | **Special Attacks:** | None | None | None | None | None | None |
-| **Special Defences:** | None | None | None | None | None |  <!-- printed as-is: NEW --> |
+| **Special Defences:** | None | None | None | None | None |  <!-- printed as-is: see errata E153 --> |
 | **Magic Resistance:** | Standard | Standard | Standard | Standard | Standard | Standard |
 | **Lair Probability:** | 15% | 15% | 15% | 15% | 15% | 15% |
 | **Intelligence:** | Non- | Non- | Non- | Non- | Non- | Non- |
@@ -17437,13 +17484,13 @@ Herbivores who foraged on all fours and ran on hind legs, there are two main fam
 | **Alignment:** | Neutral | Neutral | Neutral | Neutral | Neutral | Neutral |
 | **Level/XP:** | 9/2,500+35/hp | 9/2,500+35/hp | 9/2,500+35/hp | 8/2,000+30/hp | 8/2,000+30/hp | 9/2,500+35/hp |
 
-Large quadrupedal herbivores with elephantine bodies and extremely long necks and tails, the sauropods are herd animals. They can bite, but are only really dangerous when they trample. Trampling automatically kills any creature weighing less than a ton in their path—saving throw vs death to avoid. A whole herd stampeding is an impressive sight, best viewed from a safe distance. In fantasy gaming
+Large quadrupedal herbivores with elephantine bodies and extremely long necks and tails, the sauropods are herd animals. They can bite, but are only really dangerous when they trample. Trampling automatically kills any creature weighing less than a ton in their path—saving throw vs death to avoid. A whole herd stampeding is an impressive sight, best viewed from a safe distance. In fantasy gaming environments sauropods might make good meat animals or beasts of burden.
+
+*Apatosaurus:* Jurassic herbivore, once called brontosaurus. *Diplodocus:* Jurassic herbivore, famously long. *Brachiosaurus:* Jurassic herbivore; long thought to be the largest land dinosaur. *Argentinosaurus:* Cretaceous herbivore, relatively recently discovered, twice as massive
 
 <!-- p.235 -->
 
-environments sauropods might make good meat animals or beasts of burden.
-
-*Apatosaurus:* Jurassic herbivore, once called brontosaurus. *Diplodocus:* Jurassic herbivore, famously long. *Brachiosaurus:* Jurassic herbivore; long thought to be the largest land dinosaur. *Argentinosaurus:* Cretaceous herbivore, relatively recently discovered, twice as massive as Brachiosaurus. *Camarasaurus:* Very common Jurassic herbivore. *Cetiosaurus:* Jurassic herbivore, earlier relative of the other types<!-- printed as-is: NEW -->
+as Brachiosaurus. *Camarasaurus:* Very common Jurassic herbivore. *Cetiosaurus:* Jurassic herbivore, earlier relative of the other types<!-- printed as-is: see errata E154 -->
 
 ***Treasure:*** None (for all sauropods).
 
@@ -17467,11 +17514,11 @@ environments sauropods might make good meat animals or beasts of burden.
 | **Alignment:** | Neutral | Neutral | Neutral | Neutral | Neutral | Neutral |
 | **Level/XP:** | 4/200+4/hp | 5/500+8/hp | 5/400+8/hp | 7/1,000+18/hp | 5/550+8/hp | 8/2,000+20/hp |
 
-Ceratopsians are quadrupedal beasts with horns and bony head armour. They fill the rhinoceros' ecological niche. Ceratopsians are bad-tempered and prone to charge, making them among the most dangerous of the dinosaur herbivorous species. They were extremely common during the late cretaceous period. The best-known and most common of these creatures, triceratops, was probably about twice as heavy as an elephant. Ceratopsians have two AC scores: one for their armoured heads, the other for their bodies.
+Ceratopsians are quadrupedal beasts with horns and bony head armour. They fill the rhinoceros’ ecological niche. Ceratopsians are bad-tempered and prone to charge, making them among the most dangerous of the dinosaur herbivorous species. They were extremely common during the late cretaceous period. The best-known and most common of these creatures, triceratops, was probably about twice as heavy as an elephant. Ceratopsians have two AC scores: one for their armoured heads, the other for their bodies.
 
 If a ceratopsian exceeds its required to hit roll by 4 or more, it has knocked down its target and will stomp on it for the listed extra damage.
 
-*Pentaceratops:* Cretaceous herbivore, resembling a triceratops with a longer neck-frill and two extra horns protruding from under its eyes. *Triceratops:* Cretaceous herbivore. Unlike most other ceratopsians it does not seem to have lived in herds. *Diceratops:* Cretaceous herbivore; extremely rare compared to triceratops. *Styracosaurus:* Cretaceous herbivore with a distinctive spiky neck-frill; about half the size of triceratops. *Monoclonius:* Cretaceous herbivore with only one horn. *Centrosaurus:* Cretaceous herbivore that seems to have lived in very large herds.
+*Pentaceratops:* Cretaceous herbivore, resembling a triceratops with a longer neck-frill and two extra horns protruding from under its eyes. *Triceratops:* Cretaceous herbivore. Unlike most other ceratopsians it does not seem to have lived in herds. *Diceratops:* Cretaceous herbivore; extremely rare compared to triceratops.<!-- printed as-is: see errata E155 --> *Styracosaurus:* Cretaceous herbivore with a distinctive spiky neck-frill; about half the size of triceratops. *Monoclonius:* Cretaceous herbivore with only one horn. *Centrosaurus:* Cretaceous herbivore that seems to have lived in very large herds.
 
 ***Treasure:*** None (for all ceratopsians).
 
@@ -17497,7 +17544,7 @@ If a ceratopsian exceeds its required to hit roll by 4 or more, it has knocked d
 
 <!-- p.236 -->
 
-A miscellany of other kinds of dinosaur, including some (*Anklyosaurus* and *Stegosaurus*) with bony, armoured backs..<!-- printed as-is: NEW --> Both these creatures have an effective attack by clubbing with their tails. GMs who are fans of *Jurassic Park* may wish to increase the Velociraptor's intelligence score to “semi-” or even “low”.
+A miscellany of other kinds of dinosaur, including some (*Anklyosaurus* and *Stegosaurus*) with bony, armoured backs..<!-- printed as-is: see errata E156 --> Both these creatures have an effective attack by clubbing with their tails. GMs who are fans of *Jurassic Park* may wish to increase the Velociraptor’s intelligence score to “semi-” or even “low”.
 
 *Anklyosaurus:* Cretaceous herbivore. *Ceratosaurus:* Jurassic carnivore. *Plateosaurus:* Triassic herbivore. *Iguanodon:* Cretaceous herbivore. *Stegosaurus:* Jurassic herbivore. *Velociraptor:* Cretaceous carnivore.
 
@@ -17549,11 +17596,11 @@ A miscellany of other kinds of dinosaur, including some (*Anklyosaurus* and *Ste
 | **Alignment:** | Neutral | Neutral | Neutral | Neutral | Neutral | Neutral |
 | **Level/XP:** | 5/475+10/hp | 6/1,000+12/hp | 7/2,000+16/hp | 6/1,200+16/hp | 6/1,000+12/hp | 9/5,000+25/hp |
 
-None of these creatures are technically dinosaurs, though all are found in “Lost World” areas. *Dunkleosteus* can
+None of these creatures are technically dinosaurs, though all are found in “Lost World” areas. *Dunkleosteus* can swallow prey whole on a roll of “20” to hit (see “Fish, Giant: Gar”) and actually preceded the dinosaurs by many
 
 <!-- p.237 -->
 
-swallow prey whole on a roll of “20” to hit (see “Fish, Giant: Gar”) and actually preceded the dinosaurs by many millions of years. *Elasmosaurus* can also swallow whole, needing only 18-20 to do so but otherwise as *Dunkleosteus*. *Mosasaurus* filled the same ecological niche as sharks. Plesiosaurs may have preferred smaller prey than a man but would still be dangerous. *Nothosaurs* were amphibious, like huge seals, and could move on land at 60 ft. *Archelon* was a kind of gigantic turtle.
+millions of years. *Elasmosaurus* can also swallow whole, needing only 18-20 to do so but otherwise as *Dunkleosteus*. *Mosasaurus* filled the same ecological niche as sharks. Plesiosaurs may have preferred smaller prey than a man but would still be dangerous. *Nothosaurs* were amphibious, like huge seals, and could move on land at 60 ft. *Archelon* was a kind of gigantic turtle.
 
 *Dunkleosteus:* Formerly known as *Dinichthys*; Devonian carnivore. *Elasmosaurus:* Cretaceous carnivore. *Mosasaurus:* Cretaceous carnivore. *Plesiosaurus:* Jurassic carnivore. *Nothosaurus:* Triassic carnivore. *Archelon:* Cretaceous carnivore.
 
@@ -17579,9 +17626,10 @@ swallow prey whole on a roll of “20” to hit (see “Fish, Giant: Gar”) and
 | **Alignment:** | Neutral | Neutral | Neutral | Neutral | Neutral |
 | **Level/XP:** | 5/475+10/hp | 6/1,000+12/hp | 7/2,000+16/hp | 6/1,200+16/hp | 6/1,000+12/hp |
 
-<!-- printed as-is: NEW — this table's Hit Dice, Attacks, Damage, Special
-Attacks, Special Defences, Magic Resistance, Lair Probability, Intelligence,
-Alignment and Level/XP rows are identical, column for column, to the first
+<!-- printed as-is: see errata E157 — this table's Armour Class, Hit Dice, Attacks,
+Damage, Special Attacks, Special Defences, Magic Resistance, Lair Probability,
+Intelligence, Alignment and Level/XP rows (eleven consecutive rows, Armour
+Class through Level/XP) are identical, column for column, to the first
 five columns of the Marine Dinosaurs table above (Archelon/Dunkleosteus/
 Elasmosaurus/Mosasaurus/Nothosaurus), including "Swallow whole" as a Special
 Attack for Pteradon and Pterodactyl. Confirmed at 300 dpi against the raster
@@ -17590,7 +17638,7 @@ artefact; reproduced as printed. -->
 
 *Pterodactyl* was really several different kinds of creature, here lumped together. *Quetzalcoatlus* is assumed to have filled the raptor niche, while the other flying dinosaurs are assumed to have been found in flocks.
 
-*Pteranodon:* Cretaceous carnivore. *Pterodactyl:* Jurassic carnivore. *Archaeopteryx:* Jurassic carnivore; no bigger than an ordinary bird. *Quetzalcoatlus:* Cretaceous carnivore, huge for a flying creature. *Rhamphorhynchus:* Jurassic carnivore.
+*Pteranodon:* Cretaceous carnivore. *Pterodactyl:* Jurassic carnivore. *Archaeopteryx:* Jurassic carnivore; no bigger than an ordinary bird. *Quetzalcoatlus:* Cretaceous carnivore, huge for a flying creature. *Rhamphorhynchus:* Jurassic carnivore.<!-- printed as-is: see errata E158 -->
 
 ***Treasure:*** None (for all).
 
@@ -17602,7 +17650,7 @@ The golems listed below are typically humanoid in shape with size listed separat
 
 A golem has hit dice equal to its hit points divided by 4.5 rounded up; thus, for example, a stone golem has 14 hit dice (60 hp/4.5).
 
-Magical creatures may strike a golem with effect if the creature's hit dice equal or exceed that of the golem.
+Magical creatures may strike a golem with effect if the creature’s hit dice equal or exceed that of the golem.
 
 |  | Clay | Flesh | Iron | Stone |
 |---|---|---|---|---|
@@ -17630,7 +17678,7 @@ Damage inflicted by a clay golem can only be healed by a cleric of 17th level or
 
 A clay golem is under the direct command of its creator. It stands a 1% cumulative chance of possession by a spirit of chaotic evil alignment for each round the golem is in combat. The creator can never regain control if the golem is possessed. Once possessed, the golem will kill any nearby living thing starting with the closest creature and will haste itself if it has not already done so.
 
-**Flesh Golem:** A flesh golem follows simple commands by its creator, and can be ordered to stop all activity until a specific event takes place. For each melee round spent in combat, the flesh golem stands a 1% cumulative chance of going berserk and attacking all targets in sight. The golem's creator can attempt to re-assert control at a chance of 10% per round.
+**Flesh Golem:** A flesh golem follows simple commands by its creator, and can be ordered to stop all activity until a specific event takes place. For each melee round spent in combat, the flesh golem stands a 1% cumulative chance of going berserk and attacking all targets in sight. The golem’s creator can attempt to re-assert control at a chance of 10% per round.
 
 A flesh golem is extremely strong and can break down doors and other wooden structures. It cannot be damaged with normal weapons; magical weapons damage normally.
 
@@ -17642,13 +17690,13 @@ A flesh golem is created with a magical tome written for such a process or by a 
 
 An iron golem is three times as strong as a flesh golem. In addition to its normal damage, once every 7 combat rounds an iron golem may breathe poison gas directly before it in a cloud of 10 cubic ft.
 
-Only magical weapons of +3 or greater in nature can deal damage to an iron golem. Only electrical magical attacks can affect it; such spells will slow the golem to one-half speed for 3 combat rounds. Fire attacks repair damage to the golem at a rate of one hit point per die of spell damage (i.e.: a six hit die fireball will repair 6 hp of damage).
+Only magical weapons of +3 or greater in nature can deal damage to an iron golem. Only electrical magical attacks can affect it; such spells will slow the golem to one-half speed for 3 combat rounds. Fire attacks repair damage to the golem at a rate of one hit point per die of spell damage (i.e.: a six hit die fireball will repair 6 hp of damage).<!-- printed as-is: see errata E159 -->
 
 **Stone Golem:** A stone golem is created through use of a magical text or by a 16th or higher level magic user using the following spells: *geas*, *slow*, *wish* and *polymorph any object*. Creation time is two months and cost is 1,000 gp per hit point of the golem.
 
 The magic user can control his or her creation through simple commands. The golem can also be ordered to suspend movement until a particular condition is met. A stone golem can cast a *slow* spell every other melee round on all opponents within 10 ft of its front.
 
-Only magical weapons of +2 or greater bonus can harm a stone golem.  Such a golem is also invulnerable to most magic, the only exceptions being *rock to mud* which halves the golem's attack and movement speed for 2d6 rounds, *stone to flesh* which makes it susceptible to normal weapons for one round, and *mud to rock* which acts as a *heal* spell on the monster.
+Only magical weapons of +2 or greater bonus can harm a stone golem. Such a golem is also invulnerable to most magic, the only exceptions being *rock to mud* which halves the golem’s attack and movement speed for 2d6 rounds, *stone to flesh* which makes it susceptible to normal weapons for one round, and *mud to rock* which acts as a *heal* spell on the monster.
 
 ***Treasure:*** None (for all golems).
 
@@ -17656,7 +17704,7 @@ Only magical weapons of +2 or greater bonus can harm a stone golem.  Such a gole
 
 A lycanthrope is a human with the ability to change his or her shape to some animal form during the night hours. A full moon is 90% likely to trigger the transition to animal form automatically. Any humanoid bitten by a lycanthrope and damaged for 50% or more of its total hp who survives will contract the lycanthropic disease of its attacker. A *cure disease* from a cleric of 12th level or higher will remove the disease if performed within three days of the attack. If the victim ingests belladonna within one hour after the attack there is a 25% chance the disease will be cured. However, swallowing belladonna in such a manner will incapacitate the victim for 1d4 days; there is also a 1% chance of the herb killing the victim.
 
-A lycanthrope's “size” stat shows its shapechanged size. In human form they are obviously always *man-sized*.
+A lycanthrope’s “size” stat shows its shapechanged size. In human form they are obviously always *man-sized*.
 
 Each type of lycanthrope has its own language. The five most common types are listed below.
 
@@ -17695,7 +17743,7 @@ Each type of lycanthrope has its own language. The five most common types are li
 
 ***Treasure:*** 1d12×1,000 cp (20%), 1d6×1,000 sp (30%), 1d4×1,000 ep (10%), 1d6 gems (25%), 1d3 jewellery (25%), any 2 magic items (10%)
 
-**Weretiger:** Most weretigers are female and live much like a normal tiger does, though associating with the normal breed only 5% of the time. They can rake with their rear claws like a normal tiger. All normal cats are 75% likely to be friendly to a weretiger due to the lycanthrope's ability to speak with them.
+**Weretiger:** Most weretigers are female and live much like a normal tiger does, though associating with the normal breed only 5% of the time. They can rake with their rear claws like a normal tiger. All normal cats are 75% likely to be friendly to a weretiger due to the lycanthrope’s ability to speak with them.
 
 ***Treasure:*** 1d8×1,000 cp (10%), 1d12×1,000 sp (15%), 1d8×1,000 ep (15%), 1d6×1,000 gp (50%), 2d6 gems (50%), 1d6 jewellery (25%), any 2 magic item + 1 potion (15%)
 
@@ -17716,7 +17764,7 @@ When in its pack, the male will fight at +2 and deal full damage if the female h
 
 ## SYLVAN OR FAERIE CREATURES
 
-Sylvan or faerie creatures are encountered in magical woodlands. Some may share territory with elves. As a group they are reclusive and (with some notable exceptions) good aligned. Their homes are typically places of extreme beauty with verdant, lush growth, profuse flowers, sparking waterfalls <!-- printed as-is: NEW --> and limpid pools. Since these creatures tend to be highly magical with a mischievous sense of humour, encounters with them are often enormous fun—for the GM.
+Sylvan or faerie creatures are encountered in magical woodlands. Some may share territory with elves. As a group they are reclusive and (with some notable exceptions) good aligned. Their homes are typically places of extreme beauty with verdant, lush growth, profuse flowers, sparking waterfalls <!-- printed as-is: see errata E160 --> and limpid pools. Since these creatures tend to be highly magical with a mischievous sense of humour, encounters with them are often enormous fun—for the GM.
 
 <!-- p.240 -->
 
@@ -17740,7 +17788,7 @@ Sylvan or faerie creatures are encountered in magical woodlands. Some may share 
 
 Found in sylvan woodland, often along with fauns, unicorns and similar creatures, brownies are shy and retiring. They can sometimes be persuaded to help good aligned creatures. They are skilled craftsmen, adept at making and repairing ordinary things, and highly magical; they may use the following spells once each per day: *confusion, continual light, dancing lights, dimension door, mending, mirror image, protection from evil,* and *ventriloquism*. They may become *invisible* at will, provided they remain still while doing so. They are also lucky and strongly defended against magic, which means they make all saving throws as a 7th level cleric does.
 
-Thanks to their excellent senses and habitual alertness Brownies cannot be surprised. They speak their own tongue, elven, halfing, <!-- printed as-is: see errata E14 --> and can communicate with other fey creatures such as spites, <!-- printed as-is: NEW --> nymphs or dryads.
+Thanks to their excellent senses and habitual alertness Brownies cannot be surprised. They speak their own tongue, elven, halfing, <!-- printed as-is: see errata E14 --> and can communicate with other fey creatures such as spites, <!-- printed as-is: see errata E161 --> nymphs or dryads.
 
 ***Treasure:*** 1d8×1,000 cp (5%), 1d12×1,000 sp (25%), 1d6×1,000 ep (20%), 1d10×1,000 gp (30%), 1d12 gems (20%), 1d8 jewellery (5%), any 2 magic items plus one potion and one scroll (15%)
 
@@ -17792,7 +17840,7 @@ Dryads are bashful tree sprites who dwell in the most remote locations. They app
 
 to their own tree. The only thing different about a tree that houses a dryad is its size. A dryad can also cast a *charm person* spell thrice a day.
 
-If a dryad sees a young man with a charisma score of at least 16 she will attempt to *charm* him. If successful there is a 50% chance he will never been again. <!-- printed as-is: NEW --> If the youth does return it will be at least 1d4 years later.
+If a dryad sees a young man with a charisma score of at least 16 she will attempt to *charm* him. If successful there is a 50% chance he will never been again. <!-- printed as-is: see errata E162 --> If the youth does return it will be at least 1d4 years later.
 
 Dryads have their own language as well as elven, pixie, sprite, and they can also speak with animals.
 
@@ -17848,7 +17896,7 @@ The lower body of a faun is covered with coarse fur that ranges from medium brow
 
 Leprechauns are a magical race that love to torment those they encounter with practical jokes, general mischief, and swindles. They normally live in green fields or rolling hills on the outskirts of civilisation. A leprechaun can turn *invisible*, *polymorph* inanimate objects, make *illusions*, and perform *ventriloquism* at will. Because of their sharp senses they are never surprised.
 
-One of the leprechaun’s favourite tricks is to grab some valuable object, turn invisible and flee with it. If they are chased too closely they will drop the item rather then be tracked back to their lair. If they are caught or tracked back to their lair, the leprechaun will do or say just about anything to win their freedom back. Be warned, leprechauns are magical and they take great pride in their confidence games. Nothing they say should be considered the truth. A leprechaun will always be playing some kind of scam.
+One of the leprechaun’s favourite tricks is to grab some valuable object, turn invisible and flee with it. If they are chased too closely they will drop the item rather then <!-- printed as-is: see errata E163 --> be tracked back to their lair. If they are caught or tracked back to their lair, the leprechaun will do or say just about anything to win their freedom back. Be warned, leprechauns are magical and they take great pride in their confidence games. Nothing they say should be considered the truth. A leprechaun will always be playing some kind of scam.
 
 ***Treasure:*** 1d20×1,000 sp (10%), 1d12×1,000 ep (15%), 1d8×1,000 gp (40%), 1d8×100 pp (35%), 3d10 gems (20%), 1d10 jewellery (10%), 3 magic items (no sword or misc. weapon), 1 potion, 1 scroll (30%).
 
@@ -17876,9 +17924,9 @@ Nixies are fey creatures related to sprites that make their home in freshwater l
 
 beautiful humanoids with lightly scaled greenish skin and webbed hands and feet. Their eyes are silver and their hair is dark green, and they clad themselves in garments of seaweed. Nixies speak their own language and the common tongue. They also appear to be able to communicate, at least on a rudimentary level, with freshwater fish of all types.
 
-Being fey, nixies take great delight in enslaving humans. If a human or demi-human approaches within 30 ft of a group of nixies they will attempt to charm him or her with a special group *charm* spell. This charm requires a minimum of 10 nixies to join hands and chant, and any person hearing this fey chanting must save vs spells at -2 or enter the water to serve the nixies as slave and paramour for a period of a year and a day. It should be noted a side effect of this variant charm grants the ability to breathe water for the duration of the spell. There is a brief opportunity to break the charm; if a *dispel magic* is cast upon the enthralled person before they enter the water there is a 75% the spell will be broken <!-- printed as-is: NEW --> but once the victim has begun breathing water the chances of breaking the charm drop to only 10%.
+Being fey, nixies take great delight in enslaving humans. If a human or demi-human approaches within 30 ft of a group of nixies they will attempt to charm him or her with a special group *charm* spell. This charm requires a minimum of 10 nixies to join hands and chant, and any person hearing this fey chanting must save vs spells at -2 or enter the water to serve the nixies as slave and paramour for a period of a year and a day. It should be noted a side effect of this variant charm grants the ability to breathe water for the duration of the spell. There is a brief opportunity to break the charm; if a *dispel magic* is cast upon the enthralled person before they enter the water there is a 75% the spell will be broken <!-- printed as-is: see errata E164 --> but once the victim has begun breathing water the chances of breaking the charm drop to only 10%.
 
-Nixies are weak in combat but make up for this weakness by attacking en masse and overwhelming their enemies. They favour fighting with long daggers and long darts which, due to the nixies short stature, function as spears in their hands. Nixies will melee with these spears underwater and above water they will hurl them like missiles then melee with their daggers.
+Nixies are weak in combat but make up for this weakness by attacking en masse and overwhelming their enemies. They favour fighting with long daggers and long darts which, due to the nixies short stature,<!-- printed as-is: see errata E165 --> function as spears in their hands. Nixies will melee with these spears underwater and above water they will hurl them like missiles then melee with their daggers.
 
 Nixies fear bright light and fire, their aquatic nature makes these things foreign to them and a strong presentation of either will drive them away. A strong light source presented underwater will be obscured by schools of nixie summoned fish surrounding the spell effect. Being fey, nixies have a natural magic resistance of 25% and, besides their special charm effect, they can also cast a *water breathing* spell with a duration of 24 hours once per day.
 
@@ -17906,11 +17954,11 @@ Nixies lair at the bottom of lakes, where they weave living seaweed into dwellin
 
 Nymphs are feminine nature spirits of almost indescribable beauty; it is said that even the mere glimpse of one is enough to rob a man of his sight or perhaps kill him. They typically inhabit natural places of particular loveliness, such as high mountain lakes or deep forest glades. Those who have attempted to relate what they saw speak of absolute perfection. Nymphs typically speak common in addition to their own enchanting language and reputedly have voices like honeyed nectar.
 
-If attacked, nymphs will almost always attempt to flee, often by means of *dimension door*, which they are able to use once every day. Nymphs are also able to employ magic as though they were 7th level druids. Any character that chances to look upon a clothed nymph must make a saving throw vs spells or be permanently blinded; should a nymph be seen unclothed, then the consequence of a failed saving throw is death. Should a Nymph deign to bestow a kiss upon a male, he will forget his troubles and pain for the remainder of the day.
+If attacked, nymphs will almost always attempt to flee, often by means of *dimension door*, which they are able to use once every day. Nymphs are also able to employ magic as though they were 7th level druids. Any character that chances to look upon a clothed nymph must make a saving throw vs spells or be permanently blinded; should a nymph be seen unclothed, then the consequence of a failed saving throw is death. Should a Nymph<!-- printed as-is: see errata E166 --> deign to bestow a kiss upon a male, he will forget his troubles and pain for the remainder of the day.
 
 <!-- p.243 -->
 
-Nymphs abhor evil and will occasionally aid someone in distress. Moreover, there is a small chance that a nymph will be favourably inclined towards a good aligned character who actively seeks her out, as long as he does not look upon her first; in the case of good- aligned human males with exceptional charisma, the chance of her favour is very high, but a saving throw is still required if he should happen to look upon her.
+Nymphs abhor evil and will occasionally aid someone in distress. Moreover, there is a small chance that a nymph will be favourably inclined towards a good aligned character who actively seeks her out, as long as he does not look upon her first; in the case of good- aligned <!-- printed as-is: see errata E167 --> human males with exceptional charisma, the chance of her favour is very high, but a saving throw is still required if he should happen to look upon her.
 
 A lock of nymph’s hair woven into a cloak or other item of clothing will magically increase the charisma of those who wear it by one point. Alternatively, the lock of hair may be used to create a powerful *potion of sleep*. Nymph tears are sometimes used in the creation of a *philtre of love* and any woman (female demi-humans included) who bathes in a nymph’s pool will have her charisma increased by two points until sundown.
 
@@ -18043,14 +18091,14 @@ Sylphs have their own language and can also understand common.
 - **Intelligence:** Very
 - **Alignment:** Chaotic good
 - **Level/XP:**
-  - 7HD: 1,295+8/hp
-  - 8HD: 1,600+10/hp
-  - 9HD: 2,050+12/hp
-  - 10HD: 2,350+13/hp
-  - 11HD: 2,750+14/hp
-  - 12HD: 3,600+16/hp
+    - 7HD: 1,295+8/hp
+    - 8HD: 1,600+10/hp
+    - 9HD: 2,050+12/hp
+    - 10HD: 2,350+13/hp
+    - 11HD: 2,750+14/hp
+    - 12HD: 3,600+16/hp
 
-Treants are woodland creatures, reclusive to humankind but friendly with other good aligned creatures of the woods. They resemble humanoid trees: their "arms" and "legs" are not easily seen as such until they begin moving. Treants are vigilant guardians of the woods, despising anyone of evil alignment and all who make reckless use of fire, regardless of alignment. Treants can animate 1d2 trees to aid them (see "Tree, Animated") within a range of 180 ft. Separate experience is not awarded for killing such animated trees. Treants are quite vulnerable to fire: fire attacks requiring a roll to hit gain a bonus of +4, a treant makes saving throws vs fire at –4, and any hit die of damage inflicted upon a treant gains a +1 to its result. Damage inflicted by a treant’s clubbing fists is determined as follows:
+Treants are woodland creatures, reclusive to humankind but friendly with other good aligned creatures of the woods. They resemble humanoid trees: their “arms” and “legs” are not easily seen as such until they begin moving. Treants are vigilant guardians of the woods, despising anyone of evil alignment and all who make reckless use of fire, regardless of alignment. Treants can animate 1d2 trees to aid them (see “Tree, Animated”) within a range of 180 ft. Separate experience is not awarded for killing such animated trees. Treants are quite vulnerable to fire: fire attacks requiring a roll to hit gain a bonus of +4, a treant makes saving throws vs fire at –4, and any hit die of damage inflicted upon a treant gains a +1 to its result. Damage inflicted by a treant’s clubbing fists is determined as follows:
 
 - 7-8 HD: 2d8 damage per fist
 - 9-10 HD: 3d6 damage per fist
@@ -18078,9 +18126,9 @@ Treants are woodland creatures, reclusive to humankind but friendly with other g
 - **Intelligence:** Non
 - **Alignment:** Neutral
 - **Level/XP:** 7/1,300+16/hp
-  - (nil if animated by a treant)
+    - (nil if animated by a treant)
 
-Animated trees are generally encountered when treants animate a normal tree (see "Treant").
+Animated trees are generally encountered when treants animate a normal tree (see “Treant”).
 
 ***Treasure:*** None.
 
@@ -18108,7 +18156,7 @@ Unicorns avoid contact with all but woodland creatures, although they may render
 
 ## UNDEAD
 
-Undead share the following characteristics: They never check morale and are immune to *fear* (except that clerics and paladins may cause a fear-like effect by *turning* them, see Chapter III); they are immune to *sleep, charm* and *hold*-type effects except for any such effects that are specific to undead (for example, if the GM chooses to house-rule a magic item or spell which has the effect *hold undead*, this would work); they suffer 2d4 damage from vials of *holy water*; and if damaged—for "injured" is the wrong word—they do not automatically heal, though certain undead types such as ghouls may be able to recover hit points by consuming living flesh and others such as spectres may do so through leeching a living creature’s vital force (draining a level).
+Undead share the following characteristics: They never check morale and are immune to *fear* (except that clerics and paladins may cause a fear-like effect by *turning* them, see Chapter III); they are immune to *sleep, charm* and *hold*-type effects except for any such effects that are specific to undead (for example, if the GM chooses to house-rule a magic item or spell which has the effect *hold undead*, this would work); they suffer 2d4 damage from vials of *holy water*; and if damaged—for “injured” is the wrong word—they do not automatically heal, though certain undead types such as ghouls may be able to recover hit points by consuming living flesh and others such as spectres may do so through leeching a living creature’s vital force (draining a level).
 
 ### Banshee *(Groaning Spirit)*
 
@@ -18149,16 +18197,19 @@ The legendary banshee is the ghost of an evil elven female. The spirit is found 
 - **Special Attacks:** None
 - **Special Defences:** Can only be hit by magical weapons
 - **Magic Resistance:** Standard
+
+<!-- p.246 -->
+
 - **Lair Probability:** 80%
 - **Intelligence:** Low
 - **Alignment:** Chaotic evil
 - **Level/XP:** 2/30 + 2/hp
 
-A coffer corpse resembles a zombie, seeming nothing more then a rotting, fetid corpse. They are the bodies of the dead who are left behind, never given a proper burial, their souls never finding rest.
+A coffer corpse resembles a zombie, seeming nothing more then <!-- printed as-is: see errata E168 --> a rotting, fetid corpse. They are the bodies of the dead who are left behind, never given a proper burial, their souls never finding rest.
 
 Normal weapons do no damage to a coffer corpse. If they are hit for 6 or more points in a single round of combat by a normal weapon they will fall down, only to rise up the next round. All who witness this horror must save vs fear, those who fail will panic and run away. A magic weapon is needed to truly damage a coffer corpse. They are also immune to *sleep* and *charm* spells.
 
-About 25% of the time a coffer corpse will attack with a weapon, all of the others will attack with their hands. If their attack is bare handed and they have successfully hit, they have grabbed their target by the throat causing 1d6 damage. Each successive round thereafter they cause an additional 1d6 damage as they are strangling their victim, with no addition roll needed. They will continue choking until they are destroyed or their victim is dead.
+About 25% of the time a coffer corpse will attack with a weapon, all of the others will attack with their hands. If their attack is bare handed and they have successfully hit, they have grabbed their target by the throat causing 1d6 damage. Each successive round thereafter they cause an additional 1d6 damage as they are strangling their victim, with no addition <!-- printed as-is: see errata E169 --> roll needed. They will continue choking until they are destroyed or their victim is dead.
 
 ***Treasure:*** 1d8×1,000 cp (50%), 1d6×1,000 sp (25%), 1d4×1,000 ep (25%), 1d3×1,000 gp (25%), 1d8 gems (30%), 1d4 jewellery (20%), sword, armour, or misc. weapon (10%)
 
@@ -18186,17 +18237,15 @@ These terrible creatures are more powerful versions of ghouls, and are indisting
 
 Ghasts share the same spell immunities that Ghouls do, and can travel the dream-realms as well, except in addition to using them to traverse the prime material, they can also enter the lower planes.
 
-<!-- p.246 -->
-
 Certain entities of the higher hells use ghasts as slaves.
 
-***Treasure:*** 1d8×1,000 cp (50%); 1d6×1,000 sp (25%); 1d4×1,000 ep (25%); d12×1,000 gp (65%); <!-- printed as-is: NEW --> 1d6×1,000 pp (30%); 3d8 gems (50%); 2d6 jewellery (50%); a magic weapon or armour (25%); 1d4 scrolls (50%)
+***Treasure:*** 1d8×1,000 cp (50%); 1d6×1,000 sp (25%); 1d4×1,000 ep (25%); d12×1,000 gp (65%); <!-- printed as-is: see errata E170 --> 1d6×1,000 pp (30%); 3d8 gems (50%); 2d6 jewellery (50%); a magic weapon or armour (25%); 1d4 scrolls (50%)
 
 ### Ghost
 
 *(turned as type 11)*
 
-- **Frequency:** Very Rare
+- **Frequency:** Very Rare <!-- printed as-is: see errata E171 -->
 - **No. Encountered:** 1
 - **Size:** Man-sized
 - **Move:** 90 ft hovering
@@ -18210,7 +18259,7 @@ Certain entities of the higher hells use ghasts as slaves.
 - **Lair Probability:** 25%
 - **Intelligence:** High
 - **Alignment:** Any evil
-- **Level/XP:** 8/4200 +14/hp
+- **Level/XP:** 8/4200 <!-- printed as-is: see errata E172 --> +14/hp
 
 Ghosts are the spiritual remains of extremely evil humans who have been denied the ordinarily inexorable movement of their souls to the outer planes of existence after discarding their mortal shell. This sundering of their metaphysical essence creates a foul thing, roaming dark and desolate places, existing in both the æthereal plane and the prime material, seeking to slake a thirst that can never be sated. This exigent need for living essences is what drives these spirits into contact with mortals.
 
@@ -18224,7 +18273,7 @@ As if these terrible powers were not enough, any creature within 180 ft is threa
 
 <!-- p.247 -->
 
-"pure" metals, especially silver, can cause half-damage to a ghost while it is manifested in this fashion, and magic weapons can affect it normally—in either case the attacker must hit AC 0. Spells still cannot affect it in this state unless the caster is æthereal. The manifest state allows the ghost to strike victims physically, with the full power of their *withering* attack—causing the victim to age 7d6 years per successful attack, no save possible. Victims who exceed their allotted lifespan are forever dead, with only a *wish* capable of reversing this end.
+“pure” metals, especially silver, can cause half-damage to a ghost while it is manifested in this fashion, and magic weapons can affect it normally—in either case the attacker must hit AC 0. Spells still cannot affect it in this state unless the caster is æthereal. The manifest state allows the ghost to strike victims physically, with the full power of their *withering* attack—causing the victim to age 7d6 years per successful attack, no save possible. Victims who exceed their allotted lifespan are forever dead, with only a *wish* capable of reversing this end.
 
 ***Treasure:*** 1d10×1,000 cp (5%); 2d6×1,000 sp (30%); 1d6×1,000 ep (25%); 2d4×1,000 gp (25%); 2d6 gems (15%); 1d6 jewellery (20%); 1d3-1 scrolls (30%); 1d8 potions (40%); 1d4-1 any other magic items (25%)
 
@@ -18252,9 +18301,9 @@ Ghouls are humans, who feasting on corpses and engaging in other vileness, have 
 
 *Protection from evil* will keep these things at bay, unless one so protected violates the circle by attacking the ghouls.
 
-Ghouls are also said to be able travel the lands of dreams, <!-- printed as-is: NEW --> using them as conduit to enter the waking world of men at various graveyards, and escaping without a trace. Marine ghouls are called "lacedons" and are sometimes found on ghost ships or dwelling in wrecks on the sea bed.
+Ghouls are also said to be able travel the lands of dreams, <!-- printed as-is: see errata E173 --> using them as conduit to enter the waking world of men at various graveyards, and escaping without a trace. Marine ghouls are called “lacedons” and are sometimes found on ghost ships or dwelling in wrecks on the sea bed.
 
-***Description:*** Ghouls appear as emaciated, animated corpses with sharp teeth and long fingernails to which shreds of corpse-flesh are sometimes attached. Their voices are weird and eldritch, sometimes described as "meeping" and "glibbering".
+***Description:*** Ghouls appear as emaciated, animated corpses with sharp teeth and long fingernails to which shreds of corpse-flesh are sometimes attached. Their voices are weird and eldritch, sometimes described as “meeping” and “glibbering”.
 
 ***Treasure:*** 1d8×1,000 cp (50%); 1d6×1,000 sp (25%); 1d4×1,000 ep (25%); 1d3×1,000 gp (25%); 2d4 gems (30%); 1d4 jewellery (20%); magic weapon or armour (10%); 1d4 scrolls (10%)
 
@@ -18262,7 +18311,7 @@ Ghouls are also said to be able travel the lands of dreams, <!-- printed as-is: 
 
 *(turned as type 12)*
 
-- **Frequency:** Very Rare
+- **Frequency:** Very Rare <!-- printed as-is: see errata E174 -->
 - **No. Encountered:** 1
 - **Size:** Man-sized
 - **Move:** 60 ft
@@ -18270,7 +18319,7 @@ Ghouls are also said to be able travel the lands of dreams, <!-- printed as-is: 
 - **Hit Dice:** 12 or more
 - **Attacks:** 1
 - **Damage:** 2d6 + paralysation
-- **Special Attacks:** Spell use (as Magic user, Cleric or both) at at least 18th level of ability; *fear* <!-- printed as-is: NEW -->
+- **Special Attacks:** Spell use (as Magic user, Cleric or both) at at least 18th level of ability; *fear* <!-- printed as-is: see errata E175 -->
 - **Special Defences:** +1 or better weapon to hit; immune to cold, electrical, poison, paralysation, polymorph, and death magic, as well as *sleep*, *charm*, *hold* and other mental based attacks; spells that drain attributes or statistics also have no effect
 - **Magic Resistance:** Standard
 - **Lair Probability:** 95%
@@ -18286,17 +18335,17 @@ The lair of a lich will often be a complex underworld maze or a wickedly disease
 
 deadly guardians. Liches do not suffer the fools who would tread upon their mysteries.
 
-Each lich will be able to cast an impressive battery of spells, and those with magic user abilities will have multiple copies of powerful spell tomes. Their magical ability, at a minimum, must be 18th, as only those mortals have travelled so far down the path of magic have even a hope of mastering the rituals of Lichdom. The mere touch of a lich will inflict 2 dice of cold damage upon the victim, and they must save vs paralysation or be held frozen to the spot for 3d8 turns. Anything below 6th level beholding a lich (even in a reflection or a *projected image*) must save vs magic or never return to the area again.
+Each lich will be able to cast an impressive battery of spells, and those with magic user abilities will have multiple copies of powerful spell tomes. Their magical ability, at a minimum, must be 18th, as only those mortals have <!-- printed as-is: see errata E176 --> travelled so far down the path of magic have even a hope of mastering the rituals of Lichdom. The mere touch of a lich will inflict 2 dice of cold damage upon the victim, and they must save vs paralysation or be held frozen to the spot for 3d8 turns. Anything below 6th level beholding a lich (even in a reflection or a *projected image*) must save vs magic or never return to the area again.
 
 Often dressed in rich decaying rags that were exquisite in life, liches are now horrors to behold. They are cadaverous in appearance, with unholy pinpoints of green light emanating from the otherwise empty pits that are the eye-sockets of its fleshless skull. Diseased and leprous tatters of meat cling feebly to ancient bones, reeking with the rot of the grave.
 
 Liches are believed to feast on Soul Worms.
 
-***Treasure:*** (1d4+1)×1,000 cp (30%); (d4+1)×1,000 sp <!-- printed as-is: NEW --> (25%); 1d6×1,000 ep (40%); (1d8+1)×1,000 gp (45%); 1d4×1,000 pp (25%); 5d8 gems (55%); 8d4 jewellery (45%); any 3 magic items save potions (40%)
+***Treasure:*** (1d4+1)×1,000 cp (30%); (d4+1)×1,000 sp <!-- printed as-is: see errata E177 --> (25%); 1d6×1,000 ep (40%); (1d8+1)×1,000 gp (45%); 1d4×1,000 pp (25%); 5d8 gems (55%); 8d4 jewellery (45%); any 3 magic items save potions (40%)
 
 ### Mummy
 
-*(Turned as type 8)* <!-- printed as-is: NEW -->
+*(Turned as type 8)* <!-- printed as-is: see errata E178 -->
 
 - **Frequency:** Rare
 - **No. Encountered:** 2d4
@@ -18330,7 +18379,7 @@ Any character killed by a mummy cannot be raised due to the amount of damage cau
 
 ### Poltergeist
 
-*(Turned as type 1 or 3)* <!-- printed as-is: NEW -->
+*(Turned as type 1 or 3)* <!-- printed as-is: see errata E179 -->
 
 - **Frequency:** Rare
 - **No. Encountered:** 1d8
@@ -18348,13 +18397,13 @@ Any character killed by a mummy cannot be raised due to the amount of damage cau
 - **Alignment:** Lawful evil
 - **Level/XP:** 2/35 + 1/hp
 
-Poltergeists are non-corporeal and invisible spirits of humans who have died a tragic death or were murdered in cold blood. So far as is known, all poltergeists were formerly human or at least half-human. They are only rarely encountered as a wandering monster but in such a case can be treated as a type 1 undead for purposes of turning or disrupting. More often, however, the poltergeist is in the area where it met its untimely end. The poltergeist’s bond to this area is strong and turning is much more difficult, treat the poltergeist as a turning a type 3 undead in this case.
+Poltergeists are non-corporeal and invisible spirits of humans who have died a tragic death or were murdered in cold blood. So far as is known, all poltergeists were formerly human or at least half-human. They are only rarely encountered as a wandering monster but in such a case can be treated as a type 1 undead for purposes of turning or disrupting. More often, however, the poltergeist is in the area where it met its untimely end. The poltergeist’s bond to this area is strong and turning is much more difficult, treat the poltergeist as a turning <!-- printed as-is: see errata E180 --> a type 3 undead in this case.
 
 <!-- p.249 -->
 
 In combat, the poltergeist can only be struck by magical or silver weapons and its invisibility will cause all attacks against it to be made at -4 (unless the attacker can *see invisible*). It will not cross over sprinkled holy water, though after the holy water dries it is no longer effective at warding them. Holy water does not cause actual harm to poltergeists. A cleric can strongly present a holy symbol to keep them at bay as well, but again this does not harm the creature.
 
-Poltergeists cannot physically attack. Instead they hurl objects with a telekinetic power at their opponents, attacking as a 5 HD monster. These objects must be light enough to be thrown by a standard human; books, torches, lamps, chairs and so on. A poltergeist’s lair will include many such objects. Anyone struck takes no damage, but he or she must save vs spells or flee at top movement speed for 2d12 rounds. A fleeing victim has a 50% for dropping whatever is held in <!-- printed as-is: NEW --> his or her hands, but not necessarily right away. When a PC succumbs to the poltergeist’s fear effect, determine how many rounds he or she will flee, then roll the dice again to determine on which round hand held items will be dropped. Once an opponent has made his or her saving throw, that individual will be immune to further fear for that encounter only and from that poltergeist only if more than 1 are present.
+Poltergeists cannot physically attack. Instead they hurl objects with a telekinetic power at their opponents, attacking as a 5 HD monster. These objects must be light enough to be thrown by a standard human; books, torches, lamps, chairs and so on. A poltergeist’s lair will include many such objects. Anyone struck takes no damage, but he or she must save vs spells or flee at top movement speed for 2d12 rounds. A fleeing victim has a 50% for dropping whatever is held in <!-- printed as-is: see errata E181 --> his or her hands, but not necessarily right away. When a PC succumbs to the poltergeist’s fear effect, determine how many rounds he or she will flee, then roll the dice again to determine on which round hand held items will be dropped. Once an opponent has made his or her saving throw, that individual will be immune to further fear for that encounter only and from that poltergeist only if more than 1 are present.
 
 ***Treasure:*** None.
 
@@ -18378,13 +18427,13 @@ Poltergeists cannot physically attack. Instead they hurl objects with a telekine
 - **Alignment:** Chaotic evil
 - **Level/XP:** 4/250 +4/hp
 
-Shadows flitter about old ruins and dusty dungeons, seeking the living. Their ties to the negative material plane cause living things they hit in melee to lose a point of Str, Dex or Con. The attribute drained is random; but once determined further attacks by the same pack of shadows drain the same attribute until that statistic reaches zero—at which point the victim becomes a shadow under the control of the creature that drained the last point. Points drained, but not brought to nil, will return to the victim after about an hour, but some Shadow attacks take longer to recover from.
+Shadows flitter about old ruins and dusty dungeons, seeking the living. Their ties to the negative material plane cause living things they hit in melee to lose a point of Str, Dex or Con. The attribute drained is random; but once determined further attacks by the same pack of shadows drain the same attribute until that statistic reaches zero—at which point the victim becomes a shadow under the control of the creature that drained the last point. Points drained, but not brought to nil, will return to the victim after about an hour, but some Shadow<!-- printed as-is: see errata E182 --> attacks take longer to recover from.
 
 Due to their partial immaterialness, they can only be hit by magic weapons or certain spells. Cold attacks are useless, as are sleep, hold, and spells that affect the mind. They are nearly undetectable in their normal conditions, requiring an 18 or better on a d20 to be aware of them before they attack. Infravision does not detect them as they do not radiate heat, but magical light is sufficient to reveal these horrors for what they are.
 
-Some shadows attack victims in their sleep, giving them night-mares from which they never wake, as their physical forms are drained of life by the shadows’ horrid ties to worlds beyond mundane reckoning.
+Some shadows attack victims in their sleep, giving them night-mares <!-- printed as-is: see errata E183 --> from which they never wake, as their physical forms are drained of life by the shadows’ horrid ties to worlds beyond mundane reckoning.
 
-***Treasure*** <!-- printed as-is: NEW --> 2d10×1,000 sp (10%); 2d6×1,000 ep (15%); 2d4×1,000 gp (45%); 1d6×1,000 pp (33%); 4d8 gems (20%); 2d4 jewellery (8%); any 3 magic items (33%)
+***Treasure*** <!-- printed as-is: see errata E184 --> 2d10×1,000 sp (10%); 2d6×1,000 ep (15%); 2d4×1,000 gp (45%); 1d6×1,000 pp (33%); 4d8 gems (20%); 2d4 jewellery (8%); any 3 magic items (33%)
 
 ### Skeleton
 
@@ -18406,13 +18455,13 @@ Some shadows attack victims in their sleep, giving them night-mares from which t
 - **Alignment:** Neutral
 - **Level/XP:** 1/15 +1/hp
 
-These things are the result of an evil (or neutral at best) magic user or cleric wielding magics that animate the fleshless remains of humans, demi-humans, and various humanoids. They are completely mindless, only obeying the simple commands of their animator, which is often limited by the spell itself to a score of words. Some sages speak, though, of the mere proximity to great Evil can animate the dead, <!-- printed as-is: NEW --> resulting in armies of these horrors springing to Unlife in forgotten catacombs and foul dungeons. Though given no
+These things are the result of an evil (or neutral at best) magic user or cleric wielding magics that animate the fleshless remains of humans, demi-humans, and various humanoids. They are completely mindless, only obeying the simple commands of their animator, which is often limited by the spell itself to a score of words. Some sages speak, though, of the mere proximity to great Evil can animate the dead, <!-- printed as-is: see errata E185 --> resulting in armies of these horrors springing to Unlife in forgotten catacombs and foul dungeons. Though given no
 
 <!-- p.250 -->
 
 commands, they seek out the living and attempt to force them into the ranks of the dead.
 
-No matter how a skeleton attacks, whether rusty blade, a stone, or its own former femur, it always deals 1d6 damage. Cold and spells that attack the mind have no affect <!-- printed as-is: NEW --> on skeletons. They take less damage from edged and cutting weapons, typically reducing the damage by half. Most piercing weapons, like arrows and spears, do but 1 or 2 points maximum per attack. Holy water inflicts 2d4 hp per vial that strikes.
+No matter how a skeleton attacks, whether rusty blade, a stone, or its own former femur, it always deals 1d6 damage. Cold and spells that attack the mind have no affect <!-- printed as-is: see errata E186 --> on skeletons. They take less damage from edged and cutting weapons, typically reducing the damage by half. Most piercing weapons, like arrows and spears, do but 1 or 2 points maximum per attack. Holy water inflicts 2d4 hp per vial that strikes.
 
 ***Treasure:*** None.
 
@@ -18464,7 +18513,7 @@ Some sages speculate that spectres have no power in sunlight, but no one has eve
 
 The vampire is one of the most feared of the undead. Being similar to other undead, they dwell simultaneously in the negative material and material planes. They share other undead’s immunity to *charm*, *hold*, and *sleep* spells. Electricity and cold does only half damage, they are unaffected by normal weapons, and they regenerate 3 hit points per round. Vampires must take refuge in a coffin or other hideaway during daylight, and must slumber on soil from their own grave once in a while to maintain their powers.
 
-Vampires are immensely strong (18.76), <!-- printed as-is: NEW --> and deal great blows that inflict 1d6+4 hit points of damage. These blows further reduce the victim’s life energy by two levels, which consequently reduces all other traits linked to a loss in levels (attack ability, hit dice, etc.).
+Vampires are immensely strong (18.76), <!-- printed as-is: see errata E187 --> and deal great blows that inflict 1d6+4 hit points of damage. These blows further reduce the victim’s life energy by two levels, which consequently reduces all other traits linked to a loss in levels (attack ability, hit dice, etc.).
 
 Vampires may take gaseous form at will, and will be forced into this form if their hit points reach zero. They then attempt to reach their coffin to reform their bodies. If they do not reach the coffin within 12 turns and rest for 8 hours, they are unable to reform.
 
@@ -18582,7 +18631,7 @@ Monster zombies are the animated corpses of larger humanoid monsters such as bug
 - **Alignment:** Neutral (evil)
 - **Level/XP:** 3/115 + 4/hp
 
-Juju zombies are undead specially created by evil magic users practising a little-known and universally-banned magic known as necromancy. This unholy process involves draining all the life force from the unfortunate victim, who can be a human, demi-human, or humanoid. These creatures are then completely subservient to their master, who can issue commands to them to guard, attack, or patrol an area, or other similar orders. Juju zombies are like regular zombies but are improved in virtually every way. This type of zombie moves more quickly, has an improved AC, climbs with the skill of an 8th level thief, attack as 6 HD monsters, use missile weapons such as crossbows or pulled bows, and can even use hurled weapons such as spears or javelins.
+Juju zombies are undead specially created by evil magic users practising a little-known and universally-banned magic known as necromancy. This unholy process involves draining all the life force from the unfortunate victim, who can be a human, demi-human, or humanoid. These creatures are then completely subservient to their master, who can issue commands to them to guard, attack, or patrol an area, or other similar orders. Juju zombies are like regular zombies but are improved in virtually every way. This type of zombie moves more quickly, has an improved AC, climbs with the skill of an 8th level thief, attack as 6 HD monsters, use missile weapons such as crossbows or pulled bows, and can even use hurled weapons such as spears or javelins.<!-- printed as-is: see errata E188 -->
 
 In combat, juju zombies attack with their clawed hands but they can be programmed to use weapons by their master. Due to their strong connection to the Negative Material Plane, juju zombies can only be hit by magic weapons. Magic piercing or blunt weapons do half damage owing to the undead nature of the monsters, magic slashing weapons do full damage.
 
@@ -18681,7 +18730,7 @@ Communal and vegetarian, baboons will defend their territory if it is invaded. D
 
 ***Treasure:*** None
 
-### Badger
+### Badger<!-- printed as-is: see errata E189 -->
 
 | | Ordinary | Giant |
 |---|---|---|
@@ -18703,7 +18752,7 @@ Communal and vegetarian, baboons will defend their territory if it is invaded. D
 
 Swift-moving burrowers, the badger will defend its territory. Known to mate for life, and when more than one is indicated, the encounter will be with a family. Their pelts will usually bring 1d3×10 gold each, although juvenile pelts are worth considerably less.
 
-The **Giant Badger** is simply a larger version of the regular badger. Much rarer, it runs to 3 Hit Dice, with attacks that do 1d3/1d3/1d6 damage. They are Very Rare, even in Badger-rich areas, but may be encountered in prehistoric “lost world” environments.
+The **Giant Badger** is simply a larger version of the regular badger. Much rarer, it runs to 3 Hit Dice, with attacks that do 1d3/1d3/1d6 damage. They are Very Rare,<!-- printed as-is: see errata E190 --> even in Badger-rich areas, but may be encountered in prehistoric “lost world” environments.
 
 ***Treasure:*** None
 
@@ -18764,7 +18813,7 @@ The very large mobat is found in warm regions where a plentiful supply of warm-b
 
 - **Frequency:** Uncommon
 - **No. Encountered:** 2d6
-- **Size:** Small to Large
+- **Size:** Small to Large<!-- printed as-is: see errata E191 -->
 - **Move:** 30 ft swimming
 - **Armour Class:** 6
 - **Hit Dice:** 1 to 3
@@ -18887,7 +18936,7 @@ Aggressive omnivore, related to a pig. If more than one is encountered, the othe
 
 **Giant Boar:** Ancient ancestor to the modern boar, the giant boar is even more aggressive. If 3 or more are indicated, young will only be present 25% of the time. Bulls and sows have the same stats and will both fight to -11 hp, or 1d4 rounds after 0 hp.
 
-Young, when encountered have the following stats: 2-6HD, between 1d4 and 3d4 damage/attack
+Young, when encountered have the following stats: 2-6HD, between 1d4 and 3d4 damage/attack<!-- printed as-is: see errata E192 -->
 
 ***Treasure:*** None
 
@@ -18981,11 +19030,6 @@ A cat exceeding its needed “to hit” score by 4 or more can rake with its rea
 | **Frequency:** | Uncommon | Common | Common |
 | **No. Encountered:** | 4d6 | 1, plus 50% | 20d10 chance of 3d6 cattle |
 | **Size:** | Large | Large | Large |
-
-<!-- p.257 -->
-
-| | Buffalo | Bull | Wild |
-|---|---|---|---|
 | **Move:** | 150 ft | 150 ft | 150 ft |
 | **Armour Class:** | 7 | 7 | 7 |
 | **Hit Dice:** | 5 | 4 | 2-4 HD |
@@ -18998,6 +19042,8 @@ A cat exceeding its needed “to hit” score by 4 or more can rake with its rea
 | **Intelligence:** | Animal | Animal | Animal |
 | **Alignment:** | Neutral | Neutral | Neutral |
 | **Level/XP:** | 3/110+4/hp | 3/75+3/hp | 1/10+1/hp |
+
+<!-- p.257 -->
 
 **Buffalo:** Native to tropical and subtropical plains, the buffalo will usually attack if approached within 60 ft. Any attack by one may result in the whole herd charging. When charging, the buffalo will do 3d6 impact damage plus 1d4 trampling damage. The charge must cover a minimum of 40 ft.
 
@@ -19214,7 +19260,7 @@ Giant frogs can be 2, 4, or 6 ft in length. They are found anywhere their normal
 
 The frog can shoot its tongue up to three times its body length and gets a +4 to hit. The tongue does no damage, it only sticks to the victim. Any creature hit with the tongue can attempt to free itself by striking the tongue. If the victim manages to strike the tongue, the frog will retract it and attack a different target next round.
 
-If the victim is not freed and weighs less than the frog, the frog will attempt to pull the victim into its mouth for maximum damage. If the victim weighs more than the giant frog it will take 2 rounds to drag the victim into its mouth. If the victim is more then double the frog’s weight, the frog will not be able to move the victim. On the 3rd round the frog will release its tongue.
+If the victim is not freed and weighs less than the frog, the frog will attempt to pull the victim into its mouth for maximum damage. If the victim weighs more than the giant frog it will take 2 rounds to drag the victim into its mouth. If the victim is more then<!-- printed as-is: see errata E193 --> double the frog’s weight, the frog will not be able to move the victim. On the 3rd round the frog will release its tongue.
 
 If the frog scores a natural 20 on an attack, it has swallowed its prey. A giant frog can swallow whole anything elf-sized or smaller. If swallowed, there is a chance for the victim to cut their way out. They must have in hand a sharp edged weapon and score an 18 or better. The prey get 3 tries to escape. Any hit to the giant frog, that has swallowed its victim, has a 33% chance of doing damage to the victim as well.
 
@@ -19241,11 +19287,11 @@ If the frog scores a natural 20 on an attack, it has swallowed its prey. A giant
 | **Alignment:** | Neutral | Neutral | Neutral | Neutral | Neutral | Neutral |
 | **Level/XP:** | 2/20+2/hp | 2/20+2/hp | 2/20+2/hp | 2/20+2/hp | 2/20+2/hp | 2/20+2/hp |
 
-One of the most common domesticated animals, horses are almost ubiquitous in most human societies. They are insufficiently sure-footed to take into most dungeon
+One of the most common domesticated animals, horses are almost ubiquitous in most human societies. They are insufficiently sure-footed to take into most dungeon environments (cf *mule*). “Heavy”, “Medium” and “Light” refer to warhorses. Only about 10% of horses can be trained as warhorses, even by an expert, and warhorse
 
 <!-- p.261 -->
 
-environments (cf *mule*). “Heavy”, “Medium” and “Light” refer to warhorses. Only about 10% of horses can be trained as warhorses, even by an expert, and warhorse training requires very specialised knowledge on the part of the trainer.
+training requires very specialised knowledge on the part of the trainer.
 
 ***Treasure:*** None.
 
@@ -19359,7 +19405,7 @@ The small size of the Jackal makes it cautious and an unlikely combatant, but th
 | **Size:** | Large | Medium | Large |
 | **Move:** | 120 ft | 150 ft | 120 ft |
 | **Armour Class:** | 5 | 6 | 5 |
-| **Hit Dice:** | 5+3 | 3+2 | 6+3 |
+| **Hit Dice:** | 5 + 3 | 3 + 2 | 6 + 3 |
 | **Attacks:** | 3 | 3 | 3 |
 | **Damage:** | 1d6/1d6/1d10 | 1d4/1d4/1d6 | 2d4/2d4/2d6 |
 | **Special Attacks:** | Rear claws | Rear claws | Rear claws |
@@ -19404,7 +19450,7 @@ Mules, sterile crosses between horses and donkeys, are sure-footed enough to be 
 
 ***Treasure:*** None.
 
-### Portuguese Man O’ War, Giant
+### Portuguese Man O’ War, Giant<!-- printed as-is: see errata E194 -->
 
 - **Frequency:** Uncommon
 - **No. Encountered:** 1d10
@@ -19538,11 +19584,11 @@ These monsters live deep within the oceans at depths few can reach. Occasionally
 
 with two tentacles to the ship. This leaves the other eight tentacles free to go after the crew. When the squid has picked the ship clean it will crush the hull and drag the wreckage to its lair.
 
-A giant squid’s body is protected by a tough shell (AC 3), but its tentacles and head is more vulnerable (AC 7). Each tentacle hits for 1d6 damage. With each successful hit it grabs its victim and holds it. With each successive round the tentacle does an additional 2d6 crushing damage until the victim is dead. It takes one round to eat its dead victim, then the tentacle is free to attack a new target. The squid’s sharp beak bites for 5d4 damage. They only way to get a squid to release its victim is to sever the tentacle by causing 10 hp damage to it.
+A giant squid’s body is protected by a tough shell (AC 3), but its tentacles and head is more vulnerable (AC 7).<!-- printed as-is: see errata E195 --> Each tentacle hits for 1d6 damage. With each successful hit it grabs its victim and holds it. With each successive round the tentacle does an additional 2d6 crushing damage until the victim is dead. It takes one round to eat its dead victim, then the tentacle is free to attack a new target. The squid’s sharp beak bites for 5d4 damage. They only way<!-- printed as-is: see errata E196 --> to get a squid to release its victim is to sever the tentacle by causing 10 hp damage to it.
 
-Those within the tentacle’s grasp are 25% likely to have both arms held, and as such they are helpless. Most of the time (50%) they will have one limb held and are able to attack with a -3 penalty. The other 25% of the time the victim will both arms free and can attack the squid with only a -1 penalty.
+Those within the tentacle’s grasp are 25% likely to have both arms held, and as such they are helpless. Most of the time (50%) they will have one limb held and are able to attack with a -3 penalty. The other 25% of the time the victim will both arms free<!-- printed as-is: see errata E197 --> and can attack the squid with only a -1 penalty.
 
-If the squid looses more then 3 arms it will release the ship and flee. As it does the monster will release ink in the water leaving a cloud 60 ft deep by 80 ft wide.
+If the squid looses more then<!-- printed as-is: see errata E198 --> 3 arms it will release the ship and flee. As it does the monster will release ink in the water leaving a cloud 60 ft deep by 80 ft wide.
 
 **Giant octopi** resemble giant squid, but without the shell or two of their arms, and are smaller. Otherwise they are as giant squid.
 
@@ -19557,7 +19603,7 @@ If the squid looses more then 3 arms it will release the ship and flee. As it do
 | **Size:** | Large | Large |
 | **Move:** | 120 ft | 120 ft |
 | **Armour Class:** | 6 | 6 |
-| **Hit Dice:** | 5+5 | 7+2 |
+| **Hit Dice:** | 5 + 5 | 7 + 2 |
 | **Attacks:** | 3 | 3 |
 | **Damage:** | 1d6/1d6/1d10 | 1d8/1d8/2d6 |
 | **Special Attacks:** | See below | See below |
@@ -19613,15 +19659,12 @@ Giant toads hunt any sort of prey, including humans. They can leap forward up to
 | **Special Attacks:** | Overturn boats | Surprise on a 1–4 on d6 |
 | **Special Defences:** | None | None |
 | **Magic Resistance:** | Standard | Standard |
-
-<!-- p.266 -->
-
-| | Giant Sea | Giant Snapping |
-|---|---|---|
 | **Lair Probability:** | Nil | Nil |
 | **Intelligence:** | Animal | Animal |
 | **Alignment:** | Neutral | Neutral |
 | **Level/XP:** | 7/2,400+ 20/hp | 7/1,500+14/hp |
+
+<!-- p.266 -->
 
 **Giant sea turtles** are massive beasts, normally placid but ferocious when they feel they are under attack. They have a 90% chance of overturning a boat, and a 10% chance to overturn even a small ship. A sea turtle can withdraw its vulnerable head and flippers into its shell, but obviously cannot attack or move if it does so.
 
@@ -19649,7 +19692,7 @@ Giant toads hunt any sort of prey, including humans. They can leap forward up to
 - **Alignment:** Neutral
 - **Level/XP:** 4/160 + 6/hp
 
-Walruses are large, flippered animals with long ivory tusks. They are carnivorous and very aggressive in defending their territory, and are made every more dangerous due to their great size and the fact several are usually encountered. The largest males can weight as much as 4,400 lbs.
+Walruses are large, flippered animals with long ivory tusks. They are carnivorous and very aggressive in defending their territory, and are made every more dangerous<!-- printed as-is: see errata E199 --> due to their great size and the fact several are usually encountered. The largest males can weight as much as 4,400 lbs.<!-- printed as-is: see errata E200 -->
 
 In combat a walrus attacks with its clawed front flippers and its tusks. Males will primarily defend the herd from intruders but the females, who are also tusked, will fight if necessary.
 
@@ -19679,7 +19722,7 @@ Huge and giant weasels are typically encountered in forested areas, though some 
 
 Their pelts are quite valuable. Huge weasel pelts sell for 1d6×100 gp, giant weasel pelts for twice that amount or more.
 
-***Treasure:*** See creature text.
+***Treasure:*** See creature te×t.
 
 ### Whale
 
@@ -19731,7 +19774,7 @@ Wolves are predators that hunt in packs of up to 30. They are normally 26 to 30 
 
 ***Treasure:*** None.
 
-### Wolverine
+### Wolverine<!-- printed as-is: see errata E201 -->
 
 | | Normal | Giant |
 |---|---|---|
@@ -19794,7 +19837,7 @@ Worgs are evil wolves of great size. They speak their own language, and will oft
 
 ## OTHER CREATURES
 
-"Other creatures" is a catch-all term for the many OSRIC creatures that do not seem to fit anywhere else.
+“Other creatures” is a catch-all term for the many OSRIC creatures that do not seem to fit anywhere else.
 
 ### Achaierai
 
@@ -19816,11 +19859,11 @@ Worgs are evil wolves of great size. They speak their own language, and will oft
 
 Though not demons, Achaierai are native to the Abyss. They are giant birds, somewhat like ostriches with short necks and four legs each. They attack as 9 hit dice monsters. Their bite attack (1d10 damage) is usable only against foes they can reach—typically those flying or over 8 ft tall. Against smaller creatures they have only two attacks with their talons.
 
-Creatures under 8 ft tall, however, are at an equal drawback against Achaierai. They may hit the creature's AC 8 body only with missile weapons, spears or polearms (such as pikes). If armed with a hand weapon, they must attack the Achaierai's AC -1 legs.
+Creatures under 8 ft tall, however, are at an equal drawback against Achaierai. They may hit the creature’s AC 8 body only with missile weapons, spears or polearms (such as pikes). If armed with a hand weapon, they must attack the Achaierai’s AC -1 legs.
 
 If seriously wounded, such as losing more than two legs, the Achaierai can emit a cloud of poison in a 20 ft diameter sphere. This cloud causes *insanity* (as the druidic spell *feeblemind*) for three hours unless a saving throw vs poison is made, inflicts 2d6 hp damage regardless of the save, and blocks line of sight.
 
-*Treasure:* 1d10×1,000 cp (5%), 1d12×1,000 sp (25%), 1d6×1,000 ep (25%), 1d8×1,000 gp (25%), 1d12 gems (15%), 1d8 jewellery (10%) and 3 magic items and 1 scroll (25%).
+***Treasure:*** 1d10×1,000 cp (5%), 1d12×1,000 sp (25%), 1d6×1,000 ep (25%), 1d8×1,000 gp (25%), 1d12 gems (15%), 1d8 jewellery (10%) and 3 magic items and 1 scroll (25%).
 
 ### Aerial Servant
 
@@ -19846,7 +19889,7 @@ These creatures may carry approximately 1,000 lbs in weight at full movement spe
 
 If the Aerial Servant is prevented from carrying out its mission, it will go mad and return to attack the cleric who summoned it.
 
-*Treasure:* None.
+***Treasure:*** None.
 
 <!-- p.269 -->
 
@@ -19878,9 +19921,9 @@ Afreeti are capable of carrying up to 750 lbs, either on foot or flying, without
 
 Besides speaking their own language afreeti have limited telepathy, so they can communicate with any intelligent creature.
 
-*Treasure:* None.
+***Treasure:*** None.
 
-### Al-Mi'raj
+### Al-Mi’raj
 
 - **Frequency:** Very rare
 - **No. Encountered:** 2d10
@@ -19898,9 +19941,9 @@ Besides speaking their own language afreeti have limited telepathy, so they can 
 - **Alignment:** Neutral
 - **Level/XP:** 1/5+1/hp
 
-Al-mi'raj resemble large (3 ft) hares with black unicorn horns projecting from their foreheads. If captured young they can be trained as guard animals or pets, but wild individuals are unpredictable and sometimes aggressive. They live like hares in burrows too small for even a gnome or halfling to enter.
+Al-mi’raj resemble large (3 ft) hares with black unicorn horns projecting from their foreheads. If captured young they can be trained as guard animals or pets, but wild individuals are unpredictable and sometimes aggressive. They live like hares in burrows too small for even a gnome or halfling to enter.
 
-*Treasure:* None.
+***Treasure:*** None.
 
 ### Amber Creeping Vine
 
@@ -19924,23 +19967,23 @@ Al-mi'raj resemble large (3 ft) hares with black unicorn horns projecting from t
 
 An Amber Creeping Vine is a climbing plant with striking amber flowers like honeysuckle blooms that exude a musky, heady perfume. Upon reaching maturity each vine covers about 20 sq ft, has 2d6 blooms and 1d4 buds. Not only does the amber creeping vine not require sunlight to grow, it actually appears to thrive in the absence of light. Amber creepers are often found growing in the soil of caverns and dungeons or in the deep, dark hearts of ancient forests, climbing up the rock walls or clinging to tree trunks alike with ease. Indeed, the problem is not getting the vines to grow, it is controlling their spread. These plants can defend themselves and there are those who take advantage of these abilities by planting amber creeping vines near treasure troves.
 
-Amber creeping vines sustain themselves by feeding on living creatures unfortunate enough to approach too close. When a creature approaches within 10 ft of the vine its amber blossoms will start waving in a mesmerising pattern while puffing clouds of fragrant pollen into the target's face. A successful hit indicates the victim has inhaled the pollen and he or she must save vs spells or become enthralled, walking forward into the mass of vines to be engulfed within its leafy, tentacle-like limbs. The individual will resist any attempts to restrain him or her from entering the vines.
+Amber creeping vines sustain themselves by feeding on living creatures unfortunate enough to approach too close. When a creature approaches within 10 ft of the vine its amber blossoms will start waving in a mesmerising pattern while puffing clouds of fragrant pollen into the target’s face. A successful hit indicates the victim has inhaled the pollen and he or she must save vs spells or become enthralled, walking forward into the mass of vines to be engulfed within its leafy, tentacle-like limbs. The individual will resist any attempts to restrain him or her from entering the vines.
 
 <!-- p.270 -->
 
-Once the victim is inside the plant, numerous root-like organs will intrude into his or her skull. The amber creeping vine will begin to consume the unfortunate victim's brain at a rate of 1d4 intelligence points per round. Though the brain-consuming tendrils can be easily cut, so many attach to the victim so rapidly that the only way to stop the draining is to kill the creeper. The amber creeping vine has a bulbous root which lies 1 ft beneath the soil; stabbing through the root will kill the vine and halt the consumption of the victim's brain tissue.
+Once the victim is inside the plant, numerous root-like organs will intrude into his or her skull. The amber creeping vine will begin to consume the unfortunate victim’s brain at a rate of 1d4 intelligence points per round. Though the brain-consuming tendrils can be easily cut, so many attach to the victim so rapidly that the only way to stop the draining is to kill the creeper. The amber creeping vine has a bulbous root which lies 1 ft beneath the soil; stabbing through the root will kill the vine and halt the consumption of the victim’s brain tissue.
 
-If the intelligence drain is not halted before the victim's intelligence ability score reaches zero, the victim dies and a bud flowers into bloom as a new bud sprouts from the vine. If the intelligence drain in any given round reduces the victim's intelligence to exactly 1 or 2, the victim becomes an amber zombie (see below). Intelligence loss in persons the creeper does not kill or transform into an amber zombie is temporary, requiring but a day of rest to regain a point of Int. Healing or other curative magic will restore full intelligence immediately, but a spell used thus will not heal hit points.
+If the intelligence drain is not halted before the victim’s intelligence ability score reaches zero, the victim dies and a bud flowers into bloom as a new bud sprouts from the vine. If the intelligence drain in any given round reduces the victim’s intelligence to exactly 1 or 2, the victim becomes an amber zombie (see below). Intelligence loss in persons the creeper does not kill or transform into an amber zombie is temporary, requiring but a day of rest to regain a point of Int. Healing or other curative magic will restore full intelligence immediately, but a spell used thus will not heal hit points.
 
-Each amber creeping vine will have a number of zombies under its control equal to half the number of blooms, rounded down. Creepers do not value treasure but the belongings of those who have fallen victim to the plant's pollen attack will be found in the soil under the plant. The vines are mobile enough to cover the evidence of the plant's peculiar feeding habits.
+Each amber creeping vine will have a number of zombies under its control equal to half the number of blooms, rounded down. Creepers do not value treasure but the belongings of those who have fallen victim to the plant’s pollen attack will be found in the soil under the plant. The vines are mobile enough to cover the evidence of the plant’s peculiar feeding habits.
 
-**Amber Zombies** have varying appearances but are always human, demi-human, or humanoid. Succumbing to the amber creeping vine turns the skin amber and changes the eyes into glazed and lifeless parodies of their former appearance. The process of draining a victim's intelligence also plants a vine seed into the skull. The resulting amber zombie is under control of the creating plant. The zombie will seek to bring new victims to the creeper's hungry vines and if the creeper is attacked the amber zombie will defend it. Amber zombies use whatever weapons and armour the victim had at the time of his or her conversion, but the zombie fights as 2HD monster with no spell-using abilities or ability score bonuses.
+**Amber Zombies** have varying appearances but are always human, demi-human, or humanoid. Succumbing to the amber creeping vine turns the skin amber and changes the eyes into glazed and lifeless parodies of their former appearance. The process of draining a victim’s intelligence also plants a vine seed into the skull. The resulting amber zombie is under control of the creating plant. The zombie will seek to bring new victims to the creeper’s hungry vines and if the creeper is attacked the amber zombie will defend it. Amber zombies use whatever weapons and armour the victim had at the time of his or her conversion, but the zombie fights as 2HD monster with no spell-using abilities or ability score bonuses.
 
 Despite their name, amber zombies are not undead and cannot be turned by a cleric. They are, however, immune to mind-influencing magic just as true zombies are. After 2 months of service the zombie wanders away from the parent plant to find a nice patch of soil in a likely spot, where it dies and a new amber creeping vine sprouts from the corpse.
 
 The only known way to cure an amber zombie is to kill the controlling creeper and cast both a *neutralise poison* and *heal* upon the zombie in rapid succession. The victim will be restored to his or her former self but will require a full week of rest for every 4 points (rounded up) of intelligence lost before being able to adventure again.
 
-*Treasure:* See creature text.
+***Treasure:*** See creature te×t.
 
 ### Ankheg
 
@@ -19966,7 +20009,7 @@ When feeding, an ankheg dissolves its prey before sucking the juices from the sh
 
 Ankheg sometimes lurk beneath the earth waiting to feel the vibrations of an approaching creature, thence to attack it by surprise.
 
-*Treasure:* None.
+***Treasure:*** None.
 
 ### Annis
 
@@ -19994,7 +20037,7 @@ while the victim is held). Annises can cast *fog cloud* thrice per day and *chan
 
 Annises speak common, various giantish tongues and their own language.
 
-*Treasure:* (in lair) 1d20×1,000 cp (25%), 1d8×1,000 sp (35%), 1d6×1,000 ep (10%), 1d6×1,000 gp (40%), 1d8 gems (30%), 1d6 jewellery (25%), any 2 magic items and one potion (15%)
+***Treasure:*** (in lair) 1d20×1,000 cp (25%), 1d8×1,000 sp (35%), 1d6×1,000 ep (10%), 1d6×1,000 gp (40%), 1d8 gems (30%), 1d6 jewellery (25%), any 2 magic items and one potion (15%)
 
 ### Ant, Giant
 
@@ -20018,9 +20061,9 @@ Annises speak common, various giantish tongues and their own language.
 
 If the encounter is with a colony of giant ants, the Number Encountered will represent the workers present. Calculate the presence of soldiers at 1:5, that is 1 soldier for every 5 workers, in addition to the number shown on the die.
 
-At the heart of the nest will be the queen. She is immobile and incapable of attacking or defending herself. At least 5d10 workers and 5 soldiers will attend her and defend her and her eggs. Once slain, the queen's organising influence on the colony will disappear, causing *confusion* (as the 7th level druid spell) for 1d6 rounds. After the period of *confusion*, ants will leave the colony in search of a new one. Ordinarily, the eggs of giant ants have no market value.
+At the heart of the nest will be the queen. She is immobile and incapable of attacking or defending herself. At least 5d10 workers and 5 soldiers will attend her and defend her and her eggs. Once slain, the queen’s organising influence on the colony will disappear, causing *confusion* (as the 7th level druid spell) for 1d6 rounds. After the period of *confusion*, ants will leave the colony in search of a new one. Ordinarily, the eggs of giant ants have no market value.
 
-*Treasure:* (In lair only) 3d4 gems (50%); 2d4 potions (40%).
+***Treasure:*** (In lair only) 3d4 gems (50%); 2d4 potions (40%).
 
 ### Aurumvorax
 
@@ -20040,13 +20083,13 @@ At the heart of the nest will be the queen. She is immobile and incapable of att
 - **Alignment:** Neutral
 - **Level/XP:** 8/2,250+16/hp
 
-Also known as the "golden gorger" for its beautiful golden coat, the aurumvorax is a long-bodied, eight-legged carnivore. It lives in plains or woods. Though as small as a badger, the creature is very dense and heavy, weighing as much as a bear. A successful bite means the creature has locked its teeth in its target like a bulldog; it will then bring its claws up to rake the target, who will suffer 2d4 damage automatically each round from the teeth while the creature is attached, and an additional 1d8 attacks from the claws. Each claw inflicts a further 1d6 damage. Once locked on, the only way to detach the aurumvorax from its target is to kill it.
+Also known as the “golden gorger” for its beautiful golden coat, the aurumvorax is a long-bodied, eight-legged carnivore. It lives in plains or woods. Though as small as a badger, the creature is very dense and heavy, weighing as much as a bear. A successful bite means the creature has locked its teeth in its target like a bulldog; it will then bring its claws up to rake the target, who will suffer 2d4 damage automatically each round from the teeth while the creature is attached, and an additional 1d8 attacks from the claws. Each claw inflicts a further 1d6 damage. Once locked on, the only way to detach the aurumvorax from its target is to kill it.
 
-The aurumvorax's thick coat is such good armour it takes only half-damage from blunt weapons. It is also highly resistant to fire, taking only half damage from fiery sources, and neither poison nor gas can harm it.
+The aurumvorax’s thick coat is such good armour it takes only half-damage from blunt weapons. It is also highly resistant to fire, taking only half damage from fiery sources, and neither poison nor gas can harm it.
 
 Rumour has it the aurumvorax is not native to this part of the prime material plane, having been brought here by visitors from a very distant place.
 
-*Treasure:* The aurumvorax does not hoard treasure and places no value on it. However, its lair might contain treasure assigned by the GM—this would be appropriate in cases where it has slain a creature carrying treasure and dragged that creature back to its lair.
+***Treasure:*** The aurumvora× does not hoard treasure and places no value on it. However, its lair might contain treasure assigned by the GM—this would be appropriate in cases where it has slain a creature carrying treasure and dragged that creature back to its lair.
 
 ### Babbler
 
@@ -20074,7 +20117,7 @@ babblers may be a kind of mutant lizard man—though if so, the mutation is quit
 
 Babblers like the taste of human. They are occasionally found in lizard man raiding parties.
 
-*Treasure:* (in lair) 1d12×1,000 cp (20%), 1d6×1,000 sp (35%), 1d6×1,000 ep (10%), 1d6×1,000 gp (40%), 1d4 gems (30%), 1d3 jewellery (25%), one magic item and one potion (10%)
+***Treasure:*** (in lair) 1d12×1,000 cp (20%), 1d6×1,000 sp (35%), 1d6×1,000 ep (10%), 1d6×1,000 gp (40%), 1d4 gems (30%), 1d3 jewellery (25%), one magic item and one potion (10%)
 
 ### Barghest
 
@@ -20096,13 +20139,13 @@ Babblers like the taste of human. They are occasionally found in lizard man raid
 
 Barghests are native to Gehenna, but send their young to the Prime Material Plane during a larval phase. A typical litter is 2d4 young. These will disperse into pairs or lone barghests.
 
-They seem like very large goblins, and may *shape change* into large dogs at will. In dog form each barghest's movement speed is doubled and it surprises opponents 50% of the time. For each human the barghest eats, it gains 1+1 HD, reduces its AC by 1, adds 5% to its magic resistance and +1 to its damage dice. When it reaches 12+12 hit dice, the Barghest may *plane shift* itself back to Gehenna, a power it will typically use at once.
+They seem like very large goblins, and may *shape change* into large dogs at will. In dog form each barghest’s movement speed is doubled and it surprises opponents 50% of the time. For each human the barghest eats, it gains 1+1 HD, reduces its AC by 1, adds 5% to its magic resistance and +1 to its damage dice. When it reaches 12+12 hit dice, the Barghest may *plane shift* itself back to Gehenna, a power it will typically use at once.
 
 At will, a barghest may use the following spell-like powers, once each per round: *change self*, *levitation*, *misdirection*, or *projected image*. While in dog form it may also *pass without trace* at will. Once each per day it may *charm person* and *dimension door*.
 
 A barghest that takes more than 15hp damage from a fire attack must save vs spells or be instantly banished back to Gehenna.
 
-*Treasure:* None on the Prime Material Plane.
+***Treasure:*** None on the Prime Material Plane.
 
 ### Basilisk
 
@@ -20122,9 +20165,9 @@ A barghest that takes more than 15hp damage from a fire attack must save vs spel
 - **Alignment:** Neutral
 - **Level/XP:** 7/1,000+8/hp
 
-Noting the basilisk's physiognomy, the wisest sages posit that it is hatched by a cock from the egg of a serpent, begetting an 8-legged anfractuous creature with a lizard-like head. The gaze of the basilisk is deadly, as any creature meeting its gaze must successfully save vs petrifaction or instantly be turned to stone. The gaze effects of the basilisk extend into both the astral and æthereal planes.
+Noting the basilisk’s physiognomy, the wisest sages posit that it is hatched by a cock from the egg of a serpent, begetting an 8-legged anfractuous creature with a lizard-like head. The gaze of the basilisk is deadly, as any creature meeting its gaze must successfully save vs petrifaction or instantly be turned to stone. The gaze effects of the basilisk extend into both the astral and æthereal planes.
 
-*Treasure:* 1d10×1,000 cp (5%), 1d12×1,000 sp (25%), 1d6×1,000 ep (25%), 1d8×1,000 gp (25%), 1d12 gems (15%), 1d8 jewellery (15%), 3 magic items and 1 scroll (10%).
+***Treasure:*** 1d10×1,000 cp (5%), 1d12×1,000 sp (25%), 1d6×1,000 ep (25%), 1d8×1,000 gp (25%), 1d12 gems (15%), 1d8 jewellery (15%), 3 magic items and 1 scroll (10%).
 
 ### Bee, Giant
 
@@ -20146,13 +20189,13 @@ Noting the basilisk's physiognomy, the wisest sages posit that it is hatched by 
 | **Alignment:** | Neutral | Neutral | Neutral |
 | **Level/XP:** | 3/100+4/hp | 3/150+5/hp | 4/300+8/hp |
 
+<!-- p.273 -->
+
 Giant bees live in hives (honeybees) or nests (bumblebees). These lairs will contain non-combatant queens (10 HD but no effective attack) and 2d3 non-combatant drones (2 HD and no effective attack). A giant bee can only sting once per encounter; it has a 25% chance of dying after stinging, otherwise the stinger will slowly re-grow. They will flee from smoke or fire unless their lair is threatened.
 
-Giant bee hives or nests will always contain honey worth 10d10 gold pieces. There is a 15% chance that a hive will contain royal jelly. If it does, the royal jelly can be fashioned into 2d3 *potions of extra healing* by a magic user of 7th or higher level—or a magic user of 12th level or higher may make it into an unguent which preserves the appearance of youth. Regular application of this unguent for 1 year makes the user appear 2d3 years younger. Such an unguent is typically worth 3d6x1,000 gp to wealthy noblewomen. <!-- printed as-is: NEW -->
+Giant bee hives or nests will always contain honey worth 10d10 gold pieces. There is a 15% chance that a hive will contain royal jelly. If it does, the royal jelly can be fashioned into 2d3 *potions of extra healing* by a magic user of 7th or higher level—or a magic user of 12th level or higher may make it into an unguent which preserves the appearance of youth. Regular application of this unguent for 1 year makes the user appear 2d3 years younger. Such an unguent is typically worth 3d6x1,000 gp to wealthy noblewomen. <!-- printed as-is: see errata E202 -->
 
-*Treasure:* See creature text.
-
-<!-- p.273 -->
+***Treasure:*** See creature te×t.
 
 ### Beetle, Giant
 
@@ -20178,11 +20221,11 @@ Giant bee hives or nests will always contain honey worth 10d10 gold pieces. Ther
 
 When attacked it has a 50% chance to release an 8 ft cube of noxious gas. The gas will cause 3d4 hp of damage and the sound of its release will stun (20% chance) and deafen (20%) all within a 16 ft radius. The stun effect will prevent action for 2d4 rounds and the deafness will persist for 2d6 rounds. The cloud can be released every 3rd round (e.g., 1st and 4th) but not more than twice in 8 hours.
 
-*Treasure:* None
+***Treasure:*** None
 
-**Giant Boring:** Giant Boring beetles will often be found in dead trees and tunnel complexes – wherever there is sufficient rotting wood and moisture to support the fungal cultures they eat. There are rumours that some have developed a "hive-mind" similar to ants and when threatened they may display surprising group intelligence in the defence of their home.
+**Giant Boring:** Giant Boring beetles will often be found in dead trees and tunnel complexes – wherever there is sufficient rotting wood and moisture to support the fungal cultures they eat. There are rumours that some have developed a “hive-mind” similar to ants and when threatened they may display surprising group intelligence in the defence of their home.
 
-*Treasure:* In Lair: 1d12×1,000 cp (20%); 1d6×1,000 sp (30%); 1d4×1,000 ep (10%); 2d4×100 gp (40%); 1d6×10 pp (50%); 3d8 gems (55%); 1d12 jewellery (45%); 2d4 potions (40%); 1d4 scrolls (50%); Any 2 magic items (10%).
+***Treasure:*** In Lair: 1d12×1,000 cp (20%); 1d6×1,000 sp (30%); 1d4×1,000 ep (10%); 2d4×100 gp (40%); 1d6×10 pp (50%); 3d8 gems (55%); 1d12 jewellery (45%); 2d4 potions (40%); 1d4 scrolls (50%); Any 2 magic items (10%).
 
 **Giant Death Watch:** Giant Death Watch beetles live in temperate areas and sometimes underground. They disguise themselves by sticking rubbish, branches and
 
@@ -20190,25 +20233,25 @@ When attacked it has a 50% chance to release an 8 ft cube of noxious gas. The ga
 
 detritus to their carapaces with their saliva. They are feared for making terrible, deadly bass vibrations by scraping their hind legs—when a beetle does this, all within 30 ft of the creature must save vs death or die. Even those who pass their save take 4d6 hp damage. After using this special attack, the Death Watch beetle must wait at least 12 turns before using it again.
 
-*Treasure:* None
+***Treasure:*** None
 
 **Giant Fire:** With their glowing red glands, one above each eye and one on the back of the abdomen, these nocturnal beetles are much sought after by adventurers. The glands will continue to glow for 1d6 days after removal, illuminating a 10 ft radius without fail.
 
 Fire beetles can be found both above and below ground, feeding on decaying matter like all beetles.
 
-*Treasure:* None
+***Treasure:*** None
 
 **Giant Rhinoceros:** Usually encountered in the tropics, these massive creatures (roughly 12 ft long, plus another 6 ft of horn) live on the fruit and vegetation they crush as they roam about.
 
-*Treasure:* None
+***Treasure:*** None
 
 **Giant Stag:** Giant stag beetles live in woodlands near farmland, preferring for food the young shoots of cultivated grains. For this reason, they can often plague regions and even cause famine should enough of them descend upon an area.
 
-*Treasure:* None
+***Treasure:*** None
 
-**Giant Water:** Hunting by scent an vibration, and dwelling in fresh water at least 30 ft deep, the water beetle is a powerful threat to the unwary adventurer. Omnivorous and insatiable, the water beetle will consume whatever it can get its powerful mandibles around.
+**Giant Water:** Hunting by scent an vibration,<!-- printed as-is: see errata E203 --> and dwelling in fresh water at least 30 ft deep, the water beetle is a powerful threat to the unwary adventurer. Omnivorous and insatiable, the water beetle will consume whatever it can get its powerful mandibles around.
 
-*Treasure:* None
+***Treasure:*** None
 
 ### Behir
 
@@ -20228,9 +20271,9 @@ Fire beetles can be found both above and below ground, feeding on decaying matte
 - **Alignment:** Neutral evil
 - **Level/XP:** 7/2,750 + 16/hp
 
-A behir is a particularly nasty subterranean beast with a crocodile's head on a 40 ft long snake-like body with twelve sets of legs. These creatures move very fast and can climb vertically at half their speed. Their main method of attacking is to bite and wrap their body around their prey and squeeze. On the second round they can still bite but the held victim is now subject to 6 claw attacks. Every 10 rounds a behir can also breathe a 20 ft lightning bolt that does 4d6+24 damage unless a save vs breath is made for half damage. Occasionally (on a 20) a behir will swallow its victim whole.
+A behir is a particularly nasty subterranean beast with a crocodile’s head on a 40 ft long snake-like body with twelve sets of legs. These creatures move very fast and can climb vertically at half their speed. Their main method of attacking is to bite and wrap their body around their prey and squeeze. On the second round they can still bite but the held victim is now subject to 6 claw attacks. Every 10 rounds a behir can also breathe a 20 ft lightning bolt that does 4d6+24 damage unless a save vs breath is made for half damage. Occasionally (on a 20) a behir will swallow its victim whole.
 
-*Treasure:* Inside the beast's stomach will be 10d4 gems (60%), 1d8 jewellery (30%), and a misc. magic item that can survive its digestive juices (10%).
+***Treasure:*** Inside the beast’s stomach will be 10d4 gems (60%), 1d8 jewellery (30%), and a misc. magic item that can survive its digestive juices (10%).
 
 ### Blindheim
 
@@ -20252,9 +20295,9 @@ A behir is a particularly nasty subterranean beast with a crocodile's head on a 
 
 Blindheims are found in subterranean environments. These yellowish, frog-like humanoids project twin beams of incredibly bright light from their eyes. Anyone who comes within 30 ft of the Blindheim must save vs aimed magic items or be temporarily blinded (for 1d8+12 turns). The saving throw is at -3 if the approaching character has infravision.
 
-A character who is not blinded may attack the Blindheim at a penalty of -2 "to hit" (if he or she is avoiding looking at the creature) or as normal (if he or she is for some reason immune to bright light).
+A character who is not blinded may attack the Blindheim at a penalty of -2 “to hit” (if he or she is avoiding looking at the creature) or as normal (if he or she is for some reason immune to bright light).
 
-*Treasure:* In lair only: 2d6×1,000 cp (20%), 1d6×1,000 sp (35%), 1d6×1,000 ep (20%), 1d4 gems (20%), 1d4 jewellery (25%), random magic item or weapon (15%).
+***Treasure:*** In lair only: 2d6×1,000 cp (20%), 1d6×1,000 sp (35%), 1d6×1,000 ep (20%), 1d4 gems (20%), 1d4 jewellery (25%), random magic item or weapon (15%).
 
 ### Blink Dog
 
@@ -20283,7 +20326,7 @@ In combat these amazing dogs use the ability to their advantage, blinking either
 
 If a blink dog lair is found there is a 60% chance of 3d4 pups. These younglings fight as 1 HD monsters and inflict 1d2 points of damage per attack, though they are far more likely to flee using their teleportation ability. A captured pup will make a loyal companion to a good aligned human, or, it can be sold for 1,500 gp (± 100-600 gp). A blink dog lair will contain treasure, see below.
 
-*Treasure:* In lair only: 2d6×1,000 cp (20%), 1d6×1,000 sp (30%), 1d6×1,000 ep (15%), 1d6 gems (20%), 1d4 jewellery (25%), random magic item or weapon×2 (15%).
+***Treasure:*** In lair only: 2d6×1,000 cp (20%), 1d6×1,000 sp (30%), 1d6×1,000 ep (15%), 1d6 gems (20%), 1d4 jewellery (25%), random magic item or weapon×2 (15%).
 
 ### Bulette
 
@@ -20303,13 +20346,13 @@ If a blink dog lair is found there is a 60% chance of 3d4 pups. These younglings
 - **Alignment:** Neutral
 - **Level/XP:** 8/2,000+12/hp
 
-Bulettes are sometimes called "land sharks" because of their habit of burrowing while the crests of their backs break the surface. Like sharks, they are huge, vicious, and always hungry. They seem to be someone's experiment gone wrong: a turtle crossed with an armadillo with just a touch of demon thrown in. Their favourite food is horse but they will eat just about anything that moves. The only kind of meat they don't seem to like is dwarf or elf. They have been know to dig halflings right out of their holes. <!-- printed as-is: NEW -->
+Bulettes are sometimes called “land sharks” because of their habit of burrowing while the crests of their backs break the surface. Like sharks, they are huge, vicious, and always hungry. They seem to be someone’s experiment gone wrong: a turtle crossed with an armadillo with just a touch of demon thrown in. Their favourite food is horse but they will eat just about anything that moves. The only kind of meat they don’t seem to like is dwarf or elf. They have been know to dig halflings right out of their holes. <!-- printed as-is: see errata E204 -->
 
-Being fearless, a bulette will attack anything that moves on sight. They have been known to attack a well-armed party to get at the horses. When they attack, they use their vicious bite and their two front claws. They are well armoured, but have two vulnerable spots: under their chests is a soft spot, only AC 6; and a bulette's eyes are relatively unprotected, with an AC of 4. When cornered or seriously wounded, a bulette will attempt to leap 8 ft vertically and land directly on top of their victim, clawing with all four feet.
+Being fearless, a bulette will attack anything that moves on sight. They have been known to attack a well-armed party to get at the horses. When they attack, they use their vicious bite and their two front claws. They are well armoured, but have two vulnerable spots: under their chests is a soft spot, only AC 6; and a bulette’s eyes are relatively unprotected, with an AC of 4. When cornered or seriously wounded, a bulette will attempt to leap 8 ft vertically and land directly on top of their victim, clawing with all four feet.
 
 Because they are artificially-created animals no one is sure how bulettes reproduce. It seems that a pair will share a territory, but no lair has ever been found. Their plates are highly prized by armourers. They can be easily fashioned into +1 or +2 shields.
 
-*Treasure:* None.
+***Treasure:*** None.
 
 ### Carbuncle
 
@@ -20329,11 +20372,11 @@ Because they are artificially-created animals no one is sure how bulettes reprod
 - **Alignment:** Chaotic neutral
 - **Level/XP:** 1/5+1/hp
 
-Carbuncles are minor agents of chaos. They seem to be curious little animals like armadillos, and they feed on leaves and small insects. Set in the carbuncle's head above its eyes is a large ruby (randomly-determined value of at least 500 gp). If the beast dies, any ruby attached to it shatters and cannot be reconstituted—but it can voluntarily give up its gem, in which case the gem will re-grow over a period of several months (re-roll the gem's value each time it re-grows). The carbuncle will not normally give up its gem unless *charmed* or otherwise enchanted.
+Carbuncles are minor agents of chaos. They seem to be curious little animals like armadillos, and they feed on leaves and small insects. Set in the carbuncle’s head above its eyes is a large ruby (randomly-determined value of at least 500 gp). If the beast dies, any ruby attached to it shatters and cannot be reconstituted—but it can voluntarily give up its gem, in which case the gem will re-grow over a period of several months (re-roll the gem’s value each time it re-grows). The carbuncle will not normally give up its gem unless *charmed* or otherwise enchanted.
 
-Carbuncles are empathic and communicate via a minor form of *telepathy*. They will approach and seek to join a party of humans or demi-humans and then try to spread discord by means of lies, bearing false witness, or betraying the party's presence to nearby monsters.
+Carbuncles are empathic and communicate via a minor form of *telepathy*. They will approach and seek to join a party of humans or demi-humans and then try to spread discord by means of lies, bearing false witness, or betraying the party’s presence to nearby monsters.
 
-*Treasure:* See creature text.
+***Treasure:*** See creature te×t.
 
 <!-- p.276 -->
 
@@ -20359,7 +20402,7 @@ A fearsome, subterranean omnivore, the carcass creeper has been described as the
 
 The well-armoured head belies a tender, vulnerable body so the creeper will rely on its speed and many paralysing tentacles to protect itself as it secures prey. Each of the tentacles has a 2 ft reach, although larger specimens are not unknown.
 
-*Treasure:* In Lair: 1d8×1,000 cp (50%); 1d6×1,000 sp (25%); 1d4×1,000 ep (25%); 1d3×1,000 gp (25%); 1d8 gems (30%); 1d4 jewellery (20%); 1 sword, armour, or misc. weapon (20%).
+***Treasure:*** In Lair: 1d8×1,000 cp (50%); 1d6×1,000 sp (25%); 1d4×1,000 ep (25%); 1d3×1,000 gp (25%); 1d8 gems (30%); 1d4 jewellery (20%); 1 sword, armour, or misc. weapon (20%).
 
 ### Caryatid Column
 
@@ -20379,11 +20422,11 @@ The well-armoured head belies a tender, vulnerable body so the creeper will rely
 - **Alignment:** Neutral
 - **Level/XP:** 5/110 + 3/hp
 
-Caryatid columns share many similarities to stone golems, being created in much the same way. They appear as intricately-carved columns in the shape of a person, usually in pairs. The most common type is maidens, however they can resemble practically anyone. In their dormant state they are almost indistinguishable from a normal statue. The only indication of their true nature is a faint outline of sword held in one hand. They are created as guardians and will animate only when triggered by a certain event. Their trigger must be something simple like someone entering a room, lifting a chest, or opening a door. Once animated they will do their utmost to prevent the trigger from continuing. When their task is complete they will return to their previous place and form.
+Caryatid columns share many similarities to stone golems, being created in much the same way. They appear as intricately-carved columns in the shape of a person, usually in pairs. The most common type is maidens, however they can resemble practically anyone. In their dormant state they are almost indistinguishable from a normal statue. The only indication of their true nature is a faint outline of sword held in one hand.<!-- printed as-is: see errata E205 --> They are created as guardians and will animate only when triggered by a certain event. Their trigger must be something simple like someone entering a room, lifting a chest, or opening a door. Once animated they will do their utmost to prevent the trigger from continuing. When their task is complete they will return to their previous place and form.
 
-The caryatid column's main purpose is not combat, but if pressed they will use their swords and attack. They attack as 5HD monsters. Normal weapons do half damage and magical weapons score full damage, but without their additional magical effects. Additionally any weapon that hits a caryatid column has a 25% chance of breaking. For each plus that the weapon has reduces the chance of breaking by 5%; consider any magical weapons without any pluses as a +1.
+The caryatid column’s main purpose is not combat, but if pressed they will use their swords and attack. They attack as 5HD monsters. Normal weapons do half damage and magical weapons score full damage, but without their additional magical effects. Additionally any weapon that hits a caryatid column has a 25% chance of breaking. For each plus that the weapon has reduces the chance of breaking by 5%;<!-- printed as-is: see errata E206 --> consider any magical weapons without any pluses as a +1.
 
-*Treasure:* None.
+***Treasure:*** None.
 
 ### Caterwaul
 
@@ -20420,13 +20463,13 @@ When they pounce on their victims they make their distinctive screech, doing 1d8
 
 <!-- p.277 -->
 
-The AC bonus applies to the creature's armour class and its dodging saving throws.
+The AC bonus applies to the creature’s armour class and its dodging saving throws.
 
 The attacks per round works much the same way as for fighters, referring to a full attack routine (claw, claw, bite) rather than individual attacks.
 
 Caterwauls are attracted to shiny items. Thus their treasure hoard will often contain jewellery, gems and gold.
 
-*Treasure:* 1d6×1,000 gp (50%), 1d8 gems (40%), 5d6 jewellery (40%), 2d4 potions + 1 magic item (40%)
+***Treasure:*** 1d6×1,000 gp (50%), 1d8 gems (40%), 5d6 jewellery (40%), 2d4 potions + 1 magic item (40%)
 
 <!-- ===== SOURCE FILE: 22b monsters other cen-gar.md ===== -->
 
@@ -20457,7 +20500,7 @@ Caterwauls are attracted to shiny items. Thus their treasure hoard will often co
 | **Alignment:** | Neutral | Neutral | Neutral |
 | **Level/XP:** | 2/31 | 2/30+1/hp | 3/125+3/hp |
 
-<!-- printed as-is: NEW (Special Defences row prints "None-" with a trailing hyphen, for all three variants, where "None" alone appears elsewhere in the book and no continuation follows) -->
+<!-- printed as-is: see errata E207 (Special Defences row prints "None-" with a trailing hyphen, for all three variants, where "None" alone appears elsewhere in the book and no continuation follows) -->
 
 **Large:** The smallest of the monstrous ‘pedes, the large has a weak venom (save at +4) that only does 4d4 damage if the saving throw fails. Further, they themselves save at a -2 penalty.
 
@@ -20465,7 +20508,7 @@ Caterwauls are attracted to shiny items. Thus their treasure hoard will often co
 
 **Giant:** The largest known of the monstrous ‘pedes, the giant has a relatively powerful venom (no adjustment to saving throw). Death is the result of a failed save, but a successful save still results in 1d8 acid damage. Giant centipedes save without penalty.
 
-*Treasure:* None (for all centipede types).
+***Treasure:*** None (for all centipede types).
 
 ## Chimæra
 
@@ -20487,21 +20530,19 @@ Caterwauls are attracted to shiny items. Thus their treasure hoard will often co
 | **Alignment:** | Chaotic evil | Chaotic evil |
 | **Level/XP:** | 7/1,300 + 12/hp | 8/2,250+14/hp |
 
-<!-- p.278 -->
-
 **Chimæra:** A chimæra has the hind quarters of a goat, the forequarters of a lion, the wings of a dragon and 3 heads, one each of the aforementioned creatures. The dragon head is capable of breathing fire to a 60 ft distance inflicting 3d8 points of damage. Normal saving throws vs breath weapon apply. The creature may make up to 6 natural attacks per round, two with clawed lion paws, one with each of the goat’s head 2 horns, the mighty bite of the lion’s maw and another powerful bite by the dragon.
 
 Chimæra language is an imperfect form of the red dragon tongue.
 
-*Treasure:* 1d20×1,000 sp (10%), 1d12×1,000 ep (15%), 1d10×1,000 gp (40%), 1d8×100 pp (35%), 3d10 gems (20%), 1d10 jewellery  (10%), 3 magic items (no magic weapons) and 1 magic scroll and 1 magic potion (30%)
+***Treasure:*** 1d20×1,000 sp (10%), 1d12×1,000 ep (15%), 1d10×1,000 gp (40%), 1d8×100 pp (35%), 3d10 gems (20%), 1d10 jewellery  (10%), 3 magic items (no magic weapons) and 1 magic scroll and 1 magic potion (30%)
 
-<!-- printed as-is: NEW (double space between "jewellery" and "(10%)", mid-sentence between plain tokens, not after a stop/label/colon; gap measures 2.81pt against a 1.37pt line median) -->
+<!-- printed as-is: see errata E208 (double space between "jewellery" and "(10%)", mid-sentence between plain tokens, not after a stop/label/colon; gap measures 2.81pt against a 1.37pt line median) -->
 
 **Gorgimæra:** Like a chimæra, save the goat’s head is replaced with that of a gorgon. The gorgon’s head breathes a cloud of petrifying gas in a cone 30 ft long and 10 ft radius at the base; and the creature has the dragon head breath weapon as well, with the same effect as a chimæra. They speak the same language as their less powerful relatives.
 
-*Treasure:* 1d20×1,000 sp (20%), 1d12×1,000 ep (25%), 1d20×1,000 gp (50%), 1d10×100 pp (40%), 4d10 gems (25%), 1d12 jewellery  (15%), 3 magic items (no magic weapons) and 1 magic scroll and 1 magic potion (40%)
+***Treasure:*** 1d20×1,000 sp (20%), 1d12×1,000 ep (25%), 1d20×1,000 gp (50%), 1d10×100 pp (40%), 4d10 gems (25%), 1d12 jewellery  (15%), 3 magic items (no magic weapons) and 1 magic scroll and 1 magic potion (40%)
 
-<!-- printed as-is: NEW (double space between "jewellery" and "(15%)", same fault class as above; gap measures 3.82pt against a 1.95pt line median) -->
+<!-- printed as-is: see errata E209 (double space between "jewellery" and "(15%)", same fault class as above; gap measures 3.82pt against a 1.95pt line median) -->
 
 ## Cockatrice
 
@@ -20523,9 +20564,11 @@ Chimæra language is an imperfect form of the red dragon tongue.
 
 A cockatrice possesses the physical attributes of both a serpent and a cock. These creatures will have the head, legs and wings of a cock, while the body will be of a serpent. Its wings are functional and allow it to fly. The creature is believed to be from a cock’s egg hatched by a serpent.
 
+<!-- p.278 -->
+
 Although the beast is capable of inflicting light wounds with its beak and talons, the mere touch of the cockatrice is capable of turning any creature to stone. The touched creature must roll a successful saving throw vs petrifaction or be instantly turned to stone. The power of this touch is capable of affecting astral and æthereal beings.
 
-*Treasure:* 1d10×1,000 cp (5%), 1d12×1,000 sp (25%), 1d6×1,000 ep (25%), 1d8×1,000 gp (25%), 1d12 gems (15%), 1d8 jewellery (10%) and 3 magic items and 1 magic scroll (35%)
+***Treasure:*** 1d10×1,000 cp (5%), 1d12×1,000 sp (25%), 1d6×1,000 ep (25%), 1d8×1,000 gp (25%), 1d12 gems (15%), 1d8 jewellery (10%) and 3 magic items and 1 magic scroll (35%)
 
 ## Coeurl
 
@@ -20549,7 +20592,7 @@ Inspired by the work of A.E.Van Vogt, Coeurls are vaguely feline predators with 
 
 Coeurls hate Blink Dogs (q.v.) and will hunt them down and kill them if possible.
 
-*Treasure:* 1d8×1,000 cp (15%), 2d6×1,000 sp (20%), 1d6×1,000 ep (5%), 1d8×1,000 gp (35%), 2d6 gems (15%), 1d8 jewellery (10%) and 2 magic items (25%)
+***Treasure:*** 1d8×1,000 cp (15%), 2d6×1,000 sp (20%), 1d6×1,000 ep (5%), 1d8×1,000 gp (35%), 2d6 gems (15%), 1d8 jewellery (10%) and 2 magic items (25%)
 
 ## Couatl
 
@@ -20569,13 +20612,13 @@ Coeurls hate Blink Dogs (q.v.) and will hunt them down and kill them if possible
 - **Alignment:** Lawful good
 - **Level/XP:** 8/2,000+12/hp
 
-<!-- printed as-is: NEW ("Vary rare" for "Very rare"; the same fault recurs at the Crypt Thing entry below — two instances, both raster-confirmed, against fourteen correctly-set "Very rare" instances elsewhere in this range) -->
+<!-- printed as-is: see errata E210 ("Vary rare" for "Very rare"; the same fault recurs at the Crypt Thing entry below — two instances, both raster-confirmed, against fourteen correctly-set "Very rare" instances elsewhere in this range) -->
 
 Couatl are a race of brightly feathered serpents with wings. They are rarely encountered and if so, would be in a remote tropical environment. They are often treated as gods by those who serve them, however couatl rarely meddle in human events.
 
 They can polymorph themselves, turn æthereal, and cast magic. Most are equal to a 5th level mage (45%), but a few are 7th level clerics (35%). There are a handful of couatl (20%) who cast as a magic user/cleric. In combat a couatl attacks with its bite that causes 1d3 damage and the victim must save vs poison or die. A couatl can also constrict with its body. A successful attack means the beast has grabbed its victim causing 2d4 damage, with an additional 2d4 damage each round until one or the other is dead.
 
-*Treasure:* 1d8×1,000 cp (50%), 1d6×1,000 sp (25%), 1d4×1,000 ep (25%), 1d3×1,000 gp (25%), 3d4×100 pp (30%), 2d19 gems (55%), 1d12 jewellery (50%), any 1 magic item (15%)
+***Treasure:*** 1d8×1,000 cp (50%), 1d6×1,000 sp (25%), 1d4×1,000 ep (25%), 1d3×1,000 gp (25%), 3d4×100 pp (30%), 2d19 gems (55%),<!-- printed as-is: see errata E211 --> 1d12 jewellery (50%), any 1 magic item (15%)
 
 ## Crabman
 
@@ -20604,7 +20647,7 @@ Crabmen lair in caves along the seashore and are generally peaceful creatures, t
 
 Crabmen will shun humans for the most part, with two notable exceptions. These creatures prize silver very highly and will attack, on sight, anyone openly carrying silver objects or items which appear to be made of silver. Crabmen will also undergo some sort of tribal frenzy from time to time, forming a group of 30 to 40 individuals and raiding inland. These raids will pillage all property in their path and the crabmen attack any who oppose them.
 
-*Treasure:* 3d8 sp per individual.
+***Treasure:*** 3d8 sp per individual.
 
 ## Crypt Thing
 
@@ -20624,7 +20667,7 @@ Crabmen will shun humans for the most part, with two notable exceptions. These c
 - **Alignment:** Neutral
 - **Level/XP:** 4/160 + 4/hp
 
-<!-- printed as-is: NEW ("Vary rare" for "Very rare"; see the Couatl entry above for the parallel instance) -->
+<!-- printed as-is: see errata E212 ("Vary rare" for "Very rare"; see the Couatl entry above for the parallel instance) -->
 
 A crypt thing appears as a cloaked skeleton, but contrary to appearances, is not undead and cannot be turned. They reside in their lairs and never venture forth. A crypt thing will never attack first, they will always let the party attack before they do. If they are not molested they will leave the adventurers alone. If they are attacked then they will respond by activating their teleport ability. All those attempting to attack must save vs spell or be instantly teleported in a random direction. Each individual who fails must roll d%. Those who roll 01-20 are teleported from 100 to 1,000 ft north. Those who roll 21-40 are teleported 100-1,000 ft south. Those who roll 41-60 are teleported 100-1,000 ft east. Those who roll 61-80 are teleported 100-1,000 ft west. Those who roll 81-90 are teleported one dungeon level up. Those who roll 91-00 are teleported one dungeon level down.
 
@@ -20632,11 +20675,11 @@ This is an advanced form of teleportation. Individuals will arrive safely, not i
 
 Crypt things speak common. If questioned about the disappear-ance of any comrades, they will say they were disintegrated.
 
-<!-- printed as-is: NEW (mid-line printed hyphen in "disappear-ance," on a single continuous printed line, not a line-break extraction artifact — same class as errata E25) -->
+<!-- printed as-is: see errata E213 (mid-line printed hyphen in "disappear-ance," on a single continuous printed line, not a line-break extraction artifact — same class as errata E25) -->
 
-*Treasure:* 1d3×1,000 cp (20%), 1d4×1,000 sp (25%), 1d4×1,000 ep (25%), 1d4×1,000 gp (30%), 1d6×100pp (30%), 10d6 gems (55%), 5d6 jewellery (50%), 3 magic items (50%)
+***Treasure:*** 1d3×1,000 cp (20%), 1d4×1,000 sp (25%), 1d4×1,000 ep (25%), 1d4×1,000 gp (30%), 1d6×100pp (30%), 10d6 gems (55%), 5d6 jewellery (50%), 3 magic items (50%)
 
-<!-- printed as-is: NEW ("1d6×100pp" closed up with no space, where six other Treasure-line instances in this range read "…×100 pp" with a space, including the parallel Dakon entry below) -->
+<!-- printed as-is: see errata E214 ("1d6×100pp" closed up with no space, where six other Treasure-line instances in this range read "…×100 pp" with a space, including the parallel Dakon entry below) -->
 
 ## Dakon
 
@@ -20656,13 +20699,13 @@ Crypt things speak common. If questioned about the disappear-ance of any comrade
 - **Alignment:** Lawful neutral
 - **Level/XP:** 2/25 + 2/hp
 
-Dakon are intelligent apes resembling gorillas with light brown colouration, green eyes, and black hands. Dakon are peaceful, fighting only in defence or to regain treasure stolen from them. These apes are likely to be settle anywhere but avoid large expanses of water. They are on good terms with lawful humans and demi-humans and are able to speak the common tongue, but they have a deep mistrust of humanoids and shun them.
+Dakon are intelligent apes resembling gorillas with light brown colouration, green eyes, and black hands. Dakon are peaceful, fighting only in defence or to regain treasure stolen from them. These apes are likely to be settle anywhere but avoid large expanses of water.<!-- printed as-is: see errata E215 --> They are on good terms with lawful humans and demi-humans and are able to speak the common tongue, but they have a deep mistrust of humanoids and shun them.
 
 In combat dakon attack with a +2 hit probability due to their incredible strength and the knife-edged sharpness of their claws.
 
-*Treasure:* 2d6×1,000 cp (5%), 2d6×1,000 sp (30%), 1d4×1,000 ep (20%), 1d10×1,000 gp (45%), 1d10×100pp (40%), 3d12 gems (25%), 1d10 jewellery (10%), any 3 maps or magic + 1 scroll (35%)
+***Treasure:*** 2d6×1,000 cp (5%), 2d6×1,000 sp (30%), 1d4×1,000 ep (20%), 1d10×1,000 gp (45%), 1d10×100pp (40%), 3d12 gems (25%), 1d10 jewellery (10%), any 3 maps or magic + 1 scroll (35%)
 
-<!-- printed as-is: NEW ("1d10×100pp" closed up with no space; same fault class as the Crypt Thing Treasure line above) -->
+<!-- printed as-is: see errata E216 ("1d10×100pp" closed up with no space; same fault class as the Crypt Thing Treasure line above) -->
 
 ## Dark Creeper
 
@@ -20680,7 +20723,7 @@ In combat dakon attack with a +2 hit probability due to their incredible strengt
 | **Special Defences:** | Nil | See below |
 | **Magic Resistance:** | Standard | Standard |
 
-<!-- printed as-is: NEW (No. Encountered row prints mismatched parentheses split across the two columns — Dark Creeper’s cell reads "1 (or 20d4," with no closing paren, Dark Stalker’s reads "1 see below)" with no opening paren or comma; confirmed at 600 dpi against the bbox extraction, not a crop or line-wrap artifact) -->
+<!-- printed as-is: see errata E217 (No. Encountered row prints mismatched parentheses split across the two columns — Dark Creeper’s cell reads "1 (or 20d4," with no closing paren, Dark Stalker’s reads "1 see below)" with no opening paren or comma; confirmed at 600 dpi against the bbox extraction, not a crop or line-wrap artifact) -->
 
 <!-- p.280 -->
 
@@ -20695,21 +20738,21 @@ Dark creepers are short, spindly humanoids with pale skin who like to wrap thems
 
 Solitary dark creepers tend to carry their treasure with them, concealed within the many loose folds of their dark clothing. There is a 20% chance a dark creeper will carry a magic dagger, 15% chance of a magic ring, and 10% chance of either 1d4 gems of random value or 1d3 items of random jewellery. Lair treasure probabilities for a lone dark creeper are 50% for a magic dagger, 10% for a magic ring, 30% for gems or jewellery. To generate treasure for a dark creeper village, multiply individual treasure chances by the number of males, adding 5d20 pp and 5d12 gp.
 
-Dark creepers have all the skills of a 4th level thief along with the following abilities: *Detect magic* and create *darkness* for 1 hour in a 50 ft radius from target thrice per day. The creepers’ general plan of attack is to use their darkness power to extinguish a party’s light sources, then sneak in and destroy all lanterns, torches, oil flasks, and tinderboxes. Any magical sources of light gain a saving throw vs magical cold to negate the affects of darkness upon that item only, if it fails the save it will function normally after 1 hour. After it accomplishes this task, the dark creeper will use its *detect magic* to find and steal any small magic items it can detect. Though the dark creeper will not fight to the death to steal the party’s magic items, it craves them and will take foolhardy chances if it feels it has even a small chance of success. A creeper’s *darkness* power will stop infravision, but it will generally only use it on a party’s sources of artificial light. A party travelling in the dark using infravision will not likely be blacked out by the creeper’s darkness.
+Dark creepers have all the skills of a 4th level thief along with the following abilities: *Detect magic* and create *darkness* for 1 hour in a 50 ft radius from target thrice per day. The creepers’ general plan of attack is to use their darkness power to extinguish a party’s light sources, then sneak in and destroy all lanterns, torches, oil flasks, and tinderboxes. Any magical sources of light gain a saving throw vs magical cold to negate the affects of darkness upon that item only,<!-- printed as-is: see errata E218 --> if it fails the save it will function normally after 1 hour. After it accomplishes this task, the dark creeper will use its *detect magic* to find and steal any small magic items it can detect. Though the dark creeper will not fight to the death to steal the party’s magic items, it craves them and will take foolhardy chances if it feels it has even a small chance of success. A creeper’s *darkness* power will stop infravision, but it will generally only use it on a party’s sources of artificial light. A party travelling in the dark using infravision will not likely be blacked out by the creeper’s darkness.
 
-In combat a creeper is AC 0 in darkness, and if it has a magic dagger or magic ring as part of its treasure hoard it will use them. A dark creeper’s darkness power can be negated by spells that create light, and in such a case the creeper is only AC 8. When a creeper dies it body magically immolates in a fiercely hot blaze of disgusting purple and green flames. Metal items, including magical items of metal, carried as part of the creeper’s treasure hoard have an 80% of surviving this magical fire undamaged. Any magic item damaged by the creeper’s death fire will lose its enchantment.
+In combat a creeper is AC 0 in darkness, and if it has a magic dagger or magic ring as part of its treasure hoard it will use them. A dark creeper’s darkness power can be negated by spells that create light, and in such a case the creeper is only AC 8. When a creeper dies it body magically immolates in a fiercely hot blaze of disgusting purple and green flames.<!-- printed as-is: see errata E219 --> Metal items, including magical items of metal, carried as part of the creeper’s treasure hoard have an 80% of surviving this magical fire undamaged.<!-- printed as-is: see errata E220 --> Any magic item damaged by the creeper’s death fire will lose its enchantment.
 
-*Treasure:* See creature text.
+***Treasure:*** See creature te×t.
 
 **Dark stalkers** are the leaders of the dark creepers, though it is not known whether they are dark creepers altered through some means either genetic or magical, or if they are a breed apart. What is known for certain is the dark stalker is much taller than its dark creeper followers and one will be found as the leader of any dark creeper village. In an area settled by at least 25 solitary dark creepers there is a 90% chance there will be a dark creeper in the area, increased by 2% for every 5 additional creepers. A dark stalker is rarely encountered away from his or her clan, but if such an encounter occurs the stalker is probably on some mysterious personal mission and will not engage PCs unless forced to do so.
 
-In combat dark stalkers fight with abilities identical to dark creepers except they favour short swords over daggers and have an additional spell-like ability; *wall of fog* twice per day as per the spell. Dark stalkers use the same tactics regarding light and detected small magic items as their dark creeper brethren if they have the opportunity, and suffer the same AC penalty as well.
+In combat dark stalkers fight with abilities identical to dark creepers except they favour short swords over daggers and have an additional spell-like ability; wall of fog twice per day as per the spell.<!-- printed as-is: see errata E221 --> Dark stalkers use the same tactics regarding light and detected small magic items as their dark creeper brethren if they have the opportunity, and suffer the same AC penalty as well.
 
 Dark stalkers carry their treasure in their robes like dark creepers: 30% chance of magic short sword, 10% of magical rings (worn if possible), 10% chance of either 2d4 gems or 1d2 items of jewellery to be determined randomly by GM.
 
 When a dark stalker dies, it explodes in a sickly blue 3d8 fireball blast. Magic items carried by the stalker have a 75% chance of surviving the blast in usable condition.
 
-*Treasure:* See creature text.
+***Treasure:*** See creature te×t.
 
 <!-- p.281 -->
 
@@ -20731,15 +20774,15 @@ When a dark stalker dies, it explodes in a sickly blue 3d8 fireball blast. Magic
 - **Alignment:** Neutral
 - **Level/XP:** 4/225+5/hp
 
-<!-- printed as-is: NEW ("Can only be hit magical weapons" — the word "by" is absent; the parallel prose sentence below reads "can only be hit by magic weapons," confirming the omission) -->
+<!-- printed as-is: see errata E222 ("Can only be hit magical weapons" — the word "by" is absent; the parallel prose sentence below reads "can only be hit by magic weapons," confirming the omission) -->
 
 The disenchanter resembles a rather bizarre cross between a dromedary camel and a cow, with a muscular prehensile snout stuck on for good measure. Colouration is a shimmery electric blue and the entire creature appears to be somewhat translucent and difficult for the eye to focus upon.
 
-The disenchanter is a thaumivore, feeding on magical power. It sucks the dweomer from enchanted objects by attaching its snout to them with a successful hit roll. One touch is all it takes to render any magic item (except major artifacts) completely inert. The creature has no other attacks and causes no physical damage of any kind. The muscular snout can be extended as much as 5 ft and the disenchanter is capable of detecting relative strengths of magic enchantment, knowing, for instance, that *plate mail +5* will be a tastier morsel than a mere *+1 ring of protection*.
+The disenchanter is a thaumivore, feeding on magical power. It sucks the dweomer from enchanted objects by attaching its snout to them with a successful hit roll. One touch is all it takes to render any magic item (except major artifacts) completely inert. The creature has no other attacks and causes no physical damage of any kind. The muscular snout can be extended as much as 5 ft and the disenchanter is capable of detecting relative strengths of magic enchantment, knowing, for instance, that *plate mail* +5 will be a tastier morsel than a mere +1 *ring of protection*.
 
 The disenchanter can only be hit by magic weapons but doing so will not affect the dweomer of the weapon; only the snout has the ability to disenchant items. Even the wisest and most learned of sages know nothing about the ecology of the disenchanter or why it seems to be able to sustain itself only with magic items.
 
-*Treasure:* None.
+***Treasure:*** None.
 
 ## Doppelgänger
 
@@ -20759,7 +20802,7 @@ The disenchanter can only be hit by magic weapons but doing so will not affect t
 - **Alignment:** Neutral
 - **Level/XP:** 4/285 + 3 per hp
 
-<!-- printed as-is: NEW (Level/XP reads "4/285 + 3 per hp," spelled out, where every other entry in this range uses the "+N/hp" form) -->
+<!-- printed as-is: see errata E223 (Level/XP reads "4/285 + 3 per hp," spelled out, where every other entry in this range uses the "+N/hp" form) -->
 
 Doppelgängers are strange beings that are able to take on the forms of those they encounter, including the appearance of equipment and any clothing the victim is wearing. A doppelgänger can assume any humanoid form between 4 ft to 8 ft tall, but the creature must first see the victim to be copied. Any doppelgänger’s attempt at physical disguise is only faulty 10% of the time, and its knowledge of the victim is facilitated by the doppelgänger’s innate *ESP* ability. In its natural form, a doppelgänger is a 5 ft-6 ft tall humanoid, slender with gangly limbs and half-formed features. Its flesh is pale and hairless, and its large, bulging eyes are yellow with slitted pupils. The creature will assume its natural form upon death.
 
@@ -20767,7 +20810,7 @@ Doppelgängers make excellent use of their natural mimicry to stage ambushes, ba
 
 Doppelgängers save as 10th level fighters, and are immune to the effects of charm and sleep spells.
 
-*Treasure:* 1d10×1,000 cp (5%), 1d12×1,000 sp (25%), 1d6×1,000 ep (25%), 1d8×1,000 gp (25%), 1d12 gems (15%), 1d8 jewellery (10%), 1 scroll and any 3 magic items (25%)
+***Treasure:*** 1d10×1,000 cp (5%), 1d12×1,000 sp (25%), 1d6×1,000 ep (25%), 1d8×1,000 gp (25%), 1d12 gems (15%), 1d8 jewellery (10%), 1 scroll and any 3 magic items (25%)
 
 ## Dracolisk
 
@@ -20795,7 +20838,7 @@ Although capable of flight, dracolisks are limited to only short durations, ten 
 
 physical combat, dracolisks bite for 3d4 damage and strike for 1d6 damage with their two forelimbs. However, they are more likely to use their breath weapon or gaze attack before entering melee. Up to thrice a day, a dracolisk is capable of shooting an acid stream out of its mouth up to 30 ft and with a width of 5 ft; this causes 4d6 damage to anybody caught in its path, though a successful saving throw vs breath weapons reduces this by half. Additionally, anybody unfortunate enough to be within 30 ft of a dracolisk and meet its gaze must make a saving throw vs petrifaction or be turned to stone. As with its basilisk parent, the gaze attack of the dracolisk extends into the astral and ethereal planes and those who seek to avoid looking directly at the beast attack with a -4 penalty.
 
-*Treasure:* 1d10×1,000 cp (25%), 1d8×1,000 sp (25%), 1d6×1,000 gp (25%), 1d6×100 pp (25%), 3d6 gems (50%), 3d4 jewellery (50%) and any three magic items (25%)
+***Treasure:*** 1d10×1,000 cp (25%), 1d8×1,000 sp (25%), 1d6×1,000 gp (25%), 1d6×100 pp (25%), 3d6 gems (50%), 3d4 jewellery (50%) and any three magic items (25%)
 
 ## Dragon Turtle
 
@@ -20819,7 +20862,7 @@ Dragon turtles are not true dragons, but seem to be a blend of the same kind tha
 
 A dragon turtle surfacing beneath a vessel will capsize it 90% of the time (even if it is a very large vessel such as a galley).
 
-*Treasure:* (For a typical individual) 5d6×1,000 cp (25%), 1d100×1,000 sp (40%), 1d4×10,000 ep (40%), 1d6×10,000 gp (55%), 5d10×100 pp (25%), 1d100 gems (50%), 1d4×10 jewellery (50%), 4 magic items plus 1 potion and 1 scroll (15%), 2d4 potions (40%), 1d4 scrolls (50%).
+***Treasure:*** (For a typical individual) 5d6×1,000 cp (25%), 1d100×1,000 sp (40%), 1d4×10,000 ep (40%), 1d6×10,000 gp (55%), 5d10×100 pp (25%), 1d100 gems (50%), 1d4×10 jewellery (50%), 4 magic items plus 1 potion and 1 scroll (15%), 2d4 potions (40%), 1d4 scrolls (50%).
 
 ## Elemental
 
@@ -20843,7 +20886,7 @@ A dragon turtle surfacing beneath a vessel will capsize it 90% of the time (even
 
 **Air Elementals** are creatures from the Elemental Plane of Air, though they may sometimes be found elsewhere. When encountered on the Prime Material Plane, usually as a result of summoning magic, they take the form of billowing clouds of vapour or dust. Whilst they may understand what is said to them, they rarely respond in kind and their language is that of the wind.
 
-Their primary attack form is a stream of air that they use like an invisible limb to strike for 2d20 damage. Its great airborne speed makes it a swift and formidable opponent, especially in aerial combat where it gains +1 to hit and +4 to damage.
+Their primary attack form is a stream of air that they use like an invisible limb to strike for 2d20 damage.<!-- printed as-is: see errata E224 --> Its great airborne speed makes it a swift and formidable opponent, especially in aerial combat where it gains +1 to hit and +4 to damage.
 
 Air Elementals may also use a whirlwind attack if so commanded. To do this, the Air Elemental must assume the form of a small cyclone, which takes one turn. Typically, this appears to be 30 ft in diameter at the top and funnels down to 10 ft in diameter at its base; the cone extends 20 ft in height for every 4 HD the elemental possesses. This whirlwind attack lasts for only one round, but any creatures with less than 3 hit dice that find themselves within
 
@@ -20855,7 +20898,7 @@ it are slain; creatures with 3 HD or more take 2d8 damage. Should the cyclone fo
 
 What Earth Elementals lack in speed, they make up for in relentless determination and dedication. They pass through rock and earth without hindrance, as they do along the ground, but they cannot travel through the air nor in or over water unless they remain in contact with the earth.
 
-Earth Elementals prefer to fight enemies on the ground and will almost always seek a way to do so, as when they strike opponents who are also in contact with the earth their great limbs strike for 4d8 points of damage; against foes who are not in contact with ground, the Earth Elemental strikes for only 4d6 points of damage.
+Earth Elementals prefer to fight enemies on the ground and will almost always seek a way to do so, as when they strike opponents who are also in contact with the earth their great limbs strike for 4d8 points of damage; against foes who are not in contact with ground,<!-- printed as-is: see errata E225 --> the Earth Elemental strikes for only 4d6 points of damage.
 
 The power of Earth Elementals against ground built structures and fortifications is truly devastating; they are capable of reducing small structures to rubble in a matter of minutes and even the largest will eventually collapse if the Elemental is free to work against it.
 
@@ -20873,7 +20916,7 @@ Water Elementals forced to fight on land cannot do so more than sixty yards from
 
 Ships are particularly vulnerable to Water Elementals; they are capable of overturning any vessel with a tonnage equal to or less than their HD and of stopping those with a tonnage equal or less than the Water Elemental’s hp. Ships with a greater tonnage than the Elemental has hp total travel at 1% of their speed for each point by which they exceed it.
 
-*Treasure:* None (for all elementals).
+***Treasure:*** None (for all elementals).
 
 <!-- p.284 -->
 
@@ -20897,7 +20940,7 @@ Ships are particularly vulnerable to Water Elementals; they are capable of overt
 
 Ettercaps appear to be humanoid arachnids. Their bite is venomous and they can spin silk from their short, stubby tails like a spider does. An ettercap will use this silk to prepare traps around its lair, such as webs and tripwires, and may use a silk-based weapon such as a lassoo or garrotte.
 
-*Treasure:* None.
+***Treasure:*** None.
 
 ## Executioner’s Hood
 
@@ -20906,7 +20949,7 @@ Ettercaps appear to be humanoid arachnids. Their bite is venomous and they can s
 - **Size:** Small
 - **Move:** 60 ft
 - **Armour Class:** 6
-- **Hit Dice:** 3 to 6 hit dice
+- **Hit Dice:** 3 to 6 hit dice<!-- printed as-is: see errata E226 -->
 - **Attacks:** 1
 - **Damage:** 1d4
 - **Special Attacks:** See below
@@ -20923,7 +20966,7 @@ Because the Executioner’s Hood actually surrounds its victim’s head, any att
 
 The only known ways to remove an Executioner’s Hood are to kill it or to bathe it in alcohol, which will intoxicate it until it becomes flaccid and helpless.
 
-*Treasure:* None
+***Treasure:*** None
 
 ## Eye of the Deep
 
@@ -20945,7 +20988,7 @@ The only known ways to remove an Executioner’s Hood are to kill it or to bathe
 
 The eye of the deep is globular in shape (about 4 ft in diameter) and has a massive central eye. Two further eyes on stalks sprout from the top of the monster, two huge lobster-like pincers emerge from the side, and it has a gaping maw below. Each eye has a unique power: the central eye can fire a cone 30 ft long and 20 ft in diameter at the base that stuns all within the area of effect for 2d4 rounds (save vs aimed magic items to avoid the effect), while the left and right eyestalks can cast *hold monster* and *hold person* respectively, once each per round, at will. The two eyestalks together can cast *phantasmal force* once per round, at will, if not used to cast *hold* spells.
 
-*Treasure:* 2d6×1,000 gp (50%), 1d4×1,000 pp (40%), 4d10 gems (40%), 2d6 jewellery (35%).
+***Treasure:*** 2d6×1,000 gp (50%), 1d4×1,000 pp (40%), 4d10 gems (40%), 2d6 jewellery (35%).
 
 ## Fly, Giant
 
@@ -20977,9 +21020,9 @@ Giant flies can also remain airborne at the end of their leap. At the end of its
 
 **Horsefly, Giant:** This giant insect is even larger than the giant blow fly and far more aggressive. The giant horsefly dines on fresh blood and it will land on any warm-blooded creature is encounters, attempting to draw blood from the target with its bite. The round after a successful biting attack the horsefly inflicts the same amount of damage upon the victim again as it draws blood from the bite wound inflicted on the victim. This process can be halted by either killing or driving the giant horsefly away. Giant horseflies are flat tan and brown in colour, with shiny brown eyes.
 
-<!-- printed as-is: NEW ("creature is encounters" — "is" for "it"; confirmed at 600 dpi, not an extraction artifact) -->
+<!-- printed as-is: see errata E227 ("creature is encounters" — "is" for "it"; confirmed at 600 dpi, not an extraction artifact) -->
 
-*Treasure:* None (for all giant flies).
+***Treasure:*** None (for all giant flies).
 
 ## Fungi, Violet
 
@@ -20999,9 +21042,9 @@ Giant flies can also remain airborne at the end of their leap. At the end of its
 - **Alignment:** Neutral
 - **Level/XP:** 3/50+1/hp
 
-Violet fungi looks like shriekers and in fact the two are often found growing together. The plants are usually 4 to 7 ft tall, and each plant has 1d4 branches growing out if it. At 4 ft tall, the fungi will have 1 ft branches. For every foot taller the fungi grows, the branches grow a foot longer. When the fungi detects movement nearby it will wave its branches around releasing its spores. Anyone within 4 ft will have to save vs poison or their exposed flesh will begin to rot within 1 round. Anyone who fails their save will require a *cure disease* spell.
+Violet fungi looks like shriekers and in fact the two are often found growing together. The plants are usually 4 to 7 ft tall, and each plant has 1d4 branches growing out if it.<!-- printed as-is: see errata E228 --> At 4 ft tall, the fungi will have 1 ft branches. For every foot taller the fungi grows, the branches grow a foot longer. When the fungi detects movement nearby it will wave its branches around releasing its spores. Anyone within 4 ft will have to save vs poison or their exposed flesh will begin to rot within 1 round. Anyone who fails their save will require a *cure disease* spell.
 
-*Treasure:* None.
+***Treasure:*** None.
 
 ## Gargoyle
 
@@ -21023,7 +21066,7 @@ Violet fungi looks like shriekers and in fact the two are often found growing to
 
 Gargoyles are cruel creatures, 90% likely to attack any living creature they encounter. When attacking a gargoyle will employ two clawed hands, a single horn projecting from the centre of its forehead and a bite. They are usually encountered in ruins and underground caverns.
 
-*Treasure:* None.
+***Treasure:*** None.
 
 <!-- ===== SOURCE FILE: 23a monsters other gel-mer.md ===== -->
 
@@ -21090,9 +21133,9 @@ Genies can perform any of the following abilities once per day: *create food* fo
 
 A genie can carry up to 600 lbs without tiring, either flying or walking. A genie is able to carry double the weight on foot but only for about thirty minutes. A genie will require an hour’s rest for every 30 minutes of carrying.
 
-A noble genie has 10d8 hit dice, does 3d8 damage, and their whirlwind does 3d6 damage. Besides their normal abilities a noble  genie is also able to grant three *wishes*. <!-- printed as-is: NEW --> If subdued a noble genie need only grant three *wishes* to be released from service.
+A noble genie has 10d8 hit dice, does 3d8 damage, and their whirlwind does 3d6 damage. Besides their normal abilities a noble  genie is also able to grant three *wishes*. <!-- printed as-is: see errata E229 --> If subdued a noble genie need only grant three *wishes* to be released from service.
 
-Genies have their own language but they also have a limited form of telepathy that enables them to communicate with any  intelligent creature. <!-- printed as-is: NEW -->
+Genies have their own language but they also have a limited form of telepathy that enables them to communicate with any  intelligent creature. <!-- printed as-is: see errata E230 -->
 
 ***Treasure:*** None.
 
@@ -21215,7 +21258,7 @@ her clawed feet and, usually, some kind of club as a melee weapon. Most harpies 
 - **Alignment:** Lawful evil
 - **Level/XP:** (4 HD) 4/75 + 4/hp
   (5 HD) 5/110 + 5/hp
-  (5 HD) 6/160 + 6/hp
+  (5 HD) 6/160 + 6/hp<!-- printed as-is: see errata E231 -->
   (7 HD) 7/225 + 8/hp
 
 Hell hounds are not native to the material plane; they are brought here by others to serve as guard dogs. These beasts have their normal bite but they can also breath fire up to 10 ft. Their breath’s damage equals in hit points their hit dice. Thus a 6 hit dice hell hound breathes fire that does 6hp damage, unless the opponent saves vs breath weapons for half damage.
@@ -21242,7 +21285,7 @@ Because hell hounds can move so quietly they surprise on a roll of 1-4. They can
 - **Alignment:** Neutral
 - **Level/XP:** 4/150 + 3/hp
 
-Hippogriffs can only be found in remote locations far from civilisation. They make their nests on rocky outcrops and cliff faces. Even though hippogriffs are omnivorous they do not mix well other winged beasts. If encountered near its nest, a hippogriff will fight ferociously to defend itself and its young. Eggs and hatchlings bring a high price from those wishing to train them as mounts.
+Hippogriffs can only be found in remote locations far from civilisation. They make their nests on rocky outcrops and cliff faces. Even though hippogriffs are omnivorous they do not mix well other winged beasts.<!-- printed as-is: see errata E232 --> If encountered near its nest, a hippogriff will fight ferociously to defend itself and its young. Eggs and hatchlings bring a high price from those wishing to train them as mounts.
 
 When ridden by a creature weighing more than 100 lbs, a hippogriff’s aerial agility rating decreases to III.
 
@@ -21289,7 +21332,7 @@ Homonculi are created in a process involving both the spell-caster and the servi
 - **Armour Class:** 5
 - **Hit Dice:** 5 to 16
 - **Attacks:** 5 to 16
-- **Damage:** 1d6,1d8, 1d10 or 1d12 based on size
+- **Damage:** 1d6,1d8, 1d10 or 1d12 based on size<!-- printed as-is: see errata E233 -->
 - **Special Attacks:** None
 - **Special Defences:** None
 - **Magic Resistance:** Standard
@@ -21304,7 +21347,7 @@ Hydras have reptilian bodies, four legs, a tail and 1d12+4 heads. Each head coun
 
 The colouration of a hydra ranges from light brown to an almost blackish brown with a yellow or tan underbelly. Their eyes range from yellow to orange.
 
-***Treasure:*** 1d8×1,000 cp (50%), 1d6×1,000 p (25%), <!-- printed as-is: NEW --> 1d4×1,000 ep (25%), 1d3×1,000 gp (25%), 1d8 gems (30%), 1d4 jewellery (20%), sword, armour or misc. weapon (10%)
+***Treasure:*** 1d8×1,000 cp (50%), 1d6×1,000 p (25%), <!-- printed as-is: see errata E234 --> 1d4×1,000 ep (25%), 1d3×1,000 gp (25%), 1d8 gems (30%), 1d4 jewellery (20%), sword, armour or misc. weapon (10%)
 
 ## Invisible Stalker
 
@@ -21334,7 +21377,7 @@ Invisible stalkers are useful, if dangerous, servants. Once given a mission they
 
 More complicated tasks or tasks of duration longer than a week will anger the invisible stalker and may lead it to attempt to pervert the wording of its commands without directly violating them. If ordered to guard the summoner’s treasure in perpetuity, for instance, the invisible stalker might remove every last copper piece of the summoner’s treasure to a secret vault located within the invisible stalker’s lair on the Elemental Plane of Air, where the ‘stalker could easily keep watch over it.
 
-If the GM feels the invisible stalker’s service too onerous or complicated, he or she should assign a cumulative 1% per day chance of the ‘stalker wearying of its task and attempting to twist the meaning its orders. A clever summoner might be able to word his or her orders in such a way as to make its meaning airtight and clear. In this case the ‘stalker must continue to serve until its duties are discharged.
+If the GM feels the invisible stalker’s service too onerous or complicated, he or she should assign a cumulative 1% per day chance of the ‘stalker wearying of its task and attempting to twist the meaning its orders.<!-- printed as-is: see errata E235 --> A clever summoner might be able to word his or her orders in such a way as to make its meaning airtight and clear. In this case the ‘stalker must continue to serve until its duties are discharged.
 
 Invisible stalkers can understand the common tongue of the Prime Material Plane, the language of the Elemental Plane of Air, and their own language. They will speak no tongue but their own.
 
@@ -21384,7 +21427,7 @@ It is rumoured kraken once lived in shallower coastal waters and had armies of s
 
 A kraken’s body is protected by a tough shell (AC 0), but its tentacles and head are more vulnerable (AC 5). Two tentacles are covered with barbs and do 2d6 damage. The other 6 tentacles hit for 2d4 damage. With each successful hit the kraken grabs its victim and holds it. With each successive round the tentacle does an additional 3d4 crushing damage. The kraken’s sharp beak bites for 5d4 damage. Once held, the only way to get free is to sever the tentacle by causing 16 hp damage to it.
 
-Those within the tentacle’s grasp are 25% likely to have both arms held, and as such they are helpless. Most of the time (50%) they will have one limb held and are able to attack with a -3 penalty. The other 25% of the time the victim will both arms free and can attack the squid with only a -1 penalty.
+Those within the tentacle’s grasp are 25% likely to have both arms held, and as such they are helpless. Most of the time (50%) they will have one limb held and are able to attack with a -3 penalty. The other 25% of the time the victim will both arms free<!-- printed as-is: see errata E236 --> and can attack the squid with only a -1 penalty.<!-- printed as-is: see errata E237 -->
 
 If the kraken looses more then 3 arms it will release the ship and flee. As it does the monster will release ink in the water leaving a cloud 80 ft deep by 80 ft wide by 120 ft long. A kraken’s ink is poisonous and will cause 1d4 points of damage per round until the ink dissipates. The ink lasts for about 5 rounds.
 
@@ -21440,15 +21483,15 @@ Champions of all that is good and just, lammasu have quadrupedal bodies the size
 
 Lammasu are the guardians and protectors of all lawful good persons and have a friendly disposition to all good aligned creatures they encounter. Lammasu tend to lair in warm climates but travel widely and can thus be encountered anywhere.
 
-Lammasu prefer to advise and support the forces of good if at all possible but are formidable opponents in battle. In fact, it is almost impossible to press a lammasu into combat against its will due to its ability to dimension door and become invisible at will. <!-- printed as-is: NEW --> In combat lammasu claw with their two powerful front legs for 1d6+1 points of damage apiece, and they also defend themselves with a variety of spells and spell-like abilities.
+Lammasu prefer to advise and support the forces of good if at all possible but are formidable opponents in battle. In fact, it is almost impossible to press a lammasu into combat against its will due to its ability to dimension door and become invisible at will. <!-- printed as-is: see errata E238 --> In combat lammasu claw with their two powerful front legs for 1d6+1 points of damage apiece, and they also defend themselves with a variety of spells and spell-like abilities.
 
-Lammasu are constantly surrounded by an extra strength *protection from evil, 10 ft radius* (-2 to attack, +2 on saving throws from attacking evil creatures) and can cast cleric spells of up to 4th level as an 8th level cleric does. Spell list: 4—1st level, 3—2nd  level, 2—3rd level, 1—4th level. <!-- printed as-is: NEW --> Lammasu cast *cure light wounds* and *cure serious wounds* at double normal efficacy (2d8 hp and 4d8+2 hp respectively). 20% of these creatures can also speak a *holy word* at will.
+Lammasu are constantly surrounded by an extra strength *protection from evil, 10 ft radius* (-2 to attack, +2 on saving throws from attacking evil creatures) and can cast cleric spells of up to 4th level as an 8th level cleric does. Spell list: 4—1st level, 3—2nd  level, 2—3rd level, 1—4th level. <!-- printed as-is: see errata E239 --> Lammasu cast *cure light wounds* and *cure serious wounds* at double normal efficacy (2d8 hp and 4d8+2 hp respectively). 20% of these creatures can also speak a *holy word* at will.
 
-When flying, they can use their claw attacks if forced into battle. They are difficult to hit in return because they can *dimension door* at any time away from an flying opponent’s path of attack.
+When flying, they can use their claw attacks if forced into battle. They are difficult to hit in return because they can *dimension door* at any time away from an flying opponent’s path of attack.<!-- printed as-is: see errata E240 -->
 
 Lammasu can communicate in their own tongue, the alignment language of Lawful Good creatures, and also through telepathy.
 
-***Treasure:*** 2d4×1,000 gp (45%), 1d8×100pp (60%), 4d8 gems (50%), 2d6 jewellery (40%), 2d4 potions (40%), 1 misc magic (20%).
+***Treasure:*** 2d4×1,000 gp (45%), 1d8×100pp (60%),<!-- printed as-is: see errata E241 --> 4d8 gems (50%), 2d6 jewellery (40%), 2d4 potions (40%), 1 misc magic (20%).
 
 ## Leech, Giant
 
@@ -21483,7 +21526,7 @@ Giant leeches inhabit warmer, fresh water. If a giant leech successfully hits a 
 | **Size:** | Large (30 ft long) | Large (20 ft long) | Large (40 ft long) | Large (20 ft long) |
 | **Move:** | 90 ft | 150 ft | 60 ft | 120 ft |
 | **Armour Class:** | 3 | 5 | 5 | 5 |
-| **Hit Dice:** | 10 | 3+1 | 8 | 6 |
+| **Hit Dice:** | 10 | 3 + 1 | 8 | 6 |
 | **Attacks:** | 3 | 1 | 3 | 1 |
 | **Damage:** | 1d8/1d8/2d8 | 1d8+1 | 2d6/2d6/3d6 | 2d6 |
 | **Special Attacks:** | See below | See below | See below | See below |
@@ -21496,11 +21539,11 @@ Giant leeches inhabit warmer, fresh water. If a giant leech successfully hits a 
 
 **Fire Lizards** are also known as *false dragons* and are thought to be an evolutionary dead-end on the dragon family tree. These giant lizards have a tough scaled hide very similar to a dragon but lacking the long life, wings, and horns of their fire-breathing cousins. Colouration tends to be a rather neutral grey with patches of a dark brownish red on the dorsal surface, and a lighter red on the ventral surface. Fire lizards darken in colour as they age. Curiously, red dragons avoid confrontation with fire lizards and will not even lair in the same area fire lizards frequent.
 
-False dragons are normally slow-moving creatures and spend 50% their time sleeping in their subterranean lairs. When they emerge every two weeks or so to feed, however, they are aggressive foes.
+False dragons are normally slow-moving creatures and spend 50% their time sleeping in their subterranean lairs.<!-- printed as-is: see errata E242 --> When they emerge every two weeks or so to feed, however, they are aggressive foes.
 
 In combat a fire lizard will attack with two raking attacks from its front legs followed by a bite attack. It also has a breath weapon it can use at will, a cone shaped gout of flame 10 ft wide at the terminus with a range of 150 ft, causing 2d6 points of damage. A saving throw vs breath weapons is allowed for half damage.
 
-Fire lizards have an affinity for shiny objects and their lairs tend be littered with coins and gems. A lair also has a 15% chance of containing 1d6 eggs, but the fire lizard is largely indifferent as to their fate. The first hatchling will generally eat the others as they emerge. A fire lizard egg can fetch as much as 5,000gp from an interested party.
+Fire lizards have an affinity for shiny objects and their lairs tend be littered with coins and gems.<!-- printed as-is: see errata E243 --> A lair also has a 15% chance of containing 1d6 eggs, but the fire lizard is largely indifferent as to their fate. The first hatchling will generally eat the others as they emerge. A fire lizard egg can fetch as much as 5,000gp from an interested party.
 
 ***Treasure:*** None carried. In lair: 1d8×1,000 cp (45%), 1d6×1,000 sp (30%), 1d6×1,000 ep (25%), 1d4×1,000 gp (33%), 1d4×100 pp (10%), 2d4 gems (30%), 1d6 jewellery (20%), Magic Sword/Armour/Weapon (12%), 2d4 potions (50%), 1d6 scrolls (40%).
 
@@ -21538,7 +21581,7 @@ Fire lizards have an affinity for shiny objects and their lairs tend be littered
 
 Locathah are aquatic nomads who make their home in the warm, shallow, salt waters of seas and oceans. They roam the area around their lair, hunting and gathering food. They are rather distrustful of strangers, even strangers of their own species.
 
-Locathah troops are organised into companies of 40 warriors, led by a war-chief with 22 hit points who fights as a 5th level fighter. The war-chief is assisted by 4 sub-chiefs with 15 hp who fight as 3rd level fighters. Any group of 4 or more companies (120 warriors) will be led by a full chief with 30 hp who fights as a 6th level fighter. The chief will be protected by his honour guard of 12 warriors who fight as sub-chiefs. There is a 5% chance a sub-chief or war-chief will be carrying a magic weapon of the appropriate type and a 10% a full chief will have one.
+Locathah troops are organised into companies of 40 warriors, led by a war-chief with 22 hit points who fights as a 5th level fighter. The war-chief is assisted by 4 sub-chiefs with 15 hp who fight as 3rd level fighters. Any group of 4 or more companies (120 warriors) will be led by a full chief with 30 hp who fights as a 6th level fighter. The chief will be protected by his honour guard of 12 warriors who fight as sub-chiefs. There is a 5% chance a sub-chief or war-chief will be carrying a magic weapon of the appropriate type and a 10% a full chief will have one.<!-- printed as-is: see errata E244 -->
 
 Locathah troops ride giant eels (q.v.) into battle and these mounts will also fight. Locathah troops typically have a roughly equal chance to be armed with: lance, trident, spear gun and dagger, or, net and dagger. Spear guns are treated as light crossbows with a 20 ft range underwater and as a normal light crossbow if used on the surface.
 
@@ -21626,7 +21669,7 @@ Note that a medusa’s gaze extends into nearby planes of existence, such as the
 
 ***Treasure:*** 1d6×1,000 sp (30%), 1d2×1,000 ep (25%), 2d6×1,000 gp (70%), 10d4 gems (50%), 1 misc magic + 1 potion (60%)
 
-## Mephit
+## Mephit<!-- printed as-is: see errata E245 -->
 
 | | Fire | Lava | Smoke | Steam |
 |---|---|---|---|---|
@@ -21666,7 +21709,7 @@ In combat lava mephits claw for 1 point of damage, plus the 1d8 points of heat d
 
 When in contact with molten lava the lava mephit can regenerate 2 hp per round, but if killed it cannot regenerate back to life as a troll does. Contact with lava also allows the mephit to recharge its breath weapon.
 
-The touch of a lava mephit dissolves metal rather quickly, destroying plate mail armour in 3 melee rounds. Wood is dissolves a little more slowly, about an inch per hour of contact. The lava mephit can *shape change* into a pool of lava but doing so will not recharge the mephit’s breath weapon or allow it to regenerate. Lava mephits can *gate* in 1d2 mephits once per hour with a 25% chance of success. There is an equal chance of gating in any type of mephit but if two are gated they will be the same type.
+The touch of a lava mephit dissolves metal rather quickly, destroying plate mail armour in 3 melee rounds. Wood is dissolves a little more slowly, about an inch per hour of contact.<!-- printed as-is: see errata E246 --> The lava mephit can *shape change* into a pool of lava but doing so will not recharge the mephit’s breath weapon or allow it to regenerate. Lava mephits can gate in 1d2 mephits once per hour with a 25% chance of success. <!-- printed as-is: see errata E247 --> There is an equal chance of gating in any type of mephit but if two are gated they will be the same type.
 
 **Smoke Mephit:** This type of mephit is black in colour and constantly emits smoke from its body. When encountered on the Prime Material Plane this mephit will rarely stray from dark or smoky areas except in great need.
 
@@ -21674,7 +21717,7 @@ In combat, these mephits strike with two claws for 1d2 points of damage and may 
 
 Smoke mephits also have the spell-like abilities once each per day of *invisibility* and *dancing lights*. Smoke mephits can also *gate* in 1d2 mephits once per hour with a 25% chance of success. There is an equal chance of gating in any type of mephit but if two are gated they will be the same type.
 
-If slain, the smoke mephit emits a burst of flash-fire which inflicts 1 point of damage to everyone with 10 ft, no saving throw allowed.
+If slain, the smoke mephit emits a burst of flash-fire which inflicts 1 point of damage to everyone with 10 ft, no saving throw allowed.<!-- printed as-is: see errata E248 -->
 
 **Steam Mephit:** These mephits are grey and constantly sweat hot water in profuse amounts, leaving puddles of hot water behind them as they travel. Touching a steam mephit will cause 1 point of damage to unprotected skin and has a 50% chance of stunning the victim for 1 melee round.
 
@@ -21758,7 +21801,7 @@ Minotaurs can speak their own language and sometimes (25%) can speak common.
 - **Size:** Man-sized
 - **Move:** 90 ft
 - **Armour Class:** 5
-- **Hit Dice:** 1 to 4 hit dice
+- **Hit Dice:** 1 to 4 hit dice<!-- printed as-is: see errata E249 -->
 - **Attacks:** 1
 - **Damage:** 1d4 (1HD), 1d6 (2HD), 1d8 (3HD) or 1d10 (4HD)
 - **Special Attacks:** None
@@ -21768,10 +21811,10 @@ Minotaurs can speak their own language and sometimes (25%) can speak common.
 - **Intelligence:** Low to average
 - **Alignment:** Lawful neutral
 - **Level/XP:**
-  - (1 HD) 1/20+1/hp
-  - (2 HD) 2/30+2/hp
-  - (3 HD) 3/50+3/hp
-  - (4 HD) 3/100+4/hp
+    - (1 HD) 1/20+1/hp
+    - (2 HD) 2/30+2/hp
+    - (3 HD) 3/50+3/hp
+    - (4 HD) 3/100+4/hp
 
 <!-- p.297 -->
 
@@ -21815,7 +21858,7 @@ Yellow mould is susceptible only to fire and fire attacks. A *continual light* s
 
 ## Naga
 
-A naga is an intelligent, snake-like creature with spell-casting abilities. Most naga are found in warm areas, though their actual environment depends on the type.
+A naga is an intelligent, snake-like creature with spell-casting abilities. Most naga are found in warm areas, though their actual environment depends on the type.<!-- printed as-is: see errata E250 -->
 
 | | **Guardian** | **Spirit** | **Water** |
 |---|---|---|---|
@@ -21841,7 +21884,7 @@ Guardian naga are mostly found in holy places. They serve as sentinels over some
 
 <!-- p.298 -->
 
-poisonous and inflicts 1d6 hp while its constriction deals 2d8 hp. It can spit its poison up to 30 ft at any single target, and the target must save vs poison or die
+poisonous and inflicts 1d6 hp while its constriction deals 2d8 hp. It can spit its poison up to 30 ft at any single target, and the target must save vs poison or die<!-- printed as-is: see errata E251 -->
 
 A guardian naga can use divine spells as a 6th level cleric:
 
@@ -21849,7 +21892,7 @@ A guardian naga can use divine spells as a 6th level cleric:
 - 2nd level: 3
 - 3rd level: 2
 
-***Treasure:*** 5d6×1cp (25%), <!-- printed as-is: NEW --> 1d%×1,000 sp (15%), 10d4×1,000 ep (40%), 10d6×1,000 gp (55%), 5d10×100 pp (25%), 1d% gems (50%), 10d4 jewellery (50%), any 4 magic item + 1 potion + 1 scroll (15%)
+***Treasure:*** 5d6×1cp (25%), <!-- printed as-is: see errata E252 --> 1d%×1,000 sp (15%), 10d4×1,000 ep (40%), 10d6×1,000 gp (55%), 5d10×100 pp (25%), 1d% gems (50%), 10d4 jewellery (50%), any 4 magic item + 1 potion + 1 scroll (15%)
 
 The evil and corrupt **spirit naga** dwells in deep ruins and other subterranean places. Its scales are black with blood red bands, and its human-like head is large and misshapen.
 
@@ -21865,7 +21908,7 @@ A spirit naga can use divine and arcane spells to 4th and 5th levels respectivel
 
 ***Treasure:*** 1d8×1,000 cp (50%), 1d6×1,000 sp (25%), 1d4×1,000 ep (25%), 1d4×1,000 gp (25%), 1d8 gems (30%), 1d4 jewellery (20%), sword, armour, or misc. weapon + 1d4 scrolls + 1 misc. magic + 1 potion (55%)
 
-The **water naga’s** scales range from deep green to turquoise and its eye colour varies from light green to brilliant amber. It dwells deep below the surface of fresh water lakes ponds and rivers. <!-- printed as-is: NEW --> The water naga is typically quite curious and harmless unless provoked. In combat, its poisonous bite deals 1d4 damage, and it can cast arcane spells as a 5th level magic user:
+The **water naga’s** scales range from deep green to turquoise and its eye colour varies from light green to brilliant amber. It dwells deep below the surface of fresh water lakes ponds and rivers. <!-- printed as-is: see errata E253 --> The water naga is typically quite curious and harmless unless provoked. In combat, its poisonous bite deals 1d4 damage, and it can cast arcane spells as a 5th level magic user:
 
 - 1st level: 4
 - 2nd level: 2
@@ -21961,7 +22004,7 @@ Finding such a victim, a night hag casts a *sleep* spell that affects humans eve
 
 A night hag can cast a *magic missile* spell for 2d8 damage or a *ray of enfeeblement* thrice per day each. She has the power of knowing a creature’s alignment, and can *polymorph* herself at will.
 
-Night hags are invulnerable to *charm, fear, sleep,* and cold- or fire-based spells. To harm them, a weapon must be of iron or silver or enchanted to +3 or better.
+Night hags are invulnerable to *charm, fear, sleep,* and cold- or fire- based spells. <!-- printed as-is: see errata E254 --> To harm them, a weapon must be of iron or silver or enchanted to +3 or better.
 
 In extremis, a night hag can try (succeeding half the time) to *gate* in an ally, with equal chances of a barbed devil or class A demon appearing. She must then reward the devil or demon with a Soul Worm, a price the night hags will be loath to pay.
 
@@ -21973,7 +22016,7 @@ While she has a special periapt she has forged in Hades, a night hag can astrall
 
 ## Nightmare
 
-- **Frequency:** Very Rare <!-- printed as-is: NEW -->
+- **Frequency:** Very Rare <!-- printed as-is: see errata E255 -->
 - **No. Encountered:** 1
 - **Size:** Large
 - **Move:** 150 ft; 360 ft flying (AA:IV)
@@ -22029,7 +22072,7 @@ Because nilbogs look exactly like goblins, the only way to tell one from the oth
 
 Even more rarely, nilbogism occurs in other creatures, the most ludicrous of which is the *llort*—a troll-like creature that if cured of damage, begins to degenerate at 3hp per round until dead.
 
-***Treasure*** <!-- printed as-is: NEW --> 1d10×1,000 cp (25%), 2d4×1,000 sp (33%), 1d6×1,000 ep (15%), 2d4 gems (30%), 2d4 jewellery (25%), 2 magic scrolls + 1 potion (25%).
+***Treasure*** <!-- printed as-is: see errata E256 --> 1d10×1,000 cp (25%), 2d4×1,000 sp (33%), 1d6×1,000 ep (15%), 2d4 gems (30%), 2d4 jewellery (25%), 2 magic scrolls + 1 potion (25%).
 
 ## Owlbear
 
@@ -22080,11 +22123,7 @@ The owlbear attacks first with its claws and beak. If it scores an 18 or better 
 | **Alignment:** | Neutral | Neutral |
 | **Level/XP:** | (6 HD) 4/275+6/hp<br>(7 HD) 4/400+8/hp<br>(8 HD) 5/650+10/hp | (9 HD) 6/1,000+12/hp<br>(10 HD) 6/1,500+14/hp<br>(11 HD) 7/2,000+16/hp<br>(12 HD) 7/2,300+17/hp |
 
-Otyughs are repulsive beasts that feed off the refuse and waste habitually discarded by other creatures. They are generally found in large rubbish pits and cisterns, being not always content with discards, they wait beneath the surface for anyone foolish enough to stray too close. Otyughs have no discernible head, the bulk of their form consisting of a great horn-plated torso supported by three stocky legs that conceal a powerful, sharp-toothed maw. Three long tentacular appendages extend from their
-
-<!-- p.302 -->
-
-bodies, two of which are hard and thorny, being used to attack and grapple prey; the third is actually a sensory organ with three eyes at its end, which are capable of 90 ft infravision. Lesser Otyughs are also capable of limited telepathy at a range of up to 30 ft, and Greater Otyughs up to 60 ft, but such communication is limited to simple thoughts and ideas.
+Otyughs are repulsive beasts that feed off the refuse and waste habitually discarded by other creatures. They are generally found in large rubbish pits and cisterns, being not always content with discards, they wait beneath the surface for anyone foolish enough to stray too close. Otyughs have no discernible head, the bulk of their form consisting of a great horn-plated torso supported by three stocky legs that conceal a powerful, sharp-toothed maw. Three long tentacular appendages extend from their bodies, two of which are hard and thorny, being used to attack and grapple prey; the third is actually a sensory organ with three eyes at its end, which are capable of 90 ft infravision. Lesser Otyughs are also capable of limited telepathy at a range of up to 30 ft, and Greater Otyughs up to 60 ft, but such communication is limited to simple thoughts and ideas.
 
 Whilst Otyughs suffer no ill-effects from bright light, they do not like it, preferring to dwell in dark places that help them to strike with complete surprise, though their eyes, usually protruding above the surface, sometimes give them away. They can use their great tentacle like limbs to strike for 1d8 damage, or 1d12 in the case of the Greater Otyugh, but may also attempt to grapple their prey. Grappled opponents suffer 1d3+1 points of constriction damage per round and bite attacks against them are made with +2 to hit. A character with 18 strength can break free after one round of struggling, but other characters must make a successful Open Doors roll to do the same. Greater Otyughs may use grappled characters as shields; in doing so, they gain a +1 bonus to armour class and when attacked may make an attack roll of their own, which if successful results in the grappled character becoming the victim of the attack. Any character unfortunate enough to be bitten by an Otyugh is extremely likely to contract a disease, 1 in 5 cases of which are fatal.
 
@@ -22102,6 +22141,9 @@ Whilst Otyughs suffer no ill-effects from bright light, they do not like it, pre
 - **Damage:** 1d8/1d8/1d3
 - **Special Attacks:** None
 - **Special Defences:** None
+
+<!-- p.302 -->
+
 - **Magic Resistance:** Standard
 - **Lair Probability:** 15%
 - **Intelligence:** Average
@@ -22134,11 +22176,7 @@ Like a horse, a pegasus will buck with its two front hooves and bite with its mo
 - **Alignment:** Any
 - **Level/XP:** Nil
 
-Neither a monster nor the undead in the truest sense of the word, a phantom is a sort of endless loop three-dimensional visual manifestation “recorded” at the time of a person’s death. These images usually depict either
-
-<!-- p.303 -->
-
-the death of the person or whatever was foremost in his or her mind. Phantoms have no intelligence, nor can they harm anyone directly.
+Neither a monster nor the undead in the truest sense of the word, a phantom is a sort of endless loop three-dimensional visual manifestation “recorded” at the time of a person’s death. These images usually depict either the death of the person or whatever was foremost in his or her mind. Phantoms have no intelligence, nor can they harm anyone directly.
 
 Phantoms are surrounded by a field of supernatural energy which normal animals react strongly toward and will not approach. Humans or demi-humans encountering a phantom must save vs spells or immediately panic and flee as though under the influence of a *fear* spell.
 
@@ -22170,17 +22208,15 @@ In combat, the phoenix employs one of two attack routines; either two clawing at
 
 Due to its other-planar nature, the phoenix can only be hit with +3 or better weapons. The creature can constantly and automatically *detect charm*, *detect evil*, and *detect magic*;
 
+<!-- p.303 -->
+
 constantly radiates *protection from fear*, *10 ft radius*, and has a 50% magic resistance. The phoenix can become astral or æthereal at will, and once per week can transport itself and up to 10 man-sized creatures to its home plane (it can also reach its home dimension through the use of its astral and æthereal ability). A phoenix has finely-honed senses and therefore cannot be surprised. It receives +3 to all initiative rolls. The phoenix has 120 ft range in both infravision and low-light vision. This amazing being can *heal* itself or another creature spontaneously, up to 100 hit points total per day. It can also *cure disease* with but a touch of its beak, limited to one cure disease per creature per day. It can also cast *cure light wounds* at will with a brush of its wingtips, though any human or humanoid can only be healed thus twice during any one day. A phoenix has the innate ability to cause a tremendous heat up to thrice per day; igniting all flammable materials, boiling liquids, and blistering exposed skin. It can also dissipate any energy based attack, ranging from spells to dragon breath, up to thrice per day and taking no damage therefrom. Its powerful voice can *dispel illusion* and *dispel magic* at a level equal to a 40th level magic user, and cast *exorcise* as a 40th level cleric.
 
 In addition to all the above, the phoenix can use the following spell-like abilities at will, once per round at a 20th level of ability, unless otherwise noted: *affect normal fires, audible glamour, blink, blindness, blur, control temperature 50’ radius, continual light, find traps, fire charm, fire shield, improved invisibility, misdirection, produce flame, pyrotechnics, remove curse, remove fear 10’ radius, snake charm.* Once per day, the phoenix can use the following spell-like abilities, again at 20th level: *call woodland beings, duo-dimension, find the path, fire quench* (reverse of the druid spell *produce fire*), *fire seeds, fire storm, neutralise poison, reincarnate, veil, wall of fire.* Thrice per day the phoenix can cast *colour spray, heat metal, polymorph self,* and once per week can cast *incendiary cloud.*
 
 The phoenix has two final special abilities it will only use when great need is upon it. First, it can fire up to 8 of its feathers at its opponents per round. These feathers will sap 5 hp apiece from the phoenix and explode as a holly berry *fireseed*. If overcome in battle, the phoenix can release its version of a retributive strike—invoking a hellish firestorm of destruction equal in power to a *firestorm* combined with an *incendiary cloud*, each cast at 40th level of ability. This mega-firestorm can be created even if both spell abilities have already been used that day. This attack will kill the phoenix (and most likely everything else within range) but leaves behind a crystalline egg the size of an adult human head. A new phoenix will arise from the egg in 3d8 days.
 
-***Description:*** The phoenix is a large bird vaguely resembling a stork or heron, with beautiful plumage of bright gold and fiery red that catches the light in a manner reminiscent of dancing flames. Its dagger-sharp claws and long, hard beak are an iridescent violet; the eyes of a phoenix have been described as rubies glowing with an inner fire. The phoenix speaks the language of its kind; the language of any feathered, flying creature; and can communicate with other creatures with either telepathy
-
-<!-- p.304 -->
-
-or telempathy, as appropriate to the level of intelligence of the other creature.
+***Description:*** The phoeni× is a large bird vaguely resembling a stork or heron, with beautiful plumage of bright gold and fiery red that catches the light in a manner reminiscent of dancing flames. Its dagger-sharp claws and long, hard beak are an iridescent violet; the eyes of a phoeni× have been described as rubies glowing with an inner fire. The phoeni× speaks the language of its kind; the language of any feathered, flying creature; and can communicate with other creatures with either telepathy or telempathy, as appropriate to the level of intelligence of the other creature.
 
 ***Treasure:*** None.
 
@@ -22201,10 +22237,10 @@ or telempathy, as appropriate to the level of intelligence of the other creature
 - **Intelligence:** Non-
 - **Alignment:** Neutral
 - **Level/XP:**
-  - (1 HD) 1/10+1/hp
-  - (2 HD) 2/30+2/hp
-  - (3 HD) 3/50+3/hp
-  - (4 HD) 4/80+4/hp
+    - (1 HD) 1/10+1/hp
+    - (2 HD) 2/30+2/hp
+    - (3 HD) 3/50+3/hp
+    - (4 HD) 4/80+4/hp
 
 A piercer looks exactly like a stalactite. It is a living creature encased in a stone covering. Piercers are sensitive to noise and heat and when they detect a source of either passing beneath them they drop, seeking to kill and devour their target.
 
@@ -22228,11 +22264,14 @@ The 1 HD piercer is 3 ft long and weighs about 200 lbs. With each additional HD 
 - **Special Defences:** Chameleon power
 - **Magic Resistance:** 35%
 - **Lair Probability:** 5%
+
+<!-- p.304 -->
+
 - **Intelligence:** Average
 - **Alignment:** Neutral good
 - **Level/XP:** 3/200 + 2/hp
 
-Pseudo-dragons are tiny dragons, dark red in colour, lacking the breath weapon of their large cousins but carrying a deadly sting in their tails. Because of the lack of a breath weapon, they are not generally counted among the true dragons. Pseudo-dragons can be be found in almost every climate save the very hottest and coldest, and prefer snug lairs such as small caves or hollow trees. <!-- printed as-is: NEW -->
+Pseudo-dragons are tiny dragons, dark red in colour, lacking the breath weapon of their large cousins but carrying a deadly sting in their tails. Because of the lack of a breath weapon, they are not generally counted among the true dragons. Pseudo-dragons can be be found in almost every climate save the very hottest and coldest, and prefer snug lairs such as small caves or hollow trees. <!-- printed as-is: see errata E257 -->
 
 In combat the pseudo-dragon will attack with a bite attack for 1d3 points of damage, but its feared weapon is its sting. The pseudo-dragon’s small size and great flying speed, coupled with the flexibility of its tail, grant a +4 bonus to stinging attacks. Any creature stung is allowed a save vs poison to negate the effects, otherwise the victim will fall into a death-like trance for 1d6 days. On the last day of the trance there is a 25% chance the victim will actually die.
 
@@ -22286,7 +22325,7 @@ A purple worm’s main attack is its bite that does 2d12 points of damage. If th
 
 Rakshasas are evil spirits. Their main diet is human flesh and they use deception to get it. When first encountered a rakshasa will use its *ESP* to detect whomever the victim trusts, then use illusion to assume that form. Once the victim lets his or her guard down the rakshasa will reveal its true self and attack. Rakshasas are able to cast 1st to 3rd level magic user spells as well as 1st level cleric spells. Rakshasas themselves are only affected by 8th level and higher magic. They are immune to normal weapons and magical weapons below +3 only do half damage. They do however have 1 weakness: a crossbow bolt *blessed* by a cleric will kill them instantly.
 
-***Treasure:*** 1d20×1,000 sp (10%), 1d12×1,000 ep (15%), 1d10×1,000 gp (40%), 1d8×100 pp (35%), 3d10 gems (20%), 1d10 jewellery (10%), 3 magic items except weapons + 1 potion + scroll (30%)
+***Treasure:*** 1d20×1,000 sp (10%), 1d12×1,000 ep (15%), 1d10×1,000 gp (40%), 1d8×100 pp (35%), 3d10 gems (20%), 1d10 jewellery (10%), 3 magic items e×cept weapons + 1 potion + scroll (30%)
 
 ## Remorhaz
 
@@ -22308,14 +22347,14 @@ Rakshasas are evil spirits. Their main diet is human flesh and they use deceptio
 - **Intelligence:** Animal
 - **Alignment:** Neutral
 - **Level/XP:**
-  - (7 HD) 6/625+8/hp
-  - (8 HD) 6/950+10/hp
-  - (9 HD) 7/1,400+12/hp
-  - (10 HD) 7/1,700+13/hp
-  - (11 HD) 7/2,100+14/hp
-  - (12 HD) 8/3,000+16/hp
-  - (13 HD) 8/3,500+17/hp
-  - (14 HD) 8/4,200+18/hp
+    - (7 HD) 6/625+8/hp
+    - (8 HD) 6/950+10/hp
+    - (9 HD) 7/1,400+12/hp
+    - (10 HD) 7/1,700+13/hp
+    - (11 HD) 7/2,100+14/hp
+    - (12 HD) 8/3,000+16/hp
+    - (13 HD) 8/3,500+17/hp
+    - (14 HD) 8/4,200+18/hp
 
 These great polar worms are found only in arctic areas. The remorhaz attacks on sight, and if encountered in its lair there is a 1 in 4 chance it has a mate and 1d3 eggs; the eggs can be sold on some markets for 5,000 gp each.
 
@@ -22358,7 +22397,7 @@ Rocs are powerful creatures living at high elevations in warm environments, and 
 
 Any treasure found in the gigantic nests of rocs is there purely on accident, since rocs have no concept of wealth. The belongings of past victims will be found woven into the intricate nest.
 
-***Treasure:*** 1d12×1,000 cp (20%), 1d6×1,000 sp (30%), 1d4×1,000 ep (10%), 1d6 gems (25%), 1d33 jewellery (20%), <!-- printed as-is: NEW --> 2 magic items (10%)
+***Treasure:*** 1d12×1,000 cp (20%), 1d6×1,000 sp (30%), 1d4×1,000 ep (10%), 1d6 gems (25%), 1d33 jewellery (20%), <!-- printed as-is: see errata E258 --> 2 magic items (10%)
 
 ## Roper
 
@@ -22388,7 +22427,7 @@ Ropers are about 3 ft-4 ft at the base and approximately 1 ft wide at the apex. 
 
 and appear as a stalactite. Through means of tiny adhesive cilia on its underside, the roper can move slowly and these cilia are what allow it to cling upside down to the ceiling. Ropers are predators and attack by means of the 6 rope-like appendages that give these monsters their name. The ropes secrete a powerful and poisonous adhesive and can lash out some distance from the creature; up to 50 ft. A successful to hit roll will weaken the target, decreasing its strength ability score by 50% (rounded down) within 1d3 rounds and lasting 2d4 turns; with multiple hits having a cumulative strength drain effect. An ensnared victim can break the strand by performing a Minor Test of Strength but for every round the victim is roped he or she will be dragged 10 ft closer to the roper. Creatures within 10 ft of the roper are subject to its vicious bite attack, this attack automatically hits any victim held by the strands of the roper. A strand can be sliced with an edged weapon but the attack must do a minimum of 6 points of damage in a single attack to the AC 0 tentacle to sever it. The strand of a roper can easily pull 800 lbs and can lift about a third of that amount.
 
-A roper is a tough monster. The stony hide grants it AC 0 in combat and it has an innate resistance to magic. Besides its base 80% magic resistance, the roper is completely immune to electricity based damage including lightning, ropers are also resistant to cold based magic and take only half damage from any such attacks. These creatures have few weaknesses but are susceptible to fire, saving vs fire based attacks at -4. Any fire based magic attacks, however, must still overcome the monster's magic resistance.
+A roper is a tough monster. The stony hide grants it AC 0 in combat and it has an innate resistance to magic. Besides its base 80% magic resistance, the roper is completely immune to electricity based damage including lightning, ropers are also resistant to cold based magic and take only half damage from any such attacks. These creatures have few weaknesses but are susceptible to fire, saving vs fire based attacks at -4. Any fire based magic attacks, however, must still overcome the monster’s magic resistance.
 
 Ropers do not hoard treasure but their acidic bile cannot dissolve platinum or gemstones. Cutting open the gizzard of a roper has a 40% chance of yielding 3d6 (3-18) platinum pieces and 30% chance of 4d6 (4-24) gems.
 
@@ -22396,9 +22435,9 @@ Ropers do not hoard treasure but their acidic bile cannot dissolve platinum or g
 
 In combat, quartz ropers fight in a manner similar to ropers (q.v.): its tentacles can hit targets up to 50 ft away, the poisonous adhesive of the tentacles inflicts a 50% strength penalty on its targets, and it drags roped victims toward itself to deliver its nasty bite automatically.
 
-A quartz roper also differs from its larger cousins in a number of ways. First, it tends to concentrate its first attacks on two victims, striking each with 3 tentacles. The first two successfully roped victims will be injected with a venom which allows no saving throw and causes the victim to freeze in place, looking as if he or she has been turned to stone. One round after this apparent stoning the victim recovers and but is now under the delusion the quartz roper is a close friend and valued ally. These influenced adventurers will fight to protect the monster to the utmost of their abilities for the duration of effect of the venom; 10 turns. If the quartz roper is killed before the venom expires the deluded defenders will cease attacking and wander about aimlessly until the venom expires. The quartz roper can only inject its venom twice per day and afterward its combat tactics conform to those of a roper. A quartz roper's tentacles are strong, but not so strong as the larger variety of roper. A roped character's chances of breaking free are equal to double his or her chance to perform a Minor Test of Strength.
+A quartz roper also differs from its larger cousins in a number of ways. First, it tends to concentrate its first attacks on two victims, striking each with 3 tentacles. The first two successfully roped victims will be injected with a venom which allows no saving throw and causes the victim to freeze in place, looking as if he or she has been turned to stone. One round after this apparent stoning the victim recovers and but is now under the delusion the quartz roper is a close friend and valued ally. These influenced adventurers will fight to protect the monster to the utmost of their abilities for the duration of effect of the venom; 10 turns. If the quartz roper is killed before the venom expires the deluded defenders will cease attacking and wander about aimlessly until the venom expires. The quartz roper can only inject its venom twice per day and afterward its combat tactics conform to those of a roper. A quartz roper’s tentacles are strong, but not so strong as the larger variety of roper. A roped character’s chances of breaking free are equal to double his or her chance to perform a Minor Test of Strength.
 
-Quartz ropers also lack a roper's magic resistance but its mineral-laden hide will resist normal missile fire, though magic missiles and hand held weapons damage it normally. All magic spells do normal damage as well. A quartz roper's gizzard has the same percentage chance of containing platinum pieces and gemstones as the standard variety of roper.
+Quartz ropers also lack a roper’s magic resistance but its mineral-laden hide will resist normal missile fire, though magic missiles and hand held weapons damage it normally. All magic spells do normal damage as well. A quartz roper’s gizzard has the same percentage chance of containing platinum pieces and gemstones as the standard variety of roper.
 
 ***Treasure:*** See creature text.
 
@@ -22424,6 +22463,8 @@ Although rot grubs can be found in animal waste and other foul refuse, they pref
 
 ***Treasure:*** None
 
+<!-- p.307 -->
+
 ## Rust Monster
 
 - **Frequency:** Uncommon
@@ -22446,9 +22487,7 @@ Rust monsters are creatures vaguely resembling a 5 ft long and 3 ft tall giant b
 
 Rust monsters are only found in underground type environments, which they prowl constantly in search of food.
 
-<!-- p.307 -->
-
-Rust monsters consume metal of any kind, especially ferrous metals and ferrous metal alloys. The antennae of a rust monster can "smell" metal 90 ft away, and the creature will dart toward such a source of food with blinding speed, rolling 2 attacks with its antennae at the largest piece of metal it can sense. A successful attack causes up to 10 cubic ft of metal instantly to crumble into easily-digestible rust and the creature will immediately cease attacking in such a case and begin devouring its newly-created meal. Metal with magical bonuses gains a 10% chance per plus of not being affected by the rust monsters attack. For instance a +3 shield would have a 30% of resisting the rusting effect. A successful "to hit" roll against a rust monster with a metal weapon automatically subjects that weapon to a rust attack.
+Rust monsters consume metal of any kind, especially ferrous metals and ferrous metal alloys. The antennae of a rust monster can “smell” metal 90 ft away, and the creature will dart toward such a source of food with blinding speed, rolling 2 attacks with its antennae at the largest piece of metal it can sense. A successful attack causes up to 10 cubic ft of metal instantly to crumble into easily-digestible rust and the creature will immediately cease attacking in such a case and begin devouring its newly-created meal. Metal with magical bonuses gains a 10% chance per plus of not being affected by the rust monsters attack. For instance a +3 shield would have a 30% of resisting the rusting effect. A successful “to hit” roll against a rust monster with a metal weapon automatically subjects that weapon to a rust attack.
 
 Rust monsters are motivated by animal intelligence and blind hunger, therefore can be easily distracted from pursuit by dropping metal objects and fleeing; some iron spikes or a heavy mace will cause the attacking rust monster to stop for 1 round to devour the treat. Otherwise, rust monsters will relentlessly pursue the PCs until slain or all metal items have been consumed.
 
@@ -22492,9 +22531,11 @@ Rust monsters are motivated by animal intelligence and blind hunger, therefore c
 | **Alignment:** | Lawful evil | Lawful evil | Lawful evil | Lawful evil |
 | **Level/XP:** | Variable | 4/300+8/hp | 5/500+12/hp | 6/1,250+14/hp |
 
+<!-- p.308 -->
+
 Sahuagin are humanoid ichthyans of evil alignment. They dwell in shallow, warmer salt waters and raid villages and communities on land for loot and sport. They are nocturnal.
 
-Each sahuagin realm has a King and is divided into nine provinces, each ruled by a Prince. Each Prince will have a number of Barons under his command, and each Baron controls a war-band. The "Number Encountered" listing for this creature is for the lair of a typical war-band; the lairs of a Prince will be much larger.
+Each sahuagin realm has a King and is divided into nine provinces, each ruled by a Prince. Each Prince will have a number of Barons under his command, and each Baron controls a war-band. The “Number Encountered” listing for this creature is for the lair of a typical war-band; the lairs of a Prince will be much larger.
 
 If encountered outside their lair, there will be no females or hatchlings, no priestesses or above, and the band will be led by a warchief.
 
@@ -22512,9 +22553,7 @@ The sahuagin clergy will always be led by a priestess with 6 HD and the spellcas
 
 Sahuagin have been known to tame sharks and keep them as pets.
 
-***Treasure:*** Individuals :1d6 pp each; Lair: 2d6×1,000 gp (75%), 3d6×100 pp (50%), 3d8 gems (50%), 2d6 jewellery (50%), 1 miscellaneous magic and 1 potion (50%).
-
-<!-- p.308 -->
+***Treasure:*** Individuals :1d6 <!-- printed as-is: see errata E259 --> pp each; Lair: 2d6×1,000 gp (75%), 3d6×100 pp (50%), 3d8 gems (50%), 2d6 jewellery (50%), 1 miscellaneous magic and 1 potion (50%).
 
 ## Scorpion
 
@@ -22536,7 +22575,7 @@ Sahuagin have been known to tame sharks and keep them as pets.
 | **Alignment:** | Neutral | Neutral | Neutral |
 | **Level/XP:** | 3/75+3/hp | 4/125+5/hp | 5/600 + 6/hp |
 
-<!-- printed as-is: NEW (Special Defences row prints "None-" with a trailing hyphen, for all three variants, where "None" alone appears elsewhere in the book and no continuation follows — same fault class found in file 22b's Centipede table, p.277) -->
+<!-- printed as-is: see errata E260 (Special Defences row prints "None-" with a trailing hyphen, for all three variants, where "None" alone appears elsewhere in the book and no continuation follows — same fault class found in file 22b's Centipede table, p.277) -->
 
 Large, huge and giant scorpions are vicious, fearless predators found almost anywhere. Their usual tactic is to attack anything smaller than themselves. The scorpion will try and grab its prey with its huge claws then sting it to death with its tail. While its tail only does 1d4 points of damage the victim must save vs poison or die. The scorpion can use its attacks independently of each other on 3 different targets. Anything that the scorpion kills is taken back to its lair and consumed. It should be noted that the scorpion is not immune to its own poison; if it stings itself it could die.
 
@@ -22554,7 +22593,7 @@ Large, huge and giant scorpions are vicious, fearless predators found almost any
 - **Damage:** 1d3+3/1d3+3 or by weapon +3
 - **Special Attacks:** See Below
 - **Special Defences:** See Below
-- **MAGIC Resistance:** 50% <!-- printed as-is: NEW -->
+- **MAGIC Resistance:** 50% <!-- printed as-is: see errata E261 -->
 - **Lair Probability:** 50%
 - **Intelligence:** Average
 - **Alignment:** Chaotic evil
@@ -22562,13 +22601,13 @@ Large, huge and giant scorpions are vicious, fearless predators found almost any
 
 Sea Hags are wretched creatures given to committing dreadful acts of evil. They typically make their lairs beneath the ocean depths, but they are occasionally found in large lakes or other significant bodies of water. Their true form is that of a decrepit old woman, ravaged by time and repellent beyond reason, but they generally use their magic to assume a much more pleasant visage. They have sharp claws and teeth, as well as an insatiable appetite for flesh. Most Sea Hags are thought to be capable of speaking a number of languages.
 
-The appearance of a Sea Hag belies their true abilities, for they are all supernaturally swift and strong, but more potent are their magical abilities. They take particular delight in their ability to use *change self* to deceive the unwary, either luring them to an unpleasant and immediate death or as part of a more subtle scheme; they can use this power at will and the duration is unlimited. Should a Sea Hag's true appearance ever be revealed, then the horror causes anyone within thirty feet to be subject to a saving throw versus spells to avoid losing half their strength score for 1d6 turns. Furthermore, a Sea Hag can employ an evil gaze up to three times per day that subjects one creature within thirty feet to a saving throw vs poison; failure results in
+The appearance of a Sea Hag belies their true abilities, for they are all supernaturally swift and strong, but more potent are their magical abilities. They take particular delight in their ability to use *change self* to deceive the unwary, either luring them to an unpleasant and immediate death or as part of a more subtle scheme; they can use this power at will and the duration is unlimited. Should a Sea Hag’s true appearance ever be revealed, then the horror causes anyone within thirty feet to be subject to a saving throw versus spells to avoid losing half their strength score for 1d6 turns. Furthermore, a Sea Hag can employ an evil gaze up to three times per day that subjects one creature within thirty feet to a saving throw vs poison; failure results in
 
 <!-- p.309 -->
 
 immediate collapse and paralysis for three days, though for 1 in 4 victims the effect is stronger and causes instant death. If physical combat becomes unavoidable, Sea Hags will attack with a weapon or their sharp claws; regardless, they have +3 to hit and +3 to damage. Sea Hags are immune to *charm*, *fear*, *sleep* and fire or cold based spells and immune to weapons that are not forged of cold iron, silver or else enchanted with at least a +1 bonus.
 
-***Treasure:*** 1d10×1,000 cp (25%), 1d8×1,000 sp (25%), 1d6×1,000 go (25%), <!-- printed as-is: NEW --> 1d6 gems (25%), 1d3 jewellery (25%) and any two magic items (10%).
+***Treasure:*** 1d10×1,000 cp (25%), 1d8×1,000 sp (25%), 1d6×1,000 go (25%), <!-- printed as-is: see errata E262 --> 1d6 gems (25%), 1d3 jewellery (25%) and any two magic items (10%).
 
 ## Sea Serpent
 
@@ -22689,7 +22728,7 @@ Skeleton Warriors are the unfortunate victims of powerful magic; in life they we
 
 The appearance of a Skeleton Warrior is terrifying and creatures with less than five HD will panic and flee from its presence. A visage of desiccated and decaying flesh hanging from exposed bone is perhaps fearsome enough, but the flame red-eyes that stare forth from black sockets are said to haunt the dreams of those upon whom they look. They are generally armed and armoured with the remains of what they wore in life, or their grave goods.
 
-A character in possession of the circlet of a Skeleton Warrior and within 240 ft may attempt to dominate it. The circlet must be worn on the attempting character's head in order to do this; it cannot be used whilst wearing a helmet or similar headgear. On the first attempt at domination, the character has a chance of success equal to his or her Wisdom score × 5, but he or she must be able to see his or her victim and have the freedom to concentrate for one round. If the attempt fails, it may be attempted again on the following round. If concentration is interrupted before domination is achieved, such as by an attack, the character must concentrate for a further three rounds. During this time, the Skeleton Warrior will attempt to kill its would-be master and take possession of the circlet if such is at all possible.
+A character in possession of the circlet of a Skeleton Warrior and within 240 ft may attempt to dominate it. The circlet must be worn on the attempting character’s head in order to do this; it cannot be used whilst wearing a helmet or similar headgear. On the first attempt at domination, the character has a chance of success equal to his or her Wisdom score × 5, but he or she must be able to see his or her victim and have the freedom to concentrate for one round. If the attempt fails, it may be attempted again on the following round. If concentration is interrupted before domination is achieved, such as by an attack, the character must concentrate for a further three rounds. During this time, the Skeleton Warrior will attempt to kill its would-be master and take possession of the circlet if such is at all possible.
 
 In the event of successful domination, the Skeleton Warrior is rendered inert for as long as the character remains in possession of the circlet. Additionally, whenever they are within 240 ft of one another and the character wears the circlet without helmet as described above, the user may take control of the Skeleton Warrior, being able to see through its eyes and direct its actions as he or she desires; whilst controlling the actions of the Skeleton Warrior, the user may not act him- or herself.
 
@@ -22723,7 +22762,7 @@ Contrary to appearances, the Skeleton Warrior is not undead in the conventional 
 - **Alignment:** Neutral
 - **Level/XP:** 3/250+5/hp
 
-Slithering trackers live in dungeons, ruins and dark places. They are transparent and if not in natural sunlight are almost impossible to see (1 in 20 chance of spotting). They almost never attack their prey immediately, instead following and waiting until their target is asleep. They can follow through almost anything, being amorphous in shape and capable of seeping through tiny gaps, such as door jambs or cracks in stonework. If a slithering tracker catches its victim asleep, it will touch it, forcing the victim to roll a saving throw vs paralysation or be totally paralysed for 1d6 hours. The tracker will then feed directly on its victim's life energy, killing it in 1 hour.
+Slithering trackers live in dungeons, ruins and dark places. They are transparent and if not in natural sunlight are almost impossible to see (1 in 20 chance of spotting). They almost never attack their prey immediately, instead following and waiting until their target is asleep. They can follow through almost anything, being amorphous in shape and capable of seeping through tiny gaps, such as door jambs or cracks in stonework. If a slithering tracker catches its victim asleep, it will touch it, forcing the victim to roll a saving throw vs paralysation or be totally paralysed for 1d6 hours. The tracker will then feed directly on its victim’s life energy, killing it in 1 hour.
 
 ***Treasure:*** (in lair) 1d10×1,000 cp (20%), 1d6×1,000 sp (25%), 1d3×1,000 ep (10%), 1d4 gems (20%), 1d2 jewellery (20%), any two magic items (5%).
 
@@ -22788,7 +22827,7 @@ These creatures are usually a pale light grey with a white belly, but can be bro
 | **Size:** | Large | Large | Large | Medium (6 ft long) |
 | **Move:** | 90 ft | 150 ft | 120 ft | 120 ft |
 | **Armour Class:** | 5 | 5 | 5 | 3 |
-| **Hit Dice:** | 6+1 | 4+2 | 4+2 | 6 |
+| **Hit Dice:** | 6 + 1 | 4 + 2 | 4 + 2 | 6 |
 | **Attacks:** | 2 | 1 | 1 | 2 |
 | **Damage:** | 1d4/2d4 | 1d4 | 1d4 | 1d4/1d4 |
 | **Special Attacks:** | Constriction | Poison | See below | Poison |
@@ -22799,17 +22838,17 @@ These creatures are usually a pale light grey with a white belly, but can be bro
 | **Alignment:** | Neutral | Neutral | Neutral | Neutral |
 | **Level/XP:** | 5/345+8/hp | 4/155+4/hp | 4/190+4/hp | 5/475+6/hp |
 
-<!-- printed as-is: NEW (Special Defences row prints "None-" with a trailing hyphen, for all four variants, same fault class found in file 22b's Centipede table, p.277, and this file's own Scorpion table, p.308) -->
+<!-- printed as-is: see errata E263 (Special Defences row prints "None-" with a trailing hyphen, for all four variants, same fault class found in file 22b's Centipede table, p.277, and this file's own Scorpion table, p.308) -->
 
 All giant snakes are carnivorous and can be found in every type of climate except for the coldest. NB: For giant sea snakes see the listing for *sea serpent*.
 
-**Boas** will drop on its prey from above, coiling its long body around the chosen target victim and attacking by both biting and squeezing for 2d4 points of damage. Once a snake has a victim within its coils it is quite difficult to release him or her. Several strong creatures creatures can grasp each end of the snake and uncoil the victim in 1d4+1 segments. Four very strong humans, 16 or greater strength each, should be able to accomplish this task. Attacks directed against a snake will also affect the victim trapped within the snake coils, though the GM may allow certain types of attacks to not do so.
+**Boas** will drop on its prey from above, coiling its long body around the chosen target victim and attacking by both biting and squeezing for 2d4 points of damage. Once a snake has a victim within its coils it is quite difficult to release him or her. Several strong creatures creatures <!-- printed as-is: see errata E264 --> can grasp each end of the snake and uncoil the victim in 1d4+1 segments. Four very strong humans, 16 or greater strength each, should be able to accomplish this task. Attacks directed against a snake will also affect the victim trapped within the snake coils, though the GM may allow certain types of attacks to not do so.
 
 **Adder** is the common name for giant poisonous snakes and they come in a variety of species. The poisons are usually negated by a saving throw but some types of adders have a powerful poison which, even if saved against, causes 3d6 points of damage to the victim.
 
 **Cobras** are hooded giant snakes with the ability to spit poison at a single target up to 30 ft distant. The bite of the giant cobra is also quite poisonous. In either case, the victim gets a saving throw to negate the poison.
 
-**Amphisbaena** are 6 ft long snakes with a head at both ends of its body. Both heads are capable of delivering a poisonous bite and victims must save vs poison or die instantly. Its method of travel is as bizarre as the creature's appearance, one head of this unusual snake will grab the neck of the other and the creature then rolls like a hoop upon the ground!
+**Amphisbaena** are 6 ft long snakes with a head at both ends of its body. Both heads are capable of delivering a poisonous bite and victims must save vs poison or die instantly. Its method of travel is as bizarre as the creature’s appearance, one head of this unusual snake will grab the neck of the other and the creature then rolls like a hoop upon the ground!
 
 Amphisbaena are carnivorous and like most other reptiles, are cold-blooded and prefer warmer climes. Oddly enough, the amphisbaena is immune to cold based attacks, though the sages are at a loss as to why this is so.
 
@@ -22839,13 +22878,13 @@ Gynosphinxes prefer the rare androsphinxes as mates, but matings with any of the
 - **Alignment:** Neutral/Neutral good
 - **Level/XP:** 7/1,500+4/hp
 
-The Androsphinx is a more serious-minded creature than his female counterpart. Like the Gynosphinx, the Androsphinx is a winged lion with a human torso (male though, as the name implies). Also like their female  counterparts, <!-- printed as-is: NEW --> the Androsphinx love intellectual pursuits and will often  grant access to areas they are set to guard or <!-- printed as-is: NEW --> hoards they are watching  (providing doing so does not <!-- printed as-is: NEW -->
+The Androsphinx is a more serious-minded creature than his female counterpart. Like the Gynosphinx, the Androsphinx is a winged lion with a  human <!-- printed as-is: see errata E265 --> torso (male though, as the name implies). Also like their female  counterparts, <!-- printed as-is: see errata E266 --> the Androsphinx love intellectual pursuits and will often  grant access to areas they are set to guard or <!-- printed as-is: see errata E267 --> hoards they are watching  (providing doing so does not <!-- printed as-is: see errata E268 -->
 
 <!-- p.313 -->
 
-break a prior agreement or endanger the  Androsphinx <!-- printed as-is: NEW --> in any way). Androsphinxes may be "hired" (if that is the right word) as guardians for a given treasure, place or thing for a while; they are circumspect in their acceptance of such duties and payment  must be made in full or they will <!-- printed as-is: NEW --> unleash their wrath on their would-be  employers upon <!-- printed as-is: NEW --> completion of the duties set.
+break a prior agreement or endanger the  Androsphinx <!-- printed as-is: see errata E269 --> in any way). Androsphinxes may be “hired” (if that is the right word) as guardians for a given treasure, place or thing for a while; they are circumspect in their acceptance of such duties and payment  must be made in full or they will <!-- printed as-is: see errata E270 --> unleash their wrath on their would-be  employers upon <!-- printed as-is: see errata E271 --> completion of the duties set.
 
-Androsphinx all have the ability to emit a deafening roar that  functions as a *horn of blasting*. <!-- printed as-is: NEW -->
+Androsphinx all have the ability to emit a deafening roar that  functions as a *horn of blasting*. <!-- printed as-is: see errata E272 -->
 
 ***Treasure:*** 10d8 gems (85%), 5d6 jewellery (75%), 2d4 magic items (70%).
 
@@ -22867,11 +22906,11 @@ Androsphinx all have the ability to emit a deafening roar that  functions as a *
 - **Alignment:** Neutral
 - **Level/XP:** 7/900+4/hp
 
-The storied Gynosphinx is a winged half-woman, half lion creature that dwells in arid climes amid abandoned tombs and the like. She is often found near ruins or caves, but occasionally prowls the desert. The chief pursuits of the Gynosphinx are intellectual; their kind prefers  riddles and <!-- printed as-is: NEW --> puzzles and complex games to (almost) any other type of activity.
+The storied Gynosphinx is a winged half-woman, half lion creature that dwells in arid climes amid abandoned tombs and the like. She is often found near ruins or caves, but occasionally prowls the desert. The chief pursuits of the Gynosphinx are intellectual; their kind prefers  riddles and <!-- printed as-is: see errata E273 --> puzzles and complex games to (almost) any other type of activity.
 
-Although basically good in nature, the Gynosphinx is capricious and will not hesitate to "corner" a creature and demand some sort of  payment for release (usually in the form <!-- printed as-is: NEW --> of a song, story, a game of chess,  etc.). <!-- printed as-is: NEW --> Offers of payment in the form of material bribes are always welcome. Flattery can be used against these vain she-beasts as necessary.
+Although basically good in nature, the Gynosphinx is capricious and will not hesitate to “corner” a creature and demand some sort of  payment for release (usually in the form <!-- printed as-is: see errata E274 --> of a song, story, a game of chess,  etc.). <!-- printed as-is: see errata E275 --> Offers of payment in the form of material bribes are always welcome. Flattery can be used against these vain she-beasts as necessary.
 
-Less "magical" than their more human-seeming kin, the Criosphinx is a winged lion with the head of a ram. These creatures simply collect treasure and hunt much as other intelligent beings. They attack with front  claws and can <!-- printed as-is: NEW --> headbutt an opponent. On a successful roll of 20, a headbutted opponent is stunned for a single round.
+Less “magical” than their more human-seeming kin, the Criosphinx is a winged lion with the head of a ram. These creatures simply collect treasure and hunt much as other intelligent beings. They attack with front  claws and can <!-- printed as-is: see errata E276 --> headbutt an opponent. On a successful roll of 20, a headbutted opponent is stunned for a single round.
 
 ***Treasure:*** 3d6×1,000 sp (10%), 2d6×1,000 ep (15%), 1d8×1,000 gp (40%), 1d8×100 pp (30%), 3d8 gems (15%), 1d12 jewellery (10%), any three magic plus one potion and one scroll (25%).
 
@@ -22882,7 +22921,7 @@ Less "magical" than their more human-seeming kin, the Criosphinx is a winged lio
 - **Size:** Large (10 ft long)
 - **Move:** 150 ft; 240 ft flying (AA:III)
 - **Armour Class:** 0
-- **Hit Dice :** 7 <!-- printed as-is: NEW -->
+- **Hit Dice :** 7 <!-- printed as-is: see errata E277 -->
 - **Attacks:** 3
 - **Damage:** 1d6/1d6/1d12
 - **Special Attacks:** See below
@@ -22932,7 +22971,7 @@ Even the non-good aligned sphinx types hate these beasts and will not normally h
 - **Size:** Large
 - **Move:** 30 ft; 120 ft in web
 - **Armour Class:** 4
-- **HIT DICE :** 4+4 <!-- printed as-is: NEW -->
+- **HIT DICE :** 4+4 <!-- printed as-is: see errata E278 -->
 - **Attacks:** 1
 - **Damage:** 1d8
 - **Special Attacks:** Poison, webs
@@ -22943,7 +22982,7 @@ Even the non-good aligned sphinx types hate these beasts and will not normally h
 - **Alignment:** Chaotic evil
 - **Level/XP:** 4/325+5/hp
 
-Rather than being hunters, these creatures are like their common,  tiny cousins in that they build webs to ensnare <!-- printed as-is: NEW --> prey. In addition to their venomous bite, it takes 2 combat rounds to break free from their webs (+1 additional round for each point of strength below 17). In some fantasy worlds, such as those inspired by J.R.R. Tolkien's Middle Earth™, giant spiders can speak Common; in others, they are voiceless.
+Rather than being hunters, these creatures are like their common,  tiny cousins in that they build webs to ensnare <!-- printed as-is: see errata E279 --> prey. In addition to their venomous bite, it takes 2 combat rounds to break free from their webs (+1 additional round for each point of strength below 17). In some fantasy worlds, such as those inspired by J.R.R. Tolkien’s Middle Earth™, giant spiders can speak Common; in others, they are voiceless.
 
 ***Treasure:*** 2d6×1,000 cp (20%), 1d6×1,000 sp (25%), 1d4×1,000 ep (10%), 1d6 gems (25%), 1d3 jewellery (15%), 1d3 magic items (10%).
 
@@ -22965,7 +23004,7 @@ Rather than being hunters, these creatures are like their common,  tiny cousins 
 - **Alignment:** Neutral
 - **Level/XP:** 3/150+3/hp
 
-Huge spiders resemble hunting tarantulas and are capable of leaping a disturbing 30 ft directly at their prey. Their venom is relatively weak and saving throws made  against <!-- printed as-is: NEW --> it are at +3.
+Huge spiders resemble hunting tarantulas and are capable of leaping a disturbing 30 ft directly at their prey. Their venom is relatively weak and saving throws made  against <!-- printed as-is: see errata E280 --> it are at +3.
 
 ***Treasure:*** 4d6 cp (90%), 3d6 sp (80%), 2d6 ep (70%), 2d6 gp (60%), 1d6 pp (50%), 1d3 gems (40%).
 
@@ -22987,7 +23026,7 @@ Huge spiders resemble hunting tarantulas and are capable of leaping a disturbing
 - **Alignment:** Neutral
 - **Level/XP:** 2/75+2/hp
 
-Large spiders come in various shapes and colours. They are among the most frequently-encountered denizens of dungeons and ruins. Their venom is relatively weak and saving throws made  against <!-- printed as-is: NEW --> it are at +2.
+Large spiders come in various shapes and colours. They are among the most frequently-encountered denizens of dungeons and ruins. Their venom is relatively weak and saving throws made  against <!-- printed as-is: see errata E281 --> it are at +2.
 
 ***Treasure:*** 4d6 cp (90%), 3d6 sp (80%), 2d6 ep (70%), 2d6 gp (60%), 1d6 pp (50%).
 
@@ -23011,7 +23050,7 @@ Large spiders come in various shapes and colours. They are among the most freque
 - **Alignment:** Neutral
 - **Level/XP:** 5/700+6/hp
 
-The phase spider is so named because it is able to shift itself subtly in and out of reality during combat. The creature can stay out of phase, waiting to deliver its poisonous bite (victims save at -2; the creature is very deadly). If struck by a *phase door* spell, the phase spider  must remain in phase <!-- printed as-is: NEW --> for eight rounds. Becoming æthereal through magic  or <!-- printed as-is: NEW --> other means puts attackers in phase with the creature and they may  strike at it with no disadvantage. <!-- printed as-is: NEW --> The webs of this creature are highly sought after for the construction of bags of holding, etc.
+The phase spider is so named because it is able to shift itself subtly in and out of reality during combat. The creature can stay out of phase, waiting to deliver its poisonous bite (victims save at -2; the creature is very deadly). If struck by a *phase door* spell, the phase spider  must remain in phase <!-- printed as-is: see errata E282 --> for eight rounds. Becoming æthereal through magic  or <!-- printed as-is: see errata E283 --> other means puts attackers in phase with the creature and they may  strike at it with no disadvantage. <!-- printed as-is: see errata E284 --> The webs of this creature are highly sought after for the construction of bags of holding, etc.
 
 ***Treasure:*** 1d10×1,000 cp (20%), 1d10×1,000 sp (20%), 1d10×1,000 ep (20%), 1d10×1,000 gp (20%), 1d10×100 pp (20%), 1d4 gems (10%), 1d10 jewellery (10%), any three magic items plus one scroll (15%).
 
@@ -23033,7 +23072,7 @@ The phase spider is so named because it is able to shift itself subtly in and ou
 - **Alignment:** Neutral
 - **Level/XP:** 4/200+4/hp
 
-These are like their giant land-based cousins in most respects. They  differ in that they do not build webs *per se*, <!-- printed as-is: NEW --> rather; they build  underwater lairs and carefully transfer <!-- printed as-is: NEW --> air trapped in web-sacs to the lairs. They can hide within and wait for unwary swimmers, whereupon they will  scuttle out and drag their prey down, poisoning them,  and removing them to their lair to consume. <!-- printed as-is: NEW -->
+These are like their giant land-based cousins in most respects. They  differ in that they do not build webs *per se*, <!-- printed as-is: see errata E285 --> rather; they build  underwater lairs and carefully transfer <!-- printed as-is: see errata E286 --> air trapped in web-sacs to the lairs. They can hide within and wait for unwary swimmers, whereupon they will  scuttle<!-- printed as-is: see errata E287 --> out and drag their prey down, poisoning them, cocooning them,  and removing them to their lair to consume. <!-- printed as-is: see errata E288 -->
 
 As their lairs are air-filled, if the creature is slain, these places may be used for one hour for creatures that require air to breathe.
 
@@ -23065,7 +23104,7 @@ A typical squealer is the size and weight of a large gorilla, and has a third ar
 
 with two claws and a bite. If both arm attacks succeed, it will hold its opponent fast and fall upon it from the tree-limbs, inflicting an automatic 1d10 hp damage and thereafter attacking with its hind feet as well (increasing to 5 attacks, damage 1d6+6/1d4/1d4/1d4/1d4).
 
-***Treasure:*** Usually none, but some incidental treasure may arise; cf. the listing for aurumvorax for details.
+***Treasure:*** Usually none, but some incidental treasure may arise; cf. the listing for aurumvora× for details.
 
 ## Stirge
 
@@ -23087,7 +23126,7 @@ with two claws and a bite. If both arm attacks succeed, it will hold its opponen
 
 Stirges are bat-like flying mammals. They live in dark places and feed on blood.
 
-A stirge attacks as a 4 hit dice creature. Once it has hit, the stirge has latched onto its victim and will continue draining the victim of 1d3 hp worth of blood per round, without needing any further rolls "to hit", until the stirge has drunk 10-13 (9+1d4) hp worth of blood, at which time its hunger is satisfied and it will attempt to depart. Only death will prevent the stirge feeding once it has latched on.
+A stirge attacks as a 4 hit dice creature. Once it has hit, the stirge has latched onto its victim and will continue draining the victim of 1d3 hp worth of blood per round, without needing any further rolls “to hit”, until the stirge has drunk 10-13 (9+1d4) hp worth of blood, at which time its hunger is satisfied and it will attempt to depart. Only death will prevent the stirge feeding once it has latched on.
 
 ***Treasure:*** 1d8×1,000 cp (10%), 1d12×1,000 sp (15%), 1d8×1,000 ep (15%), 1d6×1,000 gp (50%), 2d6 gems (50%), 1d6 jewellery (25%), 1d2 magic items + 1 potion (15%).
 
@@ -23111,7 +23150,7 @@ A stirge attacks as a 4 hit dice creature. Once it has hit, the stirge has latch
 
 Stunjellies appear, at a distance, to be no more than a normal section of wall, but should any individual stray too close, they will turn translucent and attack. Most known examples occupy an area 10 ft wide by 10 ft high and 2 to 5 ft thick, but larger versions have occasionally been reported.
 
-It is very likely that a Stunjelly will catch its victim by surprise. In addition to the 2d4 damage its mutable tendrils inflict upon a its prey, <!-- printed as-is: NEW --> a saving throw vs paralysis must also be made; failure renders the unfortunate unable to move for 5d4 rounds, which the Stunjelly uses to engulf its victim and begin the process of digestion. Stunjellies are themselves immune to paralysis, as well as polymorph, electrical attacks and mind influencing spells.
+It is very likely that a Stunjelly will catch its victim by surprise. In addition to the 2d4 damage its mutable tendrils inflict upon a its prey, <!-- printed as-is: see errata E289 --> a saving throw vs paralysis must also be made; failure renders the unfortunate unable to move for 5d4 rounds, which the Stunjelly uses to engulf its victim and begin the process of digestion. Stunjellies are themselves immune to paralysis, as well as polymorph, electrical attacks and mind influencing spells.
 
 ***Treasure:*** Stunjellies carry only what they have consumed.
 
@@ -23170,7 +23209,7 @@ movement rate, armour class, and damage caused by titans is as follows:
 
 Titans may *levitate* at will, and twice per day can either become *invisible* or shift into the æthereal plane. In addition to these innate abilities, all titans have the ability to cast both clerical and magic spells. For each type of spell, roll 1d4+3. This number represents the maximum spell level the titan can cast for that type of spell. The titan can cast 2 spells of each level.
 
-***Example:*** the die rolls result in a 4 for magic spells and a 6 for clerical spells. The titan would be able to cast 2 first level magic spells, 2 second level, 2 third level and 2 fourth level. He or she would also be able to cast 2 first level clerical spells, 2 second level, 2 third level, 2 fourth level, 2 fifth level, and 2 sixth level.
+***E×ample:*** the die rolls result in a 4 for magic spells and a 6 for clerical spells. The titan would be able to cast 2 first level magic spells, 2 second level, 2 third level and 2 fourth level. He or she would also be able to cast 2 first level clerical spells, 2 second level, 2 third level, 2 fourth level, 2 fifth level, and 2 si×th level.
 
 Titans are immune to all mental attacks, and may have mental powers if the GM makes use of psionics in the campaign. It is possible (20% chance) that a titan will be accompanied by a storm giant, for the two races are friendly with each other.
 
@@ -23194,9 +23233,9 @@ Titans are immune to all mental attacks, and may have mental powers if the GM ma
 - **Alignment:** Neutral
 - **Level/XP:** 9/3,000+16/hp
 
-Trappers are underground predators, chameleon-like creatures with flat bodies like a manta ray. They are roughly square in shape, about 20 ft by 20 ft in size (larger and smaller trappers, with proportionally higher or lower hit dice have been encountered), but can alter their dimensions to a considerable degree. These dangerous creatures lie flat on dungeon floors, waiting for prey to step onto them. While waiting in this manner, trappers are completely indistinguishable from the surrounding floor, 95% likely to be completely undetectable without the use of magic. When potential prey steps onto the trapper, the monster whips upward to enfold all creatures standing on it. The trapper's stone-hard skin and powerful muscles are deadly. Victims enfolded in the trapper cannot use weapons and will suffocate in 6 rounds. Moreover, before suffocating, victims will suffer 4hp damage per round plus 1 hp per point of armour class. As noted above, trappers take half damage from fire and cold, and no damage at all from such attacks if the monster is entitled to a saving throw and succeeds.
+Trappers are underground predators, chameleon-like creatures with flat bodies like a manta ray. They are roughly square in shape, about 20 ft by 20 ft in size (larger and smaller trappers, with proportionally higher or lower hit dice have been encountered), but can alter their dimensions to a considerable degree. These dangerous creatures lie flat on dungeon floors, waiting for prey to step onto them. While waiting in this manner, trappers are completely indistinguishable from the surrounding floor, 95% likely to be completely undetectable without the use of magic. When potential prey steps onto the trapper, the monster whips upward to enfold all creatures standing on it. The trapper’s stone-hard skin and powerful muscles are deadly. Victims enfolded in the trapper cannot use weapons and will suffocate in 6 rounds. Moreover, before suffocating, victims will suffer 4hp damage per round plus 1 hp per point of armour class. As noted above, trappers take half damage from fire and cold, and no damage at all from such attacks if the monster is entitled to a saving throw and succeeds.
 
-***Treasure:*** 1d4×10,000 gp (50%), 1d20×100 pp (50%), 5d4 gems (30%), 1d10 jewellery (10%), 1 potion, 1 scroll, and 3 other magic items (excluding weapons) (30%)
+***Treasure:*** 1d4×10,000 gp (50%), 1d20×100 pp (50%), 5d4 gems (30%), 1d10 jewellery (10%), 1 potion, 1 scroll, and 3 other magic items (e×cluding weapons) (30%)
 
 ## Triton
 
@@ -23215,11 +23254,11 @@ Trappers are underground predators, chameleon-like creatures with flat bodies li
 - **Intelligence:** High+
 - **Alignment:** Neutral good
 - **Level/XP:**
-  - Warrior 110+2/hp
-  - Leader (4HD) 145 + 3/hp
-  - Leader (5HD) 190 + 4/hp
-  - Leader (6HD) 280 + 6/hp
-  - Leader (9HD) 1,000 + 12/hp
+    - Warrior 110+2/hp
+    - Leader (4HD) 145 + 3/hp
+    - Leader (5HD) 190 + 4/hp
+    - Leader (6HD) 280 + 6/hp
+    - Leader (9HD) 1,000 + 12/hp
 
 Tritons resemble humans, but have two fish-like tails instead of legs. These aquatic creatures can live in any depth
 
@@ -23246,9 +23285,9 @@ Tritons are civilised, dwelling in castles beneath the waves (80% chance) or ela
 - 1 cleric level 1d4+7
 - 4 clerics level 1d4+5
 - 60+1d6×10 non-combatant females
-- 60+ 1d6×-10 non-combatant children <!-- printed as-is: NEW -->
+- 60+ 1d6×-10 non-combatant children <!-- printed as-is: see errata E290 -->
 
-***Treasure:*** In lair only: 1d12×1000cp (20%); 1d6×1000sp (30%); 1d4×1000ep (10%); 1d6 gems (25%); 1d3 jewellery (20%); any 2 magic items (10%); 2d4×1000gp (40%); 1d6×1000pp (50%); 4d8 gems (55%); 1d12 jewellery (45%); 2d4 potions (40%); 1d4 scrolls (50%); 1 miscellaneous magic and 1 potion (60%). <!-- printed as-is: NEW -->
+***Treasure:*** In lair only: 1d12×1000cp (20%); 1d6×1000sp (30%); 1d4×1000ep (10%); 1d6 gems (25%); 1d3 jewellery (20%); any 2 magic items (10%); 2d4×1000gp (40%); 1d6×1000pp (50%); 4d8 gems (55%); 1d12 jewellery (45%); 2d4 potions (40%); 1d4 scrolls (50%); 1 miscellaneous magic and 1 potion (60%). <!-- printed as-is: see errata E291 -->
 
 ## Vilstrak
 
@@ -23270,7 +23309,7 @@ Tritons are civilised, dwelling in castles beneath the waves (80% chance) or ela
 
 Vilstrak have a rocky hide that allows them to blend well with their subterranean habitat, using an innate ability to merge with the rocks. These monsters are 75% undetectable until closer than 20 ft, at which point they often move to attack with their massive fists.
 
-These creatures tend to lair in hollows of rock and earth. These lairs are difficult to readily access by any being unable to pass through earth and stone, though with some time and effort the opening can be widened enough to allow entry and access to the treasure, gleaned from the vilstrak's victims, stored therein.
+These creatures tend to lair in hollows of rock and earth. These lairs are difficult to readily access by any being unable to pass through earth and stone, though with some time and effort the opening can be widened enough to allow entry and access to the treasure, gleaned from the vilstrak’s victims, stored therein.
 
 Vilstrak appear as a 6 ft tall cross between a human and a bug and has a hide with the consistency of heavy rock. Its forearms are half again longer than that of a human and much more massive, ending in two heavy fists.
 
@@ -23296,7 +23335,7 @@ Vilstrak appear as a 6 ft tall cross between a human and a bug and has a hide wi
 
 Volts are peculiar, magical creatures that attack almost anything that ventures near their lair. They appear as little balls of grey fur with two protruding eyes and a long, whip-like tail that crackles with electricity.
 
-If the creature's bite attack succeeds, it has latched onto its target and will do normal bite damage (1d4 hp) automatically every round. At the same time it will lash its foe with its tail. The tail attack inflicts a strong electric shock (2d6 hp damage). Only victims not wearing metal armour receive a saving throw against this damage, and any victim wearing metal armour is treated as unarmoured (AC 10) for the purposes of the volt's attack.
+If the creature’s bite attack succeeds, it has latched onto its target and will do normal bite damage (1d4 hp) automatically every round. At the same time it will lash its foe with its tail. The tail attack inflicts a strong electric shock (2d6 hp damage). Only victims not wearing metal armour receive a saving throw against this damage, and any victim wearing metal armour is treated as unarmoured (AC 10) for the purposes of the volt’s attack.
 
 Volt lairs usually smell slightly of ozone.
 
@@ -23343,7 +23382,7 @@ Vulchlings can be found in desolate areas or underground, and they have been kno
 - **Special Defences:** None
 - **Magic Resistance:** Standard
 - **Lair Probability:** 25%
-- **Intelligence:** Non <!-- printed as-is: NEW -->
+- **Intelligence:** Non <!-- printed as-is: see errata E292 -->
 - **Alignment:** Neutral
 - **Level/XP:** 5/300 + 3/hp
 
@@ -23371,9 +23410,9 @@ Although giant wasps are aerial agility level V, they can hover.
 - **Alignment:** Chaotic evil
 - **Level/XP:** 7/1,400+12/hp
 
-Will-o-the-wisps are strange, fey creatures that resemble dancing lights or torches. Living in desolate and dangerous locations, they seek to draw unwary travellers into bogs or quicksand. Will-o-the-wisps are immune to all spells with the exception of protection from evil, magic missile, and maze. If a will-o-the-wisp is clearly faced with death in combat, it will bargain the location of its treasure in exchange for freedom. The range of a will-o-the-wisp's electric shock attack is 10 ft.
+Will-o-the-wisps are strange, fey creatures that resemble dancing lights or torches. Living in desolate and dangerous locations, they seek to draw unwary travellers into bogs or quicksand. Will-o-the-wisps are immune to all spells with the exception of protection from evil, magic missile, and maze. If a will-o-the-wisp is clearly faced with death in combat, it will bargain the location of its treasure in exchange for freedom. The range of a will-o-the-wisp’s electric shock attack is 10 ft.
 
-***Treasure:*** 1d3×1000 cp (20%); 1d4×1000 sp (25%); 1d4×1000 ep (25%); 1d4×1000 gp (30%); 1d6×100 pp (30%); 10d6 gems (55%); 5d6 jewellery (50%); 1d3 magic items (50%) <!-- printed as-is: NEW -->
+***Treasure:*** 1d3×1000 cp (20%); 1d4×1000 sp (25%); 1d4×1000 ep (25%); 1d4×1000 gp (30%); 1d6×100 pp (30%); 10d6 gems (55%); 5d6 jewellery (50%); 1d3 magic items (50%) <!-- printed as-is: see errata E293 -->
 
 ## Wyvern
 
@@ -23393,7 +23432,7 @@ Will-o-the-wisps are strange, fey creatures that resemble dancing lights or torc
 - **Alignment:** Neutral evil
 - **Level/XP:** 6/850+10/hp
 
-Wyverns are distant cousins of dragons, extremely voracious but dull of intellect. They do not have front legs, and cannot attack effectively with their hind legs. In combat, wyverns rely on their bite and deadly poison stinger. If a character is hit with the wyvern's sting, in addition to the normal damage he must save vs poison or fall dead.
+Wyverns are distant cousins of dragons, extremely voracious but dull of intellect. They do not have front legs, and cannot attack effectively with their hind legs. In combat, wyverns rely on their bite and deadly poison stinger. If a character is hit with the wyvern’s sting, in addition to the normal damage he must save vs poison or fall dead.
 
 ***Treasure:*** (in lair only) 1d10×1,000 cp (5%); 1d12×1,000 sp (25%); 1d6×1,000 ep (25%); 1d8×1,000 gp (25%); 1d12 gems (15%); 1d8 jewellery (15%); 3 magic items plus 1 scroll (25%).
 
@@ -23418,13 +23457,13 @@ Wyverns are distant cousins of dragons, extremely voracious but dull of intellec
 - **Alignment:** Neutral
 - **Level/XP:** 7/1,350+10/hp
 
-Xorn are bizarre creatures from the elemental planes of earth that eat precious metals and other minerals. They have a rock-like consistency, granting an extremely good armour class, and appear to be made of stone. Xorn have a barrel-shaped body, radially symmetrical with three eyes, three arms, three stubby legs, and a powerful mouth set in the top of the creature's body. The stone-like appearance grants the xorn a tremendously good chance of surprising its enemies.
+Xorn are bizarre creatures from the elemental planes of earth that eat precious metals and other minerals. They have a rock-like consistency, granting an extremely good armour class, and appear to be made of stone. Xorn have a barrel-shaped body, radially symmetrical with three eyes, three arms, three stubby legs, and a powerful mouth set in the top of the creature’s body. The stone-like appearance grants the xorn a tremendously good chance of surprising its enemies.
 
 Xorn are immune to fire and cold damage, and take only half damage from electrical attacks (no damage when saving throws are successful). A xorn can swim through stone, but requires a full melee round to enter solid rock, during which time it cannot attack. A *phase door* spell will utterly destroy a xorn that is travelling through rock or readjusting its composition.
 
-Xorn are particularly vulnerable to spells that affect earth and stone. *Move earth* spells may be used to hurl a xorn backwards 30ft and stun them for a full round. *Stone to flesh* and *rock to mud* spells weaken the xorn's elemental structure, increasing the creature's AC to 8 until the xorn concentrates for a full round to readjust its composition. *Passwall* spells inflict 1d10+10 points of damage with no saving throw.
+Xorn are particularly vulnerable to spells that affect earth and stone. *Move earth* spells may be used to hurl a xorn backwards 30ft and stun them for a full round. *Stone to flesh* and *rock to mud* spells weaken the xorn’s elemental structure, increasing the creature’s AC to 8 until the xorn concentrates for a full round to readjust its composition. *Passwall* spells inflict 1d10+10 points of damage with no saving throw.
 
-***Treasure:*** 1d4×1,000 cp (25%), 1d8×1,000 sp (30%), 1d2×1,000 ep (25%), 2d6×1,000- gp (70%), <!-- printed as-is: NEW --> 5d4 gems (50%), 1 misc. magic + 1 potion (60%)
+***Treasure:*** 1d4×1,000 cp (25%), 1d8×1,000 sp (30%), 1d2×1,000 ep (25%), 2d6×1,000- gp (70%), <!-- printed as-is: see errata E294 --> 5d4 gems (50%), 1 misc. magic + 1 potion (60%)
 
 ## Yeti
 
@@ -23433,7 +23472,7 @@ Xorn are particularly vulnerable to spells that affect earth and stone. *Move ea
 - **Size:** Large (8 ft tall)
 - **Move:** 150 ft
 - **Armour Class:** 6
-- **Hit Dice:** 4+4
+- **Hit Dice:** 4 + 4
 - **Attacks:** 2
 - **Damage:** 1d6/1d6
 - **Special Attacks:** See below
@@ -23448,7 +23487,7 @@ Yeti are tall and vaguely ape-like humanoids completely covered in thick white h
 
 In combat the yeti attacks with its clawed hands and if it strikes with a roll of a natural 20 it has grabbed its opponent and squeezed him or her in its powerful arms, inflicting another 2d8 points of damage (cold-resistant creatures take only 1d8 points of damage from this attack).
 
-If surprised by a yeti, an adventurer must roll a saving throw vs paralysis. Failing the save means he or she has inadvertently looked into the creature's eyes and has been struck with intense fright and unable to move or react for 3 melee rounds. During this time, the unfortunate victim will be both struck twice and suffer the squeezing attack of the yeti twice.
+If surprised by a yeti, an adventurer must roll a saving throw vs paralysis. Failing the save means he or she has inadvertently looked into the creature’s eyes and has been struck with intense fright and unable to move or react for 3 melee rounds. During this time, the unfortunate victim will be both struck twice and suffer the squeezing attack of the yeti twice.
 
 Because of their extreme adaptation to living in cold climates, yeti suffer 50% greater damage from heat and fire based attacks. Because of their colouration and habitat, yeti are virtually invisible until within 20 ft of their prey, though higher-level characters have a 10% chance per level of spotting one at normal viewing ranges. Though yeti have no real use for treasure, they do realize its worth to other beings and, as such, a random collection of coins and valuables can be found in their lairs.
 
@@ -23467,13 +23506,13 @@ Yeti lairs usually comprise a pod of 1 male, 1d4 females, and 1d4 + 1 younglings
 
 ## CHAPTER VI: TREASURE
 
-In OSRIC, "treasure" comprises maps, coin, gemstones, jewellery, and magic items. In many cases, treasure will come from monsters the characters defeat (see Chapter V for details of the treasure each creature possesses). However, it may also be found in dungeons in other circumstances, either unguarded (rarely!) or protected by a trick or trap.
+In OSRIC, “treasure” comprises maps, coin, gemstones, jewellery, and magic items. In many cases, treasure will come from monsters the characters defeat (see Chapter V for details of the treasure each creature possesses). However, it may also be found in dungeons in other circumstances, either unguarded (rarely!) or protected by a trick or trap.
 
 This chapter contains systems for randomly determining treasure. The GM should employ these systems with care and thought, and the general principle should be that any treasure awarded reflects the difficulty in obtaining it—so, for example, if the dice show that a small sickly rat or kobold in the upper dungeon levels possesses some enormously valuable treasure such as a great jewel or major magic item, the GM should give thought to reducing the award!
 
 There is no duty on the GM to award treasure for each and every challenge the party might overcome. Some monsters, particularly wandering monsters, should have no treasure at all! Likewise some tricks or traps may not be associated with any reward to the party.
 
-Give thought to how an intelligent monster protects its treasure. As a rule, treasure will be carried on a creature's person if it can use it (or might need to use it) at short notice, but treasure not immediately needed will be concealed somewhere.
+Give thought to how an intelligent monster protects its treasure. As a rule, treasure will be carried on a creature’s person if it can use it (or might need to use it) at short notice, but treasure not immediately needed will be concealed somewhere.
 
 If a dungeon treasure is associated with no particular creature, the following table may be used to determine its nature:
 
@@ -23493,11 +23532,11 @@ If a dungeon treasure is associated with no particular creature, the following t
 
 Maps do not feature in the random tables because the GM will need to prepare them in advance; they should appear in hand-crafted areas rather than randomly-rolled ones. They are, nevertheless, valuable treasure to a clever player character. A map could indicate the location of a treasure outside the dungeon, thus becoming an adventure in its own right—or it could not show a treasure at all, but indicate where a powerful vampire lairs, or the location of a particularly fiendish trap, in which case it will still be of value to the party.
 
-Maps can be literal maps or charts where × marks the spot, but they do not need to be. A note that says "The wand is lost—I dropped it somewhere in the sewers" or "The Shield of Shadows must lie beyond the Green Portal" is a minor map of sorts.
+Maps can be literal maps or charts where × marks the spot, but they do not need to be. A note that says “The wand is lost—I dropped it somewhere in the sewers” or “The Shield of Shadows must lie beyond the Green Portal” is a minor map of sorts.
 
 ### COIN
 
-Coin is the simplest treasure for the GM to administer, but should still be awarded intelligently. OSRIC coins are heavy, and  weight is a significant drawback if the players locate a substantial sum in copper or silver.<!-- printed as-is: NEW --> The GM should ensure the players feel the force of this drawback.
+Coin is the simplest treasure for the GM to administer, but should still be awarded intelligently. OSRIC coins are heavy, and  weight is a significant drawback if the players locate a substantial sum in copper or silver.<!-- printed as-is: see errata E295 --> The GM should ensure the players feel the force of this drawback.
 
 In an upper dungeon level, few treasures should consist of gold without silver or copper, or platinum without gold and silver, so if the dice indicate 500 gp on dungeon level 2, the GM might prefer to award 200 gp, 2,000 sp and 10,000 cp instead. In deeper dungeon levels, copper and silver will be relatively less frequent, although successful players will still have enormous piles of them on their hands.
 
@@ -23524,12 +23563,12 @@ Where the GM wishes to determine the value of a gem, the following table may be 
 
 **Changing Gem Value from Base:** This table is provided to assist GMs in determining value when the base value only of a gem is known. Reroll on a result of 1 or 0 only, as indicated on the table.
 
-- **1** Value increases by 1 step. Reroll and ignore any result greater than 8.*
-- **2** Value doubles.
-- **3** Value triples.
-- **4-8** No change to base value.
-- **9** Stone decreases in value by 1d4 × 10% percent.
-- **0** Value decreases by 1 step. Reroll and ignore a result of 1.**
+- 1 Value increases by 1 step. Reroll and ignore any result greater than 8.*
+- 2 Value doubles.
+- 3 Value triples.
+- 4-8 No change to base value.
+- 9 Stone decreases in value by 1d4 × 10% percent.
+- 0 Value decreases by 1 step. Reroll and ignore a result of 1.**
 
 *No stone may increase in value more than 7 steps. Stones of 5,000 gp value or greater increase in value by the following increments: 5,000—10,000—25,000—50,000—100,000—250,000—500,000—1,000,000 (the maximum value possible).
 
@@ -23599,15 +23638,15 @@ Where the GM wishes to determine the nature of a piece of jewellery, the table o
 | 96-97 | Toe-ring | 1-3 | 4-6 | 7-8 | 9 | 10 | |
 | 98-00 | Weapon-hilt | 1-3 | 4-6 | 7-8 | 9 | 10 | |
 
-**Note:** The description of the item as "silver", "gold", etc. is a guideline and the GM should interpret it to represent a broad category of value rather than its literal composition. A gold item could actually be high-quality filigree silver, ivory, or even enamelled bronze of superb workmanship. "Exceptional" quality may mean that the item is fashioned of platinum, mithril or some other extremely rare and valuable substance, or it may simply mean a very fine example of gem-encrusted gold.
+**Note:** The description of the item as “silver”, “gold”, etc. is a guideline and the GM should interpret it to represent a broad category of value rather than its literal composition. A gold item could actually be high-quality filigree silver, ivory, or even enamelled bronze of superb workmanship. “Exceptional” quality may mean that the item is fashioned of platinum, mithril or some other extremely rare and valuable substance, or it may simply mean a very fine example of gem-encrusted gold.
 
-The appraisal of jewellery is a complex and difficult skill. Gnomes frequently have the best eye for these matters, although thieves, assassins and dwarfs may also be able to hazard a guess. The GM should allow a possibility (depending on the circumstances) that a character may seriously underestimate or overestimate an object's value. For example, a gnomish thief assessing a silver ring might be accurate 99 times out of 100, but a dwarfish fighter assessing an exceptional orb might only have a 25% chance of doing so accurately.
+The appraisal of jewellery is a complex and difficult skill. Gnomes frequently have the best eye for these matters, although thieves, assassins and dwarfs may also be able to hazard a guess. The GM should allow a possibility (depending on the circumstances) that a character may seriously underestimate or overestimate an object’s value. For example, a gnomish thief assessing a silver ring might be accurate 99 times out of 100, but a dwarfish fighter assessing an exceptional orb might only have a 25% chance of doing so accurately.
 
 If the players appraise the value of the jewellery incorrectly, they will more than likely be fleeced when attempting to re-sell.
 
 ### MASTER MAGIC ITEM TABLES
 
-Random determination of magic items needs to be tempered with GM judgment and discretion. Lucky (or very unlucky) rolls on the treasure table should not be permitted to unbalance the game, and the GM should ensure that the party's power remains in proportion to their level of experience.
+Random determination of magic items needs to be tempered with GM judgment and discretion. Lucky (or very unlucky) rolls on the treasure table should not be permitted to unbalance the game, and the GM should ensure that the party’s power remains in proportion to their level of experience.
 
 | **d20** | **Result** |
 |---|---|
@@ -23738,7 +23777,7 @@ Random determination of magic items needs to be tempered with GM judgment and di
 | 07 | Invisibility | 7,500 |
 | 08-12 | Protection | see entry |
 | 13 | 01-25 Regeneration | 40,000 |
-| | 25-00 Spell Storing | 25,000 |
+| | 25-00 Spell Storing<!-- printed as-is: see errata E296 --> | 25,000 |
 | 14 | Spell Turning | 17,500 |
 | 15 | Swimming | 5,000 |
 | 16 | 01-50 Telekinesis | 10,000 |
@@ -23747,7 +23786,7 @@ Random determination of magic items needs to be tempered with GM judgment and di
 | 18-19 | Water Walking | 5,000 |
 | 20 | Wizardry | 50,000 |
 
-Determine the ring's appearance, apparent gold piece value, and gemstone (if any) using the jewellery table.
+Determine the ring’s appearance, apparent gold piece value, and gemstone (if any) using the jewellery table.
 
 **Rods Staves & Wands Table 1: Properties**
 
@@ -23997,7 +24036,7 @@ Determine the ring's appearance, apparent gold piece value, and gemstone (if any
 | 99 | Roll Twice on Table I | |
 | 00 | Roll Twice, Ignore Results >98 | |
 
-¹Roll 1d8: 1 = Level I, 2 = Level 2 and so on. On a result of 8, reroll. On a second roll of 8, roll new item.
+¹Roll 1d8: 1 = Level I, 2 = Level 2<!-- printed as-is: see errata E297 --> and so on. On a result of 8, reroll. On a second roll of 8, roll new item.
 
 ²Roll 1d4: 1 = Type I, 2 = Type II, 3 = Type III, 4 = Type IV
 
@@ -24007,7 +24046,7 @@ Determine the ring's appearance, apparent gold piece value, and gemstone (if any
 
 | **d%** | **Result** | **Value (gp)** |
 |---|---|---|
-| 01 | Ahmek's Copious Coin Purse | 30,000 |
+| 01 | Ahmek’s Copious Coin Purse | 30,000 |
 | 02 | Alchemy Jug | 12,000 |
 | 03 | Amulet of Health | 2,000 |
 | 04 | Amulet of the Planes | 120,000 |
@@ -24072,7 +24111,7 @@ Determine the ring's appearance, apparent gold piece value, and gemstone (if any
 | 61 | Stone of Controlling Earth Elementals | 100,000 |
 | 62 | Stone of Good Luck | 20,000 |
 | 63 | Stone Salve | 4,000 |
-| 64 | Vestment, Druid's | 10,000 |
+| 64 | Vestment, Druid’s | 10,000 |
 | 65 | Well of Many Worlds | 82,000 |
 | 66-75 | Roll Twice on Table I | |
 | 76-85 | Roll Once on Table I & Once on Table II | |
@@ -24114,7 +24153,7 @@ Determine the ring's appearance, apparent gold piece value, and gemstone (if any
 | 35-36 | Helm of Teleportation | 73,500 |
 | 37-38 | Horn of Blasting | 20,000 |
 | 39-40 | Horn of Blasting, Greater | 70,000 |
-| 41-32 | Ioun Stones¹<!-- printed as-is: NEW --> | see table IV-A |
+| 41-32 | Ioun Stones¹<!-- printed as-is: see errata E298 --> | see table IV-A |
 | 43-44 | Lyre of Building | 13,000 |
 | 45-46 | Manual of Bodily Health | 4,000 |
 
@@ -24134,7 +24173,7 @@ Determine the ring's appearance, apparent gold piece value, and gemstone (if any
 | 65-66 | Robe of Eyes | 120,000 |
 | 67-68 | Robe of Scintillating Colours | 27,000 |
 | 69-70 | Robe of the Archmagi | 75,000 |
-| 71-72 | Sagacious Volume | 50,000312<!-- printed as-is: NEW --> |
+| 71-72 | Sagacious Volume | 50,000312<!-- printed as-is: see errata E299 --> |
 | 73-74 | Shrouds of Disintegration | 6,600 |
 | 75-76 | Tome of Clear Thought | 27,500 |
 | 77-78 | Tome of Leadership and Influence | 27,500 |
@@ -24171,11 +24210,11 @@ Determine the ring's appearance, apparent gold piece value, and gemstone (if any
 | 97-99 | Reroll twice, ignoring results > 96 | |
 | 00 | Reroll thrice, ignoring result > 96 | |
 
-**Note:** Many magic items are restricted in who can use them. Where this applies, the character classes are listed in abbreviated form within the item description. The following notation is used: **Item (Classes)** where, under "classes", "A" means "assassin", "C" means "cleric", "D" means "druid", "F" means "fighter", "I" means "illusionist", "M" means "magic user", "P" means "paladin", "R" means "ranger" and "T" means "thief".
+**Note:** Many magic items are restricted in who can use them. Where this applies, the character classes are listed in abbreviated form within the item description. The following notation is used: **Item (Classes)** where, under “classes”, “A” means “assassin”, “C” means “cleric”, “D” means “druid”, “F” means “fighter”, “I” means “illusionist”, “M” means “magic user”, “P” means “paladin”, “R” means “ranger” and “T” means “thief”.
 
 ### POTIONS
 
-Although potions can be found in a variety of containers, including glass, ceramic, or metal flasks, most contain only one dose that imbues their potion's particular effects for one individual. Most potions bear no label and require a small amount to be sampled in order to attempt to identify the potion type. This is not without error, and potions of the same type may differ in their aroma or taste depending on how they were made.
+Although potions can be found in a variety of containers, including glass, ceramic, or metal flasks, most contain only one dose that imbues their potion’s particular effects for one individual. Most potions bear no label and require a small amount to be sampled in order to attempt to identify the potion type. This is not without error, and potions of the same type may differ in their aroma or taste depending on how they were made.
 
 As a standard rule, potions take effect 1d4+1 segments after consumption, and last for 1d4 turns. This principle is superseded where the specific potion description indicates otherwise. Potions can normally be consumed in half doses, so that half the potion is consumed and operates for half the duration.
 
@@ -24185,7 +24224,7 @@ The creation of potions requires the joint efforts of magic users and alchemists
 
 Magic potions store a great deal of eldritch energy and, as any alchemist or mage can attest, require a lot of careful preparation. The random admixture of potions can have unpredictable results and only the foolish or desperate will undertake such an action. Admixture of two or more potions has occurred when the liquid of one potion is mixed with that of another, or a potion is consumed while a previously consumed potion remains in effect. The former is considered an external admixture and the latter an internal one.
 
-Presented here for the GM's consideration are a set of guidelines for handling these situations. A particularly industrious referee might wish to map out a complete matrix of effects to be used any time a potion is mixed with another. While this would be of use, the matrices would have to be updated with each introduction of a new potion. Additionally, the different formulations of a potion are not accounted for in such a matrix. OSRIC uses a set of guidelines combined with a random table to achieve a similar result with far less effort, as follows:
+Presented here for the GM’s consideration are a set of guidelines for handling these situations. A particularly industrious referee might wish to map out a complete matrix of effects to be used any time a potion is mixed with another. While this would be of use, the matrices would have to be updated with each introduction of a new potion. Additionally, the different formulations of a potion are not accounted for in such a matrix. OSRIC uses a set of guidelines combined with a random table to achieve a similar result with far less effort, as follows:
 
 <!-- p.329 -->
 
@@ -24195,7 +24234,7 @@ Mixing a *potion* of *clairaudience* or *clairvoyance* with any other potion wil
 
 | **d%** | **Result** |
 |---|---|
-| 01 | Eldritch blast! A catastrophic release of magical energies. This massive energy discharge does 6d10 points of internal damage and 1d10 points of damage to anyone with 10 ft of the imbiber. If mixed externally, all persons within 10 ft of the epicentre of the blast take 4d6 points of damage, no saving throw allowed. |
+| 01 | Eldritch blast! A catastrophic release of magical energies. This massive energy discharge does 6d10 points of internal damage and 1d10 points of damage to anyone with 10 ft<!-- printed as-is: see errata E300 --> of the imbiber. If mixed externally, all persons within 10 ft of the epicentre of the blast take 4d6 points of damage, no saving throw allowed. |
 | 02-03 | Poison, causing instant death if mixed internally, no save. External admixtures create a poisonous cloud 10 ft in diameter. Anyone within the cloud must save versus poison or die. |
 | 04-07 | A strange brew results and imbiber sickens, losing 1d4 each strength and dexterity for 4d6 rounds, no saving throw. One potion is completely nullified and the other works at 50% strength and duration, determined randomly. |
 | 08-12 | The potions cancel each other out. |
@@ -24225,17 +24264,17 @@ Note that unless the drinker of this potion has some other means of directly com
 
 **Climbing (any):** This potion lasts for 1 turn + 5d5 rounds, during which time the drinker gains the ability to climb like a thief with 99% ability (a roll of 00 means failure). However, the odds of failure increase by 1% for every 1,000 gp worth of weight carried. Furthermore, the type of armour worn will influence climbing ability by decreasing the percentage chance of success as follows:
 
-- **-1%** Any type of magical armour
-- **-1%** Studded leather
-- **-2%** Ring mail
-- **-4%** Scale mail
-- **-7%** Chain mail
-- **-8%** Banded and splinted armour
-- **-10%** Plate mail
+- -1% Any type of magical armour
+- -1% Studded leather
+- -2% Ring mail
+- -4% Scale mail
+- -7% Chain mail
+- -8% Banded and splinted armour
+- -10% Plate mail
 
 **Delusion (any):** This potion is aptly named, for it convinces the drinker that the potion is of another type. If more than one person tastes this potion, there is a 90% chance they all will believe the potion to be of the same type. For example, a potion of clairaudience might convince the drinker there are sounds in the distance that do not truly exist.
 
-**Diminution (any):** This potion lasts for 1d4+7 turns. When drunk, the imbiber and everything carried will shrink to 5% of the person's original size. If only half of the potion is consumed, it will shrink the imbiber 50% of his or her original size.
+**Diminution (any):** This potion lasts for 1d4+7 turns. When drunk, the imbiber and everything carried will shrink to 5% of the person’s original size. If only half of the potion is consumed, it will shrink the imbiber 50% of his or her original size.
 
 **Dragon Control (any):** Drinking this potion grants the imbiber power equivalent to *charm monster* upon a dragon of a type determined by the table below. Each potion affects only one type of dragon unless otherwise indicated. The imbiber is able to control a dragon within 60 ft for the duration of 5d4 rounds. Roll on the table below for the specific type of dragon control potion.
 
@@ -24264,7 +24303,7 @@ Note that unless the drinker of this potion has some other means of directly com
 
 **Flying (any):** This potion grants the spell-like ability equivalent to the magic user spell of the same name.
 
-**Gaseous Form (any):** The person who quaffs this potion, in addition to all items on his or her person, takes on a translucent, gaseous consistency and floats at 30 ft per round. This speed can be different depending on natural wind speed in the environment or due to the effects of wind-altering spells. While in gaseous form, the person affected can flow below doors and other small spaces not sealed airtight. Although magical lightening and fire do the gaseous form full damage, while in gaseous form the imbiber is otherwise impervious to other attacks. However, double the normal damage is inflicted by a whirlwind. This potion must be fully imbibed to have effect.
+**Gaseous Form (any):** The person who quaffs this potion, in addition to all items on his or her person, takes on a translucent, gaseous consistency and floats at 30 ft per round. This speed can be different depending on natural wind speed in the environment or due to the effects of wind-altering spells. While in gaseous form, the person affected can flow below doors and other small spaces not sealed airtight. Although magical lightening<!-- printed as-is: see errata E301 --> and fire do the gaseous form full damage, while in gaseous form the imbiber is otherwise impervious to other attacks. However, double the normal damage is inflicted by a whirlwind. This potion must be fully imbibed to have effect.
 
 **Giant Control (any):** When imbibed, the drinker is able to control up to two giants in the same manner as the spell charm monster for 5d6 rounds. A saving throw is allowed, and if only one giant is affected it receives –4 to this roll. If two giants are affected they receive +2 to this roll. Each potion of giant control affects only one type of giant. Consult the table below.
 
@@ -24324,7 +24363,7 @@ and 32 hit dice/levels of these beings are affected. Only whole hit dice are con
 
 **Levitation (any):** When this potion is quaffed, the drinker is bestowed with the spell-like ability of *levitation*. The effects of this potion extend to the drinker only, but allow up to 6,000 gp of weight to be transported as well.
 
-**Longevity (any):** This potion makes the drinker 1d12 years younger. This restored youth is possible not only for natural ageing, but also for ageing from magic or creature effects. There is some small danger however, since each time a *potion of longevity* is consumed there is a cumulative 1% probability that all previous age reversals from potions of this type will be negated, raising the character's age to the age he or she would be without the effects of the potions. It is not possible to drink this potion in increments.
+**Longevity (any):** This potion makes the drinker 1d12 years younger. This restored youth is possible not only for natural ageing, but also for ageing from magic or creature effects. There is some small danger however, since each time a *potion of longevity* is consumed there is a cumulative 1% probability that all previous age reversals from potions of this type will be negated, raising the character’s age to the age he or she would be without the effects of the potions. It is not possible to drink this potion in increments.
 
 **Oil of Ætherealness (any):** This potion is not imbibed, but the thin oil is applied to a character and all of his or her belongings in order to achieve an æthereal state for 1d4+4 turns. It takes 3 rounds for the potion to take effect, and it can be negated earlier than the duration by applying a mildly acidic liquid. When æthereal, a character is invisible and can pass through any objects that are not also æthereal.
 
@@ -24338,7 +24377,7 @@ and 32 hit dice/levels of these beings are affected. Only whole hit dice are con
 
 **Polymorph (any):** This potion grants the spell-like ability to *polymorph self*, as the fourth level magic user spell.
 
-**Speed (any):** This potion doubles combat and movement ability for 5d4 rounds. Thus, if the imbiber can normally move at 90 ft, for the duration of this potion's effect the imbiber can move at 180 ft. The number of attacks available double as well, but this potion does not decrease spell-casting time. This heightened ability does not come without cost, for the strain it puts on the imbiber's body ages him or her by 1 year permanently.
+**Speed (any):** This potion doubles combat and movement ability for 5d4 rounds. Thus, if the imbiber can normally move at 90 ft, for the duration of this potion’s effect the imbiber can move at 180 ft. The number of attacks available double as well, but this potion does not decrease spell-casting time. This heightened ability does not come without cost, for the strain it puts on the imbiber’s body ages him or her by 1 year permanently.
 
 **Super-Heroism (FPR):** Unlike the *potion of heroism*, the effects of this potion last 5d6 rounds. Extra levels and their accompanied benefits to combat are temporarily granted to the imbiber, determined by his or her experience level as shown in the table below. Characters above 12th level receive no benefit.
 
@@ -24356,7 +24395,7 @@ and 32 hit dice/levels of these beings are affected. Only whole hit dice are con
 
 **Treasure Finding (any):** For 5d4 rounds, the imbiber of this potion can sense any treasure within 240 ft containing valuable metals or gems. In order to be detected, the total value of the treasure must meet or exceed any combination of 50 gp or 100 gems. Any valuable metal meeting this value in quantity is detectable, and any gems, including those in jewellery, are detectable. Although the direction of the treasure can be sensed, the precise distance cannot. No physical barrier will impede detection, except some magical wards or lead.
 
-**Undead Control (any):** Normally undead are immune to *charm*. However, when quaffed this potion grants the drinker the ability to charm undead (intelligent or otherwise) as the *charm person* spell. Only intelligent undead are allowed a saving throw vs magic, with a penalty of 2. A total of 16 hit dice of undead can be influenced. All hit dice bonuses are rounded down (5 + 2 hit dice is considered as 5). The affects of this potion last 5d4 rounds. Each *potion of undead control* affects one type of undead, determined from the table below.
+**Undead Control (any):** Normally undead are immune to *charm*. However, when quaffed this potion grants the drinker the ability to charm undead (intelligent or otherwise) as the *charm person* spell. Only intelligent undead are allowed a saving throw vs magic, with a penalty of 2. A total of 16 hit dice of undead can be influenced. All hit dice bonuses are rounded down (5 + 2 hit dice is considered as 5). The affects<!-- printed as-is: see errata E302 --> of this potion last 5d4 rounds. Each *potion of undead control* affects one type of undead, determined from the table below.
 
 | **d10** | **Undead Affected** |
 |---|---|
@@ -24379,7 +24418,7 @@ and 32 hit dice/levels of these beings are affected. Only whole hit dice are con
 
 Scrolls can be found rolled up in any number of decorative or plain tubes. A scroll tube may be magically sealed such that a character must cast *read magic* to read the magical words that open it. Reading the writing on the tube will also reveal whether the tube has been cursed or protected with a magical trap. Once opened, if an arcane spell scroll, a further *read magic* spell must be used to comprehend the magical script. (Note that once *read magic* has been used on a scroll, the same user does not need to cast it again to comprehend the same scroll at a later time.)
 
-A cursed scroll is triggered by the use of *read magic*, but other scrolls are not. At the GM's option, a scroll may have up to a 3 in 10 chance of its magical writing vanishing if left in a scroll tube for an extended amount of time without casting *read magic* on the scroll to learn its nature.
+A cursed scroll is triggered by the use of *read magic*, but other scrolls are not. At the GM’s option, a scroll may have up to a 3 in 10 chance of its magical writing vanishing if left in a scroll tube for an extended amount of time without casting *read magic* on the scroll to learn its nature.
 
 When spell scrolls are found, use the table below to determine what class of spells is present. Only characters of the appropriate class may use the spells.
 
@@ -24390,13 +24429,13 @@ When spell scrolls are found, use the table below to determine what class of spe
 | 8-9 | Cleric |
 | 10 | Druid |
 
-For the purposes of spell casting, all spells function as if cast by a spell user with one more level of experience than is necessary to cast the spell. However, all spells cast from a scroll are cast as the minimum equivalent of a 6th level spell caster. Thus, even a 1st level spell will be cast as if by a 6th level spell caster. Note that if a spell caster uses a scroll spell for a spell which he or she would normally be unable to cast due to being of insufficient level, there is a cumulative 5% probability that the spell fails for each level the caster is lower than the level required. For instance, if a 2nd level cleric attempts to use a spell that normally must be cast by a cleric of 4th level, there is a 10% chance of spell failure. In addition, if a roll indicates that a spell fails, there is an equal probability that the spell affects the caster, produces some other unfortunate effect, or creates some other effect at the GM's discretion.
+For the purposes of spell casting, all spells function as if cast by a spell user with one more level of experience than is necessary to cast the spell. However, all spells cast from a scroll are cast as the minimum equivalent of a 6th level spell caster. Thus, even a 1st level spell will be cast as if by a 6th level spell caster. Note that if a spell caster uses a scroll spell for a spell which he or she would normally be unable to cast due to being of insufficient level, there is a cumulative 5% probability that the spell fails for each level the caster is lower than the level required. For instance, if a 2nd level cleric attempts to use a spell that normally must be cast by a cleric of 4th level, there is a 10% chance of spell failure. In addition, if a roll indicates that a spell fails, there is an equal probability that the spell affects the caster, produces some other unfortunate effect, or creates some other effect at the GM’s discretion.
 
 Once a scroll spell is cast, the magical writings for that spell vanish. This also applies even when a scroll spell is read for the purpose of memorisation or to be added to a spell book.
 
 #### SCROLLS OF WARDING
 
-Unless otherwise noted, all *scrolls of warding* produce an area of protection within a 10 ft radius of the reader, and the area moves with the affected character. No creature of the type indicated by the *warding* may enter the area of protection by any means, but if the affected character forces a creature of the affected type into this radius, the effects of the scroll are cancelled. Scroll effects may be "stacked" in that several different *scrolls of warding* may be active on one being at once, but scrolls of the same type do not stack for the purposes of increased duration or potency.
+Unless otherwise noted, all *scrolls of warding* produce an area of protection within a 10 ft radius of the reader, and the area moves with the affected character. No creature of the type indicated by the *warding* may enter the area of protection by any means, but if the affected character forces a creature of the affected type into this radius, the effects of the scroll are cancelled. Scroll effects may be “stacked” in that several different *scrolls of warding* may be active on one being at once, but scrolls of the same type do not stack for the purposes of increased duration or potency.
 
 <!-- p.333 -->
 
@@ -24416,7 +24455,7 @@ Unless otherwise noted, all *scrolls of warding* produce an area of protection w
 | Greater devils or lower | 7 segments |
 | Arch devils or lower | 1 round |
 
-**Ward of Elementals (CDIM):** This scroll takes 6 segments to read and wards against elementals for 5d8 rounds. If the scroll wards against only one type of elemental, it is effective against 24 HD of elementals. If the scroll is effective against all forms of elementals, it repels 16 HD. If more elementals are present than can be warded off, these additional beings may enter the area of protection and attack anyone within. Roll on the table below to determine which elementals are warded off by a specific scroll. Note that some creatures that are closely connected with elements, or are a particular form of elemental monster, may also be warded off at the GM's discretion.
+**Ward of Elementals (CDIM):** This scroll takes 6 segments to read and wards against elementals for 5d8 rounds. If the scroll wards against only one type of elemental, it is effective against 24 HD of elementals. If the scroll is effective against all forms of elementals, it repels 16 HD. If more elementals are present than can be warded off, these additional beings may enter the area of protection and attack anyone within. Roll on the table below to determine which elementals are warded off by a specific scroll. Note that some creatures that are closely connected with elements, or are a particular form of elemental monster, may also be warded off at the GM’s discretion.
 
 | **d20** | **Elemental Type** |
 |---|---|
@@ -24426,7 +24465,7 @@ Unless otherwise noted, all *scrolls of warding* produce an area of protection w
 | 10-12 | Water |
 | 13-20 | All |
 
-**Ward of Lycanthropes (any):** This warding scroll takes 4 segments to read and its effects last for 5d6 rounds. A total of 49 HD of creatures are warded off, and for this calculation any "+" is rounded up if 3 or more, or down if 2 or fewer. Any creatures above these HD may enter the protected area and attack characters within. Roll on the table below to determine which specific creature type a scroll of warding is effective against. Note that if all shape-changers is indicated, this includes any creature that is capable of taking a human form, as well as creatures under the effects of a *polymorph* spell or creatures with an innate ability to *shape change* or *polymorph* (including druids of high level).
+**Ward of Lycanthropes (any):** This warding scroll takes 4 segments to read and its effects last for 5d6 rounds. A total of 49 HD of creatures are warded off, and for this calculation any “+” is rounded up if 3 or more, or down if 2 or fewer. Any creatures above these HD may enter the protected area and attack characters within. Roll on the table below to determine which specific creature type a scroll of warding is effective against. Note that if all shape-changers is indicated, this includes any creature that is capable of taking a human form, as well as creatures under the effects of a *polymorph* spell or creatures with an innate ability to *shape change* or *polymorph* (including druids of high level).
 
 | **d20** | **Creature Type** |
 |---|---|
@@ -24471,7 +24510,7 @@ Most of these devices use charges, which can be restored by high level magic use
 | Rods | 51–1d10 |
 | Staves | 26–1d6 |
 
-Unless noted otherwise, these devices require a command word or magical phrase to trigger a magical effect. As such, the spell silence and similar effects can prevent these devices' use.
+Unless noted otherwise, these devices require a command word or magical phrase to trigger a magical effect. As such, the spell silence and similar effects can prevent these devices’ use.
 
 ### RODS
 
@@ -24520,24 +24559,24 @@ The *rod* has the following spell-like functions, each of which costs 1 charge:
 The following weapon functions of the *rod* do not require the use of charges:
 
 - In its normal form, the rod can be used as a +2 mace.
-- When button #1 is pushed, the rod becomes a +1 flaming sword. A blade springs from the ball, with the ball itself becoming the sword's hilt. The weapon lengthens to an overall length of 3 ft.
+- When button #1 is pushed, the rod becomes a +1 flaming sword. A blade springs from the ball, with the ball itself becoming the sword’s hilt. The weapon lengthens to an overall length of 3 ft.
 
 <!-- p.335 -->
 
 - When button #2 is pushed, the rod becomes a +4 battle axe. A blade springs forth at the ball, and the whole lengthens to 4 ft.
-- When button #3 is pushed, the rod becomes a +3 spear. The spear blade springs forth, and the handle can be lengthened up to 12 ft (wielder's choice), for an overall length of from 6 ft to 15 ft. At its 15 ft length, the *rod* is suitable for use as a lance.
+- When button #3 is pushed, the rod becomes a +3 spear. The spear blade springs forth, and the handle can be lengthened up to 12 ft (wielder’s choice), for an overall length of from 6 ft to 15 ft. At its 15 ft length, the *rod* is suitable for use as a lance.
 
 The following other functions of the rod do not employ charges:
 
 - Climbing pole/ladder. When button #4 is pushed, a spike that can anchor in granite is extruded from the ball, while the other end sprouts three sharp hooks. The rod lengthens to anywhere between 5 and 50 ft in a single round, stopping when button 4 is pushed again. Horizontal bars 3 in long fold out from the sides, 1 ft apart, in staggered progression. The rod is firmly held by the spike and hooks and can bear up to 4,000 lbs. The wielder can retract the pole by pushing button #5.
-- The ladder function can be used to force open doors. The wielder plants the rod's base 30 ft or less from the portal to be forced and in line with it, then pushes button #4. The force exerted has a strength equal to that of a storm giant.
+- The ladder function can be used to force open doors. The wielder plants the rod’s base 30 ft or less from the portal to be forced and in line with it, then pushes button #4. The force exerted has a strength equal to that of a storm giant.
 - When button #6 is pushed, the rod indicates magnetic north and gives the wielder a knowledge of his or her approximate depth beneath the surface or height above it.
 
 This rod may never be recharged. When the charges are expired, functions that require charges may not be used again, and neither may the rod be employed as a +1 *flaming sword* nor a +4 battle axe. These attributes are lost.
 
 #### Resurrection (C)
 
-This rod may be used to the same effect as the cleric spell *resurrection*, except the wielder does not age or need to rest after using the rod. The rod may resurrect both humans and demi-humans, including half-orcs and elves. This rod may be used only once each day. A quantity of charges will be expended to resurrect a character based on the character's race and class. Refer to the table below, adding the charge cost for each of these variables together. Any character with more than one class will cost the higher quantity of charges for his or her classes.
+This rod may be used to the same effect as the cleric spell *resurrection*, except the wielder does not age or need to rest after using the rod. The rod may resurrect both humans and demi-humans, including half-orcs and elves. This rod may be used only once each day. A quantity of charges will be expended to resurrect a character based on the character’s race and class. Refer to the table below, adding the charge cost for each of these variables together. Any character with more than one class will cost the higher quantity of charges for his or her classes.
 
 | Race | Charges | Class | Charges |
 |---|---|---|---|
@@ -24601,13 +24640,11 @@ A *staff of withering* acts as a +1 weapon that deals 1d4+1 hit points of damage
 
 #### Wizardry (M)
 
-The *staff of wizardry* is a powerful device, granting several spells at the wielder's disposal. The staff may be used to effect the following spell-like abilities: *detect magic, enlarge, hold portal, light,* and *protection from good (evil)*. These abilities do not require the expenditure of charges.
+The *staff of wizardry* is a powerful device, granting several spells at the wielder’s disposal. The staff may be used to effect the following spell-like abilities: *detect magic, enlarge, hold portal, light,* and *protection from good (evil)*. These abilities do not require the expenditure of charges.
 
 In addition, the staff has the following abilities that cost 1 charge per use: *dispel magic, fireball, ice storm, invisibility, knock, lightning bolt, passwall, pyrotechnics, wall of fire,* and *web*. The following powerful abilities cost 2 charges per use: *conjure elemental, plane shift, telekinesis,* and *whirlwind* (as a genie).
 
-The wielder of the staff receives a bonus of +2 for saving throws vs magic. This staff may be recharged, but only by
-
-absorbing magical energies that are cast at the wielder. When a spell is cast at the wielder, he may choose to absorb these energies, at a rate of 1 charge per spell level of the spell directed at him. Note that taking this manoeuvre is the sole action of the staff for that round, and it may not be used for other effects in the same round it absorbs energy. Each staff has a maximum number of possible charges, and it will only safely absorb charges to this limit. The wielder will not know the limit, or how many charges have been used, unless some magical means is employed to discover this. The staff does not reveal this information. Should the staff collect energy in excess of its limit, it detonates in the same manner as in a retributive strike, as described below.
+The wielder of the staff receives a bonus of +2 for saving throws vs magic. This staff may be recharged, but only by absorbing magical energies that are cast at the wielder. When a spell is cast at the wielder, he may choose to absorb these energies, at a rate of 1 charge per spell level of the spell directed at him. Note that taking this manoeuvre is the sole action of the staff for that round, and it may not be used for other effects in the same round it absorbs energy. Each staff has a maximum number of possible charges, and it will only safely absorb charges to this limit. The wielder will not know the limit, or how many charges have been used, unless some magical means is employed to discover this. The staff does not reveal this information. Should the staff collect energy in excess of its limit, it detonates in the same manner as in a retributive strike, as described below.
 
 A *staff of wizardry* can be used for a *retributive strike*, requiring it to be broken by its wielder. The breaking of the staff must be intentional and declared by the wielder. All charges currently in the staff are instantly released in a 30 ft radius. All within 10 ft of the broken staff take points of damage equal to 8 × the number of charges in the staff, those 10 ft to 20 ft away take 6 × the number of charges in damage, and those 20 ft to 30 ft distant take 4 × the number of charges in damage. All those affected can make saving throws vs magic to reduce the damage by half.
 
@@ -24617,7 +24654,7 @@ After all charges are used up from the staff, it remains a +2 quarterstaff. Once
 
 ### WANDS
 
-For the purposes of calculating duration, damage, range, and other effects, wands function as if a character of 6th level produces their magical effects. Some small percentage of wands, at the GM's discretion, are cursed to either direct their effects at the user or produce some other misleading or harmful effect.
+For the purposes of calculating duration, damage, range, and other effects, wands function as if a character of 6th level produces their magical effects. Some small percentage of wands, at the GM’s discretion, are cursed to either direct their effects at the user or produce some other misleading or harmful effect.
 
 #### Detecting Magic (CDIM)
 
@@ -24637,7 +24674,7 @@ The wielder of this wand may choose, each round, to detect traps (range of 30 ft
 
 #### Enemy Detection (any)
 
-A *wand of enemy detection* can, at the expenditure of 1 charge, detect any being with harmful or unkind intentions toward the wand wielder, within 60 ft. The wand will throb in the user's hand and point in the direction of such a being. The being need not be in obvious sight, and the wand can detect it even if it is hiding, invisible, or otherwise outside of normal space, such as when in astral or æthereal form. A *wand of enemy detection* may be recharged.
+A *wand of enemy detection* can, at the expenditure of 1 charge, detect any being with harmful or unkind intentions toward the wand wielder, within 60 ft. The wand will throb in the user’s hand and point in the direction of such a being. The being need not be in obvious sight, and the wand can detect it even if it is hiding, invisible, or otherwise outside of normal space, such as when in astral or æthereal form. A *wand of enemy detection* may be recharged.
 
 #### Fear (CDIM)
 
@@ -24653,9 +24690,7 @@ This wand is rechargeable.
 
 #### Ice (DM)
 
-A *wand of ice* produces several spell-like effects, and may only produce one effect per round. The following effects require the expenditure of 1 charge: an *ice storm* (as the magic user spell) wreaks its cold havoc to a distance of 60 ft, and appears in 1 segment; a *wall of ice* can be brought into existence, taking 2 segments to appear. It
-
-always has a thickness of 6 in, but may have any surface area as commanded by the wand wielder to a maximum of 600 sq ft (for example, 25 × 24 ft or 10 × 60 ft).
+A *wand of ice* produces several spell-like effects, and may only produce one effect per round. The following effects require the expenditure of 1 charge: an *ice storm* (as the magic user spell) wreaks its cold havoc to a distance of 60 ft, and appears in 1 segment; a *wall of ice* can be brought into existence, taking 2 segments to appear. It always has a thickness of 6 in, but may have any surface area as commanded by the wand wielder to a maximum of 600 sq ft (for example, 25 × 24 ft or 10 × 60 ft).
 
 The *wand of ice* may produce a *cone of cold* with the expenditure of 2 charges. The cone is 20 ft in diameter at its maximum length of 60 ft. This effect manifests in 2 segments, and is present for only a moment. Nonetheless, it deals 6d6 hp damage to all within the area of effect (save vs wands for half damage). Any result of 1 on a damage die is treated as a 2.
 
@@ -24673,7 +24708,7 @@ This wand is capable of producing both visual and audible illusions, each requir
 
 #### Lightning (DM)
 
-If the wielder of a *wand of lighting*<!-- printed as-is: NEW --> hits an opponent (in melee) with the wand and spends 1 charge, he or she may deliver an electrical charge to his or her victim, which inflicts 1d10 hp damage. No saving throw is permitted, and for AC purposes a victim wearing metal armour has an AC of 10, regardless of magical armour bonuses. Non-metal armour and items such as a *ring of protection* do apply, however.
+If the wielder of a *wand of lighting*<!-- printed as-is: see errata E303 --> hits an opponent (in melee) with the wand and spends 1 charge, he or she may deliver an electrical charge to his or her victim, which inflicts 1d10 hp damage. No saving throw is permitted, and for AC purposes a victim wearing metal armour has an AC of 10, regardless of magical armour bonuses. Non-metal armour and items such as a *ring of protection* do apply, however.
 
 By spending 2 charges, the wielder of this wand may produce a *lightning bolt*, similar to the magic user spell, to inflict 6d6 hp of damage. Any result of 1 on a damage die is treated as a 2. A save vs wands is allowed for half damage.
 
@@ -24681,11 +24716,11 @@ A *wand of lightning* can be recharged.
 
 #### Magic Missiles (M)
 
-This wand may fire 1 or 2 magic missiles (wielder's choice), as the spell, each round. Each missile requires 1 charge and 3 segments before it manifests. These magical bolts deal 1d4+1 hp damage each.
+This wand may fire 1 or 2 magic missiles (wielder’s choice), as the spell, each round. Each missile requires 1 charge and 3 segments before it manifests. These magical bolts deal 1d4+1 hp damage each.
 
 #### Negation (CDIM)
 
-This device negates the spell or spell-like function or functions of magic items. The wielder points the rod<!-- printed as-is: NEW --> at the magic item, and a pale grey beam
+This device negates the spell or spell-like function or functions of magic items. The wielder points the rod<!-- printed as-is: see errata E304 --> at the magic item, and a pale grey beam
 
 <!-- p.338 -->
 
@@ -24719,16 +24754,16 @@ In some cases a saving throw is appropriate. The effects should be considered ty
 |---|---|
 | 01–05 | Slow creature pointed at for 1 turn. |
 | 06–10 | Faerie fire surrounds the target. |
-| 11–15 | Deludes wielder for 1 round into believing the rod<!-- printed as-is: NEW --> functions as indicated by a second die roll (no save). |
+| 11–15 | Deludes wielder for 1 round into believing the rod<!-- printed as-is: see errata E305 --> functions as indicated by a second die roll (no save). |
 | 16–20 | Gust of wind, but at twice the power. |
-| 21–25 | Wielder learns target's surface thoughts (as with ESP) for 1d4 rounds. |
+| 21–25 | Wielder learns target’s surface thoughts (as with ESP) for 1d4 rounds. |
 | 26–30 | Stinking cloud at 30 ft range. |
 | 31–33 | Heavy rain falls for 1 round in 60 ft radius centred on wand wielder. |
 | 34–36 | Summon an animal—a rhino (01–25 on d%), elephant (26–50), or mouse (51–100). |
 | 37–46 | Lightning bolt (70 ft long, 5 ft wide), 6d6 damage. |
 | 47–49 | Stream of 600 large butterflies pours forth and flutters around for 2 rounds, blinding everyone (including wielder). |
 | 50–53 | Enlarge victim if within 60 ft of wand. |
-| 54-58<!-- printed as-is: NEW --> | Darkness, 30 ft diameter hemisphere, centred 30 ft away from wand. |
+| 54-58<!-- printed as-is: see errata E306 --> | Darkness, 30 ft diameter hemisphere, centred 30 ft away from wand. |
 | 59–62 | Grass grows in 160 ft square area before the wand, or grass existing there grows to ten times normal size. |
 | 63–65 | Vanish any nonliving object of up to 1,000 lb mass and up to 30 ft cubed in size. |
 | 66–69 | Reduce wielder to 1/12 height. |
@@ -24746,7 +24781,7 @@ Sometimes magic armour and shields go beyond a simple bonus to armour class. Pre
 
 #### Plate Mail of Æthereality (CFPR)
 
-+5 plate mail that will cause the wearer and everything non-living thing he or she is wearing or carrying to become æthereal when the command word is spoken. Every time the wearer becomes æthereal, a charge is used. The plate mail holds 20 charges and every 5 uses reduces the AC bonus by 1. Therefore, five uses of a fully charged *plate mail of ætherealiality*<!-- printed as-is: NEW -->
++5 plate mail that will cause the wearer and everything<!-- printed as-is: see errata E307 --> non-living thing he or she is wearing or carrying to become æthereal when the command word is spoken. Every time the wearer becomes æthereal, a charge is used. The plate mail holds 20 charges and every 5 uses reduces the AC bonus by 1. Therefore, five uses of a fully charged *plate mail of ætherealiality*<!-- printed as-is: see errata E308 -->
 
 <!-- p.339 -->
 
@@ -24758,7 +24793,7 @@ This shield grants +1 to AC against melee weapons but a +4 AC bonus vs missiles 
 
 ## MAGIC SWORDS
 
-All magic swords receive their bonus in both increased chances to hit and increased damage. A *longsword +1* would therefore be 5% more likely to hit its target (+1 on all "to hit" rolls) and cause an additional 1 point of damage (+1 to damage rolled) to every successful attack. The section below details magical swords that go beyond simple bonuses applying to hit probabilities and damage inflicted. Last of all, this section also deals with the rarest of magic weapons: intelligent swords. The GM is free, of course, to apply the principles of unusual or intelligent swords to any weapon he or she chooses.
+All magic swords receive their bonus in both increased chances to hit and increased damage. A *longsword +1* would therefore be 5% more likely to hit its target (+1 on all “to hit” rolls) and cause an additional 1 point of damage (+1 to damage rolled) to every successful attack. The section below details magical swords that go beyond simple bonuses applying to hit probabilities and damage inflicted. Last of all, this section also deals with the rarest of magic weapons: intelligent swords. The GM is free, of course, to apply the principles of unusual or intelligent swords to any weapon he or she chooses.
 
 Some basic points concerning magical swords: most magical bladed weapons shed light when drawn, even though this property may not always be desirable. There are exceptions to the rule as noted in the individual descriptions but unless otherwise stated, the sword will glow. All *holy* swords are lawful good in alignment.
 
@@ -24766,21 +24801,19 @@ Some weapons, including some of these swords, do double or even triple damage wh
 
 #### Bleeding Sword (AFPRT)
 
-A feared weapon, the *bleeding sword* is a +1 blade with a terrible power. Any damage caused by this weapon is progressive for up to 10 melee rounds on a 1 for 1 basis. An attack causing 5 points of damage, for instance, will cause an additional 5 points of damage the next combat round and each following round; up to 50 damage points total. Hit point damage can be halted by the victim leaving combat and binding his or her wounds. All hits from this blade do damage the same way. Wounds caused by this magic sword can only be healed with rest and time; no curative magic of any type will be effective. Even creatures capable of regenerating cannot heal themselves thus, whether this a natural ability (trolls) or magical ability (*ring of regeneration*).
+A feared weapon, the *bleeding sword* is a +1 blade with a terrible power. Any damage caused by this weapon is progressive for up to 10 melee rounds on a 1 for 1 basis. An attack causing 5 points of damage, for instance, will cause an additional 5 points of damage the next combat round and each following round; up to 50 damage points total. Hit point damage can be halted by the victim leaving combat and binding his or her wounds. All hits from this blade do damage the same way. Wounds caused by this magic sword can only be healed with rest and time; no curative magic of any type will be effective. Even creatures capable of regenerating cannot heal themselves thus, whether this a<!-- printed as-is: see errata E309 --> natural ability (trolls) or magical ability (*ring of regeneration*).
 
 #### Dancing Sword (AFPRT)
 
-An unusual weapon. During the first round the *dancing sword* is used in combat it performs as a +1 blade. Each subsequent round the sword adds an
+An unusual weapon. During the first round the *dancing sword* is used in combat it performs as a +1 blade. Each subsequent round the sword adds an additional +1 bonus up to the maximum of +4 in the fourth round. In round 5 the process begins again, and at this point the blade can “dance”.
 
-additional +1 bonus up to the maximum of +4 in the fourth round. In round 5 the process begins again, and at this point the blade can "dance".
-
-A *dancing sword* can then be loosed from the wielder's hand to fight on its own for 4 rounds, up to 30 ft away. The *dancing sword* will fight as if still being held by the owner and gains the successive bonuses to its attack and damage each round. When the *dancing sword* cycles from +4 back to +1 it will return to its owner's hand, where it must be wielded for 4 rounds before being released to dance again.
+A *dancing sword* can then be loosed from the wielder’s hand to fight on its own for 4 rounds, up to 30 ft away. The *dancing sword* will fight as if still being held by the owner and gains the successive bonuses to its attack and damage each round. When the *dancing sword* cycles from +4 back to +1 it will return to its owner’s hand, where it must be wielded for 4 rounds before being released to dance again.
 
 If the owner declines to grasp the sword when it returns to him or her, or if he or she moves more than 30 ft away from the *dancing sword*, the weapon will fall inanimate to the ground. The sword cannot be physically attacked by its opponent while dancing, though it is subject to magical attacks and effects (examples: *fireball, transmute metal to wood*). While the sword is dancing, the wielder can perform any other action he or she wishes, including fighting with another weapon.
 
 #### Defender (AFPRT)
 
-This sword is +4, but the wielder of this sword has the option each round of adding all or part of the bonus to his or her AC. Thus, a fighter could increase his or her current AC of 2 (plate mail with shield) to AC 0 by deducting 2 points from the sword's +4 bonus and making the *defender* +2 to hit for that round.
+This sword is +4, but the wielder of this sword has the option each round of adding all or part of the bonus to his or her AC. Thus, a fighter could increase his or her current AC of 2 (plate mail with shield) to AC 0 by deducting 2 points from the sword’s +4 bonus and making the *defender* +2 to hit for that round.
 
 #### Dragonbane (AFPRT)
 
@@ -24796,7 +24829,7 @@ The *dragonbane* sword is +2 against most opponents, +4 vs all dragons and again
 
 #### Flaming Blade (AFPRT)
 
-The blade of this weapon bursts into flame when its command word is spoken, giving illumination as a torch. The sword does not otherwise glow as most other magic swords do. The flame tongue's fiery blade can easily ignite paper, oil, kindling, webs, or dry wood.
+The blade of this weapon bursts into flame when its command word is spoken, giving illumination as a torch. The sword does not otherwise glow as most other magic swords do. The flame tongue’s fiery blade can easily ignite paper, oil, kindling, webs, or dry wood.
 
 The sword is normally +1, but gives a +2 as a *trollbane* does, a +3 bonus against creatures that are inflammable, bird-like or have a special attack involving cold, and a +4 against undead. These bonuses do not stack; only the highest bonus should be counted. (Thus, if attacking a skeletal roc, the sword is +4 not +7.)
 
@@ -24814,7 +24847,7 @@ This sword will be +2 when fighting most foes. Against giant-like humanoids such
 
 #### Holy Sword (P)
 
-In the hands of anyone but a paladin, this is a + 2<!-- printed as-is: NEW --> weapon in every way, with no additional features. In the hands of a paladin the true power of this holy weapon is revealed, acting as +5. The *holy sword* will also inflict +10 damage against all chaotic evil opponents, *dispel magic* with a 5 ft radius as if the paladin were casting the spell as a magic user equal to his or her own experience level, and create *50% magic resistance* in a 5 ft radius on command. Note the +10 damage bonus is instead of, not in addition to, the sword's natural +5 damage.
+In the hands of anyone but a paladin, this is a + 2<!-- printed as-is: see errata E310 --> weapon in every way, with no additional features. In the hands of a paladin the true power of this holy weapon is revealed, acting as +5. The *holy sword* will also inflict +10 damage against all chaotic evil opponents, *dispel magic* with a 5 ft radius as if the paladin were casting the spell as a magic user equal to his or her own experience level, and create *50% magic resistance* in a 5 ft radius on command. Note the +10 damage bonus is instead of, not in addition to, the sword’s natural +5 damage.
 
 #### Keenblade (AFPRT)
 
@@ -24822,7 +24855,7 @@ This is a +1 blade regarding to hit and damage bonuses, but the *keenblade* is a
 
 When using the *keenblade* in combat, the chances of severing some appendage are as follows:
 
-| Opponent is: | Natural (unadjusted) "to hit" roll |
+| Opponent is: | Natural (unadjusted) “to hit” roll |
 |---|---|
 | Man-sized or smaller | 18-20 |
 | Large | 19-20 |
@@ -24836,11 +24869,11 @@ In addition to +1 to AC and damage, the luck blade also grants its wielder +1 to
 
 #### Magebane (AFPRT)
 
-This weapon will always function as at least a +1 sword. When fighting against magic users, spell-casting monsters, monsters with spell-like abilities, gated or extra-planar creatures, conjured monsters, or summoned monsters, the sword will be +2 to hit and damage. Note that a non-magical creature which is granted spell casting powers by artificial means, a human fighter wearing a *ring of spell storing* for example, does not qualify as magic-using.
+This weapon will always function as at least a +1 sword. When fighting against magic users, spell-casting monsters, monsters with spell-like abilities, gated or extra-planar creatures, conjured monsters, or summoned monsters, the sword will be +2 to hit and damage. Note that a non-magical creature which is granted spell casting powers by artificial means, a human fighter wearing a *ring of spell storing* for example, does not qualify as  magic-using.<!-- printed as-is: see errata E311 -->
 
 #### Nine Lives Stealer (AFPRT)
 
-This weapon is +2. On a "to hit" roll of natural 20 the *nine lives stealer* will draw the life force from its target, slaying it instantly. This ability can be used 9 times before it is lost forever, though the sword will retain its +2 bonus thereafter. The victim is allowed a saving throw vs magic and, if successful, there is no effect and the sword does not expend a charge.
+This weapon is +2. On a “to hit” roll of natural 20 the *nine lives stealer* will draw the life force from its target, slaying it instantly. This ability can be used 9 times before it is lost forever, though the sword will retain its +2 bonus thereafter. The victim is allowed a saving throw vs magic and, if successful, there is no effect and the sword does not expend a charge.
 
 #### Trollbane (AFPRT)
 
@@ -24854,7 +24887,7 @@ This +2 sword allows the wielder to drain life force from the target. When a nat
 
 An even deadlier variant of the *keenblade*, the *vorpal blade* is a +3 weapon and on a high attack roll will always decapitate its target. (Not all opponents have heads, nor is every opponent necessarily slain by decapitation.) To determine the chance of this, consult the table below.
 
-| Opponent is: | Natural (unadjusted) "to hit" roll |
+| Opponent is: | Natural (unadjusted) “to hit” roll |
 |---|---|
 | Man-sized or smaller | 17-20 |
 | Large | 18-20 |
@@ -24862,7 +24895,7 @@ An even deadlier variant of the *keenblade*, the *vorpal blade* is a +3 weapon a
 
 #### Werebane (AFPRT)
 
-This weapon is normally +1, but gives a +2 bonus against: were-creatures, any creature capable of assuming another creature's form (such as druids or vampires), or a creature which has been polymorphed or shape changed.
+This weapon is normally +1, but gives a +2 bonus against: were-creatures, any creature capable of assuming another creature’s form (such as druids or vampires), or a creature which has been polymorphed or shape changed.
 
 #### Wyrmbane (AFPRT)
 
@@ -24870,7 +24903,7 @@ The sword is normally +1, but gives a +4 against any reptile including but not l
 
 ## UNUSUAL SWORDS
 
-OSRIC defines an "unusual" sword as one which is both self- aware and intelligent. Unusual swords manifest their intelligence in a variety of ways, but they all share the following basic traits: intelligence of 13-18, the ability to communicate, an alignment, a variety of powers, perhaps a
+OSRIC defines an “unusual” sword as one which is both self- aware<!-- printed as-is: see errata E312 --> and intelligent. Unusual swords manifest their intelligence in a variety of ways, but they all share the following basic traits: intelligence of 13-18, the ability to communicate, an alignment, a variety of powers, perhaps a
 
 <!-- p.341 -->
 
@@ -24894,7 +24927,7 @@ At first glance, a perusal of the various abilities special swords may possess m
 
 **High Empathy:** Wielder will feel emotional emanations from the sword.
 
-**Speech:** Sword will speak its alignment tongue plus 1 or more additional languages determined according to the table below
+**Speech:** Sword will speak its alignment tongue plus 1 or more additional languages determined according to the table below<!-- printed as-is: see errata E313 -->
 
 **Telepathy:** The sword can communicate telepathically with its owner in any language, over any distance, and may broadcast telepathic communication to all creatures within 30 ft, in any language of its choice. The sword understands all spoken languages and can read non-magical text.
 
@@ -24914,11 +24947,9 @@ Intelligent swords will always have an alignment. Use the table below to generat
 | 61-80 | True Neutral |
 | 81-00 | Neutral Good |
 
-Any *neutral* sword will permit itself to be wielded by a character matching the non-neutral part of sword's alignment (so a Chaotic Good or Lawful Good character could wield a Neutral Good sword, for instance). True Neutral swords will allow themselves to be wielded by any character with "Neutral" in their alignment (so CN, LN, NG, or NE as well as TN).
+Any *neutral* sword will permit itself to be wielded by a character matching the non-neutral part of sword’s alignment (so a Chaotic Good or Lawful Good character could wield a Neutral Good sword, for instance). True Neutral swords will allow themselves to be wielded by any character with “Neutral” in their alignment (so CN, LN, NG, or NE as well as TN).
 
-**Note:** Except for neutral-aligned as swords noted above, any character attempting to hold, draw or use an unusual
-
-sword of differing alignment will incur damage equal to the sword's ego (see table, below).
+**Note:** Except for neutral-aligned as<!-- printed as-is: see errata E314 --> swords noted above, any character attempting to hold, draw or use an unusual sword of differing alignment will incur damage equal to the sword’s ego (see table, below).
 
 ### Sword Minor Powers
 
@@ -24930,7 +24961,7 @@ Minor Powers only function when the weapon is drawn and the owner is concentrati
 | 12-22 | detect gold or silver within 20 ft radius |
 | 23-33 | detect shifting rooms or walls within 10 ft radius |
 | 34-44 | detect sloping passages within 10 ft radius |
-| 45-55 | detect traps 10 ft within radius<!-- printed as-is: NEW --> |
+| 45-55 | detect traps 10 ft within radius<!-- printed as-is: see errata E315 --> |
 | 56-66 | detect type and number of gems within 5 ft radius |
 | 67-77 | detect magic within 10 ft radius |
 | 78-82 | detect secret doors within 5 ft radius |
@@ -24941,7 +24972,7 @@ Minor Powers only function when the weapon is drawn and the owner is concentrati
 
 ### Sword Major Powers
 
-To use a sword's major power, the weapon must be drawn and the owner concentrating on the desired effect. Saving throws for major powers are permitted as applicable. If the same power is rolled more than once, double or triple the range of ability as appropriate.
+To use a sword’s major power, the weapon must be drawn and the owner concentrating on the desired effect. Saving throws for major powers are permitted as applicable. If the same power is rolled more than once, double or triple the range of ability as appropriate.
 
 | d% | Power |
 |---|---|
@@ -24965,7 +24996,7 @@ To use a sword's major power, the weapon must be drawn and the owner concentrati
 
 ### Special Purpose Swords
 
-The purpose of a sword must always suit its alignment. Killing must be restricted to evil if the sword is of good alignment (example: a good aligned sword which rolls a result of "21-30 slay clerics or druids" on the following table
+The purpose of a sword must always suit its alignment. Killing must be restricted to evil if the sword is of good alignment (example: a good aligned sword which rolls a result of “21-30 slay clerics or druids” on the following table
 
 <!-- p.342 -->
 
@@ -24984,11 +25015,11 @@ will only seek to kill evil clerics). Good swords dedicated to slaying monsters 
 | 61-90 | slay non-human monsters |
 | 91-00 | slay thieves or assassins |
 
-*The True Neutral version of this sword would seek to promote and maintain balance by defeating beings of extreme alignments
+*The True Neutral version of this sword would seek to promote and maintain balance by defeating beings of extreme alignments<!-- printed as-is: see errata E316 -->
 
 ### Special Power
 
-The special power generated by this table will only work to forward pursuit of the sword's special purpose. The listed power manifests itself on a hit with the weapon unless the target makes a saving throw vs magic.
+The special power generated by this table will only work to forward pursuit of the sword’s special purpose. The listed power manifests itself on a hit with the weapon unless the target makes a saving throw vs magic.
 
 | d% | Power |
 |---|---|
@@ -25033,13 +25064,13 @@ This is the final step in the creation of an intelligent sword. Each attribute t
 
 ## A BATTLE OF THE WILLS: SWORDS VS CHARACTERS
 
-Each unusual sword has a personality score, determined by adding its intelligence score to its ego points. These swords will be very conscientious in following their alignment and if the sword owner is not, a personality conflict arises. If the sword has a substantial ego, 19 or higher, the weapon will consider itself superior to its wielder and if he or she does not agree with the sword's decisions a personality conflict will arise.
+Each unusual sword has a personality score, determined by adding its intelligence score to its ego points. These swords will be very conscientious in following their alignment and if the sword owner is not, a personality conflict arises. If the sword has a substantial ego, 19 or higher, the weapon will consider itself superior to its wielder and if he or she does not agree with the sword’s decisions a personality conflict will arise.
 
-A player character's personality is determined by the formula: Character Level + Intelligence + Charisma = Personality Score. This score will be modified by damage he or she has taken, reducing Personality Score by 1 point for each group of hp equivalent to the character average hp per level.
+A player character’s personality is determined by the formula: Character Level + Intelligence + Charisma = Personality Score. This score will be modified by damage he or she has taken, reducing Personality Score by 1 point for each group of hp equivalent to the character average hp per level.
 
 For example, Paula the Paladin is 8th level with a constitution score of 15 (+1 hp bonus per die) and 54 total hp. Average hp per level are 54 ÷ 8 = 6.75 and results are rounded off to 7. For every 7 hp of damage Paula sustains in combat, her personality level is reduced by 1.
 
-Whenever personality conflict occurs, the sword will struggle with the player for dominance. The more often the conflict, the greater the struggle and the more unreasonable the demands the sword will make before being mollified. Such a sword might insist the player fight a foe he or she would prefer to avoid or parley with—and perhaps seek to bring a fight about, calling out to reveal the character's hiding place, or shouting insults amidst delicate negotiations.
+Whenever personality conflict occurs, the sword will struggle with the player for dominance. The more often the conflict, the greater the struggle and the more unreasonable the demands the sword will make before being mollified. Such a sword might insist the player fight a foe he or she would prefer to avoid or parley with—and perhaps seek to bring a fight about, calling out to reveal the character’s hiding place, or shouting insults amidst delicate negotiations.
 
 In addition, some swords might insist on gemstones or filigree platinum inlay being added to their blade or pommel, or demand a scabbard made from the hide of a dragon or demon.
 
@@ -25047,25 +25078,23 @@ If the personality score of the sword should ever become greater than that of th
 
 <!-- p.343 -->
 
-in addition, may refuse to strike a particular foe, or turn a swing so it strikes a comrade or even the sword's own wielder.
+in addition, may refuse to strike a particular foe, or turn a swing so it strikes a comrade or even the sword’s own wielder.
 
 The above should be carefully adjudicated by the GM. A holy sword with a powerful personality in the hands of a dedicated paladin would be a dynamic force for good. A neutral good sword with a powerful personality in the hands of the same character might argue with the paladin constantly about how best to approach a situation. An especially dominant or evil sword might even seek to pass into the possession of a weaker character, in order to more completely dominate him or her and be better able to seek its own ends.
 
-Unusual magic swords are like other creatures with a large ego: they will seek to become a force to be reckoned with in their world by being heavily involved in all party activities and especially in combat. These weapons will also feel a strong sense of rivalry with other powerful magic weapons within 60 ft and will attempt to lead their wielder into dealing with the rival as the sword's alignment and the alignment of the rival dictates. A chaotic evil sword would seek the destruction of the rival weapon, but a lawful good sword would seek to rescue and recruit a rival weapon to serve its own cause.
+Unusual magic swords are like other creatures with a large ego: they will seek to become a force to be reckoned with in their world by being heavily involved in all party activities and especially in combat. These weapons will also feel a strong sense of rivalry with other powerful magic weapons within 60 ft and will attempt to lead their wielder into dealing with the rival as the sword’s alignment and the alignment of the rival dictates. A chaotic evil sword would seek the destruction of the rival weapon, but a lawful good sword would seek to rescue and recruit a rival weapon to serve its own cause.
 
-Swords of unusual nature are never completely dominated or silenced. Even if greatly outweighed by the owner's personality the sword will be quick to inject its opinion into any discussion, always attempting to gain influence over the player and his or her companions.
+Swords of unusual nature are never completely dominated or silenced. Even if greatly outweighed by the owner’s personality the sword will be quick to inject its opinion into any discussion, always attempting to gain influence over the player and his or her companions.
 
 GMs should be ready to play the personality of these swords to the (ahem) hilt, enforcing the quirks and selfish demands of the weapon upon the player at every chance. Play this sword as if it is your very own character, an especially greedy and egotistical one, and strive to the utmost for every gain you can garner for the sword. The role-playing possibilities are endless.
 
 ## MISCELLANEOUS WEAPONS
 
-Like swords, miscellaneous weapons add their bonus to both the "to hit" probability and damage die rolls. Weapons from the table which are not self-explanatory (e.g. a simple *mace +1*) are detailed here. Magic arrows that hit their intended target are destroyed; those that miss have a 50% chance of being broken or otherwise rendered unusable. Magic hand axes and hammers can be hurled up to 30 ft with the benefit of the attack bonus but losing the damage bonus. Magic spears may be used as either melee or missile weapons. When thrown at a very strong (18.99) or very massive creatures, there is a 50% chance the spear will break. Intelligent creatures, if struck by the thrown spear, have a 70% chance of using it against the attacker if struck by the weapon, or 25% likely to attempt to break the spear (spear must save vs a crushing blow). Unintelligent creatures are 25% likely to attempt to break the spear. Missile weapons (pulled bows, crossbows, slings, etc.) grant their to hit and
-
-damage bonus to missiles launched from them. Bonuses from magic ammunition are cumulative with bonuses from magic missile weapons.
+Like swords, miscellaneous weapons add their bonus to both the “to hit” probability and damage die rolls. Weapons from the table which are not self-explanatory (e.g. a simple *mace +1*) are detailed here. Magic arrows that hit their intended target are destroyed; those that miss have a 50% chance of being broken or otherwise rendered unusable. Magic hand axes and hammers can be hurled up to 30 ft with the benefit of the attack bonus but losing the damage bonus. Magic spears may be used as either melee or missile weapons. When thrown at a very strong (18.99) or very massive creatures, there is a 50% chance the spear will break. Intelligent creatures, if struck by the thrown spear, have a 70% chance of using it against the attacker if struck by the weapon, or 25% likely to attempt to break the spear (spear must save vs a crushing blow). Unintelligent creatures are 25% likely to attempt to break the spear. Missile weapons (pulled bows, crossbows, slings, etc.) grant their to hit and damage bonus to missiles launched from them. Bonuses from magic ammunition are cumulative with bonuses from magic missile weapons.
 
 #### Arrow of Slaying (AFPRT)
 
-A +3 arrow particularly deadly to a certain type of creature. There is always some mark, usually a rune or pictograph, to denote the type of target the arrow will instantly slay on a successful attack. A chart is included for random determination but the GM is advised to modify the chart to fit his or her unique milieu. One should note the type can be as general as "humanoid" or as specific as "hobgoblin."
+A +3 arrow particularly deadly to a certain type of creature. There is always some mark, usually a rune or pictograph, to denote the type of target the arrow will instantly slay on a successful attack. A chart is included for random determination but the GM is advised to modify the chart to fit his or her unique milieu. One should note the type can be as general as “humanoid” or as specific as “hobgoblin.”
 
 | d% | Result | d% | Result |
 |---|---|---|---|
@@ -25125,11 +25154,11 @@ Usually functions as a +2 hammer. In the hands of a dwarfish fighter who knows t
 
 #### Holy Mace (CFPR)
 
-A +1 mace with special powers vs evil creatures and the undead. The mace has a neutral good alignment and does 5d4 points of bonus damage to any evil target it strikes. Against the undead, however, the *holy mace* reveals its true power. When the mace strikes a demon, devil, or undead creature, a turn undead roll is made on the Turning Undead table as the wielder were a 12th level cleric. If the creature fails its roll it is immediately blasted out of existence by the holy power of the mace. Some creatures (example: skeletons, zombies, and ghouls) are automatically destroyed. Stronger undead creatures which have a numerical result instead of a "T" or "D" on the matrix get that number as a saving throw vs disruption. Even if the undead target makes its saving throw or is immune to disruption, the mace will still deal double the damage plus double the damage bonus.
+A +1 mace with special powers vs evil creatures and the undead. The mace has a neutral good alignment and does 5d4 points of bonus damage to any evil target it strikes. Against the undead, however, the *holy mace* reveals its true power. When the mace strikes a demon, devil, or undead creature, a turn undead roll is made on the Turning Undead table as the wielder were<!-- printed as-is: see errata E317 --> a 12th level cleric. If the creature fails its roll it is immediately blasted out of existence by the holy power of the mace. Some creatures (example: skeletons, zombies, and ghouls) are automatically destroyed. Stronger undead creatures which have a numerical result instead of a “T” or “D” on the matrix get that number as a saving throw vs disruption. Even if the undead target makes its saving throw or is immune to disruption, the mace will still deal double the damage plus double the damage bonus.
 
 #### Sling of the Halfling (AFPRT)
 
-Grants +2 "to hit" and damage rolls, but is figured as a +1 weapon in terms of which creatures it can affect.
+Grants +2 “to hit” and damage rolls, but is figured as a +1 weapon in terms of which creatures it can affect.
 
 #### Trident/Fork (AFPRT)
 
@@ -25162,9 +25191,9 @@ Ahmek was a wizard turned sage who, legends say, was always forgetting to put mo
 
 ### Alchemy Jug (IM)
 
-This jug appears as an ordinary ewer or beaker, but will, on command, produce various liquids when poured. The  type and quantity of liquid is as follows: <!-- printed as-is: NEW -->
+This jug appears as an ordinary ewer or beaker, but will, on command, produce various liquids when poured. The  type and quantity of liquid is as follows: <!-- printed as-is: see errata E318 -->
 
-| Liquid | Quantity | Liquid | Quantity |
+|  |  |  |  |
 |---|---|---|---|
 | Salt water | 16 gallons | Oil | 1 pint |
 | Fresh water | 8 gallons | Aqua regia | 8 ounces |
@@ -25189,7 +25218,11 @@ A magical amulet granting the wearer +1 to +4 to AC (roll 1d4 to determine the b
 
 ### Amulet of Life Protection (any)
 
-The wearer of this broach is protected against attacks on his or her soul. The charm completely safeguards its wearer from possession, whether as the result of a spell or through the efforts of a demon, devil or like being. Furthermore, should the wearer be slain, his or her soul will enter the amulet and be protected for up to 1 week. If the amulet is destroyed during that time, however, the soul is destroyed along with it.
+The wearer of this broach is protected against attacks on his or her soul. The charm completely safeguards its wearer from possession, whether as the result of a spell or through the efforts of a demon, devil or like being. Furthermore, should the wearer <!-- printed as-is: see errata E319 -->
+
+<!-- p.345 -->
+
+be slain, his or her soul will enter the amulet and be protected for up to 1 week. If the amulet is destroyed during that time, however, the soul is destroyed along with it.
 
 ### Amulet of the Planes (any)
 
@@ -25201,7 +25234,7 @@ This amulet provides protection against all forms of scrying. Thus spells such a
 
 ### Apparatus of the Lobster (any)
 
-This device appears to be a large iron barrel. A secret compartment at one end contains 10 levers, each of which controlling a different aspect of the apparatus. <!-- printed as-is: NEW -->
+This device appears to be a large iron barrel. A secret compartment at one end contains 10 levers, each of which controlling a different aspect of the apparatus. <!-- printed as-is: see errata E320 -->
 
 1. extend/retract legs and tail
 2. uncover/cover forward porthole
@@ -25220,11 +25253,9 @@ The apparatus moves at 30 ft per round forward and 60 ft per round in reverse. T
 
 This appears to be an ordinary arrow, although a *detect magic* spell will reveal that it has eldritch properties. Unlike other magic arrows, its enchantment does not aid in combat, however. Instead, once per day the arrow of direction can be used — by tossing it in the air and noting which direction it points when it lands — to show the way to one of several specific features: a stairway or sloping passage (either up or down), or the entrance or exit to a dungeon, cavern or cave. The feature sought must be identified either by distance (nearest, lowest, etc.) or by direction (north, leftmost, etc.). The query can be repeated up to 7 times over the next 7 turns.
 
-<!-- p.345 -->
-
 ### Bag of Holding (any)
 
-A most wonderful item, this is a bag larger on the inside than on the outside. This magical sack also reduces the apparent weight of the contents of the bag. Bag capacity, volume, weight, and apparent weight all vary by type-listed on the table below. Overloading the bag destroys both bag and contents, as does piercing the bag from either without or within. Turning a bag inside out empties all contents out onto the ground and the bag cannot be used again until it is turned back. A living creature can be placed into the bag but there is only enough air to sustain for 10 minutes, after which the creature will suffocate and die.
+A most wonderful item, this is a bag larger on the inside than on the outside. This magical sack also reduces the apparent weight of the contents of the bag. Bag capacity, volume, weight, and apparent weight all vary by type-listed on the table below. Overloading the bag destroys both bag and contents, as does piercing the bag from either without or within. Turning a bag inside out empties all contents out onto the ground and the bag cannot be used again until it is turned back. A living creature can be placed into the bag but there is only enough air to sustain for 10 minutes, after which the creature will suffocate and die. <!-- printed as-is: see errata E321 -->
 
 The extra-dimensional space of the *bag of holding* is incompatible with that of the *portable hole*. Placing a *bag of holding* into a *portable hole* will open a rift into the Astral Plane and suck both objects and their content into Astral space, lost forever. If a *portable hole* is placed into a *bag of holding*, a gate into the Astral Plane is opened, destroying both objects and pulling anyone standing within 10 ft into the Astral Plane.
 
@@ -25253,9 +25284,11 @@ There are 3 known types of this particular magic item, detailed below, but all w
 
 ### Bead of Force (any)
 
-A tiny bead of what appears to be made of dull, black glass. This item can be hurled up to 60 ft with no range penalty incurred, exploding on impact and dealing 5d6 points of damage to all creatures within 10 ft of the point of impact. The explosion also creates a *resilient sphere* with a radius of 10 ft and a duration of 10 minutes. The bead’s target will be imprisoned within a sphere of energy that can only be dispelled by a *rod of cancellation, a rod of negation, disintegrate,* or a targeted *dispel magic* spell. A dispelled *resilient sphere* will vanish harmlessly. Nothing can pass into or out of the sphere, though there is enough air contained within the sphere to prevent the prisoner from suffocating. The sphere is immovable from its initial location by any magical or physical means.
+A tiny bead of what appears to be made of dull, black glass. This item can be hurled up to 60 ft with no range penalty incurred, exploding on impact and dealing 5d6 points of damage to all creatures within
 
 <!-- p.346 -->
+
+10 ft of the point of impact. The explosion also creates a *resilient sphere* with a radius of 10 ft and a duration of 10 minutes. The bead’s target will be imprisoned within a sphere of energy that can only be dispelled by a *rod of cancellation, a rod of negation, disintegrate,* or a targeted *dispel magic* spell. A dispelled *resilient sphere* will vanish harmlessly. Nothing can pass into or out of the sphere, though there is enough air contained within the sphere to prevent the prisoner from suffocating. The sphere is immovable from its initial location by any magical or physical means.
 
 ### Belt of Dwarfkind (any)
 
@@ -25293,7 +25326,7 @@ When activated by clicking one’s heels together, the wearer’s movement speed
 
 ### Boots of Striding and Springing (any)
 
-This magical footwear increases the wearer’s base speed  to 120 ft and grants the ability to spring vertically 15 ft, backward 9 ft and forward 30 ft. This springing movement can be used in combat to attack and spring away if the wearer has initiative but under such conditions the wearer has a base 20% chance to stumble, decreased by 1% for every point of dexterity over 12. Carved into the side of the left boot heel is the name “Jak”. <!-- printed as-is: NEW -->
+This magical footwear increases the wearer’s base speed  to 120 ft and grants the ability to spring vertically 15 ft, backward 9 ft and forward 30 ft. This springing movement can be used in combat to attack and spring away if the wearer has initiative but under such conditions the wearer has a base 20% chance to stumble, decreased by 1% for every point of dexterity over 12. Carved into the side of the left boot heel is the name “Jak”. <!-- printed as-is: see errata E322 -->
 
 ### Boots of Teleportation (any)
 
@@ -25313,9 +25346,11 @@ An ordinary-appearing stoppered glass bottle. When uncorked in an airless enviro
 
 ### Bowl Commanding Water Elementals (DM)
 
-A stoneware bowl 1 ft in diameter, 6 inches deep, and usually made of a semi-precious stone; malachite, jade, or lapis lazuli are particularly favoured for this purpose. Filling the bowl with water and chanting the summoning words for 1 round causes a 12HD water elemental to appear. The creature summoned behaves as if called by a *conjure elemental* spell. Only one water elemental may be summoned at a time; a new one cannot be called forth until the previous elemental is dismissed, slain, or dispelled. If salt water is used instead of fresh water, the summoned elemental will have 16 HD rather than 12.
+A stoneware bowl 1 ft in diameter, 6 inches deep, and usually
 
 <!-- p.347 -->
+
+made of a semi-precious stone; malachite, jade, or lapis lazuli are particularly favoured for this purpose. Filling the bowl with water and chanting the summoning words for 1 round causes a 12HD water elemental to appear. The creature summoned behaves as if called by a conjure elemental spell. Only one water elemental may be summoned at a time; a new one cannot be called forth until the previous elemental is dismissed, slain, or dispelled. If salt water is used instead of fresh water, the summoned elemental will have 16 HD rather than 12.
 
 ### Bracelet of Friends (CDIM)
 
@@ -25339,7 +25374,7 @@ When a fire is lit in this black iron brazier, and the words of summoning chante
 
 ### Brooch of Instigation (any)
 
-This shoulder pin grants the wearer a +1 to AC and saving throws, and also has the affect of sending a silent boast to all living creatures in the area. This boast is a mental effect much like *ESP*, touting the wearer’s prowess in battle, and therefore does not work on the undead or mindless creatures. The boast has the result of doubling the chances of wandering monsters, a +10% to any opponent’s morale checks, and a -10% to reaction bonus checks. Once a person touches the brooch, he or she will be unable to rid themselves of it until a remove curse or atonement is cast upon the unfortunate victim.
+This shoulder pin grants the wearer a +1 to AC and saving throws, and also has the affect of sending a silent boast to all living creatures in the area. This boast is a mental effect much like *ESP*, touting the wearer’s prowess in battle, and therefore does not work on the undead or mindless creatures. The boast has the result of doubling the chances of wandering monsters, a +10% to any opponent’s morale checks, and a -10% to reaction bonus checks. Once a person touches the brooch, he or she will be unable to rid themselves of it until a remove curse or atonement is cast upon the unfortunate victim. <!-- printed as-is: see errata E323 -->
 
 ### Brooch of Shielding (any)
 
@@ -25353,7 +25388,7 @@ This broom allows the user to fly up to 9 hours cumulative per day. Carrying up 
 
 These candles come in 9 different types, each specific to an alignment. Any individual within 30 ft of a burning candle of like alignment is at +2 to hit and saving throws. A cleric of like alignment to a *candle of invocation* will determine the number of divine spells knowable as if he or she were 2 levels higher, if he or she burns the candle immediately prior to his or her daily meditation. He or she will even be granted and use spells of the higher level, although these spells are usable only so long as the candle is burning. The *candle of invocation* normally burns for about 4 hours.
 
-The candle can also be used to cast a *gate* spell and the being responding will be of the same alignment as the candle. When casting gate the candle is completely and instantly consumed. The candle can be blown out as easily as any ordinary candle. Thus, the user may sometimes place the candle in a lantern to protect the flame-this does not interfere in any way with the magical effects. <!-- printed as-is: NEW -->
+The candle can also be used to cast a *gate* spell and the being responding will be of the same alignment as the candle. When casting gate the candle is completely and instantly consumed. The candle can be blown out as easily as any ordinary candle. Thus, the user may sometimes place the candle in a lantern to protect the flame-this does not interfere in any way with the magical effects. <!-- printed as-is: see errata E324 -->
 
 ### Candle of Truth (CP)
 
@@ -25397,7 +25432,7 @@ A simple golden headband with a small red ruby set in the middle. Once per day t
 
 ### Circlet of Persuasion (any)
 
-An ornate silver headband which increases the wearer’s charisma by+3 while worn. <!-- printed as-is: NEW -->
+An ornate silver headband which increases the wearer’s charisma by+3 while worn. <!-- printed as-is: see errata E325 -->
 
 ### Cloak of Arachnida (any)
 
@@ -25485,7 +25520,7 @@ When the cube is active, attacks causing excessive damage sap charges from it at
 
 ### Cube of Frost Resistance (any)
 
-A crystalline but featureless cube about ¾ in square. Activating this device creases a cube-shaped wall of force with 10 ft sides centred around the user and moving with him or her unless he or she places the device on a surface after activation. The temperature inside the cube is always 65°F no matter the surroundings, and the force wall absorbs all cold based attacks, whether natural or magical. If the field absorbs more than 50 total points of cold based damage in 1 round the force wall collapses and the cube cannot be reactivated for a period of 1 hour. Additionally, if the cube of frost resistance absorbs more than 100 points of cold damage in 10 rounds it is destroyed. <!-- printed as-is: NEW -->
+A crystalline but featureless cube about ¾ in square. Activating this device creases a cube-shaped wall of force with 10 ft sides centred around the user and moving with him or her unless he or she places the device on a surface after activation. The temperature inside the cube is always 65°F no matter the surroundings, and the force wall absorbs all cold based attacks, whether natural or magical. If the field absorbs more than 50 total points of cold based damage in 1 round the force wall collapses and the cube cannot be reactivated for a period of 1 hour. Additionally, if the cube of frost resistance absorbs more than 100 points of cold damage in 10 rounds it is destroyed. <!-- printed as-is: see errata E326 -->
 
 ### Cubic Gate (CDIM)
 
@@ -25576,7 +25611,7 @@ This fine white powder makes things invisible, as per the 4th level illusionist 
 
 ### Dust of Dryness (any)
 
-One application of this wonderful substance will absorb up to 100 gallons of water (fresh, salt, or alkaline) and forming a small 1 in pellet, either floating or resting where it was cast. This pellet can be forcibly hurled, causing it to break open and release the same volume of water in a most energetic fashion. *Dust of dryness* will only affect water, it has no affect on other liquids. This magic dust can also be used to destroy a water elemental, though the monster is allowed a saving throw vs death magic at -5 for 5d6 damage. *Dust of dryness* comes packaged in a similar fashion to *dust of appearance*.
+One application of this wonderful substance will absorb up to 100 gallons of water (fresh, salt, or alkaline) and forming a small 1 in pellet, either floating or resting where it was cast. This pellet can be forcibly hurled, causing it to break open and release the same volume of water in a most energetic fashion. *Dust of dryness* will only affect water, it has no affect on other liquids. This magic dust can also be used to destroy a water elemental, though the monster is allowed a saving throw vs death magic at -5 for 5d6 damage. *Dust of dryness* comes packaged in a similar fashion to *dust of appearance*. <!-- printed as-is: see errata E327 -->
 
 ### Dust of Illusion (IM)
 
@@ -25584,7 +25619,7 @@ When this magic dust is applied to a living creature, the creature alters appear
 
 ### Dust of Tracelessness (any)
 
-One application of *dust of tracelessness* can cause up to 100 sq ft of floor space to become dusty and cobwebbed as if abandoned for years, concealing all evidence of anyone passing through the area. The dust can be used on outdoor trails as well, concealing for 250 ft of back-trail the passage of up to a dozen troops and their mounts. The dust works instantly and leaves no magical aura to betray its use. Any creature with tracking skills, a ranger for instance, will be severely disadvantaged following a path concealed by *dust of tracelessness*, allow only a 5% chance of a ranger successfully tracking his or her quarry in such a case. This item comes in 1d4+2 silk packets, and can easily be sprinkled along a trail or applied all at once to a larger area.
+One application of *dust of tracelessness* can cause up to 100 sq ft of floor space to become dusty and cobwebbed as if abandoned for years, concealing all evidence of anyone passing through the area. The dust can be used on outdoor trails as well, concealing for 250 ft of back-trail the passage of up to a dozen troops and their mounts. The dust works instantly and leaves no magical aura to betray its use. Any creature with tracking skills, a ranger for instance, will be severely disadvantaged following a path concealed by *dust of tracelessness*, allow only a 5% chance of a ranger successfully tracking his or her quarry in such a case. This item comes in 1d4+2 silk packets, and can easily be sprinkled along a trail or applied all at once to a larger area. <!-- printed as-is: see errata E328 -->
 
 ### Efficient Quiver (AFPRT)
 
@@ -25597,8 +25632,6 @@ An enchanted gem keyed to one of the four major Elemental Planes. Its appearance
 ### Elixir of Fire Breath (any)
 
 This potion enables the drinker to breathe fire up to thrice, targeting a single creature up to 25 ft away for 4d6 damage per attack. The target gets a saving throw vs dragon breath for half damage. The ability to breathe fire dissipates after 3 breath attacks or 1 hour, whichever comes first.
-
-<!-- p.352 -->
 
 ### Elixir of Hiding (any)
 
@@ -25628,7 +25661,7 @@ The *eyes of charming* are a pair of crystal lenses which fit over the eyes, gra
 
 Eye lenses which cause an intense feeling of dread as a gaze attack against a single target. The target is allowed a saving throw vs petrifaction to negate. Failing the saving throw means the victim will always attack last in combat and morale checks are at -10%. The use of both lenses allows additional powers. First, the wearer can determine of anyone within 30 ft whether they are: dead, undead, feigning death, neither (golems, for instance), near death (3 or fewer hit points remaining), or wounded (4 or more hit points but less than 100%). The wearer can also use *fear* as a gaze attack once per week, saving throw vs petrifaction allowed. The *fear* attack is
 
-<!-- p.353 -->
+<!-- p.352 -->
 
 powerful, however, and a target making its save is still -1 to all attacks, damage, and saving throws for 1 round.
 
@@ -25666,7 +25699,9 @@ Tiny and skilfully-carved statuettes of creatures in various materials and forms
 - **Obsidian Steed:** Unlike the other *figurines of wondrous power*, this particular figurine appears as a shapeless black rock. Close inspection, however, will reveal a vague resemblance to a horse. Upon command this statuette becomes a heavy warhorse with the following special abilities, usable at will once each per round: first, the steed can fly up to 40 ft per round, 30 ft if rider is wearing heavy armour. Second, the *obsidian steed* can *plane shift*. Third, the mount and its rider (and equipment) can become æthereal. This statuette can be used once per week for up to 24 hours. Market value is 28,500 gp.
 - **Onyx Dog:** This statuette becomes a large dog similar to a war dog but with an intelligence of 8, the ability to track as a 10th level ranger, 60 ft infravision, and can *see invisible*. The *onyx dog* is large and strong enough to bear a small creature as a rider. Market value is 15,500 gp.
 - **Serpentine Owl:** With the proper command word, this statuette becomes either a horned owl or a giant owl. This transformation can take place once per day for up to 8 hours. The owl will communicate all it sees and hears to its owner via telepathic means but, unfortunately, after three transformations into giant owl form, the statuette crumbles into useless dust. Market value is 9,100 gp.
-- **Silver Raven:** Upon command this figurine becomes a raven but retains it silvery metallic surface, giving it an AC 0. The raven can be used as a magical messenger, capable of carrying a message or small token to a designated spot and awaiting the designated recipient of the message. The raven can maintain its animated status for up to 24 hours per week, cumulative. Market value is 3,800 gp. <!-- printed as-is: NEW -->
+- **Silver Raven:** Upon command this figurine becomes a raven but retains it silvery metallic surface, giving it an AC 0. The raven can be used as a magical messenger, capable of carrying a message or small token to a designated spot and awaiting the designated recipient of the message. The raven can maintain its animated status for up to 24 hours per week, cumulative. Market value is 3,800 gp. <!-- printed as-is: see errata E329 -->
+
+<!-- p.353 -->
 
 ### Gauntlets of Ogre Power (ACDFPRT)
 
@@ -25680,13 +25715,13 @@ A single item. On a successful hit affects metal objects like a rust monster’s
 
 An ordinary prism-shaped crystal with three powers, activated by command words. The gem’s number of charges is determined in the same way as a rod (see “Rods, Staves and Wands”). It may not be recharged.
 
-- **Light:** 30 ft radius , requires no charges to activate. <!-- printed as-is: NEW -->
+- **Light:** 30 ft radius , requires no charges to activate. <!-- printed as-is: see errata E330 -->
 - **Ray of light:** A ray 1” in diameter and 50 ft long. Blinds a single target for 1d4 rounds; a save vs wand negates. Requires 1 charge.
 - **Flare:** A 30 ft cone of bright light; creatures within the cone must save vs wands or be blind for 1d4 rounds. Requires 5 charges.
 
 ### Gem of Seeing (any)
 
-A finely-cut gem that bestows the benefits of a *true seeing* spell when looked through. May be used no more than  30 minutes per day. <!-- printed as-is: NEW -->
+A finely-cut gem that bestows the benefits of a *true seeing* spell when looked through. May be used no more than  30 minutes per day. <!-- printed as-is: see errata E331 -->
 
 ### Gloves of Arrow Snaring (any)
 
@@ -25866,7 +25901,7 @@ These are magical crystals that orbit the user’s head at a distance of 1d3 ft 
 
 ### Iron Bands of Binding (any)
 
-<!-- printed as-is: NEW — heading prints "Iron Bands of Binding (any) :" with a space before the colon; not representable in this file's colonless heading style, noted here instead -->
+<!-- printed as-is: see errata E332 — heading prints "Iron Bands of Binding (any) :" with a space before the colon; not representable in this file's colonless heading style, noted here instead -->
 
 A 3 in diameter rusty iron sphere wrapped about with iron bands. To use this object, the command word is spoken and the sphere thrown at a target of up to 10 ft long or tall. A successful attack causes the target to be held fast in bands of iron. The bands can be broken, but only by a creature of great strength (19 or higher). Usable once per day.
 
@@ -25914,7 +25949,7 @@ Reading and following the coordination drills and balancing exercises in this bo
 
 ### Marvellous Pigments (any)
 
-Magical paints that allow the user to draw and thereby create real three dimensional objects. The user must concentrate as he or she draws and creation of an object with the pigments takes about 10 minutes. One pot of *marvellous pigments* is sufficient to create a 1,000 cubic ft object. Pigments can be used to create many inanimate objects such as normal weapons, armour, even food—generally objects with a value of less than 2,000 gp. The general appearance of expensive items such as gems or gold jewellery can be created with the pigments but the objects will be only be cheap costume jewellery type imitations. The pigments cannot create magical items of any sort, and they cannot create living creatures, undead, golems, or other monsters of any kind.
+Magical paints that allow the user to draw and thereby create real three dimensional objects. The user must concentrate as he or she draws and creation of an object with the pigments takes about 10 minutes. One pot of *marvellous pigments* is sufficient to create a 1,000 cubic ft object. Pigments can be used to create many inanimate objects such as normal weapons, armour, even food—generally objects with a value of less than 2,000 gp. The general appearance of expensive items such as gems or gold jewellery can be created with the pigments but the objects will be only be cheap costume jewellery type imitations.<!-- printed as-is: see errata E333 --> The pigments cannot create magical items of any sort, and they cannot create living creatures, undead, golems, or other monsters of any kind.
 
 ### Mask of the Skull (AIMT)
 
@@ -25930,7 +25965,7 @@ An 8 ft long mallet which serves as a +3 weapon (base 1d10 damage) and can be us
 
 ### Medallion of Thoughts (IM)
 
-A necklace which grants the wearer ESP as the 2nd  level<!-- printed as-is: NEW --> magic user spell of the same name.
+A necklace which grants the wearer ESP as the 2nd  level<!-- printed as-is: see errata E334 --> magic user spell of the same name.
 
 ### Mirror of Life Trapping (CM)
 
@@ -25940,7 +25975,7 @@ A magical trap in the guise of a 4 ft square mirror activated by hanging it on a
 
 While imprisoned, the character is in stasis and requires no food, drink or air. He or she loses any innate powers or spell-like abilities. Creatures aware of the mirror’s true nature and seeking to avoid being trapped can approach the mirror and attempt to avoid seeing their reflection with a 50% chance of success; a blindfold or similar increases the chance to 100%. Size is not a factor to the mirror’s trapping ability, but golems and unintelligent undead, as well as any other inanimate matter, cannot be trapped. There are various command words for the *mirror of life trapping*. Besides the activation command, there is a deactivation command which allows the owner to safely approach the mirror.
 
-Each imprisoned creature has two further command words associated with it. One will call the creature’s reflection to the surface of the mirror and allow the owner to converse with the powerless captive. The second command word will free the prisoner. If the number of prisoners held within the mirror exceeds 15, a randomly determined captive will be freed to make room for the new one. Breaking the mirror will free all captives held within—but it should be noted here that not all liberated prisoners may  be<!-- printed as-is: NEW --> kindly-disposed towards those who granted them freedom. The GM should determine the quantity and nature of prisoners held by the *mirror of life trapping* before placing it into the campaign world.
+Each imprisoned creature has two further command words associated with it. One will call the creature’s reflection to the surface of the mirror and allow the owner to converse with the powerless captive. The second command word will free the prisoner. If the number of prisoners held within the mirror exceeds 15, a randomly determined captive will be freed to make room for the new one. Breaking the mirror will free all captives held within—but it should be noted here that not all liberated prisoners may  be<!-- printed as-is: see errata E335 --> kindly-disposed towards those who granted them freedom. The GM should determine the quantity and nature of prisoners held by the *mirror of life trapping* before placing it into the campaign world.
 
 ### Mirror of Mental Prowess (M)
 
@@ -26045,7 +26080,7 @@ The magic of this item is usually contained in a metallic flask that vaguely res
 
 ### Portable Hole (any)
 
-A deep black cloth that, when unfolded onto a flat surface, forms a 6 ft diameter and 10 ft deep hole. Items placed in the hole are stored safely and the cloth is of negligible weight when folded up, regardless of the weight of its contents. The *portable hole* can be closed by taking the edges of the cloth and folding it up. This can be done from without or within the hole. Folded up, there is enough air for 1 medium or 2 small creatures for about 10 minutes. The extra-planar space of a *portable hole* is not compatible with similar devices, such as a *bag of holding*. If either of these items is placed within the other, see the entry under *bag of holding* to determine the effects.
+A deep black cloth that, when unfolded onto a flat surface, forms a 6 ft diameter and 10 ft deep hole. Items placed in the hole are stored safely and the cloth is of negligible weight when folded up, regardless of the weight of its contents. The *portable hole* can be closed by taking the edges of the cloth and folding it up. This can be done from without or within the hole. Folded up, there is enough air for 1 medium or 2 small creatures for about 10 minutes. The extra-planar space of a portable hole is not compatible with similar devices, such as a *bag of holding*. If either of these items is placed within the other, see the entry under *bag of holding* to determine the effects.
 
 ### Restorative Ointment (any)
 
@@ -26053,7 +26088,7 @@ A palm-sized jar contains 5 uses of ointment. One application will neutralise an
 
 ### Ring Gates (any)
 
-Paired 18 in diameter iron rings. When the pair are located on the same plane of existence and within 100 miles of each other, anything pushed through one ring will at once come out of the other ring. Up to 100 lbs of  material<!-- printed as-is: NEW --> can pass through in one day, though items partially
+Paired 18 in diameter iron rings. When the pair are located on the same plane of existence and within 100 miles of each other, anything pushed through one ring will at once come out of the other ring. Up to 100 lbs of  material<!-- printed as-is: see errata E336 --> can pass through in one day, though items partially
 
 <!-- p.359 -->
 
@@ -26100,7 +26135,7 @@ Dark-coloured robes embroidered with silver or white stars. This magical garment
 
 An enchanted robe bearing a variety of tokens visible to and recognisable only by the wearer. One token can be detached per round, causing the token to become the item depicted. A removed patch cannot be reattached.
 
-A complete robe always has 2 of each of following items:
+A complete robe always has 2 of each of following items:<!-- printed as-is: see errata E337 -->
 
 - Bullseye lantern, filled and lit
 - Steel mirror, 2 ft × 4 ft
@@ -26133,7 +26168,7 @@ The robe will also have a random selection of 4d4 additional patches. Use the ta
 | 92-96 | War dogs, pair |
 | 97-00 | Window (2 ft × 4 ft and up to 2 ft deep) |
 
-<!-- printed as-is: NEW -->
+<!-- printed as-is: see errata E338 -->
 
 \*Door is iron, up to 10 ft × 10 ft in size, and barred on one side. It must be placed upright, after which it attaches and hinges itself automatically.
 
@@ -26230,13 +26265,13 @@ A cleric carrying or holding the prayer beads will intuitively know the powers t
 
 - **Lesser Strand of Prayer Beads:** Bead of *blessing*, bead of *healing*.
 - **Strand of Prayer Beads:** Beads of *healing*, *karma*, and *smiting*.
-- **Greater Strand of Prayer Beads:** Beads of *healing*, *karma*, summons,<!-- printed as-is: NEW --> and *wind walking*.
+- **Greater Strand of Prayer Beads:** Beads of *healing*, *karma*, summons,<!-- printed as-is: see errata E339 --> and *wind walking*.
 
 The following beads are activated by a command word: *blessing*, *healing*, *smiting*, and *wind walking*. The beads of *karma* and *summons* can be activated by any character capable of casting divine magic spells simply by willing it. All beads except for the bead of *summons* can be used once per day. The bead of *summons* disappears after 1 use. If a bead is removed from the strand it immediately and forever loses its power. The beads need not be worn by the cleric but he or she must have them somewhere on his or her person.
 
 ### Sustaining Spoon (any)
 
-Placing this magical spoon into an empty bowl will cause the bowl to fill with a bland but nourishing gruel capable of sustaining any 1 living creature for 1 day. Up to four such servings can produced in any 1 day.
+Placing this magical spoon into an empty bowl will cause the bowl to fill with a bland but nourishing gruel capable of sustaining any 1 living creature for 1 day. Up to four such servings can produced in any 1 day.<!-- printed as-is: see errata E340 -->
 
 ### Thunder Spear (AFPR)
 
@@ -26299,7 +26334,7 @@ Upon command, this cape will transform itself into a pair of wings, allowing the
 
 Magic rings appear indistinguishable from ordinary finger jewellery of varying types, though a detect magic spell cast upon them will cause them to radiate a magic aura. With the exception of a wish spell, the only way to determine the function of a magic ring is to put it on. A maximum of two rings can be worn by any PC or NPC at a time; only one ring may be worn per hand. Attempting to wear additional magic rings will render all worn magical rings useless. Magic rings worn on toes or as earrings will not function. Unless noted otherwise, the abilities a ring grants function as if cast by a 12th level spell caster, or the minimum level required to cast the spell if greater than 12th. Because of the innate magical resistance of dwarfs, gnomes, and halflings; magic rings have a 20% chance per use of not working at all and, if cursed, the curse will fail. In such a case the wearer recognises the cursed properties of the ring and can easily remove it from his or her finger.
 
-**Ring of Charisma (any):** When worn, this ring increases the wearer’s charisma ability score to 18. Note this is not a permanent increase; if the ring is removed the wearer’s charisma returns to its normal value. This magical ring also bestows two spell-like abilities, each usable once per day and requiring 3 segments of casting time. First, during the course of conversation the wearer can make a *suggestion*, as per the 3rd level magic user spell, to any human or demi-human or humanoid. Second, the wearer of the *ring of charisma* can also charm up to 21 levels/hit dice or humans or humanoids as per the 1st level magic user spell *charm person*. This is an exceptionally powerful item and the GM may wish to limit the *ring of charisma* by giving it a limited number of charges.
+**Ring of Charisma (any):** When worn, this ring increases the wearer’s charisma ability score to 18. Note this is not a permanent increase; if the ring is removed the wearer’s charisma returns to its normal value. This magical ring also bestows two spell-like abilities, each usable once per day and requiring 3 segments of casting time. First, during the course of conversation the wearer can make a *suggestion*, as per the 3rd level magic user spell, to any human or demi-human or humanoid. Second, the wearer of the *ring of charisma* can also charm up to 21 levels/hit dice or humans or humanoids<!-- printed as-is: see errata E341 --> as per the 1st level magic user spell *charm person*. This is an exceptionally powerful item and the GM may wish to limit the *ring of charisma* by giving it a limited number of charges.
 
 **Ring of Feather Falling (any):** The wearer of this ring is protected by a *feather fall* spell any time he or she falls more than 5 ft.
 
@@ -26383,12 +26418,12 @@ Spells that only affect a certain number of levels must be able to affect the ta
 | 83-88 | 1st and 2nd level |
 | 89-92 | 4th level |
 | 93-95 | 5th level |
-| 96-99 | 1st , 2nd, and 3rd level <!-- printed as-is: NEW --> |
+| 96-99 | 1st , 2nd, and 3rd level <!-- printed as-is: see errata E342 --> |
 | 00 | 4th and 5th level |
 
 ## CURSED ITEMS
 
-Cursed items are rarely of the “zap, you’re dead” variety. Instead, they often appear as various forms of negative effects ranging from the merely inconvenient to the truly burdensome. Many cursed items also mix both beneficial and baneful effects and may therefore force a player into a difficult choice. If a cursed item or effect is desired, roll d% and consult the table below. The listing of specific cursed items included later in this section provide some examples of these effects in use.
+Cursed items are rarely of the “zap, you’re dead” variety. Instead, they often appear as various forms of negative effects ranging from the merely inconvenient to the truly burdensome. Many cursed items also mix both beneficial and baneful effects and may therefore force a player into a difficult choice. If a cursed item or effect is desired, roll d% and consult the table below. The listing of specific cursed items included later in this section provide some examples of these effects in use.<!-- printed as-is: see errata E343 -->
 
 **Table of Common Item Curses**
 
@@ -26463,7 +26498,7 @@ Cursed items are rarely of the “zap, you’re dead” variety. Instead, they o
 | 06-10 | Character grows a non-prehensile tail. |
 | 11-15 | Temperature around user of item is noticeably warmer/cooler than ambient temperature. |
 | 16-20 | User’s teeth turn black. |
-| 21-25 | User’s skin changes to an unnatural colour and/or begins glowing the dark. |
+| 21-25 | User’s skin changes to an unnatural colour and/or begins glowing the dark.<!-- printed as-is: see errata E344 --> |
 | 26-30 | User grows a tattoo of an obscene word on forehead. |
 | 31-35 | User changes sex (one-time effect). |
 | 36-40 | User’s appearance changes to that of a random demi-human or humanoid race, checked daily. |
@@ -26537,7 +26572,7 @@ Though the *bag of devouring* can function somewhat as a *bag of holding* there 
 
 of the bag swallowing its contents and spitting them out onto some randomly determined plane of existence.
 
-**Boots of Dancing (any):** Footwear which appears to be any one of a number of magicked boots. When the wearer is engaged in or fleeing from combat, however, the *boots of dancing* will show their true nature. The wearer will begin to dance as if the 8th  magic<!-- printed as-is: NEW --> user spell *irresistible dance* had been cast upon him or her for the duration of the battle. When hostilities cease, if the character survived the dancing will stop until the next battle. Up until the first time the curse is revealed the boots may be removed at will but afterwards, only a *remove curse* will free the user from this malign footwear.
+**Boots of Dancing (any):** Footwear which appears to be any one of a number of magicked boots. When the wearer is engaged in or fleeing from combat, however, the *boots of dancing* will show their true nature. The wearer will begin to dance as if the 8th  magic<!-- printed as-is: see errata E345 --><!-- printed as-is: see errata E346 --> user spell *irresistible dance* had been cast upon him or her for the duration of the battle. When hostilities cease, if the character survived the dancing will stop until the next battle. Up until the first time the curse is revealed the boots may be removed at will but afterwards, only a *remove curse* will free the user from this malign footwear.
 
 **Bracers of Defencelessness (any):** These serve as *bracers of defence* +5 until the wearer is engaged in actual combat with an enemy of equal or greater level. At once the bracers lose the +5 bonus and immediately and permanently become -5 to AC. A *remove curse* is required to remove them once this has occurred.
 
@@ -26580,15 +26615,15 @@ the original alignment will be viewed with revulsion and resisted by any and all
 
 <!-- p.368 -->
 
-**Net of Snaring (AFPRT):**  While not technically a cursed item, the *net of snaring* may only be used underwater, thus rendering it less than useful to most adventurers. The net grants a +3 bonus to underwater attacks and can be commanded to launch from the user’s hand and *ensnare* a creature up to 30 ft away (as the 1st level druid spell *ensnare*).
+**Net of Snaring (AFPRT):** While not technically a cursed item, the *net of snaring* may only be used underwater, thus rendering it less than useful to most adventurers. The net grants a +3 bonus to underwater attacks and can be commanded to launch from the user’s hand and *ensnare* a creature up to 30 ft away (as the 1st level druid spell *ensnare*).
 
-**Periapt of Foul Rotting (any):**  This item is a semi-precious, ornately-engraved gem of little apparent value beyond the artistic. Any character retaining possession of this pestilential stone for more than 24 hours, however, contracts a horrible rotting skin disease. The disease inflicts a permanent cumulative penalty of -1 each to the user’s charisma, constitution, and dexterity each week the disease progresses. When the character’s constitution reaches 0, he or she is in a coma. The following week the character will die. The periapt and the disease it caused can only be removed from the victim by a application of a *remove curse* spell, then *cure disease*, then one of the following: *heal, limited wish,* or *wish*. An alternate method of undoing this foul curse involves crushing a *periapt of health* and sprinkling the dust upon the cursed character. After 1 round, the character will be completely healed and the *periapt of foul rotting* will crumble to dust.
+**Periapt of Foul Rotting (any):** This item is a semi-precious, ornately-engraved gem of little apparent value beyond the artistic. Any character retaining possession of this pestilential stone for more than 24 hours, however, contracts a horrible rotting skin disease. The disease inflicts a permanent cumulative penalty of -1 each to the user’s charisma, constitution, and dexterity each week the disease progresses. When the character’s constitution reaches 0, he or she is in a coma. The following week the character will die. The periapt and the disease it caused can only be removed from the victim by a application of a *remove curse* spell, then *cure disease*, then one of the following: *heal, limited wish,* or *wish*. <!-- printed as-is: see errata E347 --> An alternate method of undoing this foul curse involves crushing a *periapt of health* and sprinkling the dust upon the cursed character. After 1 round, the character will be completely healed and the *periapt of foul rotting* will crumble to dust.
 
-**Plate Mail of Vulnerability (CFPR):**  To any magical means of detection, this armour appears as +1, +2, or even +3 magic armour. As soon as a blow is struck in anger against the wearer however, the true nature of this cursed item reveals itself. The armour will actually be -2, -3, or -4 and the curse prevents the suit of armour from being removed. A hit with a natural 20 will cause the armour to fall to pieces, releasing the victim from its curse but leaving him or her AC 10 in the midst of mortal combat.
+**Plate Mail of Vulnerability (CFPR):** To any magical means of detection, this armour appears as +1, +2, or even +3 magic armour. As soon as a blow is struck in anger against the wearer however, the true nature of this cursed item reveals itself. The armour will actually be -2, -3, or -4 and the curse prevents the suit of armour from being removed. A hit with a natural 20 will cause the armour to fall to pieces, releasing the victim from its curse but leaving him or her AC 10 in the midst of mortal combat.
 
-**Ring of Clumsiness (any):**  Looks, acts, and responds to *detect magic* exactly like a *ring of feather falling* until placed on the finger, then the wearer becomes very clumsy. The victim of this curse takes a -4 penalty to dexterity, and magic spells requiring a somatic component have a 20% chance of failure when cast.
+**Ring of Clumsiness (any):** Looks, acts, and responds to *detect magic* exactly like a *ring of feather falling* until placed on the finger, then the wearer becomes very clumsy. The victim of this curse takes a -4 penalty to dexterity, and magic spells requiring a somatic component have a 20% chance of failure when cast.
 
-**Ring of Contrariness (any):**  A cursed item that renders the victim unable to agree with any suggestion or order. The ring can only be removed with a *remove curse* spell but, naturally, the ring’s influence will cause the wearer to resist any such attempts. The *ring of contrariness* will also grant the wearer one of the following abilities from the table at the end of this entry.
+**Ring of Contrariness (any):** A cursed item that renders the victim unable to agree with any suggestion or order. The ring can only be removed with a *remove curse* spell but, naturally, the ring’s influence will cause the wearer to resist any such attempts. The *ring of contrariness* will also grant the wearer one of the following abilities from the table at the end of this entry.
 
 “Reverse psychology” type commands given in an attempt to get the wearer to remove the ring (example: Do NOT, under any circumstances, remove that ring!) or harm him- or herself will not succeed. If the *ring of contrariness* grants the secondary ability of *spell turning* (see the following
 
@@ -26602,51 +26637,47 @@ table), casting a successful *remove curse* upon the wearer can be a formidable 
 | 3-4 | Invisibility | 9-10 | Spell Turning |
 | 5-6 | Levitation | 11-12 | Strength (18.99) |
 
-**Ring of Weakness (any):**  This dreadful ring reduces the strength and constitution ability scores of the wearer by 1 point per round until both are at 3. This cursed effect is disguised by the ring granting the wearer the ability to become invisible at will as per the *ring of invisibility*, but becoming invisible doubles the rate of ability score drain. The loss of strength and constitution will not become apparent until the wearer attempts some action, such as combat or bending bars, that requires strength or endurance. When both abilities reach 3 the victim will be unable to function in his or her class. The *ring of weakness* can only be removed if a *remove curse* followed by *dispel magic* is cast upon the ring.
+**Ring of Weakness (any):** This dreadful ring reduces the strength and constitution ability scores of the wearer by 1 point per round until both are at 3. This cursed effect is disguised by the ring granting the wearer the ability to become invisible at will as per the *ring of invisibility*, but becoming invisible doubles the rate of ability score drain. The loss of strength and constitution will not become apparent until the wearer attempts some action, such as combat or bending bars, that requires strength or endurance. When both abilities reach 3 the victim will be unable to function in his or her class. The *ring of weakness* can only be removed if a *remove curse* followed by *dispel magic* is cast upon the ring.
 
 After removal, the victim of the curse will regain 1 point each of strength and constitution for every complete day of rest. There is a 5% chance the curse will be reversed, causing the ring to instead be a *ring of the berserker*. In such a case the victim will gain, rather than lose, one point each to strength and constitution each round (double that rate if the ring’s *invisibility* power is used). If a fighter, roll for percentile score above 18 for strength when 18 is reached. When both ability scores are at 18, the ring-wearer will melee any opponent he or she sees, regardless of any other circumstances. Removing the *ring of the berserker* will cause immediate loss of gained strength and constitution bonuses and the victim’s ability scores will be returned to normal. The *ring of the berserker* will work only once on each wearer.
 
-**Robe of Powerlessness (IM):**  This magical robe appears to be a beneficial magic item, usually a *robe of protection* +2. As soon as the robe is worn the character takes a penalty of -3 to strength and intelligence, possibly forgetting spells and magic knowledge or becoming over-encumbered accordingly. Note that neither attribute may be reduced to less than 1. The robe may be removed at will but the effects may only be dispelled by a *remove curse* followed by *heal*.
+**Robe of Powerlessness (IM):** This magical robe appears to be a beneficial magic item, usually a *robe of protection* +2. As soon as the robe is worn the character takes a penalty of -3 to strength and intelligence, possibly forgetting spells and magic knowledge or becoming over-encumbered accordingly. Note that neither attribute may be reduced to less than 1. The robe may be removed at will but the effects may only be dispelled by a *remove curse* followed by *heal*.
 
-**Robe of Vermin (IM):**  This robe radiates strong protective magic, as a *robe of protection +4*, until the curse is revealed. When the person wearing the robe attempts to concentrate in order to cast a spell against an opponent, the wearer is assaulted by a multitude of bites and stings from the vermin magically infesting the robe. The pain and distraction of the biting insects render all attempts at spell-casting unsuccessful unless a save vs spells is made and the wearer takes a -3 on initiative and -2 to attacks, damage, and saves.
+**Robe of Vermin (IM):** This robe radiates strong protective magic, as a *robe of protection +4*, until the curse is revealed. When the person wearing the robe attempts to concentrate in order to cast a spell against an opponent, the wearer is assaulted by a multitude of bites and stings from the vermin magically infesting the robe. The pain and distraction of the biting insects render all attempts at spell-casting unsuccessful unless a save vs spells is made and the wearer takes a -3 on initiative and -2 to attacks, damage, and saves.
 
-**Scarab of Death (any):**  Though this small oval pin appears to be any one of the many beneficial jewellery items known to exist, it is actually very dangerous. If carried, held, or worn for more than 1 round by any living creature the pin turns into a burrowing beetle-like monster. The beetle will immediately rip through the wearer’s clothing and into the flesh, burrowing its way into the heart in 1 round and killing the victim. The victim has one chance to grab this burrowing horror by saving vs death magic but even if successful 3d6 points of damage are caused by the attack. If the victim successfully tears the beetle away before it burrows out of sight it will revert to its scarab form. For long term storage the scarab can be prevented from coming to life by placing it in a container of bone, ceramic, ivory, metal, or wood.
+**Scarab of Death (any):** Though this small oval pin appears to be any one of the many beneficial jewellery items known to exist, it is actually very dangerous. If carried, held, or worn for more than 1 round by any living creature the pin turns into a burrowing beetle-like monster. The beetle will immediately rip through the wearer’s clothing and into the flesh, burrowing its way into the heart in 1 round and killing the victim. The victim has one chance to grab this burrowing horror by saving vs death magic but even if successful 3d6 points of damage are caused by the attack. If the victim successfully tears the beetle away before it burrows out of sight it will revert to its scarab form. For long term storage the scarab can be prevented from coming to life by placing it in a container of bone, ceramic, ivory, metal, or wood.
 
-**Shield -1, Missile Attractor (CDFPR):**  This shield’s armour penalty negates the advantage to AC carrying a shield gives. Worse, the bearer of the shield is twice as likely to attract missile fire when the group he or she is in is subjected to non-directed missile fire.
+**Shield -1, Missile Attractor (CDFPR):** This shield’s armour penalty negates the advantage to AC carrying a shield gives. Worse, the bearer of the shield is twice as likely to attract missile fire when the group he or she is in is subjected to non-directed missile fire.
 
-**Spear, Cursed Backbiter (ADFPR):**  This +2 weapon is suitable for either melee or use as a missile. If the user rolls a natural “1” when attacking a foe in anger, however, the cursed nature of the *backbiter* causes the shaft of the spear to curve back upon the wielder and strike him or her for damage, instead. If the *backbiter* was thrown and the attack roll was a natural “1” the missile will double back in mid-flight and unerringly strike the thrower for double damage. After the first time the nature of the cursed *backbiter* becomes obvious, a small inscription reading “L. LaFleur, Master Smith” will be visible on the weapon’s shaft, close to the spearhead.
+**Spear, Cursed Backbiter (ADFPR):** This +2 weapon is suitable for either melee or use as a missile. If the user rolls a natural “1” when attacking a foe in anger, however, the cursed nature of the *backbiter* causes the shaft of the spear to curve back upon the wielder and strike him or her for damage, instead. If the *backbiter* was thrown and the attack roll was a natural “1” the missile will double back in mid-flight and unerringly strike the thrower for double damage. After the first time the nature of the cursed *backbiter* becomes obvious, a small inscription reading “L. LaFleur, Master Smith” will be visible on the weapon’s shaft, close to the spearhead.
 
-**Stone of Weight, or, Loadstone (any):**  A egg-shaped, dark, and smoothly polished stone. <!-- printed as-is: NEW --> The *loadstone* frequently appears as onyx, hematite, pyrite, or lapus lazuli. <!-- printed as-is: NEW --> Anyone picking up the *loadstone* will immediately suffer a 50% reduction in movement speed. Once picked up the stone cannot be discarded by any means either mundane or magical. No matter the method of disposal: thrown off a cliff, smashed into dust, sold to a greedy merchant, or given away; it always reappears somewhere on the person of the cursed individual. A *remove curse* will allow the victim to forever rid themselves of the stone, but there are no known means of permanently destroying the stone or the curse it contains.
+**Stone of Weight, or, Loadstone (any):** A egg-shaped, dark, and smoothly polished stone. <!-- printed as-is: see errata E348 --> The *loadstone* frequently appears as onyx, hematite, pyrite, or lapus lazuli. <!-- printed as-is: see errata E349 --> Anyone picking up the *loadstone* will immediately suffer a 50% reduction in movement speed. Once picked up the stone cannot be discarded by any means either mundane or magical. No matter the method of disposal: thrown off a cliff, smashed into dust, sold to a greedy merchant, or given away; it always reappears somewhere on the person of the cursed individual. A *remove curse* will allow the victim to forever rid themselves of the stone, but there are no known means of permanently destroying the stone or the curse it contains.
 
-**Sword +1, Cursed (AFPRT):**  This weapon appears to be a normal sword of the magic +1 variety until the weapon is drawn in combat. At that time the owner of the sword will find the cursed weapon magically fastened into his or her hand and unable to disengage from combat until either he or the opponent is dead. After combat is resolved the owner will be able to let go of the sword but unable to discard it by any means. Even if the owner throws the weapon away or attempts to fight with a different weapon, the cursed sword will magically reappear when combat is engaged, once again welded to his or her hand, and again the wielder must attack until dead or the opponent is slain. An *exorcism* by a good aligned cleric is the only way to rid oneself of the weapon.
+**Sword +1, Cursed (AFPRT):** This weapon appears to be a normal sword of the magic +1 variety until the weapon is drawn in combat. At that time the owner of the sword will find the cursed weapon magically fastened into his or her hand and unable to disengage from combat until either he or the opponent is dead. After combat is resolved the owner will be able to let go of the sword but unable to discard it by any means. Even if the owner throws the weapon away or attempts to fight with a different weapon, the cursed sword will magically reappear when combat is engaged, once again welded to his or her hand, and again the wielder must attack until dead or the opponent is slain. An *exorcism* by a good aligned cleric is the only way to rid oneself of the weapon.
 
 <!-- p.370 -->
 
-**Sword -2, Cursed (AFPRT):**  This exceptionally beautiful and well made weapon performs as a +2 weapon in practice. When employed in actual combat, however, the sword inflicts -2 on all attack and damage rolls. The sword’s ego is very powerful and it will cause its owner to always use it in combat over any other weapon, including missile weapons. Even if the owner intends to draw a different weapon he or she will involuntarily find the cursed sword in hand. Only a *remove curse, limited wish,* or *wish* will rid the unlucky owner of this *sword -2.*
+**Sword -2, Cursed (AFPRT):** This exceptionally beautiful and well made weapon performs as a +2 weapon in practice. When employed in actual combat, however, the sword inflicts -2 on all attack and damage rolls. The sword’s ego is very powerful and it will cause its owner to always use it in combat over any other weapon, including missile weapons. Even if the owner intends to draw a different weapon he or she will involuntarily find the cursed sword in hand. Only a *remove curse, limited wish,* or *wish* will rid the unlucky owner of this *sword -2.*
 
-**Sword of the Berserker +2 (AFPRT):**  This rather plain looking longsword is not particularly eye-catching, but anyone with a knowledge of weapons will immediately recognize this ancient blade to be of high strength and durability. The *sword of the berserker* grants a +2 bonus in combat but also causes the wielder to enter a berserk frenzy and attack the nearest creature, whether friend or foe, and continue fighting until no living creatures is within 30 ft. While in his or her berserk rage, the wielder of the sword is +2 to strength and constitution, +2 to saves, -2 to AC, and moves at double speed. The increased constitution grants 2 temporary hit points per level and any damage inflicted is subtracted from these points first. The extra hit points fade away after the rage runs its course. It should be noted that the more violent civilisations scattered throughout the realm see this weapon as blessed rather than cursed.
+**Sword of the Berserker +2 (AFPRT):** This rather plain looking longsword is not particularly eye-catching, but anyone with a knowledge of weapons will immediately recognize this ancient blade to be of high strength and durability. The *sword of the berserker* grants a +2 bonus in combat but also causes the wielder to enter a berserk frenzy and attack the nearest creature, whether friend or foe, and continue fighting until no living creatures is within 30 ft. <!-- printed as-is: see errata E350 --> While in his or her berserk rage, the wielder of the sword is +2 to strength and constitution, +2 to saves, -2 to AC, and moves at double speed. The increased constitution grants 2 temporary hit points per level and any damage inflicted is subtracted from these points first. The extra hit points fade away after the rage runs its course. It should be noted that the more violent civilisations scattered throughout the realm see this weapon as blessed rather than cursed.
 
-**Vacuous Grimoire (any):**  This vile tome is thought by some sages to be the prison for a low level malevolent entity, an imp or quasit, perhaps. When the book is placed with other books it tends to alter appearance to blend in with the surrounding volumes and the title, scribed in gold on the spine and on the front, tends to appear as a subject of interest to the person viewing it at the time. This, the sages conclude, indicates some sort of evil intelligence. Anyone opening this infernal manual and reading even one word must immediately roll two saves against petrifaction. The first is to prevent a permanent -1 to intelligence, and the second to prevent a permanent -2 to wisdom. The book may be freely discarded either before or after reading, but the effects of the curse are permanent. One wishing to destroy the book must cast a *remove curse* upon it while it is being burned.
+**Vacuous Grimoire (any):** This vile tome is thought by some sages to be the prison for a low level malevolent entity, an imp or quasit, perhaps. When the book is placed with other books it tends to alter appearance to blend in with the surrounding volumes and the title, scribed in gold on the spine and on the front, tends to appear as a subject of interest to the person viewing it at the time. This, the sages conclude, indicates some sort of evil intelligence. Anyone opening this infernal manual and reading even one word must immediately roll two saves against petrifaction. The first is to prevent a permanent -1 to intelligence, and the second to prevent a permanent -2 to wisdom. The book may be freely discarded either before or after reading, but the effects of the curse are permanent. One wishing to destroy the book must cast a *remove curse* upon it while it is being burned.
 
 ## ARTIFACTS
 
-Artifacts are the relics of ancient civilisations which the combination of age, long-forgotten magics, and other-planar  influences <!-- printed as-is: NEW --> have elevated beyond the power of even the most potent magic items. A well known example of an artifact would be the One Ring from Tolkien’s “The Lord of the Rings” trilogy, or the krang from Alan Dean Foster’s “The Tar-Aiym Krang.” As one might deduce, the power of an artifact is potentially destructive to the campaign in which it is introduced and artifacts should therefore never be randomly generated or lightly placed. Artifacts are divided into two groups: minor and major. Major artifacts are unique items of great power, to rival that of the gods. Minor artifacts are not unique, though still quite rare, and of somewhat lesser power than major artifacts. Any artifact, major or minor, is nearly impossible to destroy.
+Artifacts are the relics of ancient civilisations which the combination of age, long-forgotten magics, and other-planar  influences <!-- printed as-is: see errata E351 --> have elevated beyond the power of even the most potent magic items. A well known example of an artifact would be the One Ring from Tolkien’s “The Lord of the Rings” trilogy, or the krang from Alan Dean Foster’s “The Tar-Aiym Krang.” As one might deduce, the power of an artifact is potentially destructive to the campaign in which it is introduced and artifacts should therefore never be randomly generated or lightly placed. Artifacts are divided into two groups: minor and major. Major artifacts are unique items of great power, to rival that of the gods. Minor artifacts are not unique, though still quite rare, and of somewhat lesser power than major artifacts. Any artifact, major or minor, is nearly impossible to destroy.
 
 ### MINOR ARTIFACT DESCRIPTIONS
 
-**Book of Infinite Spells (any):**  This ancient tome appears to be a non-descript and well used travelling spellbook of the type favoured by adventuring wizards. This artifact grants to any player of any class the ability to cast the spells contained within its pages, though any character of a class unable to cast spells will function at one level lower while in possession of the artifact. The book of infinite spells contains 2d6+20 pages (22-32 pages) and the nature of the spell scribed on each page is determined randomly using 1d10, with a die roll of 1-5 indicating an arcane magic spell and a roll of 6-10 indicating divine magic. GMs may use the following table to assist with random selection of spells.
+**Book of Infinite Spells (any):** This ancient tome appears to be a non-descript and well used travelling spellbook of the type favoured by adventuring wizards. This artifact grants to any player of any class the ability to cast the spells contained within its pages, though any character of a class unable to cast spells will function at one level lower while in possession of the artifact. The book of infinite spells contains 2d6+20 pages (22-32 pages) and the nature of the spell scribed on each page is determined randomly using 1d10, with a die roll of 1-5 indicating an arcane magic spell and a roll of 6-10 indicating divine magic. GMs may use the following table to assist with random selection of spells.
 
 | d% | Spell level | d% | Spell level |
 |---|---|---|---|
 | 01–05 | 4th | 71–85 | 7th |
 | 06–50 | 5th | 86–95 | 8th |
-| 51–70 | 6th | 95–00 | 9th <!-- printed as-is: NEW --> |
+| 51–70 | 6th | 95–00 | 9th <!-- printed as-is: see errata E352 --> |
 
-This artifact book has a rather curious property—the pages may only be turned from front to back. Once a page has been turned, it may never be unturned, and the book always opens to the page it was on when last used. When the last page is turned the book vanishes and if the player lost a level when first opening the book that level is restored to the player. The owner can cast the spell scribed upon the active page once per day and if the spell is one
-
-<!-- p.371 -->
-
-usable by the user’s class it can be cast up to four times per day. The book’s owner need not have the book on his or her person to use its power. The spells inscribed therein may not be copied into a spellbook, for the magic is bound up within the artifact itself, nor may a page be ripped from the book without destroying it.
+This artifact book has a rather curious property—the pages may only be turned from front to back. Once a page has been turned, it may never be unturned, and the book always opens to the page it was on when last used. When the last page is turned the book vanishes and if the player lost a level when first opening the book that level is restored to the player. The owner can cast the spell scribed upon the active page once per day and if the spell is one usable by the user’s class it can be cast up to four times per day. The book’s owner need not have the book on his or her person to use its power. The spells inscribed therein may not be copied into a spellbook, for the magic is bound up within the artifact itself, nor may a page be ripped from the book without destroying it.
 
 Any casting of a spell from the book creates an energy feedback which has a chance of causing the page to magically turn. This turning of the page will occur in spite of any precautions taken to prevent from it doing so. Of course, due to the random nature of the book’s content, the turning of the page to a new spell may actually benefit the owner. The owner knows the newly-available spell as soon as this occurs. The *book of infinite spells* is treated as a scroll in terms of actual casting time, effects, saving throws, material components and so on.
 
@@ -26657,28 +26688,30 @@ Any casting of a spell from the book creates an energy feedback which has a chan
 - Non-spellcaster employing a divine or druidic spell: 25%
 - Non-spellcaster employing an arcane or phantasmal spell: 30%
 
-**Deck of Many Things (any):**  This artifact is the ultimate two-edged sword, conferring effects both beneficial and baneful. It consists of a deck of 22 finely-carved ivory plaques in an intricately-carved box of polished ebony. There have also been reports of versions of the deck consisting of fine vellum cards in a leather bag. The individual carvings on the plaques or cards are composed mainly of an archetypal character derived from ancient human lore and a variety of runes of power. The owner of the deck draws as many plaques as he or she wishes from the deck and whatever effect is bestowed takes place instantly, whether for weal or woe.
+<!-- p.371 -->
+
+**Deck of Many Things (any):** This artifact is the ultimate two-edged sword, conferring effects both beneficial and baneful. It consists of a deck of 22 finely-carved ivory plaques in an intricately-carved box of polished ebony. There have also been reports of versions of the deck consisting of fine vellum cards in a leather bag. The individual carvings on the plaques or cards are composed mainly of an archetypal character derived from ancient human lore and a variety of runes of power. The owner of the deck draws as many plaques as he or she wishes from the deck and whatever effect is bestowed takes place instantly, whether for weal or woe.
 
 The following conditions apply to using this artifact. First, the owner must declare beforehand exactly how many cards he or she wishes to draw from the deck before he or she begins; otherwise he or she will be unable to draw from the deck. Once the number of cards is declared they must be drawn from the deck within an hour of each other. If the character does not draw the declared number of cards from the deck, either willingly or unwillingly, at the end of one hour the specified number of cards will flip out of the deck automatically at the rate of one per turn. Each time a card is drawn it is returned to the deck before drawing again, making it possible to draw the same card multiple times.
 
 The table on the following page is a listing of the various plaques and their effects, following the table is a more complete description. Included is a corresponding card, both Tarot and common playing card, so the GM can have the player actually draw from a deck. Dice may also be used to generate a random result.
 
-- **Balance:**  The character must immediately change to a radically different alignment. Failure to act in accordance with this new outlook on life will result in the player losing a level.
-- **Comet:**  To gain the xp and level raise benefit, the character must defeat the next monster or monsters encountered with no aid or assistance of any kind. If successful, the character gains enough xp to gain the next level of advancement.
-- **Donjon:**  The character is imprisoned, either by some powerful being or as the ninth level magic user spell. The character appears in a cell or holding area with absolutely nothing except his or her skin. All additional card draws are forfeit if this card is drawn.
-- **Euryale:**  The -1 penalty is immediate and permanent, save by the intervention of a deity or by The Fates card in this same deck.
-- **Fates:**  The skein of reality, the actual fabric of space-time will be rewoven by the Fates on behalf of the player drawing this plaque. This card will prevent something from happening or undo a past event but the Fates cannot cause an event to happen. Note well this alteration of fate only applies to the player actually drawing the card. The remainder of his or her party may or may not reap the benefit with him or her.
-- **Flames:**  The flames of wrath are kindled between the player and an outsider. The slight may be real or imagined on the part of the outsider but the enmity will burn brightly until either the player or the outsider is slain. Determine the exact nature of the foe randomly; roll 1d20 for number of days until it attacks or otherwise begins to vex the player.
-- **Fool:**  Both the redraw and the xp penalty are immediate and mandatory. Discard this plaque before redrawing.
-- **Gem:**  The jewellery is exquisitely made and set with dazzling gems; each piece is worth 2,000 gp. The gems are flawless and  worth 1,000 gp apiece. <!-- printed as-is: NEW -->
-- **Idiot:**  Roll 1d4+1 to generate the total number of points deducted from intelligence ability, imposed on the spot. The redraw is optional, but once the player declares a decision out loud it cannot be changed.
-- **Jester:**  The redraw is optional, but once the player declares a decision out loud it cannot be changed. This card is discarded  before any redraws take place. <!-- printed as-is: NEW -->
-- **Key:**  A powerful magic weapon of a type the player can use materializes in his or her hand.
-- **Knight:**  The fighter is equipped with non-magical armour, equipment and weapons and is of the same sex and race as the  character. <!-- printed as-is: NEW --> This henchman appears from nowhere and offers his or her sword to the character, serving loyally until death.
-- **Moon:**  The wishes expire in a number of minutes equal to the number of wishes. Any wishes remaining unused at the end of this time period will be lost forever.
-- **Rogue:**  The traitor is preferably an NPC in the player’s employ, and will forever after be completely hostile to him or her. If the player has no cohorts in his employ, the enmity of an NPC at the player’s home base area, a powerful political or religious  figure, can be substituted. <!-- printed as-is: NEW --> The traitorous former friend will do all in his or her power to ruin the player financially, socially, and politically.
-- **Ruin:**  As stated, all nonmagical items possessed (not just carried) by the player immediately and irrevocably vanish.
-- **Skull:**  An unturnable dread wraith appears and attacks the character. The wraith warns any companions not to interfere, the only time it will speak, and anyone helping the victim will find themselves facing their own dread wraith in a  fight to the death. <!-- printed as-is: NEW --> If the player is slain he cannot be revived, even by means of a wish or miracle. Stats for the dread wraith are included here (and not in the monster section—because this is the only situation in which such a beast can appear.)
+- **Balance:** The character must immediately change to a radically different alignment. Failure to act in accordance with this new outlook on life will result in the player losing a level.
+- **Comet:** To gain the xp and level raise benefit, the character must defeat the next monster or monsters encountered with no aid or assistance of any kind. If successful, the character gains enough xp to gain the next level of advancement.
+- **Donjon:** The character is imprisoned, either by some powerful being or as the ninth level magic user spell. The character appears in a cell or holding area with absolutely nothing except his or her skin. All additional card draws are forfeit if this card is drawn.
+- **Euryale:** The -1 penalty is immediate and permanent, save by the intervention of a deity or by The Fates card in this same deck.
+- **Fates:** The skein of reality, the actual fabric of space-time will be rewoven by the Fates on behalf of the player drawing this plaque. This card will prevent something from happening or undo a past event but the Fates cannot cause an event to happen. Note well this alteration of fate only applies to the player actually drawing the card. The remainder of his or her party may or may not reap the benefit with him or her.
+- **Flames:** The flames of wrath are kindled between the player and an outsider. The slight may be real or imagined on the part of the outsider but the enmity will burn brightly until either the player or the outsider is slain. Determine the exact nature of the foe randomly; roll 1d20 for number of days until it attacks or otherwise begins to vex the player.
+- **Fool:** Both the redraw and the xp penalty are immediate and mandatory. Discard this plaque before redrawing.
+- **Gem:** The jewellery is exquisitely made and set with dazzling gems; each piece is worth 2,000 gp. The gems are flawless and  worth 1,000 gp apiece. <!-- printed as-is: see errata E353 -->
+- **Idiot:** Roll 1d4+1 to generate the total number of points deducted from intelligence ability, imposed on the spot. The redraw is optional, but once the player declares a decision out loud it cannot be changed.
+- **Jester:** The redraw is optional, but once the player declares a decision out loud it cannot be changed. This card is discarded  before any redraws take place. <!-- printed as-is: see errata E354 -->
+- **Key:** A powerful magic weapon of a type the player can use materializes in his or her hand.
+- **Knight:** The fighter is equipped with non-magical armour, equipment and weapons and is of the same sex and race as the  character. <!-- printed as-is: see errata E355 --> This henchman appears from nowhere and offers his or her sword to the character, serving loyally until death.
+- **Moon:** The wishes expire in a number of minutes equal to the number of wishes. Any wishes remaining unused at the end of this time period will be lost forever.
+- **Rogue:** The traitor is preferably an NPC in the player’s employ, and will forever after be completely hostile to him or her. If the player has no cohorts in his employ, the enmity of an NPC at the player’s home base area, a powerful political or religious  figure, can be substituted. <!-- printed as-is: see errata E356 --> The traitorous former friend will do all in his or her power to ruin the player financially, socially, and politically.
+- **Ruin:** As stated, all nonmagical items possessed (not just carried) by the player immediately and irrevocably vanish.
+- **Skull:** An unturnable dread wraith appears and attacks the character. The wraith warns any companions not to interfere, the only time it will speak, and anyone helping the victim will find themselves facing their own dread wraith in a  fight to the death. <!-- printed as-is: see errata E357 --> If the player is slain he cannot be revived, even by means of a wish or miracle. Stats for the dread wraith are included here (and not in the monster section—because this is the only situation in which such a beast can appear.)
 
 <!-- p.372 -->
 
@@ -26729,30 +26762,30 @@ Dread wraiths are insubstantial undead creatures that exist partially in the neg
 
 Wraiths are shadowy, man-like shapes, dark and indistinct. Silver weapons inflict only half damage upon a dread wraith; magical weapons of at least +2 inflict full damage. They are immune to cold damage, *charm*, *sleep* and *hold* spells.
 
-***Treasure:***  (in lair only) 5% chance of 1d10×1,000 cp; 25% chance of 1d12×1,000 sp; 25% chance of 1d6×1,000 ep; 25% chance of 1d8×1,000 gp; 15% chance of 1d12 gems; 10% chance of 1d8 items of jewellery; 25% chance of 3 magic items plus 1 scroll
+***Treasure:*** (in lair only) 5% chance of 1d10×1,000 cp; 25% chance of 1d12×1,000 sp; 25% chance of 1d6×1,000 ep; 25% chance of 1d8×1,000 gp; 15% chance of 1d12 gems; 10% chance of 1d8 items of jewellery; 25% chance of 3 magic items plus 1 scroll
 
-- **Star:**  The player may choose the ability increased by this card but the points may not be divided between two abilities.
-- **Sun:**  Roll on the magic items table until an item usable by the player is generated.
-- **Talons:**  Immediately upon drawing this plaque, all magical items owned by the character (not just those carried) disappear. They cannot be recovered by any means.
-- **Throne:**  The character becomes a charismatic and powerful leader of the people. The castle will appear in any open area of the player’s choosing but the decision must be made within an hour of drawing the card.
-- **Vizier:**  The player acquires the ability to query a deity and receive a truthful answer once, within one year of drawing the card. The information received will be useful for solving the player’s dilemma in question but the player may not always be able to act upon what he or she learns.
-- **The Void:**  When this completely black card is drawn, an intangible something visibly passes from the player’s face into the card. The character’s comatose body will continue to function at a minimal level but the psyche will be trapped in a prison in another plane or other impossibly remote location. The player cannot be restored with a wish, though this spell will reveal the plane of entrapment. A player drawing this card forfeits all further draws.
+- **Star:** The player may choose the ability increased by this card but the points may not be divided between two abilities.
+- **Sun:** Roll on the magic items table until an item usable by the player is generated.
+- **Talons:** Immediately upon drawing this plaque, all magical items owned by the character (not just those carried) disappear. They cannot be recovered by any means.
+- **Throne:** The character becomes a charismatic and powerful leader of the people. The castle will appear in any open area of the player’s choosing but the decision must be made within an hour of drawing the card.
+- **Vizier:** The player acquires the ability to query a deity and receive a truthful answer once, within one year of drawing the card. The information received will be useful for solving the player’s dilemma in question but the player may not always be able to act upon what he or she learns.
+- **The Void:** When this completely black card is drawn, an intangible something visibly passes from the player’s face into the card. The character’s comatose body will continue to function at a minimal level but the psyche will be trapped in a prison in another plane or other impossibly remote location. The player cannot be restored with a wish, though this spell will reveal the plane of entrapment. A player drawing this card forfeits all further draws.
 
 <!-- p.373 -->
 
-**Hammer of Thunderbolts (CFPR):**  This powerful weapon appears as a square-headed, 15 lb war hammer with a shorter than normal haft. The *hammer of thunderbolts* strikes as a +3 weapon and deals 4d6 damage, and can also be hurled as a missile weapon (30 ft range bands) which will return to the wielder after the attack is resolved. Note that this is the maximum power the item can attain if wielded by a cleric; only one who can wear the *belt of giant strength* can unlock its full potential.
+**Hammer of Thunderbolts (CFPR):** This powerful weapon appears as a square-headed, 15 lb war hammer with a shorter than normal haft. The *hammer of thunderbolts* strikes as a +3 weapon and deals 4d6 damage, and can also be hurled as a missile weapon (30 ft range bands) which will return to the wielder after the attack is resolved. Note that this is the maximum power the item can attain if wielded by a cleric; only one who can wear the *belt of giant strength* can unlock its full potential.
 
 If the wielder is wearing both *gauntlets of ogre power* and a *belt of giant strength* the slumbering power of the *hammer of thunderbolts* is revealed to the wearer. First, the owner knows the weapon for what it is. Second, the weapon gains a full +5 attack bonus, all damage bonuses from the hammer, gauntlets, and belt stack, and the weapon will strike dead any giant on a successful hit. The giant is allowed a saving throw vs death magic to avoid the instant death but not the damage.
 
-Further, when hurled the weapon gains a new power. On a successful attack the hurled weapons emits a clap of thunder which stuns all living creatures within 90 ft (saving throw vs petrifaction to avoid).
+Further, when hurled the weapon gains a new power. On a successful attack the hurled weapons emits a clap of thunder which stuns all living creatures within 90 ft (saving throw vs petrifaction to avoid). <!-- printed as-is: see errata E358 -->
 
 Chiselled into the base of the stone hammerhead are the words “Æsir Hammers, Ltd.”
 
-**Philosopher’s Stone (any):**  Produced by an alchemist of some long-forgotten civilisation, the philosopher’s stone appears as an unremarkable, dull black rock of irregular shape and about the size of a clenched fist. Upon inspection the stone seems heavy for its size and, if spun on a flat surface the stone wobbles about its axis as if the centre were liquid. Breaking the stone open will reveal the hollow centre is filled with *alchemist’s quicksilver*, a wonderful substance able to transmute base metals such as lead or iron into pure gold or silver. The amount of *alchemist’s quicksilver* in the *philosopher’s stone* is sufficient to convert 5,000 lbs of iron into pure silver, or 1,000 lbs of lead into gleaming, pure gold. The potent magic of the stone also has another use. The quicksilver can be mixed with a curative potion to create *oil of life*. When applied to a corpse the oil acts as a *resurrection* spell.
+**Philosopher’s Stone (any):** Produced by an alchemist of some long-forgotten civilisation, the philosopher’s stone appears as an unremarkable, dull black rock of irregular shape and about the size of a clenched fist. Upon inspection the stone seems heavy for its size and, if spun on a flat surface the stone wobbles about its axis as if the centre were liquid. Breaking the stone open will reveal the hollow centre is filled with *alchemist’s quicksilver*, a wonderful substance able to transmute base metals such as lead or iron into pure gold or silver. The amount of *alchemist’s quicksilver* in the *philosopher’s stone* is sufficient to convert 5,000 lbs of iron into pure silver, or 1,000 lbs of lead into gleaming, pure gold. The potent magic of the stone also has another use. The quicksilver can be mixed with a curative potion to create *oil of life*. When applied to a corpse the oil acts as a *resurrection* spell.
 
-The quicksilver is sealed into the stone because it breaks down rapidly when exposed to air. The quicksilver must be used within 24 hours of breaking the stone or it loses its potency forever. Any use of the quicksilver uses all the contents of the stone, so one must decided <!-- printed as-is: NEW --> beforehand whether to produce silver, gold, or the *oil of life*.
+The quicksilver is sealed into the stone because it breaks down rapidly when exposed to air. The quicksilver must be used within 24 hours of breaking the stone or it loses its potency forever. Any use of the quicksilver uses all the contents of the stone, so one must decided <!-- printed as-is: see errata E359 --> beforehand whether to produce silver, gold, or the *oil of life*.
 
-**Sphere of Annihilation (IM):**  This “object” is not so much something as pure nothing, a spherical wound in reality consisting of a malignant absence of matter. Any matter from the Prime Material Plane coming into contact with the sphere is sucked into its utter blackness, instantly and irrevocably destroyed. A *wish* cannot restore the unfortunate victim; only the direct intervention of a deity may do so.
+**Sphere of Annihilation (IM):** This “object” is not so much something as pure nothing, a spherical wound in reality consisting of a malignant absence of matter. Any matter from the Prime Material Plane coming into contact with the sphere is sucked into its utter blackness, instantly and irrevocably destroyed. A *wish* cannot restore the unfortunate victim; only the direct intervention of a deity may do so.
 
 A *sphere of annihilation* can be moved without touching it, using only the power of the mind. The character must roll a save vs death magic, modified by +1 for each point of intelligence over 15, to move the sphere 10 ft per round plus 5 ft for each point he or she exceeded his or her save. Initial control of the sphere can be attempted from as far away as 40 ft and once control is gained the distance the sphere can be controlled increases to 40 ft + 10 ft per controlling character’s level. If a control check fails the sphere slides 10 ft in the direction of the controller who was attempting to move it. Controlling a sphere uses all of a character’s actions for that round.
 
@@ -26762,7 +26795,7 @@ The *sphere of annihilation* cancels most magic in the same way it absorbs matte
 
 See also: *Talisman of the Sphere*.
 
-**Talisman of Pure Good (CP):**  Any cleric or paladin of good alignment (LG, NG, CG) can use this artifact to damn an evil cleric  (LE, NE, CE) <!-- printed as-is: NEW --> up to 100 ft away to a fiery judgment. When the talisman is activated, the ground cracks open at the cleric’s feet, flames shooting upward as the victim is sent hurtling down to the very centre of the earth. The following round the ground closes and forever after, nothing will grow on that spot.
+**Talisman of Pure Good (CP):** Any cleric or paladin of good alignment (LG, NG, CG) can use this artifact to damn an evil cleric  (LE, NE, CE) <!-- printed as-is: see errata E360 --> up to 100 ft away to a fiery judgment. When the talisman is activated, the ground cracks open at the cleric’s feet, flames shooting upward as the victim is sent hurtling down to the very centre of the earth. The following round the ground closes and forever after, nothing will grow on that spot.
 
 The wielder of the talisman must be exceptionally pure of thought and deed, or else the target of the talisman’s effect gains a saving throw vs death magic to leap aside as the crack forms. It should be also noted the target must be standing on solid ground for the talisman to function. None but a good paladin or cleric may use the *talisman of pure good*, and none but an evil cleric may be damned by it. Any neutral cleric (LN, N, CN) touching the talisman takes 6d6 damage, no saving throw allowed. An evil cleric
 
@@ -26770,9 +26803,9 @@ The wielder of the talisman must be exceptionally pure of thought and deed, or e
 
 touching the talisman takes 8d6 points of damage, no saving throw allowed. The talisman is inert to any other character.
 
-**Talisman of the Sphere (IM):**  This item is only usable by arcane or phantasmal spellcasters. Any character unable to cast arcane or phantasmal spells cannot use the talisman and, in fact, will take 5d6 points of damage if they attempt to pick it up. The talisman, consisting of a braided gold and adamantine cable forming a loop closed by an adamantine handle, allows a magic user to exert greater control over a *sphere of annihilation* (see above) by increasing the character’s modifier on the control check (double intelligence bonus and character level). A character using the talisman to exert influence on a *sphere of annihilation* need only check for maintaining control every other round after initial control is established. If the wielder fails to establish initial control or subsequently loses control, the sphere will move toward him or her at a rate of 10 ft per round. Though spells such as *dispel magic* are ineffective against a *sphere of annihilation*, these spells function normally when used on the talisman of the sphere—which counts as 20th level for the purposes of *dispel magic* attempts.
+**Talisman of the Sphere (IM):** This item is only usable by arcane or phantasmal spellcasters. Any character unable to cast arcane or phantasmal spells cannot use the talisman and, in fact, will take 5d6 points of damage if they attempt to pick it up. The talisman, consisting of a braided gold and adamantine cable forming a loop closed by an adamantine handle, allows a magic user to exert greater control over a *sphere of annihilation* (see above) by increasing the character’s modifier on the control check (double intelligence bonus and character level). A character using the talisman to exert influence on a *sphere of annihilation* need only check for maintaining control every other round after initial control is established. If the wielder fails to establish initial control or subsequently loses control, the sphere will move toward him or her at a rate of 10 ft per round. Though spells such as *dispel magic* are ineffective against a *sphere of annihilation*, these spells function normally when used on the talisman of the sphere—which counts as 20th level for the purposes of *dispel magic* attempts.
 
-**Talisman of Reluctant Wishes (any):**  This nondescript artifact causes any character touching it to try to roll his or her charisma or less on 1d20.
+**Talisman of Reluctant Wishes (any):** This nondescript artifact causes any character touching it to try to roll his or her charisma or less on 1d20.
 
 If he or she fails the roll by exceeding his or her charisma score, the talisman acts as a *stone of weight* (detailed in the Cursed Magic Items section). Discarding or destroying the talisman results in 5d6 damage, no save allowed, and the talisman disappears.
 
@@ -26782,13 +26815,13 @@ If he or she rolls a natural 20 the character and talisman become bound together
 
 No matter which result is rolled, when the talisman of reluctant wishes disappears, a flawless white diamond worth 10,000 gp is left in its place.
 
-**Talisman of Pure Evil (C):**  Any cleric of evil alignment (LE, NE, CE) can use this artifact to banish a good cleric or paladin (LG, NG, CG) up to 100 ft away to an icy prison. When the talisman is activated, the ground cracks open at the victim’s feet, chunks of ice flying upward as the victim is sent hurtling down to the very centre of the earth. The following round the ground closes and forever after, only white roses will grow on that spot.
+**Talisman of Pure Evil (C):** Any cleric of evil alignment (LE, NE, CE) can use this artifact to banish a good cleric or paladin (LG, NG, CG) up to 100 ft away to an icy prison. When the talisman is activated, the ground cracks open at the victim’s feet, chunks of ice flying upward as the victim is sent hurtling down to the very centre of the earth. The following round the ground closes and forever after, only white roses will grow on that spot.
 
 The wielder of the talisman must be relentlessly and irredeemably evil of thought and deed, or else the target of the talisman’s effect gains a saving throw vs death magic to leap aside as the crack forms. It should be also noted the target must be standing on solid ground for the talisman to function. None but an evil cleric may use the *talisman of pure evil*, and none but a good cleric or paladin may be banished by it. Any neutral cleric (LN, N, CN) touching the talisman takes 6d6 damage, no saving throw allowed. A good cleric touching the talisman takes 8d6 points of damage, no saving throw allowed. The talisman is inert to any other character.
 
-## MAJOR ARTIFACTS
+### MAJOR ARTIFACTS
 
-Unlike minor artifacts, major artifacts are unique (meaning each is one of a kind). These are the most potent magic items known to mortals. The power contained in a major artifact is capable of completely altering the balance of power in a campaign. Major artifacts are not easily un-made and each has a single and very specific means of destruction.
+Unlike minor artifacts, major artifacts are unique (meaning each is one of a kind). These are the most potent magic items known to mortals. The power contained in a major artifact is capable of completely altering the balance of power in a campaign. Major artifacts are not easily unmade and each has a single and very specific means of destruction.
 
 A detailed description of major artifacts is not a fit subject for the OSRIC core rules. As with certain other parts of the First Edition system—planar travel, encounter statistics for major demons and devils, and the like—major artifacts will be dealt with in separate and subsequent volumes, on the grounds that such things are not suitable for play at the more usual character levels.
 
@@ -26801,7 +26834,7 @@ A detailed description of major artifacts is not a fit subject for the OSRIC cor
 
 <!-- p.375 -->
 
-# APPENDIX A: COMPILED TABLES
+## APPENDIX A: COMPILED TABLES
 
 ## Strength Table
 
@@ -26989,7 +27022,7 @@ A detailed description of major artifacts is not a fit subject for the OSRIC cor
 
 ## Cleric Spells by Level
 
-| # | Level One | # | Level Two | # | Level Three | # | Level Four |
+|  | Level One |  | Level Two |  | Level Three |  | Level Four |
 |---|---|---|---|---|---|---|---|
 | 1 | Bless | 1 | Augury | 1 | Animate Dead | 1 | Cure Serious Wounds |
 | 2 | Command | 2 | Chant | 2 | Continual Light | 2 | Detect Lie |
@@ -27004,7 +27037,7 @@ A detailed description of major artifacts is not a fit subject for the OSRIC cor
 | 11 | Resist Cold | 11 | Speak With Animals | 11 | Remove Curse |  |  |
 | 12 | Sanctuary | 12 | Spiritual Weapon | 12 | Speak with Dead |  |  |
 
-| # | Level Five | # | Level Six | # | Level Seven |
+|  | Level Five |  | Level Six |  | Level Seven |
 |---|---|---|---|---|---|
 | 1 | Atonement | 1 | Aerial Servant | 1 | Astral Spell |
 | 2 | Commune | 2 | Animate Object | 2 | Control Weather |
@@ -27045,7 +27078,7 @@ A detailed description of major artifacts is not a fit subject for the OSRIC cor
 
 ## Druid Spells by Level
 
-| # | Level One | # | Level Two | # | Level Three | # | Level Four |
+|  | Level One |  | Level Two |  | Level Three |  | Level Four |
 |---|---|---|---|---|---|---|---|
 | 1 | Animal Friendship | 1 | Barkskin | 1 | Call Lightning | 1 | Animal Summoning I |
 | 2 | Detect Magic | 2 | Charm Person or Mammal | 2 | Cure Disease | 2 | Call Woodland Beings |
@@ -27060,7 +27093,7 @@ A detailed description of major artifacts is not a fit subject for the OSRIC cor
 | 11 | Shillelagh | 11 | Trip | 11 | Tree | 11 | Repel Insects |
 | 12 | Speak with Animals | 12 | Warp Wood | 12 | Water Breathing | 12 | Speak with Plants |
 
-| # | Level Five | # | Level Six | # | Level Seven |
+|  | Level Five |  | Level Six |  | Level Seven |
 |---|---|---|---|---|---|
 | 1 | Animal Growth | 1 | Animal Summoning III | 1 | Animate Rock |
 | 2 | Animal Summoning II | 2 | Anti-Animal Shell | 2 | Chariot of Fire |
@@ -27151,7 +27184,7 @@ A detailed description of major artifacts is not a fit subject for the OSRIC cor
 
 ## Illusionist Spells by Level
 
-| # | Level One | # | Level Two | # | Level Three | # | Level Four |
+|  | Level One |  | Level Two |  | Level Three |  | Level Four |
 |---|---|---|---|---|---|---|---|
 | 1 | Audible Glamour | 1 | Blindness | 1 | Continual Darkness | 1 | Confusion |
 | 2 | Change Self | 2 | Blur | 2 | Continual Light | 2 | Dispel Exhaustion |
@@ -27166,7 +27199,7 @@ A detailed description of major artifacts is not a fit subject for the OSRIC cor
 | 11 | Phantasmal Force | 11 | Misdirection | 11 | Spectral Force |  |  |
 | 12 | Wall of Fog | 12 | Ventriloquism | 12 | Suggestion |  |  |
 
-| # | Level Five | # | Level Six | # | Level Seven |
+|  | Level Five |  | Level Six |  | Level Seven |
 |---|---|---|---|---|---|
 | 1 | Chaos | 1 | Conjure Animals | 1 | Alter Reality |
 | 2 | Demi-Shadow Monsters | 2 | Demi-Shadow Magic | 2 | Astral Spell |
@@ -27193,7 +27226,7 @@ A detailed description of major artifacts is not a fit subject for the OSRIC cor
 
 ### Magic User To Hit Table
 
-**Roll required to hit Armour Class** <!-- printed as-is: NEW -->
+**Roll required to hit Armour Class** <!-- printed as-is: see errata E361 -->
 
 | Level | -10 | -9 | -8 | -7 | -6 | -5 | -4 | -3 | -2 | -1 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -27205,7 +27238,7 @@ A detailed description of major artifacts is not a fit subject for the OSRIC cor
 
 ## Magic User Spells by Level
 
-| # | Level One | # | Level Two | # | Level Three | # | Level Four |
+|  | Level One |  | Level Two |  | Level Three |  | Level Four |
 |---|---|---|---|---|---|---|---|
 | 1 | Affect Normal Fires | 1 | Audible Glamour | 1 | Blink | 1 | Charm Monster |
 | 2 | Burning Hands | 2 | Continual Light | 2 | Clairaudience | 2 | Confusion |
@@ -27240,7 +27273,7 @@ A detailed description of major artifacts is not a fit subject for the OSRIC cor
 
 <!-- p.382 -->
 
-| # | Level Five | # | Level Six | # | Level Seven | # | Level Eight |
+|  | Level Five |  | Level Six |  | Level Seven |  | Level Eight |
 |---|---|---|---|---|---|---|---|
 | 1 | Airy Water | 1 | Anti-Magic Shell | 1 | Cacodemon | 1 | Antipathy/ Sympathy |
 | 2 | Animal Growth | 2 | Control Weather | 2 | Charm Plants | 2 | Clenched Fist |
@@ -27267,7 +27300,7 @@ A detailed description of major artifacts is not a fit subject for the OSRIC cor
 | 23 | Wall of Iron | 23 | Stone to Flesh |  |  |  |  |
 | 24 | Wall of Stone | 24 | Transformation |  |  |  |  |
 
-| # | Level Nine |
+|  | Level Nine |
 |---|---|
 | 1 | Astral Spell |
 | 2 | Crushing Hand |
@@ -27356,7 +27389,7 @@ A detailed description of major artifacts is not a fit subject for the OSRIC cor
 
 <!-- p.384 -->
 
-## Thief Skills Table—Base chance <!-- printed as-is: NEW -->
+## Thief Skills Table—Base chance <!-- printed as-is: see errata E362 -->
 
 | Level | Climb Walls | Find Traps | Hear Noise | Hide in Shadows | Move Quietly | Open Locks | Pick Pockets | Read Languages |
 |---|---|---|---|---|---|---|---|---|
@@ -27385,7 +27418,7 @@ A detailed description of major artifacts is not a fit subject for the OSRIC cor
 | 23 | 99% | 99% | 76% | 98% | 98% | 98% | 98% | 98% |
 | 24 | 99% | 99% | 79% | 99% | 99% | 99% | 99% | 99% |
 
-## Thief Skills Table—Dexterity adjustments <!-- printed as-is: NEW -->
+## Thief Skills Table—Dexterity adjustments <!-- printed as-is: see errata E363 -->
 
 | Dexterity | Climb Walls | Find Traps | Hear Noise | Hide in Shadows | Move Quietly | Open Locks | Pick Pockets | Read Languages |
 |---|---|---|---|---|---|---|---|---|
@@ -27468,7 +27501,7 @@ A detailed description of major artifacts is not a fit subject for the OSRIC cor
 
 ## Melee Weapon Table
 
-| Weapon type<!-- printed as-is: NEW --> | Damage vs Small or Medium | Damage vs Large | Encumbrance | Cost |
+| Weapon type<!-- printed as-is: see errata E364 --> | Damage vs Small or Medium | Damage vs Large | Encumbrance | Cost |
 |---|---|---|---|---|
 | Arrows | 1d6 | 1d6 | 4 (per dozen) | 2 gp (per dozen) |
 | Axe, battle | 1d8 | 1d8 | 7 | 5 gp |
@@ -27524,7 +27557,7 @@ A detailed description of major artifacts is not a fit subject for the OSRIC cor
 
 | Weapon Type | Damage vs Small or Medium | Damage vs Large | Rate of Fire (in shots per round) | Range (-2 to hit per increment) | Encumbrance | Cost |
 |---|---|---|---|---|---|---|
-| Hammer | 1d4+1 | 1d4 | 1 | 10 ft | 5 | 1gp<!-- printed as-is: NEW --> |
+| Hammer | 1d4+1 | 1d4 | 1 | 10 ft | 5 | 1gp |
 | Javelin | 1d6 | 1d4 | 1 | 20 ft | 2 | 5 sp |
 | Sling | 1d4+1 or 1d4 | 1d6+1 or 1d4 | 1 | 35 ft | ½ | 5 sp |
 | Spear | 1d6 | 1d8 | 1 | 15 ft | 5 | 1 gp |
@@ -27551,7 +27584,7 @@ A detailed description of major artifacts is not a fit subject for the OSRIC cor
 | Splint | 40 lbs | 60 ft | -6 | 80 gp |
 | Studded | 20 lbs | 90 ft | -3 | 15 gp |
 
-* For non-magic armour.  Magic armour is un-encumbering, and allows a maximum move rate 30 ft faster than normal (up to 120 ft). Magic shields weigh as much as normal shields of the same type.
+* For non-magic armour. Magic armour is un-encumbering, and allows a maximum move rate 30 ft faster than normal (up to 120 ft). Magic shields weigh as much as normal shields of the same type.
 
 ## Item Saving Throw Table
 
@@ -27672,7 +27705,7 @@ See also the complete listings of Spells, Magic items and Monsters in the Conten
 
 ### A
 
-**Ability Scores** iii, ix, 1, 3-8, 28, 34,51, 66, 90, 101, 118, 122, 149-151, 172, 201, 211, 222, 270, 306, 356, 362, 365, 368, 371  <!-- printed as-is: NEW -->
+**Ability Scores** iii, ix, 1, 3-8, 28, 34,51, 66, 90, 101, 118, 122, 149-151, 172, 201, 211, 222, 270, 306, 356, 362, 365, 368, 371  <!-- printed as-is: see errata E366 -->
 **Acid** 125, 148, 161, 209, 210, 212, 214, 217, 226, 252, 270, 273, 277, 282, 306, 311, 312, 324, 331, 357, 387
 **Adventure and Exploration** iii, 145
 **Adventures in Town** iii, 151, 152
@@ -27680,7 +27713,7 @@ See also the complete listings of Spells, Magic items and Monsters in the Conten
 **Afterword** iv, 392
 **Age** 3-8, 86, 107, 162, 169-171, 211-216, 233, 246, 247, 292, 330, 331, 334, 335, 362
 **Alchemist** 134, 135, 182, 289, 299, 303, 328, 372, 373
-**Alignment** iii, ix,  4, 8-14, 16, 18, 20, 22, 25, 28, 29, 40, 41, 48, 50, 53, 55, 71, 80, 106, 120, 131, 133, 139, 142-144, 166, 172, 192, 205, 211, 238, 289, 340, 342  <!-- printed as-is: NEW -->
+**Alignment** iii, ix,  4, 8-14, 16, 18, 20, 22, 25, 28, 29, 40, 41, 48, 50, 53, 55, 71, 80, 106, 120, 131, 133, 139, 142-144, 166, 172, 192, 205, 211, 238, 289, 340, 342  <!-- printed as-is: see errata E367 -->
 **Alignment Tongue (Language)** 4, 9, 28, 29, 108, 205, 209, 294, 340, 342
 **Alignments, The Nine** iii, 29
 **Animals** iv, vi, 134, 151, 252-268
@@ -27693,7 +27726,7 @@ See also the complete listings of Spells, Magic items and Monsters in the Conten
 **Assassin** iii, ix, 4-10, 28, 30, 36, 128, 131, 140, 141, 143, 145, 147-149, 174, 175, 196, 222, 299, 323, 376
 **Assassination** 9
 **Attack and Saving Throw Matrices for Monsters** iii, 128
-**Attribute (Ability Score)** ix, 1-3, 249,  <!-- printed as-is: NEW -->
+**Attribute (Ability Score)** ix, 1-3, 249,  <!-- printed as-is: see errata E368 -->
 
 ### B
 
@@ -27709,14 +27742,14 @@ See also the complete listings of Spells, Magic items and Monsters in the Conten
 **Chapter IV: Dungeons, Towns and Wildernesses** iii, 157
 **Chapter V: Monsters** iii, iv, 192
 **Chapter VI: TREASURE** iv, 321
-**Character** iii, ix,  <!-- printed as-is: NEW -->
+**Character** iii, ix,  <!-- printed as-is: see errata E369 -->
 **Character Classes** iii, ix, 8-28, 124
 **Character Races** iii, 3-8
 **Character Sheet** iv, 390, 391
 **Charge** 32, 122, 125, 127, 128, 199, 386
 **Charisma (CHA)** iii, 1, 3, 131, 132, 142, 143, 241, 342, 343, 365, 376
 **Class (Character Class)** iii, ix, 8-28, 124
-**Cleric** iii, iv, 3,  10-12, 18, 28, 30, 36, 37, 40-55, 129, 130, 193, 377  <!-- printed as-is: NEW -->
+**Cleric** iii, iv, 3,  10-12, 18, 28, 30, 36, 37, 40-55, 129, 130, 193, 377  <!-- printed as-is: see errata E370 -->
 **Cleric Spells** iii, 10, 20, 21, 37, 40-53, 377
 **Coin** iv, 321
 **Combat** iii, 2, 9, 14, 15, 23, 122-123, 125-128, 145, 173
@@ -27739,12 +27772,12 @@ See also the complete listings of Spells, Magic items and Monsters in the Conten
 **Damage and Death** iii, 130
 **Damage, Subdual** iii, 130, 217
 **Death** iii, 130, 131, 145
-**Demi-Humans** ix, 8, 141,142, 151, 171  <!-- printed as-is: NEW -->
+**Demi-Humans** ix, 8, 141,142, 151, 171  <!-- printed as-is: see errata E371 -->
 **Demons** iv, vi, 30, 46, 72, 216-225
 **Devils** iv, vi, 29, 46, 225-232
 **Dexterity (DEX)** iii, 1, 2, 125-128, 375
 **Dice and Notation** ix
-**Die, Dice, “D”** ix,  <!-- printed as-is: NEW -->
+**Die, Dice, “D”** ix,  <!-- printed as-is: see errata E372 -->
 **Dinosaurs** iv, vi, 185, 186, 191, 233-237, 266
 **Disease** iii, 20, 131-133, 238, 248, 292, 368
 **Disguise** 8, 9
@@ -27763,7 +27796,7 @@ See also the complete listings of Spells, Magic items and Monsters in the Conten
 
 ### E
 
-**Elves (Elf, Elvish)** iii, ix, 3-5 , 51, 52, 66, 73, 130, 197, 198  <!-- printed as-is: NEW -->
+**Elves (Elf, Elvish)** iii, ix, 3-5 , 51, 52, 66, 73, 130, 197, 198  <!-- printed as-is: see errata E373 -->
 **Encumbrance** iii, 1, 31-33, 122, 123, 127, 375, 386, 387
 **Encumbrance and Base Movement Rate** iii, 122, 123
 **Encounter Tables, Creating Unique** iii, 168
@@ -27778,7 +27811,7 @@ See also the complete listings of Spells, Magic items and Monsters in the Conten
 **Expert Hirelings** iii, 134
 **Explanatory Note and Definition of Terms** iii, ix
 **Explanatory Note Concerning The Spell Descriptions** iii, 36
-**Exploring the Planes** iii,  152  <!-- printed as-is: NEW -->
+**Exploring the Planes** iii,  152  <!-- printed as-is: see errata E374 -->
 **Exploring the Wilderness** iii, 150
 
 ### F
@@ -27811,7 +27844,7 @@ See also the complete listings of Spells, Magic items and Monsters in the Conten
 **Hirelings, Standard** iii, 133, 134
 **Hirelings and Henchmen** iii, 133, 143, 172
 **Hirelings and Henchmen, Loyalty of** iii, 143
-**Hit Points (HP)** 2, 28, 130, 145,192  <!-- printed as-is: NEW -->
+**Hit Points (HP)** 2, 28, 130, 145,192  <!-- printed as-is: see errata E375 -->
 **How To Play** iii, 122-156
 **Humanoids** iv, vi, ix, 130, 197, 199, 200
 **Humans** iii, 8, 28, 173
@@ -27938,7 +27971,7 @@ See also the complete listings of Spells, Magic items and Monsters in the Conten
 **Saving Throws** iii, ix, 3, 36, 124, 125
 **Saving Throws, Item** iii, iv, 124, 125
 **Scrolls** iii, iv, vii, 18, 36, 324, 332, 333
-**Scrolls, Read** 9, 25,  <!-- printed as-is: NEW -->
+**Scrolls, Read** 9, 25,  <!-- printed as-is: see errata E376 -->
 **Scrolls, Spell** iii, iv, 36
 **Scrolls of Warding** iv, 324, 332, 333
 **Searching the Dungeon** iii, 145-149
@@ -27951,7 +27984,7 @@ See also the complete listings of Spells, Magic items and Monsters in the Conten
 **Spell Scrolls** iii, iv, 36
 **Spells** iii, iv, 2, 10-12, 16-18, 28, 36-121, 125-127, 129, 149, 172
 **Spells, Cleric** iii, 10, 20, 21, 37, 40-53, 377
-**Spells, Druid – iii, 23, 37, 38, 56-70, 378**  <!-- printed as-is: NEW -->
+**Spells, Druid – iii, 23, 37, 38, 56-70, 378**  <!-- printed as-is: see errata E377 -->
 **Spells, Illusionist** iii, 16, 39, 111-121
 **Spells, Magic User** iii, 38, 70-111, 381
 **Standard Hirelings** iii, 133, 134
@@ -27964,7 +27997,7 @@ See also the complete listings of Spells, Magic items and Monsters in the Conten
 **Swords, Unusual** iv, 340
 **Swords vs Characters, A Battle of the Wills** iv, 328
 **Sylvan or Faerie Creatures** iv, vi, 239
-**System Shock -2, 51, 98, 103, 105, 151, 375**  <!-- printed as-is: NEW -->
+**System Shock -2, 51, 98, 103, 105, 151, 375**  <!-- printed as-is: see errata E378 -->
 
 ### T
 
@@ -27975,7 +28008,7 @@ See also the complete listings of Spells, Magic items and Monsters in the Conten
 **Time Measurement** iii, 122, 145
 **To Hit and Saving Throw Tables** ix
 **Town, Adventures in** iii, 151, 152
-**Tracking** 23,  <!-- printed as-is: NEW -->
+**Tracking** 23,  <!-- printed as-is: see errata E379 -->
 **Trap Generation and Placement (Dungeons)** iii, 161
 **Traps** iii, 25, 145, 148, 149, 161
 **Treasure** iv, 30, 123, 143, 148, 165, 193, 321-374
@@ -28019,113 +28052,113 @@ See also the complete listings of Spells, Magic items and Monsters in the Conten
 ## INDEX OF TABLES
 
 - **Ability Score**
-  - **Charisma** 3, 376
-  - **Constitution Table** 2, 375
-  - **Dexterity Table** 2, 375
-  - **Intelligence** 2, 376
-  - **Strength Table** 1, 375
-  - **Wisdom** 3, 376
+    - Charisma 3, 376
+    - Constitution Table 2, 375
+    - Dexterity Table 2, 375
+    - Intelligence 2, 376
+    - Strength Table 1, 375
+    - Wisdom 3, 376
 - **Armour (Armor)**
-  - **Table 1** 33, 387
-  - **Table 2** 33
+    - Table 1 33, 387
+    - Table 2 33
 - **Character Class**
-  - **Assassin**
-    - **Level Advancement** 9, 10
-    - **Saving Throw** 10, 376
-    - **To Hit** 10, 376
-  - **Cleric**
-    - **Level Advancement** 11, 12
-    - **Saving Throw** 12, 377
-    - **Spells By Level** 37, 377
-    - **To Hit** 12, 377
-    - **Wisdom Score** 11
-  - **Druid**
-    - **Level Advancement Table** 13
-    - **Saving Throw** 13, 14, 378
-    - **Spells By Level** 37, 38, 378
-    - **To Hit** 14, 379
-  - **Fighter**
-    - **Level Advancement** 15
-    - **Saving Throw** 15, 379
-    - **To Hit** 15, 16, 379
-  - **Illusionist**
-    - **Level Advancement** 17
-    - **Saving Throw** 17, 380
-    - **Spells By Level** 39, 40, 380
-    - **To Hit** 17, 380
-  - **Magic User**
-    - **Level Advancement Table** 19
-    - **Saving Throw** 19, 381
-    - **Spell Acquisition** 18
-    - **Spells By Level** 38, 39
-    - **To Hit** 19, 381
-  - **Paladin**
-    - **Level Advancement** 20, 21
-    - **Saving Throw** 21, 382
-    - **To Hit Table** 21, 22, 383
-  - **Ranger**
-    - **Level Advancement** 23
-    - **Saving Throw** 23 24, 370  <!-- printed as-is: NEW -->
-    - **To Hit** 24, 370
-  - **Thief**
-    - **Level Advancement** 26
-    - **Skills Table**
-      - **Base Chance** 26, 383
-      - **Dexterity Adjustments** 26, 27, 384
-      - **Racial Adjustments** 27, 384, 385
-    - **Saving Throw** 27, 383
-    - **To Hit** 27, 383
+    - Assassin
+        - Level Advancement 9, 10
+        - Saving Throw 10, 376
+        - To Hit 10, 376
+    - Cleric
+        - Level Advancement 11, 12
+        - Saving Throw 12, 377
+        - Spells By Level 37, 377
+        - To Hit 12, 377
+        - Wisdom Score 11
+    - Druid
+        - Level Advancement Table 13
+        - Saving Throw 13, 14, 378
+        - Spells By Level 37, 38, 378
+        - To Hit 14, 379
+    - Fighter
+        - Level Advancement 15
+        - Saving Throw 15, 379
+        - To Hit 15, 16, 379
+    - Illusionist
+        - Level Advancement 17
+        - Saving Throw 17, 380
+        - Spells By Level 39, 40, 380
+        - To Hit 17, 380
+    - Magic User
+        - Level Advancement Table 19
+        - Saving Throw 19, 381
+        - Spell Acquisition 18
+        - Spells By Level 38, 39
+        - To Hit 19, 381
+    - Paladin
+        - Level Advancement 20, 21
+        - Saving Throw 21, 382
+        - To Hit Table 21, 22, 383
+    - Ranger
+        - Level Advancement 23
+        - Saving Throw 23 24, 370  <!-- printed as-is: see errata E380 --><!-- printed as-is: see errata E381 -->
+        - To Hit 24, 370  <!-- printed as-is: see errata E382 -->
+    - Thief
+        - Level Advancement 26
+        - Skills Table
+            - Base Chance 26, 383
+            - Dexterity Adjustments 26, 27, 384
+            - Racial Adjustments 27, 384, 385
+        - Saving Throw 27, 383
+        - To Hit 27, 383
 - **Cleric Spell**
-  - **Speak With Dead** 54
+    - Speak With Dead 54
 - **Container/Capacity** 123
 - **Druid Spell**
-  - **Confusion - Action** 58  <!-- printed as-is: NEW -->
-  - **Reincarnate – Animal** 67
-  - **Reincarnate – Humanoid** 66, 67
+    - Confusion - Action 58  <!-- printed as-is: see errata E383 -->
+    - Reincarnate – Animal 67
+    - Reincarnate – Humanoid 66, 67
 - **Dungeons**
-  - **Air Current** 157
-  - **Clothing and Footwear** 160
-  - **Container Contents** 159
-  - **Food And Drink** 160
-  - **Food And Drink – Seasonings** 160
-  - **Furnishings** 158
-  - **Furnishings, Alchemy Lab** 159
-  - **Furnishings, Religious** 158, 159
-  - **Furnishings, Torture Chamber** 159
-  - **General** 157, 158
-  - **Noises** 158
-  - **Odours (Odors)** 157
-  - **Personal And Miscellaneous Items** 159, 160
-  - **Random Dungeon Generation**
-    - **Table 1: Starting Area Shape** 163
-    - **Table 2(a): Room** 163
-    - **Table 2(b): Chambers** 163
-    - **Table 3: Special Room or Chamber** 164
-    - **Table 4: Approximate Size** 164
-    - **Table 5: Number of Exits** 164
-    - **Table 6: Exit Location** 164
-    - **Table 7: Exit Direction** 165
-    - **Table 8: Chamber or Room Contents** 165
-    - **Table 9: Treasure Container** 165
-    - **Table 10: Treasure Guards & Wards** 165
-    - **Table 11: Treasure Hidden By or In** 165
-    - **Table 12: Treasure Amounts** 165
-    - **Table 13: Stairs** 165
-    - **Table 14: Caves** 165, 166
-    - **Table 15: Pools** 166
-    - **Table 16: Lakes** 166
-    - **Table 17: Magic Pools** 166
-    - **Table 18: General** 166
-    - **Table 19: Door Location** 166
-    - **Table 20: Behind the Door** 166
-    - **Table 21: Side Passages** 166
-    - **Table 22: Passage Width** 167
-    - **Table 23: Special Passages** 167
-    - **Table 24: Turns** 167
-  - **Room Names, List of Formal** 160, 161
-  - **Traps – Random Trap Generation** 162
-  - **Tricks – Attributes** 162
-  - **Tricks – Features** 162, 163
+    - Air Current 157
+    - Clothing and Footwear 160
+    - Container Contents 159
+    - Food And Drink 160
+    - Food And Drink – Seasonings 160
+    - Furnishings 158
+    - Furnishings, Alchemy Lab 159
+    - Furnishings, Religious 158, 159
+    - Furnishings, Torture Chamber 159
+    - General 157, 158
+    - Noises 158
+    - Odours (Odors) 157
+    - Personal And Miscellaneous Items 159, 160
+    - Random Dungeon Generation
+        - Table 1: Starting Area Shape 163
+        - Table 2(a): Room 163
+        - Table 2(b): Chambers 163
+        - Table 3: Special Room or Chamber 164
+        - Table 4: Approximate Size 164
+        - Table 5: Number of Exits 164
+        - Table 6: Exit Location 164
+        - Table 7: Exit Direction 165
+        - Table 8: Chamber or Room Contents 165
+        - Table 9: Treasure Container 165
+        - Table 10: Treasure Guards & Wards 165
+        - Table 11: Treasure Hidden By or In 165
+        - Table 12: Treasure Amounts 165
+        - Table 13: Stairs 165
+        - Table 14: Caves 165, 166
+        - Table 15: Pools 166
+        - Table 16: Lakes 166
+        - Table 17: Magic Pools 166
+        - Table 18: General 166
+        - Table 19: Door Location 166
+        - Table 20: Behind the Door 166
+        - Table 21: Side Passages 166
+        - Table 22: Passage Width 167
+        - Table 23: Special Passages 167
+        - Table 24: Turns 167
+    - Room Names, List of Formal 160, 161
+    - Traps – Random Trap Generation 162
+    - Tricks – Attributes 162
+    - Tricks – Features 162, 163
 - **Encumbrance – Weight/Movement/Surprise** 123
 - **Equipment List** 30, 31
 - **Experience Point Awards For Monsters Slain** 124, 388
@@ -28134,66 +28167,66 @@ See also the complete listings of Spells, Magic items and Monsters in the Conten
 - **Henchmen, Class of** 143
 - **Hireling Type/Pay Rate** 133
 - **Hireling, Expert**
-  - **Type/Monthly Wage** 134
-  - **Armourer (Armorer)** 135
-  - **Blacksmith – Weapon Type/Production Time** 136
-  - **Men at Arms** 134, 135
-  - **Mercenary – Type/Number** 136, 137
-  - **Sage**
-    - **Alignment** 139
-    - **Chance of Knowing An Answer To A Question** 139
-    - **Fields of Study** 139
-    - **Information Discovery Time And Cost** 141
-    - **Sage Ability** 138
-    - **Ship Crew** 135
-  - **Weaponer – Weapon Type/Production Time** 142
+    - Type/Monthly Wage 134
+    - Armourer (Armorer) 135
+    - Blacksmith – Weapon Type/Production Time 136
+    - Men at Arms 134, 135
+    - Mercenary – Type/Number 136, 137
+    - Sage
+        - Alignment 139
+        - Chance of Knowing An Answer To A Question 139
+        - Fields of Study 139
+        - Information Discovery Time And Cost 141
+        - Sage Ability 138
+        - Ship Crew 135
+    - Weaponer – Weapon Type/Production Time 142
 - **Hirelings And Henchmen**
-  - **Alignment** 143
-  - **Discipline** 144
-  - **Length of Service** 144
-  - **Loyalty Test** 144
-  - **Payment** 144
-  - **Racial Preferences** 144
-  - **Status** 144
-  - **Training** 144
-  - **Treatment** 144
-  - **Loyalty of – Player Character Alignment** 143
+    - Alignment 143
+    - Discipline 144
+    - Length of Service 144
+    - Loyalty Test 144
+    - Payment 144
+    - Racial Preferences 144
+    - Status 144
+    - Training 144
+    - Treatment 144
+    - Loyalty of – Player Character Alignment 143
 - **Illusionist Spell**
-  - **Chaos – Action** 112
-  - **Prismatic Spray – Colour (Color)/Effect** 118
+    - Chaos – Action 112
+    - Prismatic Spray – Colour (Color)/Effect 118
 - **Insanity** 132
 - **Item Saving Throw** 125, 387
 - **Magic Items, List of** vii, viii
 - **Magic User Spell**
-  - **Charm Monster – Number/Level** 72
-  - **Contact Other Plane – Contradiction/Insanity** 75
-  - **Find Familiar – Level/Familiar Type** 81
-  - **Maze – Intelligence/Escape Time** 93
-  - **Monster Summoning I – Monster Summoned** 95
-  - **Monster Summoning II – Monster Summoned** 95
-  - **Monster Summoning III – Monster Summoned** 95
-  - **Monster Summoning IV – Monster Summoned** 95
-  - **Monster Summoning V – Monster Summoned** 96
-  - **Monster Summoning VI – Monster Summoned** 96
-  - **Monster Summoning VII – Monster Summoned** 96
-  - **Polymorph Object – Subject/Duration** 98
-  - **Polymorph Object – Duration Factor/Duration** 98
-  - **Prismatic Sphere – Colour (color)/Effect/Negation** 100  <!-- printed as-is: NEW -->
-  - **Reincarnation – Arcane Reincarnation** 101, 102
-  - **Sleep – Hit Die/Number Effected** 104
-  - **Teleport – Familiarity/On-Off Target/Mishap** 107
+    - Charm Monster – Number/Level 72
+    - Contact Other Plane – Contradiction/Insanity 75
+    - Find Familiar – Level/Familiar Type 81
+    - Maze – Intelligence/Escape Time 93
+    - Monster Summoning I – Monster Summoned 95
+    - Monster Summoning II – Monster Summoned 95
+    - Monster Summoning III – Monster Summoned 95
+    - Monster Summoning IV – Monster Summoned 95
+    - Monster Summoning V – Monster Summoned 96
+    - Monster Summoning VI – Monster Summoned 96
+    - Monster Summoning VII – Monster Summoned 96
+    - Polymorph Object – Subject/Duration 98
+    - Polymorph Object – Duration Factor/Duration 98
+    - Prismatic Sphere – Colour (color)/Effect/Negation 100  <!-- printed as-is: see errata E384 -->
+    - Reincarnation – Arcane Reincarnation 101, 102
+    - Sleep – Hit Die/Number Effected 104
+    - Teleport – Familiarity/On-Off Target/Mishap 107
 - **Monster Level Experience Table** 123
 - **Monsters**
-  - **Caterwaul – Dexterity Chart** 277
-  - **Demon – Attack Form** 217
-  - **Demon – Demon Summoning Demon** 220
-  - **Devil – Attack Susceptibility** 226
-  - **Men - (Leader Type) Magic Item** 193, 194  <!-- printed as-is: NEW -->
-  - **Men – Pilgrim Alignment** 193
-  - **Shaman Race/Maximum Level** 193
-  - **Shaman Spell** 193
-  - **Witch Doctor Race/Maximum Level** 193
-  - **Witch Doctor Spell** 193
+    - Caterwaul – Dexterity Chart 277
+    - Demon – Attack Form 217
+    - Demon – Demon Summoning Demon 220
+    - Devil – Attack Susceptibility 226
+    - Men - (Leader Type) Magic Item 193, 194  <!-- printed as-is: see errata E385 -->
+    - Men – Pilgrim Alignment 193
+    - Shaman Race/Maximum Level 193
+    - Shaman Spell 193
+    - Witch Doctor Race/Maximum Level 193
+    - Witch Doctor Spell 193
 - **Monsters, Attack And Saving Throw (Monster Equivalent Level)** 128, 387, 388
 - **Monsters, List of** vi, vii
 - **Morale Check Modifiers, Table of Common** 131
@@ -28201,157 +28234,157 @@ See also the complete listings of Spells, Magic items and Monsters in the Conten
 <!-- p.396 -->
 
 - **Random Encounters**
-  - **Level Template** 168
-  - **Monster Level One** 168
-  - **Monster Level Two** 168, 169
-  - **Monster Level Three** 169
-  - **Monster Level Three Dragon Sub-Table** 169
-  - **Monster Level Four** 169
-  - **Monster Level Four Dragon Sub-Table** 169
-  - **Monster Level Five** 169
-  - **Monster Level Five Dragon Sub-Table** 169, 170
-  - **Monster Level Six** 170
-  - **Monster Level Six Dragon Sub-Table** 170
-  - **Monster Level Seven** 170
-  - **Monster Level Seven Dragon Sub-Table** 170
-  - **Monster Level Eight** 170
-  - **Monster Level Eight Dragon Sub-Table** 171
-  - **Monster Level Nine** 171
-  - **Monster Level Nine Dragon Sub-Table** 171
-  - **Monster Sub-Table Matrix** 168
-  - **NPC Parties**
-    - **0-Level NPCs** 173
-    - **Demi-Humans and Multi-Class NPCs** 172
-    - **NPC Classes** 171
-    - **Party Magic Items** 172
-    - **Party Magic Items Sub-Table One** 172
-    - **Party Magic Items Sub-Table Two** 172, 173
-    - **Party Magic Items Sub-Table Three** 173
-    - **Party Magic Items Sub-Table Four** 173
+    - Level Template 168
+    - Monster Level One 168
+    - Monster Level Two 168, 169
+    - Monster Level Three 169
+    - Monster Level Three Dragon Sub-Table 169
+    - Monster Level Four 169
+    - Monster Level Four Dragon Sub-Table 169
+    - Monster Level Five 169
+    - Monster Level Five Dragon Sub-Table 169, 170
+    - Monster Level Six 170
+    - Monster Level Six Dragon Sub-Table 170
+    - Monster Level Seven 170
+    - Monster Level Seven Dragon Sub-Table 170
+    - Monster Level Eight 170
+    - Monster Level Eight Dragon Sub-Table 171
+    - Monster Level Nine 171
+    - Monster Level Nine Dragon Sub-Table 171
+    - Monster Sub-Table Matrix 168
+    - NPC Parties
+        - 0-Level NPCs 173
+        - Demi-Humans and Multi-Class NPCs 172
+        - NPC Classes 171
+        - Party Magic Items 172
+        - Party Magic Items Sub-Table One 172
+        - Party Magic Items Sub-Table Two 172, 173
+        - Party Magic Items Sub-Table Three 173
+        - Party Magic Items Sub-Table Four 173
 - **Random Urban Encounters**
-  - **Daytime Encounters** 175, 176
-  - **Nighttime Encounters** 174, 175
-  - **Noble Professions** 174
-  - **Race Sub-Tables** 174
-  - **Red-Light Professions** 174
-  - **Urban Professions** 174
+    - Daytime Encounters 175, 176
+    - Nighttime Encounters 174, 175
+    - Noble Professions 174
+    - Race Sub-Tables 174
+    - Red-Light Professions 174
+    - Urban Professions 174
 - **Random Wilderness Encounters** 178
-  - **Aquatic** 179
-  - **Artic** 179, 180  <!-- printed as-is: see errata E15 -->
-  - **Desert** 180, 181
-  - **Dinosaur Encounter** 191
-    - **Ceratopsians** 191
-    - **Dinosaurs I, Other** 191
-    - **Dinosaurs II, Other** 191
-    - **Dinosaurs, Flying** 191
-    - **Dinosaurs, Marine** 191
-    - **Hadrosaurids** 191
-    - **Sauropods** 191
-    - **Tyrannosaurids & Allosaurids** 191
-  - **Forest** 181, 182
-  - **Graveyard** 182, 183
-  - **Hills** 183, 184
-  - **Jungle** 184, 185
-  - **Lost World** 185, 186
-  - **Marine** 186, 187
-  - **Mountains** 187
-  - **Plains** 188
-  - **Rural** 188, 189
-  - **Tundra** 189, 190
+    - Aquatic 179
+    - Artic 179, 180  <!-- printed as-is: see errata E15 -->
+    - Desert 180, 181
+    - Dinosaur Encounter 191
+        - Ceratopsians 191
+        - Dinosaurs I, Other 191
+        - Dinosaurs II, Other 191
+        - Dinosaurs, Flying 191
+        - Dinosaurs, Marine 191
+        - Hadrosaurids 191
+        - Sauropods 191
+        - Tyrannosaurids & Allosaurids 191
+    - Forest 181, 182
+    - Graveyard 182, 183
+    - Hills 183, 184
+    - Jungle 184, 185
+    - Lost World 185, 186
+    - Marine 186, 187
+    - Mountains 187
+    - Plains 188
+    - Rural 188, 189
+    - Tundra 189, 190
 - **Spells, List of** iv, v, vi
 - **Treasure**
-  - **Armour (Armor) And Shield**
-    - **Table 1: Form** 323
-    - **Table 2: Properties** 323
-  - **Artifact**
-    - **Book of Infinite Spells – Spell Level** 370
-    - **Deck of Many Things – Type/Effect** 371, 372
-  - **Cursed Items**
-    - **Drawback** 365
-    - **Intermittent Functioning Situation** 364
-    - **Specific Cursed Items** 366
-    - **Table of Common Item Curses** 364
-    - **Cursed Items**
-      - **Ring of Contrariness – Ability** 368
-  - **Gemstone** 322
-  - **Jewellery (Jewelry)** 322, 323
-  - **Magic, Miscellaneous**
-    - **Bag of Holding (any)** 345
-    - **Bag of Tricks – Colour (Color)** 345
-    - **Carpet of Flying – Size/Capacity** 347
-    - **Cloak of Resistance – Bonus** 348
-    - **Crystal Ball – Additional Abilities** 348
-    - **Cube of Force – Attack Type/Charges** 349
-    - **Cube of Force – Charges/Effect** 349
-    - **Deck of Illusions – Card/Creature** 350
-    - **Horn of Valhalla – Type/Fighters** 354
-    - **Ioun Stones – Color/Shape/Effect** 355
-    - **Necklace of Fireballs – Type/Number** 357
-    - **Robe of Useful Items – Item/Type** 359
-    - **Sagacious Volume – Character Class** 359
-    - **Strand of Prayer Beads – Type/Ability** 360
-  - **Master Magic Item Tables** 323
-    - **Miscellaneous** 335
-    - **Sub-Table IV-A: Ioun Stones** 327
-    - **Table I: Common Miscellaneous** 325
-    - **Table II: Less Common Miscellaneous** 327
-    - **Table III: Uncommon Miscellaneous** 327
-    - **Table IV: Rare Miscellaneous** 327
-  - **Potion**
-    - **Admixture** 328
-    - **Animal Control – Number/Type** 329
-    - **Dragon Control – Number/Type** 329
-    - **Giant Control – Number/Type** 330
-    - **Giant Strength – Type/ Ability** 330  <!-- printed as-is: NEW -->
-    - **Heroism – Benefit** 330
-    - **Human Control – Number/Type** 330
-    - **Super-Heroism – Benefit** 331
-    - **Table 1: Properties** 324
-    - **Undead Control – Type** 331
-  - **Rings**
-    - **Table 1: Properties** 324
-    - **Ring of Protection – Type** 362
-    - **Ring of Spell Turning – Result** 363
-    - **Ring of Telekinesis – Maximum Weight** 363
-    - **Ring of Wizardry – Level(s) Doubled** 364
-  - **Rod**
-    - **Rod of Cancellation – Type Cancelled** 334
-    - **Rod of Resurrection – Race/Class/Charges** 334, 335
-  - **Rods, Staves And Wands**
-    - **Table 1: Properties** 324
-    - **Type/Number of Charges** 333
-    - **Wand of Wonder – Wondrous Effect** 338
-  - **Scroll**
-    - **Spell (Class)** 332
-    - **Table 1: Type** 324
-    - **Table 2: Spells** 324
-    - **Table 3: Scrolls of Warding** 324, 325
-    - **Ward of Demons – Type/Time** 332
-    - **Ward of Devils – Type/Time** 332
-    - **Ward of Elementals – Number/Type** 332
-    - **Ward of Lycanthropy – Type** 333
-  - **Swords, Magic**
-    - **Table 1: Form** 325
-    - **Table 2: Properties** 325
-    - **Dragonbane – Dragon Type** 339
-    - **Keenblade – Limb Severing** 339
-    - **Vorpal Blade – Decapitation** 340
-    - **Special Magical** 325
-    - **Unusual**
-      - **Alignment** 340, 341
-      - **Ego Attribute/Ego Points** 342
-      - **Intelligence And Capabilities** 340
-      - **Major Powers** 341
-      - **Minor Powers** 341
-      - **Non-Alignment Language Spoken** 342
-      - **Special Powers** 341, 342
-      - **Special Purpose** 341
-  - **Treasure Unassociated With Creature** 321
-  - **Weapons**
-    - **Arrow of Slaying – Target Type** 343
-    - **Special Magical Miscellaneous** 313
-    - **Table 1: Form, Miscellaneous** 311
-    - **Table 2: Properties, Miscellaneous** 312
+    - Armour (Armor) And Shield
+        - Table 1: Form 323
+        - Table 2: Properties 323
+    - Artifact
+        - Book of Infinite Spells – Spell Level 370
+        - Deck of Many Things – Type/Effect 371, 372
+    - Cursed Items
+        - Drawback 365
+        - Intermittent Functioning Situation 364
+        - Specific Cursed Items 366
+        - Table of Common Item Curses 364
+        - Cursed Items
+            - Ring of Contrariness – Ability 368
+    - Gemstone 322
+    - Jewellery (Jewelry) 322, 323
+    - Magic, Miscellaneous
+        - Bag of Holding (any) 345
+        - Bag of Tricks – Colour (Color) 345
+        - Carpet of Flying – Size/Capacity 347
+        - Cloak of Resistance – Bonus 348
+        - Crystal Ball – Additional Abilities 348
+        - Cube of Force – Attack Type/Charges 349
+        - Cube of Force – Charges/Effect 349
+        - Deck of Illusions – Card/Creature 350
+        - Horn of Valhalla – Type/Fighters 354
+        - Ioun Stones – Color/Shape/Effect 355
+        - Necklace of Fireballs – Type/Number 357
+        - Robe of Useful Items – Item/Type 359
+        - Sagacious Volume – Character Class 359
+        - Strand of Prayer Beads – Type/Ability 360
+    - Master Magic Item Tables 323
+        - Miscellaneous 335
+        - Sub-Table IV-A: Ioun Stones 327
+        - Table I: Common Miscellaneous 325
+        - Table II: Less Common Miscellaneous 327
+        - Table III: Uncommon Miscellaneous 327
+        - Table IV: Rare Miscellaneous 327
+    - Potion
+        - Admixture 328
+        - Animal Control – Number/Type 329
+        - Dragon Control – Number/Type 329
+        - Giant Control – Number/Type 330
+        - Giant Strength – Type/ Ability 330  <!-- printed as-is: see errata E386 -->
+        - Heroism – Benefit 330
+        - Human Control – Number/Type 330
+        - Super-Heroism – Benefit 331
+        - Table 1: Properties 324
+        - Undead Control – Type 331
+    - Rings
+        - Table 1: Properties 324
+        - Ring of Protection – Type 362
+        - Ring of Spell Turning – Result 363
+        - Ring of Telekinesis – Maximum Weight 363  <!-- printed as-is: see errata E392 -->
+        - Ring of Wizardry – Level(s) Doubled 364
+    - Rod
+        - Rod of Cancellation – Type Cancelled 334
+        - Rod of Resurrection – Race/Class/Charges 334, 335
+    - Rods, Staves And Wands
+        - Table 1: Properties 324
+        - Type/Number of Charges 333
+        - Wand of Wonder – Wondrous Effect 338
+    - Scroll
+        - Spell (Class) 332
+        - Table 1: Type 324
+        - Table 2: Spells 324
+        - Table 3: Scrolls of Warding 324, 325
+        - Ward of Demons – Type/Time 332
+        - Ward of Devils – Type/Time 332
+        - Ward of Elementals – Number/Type 332
+        - Ward of Lycanthropy – Type 333
+    - Swords, Magic
+        - Table 1: Form 325
+        - Table 2: Properties 325
+        - Dragonbane – Dragon Type 339
+        - Keenblade – Limb Severing 339
+        - Vorpal Blade – Decapitation 340
+        - Special Magical 325
+        - Unusual
+            - Alignment 340, 341
+            - Ego Attribute/Ego Points 342
+            - Intelligence And Capabilities 340
+            - Major Powers 341
+            - Minor Powers 341
+            - Non-Alignment Language Spoken 342
+            - Special Powers 341, 342
+            - Special Purpose 341
+    - Treasure Unassociated With Creature 321
+    - Weapons
+        - Arrow of Slaying – Target Type 343
+        - Special Magical Miscellaneous 313  <!-- printed as-is: see errata E387 -->
+        - Table 1: Form, Miscellaneous 311  <!-- printed as-is: see errata E388 -->
+        - Table 2: Properties, Miscellaneous 312  <!-- printed as-is: see errata E389 -->
 - **Turning Undead** 129, 130
 - **Weapon Table, Master (Melee)** 31, 32, 386
 - **Weapon Table, Missile** 32, 386, 387

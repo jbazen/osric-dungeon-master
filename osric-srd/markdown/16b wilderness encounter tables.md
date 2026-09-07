@@ -51,7 +51,7 @@
 | 17 | Owlbear | Survivors | Zombie | Spider, Huge | Toad, Giant | Invisible Stalker |
 | 18 | Owlbear | Wolves ISC | Zombie | Spider, Large | Toad, Giant Poisonous | Night Hag |
 | 19 | Pseudo-Dragon | Wolves ISC | Zombie, Monster | Wasp, Giant | Triton | Pixie |
-| 20 | Worg | Wolves ISC | Zombie, Monster | Wasp, Giant | Turtle, Giant Snapping | Rakshasha<!-- printed as-is: NEW --> |
+| 20 | Worg | Wolves ISC | Zombie, Monster | Wasp, Giant | Turtle, Giant Snapping | Rakshasha<!-- printed as-is: see errata E106 --> |
 
 ## Arctic
 
@@ -155,7 +155,7 @@
 | 15 | Pseudo-Dragon | Searchers | Vampire | Scorpion, Giant | Spider, Giant Water | Mephit, Steam |
 | 16 | Pseudo-Dragon | Survivors | Vampire | Spider, Giant | Spider, Giant Water | Necrophidius |
 | 17 | Purple Worm | Wolves ISC | Wight | Spider, Huge | Spider, Giant Water | Night Hag |
-| 18 | Purple Worm | Wolves ISC | Zombie | Spider, Large | Toad, Giant | Rakshasha<!-- printed as-is: NEW --> |
+| 18 | Purple Worm | Wolves ISC | Zombie | Spider, Large | Toad, Giant | Rakshasha<!-- printed as-is: see errata E107 --> |
 | 19 | Worg | Wolves ISC | Zombie | Spider, Phase | Toad, Giant | Troll, Spectral |
 | 20 | Worg | Wolves ISC | Zombie, Juju | Wasp, Giant | Toad, Giant | Xorn |
 
@@ -428,7 +428,7 @@
 | 1 | Bird | Ape, Carnivorous | Dragon, Black | Giant, Cloud | Fishing Village | Flind |
 | 2 | Bird | Boar, Giant | Dragon, Black | Giant, Cloud | Men, Bandit | Gnoll |
 | 3 | Bird | Boar, Warthog | Dragon, Blue | Giant, Storm | Men, Bandit | Gnoll |
-| 4 | Bird | Dog, Wild | Dragon, Brass | Giant, Storm | Men, Brigand | Gnoll  (S5, WD2)<!-- printed as-is: NEW --> |
+| 4 | Bird | Dog, Wild | Dragon, Brass | Giant, Storm | Men, Brigand | Gnoll  (S5, WD2)<!-- printed as-is: see errata E108 --> |
 | 5 | Bird, Dire | Horse, Wild | Dragon, Bronze | Giant, Storm | Men, Buccaneer | Goblin |
 | 6 | Bird, Dire | Jackal | Dragon, Bronze | Giant, Storm | Men, Buccaneer | Goblin |
 | 7 | Bird, Dire | Jackal | Dragon, Bronze | Giant, Storm | Men, Buccaneer | Grimlock |
@@ -621,7 +621,7 @@
 | 15 | Owlbear | Searchers | Vampire | Spider, Huge | Sea Serpent | Devil, Red Scaly devil |
 | 16 | Owlbear | Searchers | Wight | Spider, Large | Toad, Giant | Golem, Clay |
 | 17 | Rot Grub | Survivors | Wraith | Spider, Large | Toad, Giant | Hydra |
-| 18 | Rot Grub | Survivors | Zombie | Spider, Large | Toad, Giant Poisonous | Will o’the Wisp<!-- printed as-is: NEW --> |
+| 18 | Rot Grub | Survivors | Zombie | Spider, Large | Toad, Giant Poisonous | Will o’the Wisp<!-- printed as-is: see errata E109 --> |
 | 19 | Shambling Mound | Wolves ISC | Zombie | Spider, Large | Toad, Giant Poisonous | Yeti |
 | 20 | Shambling Mound | Wolves ISC | Zombie, Monster | Spider, Phase | Turtle, Giant Snapping | Zombie, Vine |
 
@@ -667,7 +667,7 @@
 | 8 | Remorhaz | Joiners | Vampire | Beetle, Giant Water | Octopus, Giant | Devil, Ice |
 | 9 | Remorhaz | Joiners | Wight | Beetle, Giant Water | Octopus, Giant | Devilcat |
 | 10 | Remorhaz | Runners | Wight | Centipede, Giant | Octopus, Giant | Elemental, Fire |
-| 11 | Worg | Runners | Wight | Centipede, Huge | Portuguese Man O’War<!-- printed as-is: NEW --> | Elemental, Fire |
+| 11 | Worg | Runners | Wight | Centipede, Huge | Portuguese Man O’War<!-- printed as-is: see errata E110 --> | Elemental, Fire |
 | 12 | Worg | Runners | Will-o-the-Wisp | Centipede, Large | Sea Serpent | Elf |
 | 13 | Worg | Searchers | Will-o-the-Wisp | Fly, Giant Blowfly | Shark | Halfling |
 | 14 | Worg | Searchers | Wraith | Fly, Giant Horsefly | Shark | Imp |
@@ -776,6 +776,6 @@
 |---|---|---|
 | 1 | Archaeopteryx | Jurassic |
 | 2 | Pteranodon | Cretaceous |
-| 4-5<!-- printed as-is: NEW --> | Pterodactyl | Jurassic |
+| 4-5<!-- printed as-is: see errata E111 --> | Pterodactyl | Jurassic |
 | 5 | Quetzalcoatlus | Cretaceous |
 | 6 | Rhamphorynchus | Jurassic |

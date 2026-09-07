@@ -7,7 +7,7 @@
 
 ## SYLVAN OR FAERIE CREATURES
 
-Sylvan or faerie creatures are encountered in magical woodlands. Some may share territory with elves. As a group they are reclusive and (with some notable exceptions) good aligned. Their homes are typically places of extreme beauty with verdant, lush growth, profuse flowers, sparking waterfalls <!-- printed as-is: NEW --> and limpid pools. Since these creatures tend to be highly magical with a mischievous sense of humour, encounters with them are often enormous fun—for the GM.
+Sylvan or faerie creatures are encountered in magical woodlands. Some may share territory with elves. As a group they are reclusive and (with some notable exceptions) good aligned. Their homes are typically places of extreme beauty with verdant, lush growth, profuse flowers, sparking waterfalls <!-- printed as-is: see errata E160 --> and limpid pools. Since these creatures tend to be highly magical with a mischievous sense of humour, encounters with them are often enormous fun—for the GM.
 
 <!-- p.240 -->
 
@@ -31,7 +31,7 @@ Sylvan or faerie creatures are encountered in magical woodlands. Some may share 
 
 Found in sylvan woodland, often along with fauns, unicorns and similar creatures, brownies are shy and retiring. They can sometimes be persuaded to help good aligned creatures. They are skilled craftsmen, adept at making and repairing ordinary things, and highly magical; they may use the following spells once each per day: *confusion, continual light, dancing lights, dimension door, mending, mirror image, protection from evil,* and *ventriloquism*. They may become *invisible* at will, provided they remain still while doing so. They are also lucky and strongly defended against magic, which means they make all saving throws as a 7th level cleric does.
 
-Thanks to their excellent senses and habitual alertness Brownies cannot be surprised. They speak their own tongue, elven, halfing, <!-- printed as-is: see errata E14 --> and can communicate with other fey creatures such as spites, <!-- printed as-is: NEW --> nymphs or dryads.
+Thanks to their excellent senses and habitual alertness Brownies cannot be surprised. They speak their own tongue, elven, halfing, <!-- printed as-is: see errata E14 --> and can communicate with other fey creatures such as spites, <!-- printed as-is: see errata E161 --> nymphs or dryads.
 
 ***Treasure:*** 1d8×1,000 cp (5%), 1d12×1,000 sp (25%), 1d6×1,000 ep (20%), 1d10×1,000 gp (30%), 1d12 gems (20%), 1d8 jewellery (5%), any 2 magic items plus one potion and one scroll (15%)
 
@@ -83,7 +83,7 @@ Dryads are bashful tree sprites who dwell in the most remote locations. They app
 
 to their own tree. The only thing different about a tree that houses a dryad is its size. A dryad can also cast a *charm person* spell thrice a day.
 
-If a dryad sees a young man with a charisma score of at least 16 she will attempt to *charm* him. If successful there is a 50% chance he will never been again. <!-- printed as-is: NEW --> If the youth does return it will be at least 1d4 years later.
+If a dryad sees a young man with a charisma score of at least 16 she will attempt to *charm* him. If successful there is a 50% chance he will never been again. <!-- printed as-is: see errata E162 --> If the youth does return it will be at least 1d4 years later.
 
 Dryads have their own language as well as elven, pixie, sprite, and they can also speak with animals.
 
@@ -139,7 +139,7 @@ The lower body of a faun is covered with coarse fur that ranges from medium brow
 
 Leprechauns are a magical race that love to torment those they encounter with practical jokes, general mischief, and swindles. They normally live in green fields or rolling hills on the outskirts of civilisation. A leprechaun can turn *invisible*, *polymorph* inanimate objects, make *illusions*, and perform *ventriloquism* at will. Because of their sharp senses they are never surprised.
 
-One of the leprechaun’s favourite tricks is to grab some valuable object, turn invisible and flee with it. If they are chased too closely they will drop the item rather then be tracked back to their lair. If they are caught or tracked back to their lair, the leprechaun will do or say just about anything to win their freedom back. Be warned, leprechauns are magical and they take great pride in their confidence games. Nothing they say should be considered the truth. A leprechaun will always be playing some kind of scam.
+One of the leprechaun’s favourite tricks is to grab some valuable object, turn invisible and flee with it. If they are chased too closely they will drop the item rather then <!-- printed as-is: see errata E163 --> be tracked back to their lair. If they are caught or tracked back to their lair, the leprechaun will do or say just about anything to win their freedom back. Be warned, leprechauns are magical and they take great pride in their confidence games. Nothing they say should be considered the truth. A leprechaun will always be playing some kind of scam.
 
 ***Treasure:*** 1d20×1,000 sp (10%), 1d12×1,000 ep (15%), 1d8×1,000 gp (40%), 1d8×100 pp (35%), 3d10 gems (20%), 1d10 jewellery (10%), 3 magic items (no sword or misc. weapon), 1 potion, 1 scroll (30%).
 
@@ -167,9 +167,9 @@ Nixies are fey creatures related to sprites that make their home in freshwater l
 
 beautiful humanoids with lightly scaled greenish skin and webbed hands and feet. Their eyes are silver and their hair is dark green, and they clad themselves in garments of seaweed. Nixies speak their own language and the common tongue. They also appear to be able to communicate, at least on a rudimentary level, with freshwater fish of all types.
 
-Being fey, nixies take great delight in enslaving humans. If a human or demi-human approaches within 30 ft of a group of nixies they will attempt to charm him or her with a special group *charm* spell. This charm requires a minimum of 10 nixies to join hands and chant, and any person hearing this fey chanting must save vs spells at -2 or enter the water to serve the nixies as slave and paramour for a period of a year and a day. It should be noted a side effect of this variant charm grants the ability to breathe water for the duration of the spell. There is a brief opportunity to break the charm; if a *dispel magic* is cast upon the enthralled person before they enter the water there is a 75% the spell will be broken <!-- printed as-is: NEW --> but once the victim has begun breathing water the chances of breaking the charm drop to only 10%.
+Being fey, nixies take great delight in enslaving humans. If a human or demi-human approaches within 30 ft of a group of nixies they will attempt to charm him or her with a special group *charm* spell. This charm requires a minimum of 10 nixies to join hands and chant, and any person hearing this fey chanting must save vs spells at -2 or enter the water to serve the nixies as slave and paramour for a period of a year and a day. It should be noted a side effect of this variant charm grants the ability to breathe water for the duration of the spell. There is a brief opportunity to break the charm; if a *dispel magic* is cast upon the enthralled person before they enter the water there is a 75% the spell will be broken <!-- printed as-is: see errata E164 --> but once the victim has begun breathing water the chances of breaking the charm drop to only 10%.
 
-Nixies are weak in combat but make up for this weakness by attacking en masse and overwhelming their enemies. They favour fighting with long daggers and long darts which, due to the nixies short stature, function as spears in their hands. Nixies will melee with these spears underwater and above water they will hurl them like missiles then melee with their daggers.
+Nixies are weak in combat but make up for this weakness by attacking en masse and overwhelming their enemies. They favour fighting with long daggers and long darts which, due to the nixies short stature,<!-- printed as-is: see errata E165 --> function as spears in their hands. Nixies will melee with these spears underwater and above water they will hurl them like missiles then melee with their daggers.
 
 Nixies fear bright light and fire, their aquatic nature makes these things foreign to them and a strong presentation of either will drive them away. A strong light source presented underwater will be obscured by schools of nixie summoned fish surrounding the spell effect. Being fey, nixies have a natural magic resistance of 25% and, besides their special charm effect, they can also cast a *water breathing* spell with a duration of 24 hours once per day.
 
@@ -197,11 +197,11 @@ Nixies lair at the bottom of lakes, where they weave living seaweed into dwellin
 
 Nymphs are feminine nature spirits of almost indescribable beauty; it is said that even the mere glimpse of one is enough to rob a man of his sight or perhaps kill him. They typically inhabit natural places of particular loveliness, such as high mountain lakes or deep forest glades. Those who have attempted to relate what they saw speak of absolute perfection. Nymphs typically speak common in addition to their own enchanting language and reputedly have voices like honeyed nectar.
 
-If attacked, nymphs will almost always attempt to flee, often by means of *dimension door*, which they are able to use once every day. Nymphs are also able to employ magic as though they were 7th level druids. Any character that chances to look upon a clothed nymph must make a saving throw vs spells or be permanently blinded; should a nymph be seen unclothed, then the consequence of a failed saving throw is death. Should a Nymph deign to bestow a kiss upon a male, he will forget his troubles and pain for the remainder of the day.
+If attacked, nymphs will almost always attempt to flee, often by means of *dimension door*, which they are able to use once every day. Nymphs are also able to employ magic as though they were 7th level druids. Any character that chances to look upon a clothed nymph must make a saving throw vs spells or be permanently blinded; should a nymph be seen unclothed, then the consequence of a failed saving throw is death. Should a Nymph<!-- printed as-is: see errata E166 --> deign to bestow a kiss upon a male, he will forget his troubles and pain for the remainder of the day.
 
 <!-- p.243 -->
 
-Nymphs abhor evil and will occasionally aid someone in distress. Moreover, there is a small chance that a nymph will be favourably inclined towards a good aligned character who actively seeks her out, as long as he does not look upon her first; in the case of good- aligned human males with exceptional charisma, the chance of her favour is very high, but a saving throw is still required if he should happen to look upon her.
+Nymphs abhor evil and will occasionally aid someone in distress. Moreover, there is a small chance that a nymph will be favourably inclined towards a good aligned character who actively seeks her out, as long as he does not look upon her first; in the case of good- aligned <!-- printed as-is: see errata E167 --> human males with exceptional charisma, the chance of her favour is very high, but a saving throw is still required if he should happen to look upon her.
 
 A lock of nymph’s hair woven into a cloak or other item of clothing will magically increase the charisma of those who wear it by one point. Alternatively, the lock of hair may be used to create a powerful *potion of sleep*. Nymph tears are sometimes used in the creation of a *philtre of love* and any woman (female demi-humans included) who bathes in a nymph’s pool will have her charisma increased by two points until sundown.
 
@@ -334,14 +334,14 @@ Sylphs have their own language and can also understand common.
 - **Intelligence:** Very
 - **Alignment:** Chaotic good
 - **Level/XP:**
-  - 7HD: 1,295+8/hp
-  - 8HD: 1,600+10/hp
-  - 9HD: 2,050+12/hp
-  - 10HD: 2,350+13/hp
-  - 11HD: 2,750+14/hp
-  - 12HD: 3,600+16/hp
+    - 7HD: 1,295+8/hp
+    - 8HD: 1,600+10/hp
+    - 9HD: 2,050+12/hp
+    - 10HD: 2,350+13/hp
+    - 11HD: 2,750+14/hp
+    - 12HD: 3,600+16/hp
 
-Treants are woodland creatures, reclusive to humankind but friendly with other good aligned creatures of the woods. They resemble humanoid trees: their "arms" and "legs" are not easily seen as such until they begin moving. Treants are vigilant guardians of the woods, despising anyone of evil alignment and all who make reckless use of fire, regardless of alignment. Treants can animate 1d2 trees to aid them (see "Tree, Animated") within a range of 180 ft. Separate experience is not awarded for killing such animated trees. Treants are quite vulnerable to fire: fire attacks requiring a roll to hit gain a bonus of +4, a treant makes saving throws vs fire at –4, and any hit die of damage inflicted upon a treant gains a +1 to its result. Damage inflicted by a treant’s clubbing fists is determined as follows:
+Treants are woodland creatures, reclusive to humankind but friendly with other good aligned creatures of the woods. They resemble humanoid trees: their “arms” and “legs” are not easily seen as such until they begin moving. Treants are vigilant guardians of the woods, despising anyone of evil alignment and all who make reckless use of fire, regardless of alignment. Treants can animate 1d2 trees to aid them (see “Tree, Animated”) within a range of 180 ft. Separate experience is not awarded for killing such animated trees. Treants are quite vulnerable to fire: fire attacks requiring a roll to hit gain a bonus of +4, a treant makes saving throws vs fire at –4, and any hit die of damage inflicted upon a treant gains a +1 to its result. Damage inflicted by a treant’s clubbing fists is determined as follows:
 
 - 7-8 HD: 2d8 damage per fist
 - 9-10 HD: 3d6 damage per fist
@@ -369,9 +369,9 @@ Treants are woodland creatures, reclusive to humankind but friendly with other g
 - **Intelligence:** Non
 - **Alignment:** Neutral
 - **Level/XP:** 7/1,300+16/hp
-  - (nil if animated by a treant)
+    - (nil if animated by a treant)
 
-Animated trees are generally encountered when treants animate a normal tree (see "Treant").
+Animated trees are generally encountered when treants animate a normal tree (see “Treant”).
 
 ***Treasure:*** None.
 
@@ -399,7 +399,7 @@ Unicorns avoid contact with all but woodland creatures, although they may render
 
 ## UNDEAD
 
-Undead share the following characteristics: They never check morale and are immune to *fear* (except that clerics and paladins may cause a fear-like effect by *turning* them, see Chapter III); they are immune to *sleep, charm* and *hold*-type effects except for any such effects that are specific to undead (for example, if the GM chooses to house-rule a magic item or spell which has the effect *hold undead*, this would work); they suffer 2d4 damage from vials of *holy water*; and if damaged—for "injured" is the wrong word—they do not automatically heal, though certain undead types such as ghouls may be able to recover hit points by consuming living flesh and others such as spectres may do so through leeching a living creature’s vital force (draining a level).
+Undead share the following characteristics: They never check morale and are immune to *fear* (except that clerics and paladins may cause a fear-like effect by *turning* them, see Chapter III); they are immune to *sleep, charm* and *hold*-type effects except for any such effects that are specific to undead (for example, if the GM chooses to house-rule a magic item or spell which has the effect *hold undead*, this would work); they suffer 2d4 damage from vials of *holy water*; and if damaged—for “injured” is the wrong word—they do not automatically heal, though certain undead types such as ghouls may be able to recover hit points by consuming living flesh and others such as spectres may do so through leeching a living creature’s vital force (draining a level).
 
 ### Banshee *(Groaning Spirit)*
 
@@ -440,16 +440,19 @@ The legendary banshee is the ghost of an evil elven female. The spirit is found 
 - **Special Attacks:** None
 - **Special Defences:** Can only be hit by magical weapons
 - **Magic Resistance:** Standard
+
+<!-- p.246 -->
+
 - **Lair Probability:** 80%
 - **Intelligence:** Low
 - **Alignment:** Chaotic evil
 - **Level/XP:** 2/30 + 2/hp
 
-A coffer corpse resembles a zombie, seeming nothing more then a rotting, fetid corpse. They are the bodies of the dead who are left behind, never given a proper burial, their souls never finding rest.
+A coffer corpse resembles a zombie, seeming nothing more then <!-- printed as-is: see errata E168 --> a rotting, fetid corpse. They are the bodies of the dead who are left behind, never given a proper burial, their souls never finding rest.
 
 Normal weapons do no damage to a coffer corpse. If they are hit for 6 or more points in a single round of combat by a normal weapon they will fall down, only to rise up the next round. All who witness this horror must save vs fear, those who fail will panic and run away. A magic weapon is needed to truly damage a coffer corpse. They are also immune to *sleep* and *charm* spells.
 
-About 25% of the time a coffer corpse will attack with a weapon, all of the others will attack with their hands. If their attack is bare handed and they have successfully hit, they have grabbed their target by the throat causing 1d6 damage. Each successive round thereafter they cause an additional 1d6 damage as they are strangling their victim, with no addition roll needed. They will continue choking until they are destroyed or their victim is dead.
+About 25% of the time a coffer corpse will attack with a weapon, all of the others will attack with their hands. If their attack is bare handed and they have successfully hit, they have grabbed their target by the throat causing 1d6 damage. Each successive round thereafter they cause an additional 1d6 damage as they are strangling their victim, with no addition <!-- printed as-is: see errata E169 --> roll needed. They will continue choking until they are destroyed or their victim is dead.
 
 ***Treasure:*** 1d8×1,000 cp (50%), 1d6×1,000 sp (25%), 1d4×1,000 ep (25%), 1d3×1,000 gp (25%), 1d8 gems (30%), 1d4 jewellery (20%), sword, armour, or misc. weapon (10%)
 
@@ -477,17 +480,15 @@ These terrible creatures are more powerful versions of ghouls, and are indisting
 
 Ghasts share the same spell immunities that Ghouls do, and can travel the dream-realms as well, except in addition to using them to traverse the prime material, they can also enter the lower planes.
 
-<!-- p.246 -->
-
 Certain entities of the higher hells use ghasts as slaves.
 
-***Treasure:*** 1d8×1,000 cp (50%); 1d6×1,000 sp (25%); 1d4×1,000 ep (25%); d12×1,000 gp (65%); <!-- printed as-is: NEW --> 1d6×1,000 pp (30%); 3d8 gems (50%); 2d6 jewellery (50%); a magic weapon or armour (25%); 1d4 scrolls (50%)
+***Treasure:*** 1d8×1,000 cp (50%); 1d6×1,000 sp (25%); 1d4×1,000 ep (25%); d12×1,000 gp (65%); <!-- printed as-is: see errata E170 --> 1d6×1,000 pp (30%); 3d8 gems (50%); 2d6 jewellery (50%); a magic weapon or armour (25%); 1d4 scrolls (50%)
 
 ### Ghost
 
 *(turned as type 11)*
 
-- **Frequency:** Very Rare
+- **Frequency:** Very Rare <!-- printed as-is: see errata E171 -->
 - **No. Encountered:** 1
 - **Size:** Man-sized
 - **Move:** 90 ft hovering
@@ -501,7 +502,7 @@ Certain entities of the higher hells use ghasts as slaves.
 - **Lair Probability:** 25%
 - **Intelligence:** High
 - **Alignment:** Any evil
-- **Level/XP:** 8/4200 +14/hp
+- **Level/XP:** 8/4200 <!-- printed as-is: see errata E172 --> +14/hp
 
 Ghosts are the spiritual remains of extremely evil humans who have been denied the ordinarily inexorable movement of their souls to the outer planes of existence after discarding their mortal shell. This sundering of their metaphysical essence creates a foul thing, roaming dark and desolate places, existing in both the æthereal plane and the prime material, seeking to slake a thirst that can never be sated. This exigent need for living essences is what drives these spirits into contact with mortals.
 
@@ -515,7 +516,7 @@ As if these terrible powers were not enough, any creature within 180 ft is threa
 
 <!-- p.247 -->
 
-"pure" metals, especially silver, can cause half-damage to a ghost while it is manifested in this fashion, and magic weapons can affect it normally—in either case the attacker must hit AC 0. Spells still cannot affect it in this state unless the caster is æthereal. The manifest state allows the ghost to strike victims physically, with the full power of their *withering* attack—causing the victim to age 7d6 years per successful attack, no save possible. Victims who exceed their allotted lifespan are forever dead, with only a *wish* capable of reversing this end.
+“pure” metals, especially silver, can cause half-damage to a ghost while it is manifested in this fashion, and magic weapons can affect it normally—in either case the attacker must hit AC 0. Spells still cannot affect it in this state unless the caster is æthereal. The manifest state allows the ghost to strike victims physically, with the full power of their *withering* attack—causing the victim to age 7d6 years per successful attack, no save possible. Victims who exceed their allotted lifespan are forever dead, with only a *wish* capable of reversing this end.
 
 ***Treasure:*** 1d10×1,000 cp (5%); 2d6×1,000 sp (30%); 1d6×1,000 ep (25%); 2d4×1,000 gp (25%); 2d6 gems (15%); 1d6 jewellery (20%); 1d3-1 scrolls (30%); 1d8 potions (40%); 1d4-1 any other magic items (25%)
 
@@ -543,9 +544,9 @@ Ghouls are humans, who feasting on corpses and engaging in other vileness, have 
 
 *Protection from evil* will keep these things at bay, unless one so protected violates the circle by attacking the ghouls.
 
-Ghouls are also said to be able travel the lands of dreams, <!-- printed as-is: NEW --> using them as conduit to enter the waking world of men at various graveyards, and escaping without a trace. Marine ghouls are called "lacedons" and are sometimes found on ghost ships or dwelling in wrecks on the sea bed.
+Ghouls are also said to be able travel the lands of dreams, <!-- printed as-is: see errata E173 --> using them as conduit to enter the waking world of men at various graveyards, and escaping without a trace. Marine ghouls are called “lacedons” and are sometimes found on ghost ships or dwelling in wrecks on the sea bed.
 
-***Description:*** Ghouls appear as emaciated, animated corpses with sharp teeth and long fingernails to which shreds of corpse-flesh are sometimes attached. Their voices are weird and eldritch, sometimes described as "meeping" and "glibbering".
+***Description:*** Ghouls appear as emaciated, animated corpses with sharp teeth and long fingernails to which shreds of corpse-flesh are sometimes attached. Their voices are weird and eldritch, sometimes described as “meeping” and “glibbering”.
 
 ***Treasure:*** 1d8×1,000 cp (50%); 1d6×1,000 sp (25%); 1d4×1,000 ep (25%); 1d3×1,000 gp (25%); 2d4 gems (30%); 1d4 jewellery (20%); magic weapon or armour (10%); 1d4 scrolls (10%)
 
@@ -553,7 +554,7 @@ Ghouls are also said to be able travel the lands of dreams, <!-- printed as-is: 
 
 *(turned as type 12)*
 
-- **Frequency:** Very Rare
+- **Frequency:** Very Rare <!-- printed as-is: see errata E174 -->
 - **No. Encountered:** 1
 - **Size:** Man-sized
 - **Move:** 60 ft
@@ -561,7 +562,7 @@ Ghouls are also said to be able travel the lands of dreams, <!-- printed as-is: 
 - **Hit Dice:** 12 or more
 - **Attacks:** 1
 - **Damage:** 2d6 + paralysation
-- **Special Attacks:** Spell use (as Magic user, Cleric or both) at at least 18th level of ability; *fear* <!-- printed as-is: NEW -->
+- **Special Attacks:** Spell use (as Magic user, Cleric or both) at at least 18th level of ability; *fear* <!-- printed as-is: see errata E175 -->
 - **Special Defences:** +1 or better weapon to hit; immune to cold, electrical, poison, paralysation, polymorph, and death magic, as well as *sleep*, *charm*, *hold* and other mental based attacks; spells that drain attributes or statistics also have no effect
 - **Magic Resistance:** Standard
 - **Lair Probability:** 95%
@@ -577,17 +578,17 @@ The lair of a lich will often be a complex underworld maze or a wickedly disease
 
 deadly guardians. Liches do not suffer the fools who would tread upon their mysteries.
 
-Each lich will be able to cast an impressive battery of spells, and those with magic user abilities will have multiple copies of powerful spell tomes. Their magical ability, at a minimum, must be 18th, as only those mortals have travelled so far down the path of magic have even a hope of mastering the rituals of Lichdom. The mere touch of a lich will inflict 2 dice of cold damage upon the victim, and they must save vs paralysation or be held frozen to the spot for 3d8 turns. Anything below 6th level beholding a lich (even in a reflection or a *projected image*) must save vs magic or never return to the area again.
+Each lich will be able to cast an impressive battery of spells, and those with magic user abilities will have multiple copies of powerful spell tomes. Their magical ability, at a minimum, must be 18th, as only those mortals have <!-- printed as-is: see errata E176 --> travelled so far down the path of magic have even a hope of mastering the rituals of Lichdom. The mere touch of a lich will inflict 2 dice of cold damage upon the victim, and they must save vs paralysation or be held frozen to the spot for 3d8 turns. Anything below 6th level beholding a lich (even in a reflection or a *projected image*) must save vs magic or never return to the area again.
 
 Often dressed in rich decaying rags that were exquisite in life, liches are now horrors to behold. They are cadaverous in appearance, with unholy pinpoints of green light emanating from the otherwise empty pits that are the eye-sockets of its fleshless skull. Diseased and leprous tatters of meat cling feebly to ancient bones, reeking with the rot of the grave.
 
 Liches are believed to feast on Soul Worms.
 
-***Treasure:*** (1d4+1)×1,000 cp (30%); (d4+1)×1,000 sp <!-- printed as-is: NEW --> (25%); 1d6×1,000 ep (40%); (1d8+1)×1,000 gp (45%); 1d4×1,000 pp (25%); 5d8 gems (55%); 8d4 jewellery (45%); any 3 magic items save potions (40%)
+***Treasure:*** (1d4+1)×1,000 cp (30%); (d4+1)×1,000 sp <!-- printed as-is: see errata E177 --> (25%); 1d6×1,000 ep (40%); (1d8+1)×1,000 gp (45%); 1d4×1,000 pp (25%); 5d8 gems (55%); 8d4 jewellery (45%); any 3 magic items save potions (40%)
 
 ### Mummy
 
-*(Turned as type 8)* <!-- printed as-is: NEW -->
+*(Turned as type 8)* <!-- printed as-is: see errata E178 -->
 
 - **Frequency:** Rare
 - **No. Encountered:** 2d4
@@ -621,7 +622,7 @@ Any character killed by a mummy cannot be raised due to the amount of damage cau
 
 ### Poltergeist
 
-*(Turned as type 1 or 3)* <!-- printed as-is: NEW -->
+*(Turned as type 1 or 3)* <!-- printed as-is: see errata E179 -->
 
 - **Frequency:** Rare
 - **No. Encountered:** 1d8
@@ -639,13 +640,13 @@ Any character killed by a mummy cannot be raised due to the amount of damage cau
 - **Alignment:** Lawful evil
 - **Level/XP:** 2/35 + 1/hp
 
-Poltergeists are non-corporeal and invisible spirits of humans who have died a tragic death or were murdered in cold blood. So far as is known, all poltergeists were formerly human or at least half-human. They are only rarely encountered as a wandering monster but in such a case can be treated as a type 1 undead for purposes of turning or disrupting. More often, however, the poltergeist is in the area where it met its untimely end. The poltergeist’s bond to this area is strong and turning is much more difficult, treat the poltergeist as a turning a type 3 undead in this case.
+Poltergeists are non-corporeal and invisible spirits of humans who have died a tragic death or were murdered in cold blood. So far as is known, all poltergeists were formerly human or at least half-human. They are only rarely encountered as a wandering monster but in such a case can be treated as a type 1 undead for purposes of turning or disrupting. More often, however, the poltergeist is in the area where it met its untimely end. The poltergeist’s bond to this area is strong and turning is much more difficult, treat the poltergeist as a turning <!-- printed as-is: see errata E180 --> a type 3 undead in this case.
 
 <!-- p.249 -->
 
 In combat, the poltergeist can only be struck by magical or silver weapons and its invisibility will cause all attacks against it to be made at -4 (unless the attacker can *see invisible*). It will not cross over sprinkled holy water, though after the holy water dries it is no longer effective at warding them. Holy water does not cause actual harm to poltergeists. A cleric can strongly present a holy symbol to keep them at bay as well, but again this does not harm the creature.
 
-Poltergeists cannot physically attack. Instead they hurl objects with a telekinetic power at their opponents, attacking as a 5 HD monster. These objects must be light enough to be thrown by a standard human; books, torches, lamps, chairs and so on. A poltergeist’s lair will include many such objects. Anyone struck takes no damage, but he or she must save vs spells or flee at top movement speed for 2d12 rounds. A fleeing victim has a 50% for dropping whatever is held in <!-- printed as-is: NEW --> his or her hands, but not necessarily right away. When a PC succumbs to the poltergeist’s fear effect, determine how many rounds he or she will flee, then roll the dice again to determine on which round hand held items will be dropped. Once an opponent has made his or her saving throw, that individual will be immune to further fear for that encounter only and from that poltergeist only if more than 1 are present.
+Poltergeists cannot physically attack. Instead they hurl objects with a telekinetic power at their opponents, attacking as a 5 HD monster. These objects must be light enough to be thrown by a standard human; books, torches, lamps, chairs and so on. A poltergeist’s lair will include many such objects. Anyone struck takes no damage, but he or she must save vs spells or flee at top movement speed for 2d12 rounds. A fleeing victim has a 50% for dropping whatever is held in <!-- printed as-is: see errata E181 --> his or her hands, but not necessarily right away. When a PC succumbs to the poltergeist’s fear effect, determine how many rounds he or she will flee, then roll the dice again to determine on which round hand held items will be dropped. Once an opponent has made his or her saving throw, that individual will be immune to further fear for that encounter only and from that poltergeist only if more than 1 are present.
 
 ***Treasure:*** None.
 
@@ -669,13 +670,13 @@ Poltergeists cannot physically attack. Instead they hurl objects with a telekine
 - **Alignment:** Chaotic evil
 - **Level/XP:** 4/250 +4/hp
 
-Shadows flitter about old ruins and dusty dungeons, seeking the living. Their ties to the negative material plane cause living things they hit in melee to lose a point of Str, Dex or Con. The attribute drained is random; but once determined further attacks by the same pack of shadows drain the same attribute until that statistic reaches zero—at which point the victim becomes a shadow under the control of the creature that drained the last point. Points drained, but not brought to nil, will return to the victim after about an hour, but some Shadow attacks take longer to recover from.
+Shadows flitter about old ruins and dusty dungeons, seeking the living. Their ties to the negative material plane cause living things they hit in melee to lose a point of Str, Dex or Con. The attribute drained is random; but once determined further attacks by the same pack of shadows drain the same attribute until that statistic reaches zero—at which point the victim becomes a shadow under the control of the creature that drained the last point. Points drained, but not brought to nil, will return to the victim after about an hour, but some Shadow<!-- printed as-is: see errata E182 --> attacks take longer to recover from.
 
 Due to their partial immaterialness, they can only be hit by magic weapons or certain spells. Cold attacks are useless, as are sleep, hold, and spells that affect the mind. They are nearly undetectable in their normal conditions, requiring an 18 or better on a d20 to be aware of them before they attack. Infravision does not detect them as they do not radiate heat, but magical light is sufficient to reveal these horrors for what they are.
 
-Some shadows attack victims in their sleep, giving them night-mares from which they never wake, as their physical forms are drained of life by the shadows’ horrid ties to worlds beyond mundane reckoning.
+Some shadows attack victims in their sleep, giving them night-mares <!-- printed as-is: see errata E183 --> from which they never wake, as their physical forms are drained of life by the shadows’ horrid ties to worlds beyond mundane reckoning.
 
-***Treasure*** <!-- printed as-is: NEW --> 2d10×1,000 sp (10%); 2d6×1,000 ep (15%); 2d4×1,000 gp (45%); 1d6×1,000 pp (33%); 4d8 gems (20%); 2d4 jewellery (8%); any 3 magic items (33%)
+***Treasure*** <!-- printed as-is: see errata E184 --> 2d10×1,000 sp (10%); 2d6×1,000 ep (15%); 2d4×1,000 gp (45%); 1d6×1,000 pp (33%); 4d8 gems (20%); 2d4 jewellery (8%); any 3 magic items (33%)
 
 ### Skeleton
 
@@ -697,13 +698,13 @@ Some shadows attack victims in their sleep, giving them night-mares from which t
 - **Alignment:** Neutral
 - **Level/XP:** 1/15 +1/hp
 
-These things are the result of an evil (or neutral at best) magic user or cleric wielding magics that animate the fleshless remains of humans, demi-humans, and various humanoids. They are completely mindless, only obeying the simple commands of their animator, which is often limited by the spell itself to a score of words. Some sages speak, though, of the mere proximity to great Evil can animate the dead, <!-- printed as-is: NEW --> resulting in armies of these horrors springing to Unlife in forgotten catacombs and foul dungeons. Though given no
+These things are the result of an evil (or neutral at best) magic user or cleric wielding magics that animate the fleshless remains of humans, demi-humans, and various humanoids. They are completely mindless, only obeying the simple commands of their animator, which is often limited by the spell itself to a score of words. Some sages speak, though, of the mere proximity to great Evil can animate the dead, <!-- printed as-is: see errata E185 --> resulting in armies of these horrors springing to Unlife in forgotten catacombs and foul dungeons. Though given no
 
 <!-- p.250 -->
 
 commands, they seek out the living and attempt to force them into the ranks of the dead.
 
-No matter how a skeleton attacks, whether rusty blade, a stone, or its own former femur, it always deals 1d6 damage. Cold and spells that attack the mind have no affect <!-- printed as-is: NEW --> on skeletons. They take less damage from edged and cutting weapons, typically reducing the damage by half. Most piercing weapons, like arrows and spears, do but 1 or 2 points maximum per attack. Holy water inflicts 2d4 hp per vial that strikes.
+No matter how a skeleton attacks, whether rusty blade, a stone, or its own former femur, it always deals 1d6 damage. Cold and spells that attack the mind have no affect <!-- printed as-is: see errata E186 --> on skeletons. They take less damage from edged and cutting weapons, typically reducing the damage by half. Most piercing weapons, like arrows and spears, do but 1 or 2 points maximum per attack. Holy water inflicts 2d4 hp per vial that strikes.
 
 ***Treasure:*** None.
 
@@ -755,7 +756,7 @@ Some sages speculate that spectres have no power in sunlight, but no one has eve
 
 The vampire is one of the most feared of the undead. Being similar to other undead, they dwell simultaneously in the negative material and material planes. They share other undead’s immunity to *charm*, *hold*, and *sleep* spells. Electricity and cold does only half damage, they are unaffected by normal weapons, and they regenerate 3 hit points per round. Vampires must take refuge in a coffin or other hideaway during daylight, and must slumber on soil from their own grave once in a while to maintain their powers.
 
-Vampires are immensely strong (18.76), <!-- printed as-is: NEW --> and deal great blows that inflict 1d6+4 hit points of damage. These blows further reduce the victim’s life energy by two levels, which consequently reduces all other traits linked to a loss in levels (attack ability, hit dice, etc.).
+Vampires are immensely strong (18.76), <!-- printed as-is: see errata E187 --> and deal great blows that inflict 1d6+4 hit points of damage. These blows further reduce the victim’s life energy by two levels, which consequently reduces all other traits linked to a loss in levels (attack ability, hit dice, etc.).
 
 Vampires may take gaseous form at will, and will be forced into this form if their hit points reach zero. They then attempt to reach their coffin to reform their bodies. If they do not reach the coffin within 12 turns and rest for 8 hours, they are unable to reform.
 
@@ -873,7 +874,7 @@ Monster zombies are the animated corpses of larger humanoid monsters such as bug
 - **Alignment:** Neutral (evil)
 - **Level/XP:** 3/115 + 4/hp
 
-Juju zombies are undead specially created by evil magic users practising a little-known and universally-banned magic known as necromancy. This unholy process involves draining all the life force from the unfortunate victim, who can be a human, demi-human, or humanoid. These creatures are then completely subservient to their master, who can issue commands to them to guard, attack, or patrol an area, or other similar orders. Juju zombies are like regular zombies but are improved in virtually every way. This type of zombie moves more quickly, has an improved AC, climbs with the skill of an 8th level thief, attack as 6 HD monsters, use missile weapons such as crossbows or pulled bows, and can even use hurled weapons such as spears or javelins.
+Juju zombies are undead specially created by evil magic users practising a little-known and universally-banned magic known as necromancy. This unholy process involves draining all the life force from the unfortunate victim, who can be a human, demi-human, or humanoid. These creatures are then completely subservient to their master, who can issue commands to them to guard, attack, or patrol an area, or other similar orders. Juju zombies are like regular zombies but are improved in virtually every way. This type of zombie moves more quickly, has an improved AC, climbs with the skill of an 8th level thief, attack as 6 HD monsters, use missile weapons such as crossbows or pulled bows, and can even use hurled weapons such as spears or javelins.<!-- printed as-is: see errata E188 -->
 
 In combat, juju zombies attack with their clawed hands but they can be programmed to use weapons by their master. Due to their strong connection to the Negative Material Plane, juju zombies can only be hit by magic weapons. Magic piercing or blunt weapons do half damage owing to the undead nature of the monsters, magic slashing weapons do full damage.
 

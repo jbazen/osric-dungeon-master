@@ -119,7 +119,7 @@ They are usually armed with spears, shields, short bows, and clubs (treat as mac
 
 They typically dwell in villages made of crude huts.
 
-***Treasure:*** See creature text.
+***Treasure:*** See creature te×t.
 
 ### Gnoll
 
@@ -141,6 +141,8 @@ They typically dwell in villages made of crude huts.
 | **Alignment:** | Chaotic evil | Chaotic evil |
 | **Level/XP:** | 2/30+2/hp | 2/40+4/hp |
 
+<!-- p.201 -->
+
 Gnolls live and travel in small bands. They sometimes form loose alliances with other gnolls. They are very adaptive and can be found in most climes. There are rumours of a gnoll overlord, though if he exists his power and reach are limited.
 
 Gnoll raiding parties will be led by a leader with 16 HP. He fights as a 3 HD monster.
@@ -149,15 +151,13 @@ Gnoll bands are led by a chieftain (AC 3, 22 HP, attacks as a 4 HD monster, and 
 
 Gnolls have been known to ally with orcs, hobgoblins, bugbears, and even trolls. Gnolls have infravision (60 ft). They speak troll, their own barked tongue, chaotic evil, and occasionally orcish and hobgoblin.
 
-*Description:* Gnolls are large hyena-faced creatures. They are covered in a grey fur with a dark muzzle and yellow mane. They have dark eyes, and long nails. Their armour is usually a mismatch of types taken from their victims. They have a rough life, and their average lifespan is only 35 years.
+***Description:*** Gnolls are large hyena-faced creatures. They are covered in a grey fur with a dark muzzle and yellow mane. They have dark eyes, and long nails. Their armour is usually a mismatch of types taken from their victims. They have a rough life, and their average lifespan is only 35 years.
 
 ***Treasure:*** Individual 2d6 ep, 2d4 gp; Lair 1d8×1,000 cp (60%), 1d6×1,000 sp (50%), 1d8×1,000 ep (35%), 1d6×1,000 gp (50%), 5d4 gems (30%), 1d6 jewellery (25%), 2d4 potions (40%)
 
-Flinds are close relatives of, and to a degree resemble, gnolls. Flinds stand 6½ ft tall, with powerful limbs and a leonine head. Both flinds and gnolls regard flinds as more highly evolved beings and any gnoll will regard a flind as having 16 charisma. Groups of gnolls are often led by one or more flinds and the gnolls will obey any order given by a flind without question. A gnoll defending its flind leader will not check for morale unless the flind is killed or *hors de combat*. Flinds share a common language with gnolls and can also speak bugbear, hobgoblin, ogrish, and orcish. Flinds are generally on friendly terms with these humanoid races and will work with them as need arises. For unknown reasons, flinds do not like and will not co-operate with trolls.
+**Flinds** are close relatives of, and to a degree resemble, gnolls. Flinds stand 6½ ft tall, with powerful limbs and a leonine head. Both flinds and gnolls regard flinds as more highly evolved beings and any gnoll will regard a flind as having 16 charisma. Groups of gnolls are often led by one or more flinds and the gnolls will obey any order given by a flind without question. A gnoll defending its flind leader will not check for morale unless the flind is killed or *hors de combat*. Flinds share a common language with gnolls and can also speak bugbear, hobgoblin, ogrish, and orcish. Flinds are generally on friendly terms with these humanoid races and will work with them as need arises. For unknown reasons, flinds do not like and will not co-operate with trolls.
 
 In combat flinds swing crude clubs, using their great strength to gain +1 to hit. There is a 25% chance that each flind will wield a disarming weapon called a flindbar: a pair of iron bars linked by a short piece of chain. A flind wielding a flindbar gains two attacks per round for 1d4 hp damage. For every hit with a flindbar the victim must save vs aimed magic items or be disarmed.
-
-<!-- p.201 -->
 
 If 20 or more flinds are encountered, there will be a leader type with 3 + 3 hit dice, a strength of 18 (+1 to hit and +2 damage), and a charisma of 18 to any gnoll he or she encounters. Leader type flinds always wield a flindbar in combat.
 
@@ -201,9 +201,9 @@ Goblins speak kobold, orcish, hobgoblin, lawful evil, and their own foul tongue.
 
 ***See also:*** Nilbog (under “Other Creatures”).
 
-*Description:* Goblins are small evil creatures with red eyes and a yellow to red coloured skin tone. They typically wear leather armour. They have an average lifespan of 50 years.
+***Description:*** Goblins are small evil creatures with red eyes and a yellow to red coloured skin tone. They typically wear leather armour. They have an average lifespan of 50 years.
 
-***Treasure:*** Individual 3d6 sp ; Lair 1d12×1,000 cp (75%), 1d6×1,000 sp (50%), 1d6 gems (25%), 1d3 jewellery (20%), 2d4 potions (40%)
+***Treasure:*** Individual 3d6 sp ;<!-- printed as-is: see errata E127 --> Lair 1d12×1,000 cp (75%), 1d6×1,000 sp (50%), 1d6 gems (25%), 1d3 jewellery (20%), 2d4 potions (40%)
 
 ### Grimlock
 
@@ -269,7 +269,7 @@ Hobgoblins are very skilled miners and cavers, and can detect new construction, 
 
 Hobgoblins speak goblin, orcish, their own brutish tongue and the very limited language of carnivorous apes. Some can speak common as well.
 
-*Description:* Hobgoblins are larger, hairier goblins with brown to grey fur. They have bright red or orange faces and yellow or brown coloured eyes. They have an average lifespan of 60 years.
+***Description:*** Hobgoblins are larger, hairier goblins with brown to grey fur. They have bright red or orange faces and yellow or brown coloured eyes. They have an average lifespan of 60 years.
 
 ***Treasure:*** Individual 3d12 cp, 2d8 gp; Lair 1d8×1,000 cp (75%), 1d12×1,000 sp (60%), 1d8×1,000 ep (35%), 1d6×1,000 gp (50%), 5d4 gems (50%), 1d6 jewellery (25%), 1 potion (15%)
 
@@ -301,7 +301,7 @@ Kobolds are hateful creatures, but they especially despise brownies, pixies, spr
 
 These creatures speak lawful evil and their own tongue. Some also speak goblin.
 
-*Description:* Kobolds stand 3 ft tall and have a dark skin tone (brown to black), with no hair. They are vaguely reptilian in appearance with scales, small horns on their heads, short snaky tails and red eyes. They have an average lifespan of 135 years.
+***Description:*** Kobolds stand 3 ft tall and have a dark skin tone (brown to black), with no hair. They are vaguely reptilian in appearance with scales, small horns on their heads, short snaky tails and red eyes. They have an average lifespan of 135 years.
 
 ***Treasure:*** Individual 3d6 cp; Lair 1d4×1,000 cp (50%), 1d3×1,000 sp (30%), 1d4 gems (50%)
 
@@ -329,7 +329,7 @@ Lizard Men are tribal, and often make their homes in underwater caves that conta
 
 There are a few tribes that are more highly evolved than others that will make their homes in crude villages and use shields for protection. These lizard men tribes also make use of barbed darts and javelins as missile weapons. They speak their own language.
 
-*Description:* Their hides are tough and leathery, and are coloured in many different shades of green. They have cold black eyes, and hard nails on their fingers. Some have a bony ridge along their backs.
+***Description:*** Their hides are tough and leathery, and are coloured in many different shades of green. They have cold black eyes, and hard nails on their fingers. Some have a bony ridge along their backs.
 
 Lizard men speak their own tongue, and a few (10%) can also speak common.
 
@@ -369,9 +369,9 @@ Orcs speak goblin and hobgoblin in addition to their own foul tongue.
 
 Most lairs will be found underground, and those found above ground will consist of simple huts, typically with some kind of defence (ditch, moat, crude walls, etc).
 
-*Description:* Orcs are filthy, disgusting creatures with a brown or brownish-green coloured skin tone. Their hair is a nest of black or dark brown. They wear rusty and misused armour. They have an average lifespan of 40 years.
+***Description:*** Orcs are filthy, disgusting creatures with a brown or brownish-green coloured skin tone. Their hair is a nest of black or dark brown. They wear rusty and misused armour. They have an average lifespan of 40 years.
 
-***Treasure:*** Individual 2d6 ep ; Lair 1d12×1,000 cp (50%), 1d6×1,000 sp (40%), 1d6 gems (25%), 1d3 jewellery (20%), 2d4 potions (40%)
+***Treasure:*** Individual 2d6 ep ;<!-- printed as-is: see errata E128 --> Lair 1d12×1,000 cp (50%), 1d6×1,000 sp (40%), 1d6 gems (25%), 1d3 jewellery (20%), 2d4 potions (40%)
 
 ### Troglodyte
 
@@ -397,7 +397,7 @@ Raiding parties (10 or more) will be led by a troglodyte that has 3 HD. War part
 
 Some troglodytes attack with their claws and teeth, and some use weapons that they have taken in previous battles. They also have a special attack, once in combat they emit a sickening odour against which humans (as well as elves, half-elves, dwarfs, halflings, and gnomes) must save vs poison. If they fail, they lose 1 point of strength per round for 1d6 rounds. This effect lasts for 10 rounds after the last round it was active.
 
-*Description:* Troglodyte skin is normally a dark green colour. However, they have the ability to alter this colouration depending on the area around them (much like a chameleon). This ability allows them to surprise others on a 1-4. This surprise bonus does not work when they are emitting their odour. They have bony fins along their skulls, and dark reptilian eyes.
+***Description:*** Troglodyte skin is normally a dark green colour. However, they have the ability to alter this colouration depending on the area around them (much like a chameleon). This ability allows them to surprise others on a 1-4. This surprise bonus does not work when they are emitting their odour. They have bony fins along their skulls, and dark reptilian eyes.
 
 ***Treasure:*** Individual 2d6 ep; Lair 1d6×1,000 cp (25%), 1d6×1,000 sp (30%), 1d6×1,000 ep (35%), 1d10×1,000 gp (40%), 1d4×100 pp (25%), 4d10 gems (60%), 3d10 jewellery (50%), 3 magic items (30%)
 
@@ -405,7 +405,7 @@ Some troglodytes attack with their claws and teeth, and some use weapons that th
 
 ## GIANT
 
-Far from being mere brutes, giants’ cunning makes up for their sometimes low intelligence. Giants can sometimes be persuaded, so long it is within their interests, to cooperate with other beings of like alignment.
+Far from being mere brutes, giants’ cunning makes up for their sometimes low intelligence. Giants can sometimes be persuaded, so long it is within their interests,<!-- printed as-is: see errata E129 --> to cooperate with other beings of like alignment.
 
 Despite their racial diversity, giants share some common characteristics. Giants are able to lift and throw large rocks like a catapult, even at close range, with their immense strength of 19-25. Immature giants function at a percentage of that of adults.
 
@@ -461,9 +461,9 @@ Cloud giants usually live in giant castles at high elevations. When not high up 
 
 When multiple giants are found in a castle, there is a 75% chance that it is a family consisting of a male, a female, and any remaining giants encountered are their children. The children have an equal chance of being male or female. A female cloud giant is weaker than the male, resembling a fire giant in terms of damage inflicted and hit point capacity. Evil cloud giants keep 1 to 3 slaves 50% of the time and 1d4 prehistoric lions.
 
-Very intelligent cloud giants have the ability to levitate the equivalent of 20,000 gp, plus their body weight, twice a day. Though they often wield clubs, all cloud giants can throw rocks to inflict 2d12 damage from 10 to 240 ft distance from a target, and can catch thrown rocks 60% of the time. Cloud giants are rarely (1 on 1d6) surprised due to their impressive olfactory abilities.
+Very intelligent cloud giants have the ability to *levitate* the equivalent of 20,000 gp, plus their body weight, twice a day. Though they often wield clubs, all cloud giants can throw rocks to inflict 2d12 damage from 10 to 240 ft distance from a target, and can catch thrown rocks 60% of the time. Cloud giants are rarely (1 on 1d6) surprised due to their impressive olfactory abilities.
 
-*Description:* Cloud giants often dress in flowing clothing and fancy jewellery. They have bronze to white hair, with skin in tones of blue ranging from nearly white to cold, light blue.
+***Description:*** Cloud giants often dress in flowing clothing and fancy jewellery. They have bronze to white hair, with skin in tones of blue ranging from nearly white to cold, light blue.
 
 ***Treasure:*** 10d4×100 gp, 4d6 + 6 gems (15%), 1d8 jewellery (10%), 4 magic items (25%)
 
@@ -491,7 +491,7 @@ Like most giants, fire giants delight in throwing rocks at enemies. They can hit
 
 Fire giants sometimes share their lairs with hell hounds.
 
-*Description:* Fire giants’ hair is the red and orange colour of flames, and their skin is soot black. Their teeth are flame orange, and their eyes red. The commonly wear armour on their broad, 6 foot wide shoulders. <!-- printed as-is: NEW --> This armour is sometimes made from the skin of dragons.
+***Description:*** Fire giants’ hair is the red and orange colour of flames, and their skin is soot black. Their teeth are flame orange, and their eyes red. The commonly wear armour on their broad, 6 foot wide shoulders. <!-- printed as-is: see errata E130 --> This armour is sometimes made from the skin of dragons.
 
 ***Treasure:*** 10d4×100 gp, 1d12 gems (15%), 1d8 jewellery (10%), 4 magic items (25%)
 
@@ -521,7 +521,7 @@ Winter wolves often share residence with frost giants (50% chance, 1d6 in number
 
 Frost giants can cause 2d10 hit points in damage by throwing large rocks from between 10 to 200 ft. Likewise, they can catch rocks tossed at them with a 40% probability.
 
-*Description:* Frost giants have the overall appearance of giant, muscled barbarians. They have light yellow or blue eyes, with white hair that can likewise be tinged with yellow or blue.
+***Description:*** Frost giants have the overall appearance of giant, muscled barbarians. They have light yellow or blue eyes, with white hair that can likewise be tinged with yellow or blue.
 
 ***Treasure:*** 10d4×100 gp, 1d12 gems (15%), 1d8 jewellery (10%), 4 magic items (25%)
 
@@ -547,7 +547,7 @@ Hill giants live in mostly inhospitable locations. Half of the time hill giants 
 
 Hill giants can cause 2d8 hit points in damage by throwing large rocks from between 10 to 200 ft. Likewise, they can catch rocks tossed at them with a 30% probability.
 
-*Description:* In many ways hill giants resemble larger ogres, including having eyes red-rimmed, and they will often wield some type of bludgeoning weapon. In fact, hill giants frequently (50%) also speak the language of ogres. They have skin of rust brown or tan, with similarly coloured rust or black hair. They dress in animal skins.
+***Description:*** In many ways hill giants resemble larger ogres, including having eyes red-rimmed, and they will often wield some type of bludgeoning weapon. In fact, hill giants frequently (50%) also speak the language of ogres. They have skin of rust brown or tan, with similarly coloured rust or black hair. They dress in animal skins.
 
 ***Treasure:*** 2d10×100 gp, 1d10 gems (30%), 1d6 jewellery (25%), 3 magic items (15%)
 
@@ -575,7 +575,7 @@ Stone giants sometimes share their lairs with cave bears.
 
 Stone giants can cause 3d10 hit points in damage by throwing large rocks from between 10 to 300 ft. Likewise, they can catch rocks tossed at them with a 90% probability.
 
-*Description:* Stone giants are partially named for their stone-like complexions and iron coloured eyes. Their hair is also dark-stone coloured, sometimes with hints of blue. Whereas hill giants often use wooden clubs, stone giants prefer stone and wear skins the colour of stone.
+***Description:*** Stone giants are partially named for their stone-like comple×ions and iron coloured eyes. Their hair is also dark-stone coloured, sometimes with hints of blue. Whereas hill giants often use wooden clubs, stone giants prefer stone and wear skins the colour of stone.
 
 ***Treasure:*** 2d10×100 gp, 1d10 gems (30%), 1d6 jewellery (25%), 3 magic items (15%)
 
@@ -589,6 +589,9 @@ Stone giants can cause 3d10 hit points in damage by throwing large rocks from be
 - **Hit Dice:** 15+1d6+1
 - **Attacks:** 1
 - **Damage:** 7d6
+
+<!-- p.208 -->
+
 - **Special Attacks:** See below
 - **Special Defences:** See below
 - **Magic Resistance:** Standard
@@ -601,11 +604,9 @@ Storm giants are the most formidable of giants in many campaigns. They live in r
 
 Storm giants are too intelligent, sophisticated, and magically endowed to toss rocks like their brethren. Instead, storm giants can employ the following spell-like abilities once per day: *lightning bolt* (8d8 damage), *call lightning* (10 to 15d6 damage, 3 bolts), *control winds, predict weather,* and *weather summoning*. Further, they can *levitate* their own weight plus an additional weight equal to 30,000 gold pieces two times per day. Storm giants can breathe and otherwise function underwater unimpeded. They are immune to all damage by electricity, including the fearsome electrical bolt breathed by the dreaded blue dragon.
 
-*Description:* There are two typical appearances of storm giants, related to their preference for environment. Those who choose to live under water are often of green hair, eyes and skin, while those above water have purple skin, eyes either purple or cloudy grey, and blue-tinted black hair.
+***Description:*** There are two typical appearances of storm giants, related to their preference for environment. Those who choose to live under water are often of green hair, eyes and skin, while those above water have purple skin, eyes either purple or cloudy grey, and blue-tinted black hair.
 
 ***Treasure:*** 10d4×100 gp, 4d6 + 6 gems (15%), 1d8 jewellery (10%), 4 magic items (25%)
-
-<!-- p.208 -->
 
 ### Ettin
 
@@ -627,9 +628,9 @@ Storm giants are too intelligent, sophisticated, and magically endowed to toss r
 
 Ettins are large, nocturnal creatures that live below ground. They have two heads, each of which controls one arm. The right side is slightly dominant, and can cause 3d6 damage whereas the left can inflict 2d8. Ettins are seldom surprised because one head or the other is usually keeping watch.
 
-*Description:* Ettins are dirty creatures that wear tattered skins and often use wicked weapons, such as barbed clubs. They share some affinity to orcs, witnessed in their pig-like faces.
+***Description:*** Ettins are dirty creatures that wear tattered skins and often use wicked weapons, such as barbed clubs. They share some affinity to orcs, witnessed in their pig-like faces.
 
-***Treasure:*** Individual: 2d10 gp, 1d6 gems (25%), 1d4 jewellery (20%) 2 magic items; <!-- printed as-is: NEW --> Lair: 2d6×1,000 gp (70%)
+***Treasure:*** Individual: 2d10 gp, 1d6 gems (25%), 1d4 jewellery (20%) 2 magic items; <!-- printed as-is: see errata E131 --> Lair: 2d6×1,000 gp (70%)
 
 ### Ogre
 
@@ -651,6 +652,8 @@ Ettins are large, nocturnal creatures that live below ground. They have two head
 | **Alignment:** | Chaotic evil | Chaotic evil |
 | **Level/XP:** | 3/95 + 5/hp | 5/750+6/hp |
 
+<!-- p.209 -->
+
 Ogres are malicious beings who live in all environments, whether above or below ground. They have affinity with hill giants and trolls, and often can be found with them. Additionally, ogres love wealth, and will hire themselves out to other creatures toward this end.
 
 In a group of 11 or more ogres, one is a leader and is slightly more powerful (attack capability equal to a 7 HD monster, 33 hit points, AC 3, and damage of 2d6). Groups of 16 or greater ogres will have two of these leaders, as well as an ogre chief. The chief also attacks as a 7 HD monster, but inflicts 1d10 + 4 hit points of damage and has an AC of 4. When attacking by weapon, standard ogres receive +2 to damage while their more powerful leaders get +3 and a chief receives +4.
@@ -659,15 +662,13 @@ When encountering ogres in their lair, there will be an additional 2d6 females a
 
 Despite their low intelligence, ogres are social creatures and speak orc, troll, and the language of hill giants in addition to their own language and alignment tongue.
 
-*Description:* Aside from the elusive unhealthy-purple coloured ogre, most ogres have skin that is dull yellow or dark brown. They have black-green or blue-black hair, and their skin is covered in dark wart-like bumps. They have purple eyes and white pupils, and their hard, thick nails and teeth are orange and sometimes black. Ogres live at least 90 years. They don furs or other animal hides, and their (often) mercenary lifestyle requires that they maintain their weapons and armour in decent condition.
+***Description:*** Aside from the elusive unhealthy-purple coloured ogre, most ogres have skin that is dull yellow or dark brown. They have black-green or blue-black hair, and their skin is covered in dark wart-like bumps. They have purple eyes and white pupils, and their hard, thick nails and teeth are orange and sometimes black. Ogres live at least 90 years. They don furs or other animal hides, and their (often) mercenary lifestyle requires that they maintain their weapons and armour in decent condition.
 
 ***Treasure:*** Individual: 20d4 gp; Lair: 1d3×1,000 gp (30%), 5d8 gems (40%), 2 magic items (10%), 2d4 potions (40%)
 
 **Ogre Magi** are fearsome evil creatures, well versed in magic and of unnatural size and strength. They stand around nine or ten feet tall, are thick-limbed, wide of girth and heavily muscled, but otherwise more or less resemble men in shape. Ogre magi are known to have thick skin that usually ranges in colour from pale yellow to brown or black, but some are said to be green or even blue. Most have reddish coloured eyes, two or more yellow to white horns, thick tusks, sharp yellow to black nails and long dark hair. They speak common and ogrish, amongst other languages.
 
 Though ogre magi are physically powerful, it is their command of magic that makes them truly dangerous adversaries. The spells they may use include *fly* (12 turn duration), *invisibility*, *darkness 10 ft radius* and *polymorph self*, though this last is limited to humanoid forms four to twelve feet in size. Once per day, they may also use *charm person*, *sleep*, *gaseous form* and *cone of cold* as a 12th level spell caster.
-
-<!-- p.209 -->
 
 In addition, they have the capacity to regenerate 1 hp per combat round. Ogre magi are highly intelligent and will seek to defeat their foes with magic before entering physical combat. They prefer to flee rather than continue to fight a losing battle, though they are known to bear long grudges.
 
@@ -695,7 +696,7 @@ Ogre magi are not numerous and tend towards small groups, but the largest are le
 
 Trolls are vile, putrid creatures found in almost any climate. They can attack up to three opponents at a time using their powerful limbs to claw and their wicked teeth for biting. After three rounds of combat, their innate regeneration ability will start working, recovering 3 hit points per round. Their ability to regenerate even allows detached limbs to reattach to their body. Severed limbs will even continue to attack foes independently. A troll can only be truly destroyed by fire or acid, and these type of damage cannot be regenerated.
 
-*Description:* The hides of trolls are a sickly green or grey and they have cold black eyes.
+***Description:*** The hides of trolls are a sickly green or grey and they have cold black eyes.
 
 ***Treasure:*** Lair 1d8×1,000 cp (10%), 1d12×1,000 sp (15%), 1d8×1,000 ep (15%), 1d6×1,000 gp (50%), 1d10 gems (30%), 1d6 jewellery (25%), 2 magic items or 1 potion (15%).
 
@@ -722,7 +723,7 @@ Trolls are vile, putrid creatures found in almost any climate. They can attack u
 
 These horrible creatures are the result of crossbreeding trolls with hill giants, resulting in a monster that looks like a troll combined with the large size and pot-belly of a hill giant. The hide of a giant troll is reddish brown and they have tough wiry black hair, bulbous nose, and red rimmed eyes.
 
-Giant trolls are very strong and when fighting with their favoured weapon, a giant spiked club, they inflict 2d8 points of damage. They carry this weapon with them everywhere, even in their lair, but if encountered without it they will fight with their clawed hands. When using their natural weaponry giant trolls attack twice per round for 1d6 points of damage each, and is easily capable of attacking two different targets in the same round. Giant trolls also have extremely fast reflexes and are able to snatch a missile from the air 25% of the time. If it is a missile suitable for throwing (example: spear, rock) the giant troll will throw it back as its next attack.
+Giant trolls are very strong and when fighting with their favoured weapon, a giant spiked club, they inflict 2d8 points of damage. They carry this weapon with them everywhere, even in their lair, but if encountered without it they will fight with their clawed hands. When using their natural weaponry giant trolls attack twice per round for 1d6 points of damage each, and is easily capable of attacking two different targets in the same round.<!-- printed as-is: see errata E132 --> Giant trolls also have extremely fast reflexes and are able to snatch a missile from the air 25% of the time. If it is a missile suitable for throwing (example: spear, rock) the giant troll will throw it back as its next attack.
 
 Giant trolls regenerate 2 hp per round but unlike their smaller cousins, they are not capable of rebonding severed limbs, and severed limbs will not attack independently. Giant trolls share a troll’s weakness to fire and acid, and at least 10 hp of damage to a troll must be by one of these two methods before it can be slain. Any other damage simply reduces the giant troll to 1 hp and negates regeneration.
 
@@ -750,7 +751,7 @@ Giant trolls are found in every climate except desert. They have 90 ft infravisi
 
 Giant two-headed trolls are the vicious offspring of trolls and ettins. In appearance they look most like trolls, though they have two heads like an ettin and prefer wearing filthy animal skins as ettins do. Giant two-headed trolls are nocturnal and prefer underground dwellings such as dungeons or caverns, but only have the standard 60 ft infravision.
 
-In combat the giant two-headed troll has two claw attacks for 1d6 points of damage each and which can be directed at two different opponents. It also has two bite attacks for 1d10 damage each but bite attacks must be directed at the same opponent. This variety of troll can regenerate 1 hp per round but cannot rebond severed limbs, and severed limbs will not attack independently. Like an ettin, this ettin-troll crossbreed can have one head sleep while the others stays alert for danger and thus it can only be surprised on a 1 in 6.
+In combat the giant two-headed troll has two claw attacks for 1d6 points of damage each and which can be directed at two different opponents. It also has two bite attacks for 1d10 damage each but bite attacks must be directed at the same opponent. This variety of troll can regenerate 1 hp per round but cannot rebond severed limbs, and severed limbs will not attack independently. Like an ettin, this ettin-troll crossbreed can have one head sleep while the others stays alert for danger and thus it can only be surprised on a 1 in 6.<!-- printed as-is: see errata E133 -->
 
 ***Treasure:*** 1d8×1,000 cp (20%), 1d10×1,000 sp (30%), 1d10×1,000 ep (15%), 1d6×1,000 gp (60%), 2d6 gems (35%), 1d6 jewellery (20%), any 2 maps or magic plus 1 potion (25%)
 

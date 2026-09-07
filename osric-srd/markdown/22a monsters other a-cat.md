@@ -7,7 +7,7 @@
 
 ## OTHER CREATURES
 
-"Other creatures" is a catch-all term for the many OSRIC creatures that do not seem to fit anywhere else.
+“Other creatures” is a catch-all term for the many OSRIC creatures that do not seem to fit anywhere else.
 
 ### Achaierai
 
@@ -29,11 +29,11 @@
 
 Though not demons, Achaierai are native to the Abyss. They are giant birds, somewhat like ostriches with short necks and four legs each. They attack as 9 hit dice monsters. Their bite attack (1d10 damage) is usable only against foes they can reach—typically those flying or over 8 ft tall. Against smaller creatures they have only two attacks with their talons.
 
-Creatures under 8 ft tall, however, are at an equal drawback against Achaierai. They may hit the creature's AC 8 body only with missile weapons, spears or polearms (such as pikes). If armed with a hand weapon, they must attack the Achaierai's AC -1 legs.
+Creatures under 8 ft tall, however, are at an equal drawback against Achaierai. They may hit the creature’s AC 8 body only with missile weapons, spears or polearms (such as pikes). If armed with a hand weapon, they must attack the Achaierai’s AC -1 legs.
 
 If seriously wounded, such as losing more than two legs, the Achaierai can emit a cloud of poison in a 20 ft diameter sphere. This cloud causes *insanity* (as the druidic spell *feeblemind*) for three hours unless a saving throw vs poison is made, inflicts 2d6 hp damage regardless of the save, and blocks line of sight.
 
-*Treasure:* 1d10×1,000 cp (5%), 1d12×1,000 sp (25%), 1d6×1,000 ep (25%), 1d8×1,000 gp (25%), 1d12 gems (15%), 1d8 jewellery (10%) and 3 magic items and 1 scroll (25%).
+***Treasure:*** 1d10×1,000 cp (5%), 1d12×1,000 sp (25%), 1d6×1,000 ep (25%), 1d8×1,000 gp (25%), 1d12 gems (15%), 1d8 jewellery (10%) and 3 magic items and 1 scroll (25%).
 
 ### Aerial Servant
 
@@ -59,7 +59,7 @@ These creatures may carry approximately 1,000 lbs in weight at full movement spe
 
 If the Aerial Servant is prevented from carrying out its mission, it will go mad and return to attack the cleric who summoned it.
 
-*Treasure:* None.
+***Treasure:*** None.
 
 <!-- p.269 -->
 
@@ -91,9 +91,9 @@ Afreeti are capable of carrying up to 750 lbs, either on foot or flying, without
 
 Besides speaking their own language afreeti have limited telepathy, so they can communicate with any intelligent creature.
 
-*Treasure:* None.
+***Treasure:*** None.
 
-### Al-Mi'raj
+### Al-Mi’raj
 
 - **Frequency:** Very rare
 - **No. Encountered:** 2d10
@@ -111,9 +111,9 @@ Besides speaking their own language afreeti have limited telepathy, so they can 
 - **Alignment:** Neutral
 - **Level/XP:** 1/5+1/hp
 
-Al-mi'raj resemble large (3 ft) hares with black unicorn horns projecting from their foreheads. If captured young they can be trained as guard animals or pets, but wild individuals are unpredictable and sometimes aggressive. They live like hares in burrows too small for even a gnome or halfling to enter.
+Al-mi’raj resemble large (3 ft) hares with black unicorn horns projecting from their foreheads. If captured young they can be trained as guard animals or pets, but wild individuals are unpredictable and sometimes aggressive. They live like hares in burrows too small for even a gnome or halfling to enter.
 
-*Treasure:* None.
+***Treasure:*** None.
 
 ### Amber Creeping Vine
 
@@ -137,23 +137,23 @@ Al-mi'raj resemble large (3 ft) hares with black unicorn horns projecting from t
 
 An Amber Creeping Vine is a climbing plant with striking amber flowers like honeysuckle blooms that exude a musky, heady perfume. Upon reaching maturity each vine covers about 20 sq ft, has 2d6 blooms and 1d4 buds. Not only does the amber creeping vine not require sunlight to grow, it actually appears to thrive in the absence of light. Amber creepers are often found growing in the soil of caverns and dungeons or in the deep, dark hearts of ancient forests, climbing up the rock walls or clinging to tree trunks alike with ease. Indeed, the problem is not getting the vines to grow, it is controlling their spread. These plants can defend themselves and there are those who take advantage of these abilities by planting amber creeping vines near treasure troves.
 
-Amber creeping vines sustain themselves by feeding on living creatures unfortunate enough to approach too close. When a creature approaches within 10 ft of the vine its amber blossoms will start waving in a mesmerising pattern while puffing clouds of fragrant pollen into the target's face. A successful hit indicates the victim has inhaled the pollen and he or she must save vs spells or become enthralled, walking forward into the mass of vines to be engulfed within its leafy, tentacle-like limbs. The individual will resist any attempts to restrain him or her from entering the vines.
+Amber creeping vines sustain themselves by feeding on living creatures unfortunate enough to approach too close. When a creature approaches within 10 ft of the vine its amber blossoms will start waving in a mesmerising pattern while puffing clouds of fragrant pollen into the target’s face. A successful hit indicates the victim has inhaled the pollen and he or she must save vs spells or become enthralled, walking forward into the mass of vines to be engulfed within its leafy, tentacle-like limbs. The individual will resist any attempts to restrain him or her from entering the vines.
 
 <!-- p.270 -->
 
-Once the victim is inside the plant, numerous root-like organs will intrude into his or her skull. The amber creeping vine will begin to consume the unfortunate victim's brain at a rate of 1d4 intelligence points per round. Though the brain-consuming tendrils can be easily cut, so many attach to the victim so rapidly that the only way to stop the draining is to kill the creeper. The amber creeping vine has a bulbous root which lies 1 ft beneath the soil; stabbing through the root will kill the vine and halt the consumption of the victim's brain tissue.
+Once the victim is inside the plant, numerous root-like organs will intrude into his or her skull. The amber creeping vine will begin to consume the unfortunate victim’s brain at a rate of 1d4 intelligence points per round. Though the brain-consuming tendrils can be easily cut, so many attach to the victim so rapidly that the only way to stop the draining is to kill the creeper. The amber creeping vine has a bulbous root which lies 1 ft beneath the soil; stabbing through the root will kill the vine and halt the consumption of the victim’s brain tissue.
 
-If the intelligence drain is not halted before the victim's intelligence ability score reaches zero, the victim dies and a bud flowers into bloom as a new bud sprouts from the vine. If the intelligence drain in any given round reduces the victim's intelligence to exactly 1 or 2, the victim becomes an amber zombie (see below). Intelligence loss in persons the creeper does not kill or transform into an amber zombie is temporary, requiring but a day of rest to regain a point of Int. Healing or other curative magic will restore full intelligence immediately, but a spell used thus will not heal hit points.
+If the intelligence drain is not halted before the victim’s intelligence ability score reaches zero, the victim dies and a bud flowers into bloom as a new bud sprouts from the vine. If the intelligence drain in any given round reduces the victim’s intelligence to exactly 1 or 2, the victim becomes an amber zombie (see below). Intelligence loss in persons the creeper does not kill or transform into an amber zombie is temporary, requiring but a day of rest to regain a point of Int. Healing or other curative magic will restore full intelligence immediately, but a spell used thus will not heal hit points.
 
-Each amber creeping vine will have a number of zombies under its control equal to half the number of blooms, rounded down. Creepers do not value treasure but the belongings of those who have fallen victim to the plant's pollen attack will be found in the soil under the plant. The vines are mobile enough to cover the evidence of the plant's peculiar feeding habits.
+Each amber creeping vine will have a number of zombies under its control equal to half the number of blooms, rounded down. Creepers do not value treasure but the belongings of those who have fallen victim to the plant’s pollen attack will be found in the soil under the plant. The vines are mobile enough to cover the evidence of the plant’s peculiar feeding habits.
 
-**Amber Zombies** have varying appearances but are always human, demi-human, or humanoid. Succumbing to the amber creeping vine turns the skin amber and changes the eyes into glazed and lifeless parodies of their former appearance. The process of draining a victim's intelligence also plants a vine seed into the skull. The resulting amber zombie is under control of the creating plant. The zombie will seek to bring new victims to the creeper's hungry vines and if the creeper is attacked the amber zombie will defend it. Amber zombies use whatever weapons and armour the victim had at the time of his or her conversion, but the zombie fights as 2HD monster with no spell-using abilities or ability score bonuses.
+**Amber Zombies** have varying appearances but are always human, demi-human, or humanoid. Succumbing to the amber creeping vine turns the skin amber and changes the eyes into glazed and lifeless parodies of their former appearance. The process of draining a victim’s intelligence also plants a vine seed into the skull. The resulting amber zombie is under control of the creating plant. The zombie will seek to bring new victims to the creeper’s hungry vines and if the creeper is attacked the amber zombie will defend it. Amber zombies use whatever weapons and armour the victim had at the time of his or her conversion, but the zombie fights as 2HD monster with no spell-using abilities or ability score bonuses.
 
 Despite their name, amber zombies are not undead and cannot be turned by a cleric. They are, however, immune to mind-influencing magic just as true zombies are. After 2 months of service the zombie wanders away from the parent plant to find a nice patch of soil in a likely spot, where it dies and a new amber creeping vine sprouts from the corpse.
 
 The only known way to cure an amber zombie is to kill the controlling creeper and cast both a *neutralise poison* and *heal* upon the zombie in rapid succession. The victim will be restored to his or her former self but will require a full week of rest for every 4 points (rounded up) of intelligence lost before being able to adventure again.
 
-*Treasure:* See creature text.
+***Treasure:*** See creature te×t.
 
 ### Ankheg
 
@@ -179,7 +179,7 @@ When feeding, an ankheg dissolves its prey before sucking the juices from the sh
 
 Ankheg sometimes lurk beneath the earth waiting to feel the vibrations of an approaching creature, thence to attack it by surprise.
 
-*Treasure:* None.
+***Treasure:*** None.
 
 ### Annis
 
@@ -207,7 +207,7 @@ while the victim is held). Annises can cast *fog cloud* thrice per day and *chan
 
 Annises speak common, various giantish tongues and their own language.
 
-*Treasure:* (in lair) 1d20×1,000 cp (25%), 1d8×1,000 sp (35%), 1d6×1,000 ep (10%), 1d6×1,000 gp (40%), 1d8 gems (30%), 1d6 jewellery (25%), any 2 magic items and one potion (15%)
+***Treasure:*** (in lair) 1d20×1,000 cp (25%), 1d8×1,000 sp (35%), 1d6×1,000 ep (10%), 1d6×1,000 gp (40%), 1d8 gems (30%), 1d6 jewellery (25%), any 2 magic items and one potion (15%)
 
 ### Ant, Giant
 
@@ -231,9 +231,9 @@ Annises speak common, various giantish tongues and their own language.
 
 If the encounter is with a colony of giant ants, the Number Encountered will represent the workers present. Calculate the presence of soldiers at 1:5, that is 1 soldier for every 5 workers, in addition to the number shown on the die.
 
-At the heart of the nest will be the queen. She is immobile and incapable of attacking or defending herself. At least 5d10 workers and 5 soldiers will attend her and defend her and her eggs. Once slain, the queen's organising influence on the colony will disappear, causing *confusion* (as the 7th level druid spell) for 1d6 rounds. After the period of *confusion*, ants will leave the colony in search of a new one. Ordinarily, the eggs of giant ants have no market value.
+At the heart of the nest will be the queen. She is immobile and incapable of attacking or defending herself. At least 5d10 workers and 5 soldiers will attend her and defend her and her eggs. Once slain, the queen’s organising influence on the colony will disappear, causing *confusion* (as the 7th level druid spell) for 1d6 rounds. After the period of *confusion*, ants will leave the colony in search of a new one. Ordinarily, the eggs of giant ants have no market value.
 
-*Treasure:* (In lair only) 3d4 gems (50%); 2d4 potions (40%).
+***Treasure:*** (In lair only) 3d4 gems (50%); 2d4 potions (40%).
 
 ### Aurumvorax
 
@@ -253,13 +253,13 @@ At the heart of the nest will be the queen. She is immobile and incapable of att
 - **Alignment:** Neutral
 - **Level/XP:** 8/2,250+16/hp
 
-Also known as the "golden gorger" for its beautiful golden coat, the aurumvorax is a long-bodied, eight-legged carnivore. It lives in plains or woods. Though as small as a badger, the creature is very dense and heavy, weighing as much as a bear. A successful bite means the creature has locked its teeth in its target like a bulldog; it will then bring its claws up to rake the target, who will suffer 2d4 damage automatically each round from the teeth while the creature is attached, and an additional 1d8 attacks from the claws. Each claw inflicts a further 1d6 damage. Once locked on, the only way to detach the aurumvorax from its target is to kill it.
+Also known as the “golden gorger” for its beautiful golden coat, the aurumvorax is a long-bodied, eight-legged carnivore. It lives in plains or woods. Though as small as a badger, the creature is very dense and heavy, weighing as much as a bear. A successful bite means the creature has locked its teeth in its target like a bulldog; it will then bring its claws up to rake the target, who will suffer 2d4 damage automatically each round from the teeth while the creature is attached, and an additional 1d8 attacks from the claws. Each claw inflicts a further 1d6 damage. Once locked on, the only way to detach the aurumvorax from its target is to kill it.
 
-The aurumvorax's thick coat is such good armour it takes only half-damage from blunt weapons. It is also highly resistant to fire, taking only half damage from fiery sources, and neither poison nor gas can harm it.
+The aurumvorax’s thick coat is such good armour it takes only half-damage from blunt weapons. It is also highly resistant to fire, taking only half damage from fiery sources, and neither poison nor gas can harm it.
 
 Rumour has it the aurumvorax is not native to this part of the prime material plane, having been brought here by visitors from a very distant place.
 
-*Treasure:* The aurumvorax does not hoard treasure and places no value on it. However, its lair might contain treasure assigned by the GM—this would be appropriate in cases where it has slain a creature carrying treasure and dragged that creature back to its lair.
+***Treasure:*** The aurumvora× does not hoard treasure and places no value on it. However, its lair might contain treasure assigned by the GM—this would be appropriate in cases where it has slain a creature carrying treasure and dragged that creature back to its lair.
 
 ### Babbler
 
@@ -287,7 +287,7 @@ babblers may be a kind of mutant lizard man—though if so, the mutation is quit
 
 Babblers like the taste of human. They are occasionally found in lizard man raiding parties.
 
-*Treasure:* (in lair) 1d12×1,000 cp (20%), 1d6×1,000 sp (35%), 1d6×1,000 ep (10%), 1d6×1,000 gp (40%), 1d4 gems (30%), 1d3 jewellery (25%), one magic item and one potion (10%)
+***Treasure:*** (in lair) 1d12×1,000 cp (20%), 1d6×1,000 sp (35%), 1d6×1,000 ep (10%), 1d6×1,000 gp (40%), 1d4 gems (30%), 1d3 jewellery (25%), one magic item and one potion (10%)
 
 ### Barghest
 
@@ -309,13 +309,13 @@ Babblers like the taste of human. They are occasionally found in lizard man raid
 
 Barghests are native to Gehenna, but send their young to the Prime Material Plane during a larval phase. A typical litter is 2d4 young. These will disperse into pairs or lone barghests.
 
-They seem like very large goblins, and may *shape change* into large dogs at will. In dog form each barghest's movement speed is doubled and it surprises opponents 50% of the time. For each human the barghest eats, it gains 1+1 HD, reduces its AC by 1, adds 5% to its magic resistance and +1 to its damage dice. When it reaches 12+12 hit dice, the Barghest may *plane shift* itself back to Gehenna, a power it will typically use at once.
+They seem like very large goblins, and may *shape change* into large dogs at will. In dog form each barghest’s movement speed is doubled and it surprises opponents 50% of the time. For each human the barghest eats, it gains 1+1 HD, reduces its AC by 1, adds 5% to its magic resistance and +1 to its damage dice. When it reaches 12+12 hit dice, the Barghest may *plane shift* itself back to Gehenna, a power it will typically use at once.
 
 At will, a barghest may use the following spell-like powers, once each per round: *change self*, *levitation*, *misdirection*, or *projected image*. While in dog form it may also *pass without trace* at will. Once each per day it may *charm person* and *dimension door*.
 
 A barghest that takes more than 15hp damage from a fire attack must save vs spells or be instantly banished back to Gehenna.
 
-*Treasure:* None on the Prime Material Plane.
+***Treasure:*** None on the Prime Material Plane.
 
 ### Basilisk
 
@@ -335,9 +335,9 @@ A barghest that takes more than 15hp damage from a fire attack must save vs spel
 - **Alignment:** Neutral
 - **Level/XP:** 7/1,000+8/hp
 
-Noting the basilisk's physiognomy, the wisest sages posit that it is hatched by a cock from the egg of a serpent, begetting an 8-legged anfractuous creature with a lizard-like head. The gaze of the basilisk is deadly, as any creature meeting its gaze must successfully save vs petrifaction or instantly be turned to stone. The gaze effects of the basilisk extend into both the astral and æthereal planes.
+Noting the basilisk’s physiognomy, the wisest sages posit that it is hatched by a cock from the egg of a serpent, begetting an 8-legged anfractuous creature with a lizard-like head. The gaze of the basilisk is deadly, as any creature meeting its gaze must successfully save vs petrifaction or instantly be turned to stone. The gaze effects of the basilisk extend into both the astral and æthereal planes.
 
-*Treasure:* 1d10×1,000 cp (5%), 1d12×1,000 sp (25%), 1d6×1,000 ep (25%), 1d8×1,000 gp (25%), 1d12 gems (15%), 1d8 jewellery (15%), 3 magic items and 1 scroll (10%).
+***Treasure:*** 1d10×1,000 cp (5%), 1d12×1,000 sp (25%), 1d6×1,000 ep (25%), 1d8×1,000 gp (25%), 1d12 gems (15%), 1d8 jewellery (15%), 3 magic items and 1 scroll (10%).
 
 ### Bee, Giant
 
@@ -359,13 +359,13 @@ Noting the basilisk's physiognomy, the wisest sages posit that it is hatched by 
 | **Alignment:** | Neutral | Neutral | Neutral |
 | **Level/XP:** | 3/100+4/hp | 3/150+5/hp | 4/300+8/hp |
 
+<!-- p.273 -->
+
 Giant bees live in hives (honeybees) or nests (bumblebees). These lairs will contain non-combatant queens (10 HD but no effective attack) and 2d3 non-combatant drones (2 HD and no effective attack). A giant bee can only sting once per encounter; it has a 25% chance of dying after stinging, otherwise the stinger will slowly re-grow. They will flee from smoke or fire unless their lair is threatened.
 
-Giant bee hives or nests will always contain honey worth 10d10 gold pieces. There is a 15% chance that a hive will contain royal jelly. If it does, the royal jelly can be fashioned into 2d3 *potions of extra healing* by a magic user of 7th or higher level—or a magic user of 12th level or higher may make it into an unguent which preserves the appearance of youth. Regular application of this unguent for 1 year makes the user appear 2d3 years younger. Such an unguent is typically worth 3d6x1,000 gp to wealthy noblewomen. <!-- printed as-is: NEW -->
+Giant bee hives or nests will always contain honey worth 10d10 gold pieces. There is a 15% chance that a hive will contain royal jelly. If it does, the royal jelly can be fashioned into 2d3 *potions of extra healing* by a magic user of 7th or higher level—or a magic user of 12th level or higher may make it into an unguent which preserves the appearance of youth. Regular application of this unguent for 1 year makes the user appear 2d3 years younger. Such an unguent is typically worth 3d6x1,000 gp to wealthy noblewomen. <!-- printed as-is: see errata E202 -->
 
-*Treasure:* See creature text.
-
-<!-- p.273 -->
+***Treasure:*** See creature te×t.
 
 ### Beetle, Giant
 
@@ -391,11 +391,11 @@ Giant bee hives or nests will always contain honey worth 10d10 gold pieces. Ther
 
 When attacked it has a 50% chance to release an 8 ft cube of noxious gas. The gas will cause 3d4 hp of damage and the sound of its release will stun (20% chance) and deafen (20%) all within a 16 ft radius. The stun effect will prevent action for 2d4 rounds and the deafness will persist for 2d6 rounds. The cloud can be released every 3rd round (e.g., 1st and 4th) but not more than twice in 8 hours.
 
-*Treasure:* None
+***Treasure:*** None
 
-**Giant Boring:** Giant Boring beetles will often be found in dead trees and tunnel complexes – wherever there is sufficient rotting wood and moisture to support the fungal cultures they eat. There are rumours that some have developed a "hive-mind" similar to ants and when threatened they may display surprising group intelligence in the defence of their home.
+**Giant Boring:** Giant Boring beetles will often be found in dead trees and tunnel complexes – wherever there is sufficient rotting wood and moisture to support the fungal cultures they eat. There are rumours that some have developed a “hive-mind” similar to ants and when threatened they may display surprising group intelligence in the defence of their home.
 
-*Treasure:* In Lair: 1d12×1,000 cp (20%); 1d6×1,000 sp (30%); 1d4×1,000 ep (10%); 2d4×100 gp (40%); 1d6×10 pp (50%); 3d8 gems (55%); 1d12 jewellery (45%); 2d4 potions (40%); 1d4 scrolls (50%); Any 2 magic items (10%).
+***Treasure:*** In Lair: 1d12×1,000 cp (20%); 1d6×1,000 sp (30%); 1d4×1,000 ep (10%); 2d4×100 gp (40%); 1d6×10 pp (50%); 3d8 gems (55%); 1d12 jewellery (45%); 2d4 potions (40%); 1d4 scrolls (50%); Any 2 magic items (10%).
 
 **Giant Death Watch:** Giant Death Watch beetles live in temperate areas and sometimes underground. They disguise themselves by sticking rubbish, branches and
 
@@ -403,25 +403,25 @@ When attacked it has a 50% chance to release an 8 ft cube of noxious gas. The ga
 
 detritus to their carapaces with their saliva. They are feared for making terrible, deadly bass vibrations by scraping their hind legs—when a beetle does this, all within 30 ft of the creature must save vs death or die. Even those who pass their save take 4d6 hp damage. After using this special attack, the Death Watch beetle must wait at least 12 turns before using it again.
 
-*Treasure:* None
+***Treasure:*** None
 
 **Giant Fire:** With their glowing red glands, one above each eye and one on the back of the abdomen, these nocturnal beetles are much sought after by adventurers. The glands will continue to glow for 1d6 days after removal, illuminating a 10 ft radius without fail.
 
 Fire beetles can be found both above and below ground, feeding on decaying matter like all beetles.
 
-*Treasure:* None
+***Treasure:*** None
 
 **Giant Rhinoceros:** Usually encountered in the tropics, these massive creatures (roughly 12 ft long, plus another 6 ft of horn) live on the fruit and vegetation they crush as they roam about.
 
-*Treasure:* None
+***Treasure:*** None
 
 **Giant Stag:** Giant stag beetles live in woodlands near farmland, preferring for food the young shoots of cultivated grains. For this reason, they can often plague regions and even cause famine should enough of them descend upon an area.
 
-*Treasure:* None
+***Treasure:*** None
 
-**Giant Water:** Hunting by scent an vibration, and dwelling in fresh water at least 30 ft deep, the water beetle is a powerful threat to the unwary adventurer. Omnivorous and insatiable, the water beetle will consume whatever it can get its powerful mandibles around.
+**Giant Water:** Hunting by scent an vibration,<!-- printed as-is: see errata E203 --> and dwelling in fresh water at least 30 ft deep, the water beetle is a powerful threat to the unwary adventurer. Omnivorous and insatiable, the water beetle will consume whatever it can get its powerful mandibles around.
 
-*Treasure:* None
+***Treasure:*** None
 
 ### Behir
 
@@ -441,9 +441,9 @@ Fire beetles can be found both above and below ground, feeding on decaying matte
 - **Alignment:** Neutral evil
 - **Level/XP:** 7/2,750 + 16/hp
 
-A behir is a particularly nasty subterranean beast with a crocodile's head on a 40 ft long snake-like body with twelve sets of legs. These creatures move very fast and can climb vertically at half their speed. Their main method of attacking is to bite and wrap their body around their prey and squeeze. On the second round they can still bite but the held victim is now subject to 6 claw attacks. Every 10 rounds a behir can also breathe a 20 ft lightning bolt that does 4d6+24 damage unless a save vs breath is made for half damage. Occasionally (on a 20) a behir will swallow its victim whole.
+A behir is a particularly nasty subterranean beast with a crocodile’s head on a 40 ft long snake-like body with twelve sets of legs. These creatures move very fast and can climb vertically at half their speed. Their main method of attacking is to bite and wrap their body around their prey and squeeze. On the second round they can still bite but the held victim is now subject to 6 claw attacks. Every 10 rounds a behir can also breathe a 20 ft lightning bolt that does 4d6+24 damage unless a save vs breath is made for half damage. Occasionally (on a 20) a behir will swallow its victim whole.
 
-*Treasure:* Inside the beast's stomach will be 10d4 gems (60%), 1d8 jewellery (30%), and a misc. magic item that can survive its digestive juices (10%).
+***Treasure:*** Inside the beast’s stomach will be 10d4 gems (60%), 1d8 jewellery (30%), and a misc. magic item that can survive its digestive juices (10%).
 
 ### Blindheim
 
@@ -465,9 +465,9 @@ A behir is a particularly nasty subterranean beast with a crocodile's head on a 
 
 Blindheims are found in subterranean environments. These yellowish, frog-like humanoids project twin beams of incredibly bright light from their eyes. Anyone who comes within 30 ft of the Blindheim must save vs aimed magic items or be temporarily blinded (for 1d8+12 turns). The saving throw is at -3 if the approaching character has infravision.
 
-A character who is not blinded may attack the Blindheim at a penalty of -2 "to hit" (if he or she is avoiding looking at the creature) or as normal (if he or she is for some reason immune to bright light).
+A character who is not blinded may attack the Blindheim at a penalty of -2 “to hit” (if he or she is avoiding looking at the creature) or as normal (if he or she is for some reason immune to bright light).
 
-*Treasure:* In lair only: 2d6×1,000 cp (20%), 1d6×1,000 sp (35%), 1d6×1,000 ep (20%), 1d4 gems (20%), 1d4 jewellery (25%), random magic item or weapon (15%).
+***Treasure:*** In lair only: 2d6×1,000 cp (20%), 1d6×1,000 sp (35%), 1d6×1,000 ep (20%), 1d4 gems (20%), 1d4 jewellery (25%), random magic item or weapon (15%).
 
 ### Blink Dog
 
@@ -496,7 +496,7 @@ In combat these amazing dogs use the ability to their advantage, blinking either
 
 If a blink dog lair is found there is a 60% chance of 3d4 pups. These younglings fight as 1 HD monsters and inflict 1d2 points of damage per attack, though they are far more likely to flee using their teleportation ability. A captured pup will make a loyal companion to a good aligned human, or, it can be sold for 1,500 gp (± 100-600 gp). A blink dog lair will contain treasure, see below.
 
-*Treasure:* In lair only: 2d6×1,000 cp (20%), 1d6×1,000 sp (30%), 1d6×1,000 ep (15%), 1d6 gems (20%), 1d4 jewellery (25%), random magic item or weapon×2 (15%).
+***Treasure:*** In lair only: 2d6×1,000 cp (20%), 1d6×1,000 sp (30%), 1d6×1,000 ep (15%), 1d6 gems (20%), 1d4 jewellery (25%), random magic item or weapon×2 (15%).
 
 ### Bulette
 
@@ -516,13 +516,13 @@ If a blink dog lair is found there is a 60% chance of 3d4 pups. These younglings
 - **Alignment:** Neutral
 - **Level/XP:** 8/2,000+12/hp
 
-Bulettes are sometimes called "land sharks" because of their habit of burrowing while the crests of their backs break the surface. Like sharks, they are huge, vicious, and always hungry. They seem to be someone's experiment gone wrong: a turtle crossed with an armadillo with just a touch of demon thrown in. Their favourite food is horse but they will eat just about anything that moves. The only kind of meat they don't seem to like is dwarf or elf. They have been know to dig halflings right out of their holes. <!-- printed as-is: NEW -->
+Bulettes are sometimes called “land sharks” because of their habit of burrowing while the crests of their backs break the surface. Like sharks, they are huge, vicious, and always hungry. They seem to be someone’s experiment gone wrong: a turtle crossed with an armadillo with just a touch of demon thrown in. Their favourite food is horse but they will eat just about anything that moves. The only kind of meat they don’t seem to like is dwarf or elf. They have been know to dig halflings right out of their holes. <!-- printed as-is: see errata E204 -->
 
-Being fearless, a bulette will attack anything that moves on sight. They have been known to attack a well-armed party to get at the horses. When they attack, they use their vicious bite and their two front claws. They are well armoured, but have two vulnerable spots: under their chests is a soft spot, only AC 6; and a bulette's eyes are relatively unprotected, with an AC of 4. When cornered or seriously wounded, a bulette will attempt to leap 8 ft vertically and land directly on top of their victim, clawing with all four feet.
+Being fearless, a bulette will attack anything that moves on sight. They have been known to attack a well-armed party to get at the horses. When they attack, they use their vicious bite and their two front claws. They are well armoured, but have two vulnerable spots: under their chests is a soft spot, only AC 6; and a bulette’s eyes are relatively unprotected, with an AC of 4. When cornered or seriously wounded, a bulette will attempt to leap 8 ft vertically and land directly on top of their victim, clawing with all four feet.
 
 Because they are artificially-created animals no one is sure how bulettes reproduce. It seems that a pair will share a territory, but no lair has ever been found. Their plates are highly prized by armourers. They can be easily fashioned into +1 or +2 shields.
 
-*Treasure:* None.
+***Treasure:*** None.
 
 ### Carbuncle
 
@@ -542,11 +542,11 @@ Because they are artificially-created animals no one is sure how bulettes reprod
 - **Alignment:** Chaotic neutral
 - **Level/XP:** 1/5+1/hp
 
-Carbuncles are minor agents of chaos. They seem to be curious little animals like armadillos, and they feed on leaves and small insects. Set in the carbuncle's head above its eyes is a large ruby (randomly-determined value of at least 500 gp). If the beast dies, any ruby attached to it shatters and cannot be reconstituted—but it can voluntarily give up its gem, in which case the gem will re-grow over a period of several months (re-roll the gem's value each time it re-grows). The carbuncle will not normally give up its gem unless *charmed* or otherwise enchanted.
+Carbuncles are minor agents of chaos. They seem to be curious little animals like armadillos, and they feed on leaves and small insects. Set in the carbuncle’s head above its eyes is a large ruby (randomly-determined value of at least 500 gp). If the beast dies, any ruby attached to it shatters and cannot be reconstituted—but it can voluntarily give up its gem, in which case the gem will re-grow over a period of several months (re-roll the gem’s value each time it re-grows). The carbuncle will not normally give up its gem unless *charmed* or otherwise enchanted.
 
-Carbuncles are empathic and communicate via a minor form of *telepathy*. They will approach and seek to join a party of humans or demi-humans and then try to spread discord by means of lies, bearing false witness, or betraying the party's presence to nearby monsters.
+Carbuncles are empathic and communicate via a minor form of *telepathy*. They will approach and seek to join a party of humans or demi-humans and then try to spread discord by means of lies, bearing false witness, or betraying the party’s presence to nearby monsters.
 
-*Treasure:* See creature text.
+***Treasure:*** See creature te×t.
 
 <!-- p.276 -->
 
@@ -572,7 +572,7 @@ A fearsome, subterranean omnivore, the carcass creeper has been described as the
 
 The well-armoured head belies a tender, vulnerable body so the creeper will rely on its speed and many paralysing tentacles to protect itself as it secures prey. Each of the tentacles has a 2 ft reach, although larger specimens are not unknown.
 
-*Treasure:* In Lair: 1d8×1,000 cp (50%); 1d6×1,000 sp (25%); 1d4×1,000 ep (25%); 1d3×1,000 gp (25%); 1d8 gems (30%); 1d4 jewellery (20%); 1 sword, armour, or misc. weapon (20%).
+***Treasure:*** In Lair: 1d8×1,000 cp (50%); 1d6×1,000 sp (25%); 1d4×1,000 ep (25%); 1d3×1,000 gp (25%); 1d8 gems (30%); 1d4 jewellery (20%); 1 sword, armour, or misc. weapon (20%).
 
 ### Caryatid Column
 
@@ -592,11 +592,11 @@ The well-armoured head belies a tender, vulnerable body so the creeper will rely
 - **Alignment:** Neutral
 - **Level/XP:** 5/110 + 3/hp
 
-Caryatid columns share many similarities to stone golems, being created in much the same way. They appear as intricately-carved columns in the shape of a person, usually in pairs. The most common type is maidens, however they can resemble practically anyone. In their dormant state they are almost indistinguishable from a normal statue. The only indication of their true nature is a faint outline of sword held in one hand. They are created as guardians and will animate only when triggered by a certain event. Their trigger must be something simple like someone entering a room, lifting a chest, or opening a door. Once animated they will do their utmost to prevent the trigger from continuing. When their task is complete they will return to their previous place and form.
+Caryatid columns share many similarities to stone golems, being created in much the same way. They appear as intricately-carved columns in the shape of a person, usually in pairs. The most common type is maidens, however they can resemble practically anyone. In their dormant state they are almost indistinguishable from a normal statue. The only indication of their true nature is a faint outline of sword held in one hand.<!-- printed as-is: see errata E205 --> They are created as guardians and will animate only when triggered by a certain event. Their trigger must be something simple like someone entering a room, lifting a chest, or opening a door. Once animated they will do their utmost to prevent the trigger from continuing. When their task is complete they will return to their previous place and form.
 
-The caryatid column's main purpose is not combat, but if pressed they will use their swords and attack. They attack as 5HD monsters. Normal weapons do half damage and magical weapons score full damage, but without their additional magical effects. Additionally any weapon that hits a caryatid column has a 25% chance of breaking. For each plus that the weapon has reduces the chance of breaking by 5%; consider any magical weapons without any pluses as a +1.
+The caryatid column’s main purpose is not combat, but if pressed they will use their swords and attack. They attack as 5HD monsters. Normal weapons do half damage and magical weapons score full damage, but without their additional magical effects. Additionally any weapon that hits a caryatid column has a 25% chance of breaking. For each plus that the weapon has reduces the chance of breaking by 5%;<!-- printed as-is: see errata E206 --> consider any magical weapons without any pluses as a +1.
 
-*Treasure:* None.
+***Treasure:*** None.
 
 ### Caterwaul
 
@@ -633,10 +633,10 @@ When they pounce on their victims they make their distinctive screech, doing 1d8
 
 <!-- p.277 -->
 
-The AC bonus applies to the creature's armour class and its dodging saving throws.
+The AC bonus applies to the creature’s armour class and its dodging saving throws.
 
 The attacks per round works much the same way as for fighters, referring to a full attack routine (claw, claw, bite) rather than individual attacks.
 
 Caterwauls are attracted to shiny items. Thus their treasure hoard will often contain jewellery, gems and gold.
 
-*Treasure:* 1d6×1,000 gp (50%), 1d8 gems (40%), 5d6 jewellery (40%), 2d4 potions + 1 magic item (40%)
+***Treasure:*** 1d6×1,000 gp (50%), 1d8 gems (40%), 5d6 jewellery (40%), 2d4 potions + 1 magic item (40%)

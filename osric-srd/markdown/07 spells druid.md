@@ -13,13 +13,13 @@ Druidic spells draw upon the divine power of nature, and operate according to si
 
 *Druidic Enchantment/ Charm*
 
-**Level:** Druid 1
-**Range:** 10 ft
-**Duration:** Permanent
-**Area of Effect:** One normal animal
-**Components:** V,S,M
-**Casting Time:** 6 turns
-**Saving Throw:** Negates
+- **Level:** Druid 1
+- **Range:** 10 ft
+- **Duration:** Permanent
+- **Area of Effect:** One normal animal
+- **Components:** V,S,M
+- **Casting Time:** 6 turns
+- **Saving Throw:** Negates
 
 The *animal friendship* spell enchants a normal animal of neutral alignment to become the druid’s faithful friend and companion. The animal to be enchanted must not be completely unintelligent but cannot be of greater than animal intelligence. If the animal fails its saving throw (made at the beginning of the spell’s casting), it will remain docile for the remainder of the casting time. Once the spell is complete, the animal will remain with the druid and can learn tricks similar to those that could be taught to a well-trained domestic pet. Each trick takes a week to learn, and after the animal has been with the druid for three months it will no longer be able to learn new tricks. During this period, if the animal is left alone by the druid for more than three days, the enchantment will be broken and the animal will revert to the wild. A druid may only have animal friends with hit dice totalling twice his or her level. (The total hit dice can thus increase as the druid gains levels.)
 
@@ -27,13 +27,13 @@ The *animal friendship* spell enchants a normal animal of neutral alignment to b
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 5
-**Range:** 80 ft
-**Duration:** 2 rounds/ caster level
-**Area of Effect:** Up to 8 animals in a 10 ft radius
-**Components:** V,S,M
-**Casting Time:** 7 segments
-**Saving Throw:** None
+- **Level:** Druid 5
+- **Range:** 80 ft
+- **Duration:** 2 rounds/ caster level
+- **Area of Effect:** Up to 8 animals in a 10 ft radius
+- **Components:** V,S,M
+- **Casting Time:** 7 segments
+- **Saving Throw:** None
 
 This spell causes up to 8 animals in the area of effect to grow to twice normal size, doubling their hit dice and the damage they inflict. The spell does not influence the animals’ attitude toward the druid, so it is advisable to ensure ahead of time that they are friendly. The reverse of the spell halves their size and damage inflicted.
 
@@ -41,13 +41,13 @@ This spell causes up to 8 animals in the area of effect to grow to twice normal 
 
 *Druidic Conjuration/ Summoning*
 
-**Level:** Druid 4
-**Range:** 120 ft/ level
-**Duration:** See below
-**Area of Effect:** See below
-**Components:** V,S,M
-**Casting Time:** 6 segments
-**Saving Throw:** None
+- **Level:** Druid 4
+- **Range:** 120 ft/ level
+- **Duration:** See below
+- **Area of Effect:** See below
+- **Components:** V,S,M
+- **Casting Time:** 6 segments
+- **Saving Throw:** None
 
 A druid may use this spell to summon normal or giant animals of a specified type. The animals must be within the spell’s range to be summoned. Up to three summoning attempts may be made if animals of the specified type do not appear. Assuming that the summoned type of animal is within the spell’s range, up to 8 animals will appear, of no more than 4 hit dice each. These animals will assist the druid with a specific mission: winning a battle, travelling to a specific location, etc.
 
@@ -55,13 +55,13 @@ A druid may use this spell to summon normal or giant animals of a specified type
 
 *Druidic Conjuration/ Summoning*
 
-**Level:** Druid 5
-**Range:** 180 ft/ caster level
-**Duration:** See below
-**Area of Effect:** See below
-**Components:** V,S,M
-**Casting Time:** 7 segments
-**Saving Throw:** None
+- **Level:** Druid 5
+- **Range:** 180 ft/ caster level
+- **Duration:** See below
+- **Area of Effect:** See below
+- **Components:** V,S,M
+- **Casting Time:** 7 segments
+- **Saving Throw:** None
 
 This spell is similar to *animal summoning I*, but is more powerful. The spell will summon a maximum of six animals, each no greater than 8 HD, or up to 12 animals, each no greater than 4 HD.
 
@@ -69,14 +69,14 @@ This spell is similar to *animal summoning I*, but is more powerful. The spell w
 
 *Druidic Conjuration/ Summoning*
 
-**Level:** Druid 6
-**Range:** 240 ft/ caster level
-**Duration:** See below
-**Area of Effect:** See below
+- **Level:** Druid 6
+- **Range:** 240 ft/ caster level
+- **Duration:** See below
+- **Area of Effect:** See below
 <!-- p.57 -->
-**Components:** V,S,M
-**Casting Time:** 8 segments
-**Saving Throw:** None
+- **Components:** V,S,M
+- **Casting Time:** 8 segments
+- **Saving Throw:** None
 
 This spell is similar to *animal summoning I*, but is more powerful. The spell will summon up to 4 animals of no more than 16 HD each, or 16 animals of no more than 4 HD each.
 
@@ -84,13 +84,13 @@ This spell is similar to *animal summoning I*, but is more powerful. The spell w
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 7
-**Range:** 40 ft
-**Duration:** 1 round/ caster level
-**Area of Effect:** 2 ft cube/ caster level
-**Components:** V,S,M
-**Casting Time:** 9 segments
-**Saving Throw:** None
+- **Level:** Druid 7
+- **Range:** 40 ft
+- **Duration:** 1 round/ caster level
+- **Area of Effect:** 2 ft cube/ caster level
+- **Components:** V,S,M
+- **Casting Time:** 9 segments
+- **Saving Throw:** None
 
 This spell allows the druid to animate and command a stone object in the same way that a cleric commands an animated object with the *animate object* spell. The object to be animated cannot be part of a larger stone structure.
 
@@ -98,13 +98,13 @@ This spell allows the druid to animate and command a stone object in the same wa
 
 *Druidic Abjuration*
 
-**Level:** Druid 6
-**Range:** 0
-**Duration:** 1 turn/ caster level
-**Area of Effect:** 10 ft radius sphere (or hemisphere)
-**Components:** V,S,M
-**Casting Time:** 1 round
-**Saving Throw:** None
+- **Level:** Druid 6
+- **Range:** 0
+- **Duration:** 1 turn/ caster level
+- **Area of Effect:** 10 ft radius sphere (or hemisphere)
+- **Components:** V,S,M
+- **Casting Time:** 1 round
+- **Saving Throw:** None
 
 This spell creates an immobile field of force that hedges out all animal matter. Note that undead and beings not of the material plane are not considered animal matter. The druid’s allies must, of course, be within the field at the time it is conjured forth, for they themselves are presumably of animal matter.
 
@@ -112,13 +112,13 @@ This spell creates an immobile field of force that hedges out all animal matter.
 
 *Druidic Abjuration*
 
-**Level:** Druid 5
-**Range:** 0
-**Duration:** 1 turn/ caster level
-**Area of Effect:** 80 ft radius sphere (or hemisphere)
-**Components:** V,S,M
-**Casting Time:** 7 segments
-**Saving Throw:** None
+- **Level:** Druid 5
+- **Range:** 0
+- **Duration:** 1 turn/ caster level
+- **Area of Effect:** 80 ft radius sphere (or hemisphere)
+- **Components:** V,S,M
+- **Casting Time:** 7 segments
+- **Saving Throw:** None
 
 When the druid finishes casting this spell, an invisible barrier forms in an 80 ft radius around the caster and is immobile thereafter. No vegetable matter (including missiles formed of vegetable matter, such as wooden arrows) can penetrate the barrier.
 
@@ -126,13 +126,13 @@ When the druid finishes casting this spell, an invisible barrier forms in an 80 
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 2
-**Range:** Touch
-**Duration:** 4 rounds + 1 round/ caster level
-**Area of Effect:** Creature touched
-**Components:** V,S,M
-**Casting Time:** 3 segments
-**Saving Throw:** None
+- **Level:** Druid 2
+- **Range:** Touch
+- **Duration:** 4 rounds + 1 round/ caster level
+- **Area of Effect:** Creature touched
+- **Components:** V,S,M
+- **Casting Time:** 3 segments
+- **Saving Throw:** None
 
 The *barkskin* spell magically toughens a creature’s skin, making it as strong as tree bark. The recipient of the spell improves his or her armour class by one point and also gains a +1 bonus on all saving throws, with the exception of saving throws against Spells (unlisted categories).
 
@@ -140,13 +140,13 @@ The *barkskin* spell magically toughens a creature’s skin, making it as strong
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 3
-**Range:** 0
-**Duration:** 1 turn/ caster level
-**Area of Effect:** 360 ft radius
-**Components:** V,S,M
-**Casting Time:** 1 turn
-**Saving Throw:** Half
+- **Level:** Druid 3
+- **Range:** 0
+- **Duration:** 1 turn/ caster level
+- **Area of Effect:** 360 ft radius
+- **Components:** V,S,M
+- **Casting Time:** 1 turn
+- **Saving Throw:** Half
 
 Provided that there is already significant cloud cover in the area, the druid may use this spell to call down a shattering barrage of lightning bolts from the sky to the ground. One bolt may be called every turn (10 minutes). The bolts inflict 2d8 points of damage, plus another d8 per level of the caster. Any creature within 10 ft of a bolt’s impact (or along its downward path) will sustain damage. The spell may only be cast outdoors.
 
@@ -154,13 +154,13 @@ Provided that there is already significant cloud cover in the area, the druid ma
 
 *Druidic Conjuration/ Summoning*
 
-**Level:** Druid 4
-**Range:** 360 ft + 30 ft/ caster level
-**Duration:** See below
-**Area of Effect:** See below
-**Components:** V,S,M
-**Casting Time:** See below
-**Saving Throw:** Negates
+- **Level:** Druid 4
+- **Range:** 360 ft + 30 ft/ caster level
+- **Duration:** See below
+- **Area of Effect:** See below
+- **Components:** V,S,M
+- **Casting Time:** See below
+- **Saving Throw:** Negates
 
 This summoning calls certain woodland creatures to aid the druid, provided that they are nearby. The druid casts the spell by means of a sonorous chant, which he or she must continue for 2 turns or until the summoned creatures appear. The GM will determine if creatures that will respond to such a call are in the area. The creatures are entitled to a saving throw vs Spells (unlisted categories) at a penalty of –4. If the creatures fail the saving throw and are summoned to the druid’s aid, they will provide whatever aid they are capable of, although their willingness to engage in combat is subject to their overall reactions to the druid him- or herself.
 
@@ -178,13 +178,13 @@ Unicorn 1
 
 *Druidic Evocation*
 
-**Level:** Druid 7
-**Range:** 10 ft
-**Duration:** 6 turns + 1 turn/ caster level
-**Area of Effect:** See below
-**Components:** V,S,M
-**Casting Time:** 1 turn
-**Saving Throw:** None
+- **Level:** Druid 7
+- **Range:** 10 ft
+- **Duration:** 6 turns + 1 turn/ caster level
+- **Area of Effect:** See below
+- **Components:** V,S,M
+- **Casting Time:** 1 turn
+- **Saving Throw:** None
 
 A chariot of fire, drawn by two flaming steeds, appears with an echoing thunderclap when the druid completes the final words of this spell. The druid may, by touch, make up to 8 of his or her companions immune to the furnace-like conveyance; anyone else within five ft of the horses or the chariot will sustain 2d4 hp of damage per round. The chariot can travel over land at a speed of 240 ft/ round and can fly at a speed of 480 ft/ round, obeying the caster’s shouted instructions. It is possible for the chariot and horses to sustain damage from magical weapons or from water (which does only 1 hp of damage). Chariot and horses each have 30 hp and are AC 2; if a single horse is dispelled by taking physical damage, the chariot’s speed will be halved. The chariot prevents normal fire from affecting its passengers, but they may take damage from magical fire attacks. The chariot and horses are themselves immune to all fire, magical or otherwise.
 
@@ -192,13 +192,13 @@ A chariot of fire, drawn by two flaming steeds, appears with an echoing thunderc
 
 *Druidic Enchantment/ Charm*
 
-**Level:** Druid 2
-**Range:** 80 ft
-**Duration:** See below
-**Area of Effect:** One person or mammal
-**Components:** V,S
-**Casting Time:** 4 segments
-**Saving Throw:** Negates
+- **Level:** Druid 2
+- **Range:** 80 ft
+- **Duration:** See below
+- **Area of Effect:** One person or mammal
+- **Components:** V,S
+- **Casting Time:** 4 segments
+- **Saving Throw:** Negates
 
 The powerful enchantment woven by this spell will affect any “person,” meaning character races (with the exception of elves) and other small to medium-sized bipeds analogous to persons (orcs, goblins, etc.). The spell also affects mammalian animals of any kind, even those that are supernatural, giant, or monstrous. If the target creature fails a saving throw, it will view the druid as a trusted friend, interpreting his or her every word in its most positive light. Charmed creatures will place themselves into moderate danger, including combat, on the druid’s behalf, but will not undertake risks beyond those the creature might ordinarily take. The druid must be able to talk to the charmed creature if he or she is to make any sort of complex “request.” Charmed creatures are allowed periodic saving throws to break the charm, based on intelligence:
 
@@ -218,13 +218,13 @@ The charm will be broken automatically if the druid obviously tries to harm the 
 
 *Druidic Divination*
 
-**Level:** Druid 5
-**Range:** Caster
-**Duration:** See below
-**Area of Effect:** See below
-**Components:** V,S,M
-**Casting Time:** 1 turn
-**Saving Throw:** None
+- **Level:** Druid 5
+- **Range:** Caster
+- **Duration:** See below
+- **Area of Effect:** See below
+- **Components:** V,S,M
+- **Casting Time:** 1 turn
+- **Saving Throw:** None
 
 To cast this spell, the druid enters into a trance that brings him or her into a state of oneness with the natural surroundings.
 
@@ -234,13 +234,13 @@ He or she gains knowledge of the area, learning one fact for each of his or her 
 
 *Druidic Enchantment/ Charm*
 
-**Level:** Druid 7
-**Range:** 80 ft
-**Duration:** 1 round/ level
-**Area of Effect:** Up to a 20 ft radius
-**Components:** V,S,M
-**Casting Time:** 9 segments
-**Saving Throw:** See below
+- **Level:** Druid 7
+- **Range:** 80 ft
+- **Duration:** 1 round/ level
+- **Area of Effect:** Up to a 20 ft radius
+- **Components:** V,S,M
+- **Casting Time:** 9 segments
+- **Saving Throw:** See below
 
 This spell causes creatures to behave strangely and unpredictably. A certain number of creatures in the spell’s area of effect must make a saving throw each round in order to avoid becoming confused. The base number of creatures is 2d4, but additional creatures may be affected; if the druid’s caster level is higher than the HD of the strongest opponent, the difference is the number of additional creatures that must make saving throws. This spell is extremely powerful; all saving throws are made with a penalty of –2. Creatures that fail their saving throws (check each round) act randomly in accordance with the following table:
 
@@ -260,13 +260,13 @@ This spell causes creatures to behave strangely and unpredictably. A certain num
 
 *Druidic Conjuration/ Summoning*
 
-**Level:** Druid 7
-**Range:** 40 ft
-**Duration:** 1 turn/ level
-**Area of Effect:** See below
-**Components:** V,S,M
-**Casting Time:** 1 turn
-**Saving Throw:** None
+- **Level:** Druid 7
+- **Range:** 40 ft
+- **Duration:** 1 turn/ level
+- **Area of Effect:** See below
+- **Components:** V,S,M
+- **Casting Time:** 1 turn
+- **Saving Throw:** None
 
 By means of this spell, the druid summons a 16 HD elemental from the plane of earth. The spell is otherwise identical to the druidic spell *conjure fire elemental*, but there is no chance to summon a more powerful elemental, as exists when a druid summons fire elementals. As with conjuring fire elementals, the earth elemental will be the druid’s ally by its own will; the druid requires no magical wards against it and need not concentrate upon it after the summoning is complete.
 
@@ -274,13 +274,13 @@ By means of this spell, the druid summons a 16 HD elemental from the plane of ea
 
 *Druidic Conjuration/ Summoning*
 
-**Level:** Druid 6
-**Range:** 80 ft
-**Duration:** 1 turn/ caster level
-**Area of Effect:** See below
-**Components:** V,S,M
-**Casting Time:** 6 rounds
-**Saving Throw:** None
+- **Level:** Druid 6
+- **Range:** 80 ft
+- **Duration:** 1 turn/ caster level
+- **Area of Effect:** See below
+- **Components:** V,S,M
+- **Casting Time:** 6 rounds
+- **Saving Throw:** None
 
 It is within the power of a high-level druid to summon forth an elemental being from the plane of fire. The elemental will ordinarily be of 16 HD, but there is a 5% chance that it will be of 24 HD and a 1% chance that an afreet, rather than an elemental, will appear. The elemental will act as the druid’s ally, remaining for the spell’s duration to assist him or her however possible, including engaging in combat with his or her enemies. Druids need no protective circle to summon fire elementals and need not concentrate upon the elemental in any way.
 
@@ -288,13 +288,13 @@ It is within the power of a high-level druid to summon forth an elemental being 
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 4
-**Range:** Caster
-**Duration:** 4 turns + 1 turn/ caster level
-**Area of Effect:** 10 ft radius
-**Components:** V,S,M
-**Casting Time:** 6 segments
-**Saving Throw:** None
+- **Level:** Druid 4
+- **Range:** Caster
+- **Duration:** 4 turns + 1 turn/ caster level
+- **Area of Effect:** 10 ft radius
+- **Components:** V,S,M
+- **Casting Time:** 6 segments
+- **Saving Throw:** None
 
 By casting this spell, the druid magically controls the temperature of his or her immediate surroundings, to a radius of 10 ft. The temperature may be raised or lowered by 9° Fahrenheit (4° Celsius) per caster level.
 
@@ -302,13 +302,13 @@ By casting this spell, the druid magically controls the temperature of his or he
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 7
-**Range:** 0
-**Duration:** 8d12 hours
-**Area of Effect:** 4d8 square miles
-**Components:** V,S,M
-**Casting Time:** 1 turn
-**Saving Throw:** None
+- **Level:** Druid 7
+- **Range:** 0
+- **Duration:** 8d12 hours
+- **Area of Effect:** 4d8 square miles
+- **Components:** V,S,M
+- **Casting Time:** 1 turn
+- **Saving Throw:** None
 
 The *control weather* spell brings about a rapid change in the weather of several square miles surrounding the point where the spell is cast. It requires no more than 10-40 minutes for the spell to take its full effect across the vast area it covers.
 
@@ -320,13 +320,13 @@ The spell affects precipitation, temperature, and wind speed. Existing weather c
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 5
-**Range:** Caster
-**Duration:** 1 turn/ caster level (see below)
-**Area of Effect:** 40 ft radius/ caster level
-**Components:** V,S,M
-**Casting Time:** 7 segments
-**Saving Throw:** None
+- **Level:** Druid 5
+- **Range:** Caster
+- **Duration:** 1 turn/ caster level (see below)
+- **Area of Effect:** 40 ft radius/ caster level
+- **Components:** V,S,M
+- **Casting Time:** 7 segments
+- **Saving Throw:** None
 
 By the power of this spell, the druid can increase or decrease the force of the winds. For every caster level, the druid may change the speed of the wind by 3 miles per hour. An eye of calm with a radius of 40 ft remains around the druid and travels with him or her. The wind force increases (or decreases) at a rate of 3 miles per hour every round until the end of the spell’s duration, at which time it will return to normal, also at a rate of 3 miles per hour per turn.
 
@@ -336,13 +336,13 @@ Winds can be extremely destructive; ships are at great risk of sinking if wind s
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 2
-**Range:** 10 ft
-**Duration:** Instantaneous (permanent)
-**Area of Effect:** Up to 1 cubic ft/ caster level
-**Components:** V,S
-**Casting Time:** 1 turn
-**Saving Throw:** None
+- **Level:** Druid 2
+- **Range:** 10 ft
+- **Duration:** Instantaneous (permanent)
+- **Area of Effect:** Up to 1 cubic ft/ caster level
+- **Components:** V,S
+- **Casting Time:** 1 turn
+- **Saving Throw:** None
 
 Other than as described above, this spell is similar to the clerical spell *create water*. Note that the druidic spell has no reverse version; the druid may create, but not destroy, water.
 
@@ -350,13 +350,13 @@ Other than as described above, this spell is similar to the clerical spell *crea
 
 *Druidic Conjuration/Summoning*
 
-**Level:** Druid 7
-**Range:** 0
-**Duration:** 4 rounds/ level
-**Area of Effect:** See below
-**Components:** V,S,M
-**Casting Time:** 9 segments
-**Saving Throw:** None
+- **Level:** Druid 7
+- **Range:** 0
+- **Duration:** 4 rounds/ level
+- **Area of Effect:** See below
+- **Components:** V,S,M
+- **Casting Time:** 9 segments
+- **Saving Throw:** None
 
 The terrifying *creeping doom* spell causes a massive swarm of insects, spiders, and centipedes to boil forth from the ground in front of the caster, marching in whatever direction he or she orders, destroying and killing all that stands in their way. The swarm is composed of (1d6+4) ×100 non-flying vermin, each of which inflicts 1 hp damage against an opponent before dying. Only as many insects as are needed to kill an opponent will die, and once the target is dead the swarm will move on. If the druid allows the swarm to get more than 80 ft away from his or her person, 50 insects for every 10 ft beyond this range will depart the swarm. The druid can order the swarm to attack specific targets and/ or to change direction. Although the spell can be devastating (potentially causing as much as 1,000 hp of damage in total), many means can be used to counter it—the most obvious being a *fireball* or other area-of-effect damage spell.
 
@@ -364,13 +364,13 @@ The terrifying *creeping doom* spell causes a massive swarm of insects, spiders,
 
 *Druidic Necromancy*
 
-**Level:** Druid 3
-**Range:** Touch
-**Duration:** Instantaneous (permanent)
-**Area of Effect:** Creature touched
-**Components:** V,S,M
-**Casting Time:** 1 round
-**Saving Throw:** None (neg.)
+- **Level:** Druid 3
+- **Range:** Touch
+- **Duration:** Instantaneous (permanent)
+- **Area of Effect:** Creature touched
+- **Components:** V,S,M
+- **Casting Time:** 1 round
+- **Saving Throw:** None (neg.)
 
 This spell, with the exception of any distinctions noted above, is identical to the clerical spell *cure disease*.
 
@@ -378,13 +378,13 @@ This spell, with the exception of any distinctions noted above, is identical to 
 
 *Druidic Necromancy*
 
-**Level:** Druid 6
-**Range:** Touch
-**Duration:** Instantaneous (permanent)
-**Area of Effect:** One creature
-**Components:** V,S,M
-**Casting Time:** 8 segments
-**Saving Throw:** None (neg.)
+- **Level:** Druid 6
+- **Range:** Touch
+- **Duration:** Instantaneous (permanent)
+- **Area of Effect:** One creature
+- **Components:** V,S,M
+- **Casting Time:** 8 segments
+- **Saving Throw:** None (neg.)
 
 Except as may be noted above, this spell is identical to the clerical spell of the same name.
 
@@ -392,13 +392,13 @@ Except as may be noted above, this spell is identical to the clerical spell of t
 
 *Druidic Necromancy*
 
-**Level:** Druid 2
-**Range:** Touch
-**Duration:** Instantaneous (permanent)
-**Area of Effect:** Creature touched
-**Components:** V,S,M
-**Casting Time:** 4 segments
-**Saving Throw:** None (neg.)
+- **Level:** Druid 2
+- **Range:** Touch
+- **Duration:** Instantaneous (permanent)
+- **Area of Effect:** Creature touched
+- **Components:** V,S,M
+- **Casting Time:** 4 segments
+- **Saving Throw:** None (neg.)
 
 The druidic *cure light wounds* is, except as described above, identical to the clerical spell of the same name.
 
@@ -408,13 +408,13 @@ The druidic *cure light wounds* is, except as described above, identical to the 
 
 *Druidic Necromancy*
 
-**Level:** Druid 4
-**Range:** Touch
-**Duration:** Instantaneous (permanent)
-**Area of Effect:** Creature touched
-**Components:** V,S,M
-**Casting Time:** 6 segments
-**Saving Throw:** None (neg.)
+- **Level:** Druid 4
+- **Range:** Touch
+- **Duration:** Instantaneous (permanent)
+- **Area of Effect:** Creature touched
+- **Components:** V,S,M
+- **Casting Time:** 6 segments
+- **Saving Throw:** None (neg.)
 
 Except as may be noted above, this spell is identical to the clerical spell of the same name.
 
@@ -422,13 +422,13 @@ Except as may be noted above, this spell is identical to the clerical spell of t
 
 *Druidic Divination*
 
-**Level:** Druid 1
-**Range:** Caster
-**Duration:** 12 rounds
-**Area of Effect:** Path 10 ft wide, 40 ft long
-**Components:** V,S,M
-**Casting Time:** 3 segments
-**Saving Throw:** None
+- **Level:** Druid 1
+- **Range:** Caster
+- **Duration:** 12 rounds
+- **Area of Effect:** Path 10 ft wide, 40 ft long
+- **Components:** V,S,M
+- **Casting Time:** 3 segments
+- **Saving Throw:** None
 
 Other than as described above, this spell is identical to the first level clerical spell *detect magic*.
 
@@ -436,13 +436,13 @@ Other than as described above, this spell is identical to the first level cleric
 
 *Druidic Divination*
 
-**Level:** Druid 1
-**Range:** Caster
-**Duration:** 4 rounds/ level
-**Area of Effect:** Path 10 ft wide, 40 ft long
-**Components:** V,S,M
-**Casting Time:** 3 segments
-**Saving Throw:** None
+- **Level:** Druid 1
+- **Range:** Caster
+- **Duration:** 4 rounds/ level
+- **Area of Effect:** Path 10 ft wide, 40 ft long
+- **Components:** V,S,M
+- **Casting Time:** 3 segments
+- **Saving Throw:** None
 
 The druid may cast this spell upon herself, imbuing her eyes with divinatory power. The druid can instantly discern virtually any form of trap if outdoors, and even indoors or underground she will detect the presence of pits.
 
@@ -450,13 +450,13 @@ The druid may cast this spell upon herself, imbuing her eyes with divinatory pow
 
 *Druidic Abjuration*
 
-**Level:** Druid 4
-**Range:** 80 ft
-**Duration:** Instantaneous
-**Area of Effect:** 40 ft cube/ caster level
-**Components:** V,S,M
-**Casting Time:** 6 segments
-**Saving Throw:** None
+- **Level:** Druid 4
+- **Range:** 80 ft
+- **Duration:** Instantaneous
+- **Area of Effect:** 40 ft cube/ caster level
+- **Components:** V,S,M
+- **Casting Time:** 6 segments
+- **Saving Throw:** None
 
 This spell is identical in effect to the clerical spell of the same name, with any exceptions being noted above.
 
@@ -464,13 +464,13 @@ This spell is identical in effect to the clerical spell of the same name, with a
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 1
-**Range:** 80 ft
-**Duration:** 1 turn
-**Area of Effect:** 20 ft radius
-**Components:** V,S,M
-**Casting Time:** 3 segments
-**Saving Throw:** Half (see below)
+- **Level:** Druid 1
+- **Range:** 80 ft
+- **Duration:** 1 turn
+- **Area of Effect:** 20 ft radius
+- **Components:** V,S,M
+- **Casting Time:** 3 segments
+- **Saving Throw:** Half (see below)
 
 The druid casts this spell upon a particular spot, whereupon all plants in a 20 ft radius of the enchanted location immediately begin to writhe violently about, whipping around and entangling any creature in the area. Creatures threatened in this manner are entitled to a saving throw. If the saving throw succeeds, the creature’s movement rate is slowed to half normal; if the saving throw fails, the creature is so securely held in the plants that it cannot move, attack, or cast spells for the duration of the spell.
 
@@ -478,13 +478,13 @@ The druid casts this spell upon a particular spot, whereupon all plants in a 20 
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 1
-**Range:** 80 ft
-**Duration:** 4 rounds/ caster level
-**Area of Effect:** 1 size M or 2 size S creatures/ caster level
-**Components:** V
-**Casting Time:** 3 segments
-**Saving Throw:** None
+- **Level:** Druid 1
+- **Range:** 80 ft
+- **Duration:** 4 rounds/ caster level
+- **Area of Effect:** 1 size M or 2 size S creatures/ caster level
+- **Components:** V
+- **Casting Time:** 3 segments
+- **Saving Throw:** None
 
 The druid uses this spell to ignite a fiery-looking aura of bright light around his or her enemies. The aura is visible at a range of 80 ft if the observer stands in darkness, and at 40 ft if he or she stands near another light source. The light itself is harmless, but a creature limned with *faerie fire* is easier to hit; any attacks against it are made with a bonus of +2.
 
@@ -492,13 +492,13 @@ The druid uses this spell to ignite a fiery-looking aura of bright light around 
 
 *Druidic Enchantment/ Charm*
 
-**Level:** Druid 6
-**Range:** 40 ft
-**Duration:** Permanent
-**Area of Effect:** One creature
-**Components:** V,S
-**Casting Time:** 8 segments
-**Saving Throw:** Negates
+- **Level:** Druid 6
+- **Range:** 40 ft
+- **Duration:** Permanent
+- **Area of Effect:** One creature
+- **Components:** V,S
+- **Casting Time:** 8 segments
+- **Saving Throw:** Negates
 
 The insidious *feeblemind* spell affects only those who can cast spells, tracing and poisoning the mystical channels of their arcane power like a viral infection. The spell reduces a victim into a state of extreme mental retardation, which condition persists until the victim is magically restored by means of a *heal*, *wish*, or *restoration* spell. The different types of spell casting ability are not equally vulnerable to the *feeblemind* spell. Practitioners of clerical magic gain a bonus of +1 to saving throws; druids save at –1; magic users and illusionists save at –4. (Those who can use more than one type of magic must save using the average of their modifiers.)
 
@@ -508,13 +508,13 @@ The insidious *feeblemind* spell affects only those who can cast spells, tracing
 
 *Druidic Necromancy*
 
-**Level:** Druid 2
-**Range:** 10 ft
-**Duration:** 4 rounds + 2 rounds/ caster level
-**Area of Effect:** One creature
-**Components:** V,S,M
-**Casting Time:** 3 segments
-**Saving Throw:** None
+- **Level:** Druid 2
+- **Range:** 10 ft
+- **Duration:** 4 rounds + 2 rounds/ caster level
+- **Area of Effect:** One creature
+- **Components:** V,S,M
+- **Casting Time:** 3 segments
+- **Saving Throw:** None
 
 With the exception of any distinctions detailed above, this spell is identical to the magic user’s (not the clerical) spell of the same name.
 
@@ -522,13 +522,13 @@ With the exception of any distinctions detailed above, this spell is identical t
 
 *Druidic Enchantment/ Charm*
 
-**Level:** Druid 7
-**Range:** 60 ft
-**Duration:** Instantaneous
-**Area of Effect:** One creature
-**Components:** V,S,M
-**Casting Time:** 5 segments
-**Saving Throw:** Negates
+- **Level:** Druid 7
+- **Range:** 60 ft
+- **Duration:** Instantaneous
+- **Area of Effect:** One creature
+- **Components:** V,S,M
+- **Casting Time:** 5 segments
+- **Saving Throw:** Negates
 
 The casting of this spell culminates when the druid points a finger at his or her chosen victim. If the target fails a saving throw, it dies.
 
@@ -536,13 +536,13 @@ The casting of this spell culminates when the druid points a finger at his or he
 
 *Druidic Conjuration*
 
-**Level:** Druid 6
-**Range:** 40 ft (see below)
-**Duration:** 1 turn/ caster level
-**Area of Effect:** See below
-**Components:** V,S,M
-**Casting Time:** 1 round/ seed
-**Saving Throw:** Half
+- **Level:** Druid 6
+- **Range:** 40 ft (see below)
+- **Duration:** 1 turn/ caster level
+- **Area of Effect:** See below
+- **Components:** V,S,M
+- **Casting Time:** 1 round/ seed
+- **Saving Throw:** Half
 
 By casting this spell upon a group of seeds, either acorns or holly berries, the druid imbues them with the potential to erupt in a violent explosion of magical fire. Transformed acorns may be used as missiles, and transformed holly berries as delayed-action bombs. The spell allows the druid to create four acorn fire seeds or eight holly berry fire seeds, or a proportionate combination such as two acorns and four holly berries. Acorns may be thrown at a range of up to 40 ft and cause 2d8 points of damage in a radius of 5 ft, igniting any combustibles that fail item saving throws. If an acorn strikes its target with a successful to-hit roll, the target is not entitled to a saving throw. Even if the attack misses, the target may be caught in the blast area (and would be entitled to a saving throw for half damage, as any other creature within the blast area). The holly berries may be thrown no more than 6 ft, or may be left in place to ignite upon a command word. (The range of the command word is 40 ft.) Holly berries create an explosion in an area of 5 × 5 ft, inflicting 1d8 points of damage and causing combustible items to make saving throws against magical fire or burn. As with the acorn seeds, a successful saving throw against the explosion of a holly berry fire seed reduces the damage inflicted by one-half.
 
@@ -550,13 +550,13 @@ By casting this spell upon a group of seeds, either acorns or holly berries, the
 
 *Druidic Evocation*
 
-**Level:** Druid 7
-**Range:** 150 ft
-**Duration:** 1 round
-**Area of effect:** 20 × 20 × 20 ft area per caster level
-**Components:** V, S, M
-**Casting Time:** 9 segments
-**Saving Throw:** Half
+- **Level:** Druid 7
+- **Range:** 150 ft
+- **Duration:** 1 round
+- **Area of effect:** 20 × 20 × 20 ft area per caster level  <!-- printed as-is: see errata E393 -->
+- **Components:** V, S, M
+- **Casting Time:** 9 segments
+- **Saving Throw:** Half
 
 The fire storm invocation is a modified and enlarged version of wall of fire. It lasts for only a single round, and does only half the damage of a wall of fire (i.e. 2d8 damage), but the huge area of effect makes it devastating.
 
@@ -566,13 +566,13 @@ The spell’s reverse extinguishes all normal fire in the area of effect, or wil
 
 *Druidic Evocation*
 
-**Level:** Druid 2
-**Range:** Touch
-**Duration:** Permanent until tripped
-**Area of Effect:** One object
-**Components:** V,S,M
-**Casting Time:** 1 turn
-**Saving Throw:** Half
+- **Level:** Druid 2
+- **Range:** Touch
+- **Duration:** Permanent until tripped
+- **Area of Effect:** One object
+- **Components:** V,S,M
+- **Casting Time:** 1 turn
+- **Saving Throw:** Half
 
 With the exception of any distinctions detailed above, this spell is identical to the magic user spell of the same name.
 
@@ -580,13 +580,13 @@ With the exception of any distinctions detailed above, this spell is identical t
 
 Druidic Illusion/ Phantasm <!-- printed as-is: see errata E51 -->
 
-**Level:** Druid 4
-**Range:** 80 ft
-**Duration:** Permanent
-**Area of Effect:** 40 ft square/ caster level
-**Components:** V,S,M
-**Casting Time:** 6 segments
-**Saving Throw:** None
+- **Level:** Druid 4
+- **Range:** 80 ft
+- **Duration:** Permanent
+- **Area of Effect:** 40 ft square/ caster level
+- **Components:** V,S,M
+- **Casting Time:** 6 segments
+- **Saving Throw:** None
 
 By casting this spell, the druid creates the illusion of a forest in the spell’s area of effect. Woodland fey and other druids will immediately discern the forest’s illusory nature, but even normal animals will be fooled by the forest’s appearance. The illusion is not tactile, only visual, so it is likely that intelligent beings entering the forest will quickly realize they are walking in an illusion. However, the mere realization that the forest is not real does not dispel the illusion, and it will continue to limit vision and possibly create other inconveniences; horses, for example, will not walk a straight path through the illusion, circling around the “trees” they perceive as real.
 
@@ -596,13 +596,13 @@ By casting this spell, the druid creates the illusion of a forest in the spell�
 
 *Druidic Necromancy*
 
-**Level:** Druid 2
-**Range:** 40 ft
-**Duration:** 7 rounds
-**Area of Effect:** All metal worn by 1 size M creature per caster level, or 50 lbs weight/ caster level, as applicable
-**Components:** V,S,M
-**Casting Time:** 4 segments
-**Saving Throw:** None
+- **Level:** Druid 2
+- **Range:** 40 ft
+- **Duration:** 7 rounds
+- **Area of Effect:** All metal worn by 1 size M creature per caster level, or 50 lbs weight/ caster level, as applicable
+- **Components:** V,S,M
+- **Casting Time:** 4 segments
+- **Saving Throw:** None
 
 This extremely powerful spell causes metal to heat up to searing temperatures, and the reverse, *chill metal*, causes metal to become damagingly cold. The two versions of the spell inflict different damage and potential side effects. The effects of continued exposure to the metal as it changes temperature to a damaging level and then returns to normal are set forth below:
 
@@ -628,13 +628,13 @@ Immersion in water will negate the effects of the heat version of the spell, and
 
 *Druidic Enchantment/ Charm*
 
-**Level:** Druid 3
-**Range:** 80 ft
-**Duration:** 2 rounds/ caster level
-**Area of Effect:** 1d4 animals
-**Components:** V,S,M
-**Casting Time:** 5 segments
-**Saving Throw:** Negates
+- **Level:** Druid 3
+- **Range:** 80 ft
+- **Duration:** 2 rounds/ caster level
+- **Area of Effect:** 1d4 animals
+- **Components:** V,S,M
+- **Casting Time:** 5 segments
+- **Saving Throw:** Negates
 
 A *hold animal* spell completely immobilises up to four animals (i.e. creatures listed under “animal” in Chapter IV) for the length of the spell’s duration. The druid decides how many animals he or she will target with the spell: if there is only one target, the saving throw is made at –4; if two, each makes the saving throw at –2; if three, the saving throw is at –1; and if the druid seeks to hold four animals, each makes its saving throw with no penalty. Animals held by this spell may be killed or bound at a rate of one per round, or, if the attacker chooses, may be attacked at twice the normal rate with an automatic hit, for maximum damage.
 
@@ -642,13 +642,13 @@ A *hold animal* spell completely immobilises up to four animals (i.e. creatures 
 
 *Druidic Enchantment/ Charm*
 
-**Level:** Druid 4
-**Range:** 80 ft
-**Duration:** 1 round/ caster level
-**Area of Effect:** See below
-**Components:** V,S,M
-**Casting Time:** 6 segments
-**Saving Throw:** Negates
+- **Level:** Druid 4
+- **Range:** 80 ft
+- **Duration:** 1 round/ caster level
+- **Area of Effect:** See below
+- **Components:** V,S,M
+- **Casting Time:** 6 segments
+- **Saving Throw:** Negates
 
 This spell affects plants that can move, whether  naturally <!-- printed as-is: see errata E53 --> or as the result of a spell. Plants affected by the spell are frozen in place for the spell’s duration, and if the spell is cast upon normal vegetation (such as dry leaves), these will make no sound other than sounds caused by the wind. In the case of moulds, fungi, and other plants that cannot be considered separately, the spell affects 4-16 square yards of space, as decided by the druid. In the case of plant creatures such as treants, the spell affects between one and four creatures, at the caster’s option.
 
@@ -660,13 +660,13 @@ of –2; three creatures or 12 sq yards suffer a penalty of –1; and four creat
 
 *Druidic Conjuration/ Summoning*
 
-**Level:** Druid 5
-**Range:** 320 ft
-**Duration:** 1 turn/ caster level
-**Area of Effect:** Cloud of 160 ft radius, 40 ft high
-**Components:** V,S,M
-**Casting Time:** 7 segments
-**Saving Throw:** None
+- **Level:** Druid 5
+- **Range:** 320 ft
+- **Duration:** 1 turn/ caster level
+- **Area of Effect:** Cloud of 160 ft radius, 40 ft high
+- **Components:** V,S,M
+- **Casting Time:** 7 segments
+- **Saving Throw:** None
 
 Except as noted above, this spell is identical to the fifth level clerical spell *insect plague*.
 
@@ -674,13 +674,13 @@ Except as noted above, this spell is identical to the fifth level clerical spell
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 1
-**Range:** Touch
-**Duration:** 1 turn + 1 round/ level
-**Area of Effect:** Creature touched
-**Components:** S,M
-**Casting Time:** 4 segments
-**Saving Throw:** None
+- **Level:** Druid 1
+- **Range:** Touch
+- **Duration:** 1 turn + 1 round/ level
+- **Area of Effect:** Creature touched
+- **Components:** S,M
+- **Casting Time:** 4 segments
+- **Saving Throw:** None
 
 With a gesture, the druid or other recipient of the spell fades from the sight, sound, and smell of any animal (i.e. creature listed under “Animal” in Chapter V). Creatures with intelligence of 6+ are not affected by the spell. This powerful form of invisibility is not dispelled if the druid attacks, although a particular creature being attacked with a hand-held weapon will, of course, be aware of the druid’s general location and be entitled to attack with a –4 penalty until the druid moves out of its immediate area. Druids will, by nature of their calling, not use this spell to commit wholesale slaughter upon animals except in extraordinary circumstances.
 
@@ -688,13 +688,13 @@ With a gesture, the druid or other recipient of the spell fades from the sight, 
 
 *Druidic Divination*
 
-**Level:** Druid 1
-**Range:** Caster
-**Duration:** 1 round/ caster level
-**Area of Effect:** Path 20 ft wide, 20 ft/ caster level long
-**Components:** V,S,M
-**Casting Time:** 1 round
-**Saving Throw:** None
+- **Level:** Druid 1
+- **Range:** Caster
+- **Duration:** 1 round/ caster level
+- **Area of Effect:** Path 20 ft wide, 20 ft/ caster level long
+- **Components:** V,S,M
+- **Casting Time:** 1 round
+- **Saving Throw:** None
 
 The caster becomes able to divine the presence of a particular kind of animal in the direction he or she views. The druid must concentrate for a full round in a particular direction in order to gain the insight granted by the spell. The spell’s enchantment affects the caster, so the effects move with him or her. The divination is not blocked by any intervening substance, of any thickness.
 
@@ -702,13 +702,13 @@ The caster becomes able to divine the presence of a particular kind of animal in
 
 *Druidic Divination*
 
-**Level:** Druid 2
-**Range:** Caster
-**Duration:** 1 turn/ caster level
-**Area of Effect:** 5 ft radius/ caster level
-**Components:** V,S,M
-**Casting Time:** 1 round
-**Saving Throw:** None
+- **Level:** Druid 2
+- **Range:** Caster
+- **Duration:** 1 turn/ caster level
+- **Area of Effect:** 5 ft radius/ caster level
+- **Components:** V,S,M
+- **Casting Time:** 1 round
+- **Saving Throw:** None
 
 Upon casting this spell, the druid is imbued with the ability mentally to locate any specific type of plant upon which he or she concentrates, in the area the spell radiates around him or her as he or she moves.
 
@@ -716,13 +716,13 @@ Upon casting this spell, the druid is imbued with the ability mentally to locate
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 3
-**Range:** Touch
-**Duration:** Instantaneous
-**Area of Effect:** Creature touched
-**Components:** V,S
-**Casting Time:** 5 segments
-**Saving Throw:** None (Negates)
+- **Level:** Druid 3
+- **Range:** Touch
+- **Duration:** Instantaneous
+- **Area of Effect:** Creature touched
+- **Components:** V,S
+- **Casting Time:** 5 segments
+- **Saving Throw:** None (Negates)
 
 Other than as may be described above, this spell is identical to the clerical spell of the same name.
 
@@ -730,13 +730,13 @@ Other than as may be described above, this spell is identical to the clerical sp
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 2
-**Range:** 0
-**Duration:** 4 rounds/ caster level
-**Area of Effect:** 10 × 10 ft cube / caster level
-**Components:** V,S
-**Casting Time:** 4 segments
-**Saving Throw:** None
+- **Level:** Druid 2
+- **Range:** 0
+- **Duration:** 4 rounds/ caster level
+- **Area of Effect:** 10 × 10 ft cube / caster level
+- **Components:** V,S
+- **Casting Time:** 4 segments
+- **Saving Throw:** None
 
 As this spell is completed, an enchanted mist billows from the area where the druid stands, rapidly filling the area of effect and reducing visibility therein to 1d4 × 2 ft. The spell is affected by natural conditions such as strong winds, which will reduce the spell’s effective duration.
 
@@ -744,13 +744,13 @@ As this spell is completed, an enchanted mist billows from the area where the dr
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 5
-**Range:** Touch
-**Duration:** See below
-**Area of Effect:** See below
-**Components:** V,S,M
-**Casting Time:** 7 segments
-**Saving Throw:** None
+- **Level:** Druid 5
+- **Range:** Touch
+- **Duration:** See below
+- **Area of Effect:** See below
+- **Components:** V,S,M
+- **Casting Time:** 7 segments
+- **Saving Throw:** None
 
 By means of this spell, the druid steps into one tree and steps out from a distant tree of the same type. The druid determines the direction in which he or she will travel from one tree to another. Most trees permit a maximum distance of travel of
 <!-- p.65 -->
@@ -760,13 +760,13 @@ By means of this spell, the druid steps into one tree and steps out from a dista
 
 *Druidic Enchantment/ Charm*
 
-**Level:** Druid 1
-**Range:** Touch
-**Duration:** 1 turn/ caster level
-**Area of Effect:** Creature touched
-**Components:** V,S,M
-**Casting Time:** 1 round
-**Saving Throw:** None
+- **Level:** Druid 1
+- **Range:** Touch
+- **Duration:** 1 turn/ caster level
+- **Area of Effect:** Creature touched
+- **Components:** V,S,M
+- **Casting Time:** 1 round
+- **Saving Throw:** None
 
 Any creature upon which this spell is cast can move through any sort of terrain without leaving behind the slightest sign of its passage. It leaves no footprints, no scent, and no other telltales of movement. It is impossible to trace its path except, temporarily, by one method—the path will radiate magic for 6d6 turns. Once this time elapses, the magical aura will fade away, leaving the trail undisturbed by any sign that the spell’s recipient was ever there.
 
@@ -774,13 +774,13 @@ Any creature upon which this spell is cast can move through any sort of terrain 
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 4
-**Range:** Touch
-**Duration:** 1 turn/ caster level
-**Area of Effect:** See below
-**Components:** V,S,M
-**Casting Time:** 6 segments
-**Saving Throw:** None
+- **Level:** Druid 4
+- **Range:** Touch
+- **Duration:** 1 turn/ caster level
+- **Area of Effect:** See below
+- **Components:** V,S,M
+- **Casting Time:** 6 segments
+- **Saving Throw:** None
 
 This spell allows the druid to travel effortlessly through vegetation of any kind, stepping through it as if it did not exist. The pathway may also be travelled by a druid of higher level than the caster, but no other creature can take advantage of the spell’s effect. The pathway opened by the spell may be up to 5 ft wide, 10 ft high, and up to 120 ft/ caster level in length. The druid may even use the spell to shift inside a tree or move through an area of plants affected by a spell (such as entangle). If the druid is within a tree that is attacked, he or she must leave the tree before it is killed or die with the tree.
 
@@ -788,13 +788,13 @@ This spell allows the druid to travel effortlessly through vegetation of any kin
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 3
-**Range:** 160 ft
-**Duration:** Permanent
-**Area of Effect:** 20 × 20 ft square/ caster level
-**Components:** V,S,M
-**Casting Time:** 1 round
-**Saving Throw:** None
+- **Level:** Druid 3
+- **Range:** 160 ft
+- **Duration:** Permanent
+- **Area of Effect:** 20 × 20 ft square/ caster level
+- **Components:** V,S,M
+- **Casting Time:** 1 round
+- **Saving Throw:** None
 
 By means of this spell, the druid causes plants and vines to grow with unbelievable speed, forming a tangled barrier of thick vegetation. The enchantment may be dispelled, or the plants cleared by normal means. Chopping a way through the barrier is possible, but movement is restricted to 10 ft/ turn (20 ft for size L creatures).
 
@@ -802,13 +802,13 @@ By means of this spell, the druid causes plants and vines to grow with unbelieva
 
 *Druidic Divination*
 
-**Level:** Druid 1
-**Range:** 0
-**Duration:** Instantaneous
-**Area of Effect:** 9 square miles
-**Components:** V,S,M
-**Casting Time:** 1 round
-**Saving Throw:** None
+- **Level:** Druid 1
+- **Range:** 0
+- **Duration:** Instantaneous
+- **Area of Effect:** 9 square miles
+- **Components:** V,S,M
+- **Casting Time:** 1 round
+- **Saving Throw:** None
 
 The druid casts this spell upon virtually any substance: bones, leaves, powders, etc. He or she can read in the resulting pattern an exact divination of the weather as it will naturally occur within the surrounding nine square miles for the next two hours per caster level. A second level druid, as an example, would be able to predict the weather four hours into the future.
 
@@ -816,13 +816,13 @@ The druid casts this spell upon virtually any substance: bones, leaves, powders,
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 4
-**Range:** 40 ft
-**Duration:** 1 round
-**Area of Effect:** 60 ft radius
-**Components:** V,S,M
-**Casting Time:** 6 segments
-**Saving Throw:** See below
+- **Level:** Druid 4
+- **Range:** 40 ft
+- **Duration:** 1 round
+- **Area of Effect:** 60 ft radius
+- **Components:** V,S,M
+- **Casting Time:** 6 segments
+- **Saving Throw:** See below
 
 This spell instantly creates a normal fire within its area of effect, a blazing conflagration lasting only one minute (1 round) but causing 1d4 hit points of damage to any creature in the area and igniting all combustible material (subject, of course, to an item saving throw against normal fire). The reverse of the spell extinguishes all normal fires within the area of effect.
 
@@ -830,13 +830,13 @@ This spell instantly creates a normal fire within its area of effect, a blazing 
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 2
-**Range:** 0
-**Duration:** 2 rounds/ caster level
-**Area of Effect:** See below
-**Components:** V,S,M
-**Casting Time:** 4 segments
-**Saving Throw:** See below
+- **Level:** Druid 2
+- **Range:** 0
+- **Duration:** 2 rounds/ caster level
+- **Area of Effect:** See below
+- **Components:** V,S,M
+- **Casting Time:** 4 segments
+- **Saving Throw:** See below
 
 <!-- p.66 -->
 
@@ -846,13 +846,13 @@ On casting this spell, the druid’s hand ignites with an eldritch fire that cau
 
 *Druidic Abjuration*
 
-**Level:** Druid 3
-**Range:** Touch
-**Duration:** See below
-**Area of Effect:** One creature
-**Components:** V,S,M
-**Casting Time:** 5 segments
-**Saving Throw:** None
+- **Level:** Druid 3
+- **Range:** Touch
+- **Duration:** See below
+- **Area of Effect:** One creature
+- **Components:** V,S,M
+- **Casting Time:** 5 segments
+- **Saving Throw:** None
 
 The druid may use this spell to confer considerable protection from fire upon another creature, but if he or she casts it upon him-  or herself <!-- printed as-is: see errata E54 --> the effects are far greater, conferring temporary invulnerability even to fires of magical nature, such as dragon’s breath. If the spell is cast upon another creature, the recipient gains immunity to normal fire and a saving throw bonus of +4 against fire based attacks. Any damage incurred by fire attacks will also reduced by half. <!-- printed as-is: see errata E55 --> If the spell is cast upon the druid, he or she becomes completely invulnerable to normal fire and also ignores all damage from magical fire (dragon breath, *fireball*, etc.) until a total of 12 hp/caster level has been absorbed by the spell, at which time the spell will be dissipated.
 
@@ -860,13 +860,13 @@ The druid may use this spell to confer considerable protection from fire upon an
 
 *Druidic Abjuration*
 
-**Level:** Druid 4
-**Range:** Touch
-**Duration:** See below
-**Area of Effect:** One creature
-**Components:** V,S,M
-**Casting Time:** 6 segments
-**Saving Throw:** None
+- **Level:** Druid 4
+- **Range:** Touch
+- **Duration:** See below
+- **Area of Effect:** One creature
+- **Components:** V,S,M
+- **Casting Time:** 6 segments
+- **Saving Throw:** None
 
 This spell lends the recipient the same protection against lightning and electricity as the third level spell *protection from fire* affords against fire.
 
@@ -874,13 +874,13 @@ This spell lends the recipient the same protection against lightning and electri
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 1
-**Range:** 40 ft
-**Duration:** Instantaneous
-**Area of Effect:** 1 cubic ft/ caster level
-**Components:** V,S
-**Casting Time:** 1 round
-**Saving Throw:** None
+- **Level:** Druid 1
+- **Range:** 40 ft
+- **Duration:** Instantaneous
+- **Area of Effect:** 1 cubic ft/ caster level
+- **Components:** V,S
+- **Casting Time:** 1 round
+- **Saving Throw:** None
 
 This spell removes all impurities from water, making it clear and drinkable. The reverse of the spell contaminates water, making it impossible to drink, and will negate the properties of holy and unholy water.
 
@@ -888,13 +888,13 @@ This spell removes all impurities from water, making it clear and drinkable. The
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 3
-**Range:** 160 ft
-**Duration:** See below
-**Area of Effect:** See below
-**Components:** V,S,M
-**Casting Time:** 5 segments
-**Saving Throw:** None
+- **Level:** Druid 3
+- **Range:** 160 ft
+- **Duration:** See below
+- **Area of Effect:** See below
+- **Components:** V,S,M
+- **Casting Time:** 5 segments
+- **Saving Throw:** None
 
 The *pyrotechnics* spell may be used to produce two entirely different effects: a bright display of fiery light or a massive pall of smoke. Both possible uses of the spell require an existing fire source (which may be anywhere in the spell’s range), and the spell’s area of effect depends on the size of the originating fire.
 
@@ -906,13 +906,13 @@ If the spell is used to produce smoke, a billowing cloud will emanate from the f
 
 *Druidic Necromancy*
 
-**Level:** Druid 7
-**Range:** Touch
-**Duration:** Instantaneous
-**Area of Effect:** Creature touched
-**Components:** V,S,M
-**Casting Time:** 1 turn
-**Saving Throw:** None
+- **Level:** Druid 7
+- **Range:** Touch
+- **Duration:** Instantaneous
+- **Area of Effect:** Creature touched
+- **Components:** V,S,M
+- **Casting Time:** 1 turn
+- **Saving Throw:** None
 
 Provided that a body has been dead for no more than a week, a powerful druid can recall its spirit from the dead—but into another body. The form of the new body is not subject to the druid’s control, and is determined by means of the tables below. The new body will appear within 1d6 turns near the soul’s former body. Elves may be brought back to life by reincarnation. There is a 35% chance that the new incarnation will be from the “humanoid” table and a 65% chance that the new incarnation will be from the animal table. The new incarnation (if sapient) will retain the original character’s experience points, but will have new physical (Str, Dex, Con) ability scores randomly rolled and adjusted for the new race. The  character <!-- printed as-is: see errata E56 --> will retain his or her original mental ability scores (Int, Wis, Cha).
 
@@ -964,13 +964,13 @@ Provided that a body has been dead for no more than a week, a powerful druid can
 
 *Druidic Abjuration*
 
-**Level:** Druid 4
-**Range:** Caster
-**Duration:** 1 turn/ caster level
-**Area of Effect:** One creature
-**Components:** V,S,M
-**Casting Time:** 1 round
-**Saving Throw:** See below
+- **Level:** Druid 4
+- **Range:** Caster
+- **Duration:** 1 turn/ caster level
+- **Area of Effect:** One creature
+- **Components:** V,S,M
+- **Casting Time:** 1 round
+- **Saving Throw:** See below
 
 An invisible barrier forms around the spell’s recipient as the caster completes the invocation, warding him or her from insects. Only true insects are affected by the spell, which does not repel spiders, scorpions, beetles or centipedes. Normal insects are completely hedged out by the spell, and giant varieties (2+ HD) must succeed in a saving throw against spells to pass the barrier. Even if a giant insect should manage to penetrate the barrier, it will sustain 1d6 hit points of damage from doing so.
 
@@ -978,13 +978,13 @@ An invisible barrier forms around the spell’s recipient as the caster complete
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 1
-**Range:** Touch
-**Duration:** 1 round/ caster level
-**Area of Effect:** 1 oak club
-**Components:** V,S,M
-**Casting Time:** 1 segment
-**Saving Throw:** None
+- **Level:** Druid 1
+- **Range:** Touch
+- **Duration:** 1 round/ caster level
+- **Area of Effect:** 1 oak club
+- **Components:** V,S,M
+- **Casting Time:** 1 segment
+- **Saving Throw:** None
 
 The druid imbues a club or billet of oak-wood with enchanted power, making it +1 to hit and capable of inflicting 2d4 points of damage against small and medium-sized opponents, 1d4+1 against large opponents. The shillelagh must be wielded by the druid in order for it to possess these magical properties; in the hands of any other person it will be no more than an ordinary wooden club.
 
@@ -992,13 +992,13 @@ The druid imbues a club or billet of oak-wood with enchanted power, making it +1
 
 *Druidic Enchantment/ Charm*
 
-**Level:** Druid 3
-**Range:** Touch
-**Duration:** Permanent (until triggered)
-**Area of Effect:** 10 ft radius + 6 ft/ caster level
-**Components:** V,S,M
-**Casting Time:** 3 rounds
-**Saving Throw:** None
+- **Level:** Druid 3
+- **Range:** Touch
+- **Duration:** Permanent (until triggered)
+- **Area of Effect:** 10 ft radius + 6 ft/ caster level
+- **Components:** V,S,M
+- **Casting Time:** 3 rounds
+- **Saving Throw:** None
 
 This spell is used to enchant a normal snare, making it hard to detect and supernaturally effective. The spell is cast upon a rope, vine, or cord, which then blends perfectly with the surroundings, becoming 90% undetectable to normal (unenchanted) vision. When any creature steps into the area bounded by the snare, the snare will whip closed and bind the victim tightly. Strength of 23 is required to break the snare for one hour after the spell is triggered, and the strength required falls by one point per hour until 12 hours have elapsed, at which time the spell ceases to have any effect. If the snare is attached to a suitably flexible tree, the spell will magically bend the tree so that when the trap is triggered it will snap the victim into the air for 1d6 points of damage and hold it suspended from the branches.
 
@@ -1006,13 +1006,13 @@ This spell is used to enchant a normal snare, making it hard to detect and super
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 1
-**Range:** 0
-**Duration:** 2 rounds/ caster level
-**Area of Effect:** One animal type within 40 ft of the caster
-**Components:** V,S
-**Casting Time:** 3 segments
-**Saving Throw:** None
+- **Level:** Druid 1
+- **Range:** 0
+- **Duration:** 2 rounds/ caster level
+- **Area of Effect:** One animal type within 40 ft of the caster
+- **Components:** V,S
+- **Casting Time:** 3 segments
+- **Saving Throw:** None
 
 <!-- p.68 -->
 
@@ -1022,13 +1022,13 @@ This spell allows the druid to speak with all animals of a particular type or sp
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 4
-**Range:** Caster
-**Duration:** 2 rounds/ caster level
-**Area of Effect:** 40 ft radius around caster
-**Components:** V,S,M
-**Casting Time:** 1 turn
-**Saving Throw:** None
+- **Level:** Druid 4
+- **Range:** Caster
+- **Duration:** 2 rounds/ caster level
+- **Area of Effect:** 40 ft radius around caster
+- **Components:** V,S,M
+- **Casting Time:** 1 turn
+- **Saving Throw:** None
 
 Other than as noted above, this spell is identical to the clerical spell *speak with plants*.
 
@@ -1036,13 +1036,13 @@ Other than as noted above, this spell is identical to the clerical spell *speak 
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 5
-**Range:** 40 ft
-**Duration:** 2 rounds/ caster level
-**Area of Effect:** 5 ft radius
-**Components:** V,S,M
-**Casting Time:** 7 segments
-**Saving Throw:** None
+- **Level:** Druid 5
+- **Range:** 40 ft
+- **Duration:** 2 rounds/ caster level
+- **Area of Effect:** 5 ft radius
+- **Components:** V,S,M
+- **Casting Time:** 7 segments
+- **Saving Throw:** None
 
 Except as may be noted above, this spell is identical to the clerical spell of the same name.
 
@@ -1050,13 +1050,13 @@ Except as may be noted above, this spell is identical to the clerical spell of t
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 3
-**Range:** Touch
-**Duration:** Instantaneous
-**Area of Effect:** 3 cubic ft + 1/ caster level
-**Components:** V,S,M
-**Casting Time:** 1 round
-**Saving Throw:** None
+- **Level:** Druid 3
+- **Range:** Touch
+- **Duration:** Instantaneous
+- **Area of Effect:** 3 cubic ft + 1/ caster level
+- **Components:** V,S,M
+- **Casting Time:** 1 round
+- **Saving Throw:** None
 
 This spell is identical to the magic user spell of the same name, except as noted above.
 
@@ -1064,13 +1064,13 @@ This spell is identical to the magic user spell of the same name, except as note
 
 *Druidic Conjuration/ Summoning*
 
-**Level:** Druid 3
-**Range:** 30 ft
-**Duration:** 1 round/ caster level
-**Area of Effect:** See below
-**Components:** V,S,M
-**Casting Time:** 1 round
-**Saving Throw:** None
+- **Level:** Druid 3
+- **Range:** 30 ft
+- **Duration:** 1 round/ caster level
+- **Area of Effect:** See below
+- **Components:** V,S,M
+- **Casting Time:** 1 round
+- **Saving Throw:** None
 
 When the druid completes the intonations and gestures of this spell, a swarm of insects appears from nearby or from the thin air to attack the druid’s enemies. There is a 70% chance that the swarm will be composed of flying insects, 30% chance that the insects will be ants or other non-airborne biting vermin. A flying swarm can move tremendously fast, but a crawling swarm is limited to movement of 12 ft/ round. In either case, the insects automatically inflict 2 hp damage per round against their target, and the unfortunate victim will be so thickly covered as to be incapable of any action, including movement. The druid may redirect the swarm to attack another opponent, but the command will cause 1 round of confusion within the swarm as it reorients itself toward the new target.
 
@@ -1078,13 +1078,13 @@ When the druid completes the intonations and gestures of this spell, a swarm of 
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 7
-**Range:** 80 ft
-**Duration:** Instantaneous (permanent)
-**Area of Effect:** One metal object
-**Components:** V,S,M
-**Casting Time:** 9 segments
-**Saving Throw:** See below
+- **Level:** Druid 7
+- **Range:** 80 ft
+- **Duration:** Instantaneous (permanent)
+- **Area of Effect:** One metal object
+- **Components:** V,S,M
+- **Casting Time:** 9 segments
+- **Saving Throw:** See below
 
 Using this spell, the druid may select a single object of metal and change its substance to wood. The spell affects up to 8 lbs of metal per caster level. The item is not entitled to a saving throw, but magic items have a flat 90% chance of being unaffected by the spell.
 
@@ -1092,13 +1092,13 @@ Using this spell, the druid may select a single object of metal and change its s
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 5
-**Range:** 160 ft
-**Duration:** See below
-**Area of Effect:** 20 ft cube/ caster level
-**Components:** V,S,M
-**Casting Time:** 7 segments
-**Saving Throw:** None
+- **Level:** Druid 5
+- **Range:** 160 ft
+- **Duration:** See below
+- **Area of Effect:** 20 ft cube/ caster level
+- **Components:** V,S,M
+- **Casting Time:** 7 segments
+- **Saving Throw:** None
 
 This spell transforms solid rock into mud, the volume transformed being proportionate to the caster’s level. Any volume of mud will sink until its depth is equal to about one half the pool’s diameter. If this spell is cast upon a ceiling, the resulting volume of mud will immediately collapse, possibly trapping or suffocating those caught beneath. Similarly, if a floor is turned to mud, creatures standing in the area will sink and may be trapped. If *dispel magic* is cast upon the mud before it eventually dries into dirt, the mud will return to stone, but in the shape and location of the mud (i.e., a collapsed ceiling will not return to its original place; it will be frozen back into stone where it collapsed). The spell’s reverse transforms mud into sandstone or a similar sedimentary rock.
 
@@ -1106,14 +1106,14 @@ This spell transforms solid rock into mud, the volume transformed being proporti
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 6
-**Range:** Touch
-**Duration:** See below
+- **Level:** Druid 6
+- **Range:** Touch
+- **Duration:** See below
 <!-- p.69 -->
-**Area of Effect:** See below
-**Components:** V,S
-**Casting Time:** 3 segments
-**Saving Throw:** None
+- **Area of Effect:** See below
+- **Components:** V,S
+- **Casting Time:** 3 segments
+- **Saving Throw:** None
 
 The mystic oneness of all nature is a principal tenet of many druidic sects, and it sees practical use in the *transport via plants* spell. Upon casting this spell, the druid may travel almost instantly from one plant to another through the mystic oneness that joins all life forms. The spell operates in much the same fashion as *pass plant*, but with an unlimited range.
 
@@ -1123,13 +1123,13 @@ When the spell is cast, the druid simply steps into a large plant of any kind an
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 3
-**Range:** Caster
-**Duration:** 6 turns + 1 turn/ caster level
-**Area of Effect:** Caster
-**Components:** V,S,M
-**Casting Time:** 5 segments
-**Saving Throw:** None
+- **Level:** Druid 3
+- **Range:** Caster
+- **Duration:** 6 turns + 1 turn/ caster level
+- **Area of Effect:** Caster
+- **Components:** V,S,M
+- **Casting Time:** 5 segments
+- **Saving Throw:** None
 
 Casting this spell causes the druid’s shape to melt and twist into that of a tree, its general appearance determined by the caster. The spell is neither an illusion nor a charm: the druid is, for all intents and purposes, a tree. However, in tree shape the druid retains human senses and will be fully aware of his or her surroundings. The druid may shift back into human shape at will, thereby ending the spell. Magical detections will reveal the druid’s true form, but ordinary inspections, no matter how minute, will not.
 
@@ -1137,13 +1137,13 @@ Casting this spell causes the druid’s shape to melt and twist into that of a t
 
 *Druidic Enchantment/ Charm*
 
-**Level:** Druid 2
-**Range:** Touch
-**Duration:** 1 turn/ caster level
-**Area of Effect:** One object, up to 10 ft length
-**Components:** V,S,M
-**Casting Time:** 4 segments
-**Saving Throw:** Negates
+- **Level:** Druid 2
+- **Range:** Touch
+- **Duration:** 1 turn/ caster level
+- **Area of Effect:** One object, up to 10 ft length
+- **Components:** V,S,M
+- **Casting Time:** 4 segments
+- **Saving Throw:** Negates
 
 This spell turns an appropriate object into a magical trap of sorts. The object rises from the ground and trips any creature crossing over it, even if they are aware of it (saving throw vs spells—unlisted category, +4 if aware of the object). The object is 80% undetectable and will affect even the caster. The trap causes falls to be much worse than normal: a running creature will suffer 1d6 points of damage and be stunned for 1d4+1 rounds, or will merely be stunned if they fall onto a soft surface such as grass. Creatures larger than size M are not affected by the spell.
 
@@ -1151,13 +1151,13 @@ This spell turns an appropriate object into a magical trap of sorts. The object 
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 6
-**Range:** 0
-**Duration:** 4 rounds/ caster level
-**Area of Effect:** 120 ft wide path, 20 ft long/ caster level
-**Components:** V,S,M
-**Casting Time:** 8 segments
-**Saving Throw:** None
+- **Level:** Druid 6
+- **Range:** 0
+- **Duration:** 4 rounds/ caster level
+- **Area of Effect:** 120 ft wide path, 20 ft long/ caster level
+- **Components:** V,S,M
+- **Casting Time:** 8 segments
+- **Saving Throw:** None
 
 At the completion of this spell, the druid holds his or her palm outstretched, and with the final word of the spell a tremendous burst of power rolls forth, forcing back all wooden objects. Even very large wooden structures that are not affixed to the ground will be affected, although objects fixed to the ground will manage to withstand the spell’s awesome power. A sapling-sized or smaller piece of wood will splinter and break even if it is firmly affixed. The druid need not concentrate on maintaining the waves of force and cannot change the direction of the flow of eldritch power once it is set.
 
@@ -1165,13 +1165,13 @@ At the completion of this spell, the druid holds his or her palm outstretched, a
 
 *Druidic Evocation*
 
-**Level:** Druid 5
-**Range:** 80 ft (wall) or caster (ring)
-**Duration:** See below
-**Area of Effect:** See below
-**Components:** V,S,M
-**Casting Time:** 7 segments
-**Saving Throw:** None
+- **Level:** Druid 5
+- **Range:** 80 ft (wall) or caster (ring)
+- **Duration:** See below
+- **Area of Effect:** See below
+- **Components:** V,S,M
+- **Casting Time:** 7 segments
+- **Saving Throw:** None
 
 One of the more dramatic examples of druidic magic is the *wall of fire* spell, by which the druid calls up a blazing inferno of flame in the shape of a wall. One side of the conflagration emits the searing heat one would expect, but the other side emits merely a gentle warmth. Passing through the flames inflicts 4d4 damage plus 1/ caster level. Creatures as far as ten ft from the hot side of the wall incur 2d4 hit points of damage, and even creatures as far as 20 ft from the fire are burned for 1d4 points of damage. Undead creatures suffer worse from the power of this druidic magic, taking twice the ordinary  damage <!-- printed as-is: see errata E57 --> the wall would inflict.
 
@@ -1183,13 +1183,13 @@ druid manifests the spell as a wall, the effect is stationary. The ring-shaped w
 
 *Druidic Conjuration/ Summoning*
 
-**Level:** Druid 6
-**Range:** 80 ft
-**Duration:** 1 turn/ level
-**Area of Effect:** 100 ft cube/ caster level
-**Components:** V,S
-**Casting Time:** 8 segments
-**Saving Throw:** None
+- **Level:** Druid 6
+- **Range:** 80 ft
+- **Duration:** 1 turn/ level
+- **Area of Effect:** 100 ft cube/ caster level
+- **Components:** V,S
+- **Casting Time:** 8 segments
+- **Saving Throw:** None
 
 When the druid casts this spell, a tangled wall of briar vines erupts from the ground, bristling with sharp, deadly thorns. Running into or attempting to force a way through the thorns will cause 8 hp damage, plus 1 hp for every point of armour class. A creature may be caught within the *wall of thorns* when the spell is cast, and if this is the case it will take damage immediately and must fight through (taking damage a second time) to gain enough freedom of motion to chop at the thorns. It takes four turns to cut through a 40 ft thickness of a wall of thorns.
 
@@ -1199,13 +1199,13 @@ Normal fire has no effect upon a wall of thorns, but magical fire can ignite the
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 2
-**Range:** 10 ft/ caster level
-**Duration:** Instantaneous (permanent)
-**Area of Effect:** See below
-**Components:** V,S,M
-**Casting Time:** 4 segments
-**Saving Throw:** None
+- **Level:** Druid 2
+- **Range:** 10 ft/ caster level
+- **Duration:** Instantaneous (permanent)
+- **Area of Effect:** See below
+- **Components:** V,S,M
+- **Casting Time:** 4 segments
+- **Saving Throw:** None
 
 This spell permanently warps wood and may be used to destroy arrows, spears, doors, etc. The druid may affect a volume of wood roughly fifteen inches long by one inch thick per caster level, about the volume of an axe handle. Multiple items may be affected; four arrows have about the same volume as an axe handle. A fifth-level druid could effectively destroy a normal door with this spell.
 
@@ -1213,13 +1213,13 @@ This spell permanently warps wood and may be used to destroy arrows, spears, doo
 
 *Druidic Transmutation/ Alteration*
 
-**Level:** Druid 3
-**Range:** Touch
-**Duration:** 6 turns/ level
-**Area of Effect:** One creature
-**Components:** V,S,M
-**Casting Time:** 5 segments
-**Saving Throw:** None
+- **Level:** Druid 3
+- **Range:** Touch
+- **Duration:** 6 turns/ level
+- **Area of Effect:** One creature
+- **Components:** V,S,M
+- **Casting Time:** 5 segments
+- **Saving Throw:** None
 
 This spell grants the ability to breathe underwater while the spell lasts. The reverse of the spell allows a water-breathing creature to breathe in the air.
 
@@ -1227,12 +1227,12 @@ This spell grants the ability to breathe underwater while the spell lasts. The r
 
 *Druidic Conjuration/ Summoning*
 
-**Level:** Druid 6
-**Range:** 0
-**Duration:** See below
-**Area of Effect:** See below
-**Components:** V,S,M
-**Casting Time:** 1 turn
-**Saving Throw:** None
+- **Level:** Druid 6
+- **Range:** 0
+- **Duration:** See below
+- **Area of Effect:** See below
+- **Components:** V,S,M
+- **Casting Time:** 1 turn
+- **Saving Throw:** None
 
 The area of effect of this spell is d% square miles, but except as noted above, the spell is similar to the clerical spell *control weather*, allowing the druid to affect, but not direct, existing weather conditions.
