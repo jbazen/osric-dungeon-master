@@ -6,13 +6,20 @@ gets its own directory:
 ```
 modules/
   [module-code]-[module-name]/
-    module.md          # Converted module text: background, keyed encounters, read-aloud text
-    maps/               # Map images/descriptions, if available
-    handouts/           # Player handouts, if available
-    README.md           # Module credits, original publisher, edition/printing notes
+    markdown/            # Converted module text, one file per section/keyed area — mirrors the
+                          # osric-srd/markdown/ convention rather than one flat file, since a full
+                          # module can run just as long as a rulebook section set
+    maps/                 # Map images/descriptions, if available
+    handouts/             # Player handouts, if available
+    README.md             # Module credits, original publisher, edition/printing notes
 ```
 
-Example: `modules/b2-keep-on-the-borderlands/module.md`
+Example: `modules/b2-keep-on-the-borderlands/markdown/`
+
+Some modules are large enough to warrant their own standalone repo instead of living here (e.g. when
+the module is being transcribed independently, or kept in a separate private repo for licensing
+reasons) — in that case this folder can hold just a pointer `README.md` noting where the real content
+lives.
 
 ## Status
 
